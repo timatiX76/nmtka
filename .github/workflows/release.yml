@@ -1,0 +1,33 @@
+name: Build release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Build
+        run: cargo build --release --manifest-path app/Cargo.toml
+
+      - name: Package
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Path pkg | Out-Null
+          Copy-Item app/target/release/zno-gui.exe pkg/nmtka.exe
+          Copy-Item docs/START-HERE.txt pkg/START-HERE.txt
+          Compress-Archive -Path pkg/* -DestinationPath nmtka-windows-x64.zip
+
+      - name: Upload to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: nmtka-windows-x64.zip
