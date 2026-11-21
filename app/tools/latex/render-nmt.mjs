@@ -43,9 +43,22 @@ function collect() {
         continue;
       }
       for (const q of doc1.questions ?? []) {
-        for (const fx of q.latex ?? []) {
-          const t = String(fx).trim();
-          if (t) uniq.set(t, (uniq.get(t) ?? 0) + 1);
+        const sources = [
+          q.question_html ?? '',
+          q.explanation_html ?? '',
+          q.answer_table_html ?? '',
+          ...((q.answers ?? []).map((a) => a.html ?? '')),
+          ...((q.groups ?? []).flatMap((g) => (g.answers ?? []).map((a) => a.html ?? ''))),
+        ];
+        for (const t of q.latex ?? []) {
+          const v = String(t).trim();
+          if (v) uniq.set(v, (uniq.get(v) ?? 0) + 1);
+        }
+        for (const src of sources) {
+          for (const m of String(src).matchAll(/<latex>([\s\S]*?)<\/latex>/g)) {
+            const v = m[1].trim();
+            if (v) uniq.set(v, (uniq.get(v) ?? 0) + 1);
+          }
         }
       }
     }

@@ -121,7 +121,7 @@
    "out_order": 3,
    "test_id": "mathematics_nmt_tr_v23",
    "type": "single_choice",
-   "question_html": "<p>На діаграмі відображено інформацію про кількість глядачів, які протягом доби відвідали <span style=\"white-space:nowrap\"><latex>5</latex> зал</span> кінотеатру: білу, блакитну, жовту, зелену та фіолетову. За діаграмою визначте залу кінотеатру, яку відвідало найбільше глядачів.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/374/37457/10-var-03.png\" style=\"height: auto;\" width=\"650\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>На діаграмі відображено інформацію про кількість глядачів, які протягом доби відвідали <span style=\"white-space:nowrap\"><latex>5</latex> зал</span> кінотеатру: білу, блакитну, жовту, зелену та фіолетову. За діаграмою визначте залу кінотеатру, яку відвідало найбільше глядачів.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/374/37457/10-var-03.png\" style=\"height: auto;\" width=\"650\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -203,7 +203,7 @@
    ],
    "input": false,
    "input_maxlength": null,
-   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники. </strong></p>\n<p>Завдання перевіряє знання формули середньої лінії трапеції.</p>\n<p><b>Середня лінія трапеції</b> – це відрізок, який сполучає середини її бічних сторін.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/374/37459/dc-10-var-04.png\" style=\"height: auto;\" width=\"294\"/></div>\n<br/>\n<p>За властивістю середньої лінії трапеції:</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} KM\\ ||\\ BC\\ ||\\ AD;\\\\[6pt] KM=\\frac 12(BC+AD);\\\\[6pt] KM=\\frac 12(7+12)=\\frac 12\\cdot 19=\\frac{19}{2}=9{,}5\\ \\text{м}. \\end{gather*}</latex></div>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники. </strong></p>\n<p>Завдання перевіряє знання формули середньої лінії трапеції.</p>\n<p><b>Середня лінія трапеції</b> – це відрізок, який сполучає середини її бічних сторін.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"images/doc/images/znotest/374/37459/dc-10-var-04.png\" style=\"height: auto;\" width=\"294\"/></div>\n<br/>\n<p>За властивістю середньої лінії трапеції:</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} KM\\ ||\\ BC\\ ||\\ AD;\\\\[6pt] KM=\\frac 12(BC+AD);\\\\[6pt] KM=\\frac 12(7+12)=\\frac 12\\cdot 19=\\frac{19}{2}=9{,}5\\ \\text{м}. \\end{gather*}</latex></div>\n<p><strong>Відповідь: A.</strong></p>",
    "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники. \n Завдання перевіряє знання формули середньої лінії трапеції.\n Середня лінія трапеції – це відрізок, який сполучає середини її бічних сторін.\n За властивістю середньої лінії трапеції:\n \\begin{gather*} KM\\ ||\\ BC\\ ||\\ AD;\\\\[6pt] KM=\\frac 12(BC+AD);\\\\[6pt] KM=\\frac 12(7+12)=\\frac 12\\cdot 19=\\frac{19}{2}=9{,}5\\ \\text{м}. \\end{gather*} \n Відповідь: A.",
    "topic": "Геометрія. Планіметрія. Трикутники. Чотирикутники.",
    "images": [
@@ -261,7 +261,7 @@
    ],
    "input": false,
    "input_maxlength": null,
-   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та системи. Квадратні нерівності та їх системи. </strong></p>\n<p>Це завдання перевіряє вміння розв'язувати квадратні нерівності.</p>\n<p>Для розв’язання квадратної нерівності використаймо ескіз графіка квадратичної функції <latex>y=ax^2+bx+c.</latex> Для побудови ескізу достатньо знати, куди напрямлені вітки параболи – вгору <latex>(a\\gt 0)</latex> чи вниз <latex>(a\\lt 0)</latex>, та абсциси точок перетину з віссю <latex>Ox:</latex></p>\n<latex>\\begin{gather*} x^2-9\\lt 0;\\\\[7pt] y=x^2-9;\\\\[7pt] a=1\\gt 0.\\end{gather*}</latex>\n<p>Отже, вітки параболи напрямлені вгору.</p>\n<p>Розв’яжімо рівняння <latex>x^2-9=0.</latex></p>\n<p>Розкладімо на множники за формулою різниці квадратів:</p>\n<p><latex>\\begin{gather*} a^2-b^2=(a-b)(a+b);\\\\[7pt] (x-3)(x+3)=0;\\\\[7pt] x_1=3\\ \\text{та}\\ x_2=-3.\\end{gather*}</latex></p>\n<p>Це – нулі функції <latex>y=x^2-9.</latex></p>\n<p>Побудуймо ескіз графіка функції.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/374/37458/dc-10-var-05-new.png\" style=\"height: auto;\" width=\"350\"/><br/>\n<latex>\\begin{gather*} x\\in\\ (-3; 3). \\end{gather*}</latex></div>\n<p>З наведених чисел лише число <latex>2\\in (-3; 3).</latex></p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та системи. Квадратні нерівності та їх системи. </strong></p>\n<p>Це завдання перевіряє вміння розв'язувати квадратні нерівності.</p>\n<p>Для розв’язання квадратної нерівності використаймо ескіз графіка квадратичної функції <latex>y=ax^2+bx+c.</latex> Для побудови ескізу достатньо знати, куди напрямлені вітки параболи – вгору <latex>(a\\gt 0)</latex> чи вниз <latex>(a\\lt 0)</latex>, та абсциси точок перетину з віссю <latex>Ox:</latex></p>\n<latex>\\begin{gather*} x^2-9\\lt 0;\\\\[7pt] y=x^2-9;\\\\[7pt] a=1\\gt 0.\\end{gather*}</latex>\n<p>Отже, вітки параболи напрямлені вгору.</p>\n<p>Розв’яжімо рівняння <latex>x^2-9=0.</latex></p>\n<p>Розкладімо на множники за формулою різниці квадратів:</p>\n<p><latex>\\begin{gather*} a^2-b^2=(a-b)(a+b);\\\\[7pt] (x-3)(x+3)=0;\\\\[7pt] x_1=3\\ \\text{та}\\ x_2=-3.\\end{gather*}</latex></p>\n<p>Це – нулі функції <latex>y=x^2-9.</latex></p>\n<p>Побудуймо ескіз графіка функції.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"images/doc/images/znotest/374/37458/dc-10-var-05-new.png\" style=\"height: auto;\" width=\"350\"/><br/>\n<latex>\\begin{gather*} x\\in\\ (-3; 3). \\end{gather*}</latex></div>\n<p>З наведених чисел лише число <latex>2\\in (-3; 3).</latex></p>\n<p><strong>Відповідь: Г.</strong></p>",
    "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та системи. Квадратні нерівності та їх системи. \n Це завдання перевіряє вміння розв'язувати квадратні нерівності.\n Для розв’язання квадратної нерівності використаймо ескіз графіка квадратичної функції y=ax^2+bx+c. Для побудови ескізу достатньо знати, куди напрямлені вітки параболи – вгору (a\\gt 0) чи вниз (a\\lt 0) , та абсциси точок перетину з віссю Ox: \n \\begin{gather*} x^2-9\\lt 0;\\\\[7pt] y=x^2-9;\\\\[7pt] a=1\\gt 0.\\end{gather*} \n Отже, вітки параболи напрямлені вгору.\n Розв’яжімо рівняння x^2-9=0. \n Розкладімо на множники за формулою різниці квадратів:\n \\begin{gather*} a^2-b^2=(a-b)(a+b);\\\\[7pt] (x-3)(x+3)=0;\\\\[7pt] x_1=3\\ \\text{та}\\ x_2=-3.\\end{gather*} \n Це – нулі функції y=x^2-9. \n Побудуймо ескіз графіка функції.\n \\begin{gather*} x\\in\\ (-3; 3). \\end{gather*} \n З наведених чисел лише число 2\\in (-3; 3). \n Відповідь: Г.",
    "topic": "Алгебра і початки аналізу. Рівняння, нерівності та системи. Квадратні нерівності та їх системи.",
    "images": [
@@ -393,7 +393,7 @@
    "out_order": 8,
    "test_id": "mathematics_nmt_tr_v23",
    "type": "single_choice",
-   "question_html": "<p>Функція <latex>y=f(x)</latex> визначена на проміжку <latex>(-\\infty; +\\infty)</latex> і набуває лише додатних значень. Визначте <b>всі</b> координатні чверті (див. рисунок), у яких розташований графік цієї функції.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/374/37462/10-var-08.png\" style=\"height: auto;\" width=\"186\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Функція <latex>y=f(x)</latex> визначена на проміжку <latex>(-\\infty; +\\infty)</latex> і набуває лише додатних значень. Визначте <b>всі</b> координатні чверті (див. рисунок), у яких розташований графік цієї функції.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/374/37462/10-var-08.png\" style=\"height: auto;\" width=\"186\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -446,7 +446,7 @@
    "out_order": 9,
    "test_id": "mathematics_nmt_tr_v23",
    "type": "single_choice",
-   "question_html": "<p>У довільний трикутник <latex>ABC</latex> вписано коло із центром у точці <latex>O</latex>; точки <latex>K</latex>, <latex>L</latex>, <latex>M</latex> – точки дотику (див. рисунок). Які з наведених тверджень правильні?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/374/37463/10-var-09.png\" style=\"height: auto;\" width=\"324\"/></p>\n<p>I.   Трикутник <latex>AOK</latex> прямокутний.</p>\n<p>II.  Трикутник <latex>BKL</latex> рівнобедрений.</p>\n<p>III. Трикутники <latex>MOK</latex> і \\(LOC\\) рівні.</p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>У довільний трикутник <latex>ABC</latex> вписано коло із центром у точці <latex>O</latex>; точки <latex>K</latex>, <latex>L</latex>, <latex>M</latex> – точки дотику (див. рисунок). Які з наведених тверджень правильні?</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/374/37463/10-var-09.png\" style=\"height: auto;\" width=\"324\"/></p>\n<p>I.   Трикутник <latex>AOK</latex> прямокутний.</p>\n<p>II.  Трикутник <latex>BKL</latex> рівнобедрений.</p>\n<p>III. Трикутники <latex>MOK</latex> і \\(LOC\\) рівні.</p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -664,7 +664,7 @@
    "out_order": 13,
    "test_id": "mathematics_nmt_tr_v23",
    "type": "single_choice",
-   "question_html": "<p>Рівнобедрений трикутник <latex>ABC\\ (AB=BC)</latex> вписано в коло (див. рисунок). Визначте градусну міру меншої дуги <latex>AB</latex>, якщо <latex>\\angle ABC=20^\\circ.</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/374/37467/10-var-13.png\" style=\"height: auto;\" width=\"240\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Рівнобедрений трикутник <latex>ABC\\ (AB=BC)</latex> вписано в коло (див. рисунок). Визначте градусну міру меншої дуги <latex>AB</latex>, якщо <latex>\\angle ABC=20^\\circ.</latex></p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/374/37467/10-var-13.png\" style=\"height: auto;\" width=\"240\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -1053,7 +1053,7 @@
    "out_order": 18,
    "test_id": "mathematics_nmt_tr_v23",
    "type": "matching",
-   "question_html": "<p>У паралелограмі <latex>ABCD</latex> на середині сторони <latex>BC</latex> вибрано точку <latex>K</latex> так, що <latex>AK\\!\\perp\\!KD</latex>, <latex>KP</latex> – висота паралелограма (див. рисунок). До кожного відрізка (1–3) доберіть його довжину <span style=\"white-space:nowrap\">(А – Д),</span> якщо <latex>AP=18</latex> см, <latex>PD=8</latex> см.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/374/37472/10-var-18.png\" style=\"height: auto;\" width=\"347\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>У паралелограмі <latex>ABCD</latex> на середині сторони <latex>BC</latex> вибрано точку <latex>K</latex> так, що <latex>AK\\!\\perp\\!KD</latex>, <latex>KP</latex> – висота паралелограма (див. рисунок). До кожного відрізка (1–3) доберіть його довжину <span style=\"white-space:nowrap\">(А – Д),</span> якщо <latex>AP=18</latex> см, <latex>PD=8</latex> см.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/374/37472/10-var-18.png\" style=\"height: auto;\" width=\"347\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "1",
@@ -1177,7 +1177,7 @@
    "out_order": 19,
    "test_id": "mathematics_nmt_tr_v23",
    "type": "short_answer",
-   "question_html": "<p>На рисунку зображено графік неперервної на відрізку <latex>[0; 5]</latex> функції <latex>y=f(x).</latex> Площа геометричних фігур <latex>A</latex>, <latex>B</latex> i <latex>C</latex>, обмежених віссю <latex>x</latex> та графіком цієї функції, дорівнюють <span style=\"white-space:nowrap\"><latex>6{,}3</latex> кв. од.,</span> <span style=\"white-space:nowrap\"><latex>5{,}4</latex> кв. од.</span> та <span style=\"white-space:nowrap\"><latex>4</latex> кв. од.</span> відповідно. Обчисліть <latex>\\mathop{\\int}\\limits_0^5 (f(x)+4)\\ dx.</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/374/37473/10-var-19-new.png\" style=\"width: 279px; height: auto;\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>На рисунку зображено графік неперервної на відрізку <latex>[0; 5]</latex> функції <latex>y=f(x).</latex> Площа геометричних фігур <latex>A</latex>, <latex>B</latex> i <latex>C</latex>, обмежених віссю <latex>x</latex> та графіком цієї функції, дорівнюють <span style=\"white-space:nowrap\"><latex>6{,}3</latex> кв. од.,</span> <span style=\"white-space:nowrap\"><latex>5{,}4</latex> кв. од.</span> та <span style=\"white-space:nowrap\"><latex>4</latex> кв. од.</span> відповідно. Обчисліть <latex>\\mathop{\\int}\\limits_0^5 (f(x)+4)\\ dx.</latex></p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/374/37473/10-var-19-new.png\" style=\"width: 279px; height: auto;\"/></p>\n<!-- xlimit=1 -->",
    "answers": [],
    "answer_table_html": null,
    "correct_raw": "24.9",

@@ -15,7 +15,7 @@
    "out_order": 1,
    "test_id": "physics_nmt_tr_v7",
    "type": "single_choice",
-   "question_html": "<p>Тіло рухається вздовж криволінійної траєкторії, що складається з двох дуг (див. рисунок). Модуль швидкості руху тіла не змінюється. Як співвідносяться модулі його доцентрового прискорення в точках <latex>A,\\ B,\\ C</latex>?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/247/24718/03-f.png\" style=\"height: auto;\" width=\"221\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Тіло рухається вздовж криволінійної траєкторії, що складається з двох дуг (див. рисунок). Модуль швидкості руху тіла не змінюється. Як співвідносяться модулі його доцентрового прискорення в точках <latex>A,\\ B,\\ C</latex>?</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/247/24718/03-f.png\" style=\"height: auto;\" width=\"221\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -41,7 +41,7 @@
    ],
    "input": false,
    "input_maxlength": null,
-   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Механіка. Основи кінематики. Рівномірний рух по колу.\r\n </strong>\n</p>\n<p> \r\n Завдання скеровано на перевірку вміння визначати доцентрове прискорення на криволінійній траєкторії.\r\n </p>\n<p>\n<b>Криволінійна траєкторія</b> утворена елементами двох кіл із різними радіусами (рис. 1).\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/247/24718/03_1.png\"/><br/>\n<i>Рис. 1. </i>Радіуси криволінійної траєкторії\r\n </div>\n<br/>\n<p>\r\n Точки <b>А</b> і <b>В</b> лежать на більшому колі, а точка <b>С</b> – на меншому, тож <latex>R_C\\lt R_B=R_A</latex>.\r\n </p>\n<p>\n<b>Доцентрове прискорення можна</b> обчислити з виразу:\r\n <latex display=\"block\">$$\r\n a_\\text{доц}=\\frac{v^2}{R},\r\n$$</latex>\r\n де <latex>v</latex> – <b>швидкість</b> руху тіла, а <latex>R</latex> – <b>радіус</b> обертання.\r\n </p>\n<p>\r\n Оскільки модуль лінійної швидкості не змінюється, то можна записати <b>прискорення</b> в кожній із точок:\r\n <latex display=\"block\">\\begin{gather*}\r\n a_C=\\frac{v^2}{R_C};\\\\[6pt]\r\n a_B=\\frac{v^2}{R_B}=\\frac{v^2}{R_A}=a_A.\r\n \\end{gather*}</latex>\n</p>\n<p>\r\n Оскільки <latex>R_C\\lt R_B=R_A</latex>, то <latex>a_C\\gt a_B=a_A</latex>.\r\n </p>\n<p>\r\n Цей вираз можна записати в іншому вигляді:\r\n <latex display=\"block\">$$\r\n a_A=a_B\\lt a_C.\r\n$$</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Механіка. Основи кінематики. Рівномірний рух по колу.\r\n </strong>\n</p>\n<p> \r\n Завдання скеровано на перевірку вміння визначати доцентрове прискорення на криволінійній траєкторії.\r\n </p>\n<p>\n<b>Криволінійна траєкторія</b> утворена елементами двох кіл із різними радіусами (рис. 1).\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/247/24718/03_1.png\"/><br/>\n<i>Рис. 1. </i>Радіуси криволінійної траєкторії\r\n </div>\n<br/>\n<p>\r\n Точки <b>А</b> і <b>В</b> лежать на більшому колі, а точка <b>С</b> – на меншому, тож <latex>R_C\\lt R_B=R_A</latex>.\r\n </p>\n<p>\n<b>Доцентрове прискорення можна</b> обчислити з виразу:\r\n <latex display=\"block\">$$\r\n a_\\text{доц}=\\frac{v^2}{R},\r\n$$</latex>\r\n де <latex>v</latex> – <b>швидкість</b> руху тіла, а <latex>R</latex> – <b>радіус</b> обертання.\r\n </p>\n<p>\r\n Оскільки модуль лінійної швидкості не змінюється, то можна записати <b>прискорення</b> в кожній із точок:\r\n <latex display=\"block\">\\begin{gather*}\r\n a_C=\\frac{v^2}{R_C};\\\\[6pt]\r\n a_B=\\frac{v^2}{R_B}=\\frac{v^2}{R_A}=a_A.\r\n \\end{gather*}</latex>\n</p>\n<p>\r\n Оскільки <latex>R_C\\lt R_B=R_A</latex>, то <latex>a_C\\gt a_B=a_A</latex>.\r\n </p>\n<p>\r\n Цей вираз можна записати в іншому вигляді:\r\n <latex display=\"block\">$$\r\n a_A=a_B\\lt a_C.\r\n$$</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
    "explanation_text": "Пояснення \n ТЕМА: Механіка. Основи кінематики. Рівномірний рух по колу.\r\n Завдання скеровано на перевірку вміння визначати доцентрове прискорення на криволінійній траєкторії.\r\n Криволінійна траєкторія утворена елементами двох кіл із різними радіусами (рис. 1).\r\n Рис. 1. Радіуси криволінійної траєкторії\r\n Точки А і В лежать на більшому колі, а точка С – на меншому, тож R_C\\lt R_B=R_A .\r\n Доцентрове прискорення можна обчислити з виразу:\r\n $$\r\n a_\\text{доц}=\\frac{v^2}{R},\r\n$$ \r\n де v – швидкість руху тіла, а R – радіус обертання.\r\n Оскільки модуль лінійної швидкості не змінюється, то можна записати прискорення в кожній із точок:\r\n \\begin{gather*}\r\n a_C=\\frac{v^2}{R_C};\\\\[6pt]\r\n a_B=\\frac{v^2}{R_B}=\\frac{v^2}{R_A}=a_A.\r\n \\end{gather*} \n Оскільки R_C\\lt R_B=R_A , то a_C\\gt a_B=a_A .\r\n Цей вираз можна записати в іншому вигляді:\r\n $$\r\n a_A=a_B\\lt a_C.\r\n$$ \n Відповідь: B.",
    "topic": null,
    "images": [
@@ -155,7 +155,7 @@
    "out_order": 4,
    "test_id": "physics_nmt_tr_v7",
    "type": "single_choice",
-   "question_html": "<p>3a рисунком поясніть, чому об'єм гумової кульки збільшується.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/181/18125/6_1.jpg\" style=\"height: auto;\" width=\"450\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>3a рисунком поясніть, чому об'єм гумової кульки збільшується.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/181/18125/6_1.jpg\" style=\"height: auto;\" width=\"450\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -200,7 +200,7 @@
    "out_order": 5,
    "test_id": "physics_nmt_tr_v7",
    "type": "single_choice",
-   "question_html": "<p>Нагрівають три тіла однакової маси. Ha рисунку зображено графіки залежності температури <latex>T</latex> цих трьох тіл (<latex>1</latex>, <latex>2</latex>, <latex>3</latex>) від часу <latex>t</latex>. Укажіть співвідношення між питомими теплоємностями <latex>c_1</latex>, <latex>c_2</latex>, <latex>c_3</latex> цих тіл. Уважайте, що кожному з тіл щосекунди передавалася та caмa кількість теплоти.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/156/15678/11.png\" style=\"height: 228px; width: 260px;\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Нагрівають три тіла однакової маси. Ha рисунку зображено графіки залежності температури <latex>T</latex> цих трьох тіл (<latex>1</latex>, <latex>2</latex>, <latex>3</latex>) від часу <latex>t</latex>. Укажіть співвідношення між питомими теплоємностями <latex>c_1</latex>, <latex>c_2</latex>, <latex>c_3</latex> цих тіл. Уважайте, що кожному з тіл щосекунди передавалася та caмa кількість теплоти.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/156/15678/11.png\" style=\"height: 228px; width: 260px;\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -385,7 +385,7 @@
    "out_order": 9,
    "test_id": "physics_nmt_tr_v7",
    "type": "single_choice",
-   "question_html": "<p>Поперечна хвиля поширюється вздовж натягнутого шнура (див. рисунок). Укажіть на шнурі точку, швидкість і прискорення якої напрямлені вгору.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/167/16707/18_3.png\" style=\"width: 550px; height: auto;\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Поперечна хвиля поширюється вздовж натягнутого шнура (див. рисунок). Укажіть на шнурі точку, швидкість і прискорення якої напрямлені вгору.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/167/16707/18_3.png\" style=\"width: 550px; height: auto;\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -480,7 +480,7 @@
    "out_order": 11,
    "test_id": "physics_nmt_tr_v7",
    "type": "single_choice",
-   "question_html": "<p>У фантастичному творі описано ракету, яка стартує з космічної станції. Двигун надає їй швидкості <latex>0{,}9</latex> с відносно станції (<latex>c</latex> – швидкість світла у вакуумі). Станція рухається зі швидкістю <latex>0{,}8</latex> с відносно Землі (див. схематичний рисунок). Якою може бути максимальна швидкість ракети відносно Землі?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/113/11301/18_3.png\" style=\"width: 650px; height: auto;\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>У фантастичному творі описано ракету, яка стартує з космічної станції. Двигун надає їй швидкості <latex>0{,}9</latex> с відносно станції (<latex>c</latex> – швидкість світла у вакуумі). Станція рухається зі швидкістю <latex>0{,}8</latex> с відносно Землі (див. схематичний рисунок). Якою може бути максимальна швидкість ракети відносно Землі?</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/113/11301/18_3.png\" style=\"width: 650px; height: auto;\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -533,7 +533,7 @@
    "out_order": 12,
    "test_id": "physics_nmt_tr_v7",
    "type": "single_choice",
-   "question_html": "<p>Є два однакові фоторезистори: один – у темряві, другий – освітлений. Ha рисунку наведено графіки (<strong>а</strong> та <strong>б</strong>) залежності сили струму <latex>I</latex>, що проходить крізь фоторезистор, від прикладеної напруги <latex>U</latex>.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/174/17410/23_1.png\" style=\"height: auto;\" width=\"180\"/></p>\n<p>У таблиці правильну інформацію про графік, що відповідає освітленому фоторезистору, та опір цього фоторезистора порівняно з неосвітленим наведено</p>\n<div class=\"table-responsive\">\n<table>\n<tbody>\n<tr>\n<td style=\"border: none;\"> </td>\n<td class=\"gray\"><strong>Графік залежності <latex>I</latex> від <latex>U</latex> для освітленого фоторезистора</strong></td>\n<td class=\"gray\"><strong>Опір освітленого фоторезистора порівняно з неосвітленим</strong></td>\n</tr>\n<tr>\n<td><strong>А</strong></td>\n<td>а</td>\n<td>у \\(3\\) рази більший</td>\n</tr>\n<tr>\n<td><strong>Б</strong></td>\n<td>б</td>\n<td>у \\(3\\) рази більший</td>\n</tr>\n<tr>\n<td><strong>В</strong></td>\n<td>б</td>\n<td>у \\(3\\) рази менший</td>\n</tr>\n<tr>\n<td><strong>Г</strong></td>\n<td>а</td>\n<td>у \\(3\\) рази менший</td>\n</tr>\n</tbody>\n</table>\n</div>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Є два однакові фоторезистори: один – у темряві, другий – освітлений. Ha рисунку наведено графіки (<strong>а</strong> та <strong>б</strong>) залежності сили струму <latex>I</latex>, що проходить крізь фоторезистор, від прикладеної напруги <latex>U</latex>.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/174/17410/23_1.png\" style=\"height: auto;\" width=\"180\"/></p>\n<p>У таблиці правильну інформацію про графік, що відповідає освітленому фоторезистору, та опір цього фоторезистора порівняно з неосвітленим наведено</p>\n<div class=\"table-responsive\">\n<table>\n<tbody>\n<tr>\n<td style=\"border: none;\"> </td>\n<td class=\"gray\"><strong>Графік залежності <latex>I</latex> від <latex>U</latex> для освітленого фоторезистора</strong></td>\n<td class=\"gray\"><strong>Опір освітленого фоторезистора порівняно з неосвітленим</strong></td>\n</tr>\n<tr>\n<td><strong>А</strong></td>\n<td>а</td>\n<td>у \\(3\\) рази більший</td>\n</tr>\n<tr>\n<td><strong>Б</strong></td>\n<td>б</td>\n<td>у \\(3\\) рази більший</td>\n</tr>\n<tr>\n<td><strong>В</strong></td>\n<td>б</td>\n<td>у \\(3\\) рази менший</td>\n</tr>\n<tr>\n<td><strong>Г</strong></td>\n<td>а</td>\n<td>у \\(3\\) рази менший</td>\n</tr>\n</tbody>\n</table>\n</div>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -810,7 +810,7 @@
    "out_order": 15,
    "test_id": "physics_nmt_tr_v7",
    "type": "short_answer",
-   "question_html": "<p>Спочатку брусок, навантажений тягарцями, рівномірно тягли по горизонтальній рейці (див. фото <latex>1</latex>). Потім цей брусок разом із тягарцями зважили (див. фото <latex>2</latex>).</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/212/21202/143611_34.png\" style=\"height: auto;\" width=\"550\"/></p>\n<p>Визначте за результатами вимірювань коефіцієнт тертя між бруском i рейкою.</p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Спочатку брусок, навантажений тягарцями, рівномірно тягли по горизонтальній рейці (див. фото <latex>1</latex>). Потім цей брусок разом із тягарцями зважили (див. фото <latex>2</latex>).</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/212/21202/143611_34.png\" style=\"height: auto;\" width=\"550\"/></p>\n<p>Визначте за результатами вимірювань коефіцієнт тертя між бруском i рейкою.</p>\n<!-- xlimit=1 -->",
    "answers": [],
    "answer_table_html": null,
    "correct_raw": "0.25",
@@ -898,7 +898,7 @@
    "out_order": 18,
    "test_id": "physics_nmt_tr_v7",
    "type": "short_answer",
-   "question_html": "<p>Усі резистори в зображеному на рисунку електричному колі однакові. Визначте відношення напруги на полюсах джерела струму до напруги на резисторі \\(5\\).</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/151/15122/36.png\" style=\"height: auto;\" width=\"175\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Усі резистори в зображеному на рисунку електричному колі однакові. Визначте відношення напруги на полюсах джерела струму до напруги на резисторі \\(5\\).</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/151/15122/36.png\" style=\"height: auto;\" width=\"175\"/></p>\n<!-- xlimit=1 -->",
    "answers": [],
    "answer_table_html": null,
    "correct_raw": "4",
@@ -926,7 +926,7 @@
    "out_order": 19,
    "test_id": "physics_nmt_tr_v7",
    "type": "short_answer",
-   "question_html": "<p>На рисунку зображено хід світлового променя крізь збиральну лінзу. Визначте оптичну силу лінзи, якщо відстань між лініями сітки на рисунку становить <latex>2</latex> см.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/202/20215/37_2.png\" style=\"height: auto;\" width=\"250\"/></p>\n<p>Відповідь запишіть у діоптріях (дптр).</p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>На рисунку зображено хід світлового променя крізь збиральну лінзу. Визначте оптичну силу лінзи, якщо відстань між лініями сітки на рисунку становить <latex>2</latex> см.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/202/20215/37_2.png\" style=\"height: auto;\" width=\"250\"/></p>\n<p>Відповідь запишіть у діоптріях (дптр).</p>\n<!-- xlimit=1 -->",
    "answers": [],
    "answer_table_html": null,
    "correct_raw": "25",

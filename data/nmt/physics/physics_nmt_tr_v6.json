@@ -55,7 +55,7 @@
    "out_order": 2,
    "test_id": "physics_nmt_tr_v6",
    "type": "single_choice",
-   "question_html": "<p>У якому разі рівнодійна сил, що діють на <strong><em>об’єкт</em>, НЕ</strong> дорівнює нулю?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/232/23273/03_1.png\" style=\"height: auto;\" width=\"596\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>У якому разі рівнодійна сил, що діють на <strong><em>об’єкт</em>, НЕ</strong> дорівнює нулю?</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/232/23273/03_1.png\" style=\"height: auto;\" width=\"596\"/></p>\n<!-- xlimit=1 -->",
    "answers": [],
    "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
    "correct_raw": "d",
@@ -83,7 +83,7 @@
    "out_order": 3,
    "test_id": "physics_nmt_tr_v6",
    "type": "single_choice",
-   "question_html": "<p>До точок <latex>1</latex>, <latex>2</latex>, <latex>3</latex> в площині прямокутної пластини прикладено сили <latex>F_1=3</latex> H, <latex>F_2=5</latex> H, <latex>F_3=12</latex> H відповідно (див. рисунок). Укажіть правильне співвідношення модулів моментів цих сил <latex>M_1</latex>, <latex>M_2</latex>, <latex>M_3</latex> відносно осі, що проходить перпендикулярно до площини пластини через точку <latex>O</latex>.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/211/21173/5_2.png\" style=\"height: auto;\" width=\"275\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>До точок <latex>1</latex>, <latex>2</latex>, <latex>3</latex> в площині прямокутної пластини прикладено сили <latex>F_1=3</latex> H, <latex>F_2=5</latex> H, <latex>F_3=12</latex> H відповідно (див. рисунок). Укажіть правильне співвідношення модулів моментів цих сил <latex>M_1</latex>, <latex>M_2</latex>, <latex>M_3</latex> відносно осі, що проходить перпендикулярно до площини пластини через точку <latex>O</latex>.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/211/21173/5_2.png\" style=\"height: auto;\" width=\"275\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -109,7 +109,7 @@
    ],
    "input": false,
    "input_maxlength": null,
-   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Механіка. Основи динаміки. Момент сил.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на оцінювання вміння розв’язувати розрахункові задачі з визначення моменту сил. \r\n </p>\n<p>\r\n Момент сили <latex>M</latex> – це фізична величина, що дорівнює добутку модуля сили <latex>F</latex>, яка діє на тіло, на плече <latex>d</latex> цієї сили:\r\n <latex display=\"block\">$$\r\n M = Fd\\ \\ (1)\r\n$$</latex>\r\n Плече <latex>d</latex> сили <latex>F</latex> – це найменша відстань від осі обертання тіла до лінії, уздовж якої діє сила <latex>рис. 1</latex>.\r\n </p><center>\n<img src=\"/doc/images/znotest/211/21173/05-1.png\"/><br/>\n<i>Рис. 1</i>. Схема визначення плеча сили\r\n </center>\n<p>\r\n Проаналізувавши рисунок 2 (його наведено в завданні), потрібно визначити плечі сил, схематично зображених на ньому.\r\n </p><center>\n<img src=\"/doc/images/znotest/211/21173/05-2.png\"/><br/>\n<i>Рис. 2</i>. Визначення плечей сил, про які йдеться в завданні \r\n </center>\n<p>\r\n У завданні не зазначено розмір клітинок, тож можна вважати довжину сторони клітинки умовною одиницею довжини (у. о. д.). \r\n </p>\n<p>\r\n Згідно з виразом (1):\r\n <latex display=\"block\">\\begin{gather*}\r\n M_1=F_1 d_1=3Н\\cdot\\ 5\\ \\text{у. о. д.}=15Н \\cdot\\ \\text{у.о.д.;}\\\\[7pt]\r\n M_2=F_2 d_2=5Н\\cdot\\ 2\\ \\text{у. о. д.}=10Н\\cdot\\ \\text{у.о.д.;}\\\\[7pt]\r\n M_3=F_3 d_3=12Н\\cdot\\ 1\\ \\text{у. о. д.}=12Н\\cdot\\ \\text{у.о.д.}\r\n \\end{gather*}</latex>\r\n Отже:\r\n <latex display=\"block\">$$\r\n M_1\\gt M_3\\gt M_2.\r\n$$</latex>\n</p>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Механіка. Основи динаміки. Момент сил.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на оцінювання вміння розв’язувати розрахункові задачі з визначення моменту сил. \r\n </p>\n<p>\r\n Момент сили <latex>M</latex> – це фізична величина, що дорівнює добутку модуля сили <latex>F</latex>, яка діє на тіло, на плече <latex>d</latex> цієї сили:\r\n <latex display=\"block\">$$\r\n M = Fd\\ \\ (1)\r\n$$</latex>\r\n Плече <latex>d</latex> сили <latex>F</latex> – це найменша відстань від осі обертання тіла до лінії, уздовж якої діє сила <latex>рис. 1</latex>.\r\n </p><center>\n<img src=\"images/doc/images/znotest/211/21173/05-1.png\"/><br/>\n<i>Рис. 1</i>. Схема визначення плеча сили\r\n </center>\n<p>\r\n Проаналізувавши рисунок 2 (його наведено в завданні), потрібно визначити плечі сил, схематично зображених на ньому.\r\n </p><center>\n<img src=\"images/doc/images/znotest/211/21173/05-2.png\"/><br/>\n<i>Рис. 2</i>. Визначення плечей сил, про які йдеться в завданні \r\n </center>\n<p>\r\n У завданні не зазначено розмір клітинок, тож можна вважати довжину сторони клітинки умовною одиницею довжини (у. о. д.). \r\n </p>\n<p>\r\n Згідно з виразом (1):\r\n <latex display=\"block\">\\begin{gather*}\r\n M_1=F_1 d_1=3Н\\cdot\\ 5\\ \\text{у. о. д.}=15Н \\cdot\\ \\text{у.о.д.;}\\\\[7pt]\r\n M_2=F_2 d_2=5Н\\cdot\\ 2\\ \\text{у. о. д.}=10Н\\cdot\\ \\text{у.о.д.;}\\\\[7pt]\r\n M_3=F_3 d_3=12Н\\cdot\\ 1\\ \\text{у. о. д.}=12Н\\cdot\\ \\text{у.о.д.}\r\n \\end{gather*}</latex>\r\n Отже:\r\n <latex display=\"block\">$$\r\n M_1\\gt M_3\\gt M_2.\r\n$$</latex>\n</p>\n<p><strong>Відповідь: A.</strong></p>",
    "explanation_text": "Пояснення \n ТЕМА: Механіка. Основи динаміки. Момент сил.\r\n Завдання скеровано на оцінювання вміння розв’язувати розрахункові задачі з визначення моменту сил. \r\n Момент сили M – це фізична величина, що дорівнює добутку модуля сили F , яка діє на тіло, на плече d цієї сили:\r\n $$\r\n M = Fd\\ \\ (1)\r\n$$ \r\n Плече d сили F – це найменша відстань від осі обертання тіла до лінії, уздовж якої діє сила рис. 1 .\r\n Рис. 1 . Схема визначення плеча сили\r\n Проаналізувавши рисунок 2 (його наведено в завданні), потрібно визначити плечі сил, схематично зображених на ньому.\r\n Рис. 2 . Визначення плечей сил, про які йдеться в завданні \r\n У завданні не зазначено розмір клітинок, тож можна вважати довжину сторони клітинки умовною одиницею довжини (у. о. д.). \r\n Згідно з виразом (1):\r\n \\begin{gather*}\r\n M_1=F_1 d_1=3Н\\cdot\\ 5\\ \\text{у. о. д.}=15Н \\cdot\\ \\text{у.о.д.;}\\\\[7pt]\r\n M_2=F_2 d_2=5Н\\cdot\\ 2\\ \\text{у. о. д.}=10Н\\cdot\\ \\text{у.о.д.;}\\\\[7pt]\r\n M_3=F_3 d_3=12Н\\cdot\\ 1\\ \\text{у. о. д.}=12Н\\cdot\\ \\text{у.о.д.}\r\n \\end{gather*} \r\n Отже:\r\n $$\r\n M_1\\gt M_3\\gt M_2.\r\n$$ \n Відповідь: A.",
    "topic": null,
    "images": [
@@ -151,7 +151,7 @@
    "out_order": 4,
    "test_id": "physics_nmt_tr_v6",
    "type": "single_choice",
-   "question_html": "<p>Ідеальний газ незмінної маси переходить зі стану <latex>1</latex> у стан <latex>3</latex> так, як відображає графік залежності тиску <latex>p</latex> від абсолютної температури <latex>T</latex>.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/211/21175/7_7.png\" style=\"height: auto;\" width=\"150\"/></p>\n<p>Визначте графік залежності тиску <latex>p</latex> від об'єму <latex>V</latex>, який відповідає цьому переходу.</p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Ідеальний газ незмінної маси переходить зі стану <latex>1</latex> у стан <latex>3</latex> так, як відображає графік залежності тиску <latex>p</latex> від абсолютної температури <latex>T</latex>.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/211/21175/7_7.png\" style=\"height: auto;\" width=\"150\"/></p>\n<p>Визначте графік залежності тиску <latex>p</latex> від об'єму <latex>V</latex>, який відповідає цьому переходу.</p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -243,7 +243,7 @@
    "out_order": 6,
    "test_id": "physics_nmt_tr_v6",
    "type": "single_choice",
-   "question_html": "<p>Елементами електричного кола (див. схему) є три однакові лампи. Як зміниться яскравість світіння ламп <latex>\\text{Л}_1</latex> i <latex>\\text{Л}_3</latex>, якщо лампа <latex>\\text{Л}_2</latex> вийде з ладу?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/201/20191/13_1.png\" style=\"height: auto;\" width=\"175\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Елементами електричного кола (див. схему) є три однакові лампи. Як зміниться яскравість світіння ламп <latex>\\text{Л}_1</latex> i <latex>\\text{Л}_3</latex>, якщо лампа <latex>\\text{Л}_2</latex> вийде з ладу?</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/201/20191/13_1.png\" style=\"height: auto;\" width=\"175\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -340,7 +340,7 @@
    "out_order": 8,
    "test_id": "physics_nmt_tr_v6",
    "type": "single_choice",
-   "question_html": "<p>На столі лежить гнучкий провідний дріт, приєднаний до гальванічного елемента, як зображено на рисунку. У якій точці індукція магнітного поля, створеного електричним струмом у дроті, максимальна?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/181/18136/17.png\" style=\"height: auto;\" width=\"225\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>На столі лежить гнучкий провідний дріт, приєднаний до гальванічного елемента, як зображено на рисунку. У якій точці індукція магнітного поля, створеного електричним струмом у дроті, максимальна?</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/181/18136/17.png\" style=\"height: auto;\" width=\"225\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -436,7 +436,7 @@
    "out_order": 10,
    "test_id": "physics_nmt_tr_v6",
    "type": "single_choice",
-   "question_html": "<p>Ha рисунку показано хід променів білого світла. Що розташовано за ширмою <strong>Ш</strong>?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/211/21186/18_1.jpg\" style=\"height: 106px; width: 225px;\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Ha рисунку показано хід променів білого світла. Що розташовано за ширмою <strong>Ш</strong>?</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/211/21186/18_1.jpg\" style=\"height: 106px; width: 225px;\"/></p>\n<!-- xlimit=1 -->",
    "answers": [
     {
      "marker": "А",
@@ -879,7 +879,7 @@
    "out_order": 18,
    "test_id": "physics_nmt_tr_v6",
    "type": "short_answer",
-   "question_html": "<p>Обкладками плоского повітряного конденсатора є дві паралельні прямокутні металеві пластини <latex>1</latex> та <latex>2</latex>, які спочатку розміщені одна напроти одної (див. рисунок <latex>1</latex>). Пластину <latex>1</latex> повернули на <latex>90^\\circ</latex>, як показано на рисунку <latex>2</latex>. Визначте відношення кінцевої електроеємності конденсатора до початкової.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/157/15703/36.png\" style=\"height: 208px; width: 375px;\"/></p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Обкладками плоского повітряного конденсатора є дві паралельні прямокутні металеві пластини <latex>1</latex> та <latex>2</latex>, які спочатку розміщені одна напроти одної (див. рисунок <latex>1</latex>). Пластину <latex>1</latex> повернули на <latex>90^\\circ</latex>, як показано на рисунку <latex>2</latex>. Визначте відношення кінцевої електроеємності конденсатора до початкової.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/157/15703/36.png\" style=\"height: 208px; width: 375px;\"/></p>\n<!-- xlimit=1 -->",
    "answers": [],
    "answer_table_html": null,
    "correct_raw": "0.6",
@@ -914,7 +914,7 @@
    "out_order": 19,
    "test_id": "physics_nmt_tr_v6",
    "type": "short_answer",
-   "question_html": "<p>Провідна рамка рівномірно обертається в однорідному магнітному полі. Графік залежності електрорушійної сили (ЕРС) індукції <latex>\\varepsilon</latex> від часу <latex>t</latex> відображено на рисунку. Визначте ЕРС індукції в момент часу <latex>\\dfrac{T}{12}</latex>, де <latex>T</latex> – період коливань.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/123/12349/33_5.png\" style=\"height: auto;\" width=\"525\"/></p>\n<p>Відповідь запишіть у мілівольтах (мB).</p>\n<!-- xlimit=1 -->",
+   "question_html": "<p>Провідна рамка рівномірно обертається в однорідному магнітному полі. Графік залежності електрорушійної сили (ЕРС) індукції <latex>\\varepsilon</latex> від часу <latex>t</latex> відображено на рисунку. Визначте ЕРС індукції в момент часу <latex>\\dfrac{T}{12}</latex>, де <latex>T</latex> – період коливань.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/123/12349/33_5.png\" style=\"height: auto;\" width=\"525\"/></p>\n<p>Відповідь запишіть у мілівольтах (мB).</p>\n<!-- xlimit=1 -->",
    "answers": [],
    "answer_table_html": null,
    "correct_raw": "0.15",

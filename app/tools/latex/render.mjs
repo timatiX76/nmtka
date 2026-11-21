@@ -56,7 +56,13 @@ function renderFormula(t) {
     ex: 8,
     containerWidth: 1200,
   });
-  return adaptor.outerHTML(node);
+  let html = adaptor.outerHTML(node);
+  const i = html.indexOf('<svg');
+  const j = html.lastIndexOf('</svg>');
+  if (i !== -1 && j !== -1) {
+    html = html.slice(i, j + 6);
+  }
+  return html;
 }
 
 const t0 = Date.now();

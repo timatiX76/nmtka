@@ -652,7 +652,7 @@ impl App {
                 }
 
                 ui.add_space(14.0);
-                answers_ui(ui, q, st);
+                answers_ui(ui, q, st, &root);
 
                 ui.add_space(16.0);
                 ui.horizontal(|ui| {
@@ -1255,26 +1255,19 @@ fn answer_row(
     ui: &mut egui::Ui,
     id: impl std::hash::Hash + std::fmt::Debug,
     marker: &str,
-    text: &str,
+    blocks: &[html::Block],
     state: RowState,
     enabled: bool,
     boxed: bool,
     box_on: bool,
+    root: &std::path::Path,
 ) -> bool {
-    let sense = if enabled {
-        egui::Sense::click()
-    } else {
-        egui::Sense::hover()
-    };
-    let width = ui.available_width();
-
-    let probe = ui.painter().clone();
-    let g = probe.layout(text.to_string(), egui::FontId::proportional(16.0), TEXT, width - 118.0);
-    let height = (g.size().y + 26.0).max(if boxed { 50.0 } else { 52.0 });
-
-    let (rect, resp) = ui.allocate_exact_size(egui::vec2(width, height), sense);
-    let k = hover_t(ui.ctx(), id, resp.hovered() && enabled);
-    let painter = ui.painter();
+    let hover_prev = ui
+        .ctx()
+        .read_response(egui::Id::unique(&id))
+        .map(|r| r.hovered())
+        .unwrap_or(false);
+    let k = hover_t(ui.ctx(), &id, hover_prev && enabled);
 
     let (fill, border, marker_bg, marker_fg) = match state {
         RowState::Idle => (
@@ -1293,93 +1286,79 @@ fn answer_row(
         RowState::Wrong => (RED_SOFT, RED, RED_SOFT, RED),
         RowState::Dim => (CARD_BG, BORDER, CHIP_BG, mix(MUTED, CARD_BG, 0.5)),
     };
-    painter.rect(
-        rect,
-        egui::CornerRadius::same(12),
-        fill,
-        egui::Stroke::new(if state == RowState::Selected { 1.5 } else { 1.0 }, border),
-        egui::StrokeKind::Inside,
-    );
 
-    let mx = rect.left() + 14.0;
-    let mrect = egui::Rect::from_center_size(
-        egui::pos2(mx + 15.0, rect.center().y),
-        egui::vec2(30.0, 30.0),
-    );
-    if boxed {
-        painter.rect(
-            mrect.shrink(5.0),
-            egui::CornerRadius::same(6),
-            if box_on { ACCENT } else { Color32::TRANSPARENT },
-            egui::Stroke::new(1.5, if box_on { ACCENT } else { marker_fg.gamma_multiply(0.8) }),
-            egui::StrokeKind::Inside,
-        );
-        if box_on {
-            painter.text(
-                mrect.center(),
-                egui::Align2::CENTER_CENTER,
-                ph::CHECK,
-                icon_id(14.0),
-                Color32::from_rgb(9, 18, 15),
-            );
-        }
-    } else {
-        painter.rect(
-            mrect,
-            egui::CornerRadius::same(8),
-            marker_bg,
-            egui::Stroke::NONE,
-            egui::StrokeKind::Inside,
-        );
-        painter.text(
-            mrect.center(),
-            egui::Align2::CENTER_CENTER,
-            marker,
-            egui::FontId::new(14.0, theme::semi_family()),
-            marker_fg,
-        );
-    }
+    let frame = egui::Frame::new()
+        .fill(fill)
+        .stroke(egui::Stroke::new(
+            if state == RowState::Selected { 1.5 } else { 1.0 },
+            border,
+        ))
+        .corner_radius(12)
+        .inner_margin(egui::Margin::same(12));
+    let ir = frame.show(ui, |ui| {
+        ui.horizontal(|ui| {
+            if boxed {
+                let sz = egui::vec2(20.0, 20.0);
+                egui::Frame::new()
+                    .fill(if box_on { ACCENT } else { Color32::TRANSPARENT })
+                    .stroke(
+                        egui::Stroke::new(1.5, if box_on { ACCENT } else { marker_fg.gamma_multiply(0.8) }),
+                    )
+                    .corner_radius(6)
+                    .inner_margin(egui::Margin::same(1))
+                    .show(ui, |ui| {
+                        ui.allocate_ui_with_layout(
+                            sz,
+                            egui::Layout::centered_and_justified(egui::Direction::TopDown),
+                            |ui| {
+                                if box_on {
+                                    ui.label(icon(ph::CHECK, 14.0, Color32::from_rgb(9, 18, 15)));
+                                }
+                            },
+                        );
+                    });
+            } else {
+                egui::Frame::new()
+                    .fill(marker_bg)
+                    .corner_radius(8)
+                    .inner_margin(egui::Margin::same(6))
+                    .show(ui, |ui| {
+                        ui.allocate_ui_with_layout(
+                            egui::vec2(26.0, 26.0),
+                            egui::Layout::centered_and_justified(egui::Direction::TopDown),
+                            |ui| {
+                                ui.label(semi(marker, 14.0).color(marker_fg));
+                            },
+                        );
+                    });
+            }
+            ui.add_space(6.0);
+            ui.vertical(|ui| {
+                html::render(ui, blocks, root);
+            });
+            let glyph = match state {
+                RowState::Correct => Some((ph::CHECK, GREEN)),
+                RowState::Wrong => Some((ph::X, RED)),
+                _ => None,
+            };
+            if let Some((g, c)) = glyph {
+                ui.with_layout(egui::Layout::right_to_left(egui::Align::Center), |ui| {
+                    ui.add_space(6.0);
+                    ui.label(icon(g, 17.0, c));
+                });
+            }
+        });
+    });
 
-    let text_color = match state {
-        RowState::Correct => GREEN,
-        RowState::Wrong => RED,
-        RowState::Dim => mix(TEXT, CARD_BG, 0.45),
-        _ => TEXT,
-    };
-    let g = painter.layout(
-        text.to_string(),
-        egui::FontId::proportional(16.0),
-        text_color,
-        width - 118.0,
+    let resp = ui.interact(
+        ir.response.rect,
+        egui::Id::unique(&id),
+        if enabled {
+            egui::Sense::click()
+        } else {
+            egui::Sense::hover()
+        },
     );
-    painter.galley(
-        egui::pos2(rect.left() + 58.0, rect.center().y - g.size().y / 2.0),
-        g,
-        text_color,
-    );
-
-    match state {
-        RowState::Correct => {
-            painter.text(
-                egui::pos2(rect.right() - 18.0, rect.center().y),
-                egui::Align2::RIGHT_CENTER,
-                ph::CHECK,
-                icon_id(17.0),
-                GREEN,
-            );
-        }
-        RowState::Wrong => {
-            painter.text(
-                egui::pos2(rect.right() - 18.0, rect.center().y),
-                egui::Align2::RIGHT_CENTER,
-                ph::X,
-                icon_id(17.0),
-                RED,
-            );
-        }
-        _ => {}
-    }
-
     if enabled {
         resp.on_hover_cursor(egui::CursorIcon::PointingHand).clicked()
     } else {
@@ -1387,7 +1366,7 @@ fn answer_row(
     }
 }
 
-fn answers_ui(ui: &mut egui::Ui, q: &Question, st: &mut AnswerState) {
+fn answers_ui(ui: &mut egui::Ui, q: &Question, st: &mut AnswerState, root: &std::path::Path) {
     let checked = st.checked;
     match q.kind {
         QuestionType::SingleChoice => {
@@ -1408,7 +1387,8 @@ fn answers_ui(ui: &mut egui::Ui, q: &Question, st: &mut AnswerState) {
                     RowState::Idle
                 };
                 let id = ui.scope_id().with(("answer", q.id, i));
-                if answer_row(ui, id, &a.marker, &html::plain_text(&a.html), state, !checked, false, false) {
+                let blocks = html::parse(&a.html);
+                if answer_row(ui, id, &a.marker, &blocks, state, !checked, false, false, root) {
                     st.selected = Some(i);
                 }
                 ui.add_space(6.0);
@@ -1433,7 +1413,8 @@ fn answers_ui(ui: &mut egui::Ui, q: &Question, st: &mut AnswerState) {
                     RowState::Idle
                 };
                 let id = ui.scope_id().with(("answer", q.id, i));
-                if answer_row(ui, id, &a.marker, &html::plain_text(&a.html), state, !checked, true, on) {
+                let blocks = html::parse(&a.html);
+                if answer_row(ui, id, &a.marker, &blocks, state, !checked, true, on, root) {
                     if !st.multi.contains(&i) {
                         st.multi.push(i);
                     }
@@ -1454,6 +1435,7 @@ fn answers_ui(ui: &mut egui::Ui, q: &Question, st: &mut AnswerState) {
             );
         }
         _ => {
+            let root_path = root;
             if let Some(groups) = &q.groups {
                 ui.add_space(2.0);
                 for g in groups {
@@ -1469,8 +1451,11 @@ fn answers_ui(ui: &mut egui::Ui, q: &Question, st: &mut AnswerState) {
                             }
                             for a in &g.answers {
                                 ui.horizontal(|ui| {
-                                    ui.label(t(&a.marker, 15.0).color(ACCENT));
-                                    ui.label(t(html::plain_text(&a.html), 15.0).color(TEXT));
+                                    if !a.marker.is_empty() {
+                                        ui.label(t(&a.marker, 15.0).color(ACCENT));
+                                    }
+                                    let blocks = html::parse(&a.html);
+                                    html::render(ui, &blocks, root_path);
                                 });
                             }
                         });
@@ -1488,7 +1473,8 @@ fn answers_ui(ui: &mut egui::Ui, q: &Question, st: &mut AnswerState) {
                     .show(ui, |ui| {
                         ui.horizontal(|ui| {
                             ui.label(t(&a.marker, 15.0).color(ACCENT));
-                            ui.label(t(html::plain_text(&a.html), 15.0).color(TEXT));
+                            let blocks = html::parse(&a.html);
+                            html::render(ui, &blocks, root_path);
                         });
                     });
                 ui.add_space(6.0);
