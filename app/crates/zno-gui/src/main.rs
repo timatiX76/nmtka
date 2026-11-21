@@ -1,3 +1,5 @@
+#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+
 mod html;
 mod theme;
 
@@ -8,7 +10,8 @@ use zno_core::{Dataset, NmtVariant, Question, QuestionType, TestListItem, Topic}
 
 use html::Block;
 
-fn main() -> eframe::Result {    let args: Vec<String> = std::env::args().collect();
+fn main() -> eframe::Result {
+    let args: Vec<String> = std::env::args().collect();
     let root = args
         .get(1)
         .cloned()
@@ -39,8 +42,8 @@ fn main() -> eframe::Result {    let args: Vec<String> = std::env::args().collec
                  Папка exe: {exe_dir}\n\n\
                  Деталі: {e:#}"
             );
-            eprintln!("Не вдалося відкрити датасет {root}:\n{e:#}");
             error_box("nmtka", &msg);
+            eprintln!("Не вдалося відкрити датасет {root}:\n{e:#}");
             std::process::exit(1);
         }
     };
