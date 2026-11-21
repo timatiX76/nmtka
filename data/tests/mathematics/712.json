@@ -1,0 +1,1466 @@
+{
+ "url": "https://zno.osvita.ua/mathematics/712/",
+ "title": "НМТ онлайн 2026 року з математики – демоваріант",
+ "page_title": "НМТ онлайн 2026 року з математики – демоваріант",
+ "test_id": 712,
+ "total": 22,
+ "section": 2,
+ "cnt": 22,
+ "qfirst": 1,
+ "list": 0,
+ "questions": [
+  {
+   "id": 35423,
+   "tip": 1,
+   "out_order": 1,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>На діаграмі відображено інформацію про кількість глядачів, які протягом доби відвідали <span style=\"white-space:nowrap\"><latex>5</latex> зал</span> кінотеатру: білу, синю, жовту, зелену та чорну. За діаграмою визначте різницю між кількістю глядачів, які відвідали білу й зелену зали кінотеатру.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/354/35423/math-pr-2026-01-new.png\" style=\"height: auto;\" width=\"604\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>20</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>25</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>30</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>35</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>55</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Вибіркові характеристики. </strong></p>\n<p>Завдання скеровано на перевірку вміння аналізувати статистичні дані, наведені в графічній і текстовій формі.</p>\n<p>На діаграмі наведено інформацію про кількість глядачів, які протягом доби відвідали <latex>5</latex> зал кінотеатру.</p>\n<p>Біла зала – <latex>55</latex>,<br/>\nсиня зала – <latex>40</latex>,<br/>\nжовта зала – <latex>35</latex>,<br/>\nзелена зала – <latex>20</latex>,<br/>\nчорна зала – <latex>45.</latex></p>\n<p>Знаходимо різницю між кількістю глядачів, які відвідали білу й зелену зали:</p>\n<latex>\\begin{gather*} 55-20=35. \\end{gather*}</latex>\n<p> </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Вибіркові характеристики. \n Завдання скеровано на перевірку вміння аналізувати статистичні дані, наведені в графічній і текстовій формі.\n На діаграмі наведено інформацію про кількість глядачів, які протягом доби відвідали 5 зал кінотеатру.\n Біла зала – 55 ,\nсиня зала – 40 ,\nжовта зала – 35 ,\nзелена зала – 20 ,\nчорна зала – 45. \n Знаходимо різницю між кількістю глядачів, які відвідали білу й зелену зали:\n \\begin{gather*} 55-20=35. \\end{gather*} \n Відповідь: Г.",
+   "topic": "Вибіркові характеристики.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35423/math-pr-2026-01-new.png",
+     "path": "images/doc/images/znotest/354/35423/math-pr-2026-01-new.png"
+    }
+   ],
+   "text": "На діаграмі відображено інформацію про кількість глядачів, які протягом доби відвідали 5 зал кінотеатру: білу, синю, жовту, зелену та чорну. За діаграмою визначте різницю між кількістю глядачів, які відвідали білу й зелену зали кінотеатру.",
+   "latex": [
+    "5",
+    "20",
+    "25",
+    "30",
+    "35",
+    "55"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": 35424,
+   "tip": 1,
+   "out_order": 2,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>Драбина <latex>BC</latex> приставлена до вертикальної стіни <latex>AB</latex> й спирається на горизонтальну поверхню <latex>AC</latex> (див. рисунок). За наведеними на рисунку даними визначте градусну міру кута <latex>BCA</latex> нахилу драбини до поверхні <latex>AC.</latex></p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/354/35424/122432_math-pr-2026-02.png\" style=\"height: auto;\" width=\"137\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>18^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>82^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>72^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>12^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>78^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Геометрія. Планіметрія.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання властивості зовнішнього кута трикутника.\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/354/35424/ds-pr-math-2026-new-02.png\" style=\"height: auto;\" width=\"126\"/>\n</div>\n<br/>\n<p>\n За властивістю зовнішнього кута трикутника:\n <latex>\\begin{gather*}\n \\angle KBC=\\angle A+\\angle C,\\\\[7pt]\n \\angle C=\\angle KBC-\\angle A,\\\\[7pt]\n \\angle C=162^\\circ-90^\\circ,\\\\[7pt]\n \\angle C=72^\\circ.\n \\end{gather*}</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія.\n Завдання скеровано на перевірку знання властивості зовнішнього кута трикутника.\n За властивістю зовнішнього кута трикутника:\n \\begin{gather*}\n \\angle KBC=\\angle A+\\angle C,\\\\[7pt]\n \\angle C=\\angle KBC-\\angle A,\\\\[7pt]\n \\angle C=162^\\circ-90^\\circ,\\\\[7pt]\n \\angle C=72^\\circ.\n \\end{gather*} \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35424/122432_math-pr-2026-02.png",
+     "path": "images/doc/images/znotest/354/35424/122432_math-pr-2026-02.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35424/ds-pr-math-2026-new-02.png",
+     "path": "images/doc/images/znotest/354/35424/ds-pr-math-2026-new-02.png"
+    }
+   ],
+   "text": "Драбина BC приставлена до вертикальної стіни AB й спирається на горизонтальну поверхню AC (див. рисунок). За наведеними на рисунку даними визначте градусну міру кута BCA нахилу драбини до поверхні AC.",
+   "latex": [
+    "BC",
+    "AB",
+    "AC",
+    "BCA",
+    "AC.",
+    "18^\\circ",
+    "82^\\circ",
+    "72^\\circ",
+    "12^\\circ",
+    "78^\\circ"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 2
+    }
+   ]
+  },
+  {
+   "id": 35425,
+   "tip": 1,
+   "out_order": 3,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>\n Кількість вироблених підприємством за рік столів відноситься до кількості виготовлених стільців як <latex>3 : 4.</latex> Якою <b>може</b> бути сумарна кількість вироблених за рік підприємством столів і стільців? \n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>72</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>87</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>91</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>95</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>101</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Рівняння, нерівності та їх системи. Відношення та пропорції.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку вміння розв’язувати текстові задачі за допомогою рівнянь, на пропорційні величини та пропорційний поділ.\n </p>\n<p>\n Нехай <latex>x</latex> – коефіцієнт пропорційності. Підприємство за рік виготовляє<br/>\n<latex>3x</latex> столів,<br/>\n<latex>4x</latex> стільців.\n </p>\n<p>\n Отже, сумарна кількість вироблених за рік підприємством столів і стільців була\n <latex>\\begin{gather*}\n 3x+4x=7x.\n \\end{gather*}</latex>\n</p>\n<p>\n Кількість виробів може бути числом, кратним <latex>7.</latex> З наведених чисел це може бути <latex>91.</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Рівняння, нерівності та їх системи. Відношення та пропорції.\n Завдання скеровано на перевірку вміння розв’язувати текстові задачі за допомогою рівнянь, на пропорційні величини та пропорційний поділ.\n Нехай x – коефіцієнт пропорційності. Підприємство за рік виготовляє\n 3x столів,\n 4x стільців.\n Отже, сумарна кількість вироблених за рік підприємством столів і стільців була\n \\begin{gather*}\n 3x+4x=7x.\n \\end{gather*} \n Кількість виробів може бути числом, кратним 7. З наведених чисел це може бути 91. \n Відповідь: B.",
+   "topic": "Алгебра і початки аналізу. Числа і вирази. Рівняння, нерівності та їх системи. Відношення та пропорції.",
+   "images": [],
+   "text": "Кількість вироблених підприємством за рік столів відноситься до кількості виготовлених стільців як 3 : 4. Якою може бути сумарна кількість вироблених за рік підприємством столів і стільців?",
+   "latex": [
+    "3 : 4.",
+    "72",
+    "87",
+    "91",
+    "95",
+    "101"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 3
+    }
+   ]
+  },
+  {
+   "id": 35426,
+   "tip": 1,
+   "out_order": 4,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>\n Визначте корінь рівняння <latex>\\log_3x=2.</latex>\n</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\sqrt{3}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>5</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>6</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>8</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>9</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Логарифмічні рівняння.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку вміння розв’язувати логарифмічні рівняння.\n </p>\n<p>\n<latex>\\begin{gather*}\n \\log_3x=2.\n \\end{gather*}</latex>\n За означенням логарифма:\n <latex>\\begin{gather*}\n x=3^2,\\\\[7pt]\n x=9.\n \\end{gather*}</latex>\n</p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Логарифмічні рівняння.\n Завдання скеровано на перевірку вміння розв’язувати логарифмічні рівняння.\n \\begin{gather*}\n \\log_3x=2.\n \\end{gather*} \n За означенням логарифма:\n \\begin{gather*}\n x=3^2,\\\\[7pt]\n x=9.\n \\end{gather*} \n Відповідь: Д.",
+   "topic": "Логарифмічні рівняння.",
+   "images": [],
+   "text": "Визначте корінь рівняння \\log_3x=2.",
+   "latex": [
+    "\\log_3x=2.",
+    "\\sqrt{3}",
+    "5",
+    "6",
+    "8",
+    "9"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": 35428,
+   "tip": 1,
+   "out_order": 5,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>\n Висота конуса та його твірна лежать на прямих, що \n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "паралельні"
+    },
+    {
+     "marker": "Б",
+     "html": "не мають спільних точок"
+    },
+    {
+     "marker": "В",
+     "html": "перпендикулярні"
+    },
+    {
+     "marker": "Г",
+     "html": "мимобіжні"
+    },
+    {
+     "marker": "Д",
+     "html": "належать одній площині"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Прямі та площини в просторі.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання аксіом стереометрії, взаємного розміщення прямих у просторі.\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/354/35428/ds-pr-math-2026-new-05.png\" style=\"height: auto;\" width=\"214\"/>\n</div>\n<br/>\n<p>\n<b>Висота конуса</b> <latex>(H)</latex> – це відрізок, що сполучає вершину конуса із центром його основи. <b>Твірна конуса</b> <latex>(L)</latex> – це відрізок, що сполучає вершину конуса з будь-якою точкою кола основи.\n </p>\n<p>\n Оскільки висота й твірна конуса мають спільну точку (перетинаються у вершині), вони, за визначенням, лежать в одній площині. \n </p>\n<p>\n За аксіомою стереометрії, якщо дві прямі мають спільну точку, то через них можна провести площину, і до того ж тільки одну.\n </p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Прямі та площини в просторі.\n Завдання скеровано на перевірку знання аксіом стереометрії, взаємного розміщення прямих у просторі.\n Висота конуса (H) – це відрізок, що сполучає вершину конуса із центром його основи. Твірна конуса (L) – це відрізок, що сполучає вершину конуса з будь-якою точкою кола основи.\n Оскільки висота й твірна конуса мають спільну точку (перетинаються у вершині), вони, за визначенням, лежать в одній площині. \n За аксіомою стереометрії, якщо дві прямі мають спільну точку, то через них можна провести площину, і до того ж тільки одну.\n Відповідь: Д.",
+   "topic": "Прямі та площини в просторі.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35428/ds-pr-math-2026-new-05.png",
+     "path": "images/doc/images/znotest/354/35428/ds-pr-math-2026-new-05.png"
+    }
+   ],
+   "text": "Висота конуса та його твірна лежать на прямих, що",
+   "latex": [],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 5
+    }
+   ]
+  },
+  {
+   "id": 35429,
+   "tip": 1,
+   "out_order": 6,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>\n На якому рисунку зображено ескіз графіка квадратичної функції, що набуває лише додатних значень на всій області визначення? \n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/354/35429/ansa_35429.png\" width=\"204\"/>"
+    },
+    {
+     "marker": "Б",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/354/35429/ansb_35429.png\" width=\"204\"/>"
+    },
+    {
+     "marker": "В",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/354/35429/ansc_35429.png\" width=\"204\"/>"
+    },
+    {
+     "marker": "Г",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/354/35429/ansd_35429.png\" width=\"204\"/>"
+    },
+    {
+     "marker": "Д",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/354/35429/anse_35429.png\" width=\"204\"/>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Алгебра і початки аналізу. Функції.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку вміння визначати властивості числових функцій, заданих графіком.\n </p>\n<p>\n Якщо функція набуває лише додатних значень <latex>(y\\gt 0)</latex>, її графік має повністю лежати вище від осі <latex>Ox</latex> і не дотикатися її.\n </p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Функції.\n Завдання скеровано на перевірку вміння визначати властивості числових функцій, заданих графіком.\n Якщо функція набуває лише додатних значень (y\\gt 0) , її графік має повністю лежати вище від осі Ox і не дотикатися її.\n Відповідь: Д.",
+   "topic": "Алгебра і початки аналізу. Функції.",
+   "images": [],
+   "text": "На якому рисунку зображено ескіз графіка квадратичної функції, що набуває лише додатних значень на всій області визначення?",
+   "latex": [],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 6
+    }
+   ]
+  },
+  {
+   "id": 35430,
+   "tip": 1,
+   "out_order": 7,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>\n Першого разу з банківської картки зняли <latex>40\\ \\text{%}</latex> усіх грошей, а другого – <span style=\"white-space:nowrap\"><latex>500</latex> грн.</span> Після цього на ній залишилася половина від початкової суми. Скільки гривень залишилося на картці? \n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>2500</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>2000</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>5000</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>4000</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>1500</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Відсотки. Основні задачі на відсотки. Текстові задачі. Лінійні рівняння.\n </strong>\n</p>\n<p>\n Це завдання перевіряє вміння застосовувати рівняння до розв'язування текстових задач, розв'язувати задачі на відсотки.\n </p>\n<p>\n Нехай початкова сума грошей на картці <latex>x</latex> грн. Тоді першого разу зняли <latex>40\\ \\%</latex> від <latex>x</latex>, або <latex>0{,}4x.</latex> Другий раз зняли <latex>500</latex> грн, після цього залишилася половина від початкової суми, тобто <latex>0{,}5x.</latex>\n</p>\n<p>\n Складімо рівняння:\n </p>\n<latex>\\begin{gather*}\n x-0{,}4x-500=0{,}5x,\\\\[7pt]\n 0{,}6x-500=0{,}5x,\\\\[7pt]\n 0{,}6x-0{,}5x=500,\\\\[7pt]\n 0{,}1x=500,\\\\[7pt]\n x=5000.\n \\end{gather*}</latex>\n<p>\n Початкова сума на картці була <latex>5000</latex> грн. На картці залишилася половина від початкової суми: \n <latex>\\begin{gather*}\n 5000:2=2500\\ \\text{грн}.\n \\end{gather*}</latex>\n</p>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Відсотки. Основні задачі на відсотки. Текстові задачі. Лінійні рівняння.\n Це завдання перевіряє вміння застосовувати рівняння до розв'язування текстових задач, розв'язувати задачі на відсотки.\n Нехай початкова сума грошей на картці x грн. Тоді першого разу зняли 40\\ \\% від x , або 0{,}4x. Другий раз зняли 500 грн, після цього залишилася половина від початкової суми, тобто 0{,}5x. \n Складімо рівняння:\n \\begin{gather*}\n x-0{,}4x-500=0{,}5x,\\\\[7pt]\n 0{,}6x-500=0{,}5x,\\\\[7pt]\n 0{,}6x-0{,}5x=500,\\\\[7pt]\n 0{,}1x=500,\\\\[7pt]\n x=5000.\n \\end{gather*} \n Початкова сума на картці була 5000 грн. На картці залишилася половина від початкової суми: \n \\begin{gather*}\n 5000:2=2500\\ \\text{грн}.\n \\end{gather*} \n Відповідь: A.",
+   "topic": "Алгебра і початки аналізу. Числа і вирази. Відсотки. Основні задачі на відсотки. Текстові задачі. Лінійні рівняння.",
+   "images": [],
+   "text": "Першого разу з банківської картки зняли 40\\ \\text{%} усіх грошей, а другого – 500 грн. Після цього на ній залишилася половина від початкової суми. Скільки гривень залишилося на картці?",
+   "latex": [
+    "40\\ \\text{%}",
+    "500",
+    "2500",
+    "2000",
+    "5000",
+    "4000",
+    "1500"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 7
+    }
+   ]
+  },
+  {
+   "id": 35431,
+   "tip": 1,
+   "out_order": 8,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>\n Визначте координати вектора <latex>\\overrightarrow{KL}</latex> якщо <latex>K(3; 2; 4)</latex>, <latex>L(– 1; 2; 0).</latex>\n</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>(4; 0; 4)</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(2; 4; 4)</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>(2; 0; -2)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>(1; 2; 2)</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>(-4; 0; -4)</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Геометрія. Планіметрія. Вектори і координати на площині.\n </strong>\n</p>\n<p>\n Це завдання перевіряє вміння знаходити координати вектора на площині.\n </p>\n<p>\n Якщо <latex>K(x_1; y_1; z_1)</latex>, <latex>L(x_2; y_2; z_2)</latex>, то координати вектора <latex>\\overrightarrow{KL}(x_2-x_1; y_2-y_1; z_2-z_1).</latex>\n</p>\n<latex>\\begin{gather*}\n K(3; 2; 4),\\\\[7pt]\n L(-1; 2; 0),\\\\[7pt]\n \\overrightarrow{KL}(-1-3; 2-2; 0-4),\\\\[7pt]\n \\overrightarrow{KL}(-4; 0; -4).\n \\end{gather*}</latex>\n<br/>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Вектори і координати на площині.\n Це завдання перевіряє вміння знаходити координати вектора на площині.\n Якщо K(x_1; y_1; z_1) , L(x_2; y_2; z_2) , то координати вектора \\overrightarrow{KL}(x_2-x_1; y_2-y_1; z_2-z_1). \n \\begin{gather*}\n K(3; 2; 4),\\\\[7pt]\n L(-1; 2; 0),\\\\[7pt]\n \\overrightarrow{KL}(-1-3; 2-2; 0-4),\\\\[7pt]\n \\overrightarrow{KL}(-4; 0; -4).\n \\end{gather*} \n Відповідь: Д.",
+   "topic": "Геометрія. Планіметрія. Вектори і координати на площині.",
+   "images": [],
+   "text": "Визначте координати вектора \\overrightarrow{KL} якщо K(3; 2; 4) , L(– 1; 2; 0).",
+   "latex": [
+    "\\overrightarrow{KL}",
+    "K(3; 2; 4)",
+    "L(– 1; 2; 0).",
+    "(4; 0; 4)",
+    "(2; 4; 4)",
+    "(2; 0; -2)",
+    "(1; 2; 2)",
+    "(-4; 0; -4)"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 8
+    }
+   ]
+  },
+  {
+   "id": 35432,
+   "tip": 1,
+   "out_order": 9,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>\n<latex>\\sqrt[3]{2^3}\\cdot \\sqrt{36}=</latex>\n</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>12</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>6\\cdot \\sqrt[9]{2}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>6\\cdot \\sqrt[6]{2}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>72</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>6\\sqrt{2}</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Алгебра і початки аналізу. Числа та вирази.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку вміння виконувати тотожні перетворення ірраціональних виразів.\n </p>\n<latex>\\begin{gather*}\n \\sqrt[3]{2^3}\\cdot \\sqrt{36}=2\\cdot \\sqrt{6^2}=2\\cdot 6=12.\n \\end{gather*}</latex>\n<p>\n Застосували властивість: <latex>\\sqrt[3]{a^3}=a.</latex>\n</p>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Числа та вирази.\n Завдання скеровано на перевірку вміння виконувати тотожні перетворення ірраціональних виразів.\n \\begin{gather*}\n \\sqrt[3]{2^3}\\cdot \\sqrt{36}=2\\cdot \\sqrt{6^2}=2\\cdot 6=12.\n \\end{gather*} \n Застосували властивість: \\sqrt[3]{a^3}=a. \n Відповідь: A.",
+   "topic": "Алгебра і початки аналізу. Числа та вирази.",
+   "images": [],
+   "text": "\\sqrt[3]{2^3}\\cdot \\sqrt{36}=",
+   "latex": [
+    "\\sqrt[3]{2^3}\\cdot \\sqrt{36}=",
+    "12",
+    "6\\cdot \\sqrt[9]{2}",
+    "6\\cdot \\sqrt[6]{2}",
+    "72",
+    "6\\sqrt{2}"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 9
+    }
+   ]
+  },
+  {
+   "id": 35433,
+   "tip": 1,
+   "out_order": 10,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>У довільному трикутнику <latex>ABC</latex> проведено медіану <latex>AM</latex> (див. рисунок). Які з наведених тверджень є правильними?</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/354/35433/math-pr-2026-10_1.png\" style=\"height: auto;\" width=\"237\"/></p>\n<p><b>I.</b>   <latex>BM=MC.</latex></p>\n<p><b>II.</b>  Промінь <latex>AM</latex> ділить кут <latex>A</latex> навпіл.</p>\n<p><b>III.</b> Площі трикутників <latex>ABM</latex> і <latex>ACM</latex> рівні.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише I"
+    },
+    {
+     "marker": "Б",
+     "html": "лише І та ІІ"
+    },
+    {
+     "marker": "В",
+     "html": "лише І та ІІІ"
+    },
+    {
+     "marker": "Г",
+     "html": "лише ІІ та ІІІ"
+    },
+    {
+     "marker": "Д",
+     "html": "І, ІІ та ІІІ"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Трикутники.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку вміння застосовувати означення, ознаки та властивості трикутників різних видів, знання властивостей медіани й бісектриси трикутника.\n </p>\n<p>\n<b>I</b>. За означенням, медіана – це відрізок, що сполучає вершину трикутника із серединою протилежної сторони. \n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/354/35433/ds-pr-math-2026-new-10-1.png\" style=\"height: auto;\" width=\"237\"/>\n</div>\n<br/>\n<p>\nОскільки <latex>AM</latex> – медіана, точка <latex>M</latex> ділить сторону <latex>CB</latex> навпіл. Отже, <latex>BM=MC.</latex> <b>Твердження правильне</b>.\n</p>\n<br/>\n<p>\n<b>II</b>. Промінь, що ділить кут навпіл, називають бісектрисою. \n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/354/35433/ds-pr-math-2026-new-10-2.png\" style=\"height: auto;\" width=\"238\"/>\n</div>\n<br/>\n<p>\nУ довільному трикутнику (як зазначено в умові) медіана не збігається з бісектрисою. <b>Твердження неправильне.</b>\n</p>\n<br/>\n<p>\n<b>III</b>. Медіана поділяє трикутник на два трикутники з рівними площами (рівновеликі). Площі трикутників <latex>\\Delta ABM</latex> і <latex>\\Delta ACM</latex> рівні.\n </p>\n<p>\n Площу трикутника можна обчислити за формулою: <latex>S=ah_a.</latex>\n</p>\n<p>\n У трикутників <latex>ABM</latex> та <latex>ACM</latex> основи рівні <latex>(BM = MC)</latex>, а висота <latex>AH</latex>, проведена з вершини <latex>A</latex> до прямої <latex>CB</latex>, у них спільна. \n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/354/35433/ds-pr-math-2026-new-10-3.png\" style=\"height: auto;\" width=\"238\"/>\n</div>\n<br/>\n<p>\n Отже, <latex>S_{\\Delta ABM}=S_{\\Delta ACM}.</latex> <b>Твердження правильне.</b>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Трикутники.\n Завдання скеровано на перевірку вміння застосовувати означення, ознаки та властивості трикутників різних видів, знання властивостей медіани й бісектриси трикутника.\n I . За означенням, медіана – це відрізок, що сполучає вершину трикутника із серединою протилежної сторони. \nОскільки AM – медіана, точка M ділить сторону CB навпіл. Отже, BM=MC. Твердження правильне .\n II . Промінь, що ділить кут навпіл, називають бісектрисою. \nУ довільному трикутнику (як зазначено в умові) медіана не збігається з бісектрисою. Твердження неправильне. \n III . Медіана поділяє трикутник на два трикутники з рівними площами (рівновеликі). Площі трикутників \\Delta ABM і \\Delta ACM рівні.\n Площу трикутника можна обчислити за формулою: S=ah_a. \n У трикутників ABM та ACM основи рівні (BM = MC) , а висота AH , проведена з вершини A до прямої CB , у них спільна. \n Отже, S_{\\Delta ABM}=S_{\\Delta ACM}. Твердження правильне. \n Відповідь: B.",
+   "topic": "Трикутники.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35433/math-pr-2026-10_1.png",
+     "path": "images/doc/images/znotest/354/35433/math-pr-2026-10_1.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35433/ds-pr-math-2026-new-10-1.png",
+     "path": "images/doc/images/znotest/354/35433/ds-pr-math-2026-new-10-1.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35433/ds-pr-math-2026-new-10-2.png",
+     "path": "images/doc/images/znotest/354/35433/ds-pr-math-2026-new-10-2.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35433/ds-pr-math-2026-new-10-3.png",
+     "path": "images/doc/images/znotest/354/35433/ds-pr-math-2026-new-10-3.png"
+    }
+   ],
+   "text": "У довільному трикутнику ABC проведено медіану AM (див. рисунок). Які з наведених тверджень є правильними?\n I. BM=MC. \n II. Промінь AM ділить кут A навпіл.\n III. Площі трикутників ABM і ACM рівні.",
+   "latex": [
+    "ABC",
+    "AM",
+    "BM=MC.",
+    "AM",
+    "A",
+    "ABM",
+    "ACM"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 10
+    }
+   ]
+  },
+  {
+   "id": 35434,
+   "tip": 1,
+   "out_order": 11,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>Скільки всього коренів рівняння <latex>\\cos x=0</latex> належать проміжку <latex>[0; 2\\pi]</latex>?</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодного"
+    },
+    {
+     "marker": "Б",
+     "html": "один"
+    },
+    {
+     "marker": "В",
+     "html": "два"
+    },
+    {
+     "marker": "Г",
+     "html": "три"
+    },
+    {
+     "marker": "Д",
+     "html": "більше за три"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Алгебра і початки аналізу. Рівняння.\n </strong>\n</p>\n<p>\n Завдання перевіряє вміння розв’язувати найпростіші тригонометричні рівняння.\n </p>\n<p>\n Рівняння <latex>\\cos x=0</latex> має загальний розв’язок:\n <latex>\\begin{gather*}\n x=\\frac{\\pi}{2}+\\pi k,\\ \\text{де}\\ k\\in Z.\n \\end{gather*}</latex>\n</p>\n<p>\n Розгляньмо значення <latex>k</latex>, за яких <latex>x</latex> потрапляє в проміжок <latex>[0; 2\\pi].</latex>\n</p>\n<p>\n Якщо <latex>k=0</latex>, то <latex>x=\\frac{\\pi}{2},</latex> тобто належить проміжку <latex>[0; 2\\pi].</latex>\n</p>\n<p>\n Якщо <latex>k=1</latex>, то <latex>x=\\frac{\\pi}{2}+\\pi=\\frac{3\\pi}{2},</latex> тобто належить проміжку <latex>[0; 2\\pi].</latex>\n</p>\n<p>\n Якщо <latex>k=2</latex>, то <latex>x=\\frac{\\pi}{2}+2\\pi=\\frac{5\\pi}{2},</latex> тобто не належить проміжку <latex>[0; 2\\pi].</latex>\n</p>\n<p>\n Якщо <latex>k=-1</latex>, то <latex>x=\\frac{\\pi}{2}-\\pi=-\\frac{\\pi}{2},</latex> тобто не належить проміжку <latex>[0; 2\\pi].</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Рівняння.\n Завдання перевіряє вміння розв’язувати найпростіші тригонометричні рівняння.\n Рівняння \\cos x=0 має загальний розв’язок:\n \\begin{gather*}\n x=\\frac{\\pi}{2}+\\pi k,\\ \\text{де}\\ k\\in Z.\n \\end{gather*} \n Розгляньмо значення k , за яких x потрапляє в проміжок [0; 2\\pi]. \n Якщо k=0 , то x=\\frac{\\pi}{2}, тобто належить проміжку [0; 2\\pi]. \n Якщо k=1 , то x=\\frac{\\pi}{2}+\\pi=\\frac{3\\pi}{2}, тобто належить проміжку [0; 2\\pi]. \n Якщо k=2 , то x=\\frac{\\pi}{2}+2\\pi=\\frac{5\\pi}{2}, тобто не належить проміжку [0; 2\\pi]. \n Якщо k=-1 , то x=\\frac{\\pi}{2}-\\pi=-\\frac{\\pi}{2}, тобто не належить проміжку [0; 2\\pi]. \n Відповідь: B.",
+   "topic": "Алгебра і початки аналізу. Рівняння.",
+   "images": [],
+   "text": "Скільки всього коренів рівняння \\cos x=0 належать проміжку [0; 2\\pi] ?",
+   "latex": [
+    "\\cos x=0",
+    "[0; 2\\pi]"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 11
+    }
+   ]
+  },
+  {
+   "id": 35435,
+   "tip": 1,
+   "out_order": 12,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>Позначте формулу для визначення площі <latex>S</latex> фігури, обмеженої графіками функцій <latex>y=2^x</latex>, <latex>y=2</latex> та прямою <latex>x=0</latex> (див. рисунок).</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/354/35435/122625_math-pr-2026-12.png\" style=\"height: auto;\" width=\"369\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>S=\\mathop{\\int}\\limits_0^2 2^x\\ dx</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>S=\\mathop{\\int}\\limits_0^1 2^x\\ dx</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>S=\\mathop{\\int}\\limits_0^1 (2^x-2)\\ dx</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>S=\\mathop{\\int}\\limits_0^1 (2-2^x)\\ dx</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>S=\\mathop{\\int}\\limits_0^2 (2-2^x)\\ dx</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Первісна й визначений інтеграл. \n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку вміння застосовувати формулу Ньютона – Лейбнiцa для обчислення визначеного інтеграла, обчислювати площу плоских фігур за допомогою інтеграла.\n </p>\n<p>\n Площу зафарбованої фігури можна обчислити за допомогою визначеного інтеграла:\n </p>\n<latex>\\begin{gather*}\n S=\\mathop{\\int}\\limits_a^b (f(x)-g(x))\\ dx,\n \\end{gather*}</latex>\n<p>\n де <latex>f(x)</latex> – це функція, графік якої обмежує фігури згори, а <latex>g(x)</latex> – функція графік якої обмежує фігуру знизу.\n </p>\n<latex>\\begin{gather*}\n S=\\mathop{\\int}\\limits_0^1 (2-2^x)\\ dx.\n \\end{gather*}</latex>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Первісна й визначений інтеграл. \n Завдання скеровано на перевірку вміння застосовувати формулу Ньютона – Лейбнiцa для обчислення визначеного інтеграла, обчислювати площу плоских фігур за допомогою інтеграла.\n Площу зафарбованої фігури можна обчислити за допомогою визначеного інтеграла:\n \\begin{gather*}\n S=\\mathop{\\int}\\limits_a^b (f(x)-g(x))\\ dx,\n \\end{gather*} \n де f(x) – це функція, графік якої обмежує фігури згори, а g(x) – функція графік якої обмежує фігуру знизу.\n \\begin{gather*}\n S=\\mathop{\\int}\\limits_0^1 (2-2^x)\\ dx.\n \\end{gather*} \n Відповідь: Г.",
+   "topic": "Первісна й визначений інтеграл.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35435/122625_math-pr-2026-12.png",
+     "path": "images/doc/images/znotest/354/35435/122625_math-pr-2026-12.png"
+    }
+   ],
+   "text": "Позначте формулу для визначення площі S фігури, обмеженої графіками функцій y=2^x , y=2 та прямою x=0 (див. рисунок).",
+   "latex": [
+    "S",
+    "y=2^x",
+    "y=2",
+    "x=0",
+    "S=\\mathop{\\int}\\limits_0^2 2^x\\ dx",
+    "S=\\mathop{\\int}\\limits_0^1 2^x\\ dx",
+    "S=\\mathop{\\int}\\limits_0^1 (2^x-2)\\ dx",
+    "S=\\mathop{\\int}\\limits_0^1 (2-2^x)\\ dx",
+    "S=\\mathop{\\int}\\limits_0^2 (2-2^x)\\ dx"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 12
+    }
+   ]
+  },
+  {
+   "id": 35437,
+   "tip": 1,
+   "out_order": 13,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>\n Розв’яжіть систему нерівностей \n <latex>\\begin{gather*}\n \\left\\{\\begin{array}{l}\n x^2+4\\ge 0,\\\\\n 2(3x-5)-6\\lt x+8.\n \\end{array}\\right.\n \\end{gather*}</latex>\n</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\varnothing</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>[-4; 4{,}8)</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>[2; 4{,}8)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>(-\\infty; 4{,}8)</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>(-\\infty; -2]\\cup [2; 4{,}8)</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Системи лінійних нерівностей.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку вміння розв’язувати системи лінійних нерівностей, знання властивостей нерівностей.\n </p>\n<p>\n Розв’яжімо першу нерівність:\n </p>\n<latex>\\begin{gather*}\n x^2+4\\ge 0,\\\\[7pt]\n x^2\\ge -4.\n \\end{gather*}</latex>\n<p>\n Ця нерівність справедлива для всіх дійсних чисел <latex>x\\in R.</latex>\n</p>\n<p>\n Розв’яжімо другу нерівність:\n </p>\n<latex>\\begin{gather*}\n 2(3x-5)-6\\lt x+8,\\\\[7pt]\n 6x-10-6\\lt x+8,\\\\[7pt]\n 6x-16\\lt x+8,\\\\[7pt]\n 6x-x\\lt 8+16,\\\\[7pt]\n 5x\\lt 24,\\\\[7pt]\n x\\lt 4{,}8,\\\\[7pt]\n x\\in (-\\infty; 4{,}8).\n \\end{gather*}</latex>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Системи лінійних нерівностей.\n Завдання скеровано на перевірку вміння розв’язувати системи лінійних нерівностей, знання властивостей нерівностей.\n Розв’яжімо першу нерівність:\n \\begin{gather*}\n x^2+4\\ge 0,\\\\[7pt]\n x^2\\ge -4.\n \\end{gather*} \n Ця нерівність справедлива для всіх дійсних чисел x\\in R. \n Розв’яжімо другу нерівність:\n \\begin{gather*}\n 2(3x-5)-6\\lt x+8,\\\\[7pt]\n 6x-10-6\\lt x+8,\\\\[7pt]\n 6x-16\\lt x+8,\\\\[7pt]\n 6x-x\\lt 8+16,\\\\[7pt]\n 5x\\lt 24,\\\\[7pt]\n x\\lt 4{,}8,\\\\[7pt]\n x\\in (-\\infty; 4{,}8).\n \\end{gather*} \n Відповідь: Г.",
+   "topic": "Системи лінійних нерівностей.",
+   "images": [],
+   "text": "Розв’яжіть систему нерівностей \n \\begin{gather*}\n \\left\\{\\begin{array}{l}\n x^2+4\\ge 0,\\\\\n 2(3x-5)-6\\lt x+8.\n \\end{array}\\right.\n \\end{gather*}",
+   "latex": [
+    "\\begin{gather*}\n \\left\\{\\begin{array}{l}\n x^2+4\\ge 0,\\\\\n 2(3x-5)-6\\lt x+8.\n \\end{array}\\right.\n \\end{gather*}",
+    "\\varnothing",
+    "[-4; 4{,}8)",
+    "[2; 4{,}8)",
+    "(-\\infty; 4{,}8)",
+    "(-\\infty; -2]\\cup [2; 4{,}8)"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 13
+    }
+   ]
+  },
+  {
+   "id": 35438,
+   "tip": 1,
+   "out_order": 14,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p><latex>\\dfrac{4x^2-25}{(2x-5)^2}=</latex></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\dfrac{2x+5}{2x-5}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>1</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>2x+5</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\dfrac{1}{2x-5}</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>-1</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Раціональні вирази та їх перетворення.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання формул скороченого множення, уміння розкладати багаточлен на множники й виконувати тотожні перетворення раціональних виразів.\n </p>\n<p>\n Щоб спростити вираз, застосуймо формулу скороченого множення – різниця квадратів:\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\n a^2-b^2=(a-b)(a+b),\\\\[7pt]\n \\frac{4x^2-25}{(2x-5)^2}=\\frac{(2x-5)(2x+5)}{(2x-5)^2}=\\frac{2x+5}{2x-5}.\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Раціональні вирази та їх перетворення.\n Завдання скеровано на перевірку знання формул скороченого множення, уміння розкладати багаточлен на множники й виконувати тотожні перетворення раціональних виразів.\n Щоб спростити вираз, застосуймо формулу скороченого множення – різниця квадратів:\n \\begin{gather*}\n a^2-b^2=(a-b)(a+b),\\\\[7pt]\n \\frac{4x^2-25}{(2x-5)^2}=\\frac{(2x-5)(2x+5)}{(2x-5)^2}=\\frac{2x+5}{2x-5}.\n \\end{gather*} \n Відповідь: A.",
+   "topic": "Раціональні вирази та їх перетворення.",
+   "images": [],
+   "text": "\\dfrac{4x^2-25}{(2x-5)^2}=",
+   "latex": [
+    "\\dfrac{4x^2-25}{(2x-5)^2}=",
+    "\\dfrac{2x+5}{2x-5}",
+    "1",
+    "2x+5",
+    "\\dfrac{1}{2x-5}",
+    "-1"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 14
+    }
+   ]
+  },
+  {
+   "id": 35439,
+   "tip": 1,
+   "out_order": 15,
+   "test_id": 712,
+   "type": "single_choice",
+   "question_html": "<p>На колі вибрано точки <latex>A</latex>, <latex>B</latex> і <latex>C</latex> так, що <latex>\\angle ACB=30^\\circ</latex> (див. рисунок). Визначте довжину (см) цього кола, якщо довжина меншої дуги <latex>AB</latex> дорівнює <latex>25</latex> см.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/354/35439/122651_math-pr-2026-15.png\" style=\"height: auto;\" width=\"270\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>150</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>300</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>250</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>200</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>360</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Геометрія. Планіметрія. Коло та круг.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання властивостей вписаного та центрального кутів, уміння визначати довжину дуги кола.\n </p>\n<p>\n Точка <latex>O</latex> – центр кола. За властивістю вписаного кута\n <latex>\\begin{gather*}\n \\angle ACB=\\frac 12\\angle AOB,\n \\end{gather*}</latex>\n<latex>O</latex> – центр кола. Вписаний кут у колі дорівнює половині дуги, на яку він спирається, або половині відповідного центрального кута. \n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/354/35439/ds-pr-math-2026-new-15.png\" style=\"height: auto;\" width=\"264\"/>\n</div>\n<br/>\n<latex>\\begin{gather*}\n \\angle AOB=2\\cdot \\angle ACB=2\\cdot 30^\\circ=60^\\circ.\n \\end{gather*}</latex>\n<p>\n Градусна міра дуги <latex>AB</latex> дорівнює <latex>60^\\circ.</latex> За формулою довжини дуги \n </p>\n<latex>\\begin{gather*}\n l=\\frac{L}{360^\\circ}\\cdot n,\n \\end{gather*}</latex>\n<p>\n де <latex>L</latex> – довжина кола, <latex>n</latex> – градусна міра центрального кута (градусна міра дуги).\n </p>\n<p>\n Тобто\n </p>\n<latex>\\begin{gather*}\n 25=\\frac{L\\cdot 60^\\circ}{360^\\circ},\\\\[6pt]\n 25=\\frac L6,\\\\[6pt]\n L=25\\cdot 6=150\\ \\text{см}.\n \\end{gather*}</latex>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Коло та круг.\n Завдання скеровано на перевірку знання властивостей вписаного та центрального кутів, уміння визначати довжину дуги кола.\n Точка O – центр кола. За властивістю вписаного кута\n \\begin{gather*}\n \\angle ACB=\\frac 12\\angle AOB,\n \\end{gather*} \n O – центр кола. Вписаний кут у колі дорівнює половині дуги, на яку він спирається, або половині відповідного центрального кута. \n \\begin{gather*}\n \\angle AOB=2\\cdot \\angle ACB=2\\cdot 30^\\circ=60^\\circ.\n \\end{gather*} \n Градусна міра дуги AB дорівнює 60^\\circ. За формулою довжини дуги \n \\begin{gather*}\n l=\\frac{L}{360^\\circ}\\cdot n,\n \\end{gather*} \n де L – довжина кола, n – градусна міра центрального кута (градусна міра дуги).\n Тобто\n \\begin{gather*}\n 25=\\frac{L\\cdot 60^\\circ}{360^\\circ},\\\\[6pt]\n 25=\\frac L6,\\\\[6pt]\n L=25\\cdot 6=150\\ \\text{см}.\n \\end{gather*} \n Відповідь: A.",
+   "topic": "Геометрія. Планіметрія. Коло та круг.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35439/122651_math-pr-2026-15.png",
+     "path": "images/doc/images/znotest/354/35439/122651_math-pr-2026-15.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35439/ds-pr-math-2026-new-15.png",
+     "path": "images/doc/images/znotest/354/35439/ds-pr-math-2026-new-15.png"
+    }
+   ],
+   "text": "На колі вибрано точки A , B і C так, що \\angle ACB=30^\\circ (див. рисунок). Визначте довжину (см) цього кола, якщо довжина меншої дуги AB дорівнює 25 см.",
+   "latex": [
+    "A",
+    "B",
+    "C",
+    "\\angle ACB=30^\\circ",
+    "AB",
+    "25",
+    "150",
+    "300",
+    "250",
+    "200",
+    "360"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 15
+    }
+   ]
+  },
+  {
+   "id": 35440,
+   "tip": 13,
+   "out_order": 16,
+   "test_id": 712,
+   "type": "matching",
+   "question_html": "<p>\n Доберіть до початку речення (1–3) його закінчення (А – Д) так, щоб утворилося правильне твердження. \n </p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Функція <latex>y=\\log_{0{,}5}x</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "Функція <latex>y=\\sin x</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "Функція <latex>y=\\frac{1}{2x-2}</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "не визначена в точці <latex>x=1.</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "набуває від’ємного значення в точці <latex>x=2.</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "є непарною."
+    },
+    {
+     "marker": "Г",
+     "html": "має лише одну точку екстремуму."
+    },
+    {
+     "marker": "Д",
+     "html": "зростає на проміжку <latex>(0; +\\infty).</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Початок речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "Функція <latex>y=\\log_{0{,}5}x</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Функція <latex>y=\\sin x</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Функція <latex>y=\\frac{1}{2x-2}</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Закінчення речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "не визначена в точці <latex>x=1.</latex>"
+      },
+      {
+       "marker": "",
+       "html": "набуває від’ємного значення в точці <latex>x=2.</latex>"
+      },
+      {
+       "marker": "",
+       "html": "є непарною."
+      },
+      {
+       "marker": "",
+       "html": "має лише одну точку екстремуму."
+      },
+      {
+       "marker": "",
+       "html": "зростає на проміжку <latex>(0; +\\infty).</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1b;2c;3a",
+   "correct": [
+    "1b",
+    "2c",
+    "3a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Алгебра і початки аналізу. Функції.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку вміння установлювати властивості числових функцій, заданих формулою або графіком.\n </p>\n<p>\n Побудуймо задані графіки функцій.\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<p>\n<b>1</b>. <latex>y=\\log_{0{,}5}x</latex> набуває від’ємного значення в точці <latex>x=2.</latex>\n<latex>\\begin{gather*}\n \\log_{0{,}5} 2=\\log_{2^{-1}} 2=-1\\cdot \\log_2 2=-1.\n \\end{gather*}</latex>\n</p>\n</div>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/354/35440/ds-pr-math-2026-new-16-1.png\" style=\"height: auto;\" width=\"326\"/>\n</div>\n<br/>\n<p>\n Отже, правильна відповідь – <b>Б</b>.\n </p>\n<br/>\n<p>\n<b>2</b>. <latex>y=\\sin x</latex> непарна функція.\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/354/35440/ds-pr-math-2026-new-16-2.png\" style=\"height: auto;\" width=\"494\"/>\n</div>\n<br/>\n<p>\n Функція <latex>y=\\sin x</latex> є непарною, бо для неї виконується рівність <latex>\\sin (-x)=\\sin (x)</latex>, її графік є симетричним відносно початку координат. Отже, правильна відповідь – <b>В</b>.\n </p>\n<br/>\n<p>\n<b>3</b>. <latex>y=\\frac{1}{2x-2}</latex> не визначена в точці <latex>x=1</latex>, бо\n <latex>\\begin{gather*}\n 2x-2\\ne 0,\\\\[7pt]\n 2x\\ne 2,\\\\[7pt]\n x\\ne 1.\n \\end{gather*}</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/354/35440/ds-pr-math-2026-new-16-3.png\" style=\"height: auto;\" width=\"358\"/>\n</div>\n<br/>\n<p>\n Отже, правильна відповідь – <b>A</b>.\n </p>\n<br/>\n<p><strong>Відповідь: 1 – Б, 2 – B, 3 – A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Функції.\n Завдання скеровано на перевірку вміння установлювати властивості числових функцій, заданих формулою або графіком.\n Побудуймо задані графіки функцій.\n 1 . y=\\log_{0{,}5}x набуває від’ємного значення в точці x=2. \n \\begin{gather*}\n \\log_{0{,}5} 2=\\log_{2^{-1}} 2=-1\\cdot \\log_2 2=-1.\n \\end{gather*} \n Отже, правильна відповідь – Б .\n 2 . y=\\sin x непарна функція.\n Функція y=\\sin x є непарною, бо для неї виконується рівність \\sin (-x)=\\sin (x) , її графік є симетричним відносно початку координат. Отже, правильна відповідь – В .\n 3 . y=\\frac{1}{2x-2} не визначена в точці x=1 , бо\n \\begin{gather*}\n 2x-2\\ne 0,\\\\[7pt]\n 2x\\ne 2,\\\\[7pt]\n x\\ne 1.\n \\end{gather*} \n Отже, правильна відповідь – A .\n Відповідь: 1 – Б, 2 – B, 3 – A.",
+   "topic": "Алгебра і початки аналізу. Функції.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35440/ds-pr-math-2026-new-16-1.png",
+     "path": "images/doc/images/znotest/354/35440/ds-pr-math-2026-new-16-1.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35440/ds-pr-math-2026-new-16-2.png",
+     "path": "images/doc/images/znotest/354/35440/ds-pr-math-2026-new-16-2.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35440/ds-pr-math-2026-new-16-3.png",
+     "path": "images/doc/images/znotest/354/35440/ds-pr-math-2026-new-16-3.png"
+    }
+   ],
+   "text": "Доберіть до початку речення (1–3) його закінчення (А – Д) так, щоб утворилося правильне твердження.",
+   "latex": [
+    "y=\\log_{0{,}5}x",
+    "y=\\sin x",
+    "y=\\frac{1}{2x-2}",
+    "x=1.",
+    "x=2.",
+    "(0; +\\infty)."
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 16
+    }
+   ]
+  },
+  {
+   "id": 35441,
+   "tip": 13,
+   "out_order": 17,
+   "test_id": 712,
+   "type": "matching",
+   "question_html": "<p>\n Узгодьте вираз (1–3) із його значенням (А – Д), якщо <latex>m=-\\frac 43.</latex>\n</p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "<latex>|m-4|</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "<latex>4m^{-1}</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "<latex>(3m+1)^0</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>-3</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>1</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>0</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>3</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>\\frac{16}{3}</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Вираз",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>|m-4|</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>4m^{-1}</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>(3m+1)^0</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Значення виразу",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>-3</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>0</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>3</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\frac{16}{3}</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1e;2a;3b",
+   "correct": [
+    "1e",
+    "2a",
+    "3b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Числа і вирази. Дійсні числа.\n </strong>\n</p>\n<p>\n Це завдання перевіряє знання властивостей степеня із цілим показником, уміння використовувати властивості модуля числа.\n </p>\n<p>\n<b>1</b>. За означенням модуля числа:\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\n |a|=\\left\\{\\begin{array}{l}\n a,\\ \\text{якщо}\\ a\\ge 0, \\\\\n -a,\\ \\text{якщо}\\ a\\lt 0.\n \\end{array}\\right.\\\\[7pt]\n \\left|-\\frac 43-4\\right|= \\left|-\\frac 43-\\frac{12}{3}\\right|= \\left|-\\frac{16}{3}\\right|=\\frac{16}{3}.\n \\end{gather*}</latex>\n</div>\n<p>\n Отже, 1 – Д.\n </p>\n<br/>\n<p>\n<b>2</b>. Щоб розв'язати це завдання, достатньо скористатися формулою:\n </p>\n<latex>\\begin{gather*}\n a^{-n}=\\frac{1}{a^n}\\ \\text{для}\\ a\\ne 0,\\ n\\in N.\n \\end{gather*}</latex>\n<p>\n Тобто\n </p>\n<latex>\\begin{gather*}\n 4\\cdot \\left(-\\frac 43\\right)^{-1}=4\\cdot \\left(-\\frac 34\\right)=-3.\n \\end{gather*}</latex>\n<p>\n Отже, 2 – A.\n </p>\n<br/>\n<p>\n<b>3</b>. Щоб розв'язати це завдання, достатньо скористатися формулою:\n </p>\n<latex>\\begin{gather*}\n a^0=1,\\ \\text{де}\\ a\\ne 0,\\\\[7pt]\n \\left(3\\cdot \\left(-\\frac 43\\right)+1\\right)^0=1.\n \\end{gather*}</latex>\n<p>\n Отже, 3 – Б.\n </p>\n<p><strong>Відповідь: 1 – Д, 2 – А, 3 – Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Числа і вирази. Дійсні числа.\n Це завдання перевіряє знання властивостей степеня із цілим показником, уміння використовувати властивості модуля числа.\n 1 . За означенням модуля числа:\n \\begin{gather*}\n |a|=\\left\\{\\begin{array}{l}\n a,\\ \\text{якщо}\\ a\\ge 0, \\\\\n -a,\\ \\text{якщо}\\ a\\lt 0.\n \\end{array}\\right.\\\\[7pt]\n \\left|-\\frac 43-4\\right|= \\left|-\\frac 43-\\frac{12}{3}\\right|= \\left|-\\frac{16}{3}\\right|=\\frac{16}{3}.\n \\end{gather*} \n Отже, 1 – Д.\n 2 . Щоб розв'язати це завдання, достатньо скористатися формулою:\n \\begin{gather*}\n a^{-n}=\\frac{1}{a^n}\\ \\text{для}\\ a\\ne 0,\\ n\\in N.\n \\end{gather*} \n Тобто\n \\begin{gather*}\n 4\\cdot \\left(-\\frac 43\\right)^{-1}=4\\cdot \\left(-\\frac 34\\right)=-3.\n \\end{gather*} \n Отже, 2 – A.\n 3 . Щоб розв'язати це завдання, достатньо скористатися формулою:\n \\begin{gather*}\n a^0=1,\\ \\text{де}\\ a\\ne 0,\\\\[7pt]\n \\left(3\\cdot \\left(-\\frac 43\\right)+1\\right)^0=1.\n \\end{gather*} \n Отже, 3 – Б.\n Відповідь: 1 – Д, 2 – А, 3 – Б.",
+   "topic": "Числа і вирази. Дійсні числа.",
+   "images": [],
+   "text": "Узгодьте вираз (1–3) із його значенням (А – Д), якщо m=-\\frac 43.",
+   "latex": [
+    "m=-\\frac 43.",
+    "|m-4|",
+    "4m^{-1}",
+    "(3m+1)^0",
+    "-3",
+    "1",
+    "0",
+    "3",
+    "\\frac{16}{3}"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 17
+    }
+   ]
+  },
+  {
+   "id": 35442,
+   "tip": 13,
+   "out_order": 18,
+   "test_id": 712,
+   "type": "matching",
+   "question_html": "<p>На рисунку зображено прямокутну трапецію <latex>ABCD.</latex> Точка <latex>O</latex> – середина діагоналі <latex>AC</latex>, <latex>AB=BC</latex>, <latex>AC=40</latex> см, <latex>CD=24</latex> см. Узгодьте відрізок (1–3) із його довжиною (А – Д).</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/354/35442/122717_math-pr-2026-18.png\" style=\"height: auto;\" width=\"247\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "<latex>AO</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "<latex>AD</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "<latex>AB</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>20</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>16</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>25</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>27</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>32</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Відрізок",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>AO</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>AD</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>AB</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Довжина (см) відрізка",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>20</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>16</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>25</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>27</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>32</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1a;2e;3c",
+   "correct": [
+    "1a",
+    "2e",
+    "3c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Чотирикутники. Трикутники.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання властивостей трапеції, трикутників, уміння застосовувати теорему косинусів.\n </p>\n<p>\n<b>1</b>. Оскільки точка <latex>O</latex> – середина діагоналі <latex>AC</latex>, то \n </p>\n<latex>\\begin{gather*}\n AO=\\frac 12AC,\\\\[7pt]\n AO=40:2=20\\ \\text{см}.\n \\end{gather*}</latex>\n<p>\n Отже, 1 – А.\n </p>\n<br/>\n<p>\n<b>2</b>. Розгляньмо прямокутний трикутник <latex>\\Delta ACD\\ (\\angle D=90^\\circ).</latex> За теоремою Піфагора:\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\n AD^2+CD^2=AC^2,\\\\[7pt]\n AD^2=40^2-24^2=1600-576=1024,\\\\[7pt]\n AD=\\sqrt{1024}=32\\ \\text{см}.\n \\end{gather*}</latex>\n</div>\n<p>\n Отже, 2 – Д.\n </p>\n<br/>\n<p>\n<b>3</b>.\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/354/35442/ds-pr-math-2026-new-18.png\" style=\"height: auto;\" width=\"245\"/>\n</div>\n<br/>\n<p>\n Нехай <latex>BC=x.</latex>\n</p>\n<p>\n Оскільки <latex>AB=BC</latex>, то <latex>AB=x.</latex>\n</p>\n<p>\n Проведімо висоту з точки <latex>B</latex> на основу <latex>AD.</latex> Нехай це буде <latex>BK</latex>. У прямокутній трапеції висота <latex>BK=CD=24</latex> см. Відрізок <latex>AK=AD-KD.</latex>\n</p>\n<p>\n Оскільки <latex>BCDK</latex> – прямокутник, то <latex>KD=BC=x.</latex> Отже, <latex>AK=32-x.</latex>\n</p>\n<p>\n У прямокутному трикутнику <latex>\\Delta ABK</latex> за теоремою Піфагора:\n </p>\n<latex>\\begin{gather*}\n AB^2=AK^2+BK^2,\\\\[7pt]\n x^2=(32-x)^2+24^2,\\\\[7pt]\n x^2=1024-64x+x^2+576,\\\\[7pt]\n 64x=1600,\\\\[7pt]\n x=25\\ \\text{см},\\\\[7pt]\n AB=25\\ \\text{см}.\n \\end{gather*}</latex>\n<p>\n Отже, 3 – B.\n </p>\n<p><strong>Відповідь: 1 – A, 2 – Д, 3 – В.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Чотирикутники. Трикутники.\n Завдання скеровано на перевірку знання властивостей трапеції, трикутників, уміння застосовувати теорему косинусів.\n 1 . Оскільки точка O – середина діагоналі AC , то \n \\begin{gather*}\n AO=\\frac 12AC,\\\\[7pt]\n AO=40:2=20\\ \\text{см}.\n \\end{gather*} \n Отже, 1 – А.\n 2 . Розгляньмо прямокутний трикутник \\Delta ACD\\ (\\angle D=90^\\circ). За теоремою Піфагора:\n \\begin{gather*}\n AD^2+CD^2=AC^2,\\\\[7pt]\n AD^2=40^2-24^2=1600-576=1024,\\\\[7pt]\n AD=\\sqrt{1024}=32\\ \\text{см}.\n \\end{gather*} \n Отже, 2 – Д.\n 3 .\n Нехай BC=x. \n Оскільки AB=BC , то AB=x. \n Проведімо висоту з точки B на основу AD. Нехай це буде BK . У прямокутній трапеції висота BK=CD=24 см. Відрізок AK=AD-KD. \n Оскільки BCDK – прямокутник, то KD=BC=x. Отже, AK=32-x. \n У прямокутному трикутнику \\Delta ABK за теоремою Піфагора:\n \\begin{gather*}\n AB^2=AK^2+BK^2,\\\\[7pt]\n x^2=(32-x)^2+24^2,\\\\[7pt]\n x^2=1024-64x+x^2+576,\\\\[7pt]\n 64x=1600,\\\\[7pt]\n x=25\\ \\text{см},\\\\[7pt]\n AB=25\\ \\text{см}.\n \\end{gather*} \n Отже, 3 – B.\n Відповідь: 1 – A, 2 – Д, 3 – В.",
+   "topic": "Чотирикутники. Трикутники.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35442/122717_math-pr-2026-18.png",
+     "path": "images/doc/images/znotest/354/35442/122717_math-pr-2026-18.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35442/ds-pr-math-2026-new-18.png",
+     "path": "images/doc/images/znotest/354/35442/ds-pr-math-2026-new-18.png"
+    }
+   ],
+   "text": "На рисунку зображено прямокутну трапецію ABCD. Точка O – середина діагоналі AC , AB=BC , AC=40 см, CD=24 см. Узгодьте відрізок (1–3) із його довжиною (А – Д).",
+   "latex": [
+    "ABCD.",
+    "O",
+    "AC",
+    "AB=BC",
+    "AC=40",
+    "CD=24",
+    "AO",
+    "AD",
+    "AB",
+    "20",
+    "16",
+    "25",
+    "27",
+    "32"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 18
+    }
+   ]
+  },
+  {
+   "id": 35443,
+   "tip": 8,
+   "out_order": 19,
+   "test_id": 712,
+   "type": "short_answer",
+   "question_html": "<p>\n Задано функцію\n <latex>\\begin{gather*}\n f(x)=\\left\\{\\begin{array}{l}\n 30, x\\lt -2,\\\\\n 2x^4+x,\\ x\\ge -2.\n \\end{array}\\right.\n \\end{gather*}</latex>\n Обчисліть значення виразу <latex>f(-3)-f'(2).</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "-35",
+   "correct": [
+    "-35"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Функціональна залежність. Похідна функції.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку вміння визначати властивості числових функцій, заданих формулою, похідну функції, числове значення похідної функції в точці для заданого значення аргумента.\n </p>\n<latex>\\begin{gather*}\n f(x)=\\left\\{\\begin{array}{l}\n 30,\\ \\text{якщо}\\ x\\lt -2, \\\\\n 2x^4+x,\\ \\text{якщо}\\ x\\ge -2.\n \\end{array}\\right.\n \\end{gather*}</latex>\n<p>\n Якщо <latex>x\\lt -2,\\ f(x)=30.</latex> Отже, <latex>f(-3)=30.</latex>\n</p>\n<p>\n Якщо <latex>x\\ge -2,\\ f(x)=2x^4+x.</latex>\n</p>\n<latex>\\begin{gather*}\n f'(x)=2\\cdot 4x^3+1=8x^3+1,\\\\[7pt]\n f'(2)=8\\cdot 2^3+1=64+1=65.\n \\end{gather*}</latex>\n<p>\n Обчислимо\n </p>\n<latex>\\begin{gather*}\n f(-3)-f'(2)=30-65=-35.\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>-35.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Функціональна залежність. Похідна функції.\n Завдання скеровано на перевірку вміння визначати властивості числових функцій, заданих формулою, похідну функції, числове значення похідної функції в точці для заданого значення аргумента.\n \\begin{gather*}\n f(x)=\\left\\{\\begin{array}{l}\n 30,\\ \\text{якщо}\\ x\\lt -2, \\\\\n 2x^4+x,\\ \\text{якщо}\\ x\\ge -2.\n \\end{array}\\right.\n \\end{gather*} \n Якщо x\\lt -2,\\ f(x)=30. Отже, f(-3)=30. \n Якщо x\\ge -2,\\ f(x)=2x^4+x. \n \\begin{gather*}\n f'(x)=2\\cdot 4x^3+1=8x^3+1,\\\\[7pt]\n f'(2)=8\\cdot 2^3+1=64+1=65.\n \\end{gather*} \n Обчислимо\n \\begin{gather*}\n f(-3)-f'(2)=30-65=-35.\n \\end{gather*} \n Відповідь: -35.",
+   "topic": "Функціональна залежність. Похідна функції.",
+   "images": [],
+   "text": "Задано функцію\n \\begin{gather*}\n f(x)=\\left\\{\\begin{array}{l}\n 30, x\\lt -2,\\\\\n 2x^4+x,\\ x\\ge -2.\n \\end{array}\\right.\n \\end{gather*} \n Обчисліть значення виразу f(-3)-f'(2).",
+   "latex": [
+    "\\begin{gather*}\n f(x)=\\left\\{\\begin{array}{l}\n 30, x\\lt -2,\\\\\n 2x^4+x,\\ x\\ge -2.\n \\end{array}\\right.\n \\end{gather*}",
+    "f(-3)-f'(2)."
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 19
+    }
+   ]
+  },
+  {
+   "id": 35444,
+   "tip": 8,
+   "out_order": 20,
+   "test_id": 712,
+   "type": "short_answer",
+   "question_html": "<p>\n У квітковому магазині є <latex>12</latex> білих та <latex>25</latex> червоних троянд. Покупець замовив у цьому магазині букет із двох білих троянд й однієї червоної. Скільки всього є варіантів такого вибору? \n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "1650",
+   "correct": [
+    "1650"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Перестановки, комбінації, розміщення. Комбінаторні правила суми та добутку.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку вміння розв’язувати задачі, використовуючи комбінації та комбінаторні правила добутку для розв’язання комбінаторних задач.\n </p>\n<p>\n Для розв'язання використаймо формулу комбінацій:\n </p>\n<latex>\\begin{gather*}\n C_n^k=\\frac{n!}{k!\\cdot (n-k)!},\n \\end{gather*}</latex>\n<p>\n оскільки порядок вибору квітів у букеті не має значення.\n </p>\n<latex>\\begin{gather*}\n 1\\cdot 2\\cdot 3\\cdot\\ \\text{...}\\ \\cdot n=n!\n \\end{gather*}</latex>\n<p>\n Виберімо <latex>2</latex> <b>білі троянди</b> з <latex>12</latex> наявних.\n </p>\n<p>\n Використаймо формулу:\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\n C_{12}^2=\\frac{12!}{2!\\cdot (12-2)!}=\\frac{12!}{2!\\cdot 10!}=\\frac{11\\cdot 12}{2}=66\\ \\text{варіантів}.\n \\end{gather*}</latex>\n</div>\n<p>\n Виберімо <latex>1</latex> <b>червону троянду</b> з <latex>25</latex> наявних.\n </p>\n<p>\n Тут усе просто: вибрати <latex>1</latex> об’єкт із <latex>25</latex> можна <latex>25</latex> <b>способами</b>:\n <latex>\\begin{gather*}\n C_{25}^1=25.\n \\end{gather*}</latex>\n</p>\n<p>\n Оскільки нам треба вибрати <latex>2</latex> білі й <latex>1</latex> червону троянду одночасно, кількість варіантів такого вибору визначмо за комбінаторним правилом добутку:\n </p>\n<latex>\\begin{gather*}\n C_{12}^2\\cdot C_{25}^1=66\\cdot 25=1650.\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>1650.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Перестановки, комбінації, розміщення. Комбінаторні правила суми та добутку.\n Завдання скеровано на перевірку вміння розв’язувати задачі, використовуючи комбінації та комбінаторні правила добутку для розв’язання комбінаторних задач.\n Для розв'язання використаймо формулу комбінацій:\n \\begin{gather*}\n C_n^k=\\frac{n!}{k!\\cdot (n-k)!},\n \\end{gather*} \n оскільки порядок вибору квітів у букеті не має значення.\n \\begin{gather*}\n 1\\cdot 2\\cdot 3\\cdot\\ \\text{...}\\ \\cdot n=n!\n \\end{gather*} \n Виберімо 2 білі троянди з 12 наявних.\n Використаймо формулу:\n \\begin{gather*}\n C_{12}^2=\\frac{12!}{2!\\cdot (12-2)!}=\\frac{12!}{2!\\cdot 10!}=\\frac{11\\cdot 12}{2}=66\\ \\text{варіантів}.\n \\end{gather*} \n Виберімо 1 червону троянду з 25 наявних.\n Тут усе просто: вибрати 1 об’єкт із 25 можна 25 способами :\n \\begin{gather*}\n C_{25}^1=25.\n \\end{gather*} \n Оскільки нам треба вибрати 2 білі й 1 червону троянду одночасно, кількість варіантів такого вибору визначмо за комбінаторним правилом добутку:\n \\begin{gather*}\n C_{12}^2\\cdot C_{25}^1=66\\cdot 25=1650.\n \\end{gather*} \n Відповідь: 1650.",
+   "topic": "Перестановки, комбінації, розміщення. Комбінаторні правила суми та добутку.",
+   "images": [],
+   "text": "У квітковому магазині є 12 білих та 25 червоних троянд. Покупець замовив у цьому магазині букет із двох білих троянд й однієї червоної. Скільки всього є варіантів такого вибору?",
+   "latex": [
+    "12",
+    "25"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 20
+    }
+   ]
+  },
+  {
+   "id": 35445,
+   "tip": 8,
+   "out_order": 21,
+   "test_id": 712,
+   "type": "short_answer",
+   "question_html": "<p>\n Основою прямої призми є ромб із гострим кутом <latex>60^\\circ.</latex> Площа більшого діагонального перерізу призми дорівнює <latex>240\\sqrt{3}.</latex> Обчисліть об’єм призми, якщо її висота дорівнює <latex>8\\sqrt{3}.</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "3600",
+   "correct": [
+    "3600"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Стереометрія. Прямі та площини ву просторі. Многогранники. </strong></p>\n<p>Завдання перевіряє вміння розв’язувати стереометричні задачі, задачі на обчислення об’єму призми.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"images/doc/images/znotest/354/35445/ds-pr-math-2026-new-21-1-new.png\" style=\"height: auto;\" width=\"215\"/></div>\n<p> </p>\n<p><b>1</b>. <b>Визначмо більшу діагональ основи</b> <latex>(AC).</latex></p>\n<p> </p>\n<p>Діагональний переріз прямої призми – це прямокутник, сторонами якого є діагональ основи та висота призми <latex>(H=AA_1=8\\sqrt{3}).</latex> Оскільки переріз більший, він проходить через більшу діагональ ромба <latex>(AC).</latex></p>\n<p>Формула площі перерізу: <latex>S_{AA_1C_1C}=AC\\cdot AA_1.</latex></p>\n<p>Звідси визначмо більшу діагональ:</p>\n<latex>\\begin{gather*} AC=\\frac{S_{AA_1C_1C}}{AA_1}=\\frac{240\\sqrt{3}}{8\\sqrt{3}}=30. \\end{gather*}</latex>\n<p> </p>\n<p><b>2</b>. <b>Визначмо меншу діагональ ромба</b> <latex>(BD).</latex></p>\n<p> </p>\n<p>У ромбі з гострим кутом <latex>60^\\circ</latex> діагоналі розбивають його на чотири прямокутні трикутники, або менша діагональ ділить ромб на два рівносторонні трикутники. Сторона ромба дорівнює меншій діагоналі <latex>CD=BD</latex> (бо трикутник <latex>\\Delta BCD</latex> рівносторонній). Визначмо сторону <latex>CD</latex> ромба:</p>\n<p> </p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"images/doc/images/znotest/354/35445/ds-pr-math-2026-new-21-2.png\" style=\"height: auto;\" width=\"164\"/></div>\n<p> </p>\n<div class=\"more\" style=\"width: 100%;\"><latex>\\begin{gather*} CO=AC:2=30:2=15,\\\\[6pt] \\Delta COD{:}\\ \\cos 30^\\circ=\\frac{CO}{CD},\\\\[6pt] CD=\\frac{CO}{\\cos\\ 30^\\circ}=\\frac{15}{\\frac{\\sqrt{3}}{2}}=\\frac{15\\cdot 2}{\\sqrt{3}}=\\frac{30}{\\sqrt{3}}=10\\sqrt{3}. \\end{gather*}</latex></div>\n<p> </p>\n<p><b>3</b>. <b>Обчислімо площу основи</b> <latex>(S_\\text{осн}).</latex></p>\n<p> </p>\n<p>Обчислімо площу ромба через його діагоналі: <latex>\\begin{gather*} S=\\frac 12d_1d_2, \\end{gather*}</latex> <latex>d_1</latex>, <latex>d_2</latex> – діагоналі ромба.</p>\n<p> </p>\n<div class=\"more\" style=\"width: 100%;\"><latex>\\begin{gather*} S_\\text{осн}=AC\\cdot BD=30\\cdot 10\\sqrt{3}=150\\sqrt{3}. \\end{gather*}</latex></div>\n<p> </p>\n<p><b>4</b>. <b>Обчислімо об'єм <latex>(V)</latex> призми</b> за формулою:</p>\n<p> </p>\n<div class=\"more\" style=\"width: 100%;\"><latex>\\begin{gather*} V=S_\\text{осн}\\cdot H,\\\\[7pt] V=150\\sqrt{3}\\cdot 8\\sqrt{3}=150\\cdot 8\\cdot 3=3600. \\end{gather*}</latex></div>\n<p> </p>\n<p><strong>Відповідь: <latex>3600.</latex></strong></p>\n<p> </p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини ву просторі. Многогранники. \n Завдання перевіряє вміння розв’язувати стереометричні задачі, задачі на обчислення об’єму призми.\n 1 . Визначмо більшу діагональ основи (AC). \n Діагональний переріз прямої призми – це прямокутник, сторонами якого є діагональ основи та висота призми (H=AA_1=8\\sqrt{3}). Оскільки переріз більший, він проходить через більшу діагональ ромба (AC). \n Формула площі перерізу: S_{AA_1C_1C}=AC\\cdot AA_1. \n Звідси визначмо більшу діагональ:\n \\begin{gather*} AC=\\frac{S_{AA_1C_1C}}{AA_1}=\\frac{240\\sqrt{3}}{8\\sqrt{3}}=30. \\end{gather*} \n 2 . Визначмо меншу діагональ ромба (BD). \n У ромбі з гострим кутом 60^\\circ діагоналі розбивають його на чотири прямокутні трикутники, або менша діагональ ділить ромб на два рівносторонні трикутники. Сторона ромба дорівнює меншій діагоналі CD=BD (бо трикутник \\Delta BCD рівносторонній). Визначмо сторону CD ромба:\n \\begin{gather*} CO=AC:2=30:2=15,\\\\[6pt] \\Delta COD{:}\\ \\cos 30^\\circ=\\frac{CO}{CD},\\\\[6pt] CD=\\frac{CO}{\\cos\\ 30^\\circ}=\\frac{15}{\\frac{\\sqrt{3}}{2}}=\\frac{15\\cdot 2}{\\sqrt{3}}=\\frac{30}{\\sqrt{3}}=10\\sqrt{3}. \\end{gather*} \n 3 . Обчислімо площу основи (S_\\text{осн}). \n Обчислімо площу ромба через його діагоналі: \\begin{gather*} S=\\frac 12d_1d_2, \\end{gather*} d_1 , d_2 – діагоналі ромба.\n \\begin{gather*} S_\\text{осн}=AC\\cdot BD=30\\cdot 10\\sqrt{3}=150\\sqrt{3}. \\end{gather*} \n 4 . Обчислімо об'єм (V) призми за формулою:\n \\begin{gather*} V=S_\\text{осн}\\cdot H,\\\\[7pt] V=150\\sqrt{3}\\cdot 8\\sqrt{3}=150\\cdot 8\\cdot 3=3600. \\end{gather*} \n Відповідь: 3600.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини ву просторі. Многогранники.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35445/ds-pr-math-2026-new-21-1-new.png",
+     "path": "images/doc/images/znotest/354/35445/ds-pr-math-2026-new-21-1-new.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35445/ds-pr-math-2026-new-21-2.png",
+     "path": "images/doc/images/znotest/354/35445/ds-pr-math-2026-new-21-2.png"
+    }
+   ],
+   "text": "Основою прямої призми є ромб із гострим кутом 60^\\circ. Площа більшого діагонального перерізу призми дорівнює 240\\sqrt{3}. Обчисліть об’єм призми, якщо її висота дорівнює 8\\sqrt{3}.",
+   "latex": [
+    "60^\\circ.",
+    "240\\sqrt{3}.",
+    "8\\sqrt{3}."
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 21
+    }
+   ]
+  },
+  {
+   "id": 35446,
+   "tip": 8,
+   "out_order": 22,
+   "test_id": 712,
+   "type": "short_answer",
+   "question_html": "<p>\n За якого <b>найбільшого</b> значення <latex>a</latex> рівняння \n <latex>\\begin{gather*}\n 3^x+(4a^2+10a)\\cdot 3^{-x}=4a+5\n \\end{gather*}</latex>\n не має коренів?\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "-2.5",
+   "correct": [
+    "-2.5"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Показникові. Раціональні рівняння.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку вміння розв’язувати показникові та квадратні рівняння, рівняння з параметром.\n </p>\n<p>\n Замінімо змінну. Нехай <latex>3^x=t.</latex> Оскільки показникова функція завжди набуває лише додатних значень: <latex>t\\gt 0.</latex>\n Рівняння набуває вигляду:\n </p>\n<latex>\\begin{gather*}\n t+\\frac{4a^2+10a}{t}=4a+5.\n \\end{gather*}</latex>\n<p>\n Помножмо все на <latex>t\\ (t\\ne 0){:}</latex>\n</p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\n t^2-(4a+5)t+(4a^2+10a)=0,\\\\[7pt]\n D=(4a+5)^2-4\\cdot 1\\cdot (4a^2+10a)=16a^2+40a+25-16a^2-40a=25,\\\\[7pt]\n \\sqrt{D}=\\sqrt{25}=5.\n \\end{gather*}</latex>\n</div>\n<p>\n Оскільки <latex>D\\gt 0</latex>, маємо два корені:\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\n t_1=\\frac{(4a+5)+5}{2}=\\frac{4a+10}{2}=\\frac{2(2a+5)}{2}=2a+5,\\\\[6pt]\n t_2=\\frac{(4a+5)-5}{2}=\\frac{4a}{2}=2a.\n \\end{gather*}</latex>\n</div>\n<p>\n Щоб рівняння не мало коренів, необхідно, щоб <latex>t_1\\le 0</latex> i <latex>t_2\\le 0{:}</latex>\n</p>\n<latex>\\begin{gather*}\n 1.\\ 2a+5\\le 0,\\\\[7pt]\n 2a\\le -5,\\\\[7pt]\n a\\le -2{,}5.\\\\[7pt]\n 2.\\ 2a\\le 0,\\\\[7pt]\n a\\le 0.\n \\end{gather*}</latex>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/354/35446/ds-pr-math-2026-new-22.png\" style=\"height: auto;\" width=\"300\"/>\n</div>\n<br/>\n<p>\n Спільна умова: <latex>a\\le -2{,}5.</latex>\n</p>\n<p>\n Найбільше значення <latex>a</latex> з проміжку <latex>(-\\infty; -2{,}5]</latex> це <latex>-2{,}5.</latex>\n</p>\n<p><strong>Відповідь: <latex>-2{,}5.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Показникові. Раціональні рівняння.\n Завдання скеровано на перевірку вміння розв’язувати показникові та квадратні рівняння, рівняння з параметром.\n Замінімо змінну. Нехай 3^x=t. Оскільки показникова функція завжди набуває лише додатних значень: t\\gt 0. \n Рівняння набуває вигляду:\n \\begin{gather*}\n t+\\frac{4a^2+10a}{t}=4a+5.\n \\end{gather*} \n Помножмо все на t\\ (t\\ne 0){:} \n \\begin{gather*}\n t^2-(4a+5)t+(4a^2+10a)=0,\\\\[7pt]\n D=(4a+5)^2-4\\cdot 1\\cdot (4a^2+10a)=16a^2+40a+25-16a^2-40a=25,\\\\[7pt]\n \\sqrt{D}=\\sqrt{25}=5.\n \\end{gather*} \n Оскільки D\\gt 0 , маємо два корені:\n \\begin{gather*}\n t_1=\\frac{(4a+5)+5}{2}=\\frac{4a+10}{2}=\\frac{2(2a+5)}{2}=2a+5,\\\\[6pt]\n t_2=\\frac{(4a+5)-5}{2}=\\frac{4a}{2}=2a.\n \\end{gather*} \n Щоб рівняння не мало коренів, необхідно, щоб t_1\\le 0 i t_2\\le 0{:} \n \\begin{gather*}\n 1.\\ 2a+5\\le 0,\\\\[7pt]\n 2a\\le -5,\\\\[7pt]\n a\\le -2{,}5.\\\\[7pt]\n 2.\\ 2a\\le 0,\\\\[7pt]\n a\\le 0.\n \\end{gather*} \n Спільна умова: a\\le -2{,}5. \n Найбільше значення a з проміжку (-\\infty; -2{,}5] це -2{,}5. \n Відповідь: -2{,}5.",
+   "topic": "Показникові. Раціональні рівняння.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/354/35446/ds-pr-math-2026-new-22.png",
+     "path": "images/doc/images/znotest/354/35446/ds-pr-math-2026-new-22.png"
+    }
+   ],
+   "text": "За якого найбільшого значення a рівняння \n \\begin{gather*}\n 3^x+(4a^2+10a)\\cdot 3^{-x}=4a+5\n \\end{gather*} \n не має коренів?",
+   "latex": [
+    "a",
+    "\\begin{gather*}\n 3^x+(4a^2+10a)\\cdot 3^{-x}=4a+5\n \\end{gather*}"
+   ],
+   "source_test": 712,
+   "subject": "mathematics",
+   "tests": [
+    {
+     "test_id": 712,
+     "order": 22
+    }
+   ]
+  }
+ ],
+ "questions_count": 22,
+ "subject": "mathematics",
+ "subject_name": "Математика",
+ "id": 712,
+ "year": 2026,
+ "kind": "demo",
+ "session": null
+}

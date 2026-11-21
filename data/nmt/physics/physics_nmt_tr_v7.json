@@ -1,0 +1,958 @@
+{
+ "url": "https://zno.osvita.ua/multitest/tag-physics_nmt_tr_v7/",
+ "title": "Національний мультитест з фізики – Варіант 7",
+ "page_title": "Предмет: Тренувальні мультитести Розділ: Національний мультитест з фізики Тест: Тренувальні мультитести НМТ 2027 Блок: Варіант 7 Кількість завдань: 20",
+ "test_id": "physics_nmt_tr_v7",
+ "total": 20,
+ "section": 38,
+ "cnt": 20,
+ "qfirst": 1,
+ "list": 0,
+ "questions": [
+  {
+   "id": 24718,
+   "tip": 1,
+   "out_order": 1,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>Тіло рухається вздовж криволінійної траєкторії, що складається з двох дуг (див. рисунок). Модуль швидкості руху тіла не змінюється. Як співвідносяться модулі його доцентрового прискорення в точках <latex>A,\\ B,\\ C</latex>?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/247/24718/03-f.png\" style=\"height: auto;\" width=\"221\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>a_A=a_B=a_C</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>a_C\\lt a_B\\lt a_A</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>a_A=a_B\\lt a_C</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>a_C=a_B\\lt a_A</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Механіка. Основи кінематики. Рівномірний рух по колу.\r\n </strong>\n</p>\n<p> \r\n Завдання скеровано на перевірку вміння визначати доцентрове прискорення на криволінійній траєкторії.\r\n </p>\n<p>\n<b>Криволінійна траєкторія</b> утворена елементами двох кіл із різними радіусами (рис. 1).\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/247/24718/03_1.png\"/><br/>\n<i>Рис. 1. </i>Радіуси криволінійної траєкторії\r\n </div>\n<br/>\n<p>\r\n Точки <b>А</b> і <b>В</b> лежать на більшому колі, а точка <b>С</b> – на меншому, тож <latex>R_C\\lt R_B=R_A</latex>.\r\n </p>\n<p>\n<b>Доцентрове прискорення можна</b> обчислити з виразу:\r\n <latex display=\"block\">$$\r\n a_\\text{доц}=\\frac{v^2}{R},\r\n$$</latex>\r\n де <latex>v</latex> – <b>швидкість</b> руху тіла, а <latex>R</latex> – <b>радіус</b> обертання.\r\n </p>\n<p>\r\n Оскільки модуль лінійної швидкості не змінюється, то можна записати <b>прискорення</b> в кожній із точок:\r\n <latex display=\"block\">\\begin{gather*}\r\n a_C=\\frac{v^2}{R_C};\\\\[6pt]\r\n a_B=\\frac{v^2}{R_B}=\\frac{v^2}{R_A}=a_A.\r\n \\end{gather*}</latex>\n</p>\n<p>\r\n Оскільки <latex>R_C\\lt R_B=R_A</latex>, то <latex>a_C\\gt a_B=a_A</latex>.\r\n </p>\n<p>\r\n Цей вираз можна записати в іншому вигляді:\r\n <latex display=\"block\">$$\r\n a_A=a_B\\lt a_C.\r\n$$</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Механіка. Основи кінематики. Рівномірний рух по колу.\r\n Завдання скеровано на перевірку вміння визначати доцентрове прискорення на криволінійній траєкторії.\r\n Криволінійна траєкторія утворена елементами двох кіл із різними радіусами (рис. 1).\r\n Рис. 1. Радіуси криволінійної траєкторії\r\n Точки А і В лежать на більшому колі, а точка С – на меншому, тож R_C\\lt R_B=R_A .\r\n Доцентрове прискорення можна обчислити з виразу:\r\n $$\r\n a_\\text{доц}=\\frac{v^2}{R},\r\n$$ \r\n де v – швидкість руху тіла, а R – радіус обертання.\r\n Оскільки модуль лінійної швидкості не змінюється, то можна записати прискорення в кожній із точок:\r\n \\begin{gather*}\r\n a_C=\\frac{v^2}{R_C};\\\\[6pt]\r\n a_B=\\frac{v^2}{R_B}=\\frac{v^2}{R_A}=a_A.\r\n \\end{gather*} \n Оскільки R_C\\lt R_B=R_A , то a_C\\gt a_B=a_A .\r\n Цей вираз можна записати в іншому вигляді:\r\n $$\r\n a_A=a_B\\lt a_C.\r\n$$ \n Відповідь: B.",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/247/24718/03-f.png",
+    "https://zno.osvita.ua/doc/images/znotest/247/24718/03_1.png"
+   ],
+   "text": "Тіло рухається вздовж криволінійної траєкторії, що складається з двох дуг (див. рисунок). Модуль швидкості руху тіла не змінюється. Як співвідносяться модулі його доцентрового прискорення в точках A,\\ B,\\ C ?",
+   "latex": [
+    "A,\\ B,\\ C",
+    "a_A=a_B=a_C",
+    "a_C\\lt a_B\\lt a_A",
+    "a_A=a_B\\lt a_C",
+    "a_C=a_B\\lt a_A"
+   ],
+   "subject": "physics"
+  },
+  {
+   "id": 15669,
+   "tip": 1,
+   "out_order": 2,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>Тіла, силу тяжіння між якими <strong>не можна</strong> обчислити за формулою закону всесвітнього тяжіння, наведено в рядку</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "Земля, Місяць"
+    },
+    {
+     "marker": "Б",
+     "html": "цеглина, Земля"
+    },
+    {
+     "marker": "В",
+     "html": "дві сусідні цеглини в стіні"
+    },
+    {
+     "marker": "Г",
+     "html": "дві цеглини в стінах різних будівель"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Механіка. Основи динаміки. Закони Ньютона. Закон всесвітнього тяжіння. \r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку розуміння закону всесвітнього тяжіння і його застосування для описування реальних ситуацій.\r\n </p>\n<p>\n<b>Закон всесвітнього тяжіння</b> – будь-які два тіла притягуються одне до одного із силою, яка прямо пропорційна добутку мас цих тіл й обернено пропорційна квадрату відстані між ними:\r\n <latex display=\"block\">$$\r\n F=G\\frac{m_1m_2}{r^2},\r\n$$</latex>\r\n де <latex>G</latex> – гравітаційна стала, <latex>m_1</latex> – маса першого тіла, <latex>m_2</latex> – маса другого тіла, <latex>r</latex> – відстань між ними.\r\n </p>\n<p>\r\n Відстань між двома сусідніми цеглинами дорівнює <latex>0</latex>, тож для них не можна використовувати закон всесвітнього тяжіння.\r\n </p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Механіка. Основи динаміки. Закони Ньютона. Закон всесвітнього тяжіння. \r\n Завдання скеровано на перевірку розуміння закону всесвітнього тяжіння і його застосування для описування реальних ситуацій.\r\n Закон всесвітнього тяжіння – будь-які два тіла притягуються одне до одного із силою, яка прямо пропорційна добутку мас цих тіл й обернено пропорційна квадрату відстані між ними:\r\n $$\r\n F=G\\frac{m_1m_2}{r^2},\r\n$$ \r\n де G – гравітаційна стала, m_1 – маса першого тіла, m_2 – маса другого тіла, r – відстань між ними.\r\n Відстань між двома сусідніми цеглинами дорівнює 0 , тож для них не можна використовувати закон всесвітнього тяжіння.\r\n Відповідь: B.",
+   "topic": null,
+   "images": [],
+   "text": "Тіла, силу тяжіння між якими не можна обчислити за формулою закону всесвітнього тяжіння, наведено в рядку",
+   "latex": [],
+   "subject": "physics"
+  },
+  {
+   "id": 20185,
+   "tip": 1,
+   "out_order": 3,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>Ha тюбику зубної пасти є напис: <latex>75</latex> г, <latex>65</latex> мл. Визначте, що відбудеться з порцією зубної пасти розміром як горошина, яку вичавили й укинули в посудину з водою. Уважайте, що паста у воді не розчиняється, а густина води дорівнює <latex>1000</latex> кг/м<latex>^3</latex>.</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "опуститься на дно посудини"
+    },
+    {
+     "marker": "Б",
+     "html": "плаватиме всередині рідини біля дна"
+    },
+    {
+     "marker": "В",
+     "html": "плаватиме всередині рідини біля поверхні"
+    },
+    {
+     "marker": "Г",
+     "html": "спливе на поверхню рідини"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Механіка. Елементи динаміки рідин і газів. Умова плавання тіл.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на оцінювання розуміння поняття «густина» і вміння застосовувати закон Архімеда.\r\n </p>\n<p>\r\n Густина речовини <latex>(\\mathbf{\\rho})</latex> – це фізична величина, яка характеризує речовину й дорівнює відношенню маси суцільного тіла, виготовленого із цієї речовини, до об’єму цього тіла:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex display=\"block\">$$\r\n \\mathbf{\\rho}=\\frac mv, \\text{де}\\ m\\ \\text{– маса тіла, а}\\ V\\ \\text{ – об’єм тіла.}\r\n$$</latex>\n</div>\n<p>\r\n Для правильного розв’язання завдання потрібно пригадати умови плавання тіл:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n \\mathbf{\\rho}_{\\text{тіла}} \\gt \\mathbf{\\rho}_{\\text{рідини}}\\ \\text{– тіло тоне в рідині;}\\\\[7pt]\r\n \\mathbf{\\rho}_{\\text{тіла}}=\\mathbf{\\rho}_{\\text{рідини}}\\ \\text{– тіло плаває в товщі рідини;}\\\\[7pt]\r\n \\mathbf{\\rho}_{\\text{тіла}} \\lt \\mathbf{\\rho}_{\\text{рідини}}\\ \\text{– тіло спливає в рідині або плаває на її поверхні.}\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n Густину зубної пасти, укинутої в посудину з водою, обчислюють за формулою:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex display=\"block\">$$\r\n \\mathbf{\\rho}_{\\text{пасти}}=\\frac{m_{\\text{пасти}}}{V_{\\text{пасти}}} =\\frac{75\\ \\text{г}}{65\\ \\text{мл}}=\\frac{0,075\\ \\text{кг}}{0,000065\\ \\text{м}^3}\\approx 1154\\ \\text{кг/м}^3 \\gt \\style{font-style:normal;font-weight:bold;font-size:1.1em}\\rho_{\\text{води}}.\r\n$$</latex>\n</div>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Механіка. Елементи динаміки рідин і газів. Умова плавання тіл.\r\n Завдання скеровано на оцінювання розуміння поняття «густина» і вміння застосовувати закон Архімеда.\r\n Густина речовини (\\mathbf{\\rho}) – це фізична величина, яка характеризує речовину й дорівнює відношенню маси суцільного тіла, виготовленого із цієї речовини, до об’єму цього тіла:\r\n $$\r\n \\mathbf{\\rho}=\\frac mv, \\text{де}\\ m\\ \\text{– маса тіла, а}\\ V\\ \\text{ – об’єм тіла.}\r\n$$ \n Для правильного розв’язання завдання потрібно пригадати умови плавання тіл:\r\n \\begin{gather*}\r\n \\mathbf{\\rho}_{\\text{тіла}} \\gt \\mathbf{\\rho}_{\\text{рідини}}\\ \\text{– тіло тоне в рідині;}\\\\[7pt]\r\n \\mathbf{\\rho}_{\\text{тіла}}=\\mathbf{\\rho}_{\\text{рідини}}\\ \\text{– тіло плаває в товщі рідини;}\\\\[7pt]\r\n \\mathbf{\\rho}_{\\text{тіла}} \\lt \\mathbf{\\rho}_{\\text{рідини}}\\ \\text{– тіло спливає в рідині або плаває на її поверхні.}\r\n \\end{gather*} \n Густину зубної пасти, укинутої в посудину з водою, обчислюють за формулою:\r\n $$\r\n \\mathbf{\\rho}_{\\text{пасти}}=\\frac{m_{\\text{пасти}}}{V_{\\text{пасти}}} =\\frac{75\\ \\text{г}}{65\\ \\text{мл}}=\\frac{0,075\\ \\text{кг}}{0,000065\\ \\text{м}^3}\\approx 1154\\ \\text{кг/м}^3 \\gt \\style{font-style:normal;font-weight:bold;font-size:1.1em}\\rho_{\\text{води}}.\r\n$$ \n Відповідь: A.",
+   "topic": null,
+   "images": [],
+   "text": "Ha тюбику зубної пасти є напис: 75 г, 65 мл. Визначте, що відбудеться з порцією зубної пасти розміром як горошина, яку вичавили й укинули в посудину з водою. Уважайте, що паста у воді не розчиняється, а густина води дорівнює 1000 кг/м ^3 .",
+   "latex": [
+    "75",
+    "65",
+    "1000",
+    "^3"
+   ],
+   "subject": "physics"
+  },
+  {
+   "id": 18125,
+   "tip": 1,
+   "out_order": 4,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>3a рисунком поясніть, чому об'єм гумової кульки збільшується.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/181/18125/6_1.jpg\" style=\"height: auto;\" width=\"450\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "тиск газу під ковпаком зменшився"
+    },
+    {
+     "marker": "Б",
+     "html": "тиск газу всередині кульки збільшився"
+    },
+    {
+     "marker": "В",
+     "html": "газ передає тиск у всіх напрямках однаково"
+    },
+    {
+     "marker": "Г",
+     "html": "тиск газу під ковпаком більший за тиск усередині кульки"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Молекулярна фізика й термодинаміка. Рівняння стану ідеального газу. Ізопроцеси в газах.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на оцінювання розуміння закономірностей зміни тиску, об’єму й температури на основі аналізу результатів експерименту, зображених на рисунку.\r\n </p>\n<p>\r\n За рисунком легко визначити, що об’єм кульки збільшився після того, як вона опинилася під ковпаком, до якого підключено насос. Ні охолоджувальних, ні нагрівальних пристроїв немає, тому температура газу всередині кульки залишається сталою. До того ж, оскільки кулька зав’язана, можна вважати, що кількість речовини всередині неї стала. За законом Бойля – Маріотта добуток тиску на об’єм до поміщення кульки під ковпак і після має бути однаковим:\r\n <latex display=\"block\">$$\r\n p_{\\text{до}}V_{\\text{до}}=p_{\\text{після}}V_{\\text{після}}.\r\n$$</latex>\n</p>\n<p>\r\n Оболонка кульки еластична, тож унаслідок наповнювання повітрям вона змінюватиме свій об’єм доти, доки тиск усередині кульки не дорівнюватиме тиску ззовні. \r\n </p>\n<p>\r\n Тому, якщо об’єм кульки збільшився, то тиск усередині – зменшився, а отже зменшився і тиск навколо (під ковпаком).\r\n </p>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Молекулярна фізика й термодинаміка. Рівняння стану ідеального газу. Ізопроцеси в газах.\r\n Завдання скеровано на оцінювання розуміння закономірностей зміни тиску, об’єму й температури на основі аналізу результатів експерименту, зображених на рисунку.\r\n За рисунком легко визначити, що об’єм кульки збільшився після того, як вона опинилася під ковпаком, до якого підключено насос. Ні охолоджувальних, ні нагрівальних пристроїв немає, тому температура газу всередині кульки залишається сталою. До того ж, оскільки кулька зав’язана, можна вважати, що кількість речовини всередині неї стала. За законом Бойля – Маріотта добуток тиску на об’єм до поміщення кульки під ковпак і після має бути однаковим:\r\n $$\r\n p_{\\text{до}}V_{\\text{до}}=p_{\\text{після}}V_{\\text{після}}.\r\n$$ \n Оболонка кульки еластична, тож унаслідок наповнювання повітрям вона змінюватиме свій об’єм доти, доки тиск усередині кульки не дорівнюватиме тиску ззовні. \r\n Тому, якщо об’єм кульки збільшився, то тиск усередині – зменшився, а отже зменшився і тиск навколо (під ковпаком).\r\n Відповідь: A.",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/181/18125/6_1.jpg"
+   ],
+   "text": "3a рисунком поясніть, чому об'єм гумової кульки збільшується.",
+   "latex": [],
+   "subject": "physics"
+  },
+  {
+   "id": 15678,
+   "tip": 1,
+   "out_order": 5,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>Нагрівають три тіла однакової маси. Ha рисунку зображено графіки залежності температури <latex>T</latex> цих трьох тіл (<latex>1</latex>, <latex>2</latex>, <latex>3</latex>) від часу <latex>t</latex>. Укажіть співвідношення між питомими теплоємностями <latex>c_1</latex>, <latex>c_2</latex>, <latex>c_3</latex> цих тіл. Уважайте, що кожному з тіл щосекунди передавалася та caмa кількість теплоти.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/156/15678/11.png\" style=\"height: 228px; width: 260px;\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>c_3\\lt c_2\\lt c_1</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>c_1\\lt c_2\\lt c_3</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>c_1\\lt c_3\\lt c_2</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>c_2\\lt c_3\\lt c_1</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Молекулярна фізика і термодинаміка. Рівняння теплового балансу.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку вміння аналізувати графічні залежності температури тіла від кількості наданої йому теплоти.\r\n </p>\n<p>\r\n Кількість наданої теплоти, температура тіла та його питома теплоємність пов’язані виразом\r\n <latex display=\"block\">$$\r\n Q=cm\\Delta T=cm(T-T_0),\r\n$$</latex>\r\n де <latex>c</latex> – питома теплоємність речовини, що віддає тепло, <latex>m</latex> – маса, <latex>\\Delta T</latex> – зміна температури під час охолодження, <latex>T_0</latex> – початкова температура, <latex>T</latex> – температура тіла. \r\n </p>\n<p>\r\n Графік у завданні – це графік залежності абсолютної температури тіла <latex>T</latex> від часу його нагрівання <latex>t</latex>. Оскільки щосекунди тіло отримує однакову кількість теплоти <latex>Q</latex>, залежність абсолютної температури <latex>T</latex> від кількості теплоти <latex>Q</latex> має схожий вигляд. Тому надалі достатньо аналізувати залежність <latex>T(Q)</latex>.\r\n </p>\n<p>\r\n Для цього необхідно змінити вигляд залежності:\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n Q=cm(T-T_0)=cmT-cmT_0;\\\\[7pt]\r\n cmT=Q+cmT_0;\\\\[6pt]\r\n T=\\frac{Q}{cm}+T_0.\r\n \\end{gather*}</latex>\n<p>\r\n Залежність має вигляд лінійної функції <latex>y=kx+b</latex>, де <latex>b</latex> відповідає за перетин із віссю <latex>oy</latex>, а <latex>k</latex> – кутовий коефіцієнт, що впливає на нахил прямої:\r\n <latex display=\"block\">$$\r\n b=T_0,\\ \\ k=\\frac{1}{cm}.\r\n$$</latex>\n</p>\n<p>\r\n Оскільки маси всіх трьох тіл однакові, то на нахил прямої, що відповідає лінійній функції, впливає лише питома теплоємність.\r\n </p>\n<p>\r\n Що більший кутовий коефіцієнт, то крутішою є пряма, а кутовий коефіцієнт є тим більшим, що меншою є питома теплоємність.\r\n </p>\n<p>\r\n Тож найпологіша пряма <latex>для тіла 1</latex> має найбільшу питому теплоємність, а найкрутіша <latex>для тіла 2</latex> – найменшу.\r\n </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Молекулярна фізика і термодинаміка. Рівняння теплового балансу.\r\n Завдання скеровано на перевірку вміння аналізувати графічні залежності температури тіла від кількості наданої йому теплоти.\r\n Кількість наданої теплоти, температура тіла та його питома теплоємність пов’язані виразом\r\n $$\r\n Q=cm\\Delta T=cm(T-T_0),\r\n$$ \r\n де c – питома теплоємність речовини, що віддає тепло, m – маса, \\Delta T – зміна температури під час охолодження, T_0 – початкова температура, T – температура тіла. \r\n Графік у завданні – це графік залежності абсолютної температури тіла T від часу його нагрівання t . Оскільки щосекунди тіло отримує однакову кількість теплоти Q , залежність абсолютної температури T від кількості теплоти Q має схожий вигляд. Тому надалі достатньо аналізувати залежність T(Q) .\r\n Для цього необхідно змінити вигляд залежності:\r\n \\begin{gather*}\r\n Q=cm(T-T_0)=cmT-cmT_0;\\\\[7pt]\r\n cmT=Q+cmT_0;\\\\[6pt]\r\n T=\\frac{Q}{cm}+T_0.\r\n \\end{gather*} \n Залежність має вигляд лінійної функції y=kx+b , де b відповідає за перетин із віссю oy , а k – кутовий коефіцієнт, що впливає на нахил прямої:\r\n $$\r\n b=T_0,\\ \\ k=\\frac{1}{cm}.\r\n$$ \n Оскільки маси всіх трьох тіл однакові, то на нахил прямої, що відповідає лінійній функції, впливає лише питома теплоємність.\r\n Що більший кутовий коефіцієнт, то крутішою є пряма, а кутовий коефіцієнт є тим більшим, що меншою є питома теплоємність.\r\n Тож найпологіша пряма для тіла 1 має найбільшу питому теплоємність, а найкрутіша для тіла 2 – найменшу.\r\n Відповідь: Г.",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/156/15678/11.png"
+   ],
+   "text": "Нагрівають три тіла однакової маси. Ha рисунку зображено графіки залежності температури T цих трьох тіл ( 1 , 2 , 3 ) від часу t . Укажіть співвідношення між питомими теплоємностями c_1 , c_2 , c_3 цих тіл. Уважайте, що кожному з тіл щосекунди передавалася та caмa кількість теплоти.",
+   "latex": [
+    "T",
+    "1",
+    "2",
+    "3",
+    "t",
+    "c_1",
+    "c_2",
+    "c_3",
+    "c_3\\lt c_2\\lt c_1",
+    "c_1\\lt c_2\\lt c_3",
+    "c_1\\lt c_3\\lt c_2",
+    "c_2\\lt c_3\\lt c_1"
+   ],
+   "subject": "physics"
+  },
+  {
+   "id": 21180,
+   "tip": 1,
+   "out_order": 6,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>Шерсть заряджається позитивно внаслідок тертя ебонітової палички об неї, тому що</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "електрони переходять з палички на шерсть"
+    },
+    {
+     "marker": "Б",
+     "html": "протони переходять з палички на шерсть"
+    },
+    {
+     "marker": "В",
+     "html": "електрони переходять із шерсті на паличку"
+    },
+    {
+     "marker": "Г",
+     "html": "протони переходять із шерсті на паличку"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Шерсть заряджається позитивно внаслідок тертя ебонітової палички об неї, тому що",
+   "latex": [],
+   "subject": "physics"
+  },
+  {
+   "id": 15682,
+   "tip": 1,
+   "out_order": 7,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>Під час термоелектронної емісії електрони набувають кінетичної енергії за рахунок</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "бомбардування частинками"
+    },
+    {
+     "marker": "Б",
+     "html": "опромінювання світлом"
+    },
+    {
+     "marker": "В",
+     "html": "дії електричного поля"
+    },
+    {
+     "marker": "Г",
+     "html": "нагрівання тіла"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Під час термоелектронної емісії електрони набувають кінетичної енергії за рахунок",
+   "latex": [],
+   "subject": "physics"
+  },
+  {
+   "id": 21181,
+   "tip": 1,
+   "out_order": 8,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>Укажіть випадок, коли сила Ампера нe діє на прямий провідник зі струмом <latex>I</latex>. Позначення: напрямок, перпендикулярний до площини рисунка, від вас – <latex>\\times</latex>, до вас – <latex>\\odot</latex>; <latex>N</latex> – північний полюс магніту, <latex>S</latex> – південний полюс магніту; <latex>\\vec{B}</latex> – вектор магнітної індукції.</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/211/21181/ansa_21181.png\" width=\"150\"/>"
+    },
+    {
+     "marker": "Б",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/211/21181/ansb_21181.png\" width=\"150\"/>"
+    },
+    {
+     "marker": "В",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/211/21181/ansc_21181.png\" width=\"150\"/>"
+    },
+    {
+     "marker": "Г",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/211/21181/ansd_21181.png\" width=\"150\"/>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Укажіть випадок, коли сила Ампера нe діє на прямий провідник зі струмом I . Позначення: напрямок, перпендикулярний до площини рисунка, від вас – \\times , до вас – \\odot ; N – північний полюс магніту, S – південний полюс магніту; \\vec{B} – вектор магнітної індукції.",
+   "latex": [
+    "I",
+    "\\times",
+    "\\odot",
+    "N",
+    "S",
+    "\\vec{B}"
+   ],
+   "subject": "physics"
+  },
+  {
+   "id": 16707,
+   "tip": 1,
+   "out_order": 9,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>Поперечна хвиля поширюється вздовж натягнутого шнура (див. рисунок). Укажіть на шнурі точку, швидкість і прискорення якої напрямлені вгору.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/167/16707/18_3.png\" style=\"width: 550px; height: auto;\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "точка А"
+    },
+    {
+     "marker": "Б",
+     "html": "точка Б"
+    },
+    {
+     "marker": "В",
+     "html": "точка В"
+    },
+    {
+     "marker": "Г",
+     "html": "точка Г"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/167/16707/18_3.png"
+   ],
+   "text": "Поперечна хвиля поширюється вздовж натягнутого шнура (див. рисунок). Укажіть на шнурі точку, швидкість і прискорення якої напрямлені вгору.",
+   "latex": [],
+   "subject": "physics"
+  },
+  {
+   "id": 12718,
+   "tip": 1,
+   "out_order": 10,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>Коливальний контур складається з конденсатора ємністю <latex>0{,}5</latex> мкФ і котушки індуктивністю <latex>0{,}5</latex> Гн. Визначте, яка формула може описувати залежність напруги <latex>u</latex> на конденсаторі від часу <latex>t</latex>, коли в контурі відбуваються вільні електромагнітні коливання. Усі значення величин у рівняннях виражено в одиницях <latex>\\mathrm{SI}</latex>.</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>u=5\\cos1000t</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>u=0{,}5\\cos2000t</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>u=5\\cos1000\\pi t</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>u=0{,}5\\cos2000\\pi t</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Коливальний контур складається з конденсатора ємністю 0{,}5 мкФ і котушки індуктивністю 0{,}5 Гн. Визначте, яка формула може описувати залежність напруги u на конденсаторі від часу t , коли в контурі відбуваються вільні електромагнітні коливання. Усі значення величин у рівняннях виражено в одиницях \\mathrm{SI} .",
+   "latex": [
+    "0{,}5",
+    "0{,}5",
+    "u",
+    "t",
+    "\\mathrm{SI}",
+    "u=5\\cos1000t",
+    "u=0{,}5\\cos2000t",
+    "u=5\\cos1000\\pi t",
+    "u=0{,}5\\cos2000\\pi t"
+   ],
+   "subject": "physics"
+  },
+  {
+   "id": 11301,
+   "tip": 1,
+   "out_order": 11,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>У фантастичному творі описано ракету, яка стартує з космічної станції. Двигун надає їй швидкості <latex>0{,}9</latex> с відносно станції (<latex>c</latex> – швидкість світла у вакуумі). Станція рухається зі швидкістю <latex>0{,}8</latex> с відносно Землі (див. схематичний рисунок). Якою може бути максимальна швидкість ракети відносно Землі?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/113/11301/18_3.png\" style=\"width: 650px; height: auto;\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>0{,}1</latex> c"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>0{,}85</latex> c"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>0{,}99</latex> c"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>1{,}7</latex> c"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/113/11301/18_3.png"
+   ],
+   "text": "У фантастичному творі описано ракету, яка стартує з космічної станції. Двигун надає їй швидкості 0{,}9 с відносно станції ( c – швидкість світла у вакуумі). Станція рухається зі швидкістю 0{,}8 с відносно Землі (див. схематичний рисунок). Якою може бути максимальна швидкість ракети відносно Землі?",
+   "latex": [
+    "0{,}9",
+    "c",
+    "0{,}8",
+    "0{,}1",
+    "0{,}85",
+    "0{,}99",
+    "1{,}7"
+   ],
+   "subject": "physics"
+  },
+  {
+   "id": 17410,
+   "tip": 1,
+   "out_order": 12,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>Є два однакові фоторезистори: один – у темряві, другий – освітлений. Ha рисунку наведено графіки (<strong>а</strong> та <strong>б</strong>) залежності сили струму <latex>I</latex>, що проходить крізь фоторезистор, від прикладеної напруги <latex>U</latex>.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/174/17410/23_1.png\" style=\"height: auto;\" width=\"180\"/></p>\n<p>У таблиці правильну інформацію про графік, що відповідає освітленому фоторезистору, та опір цього фоторезистора порівняно з неосвітленим наведено</p>\n<div class=\"table-responsive\">\n<table>\n<tbody>\n<tr>\n<td style=\"border: none;\"> </td>\n<td class=\"gray\"><strong>Графік залежності <latex>I</latex> від <latex>U</latex> для освітленого фоторезистора</strong></td>\n<td class=\"gray\"><strong>Опір освітленого фоторезистора порівняно з неосвітленим</strong></td>\n</tr>\n<tr>\n<td><strong>А</strong></td>\n<td>а</td>\n<td>у \\(3\\) рази більший</td>\n</tr>\n<tr>\n<td><strong>Б</strong></td>\n<td>б</td>\n<td>у \\(3\\) рази більший</td>\n</tr>\n<tr>\n<td><strong>В</strong></td>\n<td>б</td>\n<td>у \\(3\\) рази менший</td>\n</tr>\n<tr>\n<td><strong>Г</strong></td>\n<td>а</td>\n<td>у \\(3\\) рази менший</td>\n</tr>\n</tbody>\n</table>\n</div>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "в рядку А."
+    },
+    {
+     "marker": "Б",
+     "html": "в рядку Б."
+    },
+    {
+     "marker": "В",
+     "html": "в рядку В."
+    },
+    {
+     "marker": "Г",
+     "html": "в рядку Г."
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/174/17410/23_1.png"
+   ],
+   "text": "Є два однакові фоторезистори: один – у темряві, другий – освітлений. Ha рисунку наведено графіки ( а та б ) залежності сили струму I , що проходить крізь фоторезистор, від прикладеної напруги U .\n У таблиці правильну інформацію про графік, що відповідає освітленому фоторезистору, та опір цього фоторезистора порівняно з неосвітленим наведено\n Графік залежності I від U для освітленого фоторезистора \n Опір освітленого фоторезистора порівняно з неосвітленим \n А \n а \n у \\(3\\) рази більший \n Б \n б \n у \\(3\\) рази більший \n В \n б \n у \\(3\\) рази менший \n Г \n а \n у \\(3\\) рази менший",
+   "latex": [
+    "I",
+    "U",
+    "I",
+    "U"
+   ],
+   "subject": "physics"
+  },
+  {
+   "id": 24737,
+   "tip": 4,
+   "out_order": 13,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>Установіть відповідність між назвою фізичної сталої (1-4) та її фізичним змістом (А – Д).</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "стала Авогадро <latex>N_A</latex>;"
+    },
+    {
+     "marker": "2",
+     "html": "стала Больцмана <latex>k</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "стала Планка <latex>h</latex>"
+    },
+    {
+     "marker": "4",
+     "html": "гравітаційна стала <latex>G</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "2/3 від зміни середньої кінетичної енергії поступального руху молекул за зміни температури на 1 К"
+    },
+    {
+     "marker": "Б",
+     "html": "кількість атомів (молекул), які містяться в будь-якій речовині кількістю 1 моль"
+    },
+    {
+     "marker": "В",
+     "html": "сила притягання двох матеріальних точок масою по 1 кг на відстані 1 м"
+    },
+    {
+     "marker": "Г",
+     "html": "відношення енергії світлового кванта до частоти світла"
+    },
+    {
+     "marker": "Д",
+     "html": "відношення маси молекули цієї речовини до 1/12 маси атома Карбону"
+    }
+   ],
+   "groups": [
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "стала Авогадро <latex>N_A</latex>;"
+      },
+      {
+       "marker": "",
+       "html": "стала Больцмана <latex>k</latex>"
+      },
+      {
+       "marker": "",
+       "html": "стала Планка <latex>h</latex>"
+      },
+      {
+       "marker": "",
+       "html": "гравітаційна стала <latex>G</latex>"
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "2/3 від зміни середньої кінетичної енергії поступального руху молекул за зміни температури на 1 К"
+      },
+      {
+       "marker": "",
+       "html": "кількість атомів (молекул), які містяться в будь-якій речовині кількістю 1 моль"
+      },
+      {
+       "marker": "",
+       "html": "сила притягання двох матеріальних точок масою по 1 кг на відстані 1 м"
+      },
+      {
+       "marker": "",
+       "html": "відношення енергії світлового кванта до частоти світла"
+      },
+      {
+       "marker": "",
+       "html": "відношення маси молекули цієї речовини до 1/12 маси атома Карбону"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1b;2a;3d;4c",
+   "correct": [
+    "1b",
+    "2a",
+    "3d",
+    "4c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Установіть відповідність між назвою фізичної сталої (1-4) та її фізичним змістом (А – Д).",
+   "latex": [
+    "N_A",
+    "k",
+    "h",
+    "G"
+   ],
+   "subject": "physics"
+  },
+  {
+   "id": 23294,
+   "tip": 4,
+   "out_order": 14,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "single_choice",
+   "question_html": "<p>\r\n Установіть відповідність між відкриттям (1–4) і дослідом або спостереженням (А – Д), що його зумовило.\r\n </p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "явище радіоактивності"
+    },
+    {
+     "marker": "2",
+     "html": "планетарна модель атома"
+    },
+    {
+     "marker": "3",
+     "html": "закони фотоефекту"
+    },
+    {
+     "marker": "4",
+     "html": "три типи радіоактивних променів"
+    },
+    {
+     "marker": "А",
+     "html": "бомбардування альфа-частинками золотої фольги"
+    },
+    {
+     "marker": "Б",
+     "html": "дія магнітного поля на випромінювання урану"
+    },
+    {
+     "marker": "В",
+     "html": "опромінювання металів світлом"
+    },
+    {
+     "marker": "Г",
+     "html": "засвічення фотопластинки солями Урану"
+    },
+    {
+     "marker": "Д",
+     "html": "випромінювання нагрітого тіла"
+    }
+   ],
+   "groups": [
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "явище радіоактивності"
+      },
+      {
+       "marker": "",
+       "html": "планетарна модель атома"
+      },
+      {
+       "marker": "",
+       "html": "закони фотоефекту"
+      },
+      {
+       "marker": "",
+       "html": "три типи радіоактивних променів"
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "бомбардування альфа-частинками золотої фольги"
+      },
+      {
+       "marker": "",
+       "html": "дія магнітного поля на випромінювання урану"
+      },
+      {
+       "marker": "",
+       "html": "опромінювання металів світлом"
+      },
+      {
+       "marker": "",
+       "html": "засвічення фотопластинки солями Урану"
+      },
+      {
+       "marker": "",
+       "html": "випромінювання нагрітого тіла"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1d;2a;3c;4b",
+   "correct": [
+    "1d",
+    "2a",
+    "3c",
+    "4b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Установіть відповідність між відкриттям (1–4) і дослідом або спостереженням (А – Д), що його зумовило.",
+   "latex": [],
+   "subject": "physics"
+  },
+  {
+   "id": 21202,
+   "tip": 8,
+   "out_order": 15,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "short_answer",
+   "question_html": "<p>Спочатку брусок, навантажений тягарцями, рівномірно тягли по горизонтальній рейці (див. фото <latex>1</latex>). Потім цей брусок разом із тягарцями зважили (див. фото <latex>2</latex>).</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/212/21202/143611_34.png\" style=\"height: auto;\" width=\"550\"/></p>\n<p>Визначте за результатами вимірювань коефіцієнт тертя між бруском i рейкою.</p>\n<!-- xlimit=1 -->",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "0.25",
+   "correct": [
+    "0.25"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/212/21202/143611_34.png"
+   ],
+   "text": "Спочатку брусок, навантажений тягарцями, рівномірно тягли по горизонтальній рейці (див. фото 1 ). Потім цей брусок разом із тягарцями зважили (див. фото 2 ).\n Визначте за результатами вимірювань коефіцієнт тертя між бруском i рейкою.",
+   "latex": [
+    "1",
+    "2"
+   ],
+   "subject": "physics"
+  },
+  {
+   "id": 24746,
+   "tip": 8,
+   "out_order": 16,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "short_answer",
+   "question_html": "<p>\r\n Температура мідної кульки знизилася від 20 °С до 18 °С. Уявіть, що 1 % утраченої кулькою внутрішньої енергії вдалося перетворити на механічну енергію кульки. На яку висоту можна було б тоді підняти цю кульку? Уважайте, що питома теплоємність міді - 380 Дж/(кг · К), прискорення вільного падіння - 10 м/с<sup>2</sup>.\r\n </p>\n<p>\r\n Відповідь запишіть у метрах (м).\r\n </p>\n<!-- xlimit=1 -->",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "0.76",
+   "correct": [
+    "0.76"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Температура мідної кульки знизилася від 20 °С до 18 °С. Уявіть, що 1 % утраченої кулькою внутрішньої енергії вдалося перетворити на механічну енергію кульки. На яку висоту можна було б тоді підняти цю кульку? Уважайте, що питома теплоємність міді - 380 Дж/(кг · К), прискорення вільного падіння - 10 м/с 2 .\r\n Відповідь запишіть у метрах (м).",
+   "latex": [],
+   "subject": "physics"
+  },
+  {
+   "id": 9638,
+   "tip": 8,
+   "out_order": 17,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "short_answer",
+   "question_html": "<p>В автомобільному газовому балоні із метаном (<latex>\\mathrm{CH_4}</latex>) місткістю <latex>83</latex> л тиск дорівнює <latex>150</latex> атм, температура становить <latex>27</latex> °С. Визначте кількість теплоти, що виділиться внаслідок згоряння всього метану, якщо питома теплота його згоряння <latex>50</latex> МДж/кг. Уважайте, що універсальна газова стала дорівнює <latex>8{,}3</latex> Дж/(моль <latex>\\cdot</latex> К), а одна атмосфера становить <latex>10^5</latex> Па. Молярна маса метану (<latex>\\mathrm{CH_4}</latex>) дорівнює <latex>16</latex> г/моль.</p>\n<p>Відповідь запишіть у мегаджоулях.</p>\n<!-- xlimit=1 -->",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "400",
+   "correct": [
+    "400"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "В автомобільному газовому балоні із метаном ( \\mathrm{CH_4} ) місткістю 83 л тиск дорівнює 150 атм, температура становить 27 °С. Визначте кількість теплоти, що виділиться внаслідок згоряння всього метану, якщо питома теплота його згоряння 50 МДж/кг. Уважайте, що універсальна газова стала дорівнює 8{,}3 Дж/(моль \\cdot К), а одна атмосфера становить 10^5 Па. Молярна маса метану ( \\mathrm{CH_4} ) дорівнює 16 г/моль.\n Відповідь запишіть у мегаджоулях.",
+   "latex": [
+    "\\mathrm{CH_4}",
+    "83",
+    "150",
+    "27",
+    "50",
+    "8{,}3",
+    "\\cdot",
+    "10^5",
+    "\\mathrm{CH_4}",
+    "16"
+   ],
+   "subject": "physics"
+  },
+  {
+   "id": 15122,
+   "tip": 8,
+   "out_order": 18,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "short_answer",
+   "question_html": "<p>Усі резистори в зображеному на рисунку електричному колі однакові. Визначте відношення напруги на полюсах джерела струму до напруги на резисторі \\(5\\).</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/151/15122/36.png\" style=\"height: auto;\" width=\"175\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "4",
+   "correct": [
+    "4"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/151/15122/36.png"
+   ],
+   "text": "Усі резистори в зображеному на рисунку електричному колі однакові. Визначте відношення напруги на полюсах джерела струму до напруги на резисторі \\(5\\).",
+   "latex": [],
+   "subject": "physics"
+  },
+  {
+   "id": 20215,
+   "tip": 8,
+   "out_order": 19,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "short_answer",
+   "question_html": "<p>На рисунку зображено хід світлового променя крізь збиральну лінзу. Визначте оптичну силу лінзи, якщо відстань між лініями сітки на рисунку становить <latex>2</latex> см.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/202/20215/37_2.png\" style=\"height: auto;\" width=\"250\"/></p>\n<p>Відповідь запишіть у діоптріях (дптр).</p>\n<!-- xlimit=1 -->",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "25",
+   "correct": [
+    "25"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/202/20215/37_2.png"
+   ],
+   "text": "На рисунку зображено хід світлового променя крізь збиральну лінзу. Визначте оптичну силу лінзи, якщо відстань між лініями сітки на рисунку становить 2 см.\n Відповідь запишіть у діоптріях (дптр).",
+   "latex": [
+    "2"
+   ],
+   "subject": "physics"
+  },
+  {
+   "id": 12736,
+   "tip": 8,
+   "out_order": 20,
+   "test_id": "physics_nmt_tr_v7",
+   "type": "short_answer",
+   "question_html": "<p>Людина постійно живе в місцевості, де природний фон радіоактивного випромінювання становить <latex>0{,}2</latex> мкЗв/год (<latex>1</latex> Зв – <latex>1</latex> зіверт – одиниця еквівалентної дози випромінювання в <latex>\\mathrm{SI}</latex>). Річна допустима доза опромінювання дорівнює <latex>3</latex> мЗв. Скільки разів на рік без шкоди для здоров'я людина може проходити рентгенівські медичні обстеження організму, кожне з яких передає тілу людини дозу опромінювання <latex>1</latex> мЗв?</p>\n<!-- xlimit=1 -->",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "1",
+   "correct": [
+    "1"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Людина постійно живе в місцевості, де природний фон радіоактивного випромінювання становить 0{,}2 мкЗв/год ( 1 Зв – 1 зіверт – одиниця еквівалентної дози випромінювання в \\mathrm{SI} ). Річна допустима доза опромінювання дорівнює 3 мЗв. Скільки разів на рік без шкоди для здоров'я людина може проходити рентгенівські медичні обстеження організму, кожне з яких передає тілу людини дозу опромінювання 1 мЗв?",
+   "latex": [
+    "0{,}2",
+    "1",
+    "1",
+    "\\mathrm{SI}",
+    "3",
+    "1"
+   ],
+   "subject": "physics"
+  }
+ ],
+ "questions_count": 20,
+ "subject": "physics",
+ "kind": "nmt_training",
+ "slug": "physics_nmt_tr_v7"
+}

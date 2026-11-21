@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="uk"><head><meta charset="utf-8">
+<title>НМТ онлайн 2026 року з математики – 1 сесія</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body,{delimiters:[{left:'\\(',right:'\\)',display:false},{left:'\\[',right:'\\]',display:true}],throwOnError:false});"></script>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1c2430; --muted:#6b7785; --green:#2f9e6f; --line:#e3e8ee; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 -apple-system,Segoe UI,Roboto,sans-serif; }
+  header { position:sticky; top:0; background:#fff; border-bottom:1px solid var(--line); padding:14px 20px; z-index:5; }
+  h1 { font-size:18px; margin:0; }
+  .sub { color:var(--muted); font-size:13px; }
+  main { max-width:860px; margin:0 auto; padding:20px; }
+  .q { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; margin-bottom:16px; }
+  .qnum { font-weight:600; color:var(--muted); font-size:13px; text-transform:uppercase; letter-spacing:.04em; }
+  .type { background:#eef3f8; color:#456; padding:1px 8px; border-radius:999px; font-size:11px; margin-left:6px; text-transform:none; }
+  .qtext { margin:10px 0 14px; }
+  .answers { display:grid; gap:8px; }
+  .ans { display:flex; gap:10px; align-items:flex-start; border:1px solid var(--line); border-radius:10px; padding:8px 12px; }
+  .ans.ok { border-color:var(--green); background:#f1fbf6; }
+  .ans .mk { font-weight:700; color:var(--green); min-width:20px; }
+  details { margin-top:12px; border-top:1px dashed var(--line); padding-top:10px; }
+  summary { cursor:pointer; color:var(--green); font-weight:600; }
+  .expl { margin-top:8px; }
+  .meta { color:var(--muted); font-size:12px; margin-top:10px; }
+  .short { background:#f1fbf6; border:1px solid var(--green); border-radius:10px; padding:8px 12px; }
+  img { max-width:100%; height:auto; }
+</style></head>
+<body>
+<header><h1>НМТ онлайн 2026 року з математики – 1 сесія</h1>
+<div class="sub">Математика · 22 завдань · джерело: zno.osvita.ua</div></header>
+<main>
+    <article class="q" id="q1">
+      <div class="qnum">Завдання 1 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>На діаграмі відображено результати фіксації швидкості автотранспорту у вечірній час відеокамерою, установленою на певній ділянці дороги. Визначте загальну кількість автомобілів, швидкість яких зафіксовано камерою.</p>
+<p><img alt="" src="/doc/images/znotest/392/39231/os-math-1-2026-01-new.png" style="height: auto;" width="626"/></p></div>
+      <div class="answers"><div class="ans"><span class="mk">А</span><div>\(15\)</div></div><div class="ans"><span class="mk">Б</span><div>\(39\)</div></div><div class="ans"><span class="mk">В</span><div>\(48\)</div></div><div class="ans ok"><span class="mk">Г</span><div>\(49\)</div></div><div class="ans"><span class="mk">Д</span><div>\(59\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Елементи комбінаторики, початки теорії імовірностей та елементи статистики. Графічна, таблична, текстова та інші форми наведення статистичної інформації. </strong></p>
+<p>Завдання перевіряє вміння аналізувати статистичну інформацію, наведену на діаграмі.</p>
+<p>Для визначення загальної кількості автомобілів достатньо обчислити суму значень, що відповідають висоті кожного стовпчика діаграми.</p>
+<div class="table-responsive">
+<table>
+<thead>
+<tr>
+<th>Швидкість автомобіля, км/год</th>
+<th>Кількість автомобілів</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>\(40-60\)</td>
+<td>\(8\)</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>\(61-80\)</td>
+<td>\(12\)</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>\(81-100\)</td>
+<td>\(15\)</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>\(101-120\)</td>
+<td>\(10\)</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>понад \(120\)</td>
+<td>\(4\)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Додамо ці значення:</p>
+<p>\(\begin{gather*} 8 + 12 + 15 + 10 + 4 = 49. \end{gather*}\)</p>
+<p>Отже, камера зафіксувала \(49\) автомобілів.</p>
+<p><strong>Відповідь: Г.</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Елементи комбінаторики, початки теорії імовірностей та елементи статистики. Графічна, таблична, текстова та інші форми наведення статистичної інформації.</div>
+    </article>
+    <article class="q" id="q2">
+      <div class="qnum">Завдання 2 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>
+ Дарина купила сир і фрукти, витративши \(240\) грн. Скільки грошей (грн) Дарина витратила на фрукти, якщо за сир вона заплатила \(\dfrac 35\) витраченої суми?
+ </p></div>
+      <div class="answers"><div class="ans ok"><span class="mk">А</span><div>\(96\)</div></div><div class="ans"><span class="mk">Б</span><div>\(30\)</div></div><div class="ans"><span class="mk">В</span><div>\(34\)</div></div><div class="ans"><span class="mk">Г</span><div>\(45\)</div></div><div class="ans"><span class="mk">Д</span><div>\(60\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Числа і вирази. Відношення та пропорції. </strong></p>
+<p>Завдання перевіряє вміння розв'язувати текстові задачі на відношення.</p>
+<p>Позначмо всю витрачену суму через одиницю. Якщо на сир витрачено \(\dfrac 35\) усіх грошей, то частка витрат на фрукти становить</p>
+<p>\(\begin{gather*} 1-\frac 35=\frac 25. \end{gather*}\)</p>
+<p>Щоб обчислити дробову частину від загальної суми, помножмо \(240\) грн на \(\dfrac 25{:}\)</p>
+<p>\(\begin{gather*} 240\cdot \frac 25=240\cdot 0{,}4=96\ \text{грн}. \end{gather*}\)</p>
+<p><strong>Відповідь: A.</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Числа і вирази. Відношення та пропорції.</div>
+    </article>
+    <article class="q" id="q3">
+      <div class="qnum">Завдання 3 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>На рисунку 1 схематично зображено будівельну драбину (рис. 2), що має форму рівнобічної трапеції \(ABCD\) без більшої основи \(AD.\) Драбина стоїть на горизонтальній <span style="white-space:nowrap">поверхні (пряма \(AD\)).</span> Визначте градусну міру кута \(BAD\), якщо \(\angle BCD=110^\circ.\)</p>
+<p><img alt="" src="/doc/images/znotest/392/39233/os-math-1-2026-03-new.png" style="height: auto;" width="497"/></p></div>
+      <div class="answers"><div class="ans"><span class="mk">А</span><div>\(80^\circ\)</div></div><div class="ans ok"><span class="mk">Б</span><div>\(70^\circ\)</div></div><div class="ans"><span class="mk">В</span><div>\(55^\circ\)</div></div><div class="ans"><span class="mk">Г</span><div>\(50^\circ\)</div></div><div class="ans"><span class="mk">Д</span><div>\(20^\circ\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Чотирикутники. Трапеція. </strong></p>
+<p>Завдання перевіряє знання властивостей чотирикутників.</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39233/dc-os-math-1-2026-03.png" style="height: auto;" width="307"/></div>
+<p>У рівнобічній трапеції \(ABCD\) кути, прилеглі до бічної сторони, є внутрішніми односторонніми при паралельних основах \(BC\!\parallel\!AD\), тому їхня сума дорівнює \(180^\circ.\) Оскільки кути при верхній основі рівні \((\angle ABC=\angle BCD=110^\circ)\), то для кута \(BAD\) отримуємо:</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} \angle BAD=180^\circ-\angle ABC=180^\circ-110^\circ=70^\circ. \end{gather*}\)</div>
+<p><strong>Відповідь: Б.</strong></p></div></details>
+      <div class="meta">topic: Геометрія. Планіметрія. Чотирикутники. Трапеція.</div>
+    </article>
+    <article class="q" id="q4">
+      <div class="qnum">Завдання 4 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>
+ Позначте з-поміж наведених найменше число, яке є розв’язком нерівності \(2x+7\gt 27.\)
+</p></div>
+      <div class="answers"><div class="ans"><span class="mk">А</span><div>\(0\)</div></div><div class="ans"><span class="mk">Б</span><div>\(5\)</div></div><div class="ans"><span class="mk">В</span><div>\(10\)</div></div><div class="ans ok"><span class="mk">Г</span><div>\(15\)</div></div><div class="ans"><span class="mk">Д</span><div>\(20\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та системи. Лінійні нерівності. </strong></p>
+<p>Завдання перевіряє вміння розв’язувати лінійні нерівності.</p>
+<p>\(\begin{gather*} 2x+7\gt 27;\\[7pt] 2x\gt 27-7;\\[7pt] 2x\gt 20;\\[7pt] x\gt 10. \end{gather*}\)</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39234/dc-os-math-1-2026-04.png" style="height: auto;" width="302"/> \(\begin{gather*} x\in (10; +\infty). \end{gather*}\)</div>
+<p>Оскільки нерівність строга, число \(10\) не належить до множини розв'язків. Серед запропонованих варіантів умову \(x\gt 10\) задовольняють числа \(15\) та \(20\), з яких найменшим є \(15.\)</p>
+<p><strong>Відповідь: Г.</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Рівняння, нерівності та системи. Лінійні нерівності.</div>
+    </article>
+    <article class="q" id="q5">
+      <div class="qnum">Завдання 5 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>
+ Кулю утворено обертанням
+ </p></div>
+      <div class="answers"><div class="ans ok"><span class="mk">А</span><div>круга навколо його діаметра</div></div><div class="ans"><span class="mk">Б</span><div>кола навколо його дотичної</div></div><div class="ans"><span class="mk">В</span><div>круга навколо його хорди, що не є діаметром</div></div><div class="ans"><span class="mk">Г</span><div>кола навколо його хорди, що не є діаметром</div></div><div class="ans"><span class="mk">Д</span><div>круга навколо прямої, що не проходить через його центр</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Стереометрія. Тіла обертання. </strong></p>
+<p>Завдання перевіряє знання властивостей геометричних тіл, зокрема кулі.</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39235/dc-os-math-1-2026-05.png" style="height: auto;" width="210"/></div>
+<p>Кулю утворено обертанням круга навколо діаметра.</p>
+<p><strong>Відповідь: A.</strong></p></div></details>
+      <div class="meta">topic: Геометрія. Стереометрія. Тіла обертання.</div>
+    </article>
+    <article class="q" id="q6">
+      <div class="qnum">Завдання 6 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>На рисунку зображено графік функції \(y=f(x)\), визначеної на проміжку \([–4; 4].\) На якому з наведених проміжків функція набуває лише від’ємних значень?</p>
+<p><img alt="" src="/doc/images/znotest/392/39236/os-math-1-2026-06-new.png" style="height: auto;" width="332"/></p></div>
+      <div class="answers"><div class="ans"><span class="mk">А</span><div>\([-4; -2]\)</div></div><div class="ans"><span class="mk">Б</span><div>\((-2; 0]\)</div></div><div class="ans"><span class="mk">В</span><div>\((0; 1]\)</div></div><div class="ans ok"><span class="mk">Г</span><div>\((1; 2]\)</div></div><div class="ans"><span class="mk">Д</span><div>\((2; 4]\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Функції. Функціональна залежність. </strong></p>
+<p>Завдання перевіряє вміння визначати властивості числових функцій, заданих графіком.</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39236/dc-os-math-1-2026-06.png" style="height: auto;" width="332"/></div>
+<p>Функція набуває лише від’ємних значень \((f(x)\lt 0)\) на тих проміжках, де її графік розташований строго нижче від осі абсцис \((Ox).\) На рисунку видно, що \(f(x)\lt 0\) для всіх \(x\in (1; 3).\) Оскільки проміжок \((1; 2]\) повністю належить цьому інтервалу, саме на ньому функція є строго від’ємною.</p>
+<p><strong>Відповідь: Г.</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Функції. Функціональна залежність.</div>
+    </article>
+    <article class="q" id="q7">
+      <div class="qnum">Завдання 7 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>
+ На столі лежать \(18\) світлин: \(8\) – із зображенням природи, \(4\) – із зображенням людини, \(6\) – із зображенням будівель. Яка ймовірність того, що навмання взята зі столу світлина буде із зображенням природи або будівлі?
+ </p></div>
+      <div class="answers"><div class="ans"><span class="mk">А</span><div>\(\dfrac{1}{18}\)</div></div><div class="ans"><span class="mk">Б</span><div>\(\dfrac{1}{14}\)</div></div><div class="ans"><span class="mk">В</span><div>\(\dfrac 29\)</div></div><div class="ans"><span class="mk">Г</span><div>\(\dfrac 23\)</div></div><div class="ans ok"><span class="mk">Д</span><div>\(\dfrac 79\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Комбінаторика, теорія ймовірностей, статистика. Імовірність випадкової події. </strong></p>
+<p>Завдання перевіряє вміння обчислювати ймовірність випадкових подій.</p>
+<p>Для обчислення ймовірності випадкової події застосуймо класичне означення ймовірності:</p>
+<p>\(\begin{gather*} P(A)=\frac kn, \end{gather*}\)</p>
+<p>де: \(n\) – загальна кількість усіх можливих рівноймовірних наслідків; \(k\) – кількість наслідків, що сприяють події \(A.\)</p>
+<p>Загальна кількість світлин становить \(n=18\) (усі можливі наслідки).</p>
+<p>Сприятливими в контексті завдання є світлини із зображеннями природи або будівель, тому їхня кількість дорівнює \(k=8+6=14\) (сприятливі наслідки).</p>
+<p>Обчислімо ймовірність і скоротімо дріб на \(2{:}\)</p>
+<p>\(\begin{gather*} P(A)=\frac kn=\frac{14}{18}=\frac 79. \end{gather*}\)</p>
+<p><strong>Відповідь: Д.</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Комбінаторика, теорія ймовірностей, статистика. Імовірність випадкової події.</div>
+    </article>
+    <article class="q" id="q8">
+      <div class="qnum">Завдання 8 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>У прямокутній системі координат у просторі зображено прямокутний паралелепіпед \(ABCDA_1B_1C_1D_1\) і зазначено його виміри (див. рисунок). Визначте координати <span style="white-space:nowrap">вектора \(\overrightarrow{DB_1}.\)</span></p>
+<p><img alt="" src="/doc/images/znotest/392/39238/os-math-1-2026-08-new2.png" style="height: auto;" width="248"/></p></div>
+      <div class="answers"><div class="ans"><span class="mk">А</span><div>\((-2; 3; 4)\)</div></div><div class="ans ok"><span class="mk">Б</span><div>\((2; -3; 4)\)</div></div><div class="ans"><span class="mk">В</span><div>\((3; -2; 4)\)</div></div><div class="ans"><span class="mk">Г</span><div>\((-3; 2; -4)\)</div></div><div class="ans"><span class="mk">Д</span><div>\((2; 3; 4)\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Стереометрія. Координати й вектори в просторі. </strong></p>
+<p>Завдання перевіряє вміння визначати координати точок у тривимірному просторі, координати вектора в просторі й відстань між точками за відомими координатами.</p>
+<p>Якщо \(B_1(x_1; y_1; z_1)\), \(D(x_2; y_2; z_2)\) координати вектора</p>
+<p>\(\begin{gather*} \overrightarrow{DB_1}(x_1-x_2; y_1-y_2; z_1-z_2). \end{gather*}\)</p>
+<p>Початок системи координат розташований у точці \(A(0; 0; 0).\) Точка \(D\) лежить на осі \(y\) на відстані \(3\) від початку координат \(A(0; 0; 0)\), тому \(D(0; 3; 0).\) Точка \(B_1\) розташована в площині \(xz{:}\) її координата за віссю \(x\) дорівнює \(2\), за віссю \(y-0\), а за віссю \(z-4\), тому \(B_1(2; 0; 4).\) Обчислімо координати вектора:</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} \overrightarrow{DB_1}=(2-0; 0-3; 4-0)=(2; -3; 4). \end{gather*}\)</div>
+<p><strong>Відповідь: Б.</strong></p></div></details>
+      <div class="meta">topic: Геометрія. Стереометрія. Координати й вектори в просторі.</div>
+    </article>
+    <article class="q" id="q9">
+      <div class="qnum">Завдання 9 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>
+ Спростіть вираз \(25b-(b-5)(5+b)+25.\)
+</p></div>
+      <div class="answers"><div class="ans"><span class="mk">А</span><div>\(25b-b^2\)</div></div><div class="ans"><span class="mk">Б</span><div>\(25b-b^2-50\)</div></div><div class="ans"><span class="mk">В</span><div>\(25b+b^2-50\)</div></div><div class="ans ok"><span class="mk">Г</span><div>\(25b-b^2+50\)</div></div><div class="ans"><span class="mk">Д</span><div>\(25b+b^2\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Раціональні вирази. </strong></p>
+<p>Завдання перевіряє вміння застосовувати формули скороченого множення для розкладання многочленів на множники.</p>
+<p>Використаймо формулу скороченого множення – різницю квадратів:</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} a^2-b^2=(a-b)(a+b).\\[7pt] 25b-(b-5)(5+b)+25=25b-(b-5)(b+5)+25=\\[7pt] =25b-(b^2-25)+25=25b-b^2+25+25=25b-b^2+50. \end{gather*}\)</div>
+<p><strong>Відповідь: Г.</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Раціональні вирази.</div>
+    </article>
+    <article class="q" id="q10">
+      <div class="qnum">Завдання 10 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>
+ У коло із центром \(O\) вписано трикутник \(ABC\) (див. рисунок). \(AC\) – діаметр кола. Які з наведених тверджень є правильними?
+ </p>
+<img alt="" src="/doc/images/znotest/392/39241/os-math-1-2026-10.png" style="height: auto;" width="241"/>
+<p>
+<b>I.</b>   Градусна міра кута \(ABC\) дорівнює \(90^\circ.\)
+</p>
+<p>
+<b>II.</b>  Градусна міра кута \(BOC\) вдвічі більша за градусну міру кута \(BAC.\)
+</p>
+<p>
+<b>III.</b> Довжина відрізка \(AC\) вдвічі більша за довжину відрізка \(OB.\)
+</p></div>
+      <div class="answers"><div class="ans"><span class="mk">А</span><div>лише I</div></div><div class="ans"><span class="mk">Б</span><div>лише II</div></div><div class="ans"><span class="mk">В</span><div>лише III</div></div><div class="ans"><span class="mk">Г</span><div>лише І та ІІ</div></div><div class="ans ok"><span class="mk">Д</span><div>І, ІІ та ІІІ</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p>
+<strong>
+ ТЕМА: Геометрія. Планіметрія. Коло і круг.
+ </strong>
+</p>
+<p>
+ Це завдання перевіряє знання властивостей вписаних та центральних кутів.
+ </p>
+<p>
+<b>I. Градусна міра кута \(ABC\) дорівнює \(90^\circ.\)</b>
+</p>
+<p>
+ Кут \(ABC\) – вписаний кут, який спирається на діаметр \(AC.\) Вписаний кут, що спирається на діаметр, завжди дорівнює \(90^\circ.\) Твердження <b>правильне</b>.
+ </p>
+<br/>
+<p>
+<b>II. Градусна міра кута \(BOC\) вдвічі більша за градусну міру кута \(BAC.\)</b>
+</p>
+<p>
+ Кут \(BOC\) – центральний кут, а кут \(BAC\) – вписаний. Обидва спираються на спільну <span style="white-space:nowrap">дугу \(BC.\)</span> За теоремою про вписаний кут, центральний кут удвічі більший за вписаний, що спирається на ту саму дугу \((\angle BOC=2\cdot \angle BAC).\) Твердження <b>правильне</b>.
+ </p>
+<br/>
+<p>
+<b>III. Довжина відрізка \(AC\) вдвічі більша за довжину відрізка \(OB.\)</b>
+</p>
+<p>
+ Відрізок \(AC\) – це діаметр кола \((D=2R)\), а \(OB\) – радіус кола \((R).\) Відповідно, довжина діаметра вдвічі більша за довжину радіуса \((AC=2\cdot OB).\) Твердження <b>правильне</b>. 
+ </p>
+<p><strong>Відповідь: Д.</strong></p></div></details>
+      <div class="meta">topic: Геометрія. Планіметрія. Коло і круг.</div>
+    </article>
+    <article class="q" id="q11">
+      <div class="qnum">Завдання 11 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>
+ Розв’яжіть рівняння \(3^x=81\cdot 9^x.\)
+</p></div>
+      <div class="answers"><div class="ans ok"><span class="mk">А</span><div>\(-4\)</div></div><div class="ans"><span class="mk">Б</span><div>\(-2\)</div></div><div class="ans"><span class="mk">В</span><div>\(6\)</div></div><div class="ans"><span class="mk">Г</span><div>\(-\dfrac 43\)</div></div><div class="ans"><span class="mk">Д</span><div>\(4\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та їхні системи. Показникові рівняння. </strong></p>
+<p>Завдання перевіряє вміння розв'язувати показникові рівняння.</p>
+<p>\(\begin{gather*} 3^x=81\cdot 9^x. \end{gather*}\)</p>
+<p>Зведімо все до однієї основи: \(81=3^4\) та \(9=3^2.\)</p>
+<p>Використаймо властивість степенів:</p>
+<p>\(\begin{gather*} (a^x)^y=a^{xy}. \end{gather*}\)</p>
+<p>Тоді \((3^2)^x=3^{2\cdot x}.\)</p>
+<p>Отже,</p>
+<p>\(\begin{gather*} 3^x=3^4\cdot 3^{2\cdot x}. \end{gather*}\)</p>
+<p>Використаймо властивість степенів:</p>
+<p>\(\begin{gather*} a^x\cdot a^y=a^{x+y}. \end{gather*}\)</p>
+<p>Тоді</p>
+<p>\(\begin{gather*} 3^x=3^{4+2x}. \end{gather*}\)</p>
+<p>Оскільки основи в обох частинах рівняння однакові (і в лівій, і в правій частині <span style="white-space:nowrap">основа \(3\)),</span> можемо прирівняти їхні показники степеня:</p>
+<p>\(\begin{gather*} x=4+2x;\\[7pt] 4+2x=x;\\[7pt] 2x-x=-4;\\[7pt] x=-4. \end{gather*}\)</p>
+<p><strong>Відповідь: A.</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Рівняння, нерівності та їхні системи. Показникові рівняння.</div>
+    </article>
+    <article class="q" id="q12">
+      <div class="qnum">Завдання 12 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>Обчисліть площу \(S\) зафарбованої фігури, обмеженої графіком функції \(y=e^x\), осями координат і прямою \(x=1\) (див. рисунок).</p>
+<p><img alt="" src="/doc/images/znotest/392/39243/os-math-1-2026-12.png" style="width: 350px;"/></p></div>
+      <div class="answers"><div class="ans"><span class="mk">А</span><div>\(S=e+1\)</div></div><div class="ans"><span class="mk">Б</span><div>\(S=e\)</div></div><div class="ans ok"><span class="mk">В</span><div>\(S=e-1\)</div></div><div class="ans"><span class="mk">Г</span><div>\(S=1\)</div></div><div class="ans"><span class="mk">Д</span><div>\(S=1-e\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Первісна й визначений інтеграл. </strong></p>
+<p>Завдання перевіряє вміння застосовувати формулу Ньютона – Лейбніца для обчислення визначеного інтеграла, обчислювати площу плоских фігур за допомогою інтеграла.</p>
+<p>Площу заштрихованої фігури (криволінійної трапеції), обмежено лініями \(x=a\), \(x=b\), графіком функції \(y=f(x)\) і віссю \(Ox\) визначмо за формулою:</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39243/dc-os-math-1-2026-12.png" style="height: auto;" width="348"/></div>
+<div class="more" style="width: 100%;">\(\begin{gather*} \mathop{\int}\limits_a^b f(x)dx=F(b)-F(a),\\[6pt] S=\mathop{\int}\limits_0^1 e^x dx=\left.e^x\right|_0^1=e^1-e^0=e-1. \end{gather*}\)</div>
+<p><strong>Відповідь: B.</strong></p>
+<div id="gtx-trans" style="position: absolute; left: 40px; top: 142.818px;">
+<div class="gtx-trans-icon"> </div>
+</div></div></details>
+      <div class="meta">topic: Первісна й визначений інтеграл.</div>
+    </article>
+    <article class="q" id="q13">
+      <div class="qnum">Завдання 13 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>
+ На рисунку зображено рівнобедрений трикутник \(ABC\), у якому \(\angle ABC=120^\circ.\) Точки \(K\) і \(M\) є серединами сторін \(AB\) та \(AC\) відповідно. Визначте <span style="white-space:nowrap">площу (см\(^2\))</span> чотирикутника \(KBCM\), <span style="white-space:nowrap">якщо \(AC=24\) см.</span>
+</p>
+<p><img alt="" src="/doc/images/znotest/392/39246/os-math-1-2026-13.png" style="height: auto;" width="338"/></p></div>
+      <div class="answers"><div class="ans"><span class="mk">А</span><div>\(48\sqrt{3}\)</div></div><div class="ans"><span class="mk">Б</span><div>\(24\)</div></div><div class="ans"><span class="mk">В</span><div>\(24\sqrt{3}\)</div></div><div class="ans"><span class="mk">Г</span><div>\(36\)</div></div><div class="ans ok"><span class="mk">Д</span><div>\(36\sqrt{3}\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Трикутники. </strong></p>
+<p>Завдання перевіряє знання властивостей рівнобедреного трикутника, співвідношення в прямокутному трикутнику, середньої лінії трикутника, властивостей подібних трикутників, властивості площ геометричних фігур.</p>
+<p>Оскільки \(\Delta ABC\) – рівнобедрений \((AB=BC)\) з кутом при вершині \(\angle ABC=120^\circ\), кути при основі дорівнюють</p>
+<p>\(\begin{gather*} \angle A=\angle C=\frac{180^\circ-120^\circ}{2}=30^\circ. \end{gather*}\)</p>
+<p>Проведімо висоту \(BM\!\perp\!AC.\)</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39246/dc-os-math-1-2026-13-1.png" style="height: auto;" width="339"/></div><br/>
+<p>У рівнобедреному трикутнику висота є медіаною, тому <span style="white-space:nowrap">\(AM=MC=24:2=12\) см.</span> З прямокутного трикутника \(ABM\) визначмо висоту \(BM{:}\)</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} BM=AM\cdot \mathrm{tg}\ 30^\circ=12\cdot \frac{1}{\sqrt{3}}=4\sqrt{3}\ \text{см}. \end{gather*}\)
+<p>Обчислімо площу \(\Delta ABC{:}\)</p>
+\(\begin{gather*} S_{\Delta ABC}=\frac 12\cdot AC\cdot BM=\frac 12\cdot 24\cdot 4\sqrt{3}=48\sqrt{3}\ \text{см}^2. \end{gather*}\)</div>
+<p>Точки \(K\) та \(M\) – середини сторін \(AB\) й \(AC\), отже, \(KM\) – середня лінія \(\Delta ABC.\)</p>
+<p>Трикутник \(AKM\) подібний до \(\Delta ABC\) з коефіцієнтом подібності</p>
+<p>\(\begin{gather*} k=\frac{AK}{AB}=\frac{AM}{AC}=\frac{KM}{BC}=\frac 12. \end{gather*}\)</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39246/dc-os-math-1-2026-13-2-new.png" style="height: auto;" width="339"/></div><br/>
+<p>Відношення площ подібних трикутників дорівнює \(k^2{:}\)</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} \frac{S_{\Delta AKM}}{S_{\Delta ABC}}=\left(\frac 12\right)^2;\\[6pt] S_{\Delta AKM}=\left(\frac 12\right)^2\cdot S_{\Delta ABC}=\frac 14\cdot S_{\Delta ABC}. \end{gather*}\)
+<p>Площа чотирикутника \(KBCM\) дорівнює різниці площ \(\Delta ABC\) та \(\Delta AKM{:}\)</p>
+\(\begin{gather*} S_{KBCM}=S_{\Delta ABC}-S_{\Delta AKM}=\frac 34 S_{\Delta ABC}=\frac 34\cdot 48\sqrt{3}=36\sqrt{3}\ \text{см}^2. \end{gather*}\)</div>
+<p><strong>Відповідь: Д.</strong></p></div></details>
+      <div class="meta">topic: Геометрія. Планіметрія. Трикутники.</div>
+    </article>
+    <article class="q" id="q14">
+      <div class="qnum">Завдання 14 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>
+\(|5^{-1}-3|=\)
+</p></div>
+      <div class="answers"><div class="ans"><span class="mk">А</span><div>\(8\)</div></div><div class="ans ok"><span class="mk">Б</span><div>\(2{,}8\)</div></div><div class="ans"><span class="mk">В</span><div>\(2{,}5\)</div></div><div class="ans"><span class="mk">Г</span><div>\(-2{,}8\)</div></div><div class="ans"><span class="mk">Д</span><div>\(-8\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Дійсні числа та дії з ними. </strong></p>
+<p>Завдання перевіряє вміння виконувати дії з дійсними числами, застосовувати знання про властивості модуля числа.</p>
+<p>Для розв'язання завдання треба знати означення степеня із цілим показником і правила дій зі степенями:</p>
+<p>\(\begin{gather*} a^{-n}=\frac{1}{a^n}\ \text{для}\ a\ne 0,\ n\in N.\\[6pt] 5^{-1}=\frac 15=0{,}2. \end{gather*}\)</p>
+<p>Підставмо обчислене значення у вираз під знаком модуля:</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} |5^{-1}-3|=|0{,}2-3|=|-2{,}8|=2{,}8. \end{gather*}\)</div>
+<p>За властивістю модуля числа</p>
+<p>\(\begin{gather*} |a|=\left\{\begin{array}{l} a,\ \text{якщо}\ a\ge 0, \\ -a,\ \text{якщо}\ a\lt 0. \end{array}\right. \end{gather*}\)</p>
+<p><strong>Відповідь: Б.</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Дійсні числа та дії з ними.</div>
+    </article>
+    <article class="q" id="q15">
+      <div class="qnum">Завдання 15 <span class="type">single_choice</span></div>
+      <div class="qtext"><p>
+ Розв’яжіть систему рівнянь
+ \(\begin{cases}
+ x+y=-4,\\
+ xy+y^2=12.
+ \end{cases}\)
+ Якщо \((x_0; y_0)\) – розв’язок цієї системи, <span style="white-space:nowrap">то \(x_0\cdot y_0=\)</span>
+</p></div>
+      <div class="answers"><div class="ans ok"><span class="mk">А</span><div>\(3\)</div></div><div class="ans"><span class="mk">Б</span><div>\(-3\)</div></div><div class="ans"><span class="mk">В</span><div>\(-4\)</div></div><div class="ans"><span class="mk">Г</span><div>\(-21\)</div></div><div class="ans"><span class="mk">Д</span><div>\(21\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності й системи. Лінійні, квадратні, раціональні, ірраціональні, показникові, логарифмічні, тригонометричні рівняння, нерівності та їхні системи. </strong></p>
+<p>Завдання перевіряє вміння розв’язувати системи рівнянь.</p>
+<p>Розв'яжімо систему рівнянь методом підстановки.</p>
+<p>З першого рівняння системи виразімо змінну \(y\) через змінну \(x{:}\)</p>
+<p>\(\begin{gather*} y=-4-x. \end{gather*}\)</p>
+<p>Підставмо цей вираз замість змінної \(y\) у друге рівняння системи:</p>
+<p>\(\begin{gather*} x\cdot (-4-x)+(-4-x)^2=12;\\[7pt] -4x-x^2+(4+x)^2=12. \end{gather*}\)</p>
+<p>Розв’яжімо отримане рівняння, використавши формулу квадрата суми:</p>
+<p>\(\begin{gather*} (a+b)^2=a^2+2ab+b^2.\\[7pt] -4x-x^2+(4+x)^2=12;\\[7pt] -4x-x^2+16+8x+x^2=12;\\[7pt] 4x=12-16;\\[7pt] 4x=-4;\\[7pt] x=-1. \end{gather*}\)</p>
+<p>Тоді</p>
+<p>\(\begin{gather*} y=-4-(-1)=-4+1=-3. \end{gather*}\)</p>
+<p>\((-1; -3)\) – розв'язок системи.</p>
+<p>Добуток</p>
+<p>\(\begin{gather*} x_0\cdot y_0=-1\cdot (-3)=3. \end{gather*}\)</p>
+<p><strong>Відповідь: A.</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Рівняння, нерівності й системи. Лінійні, квадратні, раціональні, ірраціональні, показникові, логарифмічні, тригонометричні рівняння, нерівності та їхні системи.</div>
+    </article>
+    <article class="q" id="q16">
+      <div class="qnum">Завдання 16 <span class="type">matching</span></div>
+      <div class="qtext"><p>
+ Доберіть до функції (1–3) її властивість (А – Д). 
+ </p></div>
+      <div class="answers"><div class="ans"><span class="mk">1</span><div>\(y=x^2+2\)</div></div><div class="ans"><span class="mk">2</span><div>\(y=\sin x\)</div></div><div class="ans"><span class="mk">3</span><div>\(y=3x+2\)</div></div><div class="ans"><span class="mk">А</span><div>спадає на всій області визначення</div></div><div class="ans"><span class="mk">Б</span><div>графік функції проходить через точку \((0; 0)\)</div></div><div class="ans"><span class="mk">В</span><div>зростає на всій області визначення</div></div><div class="ans"><span class="mk">Г</span><div>є парною</div></div><div class="ans"><span class="mk">Д</span><div>графік функції симетричний відносно осі \(x\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Функції. Лінійні, квадратичні, степеневі, показникові, логарифмічні та тригонометричні функції, їхні основні властивості та графіки. </strong></p>
+<p>Завдання перевіряє вміння визначати властивості числових функцій, заданих формулою або графіком.</p>
+<p><b>1.</b> \(y=x^2+2\) – квадратична функція.</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39250/dc-os-math-1-2026-16-1.png" style="height: auto;" width="434"/></div>
+<p>Перевірмо функцію на парність:</p>
+<p>\(\begin{gather*} f(-x) = (-x)^2 + 2 = x^2 + 2 = f(x). \end{gather*}\)</p>
+<p>Умова \(f(-x)=f(x)\) виконується для будь-якого \(x\in R\), тому функція парна.</p>
+<p>Графік парної функції симетричний відносно осі ординат. Отже, правильна відповідь – <b>Г</b>.</p>
+<p> </p>
+<p><b>2.</b> \(y=\sin x.\)</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39250/dc-os-math-1-2026-16-2-new.png" style="height: auto;" width="519"/></div>
+<p>Перевірмо належність точки \((0; 0){:}\) підставмо \(x=0\), тоді \(y=\sin 0 = 0.\) Графік функції проходить через початок координат \((0; 0).\) Отже, правильна відповідь – <b>Б</b>.</p>
+<p> </p>
+<p><b>3.</b> \(y=3x+2\) – це лінійна функція, яка зростає на всій області визначення.</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39250/dc-os-math-1-2026-16-3.png" style="height: auto;" width="433"/></div>
+<p>\(y=kx+b\), якщо \(k\gt 0\) функція зростає, а якщо \(k\lt 0\) – спадає.</p>
+<p>Оскільки кутовий коефіцієнт \(k=3\gt 0\), функція строго зростає на всій області визначення \((-\infty; +\infty).\) Отже, правильна відповідь – <b>В</b>.</p>
+<p><strong>Відповідь: 1 – Г, 2 – Б, 3 – B.</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Функції. Лінійні, квадратичні, степеневі, показникові, логарифмічні та тригонометричні функції, їхні основні властивості та графіки.</div>
+    </article>
+    <article class="q" id="q17">
+      <div class="qnum">Завдання 17 <span class="type">matching</span></div>
+      <div class="qtext"><p>
+ Увідповідніть числовий вираз (1–3) і проміжок (А – Д), якому належить значення цього виразу.
+ </p></div>
+      <div class="answers"><div class="ans"><span class="mk">1</span><div>\(\dfrac{\sqrt{200}}{\sqrt{8}}\)</div></div><div class="ans"><span class="mk">2</span><div>\(\log_8 200\)</div></div><div class="ans"><span class="mk">3</span><div>\(8\cos 120^\circ\)</div></div><div class="ans"><span class="mk">А</span><div>\((-\infty; -5]\)</div></div><div class="ans"><span class="mk">Б</span><div>\((-5; 0]\)</div></div><div class="ans"><span class="mk">В</span><div>\((0; 3]\)</div></div><div class="ans"><span class="mk">Г</span><div>\((3; 6]\)</div></div><div class="ans"><span class="mk">Д</span><div>\((6; +\infty)\)</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Дійсні числа та дії з ними. </strong></p>
+<p>Завдання перевіряє вміння виконувати дії з дійсними числами.</p>
+<p><b>1.</b> За властивістю кореня \(\dfrac{\sqrt{a}}{\sqrt{b}}=\sqrt{\dfrac ab},\) де \(a\ge 0\) i \(b\gt 0{:}\)</p>
+<p>\(\begin{gather*} \frac{\sqrt{200}}{\sqrt{8}}=\sqrt{\frac{200}{8}}=\sqrt{25}=5. \end{gather*}\)</p>
+<p>Число \(5\) належить проміжку \((3; 6].\) Отже, правильна відповідь – <b>Г</b>.</p>
+<p> </p>
+<p><b>2.</b> \(\log_8 200.\)</p>
+<p>Оцінімо значення логарифма через степені основи \(8{:}\)</p>
+<p>\(\begin{gather*} 8^2=64\ \text{та}\ 8^3=512. \end{gather*}\)</p>
+<p>Запишімо подвійну нерівність</p>
+<p>\(\begin{gather*} 64\lt 200\lt 512. \end{gather*}\)</p>
+<p>Основа логарифма \(8\gt 1\), тому логарифмічна функція \(y=\log_8 x\) зростає, а знаки нерівності не змінюються:</p>
+<p>\(\begin{gather*} \log_8 64\lt \log_8 200\lt \log_8 512. \end{gather*}\)</p>
+<p>Застосуймо властивості логарифмів:</p>
+<p>\(\begin{gather*} \log_a a=1;\\[7pt] \log_a b^n=n\cdot \log_a b.\\[7pt] \log_8 8^2\lt \log_8 200\lt \log_8 8^3;\\[7pt] 2\lt \log_8 200\lt 3. \end{gather*}\)</p>
+<p>Значення перебуває в межах від \(2\) до \(3\), тобто належить проміжку \((0; 3].\) Отже, правильна відповідь – <b>В</b>.</p>
+<p> </p>
+<p><b>3.</b> \(8\cdot \cos 120^\circ.\)</p>
+<p>Застосуймо формулу зведення</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} \cos(180^\circ-\alpha)=-\cos \alpha.\\[6pt] \cos 120^\circ=\cos(180^\circ-60^\circ)=-\cos 60^\circ=-\frac 12;\\[6pt] 8\cdot \left(-\frac 12\right)=-4. \end{gather*}\)</div>
+<p>Число \(-4\) належить проміжку \((-5; 0].\) Отже, правильна відповідь – <b>Б</b>.</p>
+<p><strong>Відповідь: 1 – Г, 2 – B, 3 – Б.</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Дійсні числа та дії з ними.</div>
+    </article>
+    <article class="q" id="q18">
+      <div class="qnum">Завдання 18 <span class="type">matching</span></div>
+      <div class="qtext"><p>
+ На рисунку зображено квадрат \(ABCD\), діагональ якого дорівнює \(8\sqrt{2}\) см. Увідповідніть величину (1–3) та її значення (А – Д).
+ </p>
+<p><img alt="" src="/doc/images/znotest/392/39254/os-math-1-2026-18.png" style="height: auto;" width="206"/></p></div>
+      <div class="answers"><div class="ans"><span class="mk">1</span><div>відстань між серединами сторін \(AB\) і \(AD\)</div></div><div class="ans"><span class="mk">2</span><div>довжина радіуса кола, уписаного у квадрат \(ABCD\)</div></div><div class="ans"><span class="mk">3</span><div>довжина медіани трикутника \(ABC\), проведеної з вершини \(A\)</div></div><div class="ans"><span class="mk">А</span><div>\(4\) см</div></div><div class="ans"><span class="mk">Б</span><div>\(4\sqrt{2}\) см</div></div><div class="ans"><span class="mk">В</span><div>\(4\sqrt{3}\) см</div></div><div class="ans"><span class="mk">Г</span><div>\(4\sqrt{5}\) см</div></div><div class="ans"><span class="mk">Д</span><div>\(8\) см</div></div></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Чотирикутники. </strong></p>
+<p>Завдання перевіряє знання властивостей квадрата та прямокутного трикутника.</p>
+<p>За формулою діагоналі квадрата \(d=a\sqrt{2}\), де \(a\) – його сторона. Оскільки \(d=8\sqrt{2}\) см, маємо:</p>
+<p>\(\begin{gather*} a\sqrt{2}=8\sqrt{2};\\[7pt] a=8\ \text{см}. \end{gather*}\)</p>
+<p><b>1. Відстань між серединами сторін \(AB\) i \(AD.\)</b></p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39254/dc-os-math-1-2026-18-1.png" style="height: auto;" width="210"/></div>
+<p>Точки \(M\) та \(N\) – середини сторін \(AB\) й \(AD\) відповідно. Відрізок \(MN\) є середньою лінією трикутника \(ABD.\) За її властивістю:</p>
+<p>\(\begin{gather*} MN=\frac{BD}{2}=\frac{8\sqrt{2}}{2}=4\sqrt{2}\ \text{см}. \end{gather*}\)</p>
+<p>Отже, правильна відповідь – <b>Б</b>.</p>
+<p> </p>
+<p><b>2. Довжина радіуса кола, уписаного у квадрат \(ABCD.\)</b></p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39254/dc-os-math-1-2026-18-2.png" style="height: auto;" width="210"/></div>
+<p>Радіус \(r\) вписаного у квадрат кола дорівнює половині сторони цього квадрата.</p>
+<p>\(\begin{gather*} r=\frac a2=\frac 82=4\ \text{см}. \end{gather*}\)</p>
+<p>Отже, правильна відповідь – <b>A</b>.</p>
+<p> </p>
+<p><b>3. Довжина медіани трикутника \(ABC\), проведеної з вершини \(A.\)</b></p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39254/dc-os-math-1-2026-18-3.png" style="height: auto;" width="210"/></div>
+<p>Медіана \(AP\) ділить сторону \(BC\) навпіл, тому</p>
+<p>\(\begin{gather*} BP=\frac{BC}{2}=\frac 82=4\ \text{см}. \end{gather*}\)</p>
+<p>У прямокутному трикутнику \(ABP\ (\angle B=90^\circ)\) обчислюємо довжину гіпотенузи \(AP\) за теоремою Піфагора:</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} AP^2=AB^2+BP^2;\\[7pt] AP=\sqrt{AB^2+BP^2}=\sqrt{8^2+4^2}=\sqrt{64+16}=\sqrt{80}=\sqrt{16\cdot 5}=4\sqrt{5}\ \text{см}. \end{gather*}\)</div>
+<p>Отже, правильна відповідь – <b>Г</b>.</p>
+<p><strong>Відповідь: 1 – Б, 2 – A, 3 – Г.</strong></p></div></details>
+      <div class="meta">topic: Геометрія. Планіметрія. Чотирикутники.</div>
+    </article>
+    <article class="q" id="q19">
+      <div class="qnum">Завдання 19 <span class="type">short_answer</span></div>
+      <div class="qtext"><p>
+ Визначте критичні точки функції \(f(x)=4x^3+9x^2-30x+1.\) Яка із цих точок є точкою максимуму функції \(f(x)\)?
+ </p></div>
+      <div class="short">Відповідь: <b>-2.5</b></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Функції. Лінійні, квадратичні, степеневі, показникові, логарифмічні та тригонометричні функції, їх основні властивості. </strong></p>
+<p>Завдання перевіряє знання означення найбільшого й найменшого значень функції, уміння застосовувати похідну для дослідження функції.</p>
+<p>Найбільше значення функції визначмо за допомогою її похідної.</p>
+<p>Скористаймося правилом диференціювання суми \((u+v)'=u'+v'\) й визначмо похідну функції за формулою:</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} (x^{\alpha})'=\alpha x^{\alpha-1}.\\[7pt] f'(x)=(4x^3+9x^2-30x+1)'=(4x^3)'+(9x^2)'-(30x)'+(1)';\\[7pt] f'(x)=4\cdot 3x^{3-1}+9\cdot 2x^{2-1}-30+0=12x^2+18x-30. \end{gather*}\)</div>
+<p>Критичні точки – це внутрішні точки області визначення, у яких похідна дорівнює нулю або не існує. Прирівняймо похідну до нуля:</p>
+<p>\(\begin{gather*} 12x^2+18x-30=0. \end{gather*}\)</p>
+<p>Скоротімо всі коефіцієнти на \(6{:}\)</p>
+<p>\(\begin{gather*} 2x^2+3x-5=0. \end{gather*}\)</p>
+<p>Розв'яжімо квадратне рівняння через дискримінант:</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} D=3^2-4\cdot 2\cdot (-5)=9+40=49=7^2;\\[6pt] x_1=\frac{-3-7}{2\cdot 2}=\frac{-10}{4}=-2{,}5;\\[6pt] x_2=\frac{-3+7}{2\cdot 2}=\frac 44=1. \end{gather*}\)</div>
+<p>Отже, <b>критичні точки</b>: \(x=-2{,}5\) та \(x=1.\)</p>
+<p>Позначмо критичні точки на числовій прямій і з'ясуймо знаки похідної \(f'(x)\) на утворених інтервалах (графік похідної – квадратична парабола, вітки якої спрямовані вгору):</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39255/dc-os-math-1-2026-19-new.png" style="height: auto;" width="376"/></div>
+<div class="table-responsive">
+<table>
+<tbody>
+<tr>
+<td>\(x\)</td>
+<td>\((-\infty; -2{,}5)\)</td>
+<td>\((-2{,}5; 1)\)</td>
+<td>\((1; +\infty)\)</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>\(f'(x)\)</td>
+<td>\(+\)</td>
+<td>\(-\)</td>
+<td>\(+\)</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>\(f(x)\)</td>
+<td>зростає</td>
+<td>спадає</td>
+<td>зростає</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>На \((-\infty; -2{,}5){:}\ f'(x)\gt 0\) (функція зростає).</p>
+<p>На \((-2{,}5; 1){:}\ f'(x)\lt 0\) (функція спадає).</p>
+<p>На \((1; +\infty){:}\ f'(x)\gt 0\) (функція зростає).</p>
+<p>Оскільки внаслідок переходу через точку \(x=-2{,}5\) знак похідної змінюється з плюса на мінус <span style="white-space:nowrap">\((+\) на \(-)\),</span> то за достатньою умовою екстремуму ця точка є точкою максимуму.</p>
+<p>Критичні точки: \(-2{,}5\) та \(1.\) Точка максимуму: \(x_\text{max}=-2{,}5.\)</p>
+<p><strong>Відповідь: \(-2{,}5.\)</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Функції. Лінійні, квадратичні, степеневі, показникові, логарифмічні та тригонометричні функції, їх основні властивості.</div>
+    </article>
+    <article class="q" id="q20">
+      <div class="qnum">Завдання 20 <span class="type">short_answer</span></div>
+      <div class="qtext"><p>
+ У будинку \(150\) квартир: однокімнатні, двокімнатні та трикімнатні. Кількість однокімнатних квартир становить \(40\ \%\) від загальної кількості квартир, двокімнатних на \(20\ \%\) менше, ніж однокімнатних. Скільки трикімнатних квартир у будинку?
+ </p></div>
+      <div class="short">Відповідь: <b>42</b></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Числа і вирази. Відношення та пропорції. </strong></p>
+<p>Завдання перевіряє вміння розв'язувати текстові задачі, зокрема на відсотки.</p>
+<p>Однокімнатні квартири становлять \(40\ \%\) від загальної кількості \((150){:}\)</p>
+<p>\(\begin{gather*} 150\cdot 0{,}4=60. \end{gather*}\)</p>
+<p>Двокімнатних на \(20\ \%\) менше, ніж однокімнатних (тобто вони становлять \(80\ \%\) від кількості однокімнатних):</p>
+<p>\(\begin{gather*} 60\cdot 0{,}8=48. \end{gather*}\)</p>
+<p>Щоб обчислити кількість трикімнатних квартир, від загальної кількості квартир віднімімо кількість однокімнатних і двокімнатних:</p>
+<p>\(\begin{gather*} 150-60-48=150-108=42. \end{gather*}\)</p>
+<p>Отже, в будинку \(42\) трикімнатні квартири.</p>
+<p><strong>Відповідь: \(42.\)</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Числа і вирази. Відношення та пропорції.</div>
+    </article>
+    <article class="q" id="q21">
+      <div class="qnum">Завдання 21 <span class="type">short_answer</span></div>
+      <div class="qtext"><p>
+ На рисунку зображено пряму чотирикутну призму й чотирикутну піраміду \(SABCD\), основою якої є ромб \(ABCD.\) Основою призми є прямокутник, більша сторона якого дорівнює \(20\) см, а менша сторона дорівнює діагоналі \(AC\) ромба. \(BD=20\) см, \(SA=SC=25\) см, \(SB=SD=26\) см. Визначте <span style="white-space:nowrap">об’єм (см\(^3\))</span> призми, якщо площа її бічної поверхні <span style="white-space:nowrap">дорівнює \(680\) см\(^2.\)</span>
+</p>
+<p><img alt="" src="/doc/images/znotest/392/39259/os-math-1-2026-21.png" style="height: auto;" width="415"/></p></div>
+      <div class="short">Відповідь: <b>2800</b></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Стереометрія. Многогранники. </strong></p>
+<p>Завдання перевіряє вміння розв’язувати стереометричні задачі, застосовувати властивості ромба й теорему Піфагора для визначення невідомих параметрів призми й обчислення її об’єму.</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39259/dc-os-math-1-2026-21.png" style="height: auto;" width="415"/></div>
+<p>Точка \(O\) – точка перетину діагоналей ромба \(ABCD.\) Діагоналі ромба перпендикулярні й діляться точкою перетину навпіл:</p>
+<p>\(\begin{gather*} OB=\frac{BD}{2}=\frac{20}{2}=10\ \text{см}. \end{gather*}\)</p>
+<p>Трикутники \(SAC\) та \(SBD\) – рівнобедрені \((SA=SC\), \(SB=SD)\), тому \(SO\) є висотою обох трикутників і висотою всієї піраміди \((SO\!\perp\!(ABCD)).\)</p>
+<p>З прямокутного трикутника \(SOB\) за теоремою Піфагора:</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} SB^2=SO^2+OB^2;\\[7pt] SO=\sqrt{SB^2-OB^2}=\sqrt{26^2-10^2}=\sqrt{676-100}=\sqrt{576}=24\ \text{см}. \end{gather*}\)</div>
+<p>З прямокутного трикутника \(SOA\) за теоремою Піфагора:</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} SA^2=SO^2+OA^2;\\[7pt] OA=\sqrt{SA^2-SO^2}=\sqrt{25^2-24^2}=\sqrt{625-576}=\sqrt{49}=7\ \text{см}. \end{gather*}\)</div>
+<p>Отже, довжина діагоналі ромба \(AC{:}\)</p>
+<p>\(\begin{gather*} AC=2\cdot OA=2\cdot 7=14\ \text{см}. \end{gather*}\)</p>
+<p>Тоді сторони прямокутника в основі призми: \(a=20\) см та \(b=AC=14\) см.</p>
+<p>Площа основи призми:</p>
+<p>\(\begin{gather*} S_\text{осн}=a\cdot b=20\cdot 14=280\ \text{см}^2. \end{gather*}\)</p>
+<p>Периметр основи призми:</p>
+<p>\(\begin{gather*} P=2(a+b)=2(20+14)=68\ \text{см}. \end{gather*}\)</p>
+<p>Висоту призми \(h\) визначмо через формулу площі бічної поверхні \((S_\text{біч}=P\cdot h){:}\)</p>
+<p>\(\begin{gather*} h=\frac{S_\text{біч}}{P}=\frac{680}{68}=10\ \text{см}. \end{gather*}\)</p>
+<p>Об'єм призми:</p>
+<p>\(\begin{gather*} V=S_\text{осн}\cdot h=280\cdot 10=2800\ \text{см}^3. \end{gather*}\)</p>
+<p><strong>Відповідь: \(2800.\)</strong></p></div></details>
+      <div class="meta">topic: Геометрія. Стереометрія. Многогранники.</div>
+    </article>
+    <article class="q" id="q22">
+      <div class="qnum">Завдання 22 <span class="type">short_answer</span></div>
+      <div class="qtext"><p>
+ Визначте кількість усіх цілих значень \(a\), за кожного з яких рівняння \(\sqrt{2x-a}\cdot (\log_3(x-4)-2)=0\) має два різні розв’язки.
+ </p></div>
+      <div class="short">Відповідь: <b>17</b></div>
+      <details><summary>Розбір</summary><div class="expl"><p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та їхні системи. Логарифмічні, тригонометричні й ірраціональні рівняння. </strong></p>
+<p>Це завдання перевіряє вміння розв'язувати ірраціональні рівняння з параметрами, знання властивостей логарифмічної функції.</p>
+<p>ОДЗ:</p>
+<div class="more" style="width: 100%;">\(\begin{gather*} \begin{cases} x-4\gt 0\ \text{(підлогарифмічний вираз)},\\ 2x-a\ge 0\ \text{(підкореневий вираз)}, \end{cases}\\[7pt] \begin{cases} x\gt 4,\\ 2x\ge a, \end{cases}\\[7pt] \begin{cases} x\gt 4,\\ x\ge \frac a2. \end{cases} \end{gather*}\)</div>
+<p>Добуток двох множників дорівнює нулю, якщо принаймні один із них дорівнює нулю, за умови, що інший множник має зміст</p>
+<p>Спочатку обчислімо потенційні корені.</p>
+<p>З другого множника маємо \(\log_3(x-4)-2=0\), звідки</p>
+<p>\(\begin{gather*} \log_3(x-4)=2;\\[7pt] x-4=3^2;\\[7pt] x-4=9;\\[7pt] x_2=13. \end{gather*}\)</p>
+<p>З першого множника отримуємо</p>
+<p>\(\begin{gather*} \sqrt{2x-a}=0;\\[7pt] 2x-a=0;\\[7pt] 2x=a;\\[7pt] x_1=\dfrac a2. \end{gather*}\)</p>
+<p>Рівняння матиме два <b>різні</b> розв’язки лише тоді, коли обидва корені належатимуть області допустимих значень та не збігатимуться один із одним.</p>
+<p>Перевірмо виконання умов ОДЗ і відмінності коренів \((x_1\ne x_2).\)</p>
+<p>Умова \(x\gt 4\) для кореня \(x_2=13\) виконується завжди, а для кореня \(x_1=\dfrac a2\) має виконуватися нерівність \(\dfrac a2\gt 4\), звідки \(a\gt 8.\)</p>
+<p>Умова \(x\ge \dfrac a2\) для \(x_1=\dfrac a2\) виконується автоматично, а для \(x_2=13\) потребує \(13\ge \dfrac a2\), звідки \(a\le 26.\)</p>
+<p>Щоб корені не збігалися \((x_1\ne x_2)\), значення \(\dfrac a2\ne 13\), тобто \(a\ne 26.\)</p>
+<p>Об’єднаймо ці умови</p>
+<div class="txtcntr" style="width: 100%;"><img alt="" src="/doc/images/znotest/392/39260/dc-os-math-1-2026-22.png" style="height: auto;" width="300"/></div>
+<p>Отже, значення параметра \(a\) належать інтервалу \((8; 26).\)</p>
+<p>Цілими значеннями із цього проміжку є числа від \(9\) до \(25.\)</p>
+<p>Обчислімо їхню кількість:</p>
+<p>\(\begin{gather*} 25-9+1=17. \end{gather*}\)</p>
+<p><strong>Відповідь: \(17.\)</strong></p></div></details>
+      <div class="meta">topic: Алгебра і початки аналізу. Рівняння, нерівності та їхні системи. Логарифмічні, тригонометричні й ірраціональні рівняння.</div>
+    </article></main>
+</body></html>

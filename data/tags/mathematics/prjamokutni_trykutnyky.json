@@ -1,0 +1,2329 @@
+{
+ "subject": "mathematics",
+ "topic": {
+  "slug": "prjamokutni_trykutnyky",
+  "name": "Прямокутні трикутники (34 завдання) 0%",
+  "url": "https://zno.osvita.ua/mathematics/tag-prjamokutni_trykutnyky/"
+ },
+ "questions": [
+  {
+   "id": 4316,
+   "tip": 1,
+   "out_order": 1,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Менша сторона прямокутника дорівнює <latex>16</latex> м і утворює з його діагоналлю кут <latex>60^\\circ.</latex> Середини всіх сторін прямокутника послідовно сполучено. Знайдіть площу утвореного чотирикутника.\r\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>64\\sqrt{3}</latex> м<latex>^2</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>128\\sqrt{3}</latex> м<latex>^2</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>128</latex> м<latex>^2</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>256</latex> м<latex>^2</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>256\\sqrt{3}</latex> м<latex>^2</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Чотирикутники. Трикутники. </strong></p>\n<p>Це завдання перевіряє знання властивостей прямокутника, ромба, середньої лінії трикутника; вміння знаходити площу ромба, співвідношення між сторонами та кутами прямокутного трикутника.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/43/4316/ds-os-math-2013-new-15.png\" style=\"height: auto;\" width=\"300\"/></div>\n<p> </p>\n<p><latex>\\Delta ABC\\ (\\angle B = 90^\\circ)</latex>, <latex>\\angle A = 60^\\circ</latex>, <latex>AB = 16\\ \\text{м}.</latex></p>\n<div class=\"more\" style=\"width: 100%;\"><latex>$$ BC = AB\\cdot \\mathrm{tg}\\ A = 16\\cdot \\mathrm{tg}\\ 60^\\circ = 16\\sqrt{3}\\ \\text{м}. $$</latex></div>\n<p>За властивістю прямокутника <latex>AC = BD.</latex></p>\n<p><latex>\\Delta ABC\\ EF</latex> – середня лінія. Отже, <latex>EF = \\dfrac{1}{2}AC.</latex></p>\n<latex>$$ KM = \\frac{1}{2}AC\\ (\\Delta ACD). $$</latex>\n<p>Аналогічно,</p>\n<p><latex>$$ FK = EM = \\frac{1}{2}BD = \\frac{1}{2}AC. $$</latex></p>\n<p><latex>EFKM</latex> – ромб.</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} S_{EFKM} = \\frac{1}{2}EK\\cdot FM = \\frac{1}{2}BC\\cdot AB = \\frac{1}{2}\\cdot 16\\cdot \\sqrt{3}\\cdot 16 = 128\\sqrt{3}\\ \\text{см}^2,\\\\[6pt] EK = BC,\\\\[6pt] FM = AB. \\end{gather*}</latex></div>\n<p><strong>Відповідь: Б.</strong></p>\n<p> </p>\n<p> </p>\n<p> </p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Чотирикутники. Трикутники. \n Це завдання перевіряє знання властивостей прямокутника, ромба, середньої лінії трикутника; вміння знаходити площу ромба, співвідношення між сторонами та кутами прямокутного трикутника.\n \\Delta ABC\\ (\\angle B = 90^\\circ) , \\angle A = 60^\\circ , AB = 16\\ \\text{м}. \n $$ BC = AB\\cdot \\mathrm{tg}\\ A = 16\\cdot \\mathrm{tg}\\ 60^\\circ = 16\\sqrt{3}\\ \\text{м}. $$ \n За властивістю прямокутника AC = BD. \n \\Delta ABC\\ EF – середня лінія. Отже, EF = \\dfrac{1}{2}AC. \n $$ KM = \\frac{1}{2}AC\\ (\\Delta ACD). $$ \n Аналогічно,\n $$ FK = EM = \\frac{1}{2}BD = \\frac{1}{2}AC. $$ \n EFKM – ромб.\n \\begin{gather*} S_{EFKM} = \\frac{1}{2}EK\\cdot FM = \\frac{1}{2}BC\\cdot AB = \\frac{1}{2}\\cdot 16\\cdot \\sqrt{3}\\cdot 16 = 128\\sqrt{3}\\ \\text{см}^2,\\\\[6pt] EK = BC,\\\\[6pt] FM = AB. \\end{gather*} \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Чотирикутники. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/43/4316/ds-os-math-2013-new-15.png"
+   ],
+   "text": "Менша сторона прямокутника дорівнює 16 м і утворює з його діагоналлю кут 60^\\circ. Середини всіх сторін прямокутника послідовно сполучено. Знайдіть площу утвореного чотирикутника.",
+   "latex": [
+    "16",
+    "60^\\circ.",
+    "64\\sqrt{3}",
+    "^2",
+    "128\\sqrt{3}",
+    "^2",
+    "128",
+    "^2",
+    "256",
+    "^2",
+    "256\\sqrt{3}",
+    "^2"
+   ],
+   "source_test": 1,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 4331,
+   "tip": 8,
+   "out_order": 2,
+   "type": "short_answer",
+   "question_html": "<p>\r\n План паркової зони, обмеженої трикутником <latex>ABC</latex>, зображено на рисунку. Дуга <span style=\"white-space:nowrap\"><latex>AB</latex> –</span> велосипедна доріжка. Відомо, що дуга <latex>AB</latex> є четвертою частиною кола радіуса <span style=\"white-space:nowrap\"><latex>1{,}8</latex> км. </span> <latex>CA</latex> i <latex>CB</latex> – дотичні до цього кола (<latex>A</latex> i <latex>B</latex> – точки дотику). Обчисліть площу зображеної на плані паркової зони (у км<latex>^2</latex>).\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/43/4331/os-math-2013-new-30.png\" style=\"height: auto;\" width=\"175\"/></p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "1.62",
+   "correct": [
+    "1.62"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Чотирикутники. Коло та круг. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання властивостей квадрата, кола та його частин; уміння знаходити площу трикутника.\r\n </p>\n<p>\r\n Дуга <latex>AB</latex> є четвертою частиною кола. <latex>ACBK</latex> – квадрат.\r\n <latex>AK = KB = BC = AC = 1{,}8</latex> км.\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>$$\r\n S_{ABC} = \\frac{1}{2}AC \\cdot BC = \\frac{1}{2}\\cdot 1{,}8 \\cdot 1{,}8 = 0{,}9 \\cdot 1{,}8 = 1{,}62\\ \\text{км}^2.\r\n $$</latex>\n</div>\n<p>\n<latex>CA</latex>, <latex>CB</latex> – дотичні до кола.\r\n <latex>KA\\!\\perp\\!CA</latex>, <latex>KB\\!\\perp\\!CB</latex> (радіус, проведений у точку дотику, перпендикулярний дотичній).\r\n </p>\n<p><strong>Відповідь: <latex>1{,}62.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Чотирикутники. Коло та круг. \r\n Це завдання перевіряє знання властивостей квадрата, кола та його частин; уміння знаходити площу трикутника.\r\n Дуга AB є четвертою частиною кола. ACBK – квадрат.\r\n AK = KB = BC = AC = 1{,}8 км.\r\n $$\r\n S_{ABC} = \\frac{1}{2}AC \\cdot BC = \\frac{1}{2}\\cdot 1{,}8 \\cdot 1{,}8 = 0{,}9 \\cdot 1{,}8 = 1{,}62\\ \\text{км}^2.\r\n $$ \n CA , CB – дотичні до кола.\r\n KA\\!\\perp\\!CA , KB\\!\\perp\\!CB (радіус, проведений у точку дотику, перпендикулярний дотичній).\r\n Відповідь: 1{,}62.",
+   "topic": "Геометрія. Планіметрія. Чотирикутники. Коло та круг.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/43/4331/os-math-2013-new-30.png"
+   ],
+   "text": "План паркової зони, обмеженої трикутником ABC , зображено на рисунку. Дуга AB – велосипедна доріжка. Відомо, що дуга AB є четвертою частиною кола радіуса 1{,}8 км. CA i CB – дотичні до цього кола ( A i B – точки дотику). Обчисліть площу зображеної на плані паркової зони (у км ^2 ).",
+   "latex": [
+    "ABC",
+    "AB",
+    "AB",
+    "1{,}8",
+    "CA",
+    "CB",
+    "A",
+    "B",
+    "^2"
+   ],
+   "source_test": 1,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 5330,
+   "tip": 1,
+   "out_order": 3,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У трикутнику <latex>ABC</latex> точка <latex>M</latex> – середина сторони <latex>BC</latex>, <latex>AC=24</latex> см (див. рисунок). Знайдіть відстань <latex>d</latex> від точки <latex>M</latex> до сторони <latex>AC</latex>, якщо площа трикутника <latex>ABC</latex> дорівнює <latex>96</latex> см<latex>^2.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/53/5330/ds-math-2013-new-16.png\" style=\"height: auto;\" width=\"243\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>2</latex> см"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>3</latex> см"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>4</latex> см"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>6</latex> см"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>8</latex> см"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання формули для обчислення площі трикутника, теореми Фалеса, ознаки паралельності прямих на площині.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/53/5330/ds-ds-math-2013-new-16.png\" style=\"height: auto;\" width=\"242\"/>\n</div>\n<br/>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n S_{ABC} = 96\\ \\text{см}^2,\\\\[7pt]\r\n BB_1\\!\\perp\\!AC,\\\\[6pt]\r\n S_{ABC} = \\frac{1}{2} \\cdot AC \\cdot BB_1 = \\frac{1}{2} \\cdot 24 \\cdot BB_1 = 12 \\cdot BB_1 = 96,\\\\[6pt]\r\n BB_1 = 96 : 12 = 8\\ \\text{см},\\\\[7pt]\r\n \\left.\\begin{array}{l}\r\n BB_1\\!\\perp\\!AC,\\\\\r\n MM_1\\!\\perp\\!AC,\r\n \\end{array}\\right|\r\n \\Rightarrow BB_1\\ ||\\ MM_1.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n За теоремою Фалеса: якщо <latex>MC = MB,</latex> то <latex>CM_1 = M_1B_1.</latex>\n</p>\n<p>\n<latex>MM_1</latex> – середня лінія <latex>\\Delta BB_1C.</latex> За властивістю середньої лінії трикутника\r\n </p>\n<latex>\\begin{gather*}\r\n MM_1 = d = \\frac{1}{2} BB_1 = \\frac{1}{2} \\cdot 8 = 4\\ \\text{см}.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n Це завдання перевіряє знання формули для обчислення площі трикутника, теореми Фалеса, ознаки паралельності прямих на площині.\r\n \\begin{gather*}\r\n S_{ABC} = 96\\ \\text{см}^2,\\\\[7pt]\r\n BB_1\\!\\perp\\!AC,\\\\[6pt]\r\n S_{ABC} = \\frac{1}{2} \\cdot AC \\cdot BB_1 = \\frac{1}{2} \\cdot 24 \\cdot BB_1 = 12 \\cdot BB_1 = 96,\\\\[6pt]\r\n BB_1 = 96 : 12 = 8\\ \\text{см},\\\\[7pt]\r\n \\left.\\begin{array}{l}\r\n BB_1\\!\\perp\\!AC,\\\\\r\n MM_1\\!\\perp\\!AC,\r\n \\end{array}\\right|\r\n \\Rightarrow BB_1\\ ||\\ MM_1.\r\n \\end{gather*} \n За теоремою Фалеса: якщо MC = MB, то CM_1 = M_1B_1. \n MM_1 – середня лінія \\Delta BB_1C. За властивістю середньої лінії трикутника\r\n \\begin{gather*}\r\n MM_1 = d = \\frac{1}{2} BB_1 = \\frac{1}{2} \\cdot 8 = 4\\ \\text{см}.\r\n \\end{gather*} \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/53/5330/ds-math-2013-new-16.png",
+    "https://zno.osvita.ua/doc/images/znotest/53/5330/ds-ds-math-2013-new-16.png"
+   ],
+   "text": "У трикутнику ABC точка M – середина сторони BC , AC=24 см (див. рисунок). Знайдіть відстань d від точки M до сторони AC , якщо площа трикутника ABC дорівнює 96 см ^2.",
+   "latex": [
+    "ABC",
+    "M",
+    "BC",
+    "AC=24",
+    "d",
+    "M",
+    "AC",
+    "ABC",
+    "96",
+    "^2.",
+    "2",
+    "3",
+    "4",
+    "6",
+    "8"
+   ],
+   "source_test": 2,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 6126,
+   "tip": 1,
+   "out_order": 4,
+   "type": "single_choice",
+   "question_html": "<p>Доберіть таке закінчення речення, щоб утворилося правильне твердження: «Сума квадратів катетів прямокутного трикутника дорівнює…».</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "гіпотенузі"
+    },
+    {
+     "marker": "Б",
+     "html": "квадрату суми катетів"
+    },
+    {
+     "marker": "В",
+     "html": "квадрату гіпотенузи"
+    },
+    {
+     "marker": "Г",
+     "html": "добутку катетів"
+    },
+    {
+     "marker": "Д",
+     "html": "подвійному добутку катетів"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Властивості трикутників, чотирикутників і правильних многокутників.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання теореми Піфагора.\r\n </p>\n<p>\r\n Правильне твердження: «Сума квадратів катетів прямокутного трикутника дорівнює квадрату гіпотенузи».\r\n </p>\n<p>\r\n Дане твердження – теорема Піфагора.\r\n </p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Властивості трикутників, чотирикутників і правильних многокутників.\r\n Це завдання перевіряє знання теореми Піфагора.\r\n Правильне твердження: «Сума квадратів катетів прямокутного трикутника дорівнює квадрату гіпотенузи».\r\n Дане твердження – теорема Піфагора.\r\n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Властивості трикутників, чотирикутників і правильних многокутників.",
+   "images": [],
+   "text": "Доберіть таке закінчення речення, щоб утворилося правильне твердження: «Сума квадратів катетів прямокутного трикутника дорівнює…».",
+   "latex": [],
+   "source_test": 122,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 6206,
+   "tip": 8,
+   "out_order": 5,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У трикутнику <latex>ABC</latex> основа висоти <latex>AK</latex> лежить на продовженні сторони <latex>BC</latex> (див. рисунок). <latex>AK=6</latex>, <latex>KB=2\\sqrt{3}.</latex> Радіус описаного навколо трикутника <latex>ABC</latex> кола дорівнює <latex>15\\sqrt{3}.</latex> Визначте довжину <latex>AC.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/62/6206/os-math-2012-new-29.png\" style=\"height: auto;\" width=\"312\"/></p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "45",
+   "correct": [
+    "45"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання теореми синусів та наслідку з неї, співвідношення між сторонами та кутами прямокутного трикутника.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/62/6206/ds-os-math-2012-new-29.png\" style=\"height: auto;\" width=\"312\"/>\n</div>\n<br/>\n<p>\n<b>1</b>. У <latex>\\Delta AKB\\ (\\angle K = 90^\\circ)</latex>\n<latex>\\begin{gather*}\r\n \\mathrm{tg}\\ B = \\frac{AK}{KB} = \\frac{6}{2\\sqrt{3}} = \\frac{3}{\\sqrt{3}} = \\sqrt{3}.\r\n \\end{gather*}</latex>\r\n Отже, <latex>\\angle B = 60^\\circ</latex>.\r\n </p>\n<p>\n<b>2</b>. <latex>\\angle KBA + \\angle ABC = 180^\\circ</latex> (суміжні), <latex>\\angle ABC = 120^\\circ</latex>.\r\n </p>\n<p>\n<b>3</b>. За наслідком з теореми синусів:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n \\frac{AC}{\\sin B} = 2R,\\\\[6pt]\r\n AC = 2R\\sin B = 2\\cdot 15\\sqrt{3}\\cdot \\sin 120^\\circ = \\\\[6pt]\r\n =30\\sqrt{3}\\cdot \\sin 60^\\circ = 30\\sqrt{3}\\cdot \\frac{\\sqrt{3}}{2} = 45.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: <latex>45.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n Це завдання перевіряє знання теореми синусів та наслідку з неї, співвідношення між сторонами та кутами прямокутного трикутника.\r\n 1 . У \\Delta AKB\\ (\\angle K = 90^\\circ) \n \\begin{gather*}\r\n \\mathrm{tg}\\ B = \\frac{AK}{KB} = \\frac{6}{2\\sqrt{3}} = \\frac{3}{\\sqrt{3}} = \\sqrt{3}.\r\n \\end{gather*} \r\n Отже, \\angle B = 60^\\circ .\r\n 2 . \\angle KBA + \\angle ABC = 180^\\circ (суміжні), \\angle ABC = 120^\\circ .\r\n 3 . За наслідком з теореми синусів:\r\n \\begin{gather*}\r\n \\frac{AC}{\\sin B} = 2R,\\\\[6pt]\r\n AC = 2R\\sin B = 2\\cdot 15\\sqrt{3}\\cdot \\sin 120^\\circ = \\\\[6pt]\r\n =30\\sqrt{3}\\cdot \\sin 60^\\circ = 30\\sqrt{3}\\cdot \\frac{\\sqrt{3}}{2} = 45.\r\n \\end{gather*} \n Відповідь: 45.",
+   "topic": "Геометрія. Планіметрія. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/62/6206/os-math-2012-new-29.png",
+    "https://zno.osvita.ua/doc/images/znotest/62/6206/ds-os-math-2012-new-29.png"
+   ],
+   "text": "У трикутнику ABC основа висоти AK лежить на продовженні сторони BC (див. рисунок). AK=6 , KB=2\\sqrt{3}. Радіус описаного навколо трикутника ABC кола дорівнює 15\\sqrt{3}. Визначте довжину AC.",
+   "latex": [
+    "ABC",
+    "AK",
+    "BC",
+    "AK=6",
+    "KB=2\\sqrt{3}.",
+    "ABC",
+    "15\\sqrt{3}.",
+    "AC."
+   ],
+   "source_test": 3,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 6248,
+   "tip": 1,
+   "out_order": 6,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У трикутнику <latex>ABC</latex> проведено висоту <latex>BM</latex> (див. рисунок). Визначте градусну міру кута <latex>MBA</latex>, якщо <latex>\\angle A=40^\\circ.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/62/6248/pr-math-2014-new-02.png\" style=\"height: auto;\" width=\"239\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>20^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>45^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>50^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>60^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>90^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання теореми про суму кутів трикутника.\r\n </p>\n<p>\n<latex>BM</latex> – висота, отже <latex>\\angle AMB=90^\\circ.</latex>\n</p>\n<p>\r\n У <latex>\\triangle ABM</latex> (<latex>\\angle M=90^\\circ</latex>) \r\n <latex>\\begin{gather*}\r\n \\angle A+\\angle B=90^\\circ,\\\\[7pt]\r\n \\angle B=90^\\circ-\\angle A=90^\\circ-40^\\circ=50^\\circ.\r\n \\end{gather*}</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n Це завдання перевіряє знання теореми про суму кутів трикутника.\r\n BM – висота, отже \\angle AMB=90^\\circ. \n У \\triangle ABM ( \\angle M=90^\\circ ) \r\n \\begin{gather*}\r\n \\angle A+\\angle B=90^\\circ,\\\\[7pt]\r\n \\angle B=90^\\circ-\\angle A=90^\\circ-40^\\circ=50^\\circ.\r\n \\end{gather*} \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/62/6248/pr-math-2014-new-02.png"
+   ],
+   "text": "У трикутнику ABC проведено висоту BM (див. рисунок). Визначте градусну міру кута MBA , якщо \\angle A=40^\\circ.",
+   "latex": [
+    "ABC",
+    "BM",
+    "MBA",
+    "\\angle A=40^\\circ.",
+    "20^\\circ",
+    "45^\\circ",
+    "50^\\circ",
+    "60^\\circ",
+    "90^\\circ"
+   ],
+   "source_test": 125,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 6285,
+   "tip": 1,
+   "out_order": 7,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Пряма <latex>n</latex> перетинає перпендикулярні прямі <latex>l</latex> i <latex>m</latex> (див. рисунок). Визначте градусну міру кута <latex>\\alpha.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/62/6285/pr-math-2013-new-05.png\" style=\"height: auto;\" width=\"236\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>34^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>46^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>54^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>56^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>58^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання теореми про суму кутів трикутника, властивостей суміжних та вертикальних кутів.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/62/6285/ds-pr-math-2013-new-05.png\" style=\"height: auto;\" width=\"242\"/>\n</div>\n<br/>\n<p>\n<latex>\\angle DAC + \\angle CAB = 180^\\circ</latex> як суміжні.\r\n </p>\n<p>\n<latex>\\angle DAC = 146^\\circ</latex>, <latex>\\angle CAB = 180^\\circ - 146^\\circ = 34^\\circ.</latex>\n</p>\n<p>\r\n У <latex>\\Delta ABC</latex> <latex>(\\angle B = 90^\\circ).</latex> <latex>\\angle A + \\angle C = 90^\\circ</latex>, <latex>\\angle C = 90^\\circ - 34^\\circ = 56^\\circ.</latex> <latex>\\angle ACB = \\alpha = 56^\\circ</latex> (як вертикальні).\r\n </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n Це завдання перевіряє знання теореми про суму кутів трикутника, властивостей суміжних та вертикальних кутів.\r\n \\angle DAC + \\angle CAB = 180^\\circ як суміжні.\r\n \\angle DAC = 146^\\circ , \\angle CAB = 180^\\circ - 146^\\circ = 34^\\circ. \n У \\Delta ABC (\\angle B = 90^\\circ). \\angle A + \\angle C = 90^\\circ , \\angle C = 90^\\circ - 34^\\circ = 56^\\circ. \\angle ACB = \\alpha = 56^\\circ (як вертикальні).\r\n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/62/6285/pr-math-2013-new-05.png",
+    "https://zno.osvita.ua/doc/images/znotest/62/6285/ds-pr-math-2013-new-05.png"
+   ],
+   "text": "Пряма n перетинає перпендикулярні прямі l i m (див. рисунок). Визначте градусну міру кута \\alpha.",
+   "latex": [
+    "n",
+    "l",
+    "m",
+    "\\alpha.",
+    "34^\\circ",
+    "46^\\circ",
+    "54^\\circ",
+    "56^\\circ",
+    "58^\\circ"
+   ],
+   "source_test": 126,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 6342,
+   "tip": 8,
+   "out_order": 8,
+   "type": "short_answer",
+   "question_html": "<p>На рисунку зображено траєкторію руху автомобіля з пункту <latex>A</latex> до пункту <latex>B</latex>, що складається з трьох прямолінійних ділянок <latex>AK</latex>, <latex>KM</latex> та <latex>MB</latex>. Визначте відстань <latex>d</latex> між пунктами <latex>A</latex> та <latex>B</latex>, якщо <latex>AK=60</latex> км, <latex>KM=120</latex> км, <latex>MB=100</latex> км (вважайте, що зображені на рисунку відрізки лежать в одній площині).</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/63/6342/pr-math-2012-new-29.png\" style=\"height: auto;\" width=\"272\"/></p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "200",
+   "correct": [
+    "200"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники. </strong></p>\n<p>Це завдання перевіряє знання теореми Піфагора, властивостей прямокутника.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/63/6342/ds-pr-math-2012-new-29-new2.png\" style=\"height: auto;\" width=\"273\"/></div>\n<br/>\n<p><latex>MB = 100</latex> км, <latex>KM = 120</latex> км, <latex>AK = 60</latex> км. Додаткова побудова: <latex>BC\\!\\perp\\!AK.</latex></p>\n<p>Отримали <latex>\\Delta ABC</latex> (<latex>\\angle C = 90^\\circ</latex>), <latex>KC = MB = 100</latex> км,</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} AC = AK + KC = 60 + 100 = 160\\ \\text{км};\\\\[7pt] BC = MK = 120\\ \\text{км}. \\end{gather*}</latex></div>\n<p>За теоремою Піфагора:</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} AB^2 = d^2 = AC^2 + BC^2.\\\\[7pt] d^2 = 120^2 + 160^2 = 14400 + 25600 = 40000;\\\\[7pt] d = \\sqrt{40000} = 200\\ \\text{км}. \\end{gather*}</latex></div>\n<p><strong>Відповідь: <latex>200.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники. \n Це завдання перевіряє знання теореми Піфагора, властивостей прямокутника.\n MB = 100 км, KM = 120 км, AK = 60 км. Додаткова побудова: BC\\!\\perp\\!AK. \n Отримали \\Delta ABC ( \\angle C = 90^\\circ ), KC = MB = 100 км,\n \\begin{gather*} AC = AK + KC = 60 + 100 = 160\\ \\text{км};\\\\[7pt] BC = MK = 120\\ \\text{км}. \\end{gather*} \n За теоремою Піфагора:\n \\begin{gather*} AB^2 = d^2 = AC^2 + BC^2.\\\\[7pt] d^2 = 120^2 + 160^2 = 14400 + 25600 = 40000;\\\\[7pt] d = \\sqrt{40000} = 200\\ \\text{км}. \\end{gather*} \n Відповідь: 200.",
+   "topic": "Геометрія. Планіметрія. Трикутники. Чотирикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/63/6342/pr-math-2012-new-29.png",
+    "https://zno.osvita.ua/doc/images/znotest/63/6342/ds-pr-math-2012-new-29-new2.png"
+   ],
+   "text": "На рисунку зображено траєкторію руху автомобіля з пункту A до пункту B , що складається з трьох прямолінійних ділянок AK , KM та MB . Визначте відстань d між пунктами A та B , якщо AK=60 км, KM=120 км, MB=100 км (вважайте, що зображені на рисунку відрізки лежать в одній площині).",
+   "latex": [
+    "A",
+    "B",
+    "AK",
+    "KM",
+    "MB",
+    "d",
+    "A",
+    "B",
+    "AK=60",
+    "KM=120",
+    "MB=100"
+   ],
+   "source_test": 127,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 6889,
+   "tip": 1,
+   "out_order": 9,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Відрізок <latex>AB</latex> перетинає площину <latex>\\alpha</latex> в точці <latex>O.</latex> Проєкція відрізків <latex>AO</latex> i <latex>BO</latex> на цю площину дорівнюють <latex>5</latex> см і <latex>20</latex> см відповідно. Знайдіть довжину відрізка <latex>AB</latex>, якщо <latex>AO=8</latex> см.\r\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>10</latex> см"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>22</latex> см"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>32</latex> см"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>40</latex> см"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>52</latex> см"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Проєкція похилої на площину.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння знаходити проекцію відрізка на площину, використовуючи подібність трикутників для знаходження їх невідомих елементів. \r\n </p>\n<p>\r\n Нехай <latex>C</latex> і <latex>D</latex> – проекції точок <latex>A</latex> і <latex>B</latex> на площину <latex>\\alpha</latex> відповідно (див. рисунок), тоді відрізки <latex>CO</latex> і <latex>OD</latex> – проекції відрізків <latex>AO</latex> і <latex>BO</latex> на площину <latex>\\alpha.</latex> За умовою <latex>CO=5</latex> см, <latex>BO=20</latex> см.\r\n </p>\n<p>\r\n Розглянемо прямокутні трикутники <latex>ACO</latex> та <latex>ODB</latex>, які лежать в одній площині. Ці трикутники подібні за двома кутами: <latex>\\angle ACO=\\angle BDO=90^\\circ</latex>, <latex>\\angle AOC=\\angle BOD</latex> як вертикальні.\r\n </p>\n<p>\r\n З подібності цих трикутників випливає, що\r\n <latex>\\begin{gather*}\r\n \\frac{BO}{AO}=\\frac{DO}{CO},\\\\[6pt]\r\n \\frac{BO}{8}=\\frac{20}{5},\r\n \\end{gather*}</latex>\r\n звідки\r\n <latex>$$\r\n BO=8\\cdot 4=32\\ \\text{см}.\r\n $$</latex>\n</p>\n<p>\r\n Тоді\r\n </p>\n<latex>$$\r\n AB=AO+OD=8+32=40\\ \\text{см}.\r\n $$</latex>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/68/6889/ds-os-math-2014-new-18.png\" style=\"height: auto;\" width=\"441\"/>\n</div>\n<br/>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Проєкція похилої на площину.\r\n Це завдання перевіряє вміння знаходити проекцію відрізка на площину, використовуючи подібність трикутників для знаходження їх невідомих елементів. \r\n Нехай C і D – проекції точок A і B на площину \\alpha відповідно (див. рисунок), тоді відрізки CO і OD – проекції відрізків AO і BO на площину \\alpha. За умовою CO=5 см, BO=20 см.\r\n Розглянемо прямокутні трикутники ACO та ODB , які лежать в одній площині. Ці трикутники подібні за двома кутами: \\angle ACO=\\angle BDO=90^\\circ , \\angle AOC=\\angle BOD як вертикальні.\r\n З подібності цих трикутників випливає, що\r\n \\begin{gather*}\r\n \\frac{BO}{AO}=\\frac{DO}{CO},\\\\[6pt]\r\n \\frac{BO}{8}=\\frac{20}{5},\r\n \\end{gather*} \r\n звідки\r\n $$\r\n BO=8\\cdot 4=32\\ \\text{см}.\r\n $$ \n Тоді\r\n $$\r\n AB=AO+OD=8+32=40\\ \\text{см}.\r\n $$ \n Відповідь: Г.",
+   "topic": "Геометрія. Стереометрія. Проєкція похилої на площину.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/68/6889/ds-os-math-2014-new-18.png"
+   ],
+   "text": "Відрізок AB перетинає площину \\alpha в точці O. Проєкція відрізків AO i BO на цю площину дорівнюють 5 см і 20 см відповідно. Знайдіть довжину відрізка AB , якщо AO=8 см.",
+   "latex": [
+    "AB",
+    "\\alpha",
+    "O.",
+    "AO",
+    "BO",
+    "5",
+    "20",
+    "AB",
+    "AO=8",
+    "10",
+    "22",
+    "32",
+    "40",
+    "52"
+   ],
+   "source_test": 138,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 6894,
+   "tip": 4,
+   "out_order": 10,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено квадрат <latex>ABCD</latex> зі стороною <latex>1</latex> см та прямокутний трикутник <latex>CDF</latex>, гіпотенуза якого <latex>CF</latex> дорівнює <latex>\\sqrt{5}</latex> см. Фігури лежать в одній площині. Установіть відповідність між початком речення (1–4) та його закінченням (А – Д) так, щоб утворилося правильне твердження.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/68/6894/os-math-2014-new-23.png\" style=\"height: auto;\" width=\"319\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Довжина катета <latex>FD</latex> трикутника <latex>CDF</latex> дорівнює"
+    },
+    {
+     "marker": "2",
+     "html": "Довжина радіуса кола, описаного навколо квадрата <latex>ABCD</latex>, дорівнює"
+    },
+    {
+     "marker": "3",
+     "html": "Відстань від точки <latex>F</latex> до прямої <latex>BC</latex> дорівнює"
+    },
+    {
+     "marker": "4",
+     "html": "Відстань від точки <latex>F</latex> до прямої <latex>BD</latex> дорівнює"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>1</latex> см."
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\frac{1}{\\sqrt{2}}</latex> см."
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\sqrt{2}</latex> см."
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>2</latex> см."
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>\\sqrt{5}</latex> см."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Початок речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "Довжина катета <latex>FD</latex> трикутника <latex>CDF</latex> дорівнює"
+      },
+      {
+       "marker": "",
+       "html": "Довжина радіуса кола, описаного навколо квадрата <latex>ABCD</latex>, дорівнює"
+      },
+      {
+       "marker": "",
+       "html": "Відстань від точки <latex>F</latex> до прямої <latex>BC</latex> дорівнює"
+      },
+      {
+       "marker": "",
+       "html": "Відстань від точки <latex>F</latex> до прямої <latex>BD</latex> дорівнює"
+      }
+     ]
+    },
+    {
+     "title": "Закінчення речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>1</latex> см."
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\frac{1}{\\sqrt{2}}</latex> см."
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\sqrt{2}</latex> см."
+      },
+      {
+       "marker": "",
+       "html": "<latex>2</latex> см."
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\sqrt{5}</latex> см."
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1d;2b;3a;4c",
+   "correct": [
+    "1d",
+    "2b",
+    "3a",
+    "4c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Чотирикутники. Квадрат. Теорема Піфагора.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння знаходити невідомі елементи прямокутного трикутника, відстань від точки до прямої. \r\n </p>\n<p>\r\n Знайдемо довжини елементів (1 – 4).\r\n </p>\n<p>\n<b>1</b>. У прямокутному трикутнику <latex>CDF</latex> (<latex>\\angle D=90^\\circ</latex>) відомі катет та гіпотенуза: <latex>CD=1</latex> см, <latex>CF=\\sqrt{5}</latex> см. Довжину катета <latex>FD</latex> обчислимо за теоремою Піфагора:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>$$\r\n FD=\\sqrt{CF^2-CD^2}=\\sqrt{5-1}=2\\ \\text{см}.\r\n $$</latex>\n</div>\n<p>\r\n Отже, 1 – Г.\r\n </p>\n<br/>\n<p>\n<b>2</b>. Довжина радіуса кола, описаного навколо квадрата <latex>ABCD</latex>, дорівнює половині довжини діагоналі цього квадрата. Оскільки діагональ квадрата зі стороною <latex>1</latex> дорівнює <latex>\\sqrt{1^2+1^2}=\\sqrt{2}</latex>, то радіус описаного кола дорівнює\r\n <latex>$$\r\n \\frac{\\sqrt{2}}{2}=\\frac{1}{\\sqrt{2}}.\r\n $$</latex>\r\n Отже, 2 – Б.\r\n </p>\n<br/>\n<p>\n<b>3</b>. Відстань від точки <latex>F</latex> до прямої <latex>BC</latex> дорівнює довжині перпендикуляра <latex>h</latex>, опущеного з точки <latex>F</latex> на пряму <latex>BC</latex> (див. рисунок). Оскільки прямі <latex>AF</latex> і <latex>BC</latex> паралельні, то відстань від точки <latex>F</latex> та від будь-якої іншої точки прямої <latex>AF</latex> до прямої <latex>BC</latex> рівні. Оскільки <latex>CD\\ \\perp\\ BC</latex>, то <latex>h=CD=1.</latex> Отже, 3 – А.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/68/6894/ds-os-math-2014-new-23-1.png\" style=\"height: auto;\" width=\"242\"/>\n</div>\n<br/>\n<p>\n<b>4</b>. Відстань від точки <latex>F</latex> до прямої <latex>BD</latex> дорівнює довжині перпендикуляра <latex>FL</latex>, опущеного з точки <latex>F</latex> на пряму <latex>BD</latex> (див. рисунок). <latex>\\angle ABD=\\angle ADB=45^\\circ</latex> як кути між діагоналлю квадрата і його стороною. <latex>\\angle FDL=\\angle ADB=45^\\circ</latex> як вертикальні. Оскільки <latex>\\angle DLF=90^\\circ</latex>, то <latex>\\angle DFL=45^\\circ.</latex> Таким чином прямокутний трикутник <latex>DLF</latex> рівнобедрений з гіпотенузою <latex>FD=2.</latex> Катет такого трикутника дорівнює\r\n <latex>$$\r\n \\frac{2}{\\sqrt{2}}=\\sqrt{2}. \r\n $$</latex>\r\n Отже, 4 – В.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/68/6894/ds-os-math-2014-new-23-2.png\" style=\"height: auto;\" width=\"212\"/>\n</div>\n<br/>\n<p><strong>Відповідь: 1 – Г, 2 – Б, 3 – A, 4 – В.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Чотирикутники. Квадрат. Теорема Піфагора.\r\n Це завдання перевіряє вміння знаходити невідомі елементи прямокутного трикутника, відстань від точки до прямої. \r\n Знайдемо довжини елементів (1 – 4).\r\n 1 . У прямокутному трикутнику CDF ( \\angle D=90^\\circ ) відомі катет та гіпотенуза: CD=1 см, CF=\\sqrt{5} см. Довжину катета FD обчислимо за теоремою Піфагора:\r\n $$\r\n FD=\\sqrt{CF^2-CD^2}=\\sqrt{5-1}=2\\ \\text{см}.\r\n $$ \n Отже, 1 – Г.\r\n 2 . Довжина радіуса кола, описаного навколо квадрата ABCD , дорівнює половині довжини діагоналі цього квадрата. Оскільки діагональ квадрата зі стороною 1 дорівнює \\sqrt{1^2+1^2}=\\sqrt{2} , то радіус описаного кола дорівнює\r\n $$\r\n \\frac{\\sqrt{2}}{2}=\\frac{1}{\\sqrt{2}}.\r\n $$ \r\n Отже, 2 – Б.\r\n 3 . Відстань від точки F до прямої BC дорівнює довжині перпендикуляра h , опущеного з точки F на пряму BC (див. рисунок). Оскільки прямі AF і BC паралельні, то відстань від точки F та від будь-якої іншої точки прямої AF до прямої BC рівні. Оскільки CD\\ \\perp\\ BC , то h=CD=1. Отже, 3 – А.\r\n 4 . Відстань від точки F до прямої BD дорівнює довжині перпендикуляра FL , опущеного з точки F на пряму BD (див. рисунок). \\angle ABD=\\angle ADB=45^\\circ як кути між діагоналлю квадрата і його стороною. \\angle FDL=\\angle ADB=45^\\circ як вертикальні. Оскільки \\angle DLF=90^\\circ , то \\angle DFL=45^\\circ. Таким чином прямокутний трикутник DLF рівнобедрений з гіпотенузою FD=2. Катет такого трикутника дорівнює\r\n $$\r\n \\frac{2}{\\sqrt{2}}=\\sqrt{2}. \r\n $$ \r\n Отже, 4 – В.\r\n Відповідь: 1 – Г, 2 – Б, 3 – A, 4 – В.",
+   "topic": "Геометрія. Планіметрія. Чотирикутники. Квадрат. Теорема Піфагора.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/68/6894/os-math-2014-new-23.png",
+    "https://zno.osvita.ua/doc/images/znotest/68/6894/ds-os-math-2014-new-23-1.png",
+    "https://zno.osvita.ua/doc/images/znotest/68/6894/ds-os-math-2014-new-23-2.png"
+   ],
+   "text": "На рисунку зображено квадрат ABCD зі стороною 1 см та прямокутний трикутник CDF , гіпотенуза якого CF дорівнює \\sqrt{5} см. Фігури лежать в одній площині. Установіть відповідність між початком речення (1–4) та його закінченням (А – Д) так, щоб утворилося правильне твердження.",
+   "latex": [
+    "ABCD",
+    "1",
+    "CDF",
+    "CF",
+    "\\sqrt{5}",
+    "FD",
+    "CDF",
+    "ABCD",
+    "F",
+    "BC",
+    "F",
+    "BD",
+    "1",
+    "\\frac{1}{\\sqrt{2}}",
+    "\\sqrt{2}",
+    "2",
+    "\\sqrt{5}"
+   ],
+   "source_test": 138,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 7150,
+   "tip": 4,
+   "out_order": 11,
+   "type": "single_choice",
+   "question_html": "<p>На рисунках (1-5) наведено інформацію про п'ять трикутників.</p>\n<p>Установіть відповідність між запитанням (1–4) та правильною відповіддю <span style=\"white-space:nowrap\">на нього (А – Д). </span></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "На якому рисунку зображено трикутник, у якого центри вписаного й описаного кіл збігаються?"
+    },
+    {
+     "marker": "2",
+     "html": "На якому рисунку зображено трикутник, один із внутрішніх кутів якого дорівнює <latex>30^\\circ</latex>?"
+    },
+    {
+     "marker": "3",
+     "html": "На якому рисунку зображено трикутник, площа якого дорівнює <latex>10</latex> см<latex>^2</latex>?"
+    },
+    {
+     "marker": "4",
+     "html": "На якому рисунку зображено трикутник, у якого діаметр описаного навколо нього кола дорівнює <latex>10\\sqrt{2}</latex> см?"
+    },
+    {
+     "marker": "А",
+     "html": "<img alt=\"\" src=\"/doc/images/znotest/71/7150/pr-math-2015-new-23-1.png\" style=\"height: auto;\" width=\"142\"/>"
+    },
+    {
+     "marker": "Б",
+     "html": "<img alt=\"\" src=\"/doc/images/znotest/71/7150/pr-math-2015-new-23-2.png\" style=\"height: auto;\" width=\"158\"/>"
+    },
+    {
+     "marker": "В",
+     "html": "<img alt=\"\" src=\"/doc/images/znotest/71/7150/pr-math-2015-new-23-3.png\" style=\"height: auto;\" width=\"214\"/>"
+    },
+    {
+     "marker": "Г",
+     "html": "<img alt=\"\" src=\"/doc/images/znotest/71/7150/pr-math-2015-new-23-4.png\" style=\"height: auto;\" width=\"272\"/>"
+    },
+    {
+     "marker": "Д",
+     "html": "<img alt=\"\" src=\"/doc/images/znotest/71/7150/pr-math-2015-new-23-5.png\" style=\"height: auto;\" width=\"208\"/>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Запитання",
+     "answers": [
+      {
+       "marker": "",
+       "html": "На якому рисунку зображено трикутник, у якого центри вписаного й описаного кіл збігаються?"
+      },
+      {
+       "marker": "",
+       "html": "На якому рисунку зображено трикутник, один із внутрішніх кутів якого дорівнює <latex>30^\\circ</latex>?"
+      },
+      {
+       "marker": "",
+       "html": "На якому рисунку зображено трикутник, площа якого дорівнює <latex>10</latex> см<latex>^2</latex>?"
+      },
+      {
+       "marker": "",
+       "html": "На якому рисунку зображено трикутник, у якого діаметр описаного навколо нього кола дорівнює <latex>10\\sqrt{2}</latex> см?"
+      }
+     ]
+    },
+    {
+     "title": "Відповідь",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<img alt=\"\" src=\"/doc/images/znotest/71/7150/pr-math-2015-new-23-1.png\" style=\"height: auto;\" width=\"142\"/>"
+      },
+      {
+       "marker": "",
+       "html": "<img alt=\"\" src=\"/doc/images/znotest/71/7150/pr-math-2015-new-23-2.png\" style=\"height: auto;\" width=\"158\"/>"
+      },
+      {
+       "marker": "",
+       "html": "<img alt=\"\" src=\"/doc/images/znotest/71/7150/pr-math-2015-new-23-3.png\" style=\"height: auto;\" width=\"214\"/>"
+      },
+      {
+       "marker": "",
+       "html": "<img alt=\"\" src=\"/doc/images/znotest/71/7150/pr-math-2015-new-23-4.png\" style=\"height: auto;\" width=\"272\"/>"
+      },
+      {
+       "marker": "",
+       "html": "<img alt=\"\" src=\"/doc/images/znotest/71/7150/pr-math-2015-new-23-5.png\" style=\"height: auto;\" width=\"208\"/>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1a;2c;3e;4d",
+   "correct": [
+    "1a",
+    "2c",
+    "3e",
+    "4d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники. Рівносторонній трикутник та його властивості. Коло, описане навколо трикутника, і коло, вписане в трикутник. Співвідношення між сторонами і кутами прямокутного трикутника. Формули для обчислення площі трикутника. Теорема синусів. Теорема Піфагора. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати означення та властивості різних видів трикутників до розв’язування планіметричних задач. \r\n </p>\n<p>\r\n Дамо характеристику трикутникам, зображеним на рисунках 1–5.\r\n </p>\n<p>\n<b>А.</b> Трикутник, у якого дві сторони рівні, є рівнобедреним. \r\n Оскільки кут між ними, тобто кут при вершині рівнобедреного трикутника дорівнює <latex>60^\\circ</latex>, то кут при основі цього трикутника дорівнює \r\n <latex>$$\r\n \\frac{180^\\circ - 60^\\circ}{2} = 60^\\circ. \r\n $$</latex>\r\n Отже, всі кути трикутника рівні, тому він є рівностороннім. \r\n А в рівносторонньому трикутнику центри описаного та вписаного кіл збігаються. Тому 1 – А.\r\n </p>\n<br/>\n<p>\n<b>Б.</b> На цьому рисунку зображено прямокутний рівнобедрений трикутник, катети якого дорівнюють <latex>5\\ \\text{см}</latex>. Гіпотенуза цього трикутника дорівнює <latex>5\\sqrt{2}\\ \\text{см}</latex>. Центр кола, описаного навколо цього трикутника, є серединою гіпотенузи. Тому діаметр описаного кола дорівнює довжині гіпотенузи, тобто <latex>5\\sqrt{2}\\ \\text{см}</latex>. \r\n Внутрішні кути дорівнюють <latex>45^\\circ</latex>, <latex>45^\\circ</latex> та <latex>90^\\circ</latex>, а площа: \r\n <latex>$$\r\n \\frac{1}{2} \\cdot 5 \\cdot 5 = 12{,}5\\ \\text{см}^2. \r\n $$</latex>\r\n Отже, трикутник, зображений на рис. Б, не може бути відповіддю на жодне із запитань 1–4.\r\n </p>\n<br/>\n<p>\n<b>В.</b> У прямокутному трикутнику, один з катетів якого удвічі менший за гіпотенузу, гострий кут, що є протилежним до меншого катета, дорівнює <latex>30^\\circ.</latex>\r\n Оскільки катет трикутника дорівнює <latex>5</latex> см, а гіпотенуза <latex>10</latex> см, то гострий кут дорівнює <latex>30^\\circ.</latex> \r\n Отже, 2 – В.\r\n </p>\n<br/>\n<p>\n<b>Г.</b> У трикутнику задано два кути та одну сторону, тому можна скористатися теоремою синусів та наслідком з цієї теореми: \r\n <latex>$$\r\n \\frac{a}{\\sin \\alpha} = \\frac{b}{\\sin \\beta} = \\frac{c}{\\sin \\gamma} = 2R,\r\n $$</latex> \r\n де <latex>R</latex> – радіус кола, описаного навколо трикутника із сторонами <latex>a</latex>, <latex>b</latex>, <latex>c</latex> та відповідними кутами <latex>\\alpha</latex>, <latex>\\beta</latex> та <latex>\\gamma.</latex>\n</p>\n<p>\r\n Виконується рівність \r\n <latex>$$\r\n \\frac{10}{\\sin 45^\\circ} = 2R,\r\n $$</latex> \r\n звідки отримуємо \r\n <latex>\\begin{gather*}\r\n \\frac{10}{\\frac{\\sqrt{2}}{2}} = 2R,\\\\[6pt] \r\n 2R = 10\\sqrt{2}.\r\n \\end{gather*}</latex> \r\n Отже, діаметр кола, описаного навколо трикутника, зображеного на рис. Г дорівнює <latex>10\\sqrt{2}</latex>. \r\n Тому 4 – Г.\r\n </p>\n<br/>\n<p>\n<b>Д.</b> Неохопленим залишилося лише запитання 3, якому може відповідати лише рисунок Д. Покажемо, що площа трикутника, зображеного на рис. Д, дорівнює <latex>10\\ \\text{см}^2.</latex> Висота цього трикутника ділить трикутник на два прямокутні трикутники з катетами <latex>2\\ \\text{см}</latex> і <latex>3\\ \\text{см}</latex> та <latex>2\\ \\text{см}</latex> і <latex>7\\ \\text{см}.</latex> \r\n Сума площ цих трикутників становить площу заданого трикутника і дорівнює\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>$$\r\n \\frac{1}{2}\\cdot 2 \\cdot 3 + \\frac{1}{2}\\cdot 2 \\cdot 7 = 3 + 7 = 10\\ \\text{см}^2.\r\n $$</latex>\n</div>\n<p> \r\n Отже, 3 – Д.\r\n </p>\n<p><strong>Відповідь: 1 – А, 2 – В, 3 – Д, 4 – Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. Рівносторонній трикутник та його властивості. Коло, описане навколо трикутника, і коло, вписане в трикутник. Співвідношення між сторонами і кутами прямокутного трикутника. Формули для обчислення площі трикутника. Теорема синусів. Теорема Піфагора. \r\n Це завдання перевіряє вміння застосовувати означення та властивості різних видів трикутників до розв’язування планіметричних задач. \r\n Дамо характеристику трикутникам, зображеним на рисунках 1–5.\r\n А. Трикутник, у якого дві сторони рівні, є рівнобедреним. \r\n Оскільки кут між ними, тобто кут при вершині рівнобедреного трикутника дорівнює 60^\\circ , то кут при основі цього трикутника дорівнює \r\n $$\r\n \\frac{180^\\circ - 60^\\circ}{2} = 60^\\circ. \r\n $$ \r\n Отже, всі кути трикутника рівні, тому він є рівностороннім. \r\n А в рівносторонньому трикутнику центри описаного та вписаного кіл збігаються. Тому 1 – А.\r\n Б. На цьому рисунку зображено прямокутний рівнобедрений трикутник, катети якого дорівнюють 5\\ \\text{см} . Гіпотенуза цього трикутника дорівнює 5\\sqrt{2}\\ \\text{см} . Центр кола, описаного навколо цього трикутника, є серединою гіпотенузи. Тому діаметр описаного кола дорівнює довжині гіпотенузи, тобто 5\\sqrt{2}\\ \\text{см} . \r\n Внутрішні кути дорівнюють 45^\\circ , 45^\\circ та 90^\\circ , а площа: \r\n $$\r\n \\frac{1}{2} \\cdot 5 \\cdot 5 = 12{,}5\\ \\text{см}^2. \r\n $$ \r\n Отже, трикутник, зображений на рис. Б, не може бути відповіддю на жодне із запитань 1–4.\r\n В. У прямокутному трикутнику, один з катетів якого удвічі менший за гіпотенузу, гострий кут, що є протилежним до меншого катета, дорівнює 30^\\circ. \r\n Оскільки катет трикутника дорівнює 5 см, а гіпотенуза 10 см, то гострий кут дорівнює 30^\\circ. \r\n Отже, 2 – В.\r\n Г. У трикутнику задано два кути та одну сторону, тому можна скористатися теоремою синусів та наслідком з цієї теореми: \r\n $$\r\n \\frac{a}{\\sin \\alpha} = \\frac{b}{\\sin \\beta} = \\frac{c}{\\sin \\gamma} = 2R,\r\n $$ \r\n де R – радіус кола, описаного навколо трикутника із сторонами a , b , c та відповідними кутами \\alpha , \\beta та \\gamma. \n Виконується рівність \r\n $$\r\n \\frac{10}{\\sin 45^\\circ} = 2R,\r\n $$ \r\n звідки отримуємо \r\n \\begin{gather*}\r\n \\frac{10}{\\frac{\\sqrt{2}}{2}} = 2R,\\\\[6pt] \r\n 2R = 10\\sqrt{2}.\r\n \\end{gather*} \r\n Отже, діаметр кола, описаного навколо трикутника, зображеного на рис. Г дорівнює 10\\sqrt{2} . \r\n Тому 4 – Г.\r\n Д. Неохопленим залишилося лише запитання 3, якому може відповідати лише рисунок Д. Покажемо, що площа трикутника, зображеного на рис. Д, дорівнює 10\\ \\text{см}^2. Висота цього трикутника ділить трикутник на два прямокутні трикутники з катетами 2\\ \\text{см} і 3\\ \\text{см} та 2\\ \\text{см} і 7\\ \\text{см}. \r\n Сума площ цих трикутників становить площу заданого трикутника і дорівнює\r\n $$\r\n \\frac{1}{2}\\cdot 2 \\cdot 3 + \\frac{1}{2}\\cdot 2 \\cdot 7 = 3 + 7 = 10\\ \\text{см}^2.\r\n $$ \n Отже, 3 – Д.\r\n Відповідь: 1 – А, 2 – В, 3 – Д, 4 – Г.",
+   "topic": "Геометрія. Планіметрія. Трикутники. Рівносторонній трикутник та його властивості. Коло, описане навколо трикутника, і коло, вписане в трикутник. Співвідношення між сторонами і кутами прямокутного трикутника. Формули для обчислення площі трикутника. Теорема синусів. Теорема Піфагора.",
+   "images": [],
+   "text": "На рисунках (1-5) наведено інформацію про п'ять трикутників.\n Установіть відповідність між запитанням (1–4) та правильною відповіддю на нього (А – Д).",
+   "latex": [
+    "30^\\circ",
+    "10",
+    "^2",
+    "10\\sqrt{2}"
+   ],
+   "source_test": 142,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 7170,
+   "tip": 1,
+   "out_order": 12,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Прямі <latex>k</latex>, <latex>l</latex>, <latex>m</latex> i <latex>n</latex> лежать в одній площині (див. рисунок). Визначте градусну міру кута <latex>\\alpha.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/71/7170/ds-math-2014-new-07.png\" style=\"height: auto;\" width=\"250\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>15^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>25^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>35^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>45^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>55^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Суміжні кути. Трикутники. Зовнішній кут трикутника. Теорема про суму кутів трикутника.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння знаходити градусні міри кутів. \r\n </p>\n<p>\r\n Для розв’язання завдання потрібно знати такі теореми. \r\n </p>\n<p>\r\n Теорема 1. Сума внутрішніх кутів трикутника дорівнює <latex>180^\\circ.</latex>\n</p>\n<p>\r\n Теорема 2. Сума суміжних кутів дорівнює <latex>180^\\circ.</latex>\n</p>\n<p>\r\n Наведемо декілька способів розв’язання цього завдання.\r\n </p>\n<p>\n<b>Перший спосіб</b>. Розглянемо трикутник <latex>ABC</latex> (див. рисунок), у якого <latex>\\angle B=85^\\circ</latex>, <latex>\\angle MAB</latex> – зовнішній кут трикутника, суміжний з кутом <latex>A</latex>, тоді\r\n <latex>$$\r\n \\angle A=180^\\circ-\\angle MAB=40^\\circ.\r\n $$</latex>\r\n Знаючи два внутрішніх кути трикутника <latex>ABC</latex>, можемо визначити градусну міру його третього кута:\r\n <latex>$$\r\n \\angle C=180^\\circ-(40^\\circ+85^\\circ)=55^\\circ.\r\n $$</latex>\r\n Оскільки за умовою <latex>\\angle ACN=90^\\circ</latex>, то\r\n <latex>$$\r\n 55^\\circ+\\alpha=90^\\circ,\r\n $$</latex>\r\n звідки <latex>\\alpha=35^\\circ.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/71/7170/ds-ds-math-2014-new-07-1.png\" style=\"height: auto;\" width=\"253\"/>\n</div>\n<br/>\n<p>\n<b>Другий спосіб</b>. Опустимо з вершини <latex>B</latex> трикутника <latex>ABC</latex> на сторону <latex>AC</latex> перпендикуляр <latex>AD</latex> (див. рисунок). З паралельності прямих <latex>BD</latex> і <latex>CN</latex> випливає, що <latex>\\angle DBC=\\angle BCN</latex> як внутрішні різносторонні. Тому шуканий кут <latex>\\alpha</latex> дорівнює куту <latex>DBC.</latex> Маємо:\r\n </p>\n<latex>\\begin{gather*}\r\n \\angle A=180^\\circ-\\angle MAB=40^\\circ,\\\\[7pt]\r\n \\angle ABD=90^\\circ-\\angle A=90^\\circ-40^\\circ=50^\\circ,\\\\[7pt]\r\n \\alpha=\\angle DBC=\\angle ABC-\\angle ABD=85^\\circ-50^\\circ=35^\\circ.\r\n \\end{gather*}</latex>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/71/7170/ds-ds-math-2014-new-07-2.png\" style=\"height: auto;\" width=\"253\"/>\n</div>\n<br/>\n<p>\n<b>Третій спосіб</b>. Скористаємось теоремою. Зовнішній кут трикутника дорівнює сумі двох внутрішніх, не суміжних з ним. Отже, <latex>\\angle BCP=\\angle A+\\angle B</latex> (див. рисунок). Оскільки\r\n </p>\n<latex>\\begin{gather*}\r\n \\angle BCP=90^\\circ+\\alpha,\\\\[7pt]\r\n \\angle A=180^\\circ-140^\\circ=40^\\circ,\r\n \\end{gather*}</latex>\n<p>\r\n то\r\n </p>\n<latex>$$\r\n 90^\\circ+\\alpha=40^\\circ+85^\\circ.\r\n $$</latex>\n<p>\r\n Звідки одержуємо:\r\n </p>\n<latex>$$\r\n \\alpha=125^\\circ-90^\\circ=35^\\circ.\r\n $$</latex>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/71/7170/ds-ds-math-2014-new-07-3.png\" style=\"height: auto;\" width=\"263\"/>\n</div>\n<br/>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Суміжні кути. Трикутники. Зовнішній кут трикутника. Теорема про суму кутів трикутника.\r\n Це завдання перевіряє вміння знаходити градусні міри кутів. \r\n Для розв’язання завдання потрібно знати такі теореми. \r\n Теорема 1. Сума внутрішніх кутів трикутника дорівнює 180^\\circ. \n Теорема 2. Сума суміжних кутів дорівнює 180^\\circ. \n Наведемо декілька способів розв’язання цього завдання.\r\n Перший спосіб . Розглянемо трикутник ABC (див. рисунок), у якого \\angle B=85^\\circ , \\angle MAB – зовнішній кут трикутника, суміжний з кутом A , тоді\r\n $$\r\n \\angle A=180^\\circ-\\angle MAB=40^\\circ.\r\n $$ \r\n Знаючи два внутрішніх кути трикутника ABC , можемо визначити градусну міру його третього кута:\r\n $$\r\n \\angle C=180^\\circ-(40^\\circ+85^\\circ)=55^\\circ.\r\n $$ \r\n Оскільки за умовою \\angle ACN=90^\\circ , то\r\n $$\r\n 55^\\circ+\\alpha=90^\\circ,\r\n $$ \r\n звідки \\alpha=35^\\circ. \n Другий спосіб . Опустимо з вершини B трикутника ABC на сторону AC перпендикуляр AD (див. рисунок). З паралельності прямих BD і CN випливає, що \\angle DBC=\\angle BCN як внутрішні різносторонні. Тому шуканий кут \\alpha дорівнює куту DBC. Маємо:\r\n \\begin{gather*}\r\n \\angle A=180^\\circ-\\angle MAB=40^\\circ,\\\\[7pt]\r\n \\angle ABD=90^\\circ-\\angle A=90^\\circ-40^\\circ=50^\\circ,\\\\[7pt]\r\n \\alpha=\\angle DBC=\\angle ABC-\\angle ABD=85^\\circ-50^\\circ=35^\\circ.\r\n \\end{gather*} \n Третій спосіб . Скористаємось теоремою. Зовнішній кут трикутника дорівнює сумі двох внутрішніх, не суміжних з ним. Отже, \\angle BCP=\\angle A+\\angle B (див. рисунок). Оскільки\r\n \\begin{gather*}\r\n \\angle BCP=90^\\circ+\\alpha,\\\\[7pt]\r\n \\angle A=180^\\circ-140^\\circ=40^\\circ,\r\n \\end{gather*} \n то\r\n $$\r\n 90^\\circ+\\alpha=40^\\circ+85^\\circ.\r\n $$ \n Звідки одержуємо:\r\n $$\r\n \\alpha=125^\\circ-90^\\circ=35^\\circ.\r\n $$ \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Суміжні кути. Трикутники. Зовнішній кут трикутника. Теорема про суму кутів трикутника.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/71/7170/ds-math-2014-new-07.png",
+    "https://zno.osvita.ua/doc/images/znotest/71/7170/ds-ds-math-2014-new-07-1.png",
+    "https://zno.osvita.ua/doc/images/znotest/71/7170/ds-ds-math-2014-new-07-2.png",
+    "https://zno.osvita.ua/doc/images/znotest/71/7170/ds-ds-math-2014-new-07-3.png"
+   ],
+   "text": "Прямі k , l , m i n лежать в одній площині (див. рисунок). Визначте градусну міру кута \\alpha.",
+   "latex": [
+    "k",
+    "l",
+    "m",
+    "n",
+    "\\alpha.",
+    "15^\\circ",
+    "25^\\circ",
+    "35^\\circ",
+    "45^\\circ",
+    "55^\\circ"
+   ],
+   "source_test": 144,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 7184,
+   "tip": 1,
+   "out_order": 13,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Автомобіль рухався по дорозі паралельно паркану <latex>NP</latex> і зупинився біля закритих воріт <latex>KL</latex> так, як зображено на рисунку. Відомо, що розмах стулки воріт <latex>LM</latex> становить <latex>2</latex> м, <latex>OQ=1</latex> м. Укажіть найменшу з наведених довжину відрізка <latex>LO</latex>, при якій стулка <latex>LM</latex> не зачепить автомобіль за умови повного відкривання воріт. Уважайте, що ворота перпеникулярні до площини дороги і мають прямокутну форму. Товщиною стулок знехтуйте.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/71/7184/ds-math-2014-new-20.png\" style=\"height: auto;\" width=\"342\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>1{,}6</latex> м"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>1{,}7</latex> м"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>1{,}8</latex> м"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>1{,}9</latex> м"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>2</latex> м"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Прямокутний трикутник. Теорема Піфагора.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння використовувати теорему Піфагора для розв’язування задач із практичним змістом.\r\n </p>\n<p>\r\n Спочатку знайдемо довжину відрізка <latex>LO</latex>, при якій стулка <latex>LM</latex> під час відкривання воріт доторкнеться до автомобіля (зробить невеликий подряпину на бампері). Це станеться тоді, коли довжина відрізка <latex>LQ</latex> дорівнюватиме довжині стулки <latex>LM</latex>, тобто <latex>2</latex> м. Розглянемо прямокутний трикутник <latex>LOQ</latex> (див. рисунок). За теоремою Піфагора:\r\n </p>\n<latex>$$\r\n LO=\\sqrt{LQ^2-OQ^2}=\\sqrt{4-1}=\\sqrt{3}\\ \\text{м}.\r\n $$</latex>\n<p>\r\n Запишемо дані альтернативи у вигляді\r\n </p>\n<p>\n<b>А</b> <latex>1{,}6=\\sqrt{2{,}56}</latex> м.\r\n </p>\n<p>\n<b>Б</b> <latex>1{,}7=\\sqrt{2{,}89}</latex> м.\r\n </p>\n<p>\n<b>В</b> <latex>1{,}8=\\sqrt{3{,}24}</latex> м.\r\n </p>\n<p>\n<b>Г</b> <latex>1{,}9=\\sqrt{3{,}61}</latex> м. \r\n </p>\n<p>\n<b>Д</b> <latex>2=\\sqrt{4}</latex> м.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/71/7184/ds-ds-math-2014-new-20.png\" style=\"height: auto;\" width=\"279\"/>\n</div>\n<br/>\n<p>\r\n Далі міркуємо так. Щоб стулка <latex>LM</latex> під час відкривання воріт НЕ торкнулася автомобіля, потрібно, щоб довжина відрізка <latex>LQ</latex> (гіпотенузи прямокутного трикутника <latex>LOQ</latex>) була більша за розмах стулки, що дорівнює <latex>2</latex> м. Це виконуватиметься тоді, коли довжина катета <latex>LO</latex> буде більша за <latex>\\sqrt{3}</latex> м. Найменшою із наведених у відповідях відстаней, що задовольняють цю умову, є <latex>1{,}8</latex> м.\r\n </p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Прямокутний трикутник. Теорема Піфагора.\r\n Це завдання перевіряє вміння використовувати теорему Піфагора для розв’язування задач із практичним змістом.\r\n Спочатку знайдемо довжину відрізка LO , при якій стулка LM під час відкривання воріт доторкнеться до автомобіля (зробить невеликий подряпину на бампері). Це станеться тоді, коли довжина відрізка LQ дорівнюватиме довжині стулки LM , тобто 2 м. Розглянемо прямокутний трикутник LOQ (див. рисунок). За теоремою Піфагора:\r\n $$\r\n LO=\\sqrt{LQ^2-OQ^2}=\\sqrt{4-1}=\\sqrt{3}\\ \\text{м}.\r\n $$ \n Запишемо дані альтернативи у вигляді\r\n А 1{,}6=\\sqrt{2{,}56} м.\r\n Б 1{,}7=\\sqrt{2{,}89} м.\r\n В 1{,}8=\\sqrt{3{,}24} м.\r\n Г 1{,}9=\\sqrt{3{,}61} м. \r\n Д 2=\\sqrt{4} м.\r\n Далі міркуємо так. Щоб стулка LM під час відкривання воріт НЕ торкнулася автомобіля, потрібно, щоб довжина відрізка LQ (гіпотенузи прямокутного трикутника LOQ ) була більша за розмах стулки, що дорівнює 2 м. Це виконуватиметься тоді, коли довжина катета LO буде більша за \\sqrt{3} м. Найменшою із наведених у відповідях відстаней, що задовольняють цю умову, є 1{,}8 м.\r\n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Прямокутний трикутник. Теорема Піфагора.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/71/7184/ds-math-2014-new-20.png",
+    "https://zno.osvita.ua/doc/images/znotest/71/7184/ds-ds-math-2014-new-20.png"
+   ],
+   "text": "Автомобіль рухався по дорозі паралельно паркану NP і зупинився біля закритих воріт KL так, як зображено на рисунку. Відомо, що розмах стулки воріт LM становить 2 м, OQ=1 м. Укажіть найменшу з наведених довжину відрізка LO , при якій стулка LM не зачепить автомобіль за умови повного відкривання воріт. Уважайте, що ворота перпеникулярні до площини дороги і мають прямокутну форму. Товщиною стулок знехтуйте.",
+   "latex": [
+    "NP",
+    "KL",
+    "LM",
+    "2",
+    "OQ=1",
+    "LO",
+    "LM",
+    "1{,}6",
+    "1{,}7",
+    "1{,}8",
+    "1{,}9",
+    "2"
+   ],
+   "source_test": 144,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 7492,
+   "tip": 1,
+   "out_order": 14,
+   "type": "single_choice",
+   "question_html": "<p>У сонячний день довжина тіні від дерева становить <latex>16</latex> м. У той самий час тінь від хлопчика, який має зріст <latex>1{,}5</latex> м, дорівнює <latex>2</latex> м (див. рисунок). Визначте висоту дерева.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/74/7492/7.jpg\" style=\"height: auto;\" width=\"450\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>12</latex> м"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>12{,}5</latex> м"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>13</latex> м"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>14</latex> м"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>15{,}5</latex> м"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання ознак та властивостей подібних трикутників.\r\n </p>\n<p>\r\n Створимо математичну модель задачі: дано два подібні трикутники, знайти сторону одного з них.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/74/7492/ds-os-math-2009-new-07.png\" style=\"height: auto;\" width=\"441\"/>\n</div>\n<br/>\n<p>\n<latex>BC = 16</latex> м, <latex>A_1B_1 = 1{,}5</latex> м, <latex>B_1C_1 = 2</latex> м.\r\n </p>\n<p>\n<latex>\\Delta ABC</latex> подібний <latex>\\Delta A_1B_1C_1</latex> (подібні за гострим кутом). <latex>\\angle C = \\angle C_1</latex> (кут, під яким світить сонце).\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n \\frac{BC}{B_1C_1} = \\frac{AB}{A_1B_1};\\\\[6pt]\r\n AB = \\frac{BC \\cdot A_1B_1}{B_1C_1} = \\frac{16 \\cdot 1{,}5}{2} = 12\\ \\text{м}.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n Це завдання перевіряє знання ознак та властивостей подібних трикутників.\r\n Створимо математичну модель задачі: дано два подібні трикутники, знайти сторону одного з них.\r\n BC = 16 м, A_1B_1 = 1{,}5 м, B_1C_1 = 2 м.\r\n \\Delta ABC подібний \\Delta A_1B_1C_1 (подібні за гострим кутом). \\angle C = \\angle C_1 (кут, під яким світить сонце).\r\n \\begin{gather*}\r\n \\frac{BC}{B_1C_1} = \\frac{AB}{A_1B_1};\\\\[6pt]\r\n AB = \\frac{BC \\cdot A_1B_1}{B_1C_1} = \\frac{16 \\cdot 1{,}5}{2} = 12\\ \\text{м}.\r\n \\end{gather*} \n Відповідь: A.",
+   "topic": "Геометрія. Планіметрія. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/74/7492/7.jpg",
+    "https://zno.osvita.ua/doc/images/znotest/74/7492/ds-os-math-2009-new-07.png"
+   ],
+   "text": "У сонячний день довжина тіні від дерева становить 16 м. У той самий час тінь від хлопчика, який має зріст 1{,}5 м, дорівнює 2 м (див. рисунок). Визначте висоту дерева.",
+   "latex": [
+    "16",
+    "1{,}5",
+    "2",
+    "12",
+    "12{,}5",
+    "13",
+    "14",
+    "15{,}5"
+   ],
+   "source_test": 151,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 7629,
+   "tip": 1,
+   "out_order": 15,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено прямокутний трикутник з катетами <latex>a</latex> i <latex>b</latex>, гіпотенузою <latex>c</latex> та гострим кутом <latex>\\alpha.</latex> Укажіть правильну рівність.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/76/7629/os-math-2015-new-08.png\" style=\"height: auto;\" width=\"132\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\cos \\alpha=\\frac ab</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\cos \\alpha=\\frac cb</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\cos \\alpha=\\frac ac</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\cos \\alpha=\\frac ca</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>\\cos \\alpha=\\frac bc</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники. Співвідношення між сторонами і кутами прямокутного трикутника.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання означення косинуса гострого кута прямокутного трикутника. \r\n </p>\n<p>\r\n Косинус гострого кута <latex>\\alpha</latex> прямокутного трикутника дорівнює відношенню прилеглого до цього кута катета до гіпотенузи. Отже, \r\n <latex>$$\r\n \\cos \\alpha = \\frac{b}{c}.\r\n $$</latex>\n</p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. Співвідношення між сторонами і кутами прямокутного трикутника.\r\n Це завдання перевіряє знання означення косинуса гострого кута прямокутного трикутника. \r\n Косинус гострого кута \\alpha прямокутного трикутника дорівнює відношенню прилеглого до цього кута катета до гіпотенузи. Отже, \r\n $$\r\n \\cos \\alpha = \\frac{b}{c}.\r\n $$ \n Відповідь: Д.",
+   "topic": "Геометрія. Планіметрія. Трикутники. Співвідношення між сторонами і кутами прямокутного трикутника.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/76/7629/os-math-2015-new-08.png"
+   ],
+   "text": "На рисунку зображено прямокутний трикутник з катетами a i b , гіпотенузою c та гострим кутом \\alpha. Укажіть правильну рівність.",
+   "latex": [
+    "a",
+    "b",
+    "c",
+    "\\alpha.",
+    "\\cos \\alpha=\\frac ab",
+    "\\cos \\alpha=\\frac cb",
+    "\\cos \\alpha=\\frac ac",
+    "\\cos \\alpha=\\frac ca",
+    "\\cos \\alpha=\\frac bc"
+   ],
+   "source_test": 154,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 8168,
+   "tip": 1,
+   "out_order": 16,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Катет <latex>CB</latex> і гіпотенуза <latex>AB</latex> прямокутного трикутника <latex>ABC</latex> лежать на прямих, що перетинаються під кутом <latex>55^\\circ</latex> (див. рисунок). Визначте градусну міру <latex>\\angle CAB.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/81/8168/ds-math-2015-new-01.png\" style=\"height: auto;\" width=\"187\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>15^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>25^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>35^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>45^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>55^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Вертикальні кути. Трикутники. Теорема про суму кутів трикутника. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання властивостей вертикальних кутів та вміння користуватися теоремою про суму кутів трикутника. \r\n </p>\n<p>\r\n Катет <latex>CB</latex> і гіпотенуза <latex>AB</latex> лежать на прямих, що перетинаються під кутом <latex>55^\\circ</latex> (див. рисунок). Зазначений на рисунку кут, градусна міра якого дорівнює <latex>55^\\circ</latex>, та <latex>\\angle ABC</latex> є вертикальними. Оскільки вертикальні кути рівні, то <latex>\\angle ABC = 55^\\circ</latex>.\r\n </p>\n<p>\r\n Сума кутів трикутника дорівнює <latex>180^\\circ</latex>, тобто \r\n <latex>$$\r\n \\angle BAC + \\angle ABC + \\angle BCA = 180^\\circ. \r\n $$</latex>\r\n За умовою трикутник <latex>ABC</latex> є прямокутним: <latex>\\angle ACB = 90^\\circ</latex>. \r\n Отже, \r\n <latex>$$\r\n \\angle BAC = 180^\\circ - (90^\\circ + 55^\\circ) = 35^\\circ.\r\n $$</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Вертикальні кути. Трикутники. Теорема про суму кутів трикутника. \r\n Це завдання перевіряє знання властивостей вертикальних кутів та вміння користуватися теоремою про суму кутів трикутника. \r\n Катет CB і гіпотенуза AB лежать на прямих, що перетинаються під кутом 55^\\circ (див. рисунок). Зазначений на рисунку кут, градусна міра якого дорівнює 55^\\circ , та \\angle ABC є вертикальними. Оскільки вертикальні кути рівні, то \\angle ABC = 55^\\circ .\r\n Сума кутів трикутника дорівнює 180^\\circ , тобто \r\n $$\r\n \\angle BAC + \\angle ABC + \\angle BCA = 180^\\circ. \r\n $$ \r\n За умовою трикутник ABC є прямокутним: \\angle ACB = 90^\\circ . \r\n Отже, \r\n $$\r\n \\angle BAC = 180^\\circ - (90^\\circ + 55^\\circ) = 35^\\circ.\r\n $$ \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Вертикальні кути. Трикутники. Теорема про суму кутів трикутника.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/81/8168/ds-math-2015-new-01.png"
+   ],
+   "text": "Катет CB і гіпотенуза AB прямокутного трикутника ABC лежать на прямих, що перетинаються під кутом 55^\\circ (див. рисунок). Визначте градусну міру \\angle CAB.",
+   "latex": [
+    "CB",
+    "AB",
+    "ABC",
+    "55^\\circ",
+    "\\angle CAB.",
+    "15^\\circ",
+    "25^\\circ",
+    "35^\\circ",
+    "45^\\circ",
+    "55^\\circ"
+   ],
+   "source_test": 166,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 10844,
+   "tip": 1,
+   "out_order": 17,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Нижня й верхня площадки ескалатора лежать у паралельних площинах, відстань між якими становить <latex>12</latex> м (див. рисунок). Кут нахилу ескалатора <latex>AB</latex> до площини нижньої площадки дорівнює <latex>30^\\circ.</latex> Визначте довжину ескалатора <latex>AB.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/108/10844/ds-math-2016-new-13.png\" style=\"height: auto;\" width=\"434\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>8\\sqrt{3}</latex> м"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>24</latex> м"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>12\\sqrt{3}</latex> м"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>6\\sqrt{3}</latex> м"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>6</latex> м"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати означення та властивості різних видів трикутників до розв'язування планіметричних задач та задач практичного змісту.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/108/10844/ds-ds-math-2016-new-13.png\" style=\"height: auto;\" width=\"428\"/>\n</div>\n<br/>\n<p>\n<latex>\\Delta ABC\\ (\\angle C=90^\\circ).</latex> За властивістю катета, що лежить проти кута <latex>30^\\circ</latex>\n<latex>$$\r\n CB=\\frac 12 AB.\r\n $$</latex>\n</p>\n<p>\r\n Довжина ескалатора\r\n </p>\n<latex>$$\r\n AB=2\\cdot CB=2\\cdot 12=24\\ \\text{м}.\r\n $$</latex>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n Це завдання перевіряє вміння застосовувати означення та властивості різних видів трикутників до розв'язування планіметричних задач та задач практичного змісту.\r\n \\Delta ABC\\ (\\angle C=90^\\circ). За властивістю катета, що лежить проти кута 30^\\circ \n $$\r\n CB=\\frac 12 AB.\r\n $$ \n Довжина ескалатора\r\n $$\r\n AB=2\\cdot CB=2\\cdot 12=24\\ \\text{м}.\r\n $$ \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/108/10844/ds-math-2016-new-13.png",
+    "https://zno.osvita.ua/doc/images/znotest/108/10844/ds-ds-math-2016-new-13.png"
+   ],
+   "text": "Нижня й верхня площадки ескалатора лежать у паралельних площинах, відстань між якими становить 12 м (див. рисунок). Кут нахилу ескалатора AB до площини нижньої площадки дорівнює 30^\\circ. Визначте довжину ескалатора AB.",
+   "latex": [
+    "12",
+    "AB",
+    "30^\\circ.",
+    "AB.",
+    "8\\sqrt{3}",
+    "24",
+    "12\\sqrt{3}",
+    "6\\sqrt{3}",
+    "6"
+   ],
+   "source_test": 221,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 12083,
+   "tip": 1,
+   "out_order": 18,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено поперечний переріз аркового проїзду, верхня частина якого (дуга <latex>BKC</latex>) має форму півкола радіуса <latex>OC=2</latex> <i>м</i>. Відрізки <latex>AB</latex> і <latex>DC</latex> перпендикулярні до <latex>AD</latex>, <latex>AB=DC=2</latex> <i>м</i>. Яке з наведених значень є <b>найбільшим можливим</b> значенням висоти <latex>h</latex> вантажівки, за якого вона зможе проїхати через цей арковий проїзд, не торкаючись верхньої частини арки (дуги <latex>BKC</latex>)? Уважайте, що <latex>LMNP</latex> – прямокутник, у якому <latex>MN=2\\mathord{,}4</latex> <i>м</i> і <latex>MN\\ ||\\ AD.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/120/12083/os-math-2017-new-19.jpeg\" style=\"height: auto;\" width=\"245\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>4\\mathord{,}4</latex> <i>м</i>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>4</latex> <i>м</i>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>3\\mathord{,}7</latex> <i>м</i>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>3\\mathord{,}5</latex> <i>м</i>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>3\\mathord{,}2</latex> <i>м</i>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. Коло та круг. Трикутники. Чотирикутники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати означення, ознаки та властивості геометричних фігур до розв'язування планіметричних задач та задач практичного змісту; уміння застосовувати теорему Піфагора до розв'язування прямокутного трикутника, властивості прямокутника.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/120/12083/ds-os-math-2017-new-19-new-2.jpeg\" style=\"height: auto;\" width=\"245\"/>\n</div>\n<p>\r\n Розглянемо випадок, коли вантажівка дотикається аркового проїзду. При цьому <latex>ON=OC=2</latex> <i>м</i> (радіус аркового проїзду).\r\n </p>\n<p>\r\n Оскільки <latex>MN=2\\mathord{,}4</latex> <i>м</i>, а <latex>MF=FN=1\\mathord{,}2</latex> <i>м</i>. <latex>FN=OE=1\\mathord{,}2</latex> <i>м</i>. Значення <latex>NE</latex> знайдемо за теоремою Піфагора з <latex>\\Delta NEO\\ (\\angle E=90^\\circ).</latex>\n</p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">$$\r\n NE=\\sqrt{ON^2-OE^2}=\\sqrt{4-1\\mathord{,}44}=\\sqrt{2\\mathord{,}56}=1\\mathord{,}6\\ \\textit{м}.\r\n$$</latex>\n</div>\n<p>\r\n Висота <latex>h</latex> вантажівки складається з суми\r\n </p>\n<latex display=\"block\">$$\r\n h=CD+NE=2+1\\mathord{,}6=3\\mathord{,}6\\ \\textit{м}.\r\n$$</latex>\n<p>\r\n При значенні <latex>3\\mathord{,}6</latex> <i>м</i> вантажівка дотикається арки, тому максимально можливе значення – <latex>3\\mathord{,}5</latex> <i>м</i>.\r\n </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. Коло та круг. Трикутники. Чотирикутники.\r\n Це завдання перевіряє вміння застосовувати означення, ознаки та властивості геометричних фігур до розв'язування планіметричних задач та задач практичного змісту; уміння застосовувати теорему Піфагора до розв'язування прямокутного трикутника, властивості прямокутника.\r\n Розглянемо випадок, коли вантажівка дотикається аркового проїзду. При цьому ON=OC=2 м (радіус аркового проїзду).\r\n Оскільки MN=2\\mathord{,}4 м , а MF=FN=1\\mathord{,}2 м . FN=OE=1\\mathord{,}2 м . Значення NE знайдемо за теоремою Піфагора з \\Delta NEO\\ (\\angle E=90^\\circ). \n $$\r\n NE=\\sqrt{ON^2-OE^2}=\\sqrt{4-1\\mathord{,}44}=\\sqrt{2\\mathord{,}56}=1\\mathord{,}6\\ \\textit{м}.\r\n$$ \n Висота h вантажівки складається з суми\r\n $$\r\n h=CD+NE=2+1\\mathord{,}6=3\\mathord{,}6\\ \\textit{м}.\r\n$$ \n При значенні 3\\mathord{,}6 м вантажівка дотикається арки, тому максимально можливе значення – 3\\mathord{,}5 м .\r\n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. Коло та круг. Трикутники. Чотирикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/120/12083/os-math-2017-new-19.jpeg",
+    "https://zno.osvita.ua/doc/images/znotest/120/12083/ds-os-math-2017-new-19-new-2.jpeg"
+   ],
+   "text": "На рисунку зображено поперечний переріз аркового проїзду, верхня частина якого (дуга BKC ) має форму півкола радіуса OC=2 м . Відрізки AB і DC перпендикулярні до AD , AB=DC=2 м . Яке з наведених значень є найбільшим можливим значенням висоти h вантажівки, за якого вона зможе проїхати через цей арковий проїзд, не торкаючись верхньої частини арки (дуги BKC )? Уважайте, що LMNP – прямокутник, у якому MN=2\\mathord{,}4 м і MN\\ ||\\ AD.",
+   "latex": [
+    "BKC",
+    "OC=2",
+    "AB",
+    "DC",
+    "AD",
+    "AB=DC=2",
+    "h",
+    "BKC",
+    "LMNP",
+    "MN=2\\mathord{,}4",
+    "MN\\ ||\\ AD.",
+    "4\\mathord{,}4",
+    "4",
+    "3\\mathord{,}7",
+    "3\\mathord{,}5",
+    "3\\mathord{,}2"
+   ],
+   "source_test": 247,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 14327,
+   "tip": 1,
+   "out_order": 19,
+   "type": "single_choice",
+   "question_html": "<p>У трикутнику <latex>ABC\\ \\angle A = 59^\\circ</latex>, <latex>\\angle B = 62^\\circ</latex>. Із вершин цих кутів проведено висоти, що перетинаються в точці <latex>O</latex>. Визначте величину кута <latex>AOB</latex>.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/143/14327/os-math-2008-new-22.png\" style=\"height: auto;\" width=\"221\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>98^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>121^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>144^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>149^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>154^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання властивостей кутів многокутника.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/143/14327/ds-os-math-2008-new-22.png\" style=\"height: auto;\" width=\"221\"/>\n</div>\n<br/>\n<p>\n<latex>\\angle A = 59^\\circ</latex>, <latex>\\angle B = 62^\\circ.</latex>\n</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n \\angle C = 180^\\circ - (\\angle A + \\angle B) = 180^\\circ - (59^\\circ + 62^\\circ) = 59^\\circ\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n (сума кутів трикутника <span style=\"white-space:nowrap\">дорівнює <latex>180^\\circ.</latex>).</span>\n</p>\n<p>\n<latex>MOPC</latex> – чотирикутник. Сума кутів чотирикутника – <latex>360^\\circ.</latex>\n<latex>\\angle P + \\angle M = 180^\\circ</latex>, отже, <latex>\\angle O + \\angle C = 180^\\circ.</latex>\n</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n \\angle O = 180^\\circ - \\angle C = 180^\\circ - 59^\\circ = 121^\\circ.\r\n \\end{gather*}</latex>\n</div>\n<p>\n<latex>\\angle AOB = \\angle POM = 121^\\circ</latex> (як вертикальні).\r\n </p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники.\r\n Це завдання перевіряє знання властивостей кутів многокутника.\r\n \\angle A = 59^\\circ , \\angle B = 62^\\circ. \n \\begin{gather*}\r\n \\angle C = 180^\\circ - (\\angle A + \\angle B) = 180^\\circ - (59^\\circ + 62^\\circ) = 59^\\circ\r\n \\end{gather*} \n (сума кутів трикутника дорівнює 180^\\circ. ). \n MOPC – чотирикутник. Сума кутів чотирикутника – 360^\\circ. \n \\angle P + \\angle M = 180^\\circ , отже, \\angle O + \\angle C = 180^\\circ. \n \\begin{gather*}\r\n \\angle O = 180^\\circ - \\angle C = 180^\\circ - 59^\\circ = 121^\\circ.\r\n \\end{gather*} \n \\angle AOB = \\angle POM = 121^\\circ (як вертикальні).\r\n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Трикутники. Чотирикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/143/14327/os-math-2008-new-22.png",
+    "https://zno.osvita.ua/doc/images/znotest/143/14327/ds-os-math-2008-new-22.png"
+   ],
+   "text": "У трикутнику ABC\\ \\angle A = 59^\\circ , \\angle B = 62^\\circ . Із вершин цих кутів проведено висоти, що перетинаються в точці O . Визначте величину кута AOB .",
+   "latex": [
+    "ABC\\ \\angle A = 59^\\circ",
+    "\\angle B = 62^\\circ",
+    "O",
+    "AOB",
+    "98^\\circ",
+    "121^\\circ",
+    "144^\\circ",
+    "149^\\circ",
+    "154^\\circ"
+   ],
+   "source_test": 292,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 14615,
+   "tip": 1,
+   "out_order": 20,
+   "type": "single_choice",
+   "question_html": "<p style=\"position: relative;\">\r\n Ha рисунку зображено фрагмент поперечного перерізу стіни (прямокутник <latex>KLMN</latex>) з арковим прорізом <latex>ABFCD</latex>, верхня частина <latex>BFC</latex> якого є дугою кола радіуса <latex>1</latex> <i>м</i>. Відрізки <latex>AB</latex> і <latex>DC</latex> перпендикулярні до <latex>AD</latex>, <latex>AB=DC=2</latex> <i>м</i>. <latex>AD=1\\mathord{,}6</latex> <i>м</i>, <latex>KL=2\\mathord{,}75</latex> <i>м</i>. Визначте відстань <latex>d</latex> від найвищої точки <latex>F</latex> прорізу до стелі <latex>LM.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/146/14615/os-math-2018-new-20.png\" style=\"height: auto;\" width=\"247\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>0\\mathord{,}25</latex> <i>м</i>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>0\\mathord{,}3</latex> <i>м</i>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>0\\mathord{,}4</latex> <i>м</i>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>0\\mathord{,}35</latex> <i>м</i>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>0\\mathord{,}45</latex> <i>м</i>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Планіметрія. Коло та круг. Трикутники. Чотирикутники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати властивості різних видів трикутників та чотирикутників до розв'язування планіметричних задач та задач практичного змісту.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/146/14615/ds-os-math-2018-new-20.png\" style=\"height: auto;\" width=\"249\"/>\n</div>\n<p>\r\n Нехай точка <latex>O</latex> – центр кола, дуга якого <latex>BFC.</latex>\n</p>\n<p>\r\n Радіус кола – <latex>OB=OF=OC=1</latex> <i>м</i>.\r\n </p>\n<p>\n<latex>BC\\ ||\\ AD</latex>, <latex>AB\\ ||\\ CD.</latex> <latex>(AB\\ \\perp\\ BC</latex>, <latex>CD\\ \\perp\\ AD</latex> за властивістю паралельних прямих <latex>AB\\ ||\\ CD)</latex>. Отже, <latex>ABCD</latex> – прямокутник, <latex>BC=AD=1\\mathord{,}6</latex> <i>м</i>. \r\n </p>\n<p>\n<latex>BC\\cup OF=O_1</latex>, <latex>BC\\ \\perp\\ OF.</latex>\n</p>\n<p>\n<latex>\\Delta BOC</latex> – рівнобедрений, <latex>OO_1</latex> – висота та медіана,\r\n <latex display=\"block\">$$\r\n BO_1=\\frac 12BC=\\frac 12AD=0\\mathord{,}8\\ \\textit{м}.\r\n$$</latex>\n</p>\n<p>\n<latex>\\Delta BOO_1\\ (\\angle O_1=90^\\circ)</latex> за теоремою Піфагора:\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n BO^2=OO_1^2+BO_1^2,\\\\[7pt]\r\n OO_1=\\sqrt{1^2-0\\mathord{,}8^2}=\\sqrt{0\\mathord{,}36}=0\\mathord{,}6\\ \\textit{м},\\\\[7pt]\r\n O_1F=OF-OO_1=1-0\\mathord{,}6=0\\mathord{,}4\\ \\textit{м},\\\\[7pt]\r\n KL=AB+O_1F+d,\\\\[7pt]\r\n d=KL-AB-O_1F=2\\mathord{,}75-2-0\\mathord{,}4=0\\mathord{,}35\\ \\textit{м}.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Планіметрія. Коло та круг. Трикутники. Чотирикутники.\r\n Це завдання перевіряє вміння застосовувати властивості різних видів трикутників та чотирикутників до розв'язування планіметричних задач та задач практичного змісту.\r\n Нехай точка O – центр кола, дуга якого BFC. \n Радіус кола – OB=OF=OC=1 м .\r\n BC\\ ||\\ AD , AB\\ ||\\ CD. (AB\\ \\perp\\ BC , CD\\ \\perp\\ AD за властивістю паралельних прямих AB\\ ||\\ CD) . Отже, ABCD – прямокутник, BC=AD=1\\mathord{,}6 м . \r\n BC\\cup OF=O_1 , BC\\ \\perp\\ OF. \n \\Delta BOC – рівнобедрений, OO_1 – висота та медіана,\r\n $$\r\n BO_1=\\frac 12BC=\\frac 12AD=0\\mathord{,}8\\ \\textit{м}.\r\n$$ \n \\Delta BOO_1\\ (\\angle O_1=90^\\circ) за теоремою Піфагора:\r\n \\begin{gather*}\r\n BO^2=OO_1^2+BO_1^2,\\\\[7pt]\r\n OO_1=\\sqrt{1^2-0\\mathord{,}8^2}=\\sqrt{0\\mathord{,}36}=0\\mathord{,}6\\ \\textit{м},\\\\[7pt]\r\n O_1F=OF-OO_1=1-0\\mathord{,}6=0\\mathord{,}4\\ \\textit{м},\\\\[7pt]\r\n KL=AB+O_1F+d,\\\\[7pt]\r\n d=KL-AB-O_1F=2\\mathord{,}75-2-0\\mathord{,}4=0\\mathord{,}35\\ \\textit{м}.\r\n \\end{gather*} \n Відповідь: Г.",
+   "topic": "Планіметрія. Коло та круг. Трикутники. Чотирикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/146/14615/os-math-2018-new-20.png",
+    "https://zno.osvita.ua/doc/images/znotest/146/14615/ds-os-math-2018-new-20.png"
+   ],
+   "text": "Ha рисунку зображено фрагмент поперечного перерізу стіни (прямокутник KLMN ) з арковим прорізом ABFCD , верхня частина BFC якого є дугою кола радіуса 1 м . Відрізки AB і DC перпендикулярні до AD , AB=DC=2 м . AD=1\\mathord{,}6 м , KL=2\\mathord{,}75 м . Визначте відстань d від найвищої точки F прорізу до стелі LM.",
+   "latex": [
+    "KLMN",
+    "ABFCD",
+    "BFC",
+    "1",
+    "AB",
+    "DC",
+    "AD",
+    "AB=DC=2",
+    "AD=1\\mathord{,}6",
+    "KL=2\\mathord{,}75",
+    "d",
+    "F",
+    "LM.",
+    "0\\mathord{,}25",
+    "0\\mathord{,}3",
+    "0\\mathord{,}4",
+    "0\\mathord{,}35",
+    "0\\mathord{,}45"
+   ],
+   "source_test": 298,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 14621,
+   "tip": 11,
+   "out_order": 21,
+   "type": "matching",
+   "question_html": "<p>\r\n У прямокутному трикутнику <latex>ABC\\ (\\angle C=90^\\circ)</latex> відстані від середини медіани <latex>BM</latex> до катетів <latex>AC</latex> і <latex>BC</latex> дорівнюють <latex>5</latex> <i>см</i> і <latex>6</latex> <i>см</i> відповідно.\r\n </p>\n<img alt=\"\" src=\"/doc/images/znotest/146/14621/os-math-2018-new-26.png\" style=\"height: auto;\" width=\"309\"/>\n<p>\n<b>1.</b> Визначте довжину катета <latex>AC</latex> (y <i>см</i>).\r\n </p>\n<p>\n<b>2.</b> Визначте радіус (у <i>см</i>) кола, описаного навколо трикутника <latex>ABC.</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": "<table class=\"answer select-answers-variants variants2\">\n<tr>\n<td><b>1.</b></td><td><input class=\"inptext\" maxlength=\"7\" name=\"a[1]\" type=\"text\" value=\"\"/></td><td>   </td>\n<td><b>2.</b></td><td><input class=\"inptext\" maxlength=\"7\" name=\"a[2]\" type=\"text\" value=\"\"/></td>\n</tr>\n<tr class=\"otvet\" style=\"display:none;\"><td></td><td>24</td><td>   </td><td></td><td>13</td></tr>\n</table>",
+   "correct_raw": "24;13",
+   "correct": [
+    "24",
+    "13"
+   ],
+   "input": true,
+   "input_maxlength": 7,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Трикутники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання властивостей медіани, середньої лінії трикутника, уміння застосовувати властивості різних видів трикутників до розв'язання планіметричних задач.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/146/14621/ds-os-math-2018-new-26.png\" style=\"height: auto;\" width=\"307\"/>\n</div>\n<p>\n<latex>BM</latex> – медіана, точка <latex>K</latex> – середина медіани.\r\n </p>\n<p>\n<b>1.</b> Відстань від точки <latex>K</latex> до <latex>AC</latex> – це <latex>KF=5</latex> <i>см</i>, <latex>KF\\ \\perp\\ AC.</latex>\n</p>\n<p>\r\n Відповідно, <latex>KE\\ \\perp\\ BC,</latex> <latex>KE=6</latex> <i>см</i>.\r\n </p>\n<p>\n<latex>KE\\ \\perp \\ BC</latex>, <latex>AC\\ \\perp\\ BC\\rightarrow\\ KE\\ ||\\ AC.</latex>\n</p>\n<p>\r\n За теоремою Фалеса, точка <latex>E</latex> – середина <latex>BC</latex>, тому <latex>KE</latex> – середня лінія <latex>\\Delta MBC.</latex>\n</p>\n<p>\r\n За властивістю середньої лінії,\r\n <latex display=\"block\">\\begin{gather*}\r\n KE=\\frac 12MC,\\\\[6pt]\r\n MC=2KE=2\\cdot 6=12\\ \\textit{см}.\r\n \\end{gather*}</latex>\r\n Оскільки <latex>BM</latex> – медіана, то <latex>AC=2MC=24</latex> <i>см</i>.\r\n </p>\n<p>\r\n Отже, довжина катета <latex>AC=24</latex> <i>см</i>.\r\n </p>\n<br/>\n<p>\n<b>2.</b> Аналогічно, <latex>KF</latex> – середня лінія <latex>\\Delta CMB</latex>, тому <latex>BC=2KF=10</latex> <i>см</i>.\r\n </p>\n<p>\r\n За теоремою Піфагора, у <latex>\\Delta ABC\\ (\\angle C=90^\\circ)</latex>\n</p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n AB^2=AC^2+CB^2=24^2+10^2=576+100=676,\\\\[7pt]\r\n AB=\\sqrt{676}=26\\ \\textit{см}.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n За властивістю прямокутного трикутника, радіус описаного кола дорівнює половині гіпотенузи. Отже, радіус кола\r\n <latex display=\"block\">$$\r\n 26 : 2 = 13\\ \\textit{см}.\r\n$$</latex>\n</p>\n<p><strong>Відповідь: 1.</strong> <latex>24</latex> <i>см.</i>\n<br/>                  \r\n <strong>2.</strong> <latex>13</latex> <i>см.</i></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Трикутники.\r\n Це завдання перевіряє знання властивостей медіани, середньої лінії трикутника, уміння застосовувати властивості різних видів трикутників до розв'язання планіметричних задач.\r\n BM – медіана, точка K – середина медіани.\r\n 1. Відстань від точки K до AC – це KF=5 см , KF\\ \\perp\\ AC. \n Відповідно, KE\\ \\perp\\ BC, KE=6 см .\r\n KE\\ \\perp \\ BC , AC\\ \\perp\\ BC\\rightarrow\\ KE\\ ||\\ AC. \n За теоремою Фалеса, точка E – середина BC , тому KE – середня лінія \\Delta MBC. \n За властивістю середньої лінії,\r\n \\begin{gather*}\r\n KE=\\frac 12MC,\\\\[6pt]\r\n MC=2KE=2\\cdot 6=12\\ \\textit{см}.\r\n \\end{gather*} \r\n Оскільки BM – медіана, то AC=2MC=24 см .\r\n Отже, довжина катета AC=24 см .\r\n 2. Аналогічно, KF – середня лінія \\Delta CMB , тому BC=2KF=10 см .\r\n За теоремою Піфагора, у \\Delta ABC\\ (\\angle C=90^\\circ) \n \\begin{gather*}\r\n AB^2=AC^2+CB^2=24^2+10^2=576+100=676,\\\\[7pt]\r\n AB=\\sqrt{676}=26\\ \\textit{см}.\r\n \\end{gather*} \n За властивістю прямокутного трикутника, радіус описаного кола дорівнює половині гіпотенузи. Отже, радіус кола\r\n $$\r\n 26 : 2 = 13\\ \\textit{см}.\r\n$$ \n Відповідь: 1. 24 см. \n 2. 13 см.",
+   "topic": "Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/146/14621/os-math-2018-new-26.png",
+    "https://zno.osvita.ua/doc/images/znotest/146/14621/ds-os-math-2018-new-26.png"
+   ],
+   "text": "У прямокутному трикутнику ABC\\ (\\angle C=90^\\circ) відстані від середини медіани BM до катетів AC і BC дорівнюють 5 см і 6 см відповідно.\r\n 1. Визначте довжину катета AC (y см ).\r\n 2. Визначте радіус (у см ) кола, описаного навколо трикутника ABC.",
+   "latex": [
+    "ABC\\ (\\angle C=90^\\circ)",
+    "BM",
+    "AC",
+    "BC",
+    "5",
+    "6",
+    "AC",
+    "ABC."
+   ],
+   "source_test": 298,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 15253,
+   "tip": 1,
+   "out_order": 22,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Автомобіль, задні дверцята якого відкриваються так, як зображено на рисунку, під’їжджає заднім ходом по горизонтальній поверхні <latex>CA</latex> перпендикулярно до вертикальної стіни <latex>AB.</latex> Укажіть серед наведених <i>найменшу</i> відстань <latex>d</latex> від автомобіля до стіни <latex>AB</latex>, за якої задні дверцята автомобіля зможуть із зачиненого стану <latex>KP</latex> безперешкодно набувати зображеного на рисунку положення <latex>KP'.</latex> <latex>KP'=KP=0\\mathord{,}9</latex> <i>м</i>, <latex>\\cos \\mathbf{\\beta}=0\\mathord{,}3.</latex> Наявністю заднього бампера автомобіля знехтуйте.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/152/15253/ds-math-2018-new-19.jpeg\" style=\"height: auto;\" width=\"400\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>0\\mathord{,}85</latex> <i>м</i>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>0\\mathord{,}8</latex> <i>м</i>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>0\\mathord{,}75</latex> <i>м</i>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>0\\mathord{,}7</latex> <i>м</i>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>0\\mathord{,}6</latex> <i>м</i>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники. Коло та круг.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання властивості дотичної до кола, вміння застосовувати набуті знання до розв'язування планіметричних задач та задач практичного змісту.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/152/15253/ds-ds-math-2018-new-19.png\" style=\"height: auto;\" width=\"332\"/>\n</div>\n<p>\r\n Проведемо <latex>K_1E\\ ||\\ AB</latex> дотичну до кола.\r\n </p>\n<p>\r\n За властивістю дотичної до кола <latex>KK_1\\ \\perp\\ K_1E.</latex>\n</p>\n<p>\n<latex>\\angle CPK=\\angle PKP_1=\\mathbf{\\beta}</latex> як внутрішні різносторонні при <latex>KK_1\\ ||\\ CE</latex> та січної <latex>KP.</latex>\n</p>\n<p>\r\n У <latex>\\Delta KP_1P\\ (\\angle P_1=90^\\circ)</latex>, <latex>KP=0\\mathord{,}9</latex> <i>м</i>, <latex>\\angle K=\\mathbf{\\beta}.</latex>\n</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n \\cos \\mathbf{\\beta}=0\\mathord{,}3=\\frac{KP_1}{KP}=\\frac{KP_1}{0\\mathord{,}9},\\\\[6pt]\r\n KP_1=0\\mathord{,}27\\ \\textit{м},\\\\[6pt]\r\n P_1K_1=KK_1-KP_1=0\\mathord{,}9-0\\mathord{,}27=0\\mathord{,}63\\ \\textit{м}.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n Серед наведених відстаней найменша <latex>0\\mathord{,}7</latex> <i>м</i>.\r\n </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники. Коло та круг.\r\n Це завдання перевіряє знання властивості дотичної до кола, вміння застосовувати набуті знання до розв'язування планіметричних задач та задач практичного змісту.\r\n Проведемо K_1E\\ ||\\ AB дотичну до кола.\r\n За властивістю дотичної до кола KK_1\\ \\perp\\ K_1E. \n \\angle CPK=\\angle PKP_1=\\mathbf{\\beta} як внутрішні різносторонні при KK_1\\ ||\\ CE та січної KP. \n У \\Delta KP_1P\\ (\\angle P_1=90^\\circ) , KP=0\\mathord{,}9 м , \\angle K=\\mathbf{\\beta}. \n \\begin{gather*}\r\n \\cos \\mathbf{\\beta}=0\\mathord{,}3=\\frac{KP_1}{KP}=\\frac{KP_1}{0\\mathord{,}9},\\\\[6pt]\r\n KP_1=0\\mathord{,}27\\ \\textit{м},\\\\[6pt]\r\n P_1K_1=KK_1-KP_1=0\\mathord{,}9-0\\mathord{,}27=0\\mathord{,}63\\ \\textit{м}.\r\n \\end{gather*} \n Серед наведених відстаней найменша 0\\mathord{,}7 м .\r\n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Трикутники. Чотирикутники. Коло та круг.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/152/15253/ds-math-2018-new-19.jpeg",
+    "https://zno.osvita.ua/doc/images/znotest/152/15253/ds-ds-math-2018-new-19.png"
+   ],
+   "text": "Автомобіль, задні дверцята якого відкриваються так, як зображено на рисунку, під’їжджає заднім ходом по горизонтальній поверхні CA перпендикулярно до вертикальної стіни AB. Укажіть серед наведених найменшу відстань d від автомобіля до стіни AB , за якої задні дверцята автомобіля зможуть із зачиненого стану KP безперешкодно набувати зображеного на рисунку положення KP'. KP'=KP=0\\mathord{,}9 м , \\cos \\mathbf{\\beta}=0\\mathord{,}3. Наявністю заднього бампера автомобіля знехтуйте.",
+   "latex": [
+    "CA",
+    "AB.",
+    "d",
+    "AB",
+    "KP",
+    "KP'.",
+    "KP'=KP=0\\mathord{,}9",
+    "\\cos \\mathbf{\\beta}=0\\mathord{,}3.",
+    "0\\mathord{,}85",
+    "0\\mathord{,}8",
+    "0\\mathord{,}75",
+    "0\\mathord{,}7",
+    "0\\mathord{,}6"
+   ],
+   "source_test": 310,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 15257,
+   "tip": 4,
+   "out_order": 23,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено квадрат <latex>ABCD</latex> і ромб <latex>CKMD</latex>, які лежать в одній площині. Периметр ромба дорівнює <latex>48</latex> <i>см</i>, а його гострий кут – <latex>60^\\circ.</latex> До кожного початку речення (1-4) доберіть його закінчення (А – Д) так, щоб утворилося правильне твердження.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/152/15257/ds-math-2018-new-23.png\" style=\"height: auto;\" width=\"257\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Довжина сторони квадрата <latex>ABCD</latex> дорівнює"
+    },
+    {
+     "marker": "2",
+     "html": "Довжина більшої діагоналі ромба <latex>CKMD</latex> дорівнює"
+    },
+    {
+     "marker": "3",
+     "html": "Відстань від точки <latex>M</latex> до сторони <latex>CD</latex> дорівнює"
+    },
+    {
+     "marker": "4",
+     "html": "Відстань від точки <latex>K</latex> до прямої <latex>AD</latex> дорівнює"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>6</latex> <i>см</i>."
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>6\\sqrt{3}</latex> <i>см</i>."
+    },
+    {
+     "marker": "В",
+     "html": "<latex>12</latex> <i>см</i>."
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>12\\sqrt{3}</latex> <i>см</i>."
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>18</latex> <i>см</i>."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Початок речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "Довжина сторони квадрата <latex>ABCD</latex> дорівнює"
+      },
+      {
+       "marker": "",
+       "html": "Довжина більшої діагоналі ромба <latex>CKMD</latex> дорівнює"
+      },
+      {
+       "marker": "",
+       "html": "Відстань від точки <latex>M</latex> до сторони <latex>CD</latex> дорівнює"
+      },
+      {
+       "marker": "",
+       "html": "Відстань від точки <latex>K</latex> до прямої <latex>AD</latex> дорівнює"
+      }
+     ]
+    },
+    {
+     "title": "Закінчення речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>6</latex> <i>см</i>."
+      },
+      {
+       "marker": "",
+       "html": "<latex>6\\sqrt{3}</latex> <i>см</i>."
+      },
+      {
+       "marker": "",
+       "html": "<latex>12</latex> <i>см</i>."
+      },
+      {
+       "marker": "",
+       "html": "<latex>12\\sqrt{3}</latex> <i>см</i>."
+      },
+      {
+       "marker": "",
+       "html": "<latex>18</latex> <i>см</i>."
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (4) -->\n</table>",
+   "correct_raw": "1c;2d;3b;4e",
+   "correct": [
+    "1c",
+    "2d",
+    "3b",
+    "4e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники. </strong></p>\n<p>Це завдання перевіряє знання співвідношення між сторонами і кутами прямокутного трикутника, теореми косинусів; уміння застосовувати властивості різних видів чотирикутників до розв'язування планіметричних задач.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/152/15257/ds-ds-math-2018-new-23.png\" style=\"height: auto;\" width=\"258\"/></div>\n<div class=\"more\" style=\"width: 100%;\">\n<p><b>1.</b> Периметр ромба <latex>CKMD\\ 48</latex> <i>см</i>, тому сторони <latex>CD=CK=KM=MD=48:4=12</latex> <i>см</i>. <latex>CD=12</latex> <i>см</i> – сторона квадрата.</p>\n</div>\n<p>Отже, 1 – В.</p>\n<p> </p>\n<p><b>2.</b> Більша діагональ ромба лежить напроти більшого кута ромба.</p>\n<p> </p>\n<p><latex>\\angle D=\\angle K=60^\\circ</latex>, звідси <latex>\\angle C=\\angle M=120^\\circ.</latex> Більша діагональ – <latex>KD.</latex></p>\n<p>У <latex>\\Delta DCK</latex> за теоремою косинусів</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex display=\"block\">\\begin{gather*} KD^2=CD^2+CK^2-2CD\\cdot CK\\cos \\angle C=\\\\[7pt] =12^2+12^2-2\\cdot 12\\cdot 12\\cdot \\cos 120^\\circ=\\\\[6pt] =144+144-2\\cdot 144\\cdot \\left(-\\frac 12\\right)=\\\\[6pt] =144+144+144=3\\cdot 144\\ \\textit{см}^3.\\\\[7pt] KD=\\sqrt{3\\cdot 144}=12\\sqrt{3}\\ \\textit{см}^3. \\end{gather*}</latex></div>\n<p>Отже, 2 – Г.</p>\n<p> </p>\n<p><b>3.</b>Відстань від точки <latex>M</latex> до сторони <latex>CD</latex> – це довжина перпендикуляра</p>\n<p> </p>\n<p><latex>ME\\ \\perp\\ DC</latex> – висота ромба.</p>\n<p>У <latex>\\Delta MED\\ \\angle E=90^\\circ</latex>, <latex>\\angle D=60^\\circ.</latex></p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex display=\"block\">\\begin{gather*} ME=MD\\cdot \\sin \\angle D=12\\cdot \\sin 60^\\circ=12\\cdot \\frac{\\sqrt{3}}{2}=6\\sqrt{3}\\ \\textit{см},\\\\[6pt] ED=MD\\cdot \\cos \\angle D=12\\cdot \\cos 60^\\circ=12\\cdot \\frac 12=6\\ \\textit{см}. \\end{gather*}</latex></div>\n<p>Отже, 3 – Б.</p>\n<p> </p>\n<p><b>4.</b> <latex>KP\\ \\perp\\ AD.</latex> Відстань від точки <latex>K</latex> до прямої <latex>AD</latex> – це відрізок <latex>KP.</latex></p>\n<p> </p>\n<p><latex>CD\\ \\perp\\ AD</latex>, <latex>KM\\ ||\\ CD</latex>, тому <latex>KM\\ \\perp\\ AD</latex>, <latex>KP\\ \\perp\\ AD.</latex></p>\n<div class=\"more\" style=\"width: 100%;\">\n<p><latex>KP=KM+MP=12+6=18\\ \\textit{см}.</latex></p>\n</div>\n<p>Отже, 4 – Д.</p>\n<p><strong>Відповідь: 1 – В, 2 – Г, 3 – Б, 4 – Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники. \n Це завдання перевіряє знання співвідношення між сторонами і кутами прямокутного трикутника, теореми косинусів; уміння застосовувати властивості різних видів чотирикутників до розв'язування планіметричних задач.\n 1. Периметр ромба CKMD\\ 48 см , тому сторони CD=CK=KM=MD=48:4=12 см . CD=12 см – сторона квадрата.\n Отже, 1 – В.\n 2. Більша діагональ ромба лежить напроти більшого кута ромба.\n \\angle D=\\angle K=60^\\circ , звідси \\angle C=\\angle M=120^\\circ. Більша діагональ – KD. \n У \\Delta DCK за теоремою косинусів\n \\begin{gather*} KD^2=CD^2+CK^2-2CD\\cdot CK\\cos \\angle C=\\\\[7pt] =12^2+12^2-2\\cdot 12\\cdot 12\\cdot \\cos 120^\\circ=\\\\[6pt] =144+144-2\\cdot 144\\cdot \\left(-\\frac 12\\right)=\\\\[6pt] =144+144+144=3\\cdot 144\\ \\textit{см}^3.\\\\[7pt] KD=\\sqrt{3\\cdot 144}=12\\sqrt{3}\\ \\textit{см}^3. \\end{gather*} \n Отже, 2 – Г.\n 3. Відстань від точки M до сторони CD – це довжина перпендикуляра\n ME\\ \\perp\\ DC – висота ромба.\n У \\Delta MED\\ \\angle E=90^\\circ , \\angle D=60^\\circ. \n \\begin{gather*} ME=MD\\cdot \\sin \\angle D=12\\cdot \\sin 60^\\circ=12\\cdot \\frac{\\sqrt{3}}{2}=6\\sqrt{3}\\ \\textit{см},\\\\[6pt] ED=MD\\cdot \\cos \\angle D=12\\cdot \\cos 60^\\circ=12\\cdot \\frac 12=6\\ \\textit{см}. \\end{gather*} \n Отже, 3 – Б.\n 4. KP\\ \\perp\\ AD. Відстань від точки K до прямої AD – це відрізок KP. \n CD\\ \\perp\\ AD , KM\\ ||\\ CD , тому KM\\ \\perp\\ AD , KP\\ \\perp\\ AD. \n KP=KM+MP=12+6=18\\ \\textit{см}. \n Отже, 4 – Д.\n Відповідь: 1 – В, 2 – Г, 3 – Б, 4 – Д.",
+   "topic": "Геометрія. Планіметрія. Трикутники. Чотирикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/152/15257/ds-math-2018-new-23.png",
+    "https://zno.osvita.ua/doc/images/znotest/152/15257/ds-ds-math-2018-new-23.png"
+   ],
+   "text": "На рисунку зображено квадрат ABCD і ромб CKMD , які лежать в одній площині. Периметр ромба дорівнює 48 см , а його гострий кут – 60^\\circ. До кожного початку речення (1-4) доберіть його закінчення (А – Д) так, щоб утворилося правильне твердження.",
+   "latex": [
+    "ABCD",
+    "CKMD",
+    "48",
+    "60^\\circ.",
+    "ABCD",
+    "CKMD",
+    "M",
+    "CD",
+    "K",
+    "AD",
+    "6",
+    "6\\sqrt{3}",
+    "12",
+    "12\\sqrt{3}",
+    "18"
+   ],
+   "source_test": 310,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 17660,
+   "tip": 1,
+   "out_order": 24,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Перед світлофором нa горизонтальній дорозі <latex>AB</latex> зупиняється автобус. Найбільший кут <latex>MKN</latex>, під яким водієві автобуса видно світлофор повністю, дорівнює <latex>30^\\circ</latex> (див. рисунок). Проекція відрізка <latex>KM</latex> на пряму <latex>AB</latex> паралельна напрямку <latex>KN</latex> руху автобуса, <latex>LP\\ \\perp\\ AB.</latex> <latex>KL=0\\mathord{,}6</latex> <i>м</i>, <latex>LP</latex> – <latex>1\\mathord{,}6</latex> <i>м</i>. Світлофор установлено на висоті <latex>h=4\\mathord{,}6</latex> <i>м</i> над дорогою. Укажіть з-поміж наведених <i>найменшу</i> відстань <latex>d</latex> від точки <latex>A</latex> до точки <latex>P</latex> місця зупинки автобуса, за якої світлофор повністю потраплятиме в поле зору водія.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/176/17660/ds-math-2019-new-19.jpg\" style=\"height: auto;\" width=\"500\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>3\\mathord{,}6</latex> <i>м</i>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>4</latex> <i>м</i>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>4\\mathord{,}4</latex> <i>м</i>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>4\\mathord{,}7</latex> <i>м</i>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>5\\mathord{,}2</latex> <i>м</i>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосувати означення та властивості різних видів трикутників до розв'язання задач практичного змісту.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/176/17660/ds-ds-math-2019-new-19.png\" style=\"height: auto;\" width=\"384\"/>\n</div>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n h=4\\mathord{,}6\\ \\textit{м};\\ KL=0\\mathord{,}6\\ \\textit{м}; \\ LP=1\\mathord{}6\\ \\textit{м}.\\\\[7pt]\r\n NK=NL+LK=d+0\\mathord{,}6;\\\\[7pt]\r\n MN=MA-NA=4\\mathord{,}6-1\\mathord{,}6=3\\ \\textit{м}; NA=LP.\\\\[6pt]\r\n \\text{У}\\ \\Delta MNK\\ (\\angle N=90^\\circ)\\ \\operatorname{tg}\\ K=\\frac{MN}{NK};\\\\[6pt]\r\n \\operatorname{tg}\\ 30^\\circ=\\frac{3}{d+0\\mathord{,}6};\\ \\ \\frac{3}{d+0\\mathord{,}6}=\\frac{1}{\\sqrt{3}};\\\\[6pt]\r\n d+0\\mathord{,}6=3\\sqrt{3};\\ \\ d=3\\sqrt{3}-0\\mathord{,}6.\\\\[7pt]\r\n \\sqrt{3}\\approx 1\\mathord{,}71;\\ \\ d\\approx 3\\cdot 1\\mathord{,}71-0\\mathord{,}6=5\\mathord{,}13-0\\mathord{,}6=4\\mathord{,}53\\ \\textit{м}.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n З-поміж наведених відстаней найменша <latex>4\\mathord{,}7</latex> <i>м</i>.\r\n </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n Це завдання перевіряє вміння застосувати означення та властивості різних видів трикутників до розв'язання задач практичного змісту.\r\n \\begin{gather*}\r\n h=4\\mathord{,}6\\ \\textit{м};\\ KL=0\\mathord{,}6\\ \\textit{м}; \\ LP=1\\mathord{}6\\ \\textit{м}.\\\\[7pt]\r\n NK=NL+LK=d+0\\mathord{,}6;\\\\[7pt]\r\n MN=MA-NA=4\\mathord{,}6-1\\mathord{,}6=3\\ \\textit{м}; NA=LP.\\\\[6pt]\r\n \\text{У}\\ \\Delta MNK\\ (\\angle N=90^\\circ)\\ \\operatorname{tg}\\ K=\\frac{MN}{NK};\\\\[6pt]\r\n \\operatorname{tg}\\ 30^\\circ=\\frac{3}{d+0\\mathord{,}6};\\ \\ \\frac{3}{d+0\\mathord{,}6}=\\frac{1}{\\sqrt{3}};\\\\[6pt]\r\n d+0\\mathord{,}6=3\\sqrt{3};\\ \\ d=3\\sqrt{3}-0\\mathord{,}6.\\\\[7pt]\r\n \\sqrt{3}\\approx 1\\mathord{,}71;\\ \\ d\\approx 3\\cdot 1\\mathord{,}71-0\\mathord{,}6=5\\mathord{,}13-0\\mathord{,}6=4\\mathord{,}53\\ \\textit{м}.\r\n \\end{gather*} \n З-поміж наведених відстаней найменша 4\\mathord{,}7 м .\r\n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/176/17660/ds-math-2019-new-19.jpg",
+    "https://zno.osvita.ua/doc/images/znotest/176/17660/ds-ds-math-2019-new-19.png"
+   ],
+   "text": "Перед світлофором нa горизонтальній дорозі AB зупиняється автобус. Найбільший кут MKN , під яким водієві автобуса видно світлофор повністю, дорівнює 30^\\circ (див. рисунок). Проекція відрізка KM на пряму AB паралельна напрямку KN руху автобуса, LP\\ \\perp\\ AB. KL=0\\mathord{,}6 м , LP – 1\\mathord{,}6 м . Світлофор установлено на висоті h=4\\mathord{,}6 м над дорогою. Укажіть з-поміж наведених найменшу відстань d від точки A до точки P місця зупинки автобуса, за якої світлофор повністю потраплятиме в поле зору водія.",
+   "latex": [
+    "AB",
+    "MKN",
+    "30^\\circ",
+    "KM",
+    "AB",
+    "KN",
+    "LP\\ \\perp\\ AB.",
+    "KL=0\\mathord{,}6",
+    "LP",
+    "1\\mathord{,}6",
+    "h=4\\mathord{,}6",
+    "d",
+    "A",
+    "P",
+    "3\\mathord{,}6",
+    "4",
+    "4\\mathord{,}4",
+    "4\\mathord{,}7",
+    "5\\mathord{,}2"
+   ],
+   "source_test": 357,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 19505,
+   "tip": 1,
+   "out_order": 25,
+   "type": "single_choice",
+   "question_html": "<p style=\"position: relative;\">\r\n На рисунку зображено автомобільний тунель, поперечний переріз <latex>ABCD</latex> якого утворено хордою <latex>BC</latex>, діаметром <latex>AD</latex> та двома рівними дугами <latex>\\overset{\\smile}{AB}</latex> й <latex>\\overset{\\smile}{DC}</latex> кола із центром у точці <latex>O</latex>. Хорду <latex>BC</latex> довжиною <latex>6</latex> <i>м</i> видно із центра <latex>O</latex> під кутом <latex>90^\\circ.</latex> У тунелі прокладено дорогу з двома смугами руху транспорту однакової ширини, розділювальною смугою шириною <latex>0\\mathord{,}4</latex> <i>м</i> та двома технічними смугами завширшки <latex>0\\mathord{,}8</latex> <i>м</i> кожна. Визначте ширину однієї смуги руху транспорту. Укажіть відповідь, найближчу до точної.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/195/19505/pr-math-2020-new-20.jpeg\" style=\"height: auto;\" width=\"500\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>1\\mathord{,}8</latex> <i>м</i>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>2</latex> <i>м</i>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>3</latex> <i>м</i>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>3\\mathord{,}2</latex> <i>м</i>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>3\\mathord{,}4</latex> <i>м</i>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Геометричні величини та їх вимірювання.\r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє вміння знаходити довжини відрізків, розв'язувати задачі практичного змісту.\r\n </p>\n<p>\r\n У <latex>\\Delta BOC\\ (\\angle O=90^\\circ)\\ OB=OC</latex> як радіуси.<br/>\n<latex>BC=6</latex> <i>м</i>. За теоремою Піфагора\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n BO^2+OC^2=BC^2,\\\\[7pt]\r\n 2BO^2=36,\\ \\ BO^2=18,\\\\[7pt]\r\n BO=AO=\\sqrt{18}=3\\sqrt{2}\\ \\textit{м}.\r\n \\end{gather*}</latex>\n<p>\r\n Ширина смуги\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">$$\r\n 3\\sqrt{2}-0\\mathord{,}8-\\frac{0\\mathord{,}4}{2}=3\\sqrt{2}-1\\approx 3\\cdot 1\\mathord{,}4-1=4\\mathord{,}2-1=3\\mathord{,}2\\ \\textit{м}.\r\n$$</latex>\n</div>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Геометричні величини та їх вимірювання.\r\n Завдання перевіряє вміння знаходити довжини відрізків, розв'язувати задачі практичного змісту.\r\n У \\Delta BOC\\ (\\angle O=90^\\circ)\\ OB=OC як радіуси.\n BC=6 м . За теоремою Піфагора\r\n \\begin{gather*}\r\n BO^2+OC^2=BC^2,\\\\[7pt]\r\n 2BO^2=36,\\ \\ BO^2=18,\\\\[7pt]\r\n BO=AO=\\sqrt{18}=3\\sqrt{2}\\ \\textit{м}.\r\n \\end{gather*} \n Ширина смуги\r\n $$\r\n 3\\sqrt{2}-0\\mathord{,}8-\\frac{0\\mathord{,}4}{2}=3\\sqrt{2}-1\\approx 3\\cdot 1\\mathord{,}4-1=4\\mathord{,}2-1=3\\mathord{,}2\\ \\textit{м}.\r\n$$ \n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Геометричні величини та їх вимірювання.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/195/19505/pr-math-2020-new-20.jpeg"
+   ],
+   "text": "На рисунку зображено автомобільний тунель, поперечний переріз ABCD якого утворено хордою BC , діаметром AD та двома рівними дугами \\overset{\\smile}{AB} й \\overset{\\smile}{DC} кола із центром у точці O . Хорду BC довжиною 6 м видно із центра O під кутом 90^\\circ. У тунелі прокладено дорогу з двома смугами руху транспорту однакової ширини, розділювальною смугою шириною 0\\mathord{,}4 м та двома технічними смугами завширшки 0\\mathord{,}8 м кожна. Визначте ширину однієї смуги руху транспорту. Укажіть відповідь, найближчу до точної.",
+   "latex": [
+    "ABCD",
+    "BC",
+    "AD",
+    "\\overset{\\smile}{AB}",
+    "\\overset{\\smile}{DC}",
+    "O",
+    "BC",
+    "6",
+    "O",
+    "90^\\circ.",
+    "0\\mathord{,}4",
+    "0\\mathord{,}8",
+    "1\\mathord{,}8",
+    "2",
+    "3",
+    "3\\mathord{,}2",
+    "3\\mathord{,}4"
+   ],
+   "source_test": 390,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 19511,
+   "tip": 11,
+   "out_order": 26,
+   "type": "matching",
+   "question_html": "<p>\r\n У паралелограмі <latex>ABCD</latex> з вершини тупого кута <latex>B</latex> проведено висоти <latex>BK</latex> та <latex>BM</latex> (див. рисунок). <latex>BK=16</latex> <i>см</i>, <latex>AK=12</latex> <i>см</i>, <latex>BM=24</latex> <i>см</i>.\r\n </p>\n<img alt=\"\" src=\"/doc/images/znotest/195/19511/pr-math-2020-new-26.png\" style=\"height: auto;\" width=\"313\"/>\n<p>\n<b>1.</b> Визначте довжину сторони <latex>AB</latex> (у <i>см</i>).\r\n </p>\n<p>\n<b>2.</b> Обчисліть площу (у <i>см</i><latex>^2</latex>) паралелограма <latex>ABCD.</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": "<table class=\"answer select-answers-variants variants2\">\n<tr>\n<td><b>1.</b></td><td><input class=\"inptext\" maxlength=\"7\" name=\"a[1]\" type=\"text\" value=\"\"/></td><td>   </td>\n<td><b>2.</b></td><td><input class=\"inptext\" maxlength=\"7\" name=\"a[2]\" type=\"text\" value=\"\"/></td>\n</tr>\n<tr class=\"otvet\" style=\"display:none;\"><td></td><td>20</td><td>   </td><td></td><td>480</td></tr>\n</table>",
+   "correct_raw": "20;480",
+   "correct": [
+    "20",
+    "480"
+   ],
+   "input": true,
+   "input_maxlength": 7,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Чотирикутники.\r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє вміння застосовувати властивості паралелограма до розв'язування планіметричних задач.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/195/19511/ds-pr-math-2020-new-26.png\" style=\"height: auto;\" width=\"312\"/>\n</div>\n<div class=\"more\" style=\"width: 100%;\">\n<p>\n<b>1.</b> У <latex>\\Delta ABK\\ (\\angle K=90^\\circ)</latex> за теоремою Піфагора\r\n <latex display=\"block\">\\begin{gather*}\r\n AB^2=AK^2+BK^2=12^2+16^2=144+256=400,\\\\[7pt]\r\n AB=20\\ \\textit{см}.\r\n \\end{gather*}</latex>\n</p>\n</div>\n<p>\n<b>2.</b> За формулою <latex>S=ah</latex>, де <latex>a</latex> – сторона паралелограма, <latex>h</latex> – висота, проведена до сторони <latex>a</latex>, знаходимо площу\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">$$\r\n S=CD\\cdot BM=AB\\cdot BM=20\\cdot 24=480\\ \\text{см}^2.\r\n$$</latex>\n</div>\n<p><strong>Відповідь: 1.</strong> <latex>20.</latex>\n<br/>                  \r\n <strong>2.</strong> <latex>480.</latex></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Чотирикутники.\r\n Завдання перевіряє вміння застосовувати властивості паралелограма до розв'язування планіметричних задач.\r\n 1. У \\Delta ABK\\ (\\angle K=90^\\circ) за теоремою Піфагора\r\n \\begin{gather*}\r\n AB^2=AK^2+BK^2=12^2+16^2=144+256=400,\\\\[7pt]\r\n AB=20\\ \\textit{см}.\r\n \\end{gather*} \n 2. За формулою S=ah , де a – сторона паралелограма, h – висота, проведена до сторони a , знаходимо площу\r\n $$\r\n S=CD\\cdot BM=AB\\cdot BM=20\\cdot 24=480\\ \\text{см}^2.\r\n$$ \n Відповідь: 1. 20. \n 2. 480.",
+   "topic": "Геометрія. Планіметрія. Чотирикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/195/19511/pr-math-2020-new-26.png",
+    "https://zno.osvita.ua/doc/images/znotest/195/19511/ds-pr-math-2020-new-26.png"
+   ],
+   "text": "У паралелограмі ABCD з вершини тупого кута B проведено висоти BK та BM (див. рисунок). BK=16 см , AK=12 см , BM=24 см .\r\n 1. Визначте довжину сторони AB (у см ).\r\n 2. Обчисліть площу (у см ^2 ) паралелограма ABCD.",
+   "latex": [
+    "ABCD",
+    "B",
+    "BK",
+    "BM",
+    "BK=16",
+    "AK=12",
+    "BM=24",
+    "AB",
+    "^2",
+    "ABCD."
+   ],
+   "source_test": 390,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 21226,
+   "tip": 1,
+   "out_order": 27,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Стріла <latex>CD</latex> автокрана нахилена до горизонтальної поверхні <latex>AB</latex> під кутом <latex>60^\\circ</latex>, <latex>CD=20</latex> <i>м</i> (див. рисунок). Основа <latex>C</latex> стріли розташована на відстані <latex>d=2</latex> <i>м</i> від <latex>AB.</latex> Відстань <latex>h_1</latex>, від кінця <latex>D</latex> стріли до нижньої основи <latex>MN</latex> вантажу становить <latex>6</latex> <i>м</i>. Укажіть проміжок, якому належить відстань <latex>h_2</latex> (у м<i></i>) від <latex>MN</latex> до <latex>AB.</latex> Уважайте, що <latex>MN\\ ||\\ AB.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/212/21226/ds-math-2020-new-20.jpg\" style=\"height: auto;\" width=\"400\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>(4; 8]</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(8; 10\\mathord{,}5]</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>(10\\mathord{,}5; 12\\mathord{,}5]</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>(12\\mathord{,}5; 14\\mathord{,}5]</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>(14\\mathord{,}5; 20]</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія.\r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє вміння застосовувати означення та властивості різних видів трикутників до розв'язування планіметричних задач практичного змісту.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/212/21226/ds-ds-math-2020-new-20.png\" style=\"height: auto;\" width=\"397\"/>\n</div>\n<latex display=\"block\">\\begin{gather*}\r\n CD=20\\ \\text{м},\\ \\ CC_1=KK_1=d=2\\ \\text{м},\\ \\ h_1=DE=6\\ \\text{м}.\\\\[6pt] \r\n DK=CD\\cdot \\sin C=20\\cdot \\sin 60^\\circ=20\\cdot\\frac{\\sqrt{3}}{2}=10\\sqrt{3}\\ \\text{м}.\\\\[6pt]\r\n h_2=EK+KK_1.\\\\[7pt]\r\n EK=DK-DE=(10\\sqrt{3}-6)\\ \\text{м}.\\\\[7pt]\r\n h_2=10\\sqrt{3}-6+2=10\\sqrt{3}-4\\approx 10\\cdot 1\\mathord{,}7-4=13\\ \\text{м}.\\\\[7pt]\r\n h_2\\in (12\\mathord{,}5; 14\\mathord{,}5].\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія.\r\n Завдання перевіряє вміння застосовувати означення та властивості різних видів трикутників до розв'язування планіметричних задач практичного змісту.\r\n \\begin{gather*}\r\n CD=20\\ \\text{м},\\ \\ CC_1=KK_1=d=2\\ \\text{м},\\ \\ h_1=DE=6\\ \\text{м}.\\\\[6pt] \r\n DK=CD\\cdot \\sin C=20\\cdot \\sin 60^\\circ=20\\cdot\\frac{\\sqrt{3}}{2}=10\\sqrt{3}\\ \\text{м}.\\\\[6pt]\r\n h_2=EK+KK_1.\\\\[7pt]\r\n EK=DK-DE=(10\\sqrt{3}-6)\\ \\text{м}.\\\\[7pt]\r\n h_2=10\\sqrt{3}-6+2=10\\sqrt{3}-4\\approx 10\\cdot 1\\mathord{,}7-4=13\\ \\text{м}.\\\\[7pt]\r\n h_2\\in (12\\mathord{,}5; 14\\mathord{,}5].\r\n \\end{gather*} \n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/212/21226/ds-math-2020-new-20.jpg",
+    "https://zno.osvita.ua/doc/images/znotest/212/21226/ds-ds-math-2020-new-20.png"
+   ],
+   "text": "Стріла CD автокрана нахилена до горизонтальної поверхні AB під кутом 60^\\circ , CD=20 м (див. рисунок). Основа C стріли розташована на відстані d=2 м від AB. Відстань h_1 , від кінця D стріли до нижньої основи MN вантажу становить 6 м . Укажіть проміжок, якому належить відстань h_2 (у м ) від MN до AB. Уважайте, що MN\\ ||\\ AB.",
+   "latex": [
+    "CD",
+    "AB",
+    "60^\\circ",
+    "CD=20",
+    "C",
+    "d=2",
+    "AB.",
+    "h_1",
+    "D",
+    "MN",
+    "6",
+    "h_2",
+    "MN",
+    "AB.",
+    "MN\\ ||\\ AB.",
+    "(4; 8]",
+    "(8; 10\\mathord{,}5]",
+    "(10\\mathord{,}5; 12\\mathord{,}5]",
+    "(12\\mathord{,}5; 14\\mathord{,}5]",
+    "(14\\mathord{,}5; 20]"
+   ],
+   "source_test": 425,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 23675,
+   "tip": 1,
+   "out_order": 28,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Прямолінійною дорогою <latex>AB</latex> рухається тролейбус (див. рисунок). Лінія <latex>CD</latex> електричного дроту паралельна <latex>AB</latex> й даху <latex>MN</latex> тролейбуса. Штанга <latex>KN</latex>, що на рисунку є відрізком, утворює з <latex>MN</latex> кут <latex>30^\\circ</latex>. Відстані між прямими <latex>CD</latex> й <latex>AB, MN</latex> й <latex>AB</latex> дорівнюють 6 м i 3,2 м відповідно. Укажіть проміжок, якому належить довжина (у м) штанги <latex>KN</latex>. Уважайте, що всі зазначені прямі лежать в одній площині.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/236/23675/16.png\"/>\n</div>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>[1; 3)</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>[3; 5)</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>[5; 5{,}5)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>[5{,}5; 6)</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>[6; 8)</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники. \r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знання властивостей трикутника, вміння розв’язувати задачі практичного змісту.\r\n </p>\n<p>\r\n Побудуємо математичну модель задачі:\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/236/23675/200659_16.png\"/>\n</div><br/>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<p>\n<latex display=\"block\">$$\r\n DB=6\\ \\text{м},\\ AM=3,2\\ \\text{м}\\ KM=AK-AM=6-3,2=2,8\\ \\text{м}.\r\n$$</latex>\n</p>\n<p>\n<latex display=\"block\">$$\r\n \\triangle KMN (\\angle M=90^\\circ) \\ \\ KN=2KM=2,8\\cdot 2=5,6\\ \\text{м}.\r\n$$</latex>\n</p>\n</div>\n<p>\r\n Катет <latex>KM</latex> протилеглий куту <latex>30^\\circ</latex> дорівнює половині гіпотенузи <latex>KN</latex>.\r\n <latex display=\"block\">$$\r\n 5,5 \\leq 5,6\\lt 6\r\n$$</latex>\n</p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. \r\n Завдання скеровано на перевірку знання властивостей трикутника, вміння розв’язувати задачі практичного змісту.\r\n Побудуємо математичну модель задачі:\r\n $$\r\n DB=6\\ \\text{м},\\ AM=3,2\\ \\text{м}\\ KM=AK-AM=6-3,2=2,8\\ \\text{м}.\r\n$$ \n $$\r\n \\triangle KMN (\\angle M=90^\\circ) \\ \\ KN=2KM=2,8\\cdot 2=5,6\\ \\text{м}.\r\n$$ \n Катет KM протилеглий куту 30^\\circ дорівнює половині гіпотенузи KN .\r\n $$\r\n 5,5 \\leq 5,6\\lt 6\r\n$$ \n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/236/23675/16.png",
+    "https://zno.osvita.ua/doc/images/znotest/236/23675/200659_16.png"
+   ],
+   "text": "Прямолінійною дорогою AB рухається тролейбус (див. рисунок). Лінія CD електричного дроту паралельна AB й даху MN тролейбуса. Штанга KN , що на рисунку є відрізком, утворює з MN кут 30^\\circ . Відстані між прямими CD й AB, MN й AB дорівнюють 6 м i 3,2 м відповідно. Укажіть проміжок, якому належить довжина (у м) штанги KN . Уважайте, що всі зазначені прямі лежать в одній площині.",
+   "latex": [
+    "AB",
+    "CD",
+    "AB",
+    "MN",
+    "KN",
+    "MN",
+    "30^\\circ",
+    "CD",
+    "AB, MN",
+    "AB",
+    "KN",
+    "[1; 3)",
+    "[3; 5)",
+    "[5; 5{,}5)",
+    "[5{,}5; 6)",
+    "[6; 8)"
+   ],
+   "source_test": 469,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 26010,
+   "tip": 13,
+   "out_order": 29,
+   "type": "matching",
+   "question_html": "<p>\r\n У прямокутному трикутнику <latex>ABC</latex> катет <latex>AC=12\\ \\text{см}</latex>, гіпотенуза <latex>AB=20\\ \\text{см}</latex>.<br/>\r\n Установіть відповідність між відрізком (1–3) та його довжиною (А – Д).\r\n </p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "катет <latex>BC</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "радіус кола, описаного навколо трикутника <latex>ABC</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "висота трикутника <latex>ABC</latex>, проведена до гіпотенузи <latex>AB</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>19,2\\ \\text{см}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>9,6\\ \\text{см}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>10\\ \\text{см}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>8\\ \\text{см}</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>16\\ \\text{см}</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Відрізок",
+     "answers": [
+      {
+       "marker": "",
+       "html": "катет <latex>BC</latex>"
+      },
+      {
+       "marker": "",
+       "html": "радіус кола, описаного навколо трикутника <latex>ABC</latex>"
+      },
+      {
+       "marker": "",
+       "html": "висота трикутника <latex>ABC</latex>, проведена до гіпотенузи <latex>AB</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Довжина відрізка",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>19,2\\ \\text{см}</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>9,6\\ \\text{см}</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>10\\ \\text{см}</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>8\\ \\text{см}</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>16\\ \\text{см}</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1e;2c;3b",
+   "correct": [
+    "1e",
+    "2c",
+    "3b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники. \r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє вміння застосовувати означення та властивості різних видів трикутників до розв'язування планіметричних задач.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/256/25640/pr-multi-2022-17.png\"/>\n</div><br/>\n<p>\n<b>1.</b> За теоремою Піфагора: \r\n <latex display=\"block\">\\begin{gather*}\r\n AB^2=AC^2+BC^2\\\\[7pt] \r\n BC^2=20^2-12^2=400-144=256.\\\\[7pt]\r\n BC=16\\ \\text{см}.\r\n \\end{gather*}</latex>\r\n Отже, правильна відповідь – Д.\r\n </p>\n<p>\n<b>2.</b> Радіус кола, описаного навколо прямокутного трикутника, дорівнює половині гіпотенузи. Отже, <latex>R=\\frac 12 AB=10\\ \\text{см}.</latex> Отже, правильна відповідь – B. \r\n </p>\n<p>\n<b>3.</b> <latex>CH\\perp AB</latex>\n</p>\n<p>\r\n Висоту <latex>CH</latex> можна знайти, прирівнявши площу трикутника\r\n </p>\n<p>\n<latex display=\"block\">\\begin{gather*}\r\n S=\\frac 12 a\\cdot b\\ \\text{та}\\ S=\\frac 12 ch_c,\r\n \\end{gather*}</latex>\r\n де <latex>a,\\ b</latex> – катети, <latex>c</latex> – гіпотенуза.\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n S=\\frac 12 AC\\cdot CB=\\frac 12\\cdot 12\\cdot 16=96\\ (\\text{см}^2)\\\\[6pt]\r\n S=\\frac 12 AB\\cdot CH=\\frac 12\\cdot 20\\cdot CH=10CH\\ (\\text{см}^2)\\\\[6pt]\r\n 10\\cdot CH=96,\\ \\ CH=9,6\\ \\text{см}.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n Або знайти висоту за допомогою метричних співвідношень у прямокутному трикутнику:\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n AC^2=AH\\cdot AB,\\ \\ 144=AH\\cdot 20,\\\\[7pt]\r\n AH=144:20=7,2\\ (\\text{см})\r\n \\end{gather*}</latex>\n<p>\n<latex>\\Delta ACH\\ (\\angle H=90^\\circ)</latex> за теоремою Піфагора:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>$$\r\n CH=\\sqrt{144-51,84}=\\sqrt{92,16}=9,6\\ (\\text{см}).\r\n$$</latex>\n</div>\n<p>\r\n Отже, правильна відповідь – Б.\r\n </p>\n<p><strong>Відповідь: 1Д, 2В, 3Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. \r\n Завдання перевіряє вміння застосовувати означення та властивості різних видів трикутників до розв'язування планіметричних задач.\r\n 1. За теоремою Піфагора: \r\n \\begin{gather*}\r\n AB^2=AC^2+BC^2\\\\[7pt] \r\n BC^2=20^2-12^2=400-144=256.\\\\[7pt]\r\n BC=16\\ \\text{см}.\r\n \\end{gather*} \r\n Отже, правильна відповідь – Д.\r\n 2. Радіус кола, описаного навколо прямокутного трикутника, дорівнює половині гіпотенузи. Отже, R=\\frac 12 AB=10\\ \\text{см}. Отже, правильна відповідь – B. \r\n 3. CH\\perp AB \n Висоту CH можна знайти, прирівнявши площу трикутника\r\n \\begin{gather*}\r\n S=\\frac 12 a\\cdot b\\ \\text{та}\\ S=\\frac 12 ch_c,\r\n \\end{gather*} \r\n де a,\\ b – катети, c – гіпотенуза.\r\n \\begin{gather*}\r\n S=\\frac 12 AC\\cdot CB=\\frac 12\\cdot 12\\cdot 16=96\\ (\\text{см}^2)\\\\[6pt]\r\n S=\\frac 12 AB\\cdot CH=\\frac 12\\cdot 20\\cdot CH=10CH\\ (\\text{см}^2)\\\\[6pt]\r\n 10\\cdot CH=96,\\ \\ CH=9,6\\ \\text{см}.\r\n \\end{gather*} \n Або знайти висоту за допомогою метричних співвідношень у прямокутному трикутнику:\r\n \\begin{gather*}\r\n AC^2=AH\\cdot AB,\\ \\ 144=AH\\cdot 20,\\\\[7pt]\r\n AH=144:20=7,2\\ (\\text{см})\r\n \\end{gather*} \n \\Delta ACH\\ (\\angle H=90^\\circ) за теоремою Піфагора:\r\n $$\r\n CH=\\sqrt{144-51,84}=\\sqrt{92,16}=9,6\\ (\\text{см}).\r\n$$ \n Отже, правильна відповідь – Б.\r\n Відповідь: 1Д, 2В, 3Б.",
+   "topic": "Геометрія. Планіметрія. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/256/25640/pr-multi-2022-17.png"
+   ],
+   "text": "У прямокутному трикутнику ABC катет AC=12\\ \\text{см} , гіпотенуза AB=20\\ \\text{см} .\n Установіть відповідність між відрізком (1–3) та його довжиною (А – Д).",
+   "latex": [
+    "ABC",
+    "AC=12\\ \\text{см}",
+    "AB=20\\ \\text{см}",
+    "BC",
+    "ABC",
+    "ABC",
+    "AB",
+    "19,2\\ \\text{см}",
+    "9,6\\ \\text{см}",
+    "10\\ \\text{см}",
+    "8\\ \\text{см}",
+    "16\\ \\text{см}"
+   ],
+   "source_test": 516,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 26187,
+   "tip": 1,
+   "out_order": 30,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У прямокутному трикутнику сума двох кутів дорівнює <latex>115^\\circ.</latex> Визначте градусну міру найменшого кута цього трикутника.\r\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>5^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>15^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>25^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>35^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>65^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. \r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє знання властивості трикутника про суму кутів.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/261/26187/pr-multi-2023-04.png\" style=\"height: auto;\" width=\"172\"/>\n</div>\n<br/>\n<p>\r\n Сума кутів трикутника – <latex>180^\\circ .</latex> Сума гострих кутів – <latex>90^\\circ .</latex>\n</p>\n<p>\r\n Отже, <latex>115^\\circ</latex> – це сума прямого та гострого кута. Тоді гострий кут <latex>115^\\circ -90^\\circ =25^\\circ .</latex> Другий гострий кут трикутника.\r\n </p>\n<p>\r\n Гострі кути <latex>65^\\circ</latex> та <latex>25^\\circ .</latex>\n</p>\n<p>\r\n Найменший кут цього трикутника <latex>25^\\circ .</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. \r\n Завдання перевіряє знання властивості трикутника про суму кутів.\r\n Сума кутів трикутника – 180^\\circ . Сума гострих кутів – 90^\\circ . \n Отже, 115^\\circ – це сума прямого та гострого кута. Тоді гострий кут 115^\\circ -90^\\circ =25^\\circ . Другий гострий кут трикутника.\r\n Гострі кути 65^\\circ та 25^\\circ . \n Найменший кут цього трикутника 25^\\circ . \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/261/26187/pr-multi-2023-04.png"
+   ],
+   "text": "У прямокутному трикутнику сума двох кутів дорівнює 115^\\circ. Визначте градусну міру найменшого кута цього трикутника.",
+   "latex": [
+    "115^\\circ.",
+    "5^\\circ",
+    "15^\\circ",
+    "25^\\circ",
+    "35^\\circ",
+    "65^\\circ"
+   ],
+   "source_test": 523,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 26816,
+   "tip": 13,
+   "out_order": 31,
+   "type": "matching",
+   "question_html": "<p>У прямокутному трикутнику <latex>ACB\\ \\angle C = 90^\\circ,\\ \\angle B = 24^\\circ.</latex> На продовженні катета <latex>AC</latex> вибрано точку <latex>K</latex> так, що <latex>AK = KB</latex> (див. рисунок). Точка <latex>O</latex> – центр кола, описаного навколо трикутника <latex>ACB.</latex> Узгодьте кут (1–3) із його градусною мірою (А – Д).</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/268/26816/nmt-2023-1-new-18.png\" style=\"height: auto;\" width=\"226\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "<latex>\\angle BAC</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "<latex>\\angle KBC</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "<latex>\\angle OKB</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>24^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>34^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>42^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>66^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>72^\\circ</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Кут",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>\\angle BAC</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\angle KBC</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\angle OKB</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Градусна міра кута",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>24^\\circ</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>34^\\circ</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>42^\\circ</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>66^\\circ</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>72^\\circ</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1d;2c;3a",
+   "correct": [
+    "1d",
+    "2c",
+    "3a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Трикутники. </strong></p>\n<p>Завдання перевіряє вміння застосовувати означення та властивості різних видів трикутників до розв'язування планіметричних задач.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/268/26816/ds-math-2023-1s-new-18.png\" style=\"height: auto;\" width=\"226\"/></div>\n<p><b>1 – Г. </b>У <latex>\\Delta ACB\\ (\\angle C=90^\\circ)</latex> <latex>\\angle B+\\angle A=90^\\circ,</latex> <latex>\\angle B=24^\\circ,</latex> тому <latex>\\angle A=90^\\circ-24^\\circ=66^\\circ.</latex> <latex>\\angle BAC=66^\\circ.</latex></p>\n<p><b>2 – B.</b> <latex>\\Delta ABK</latex> – рівнобедрений, <latex>AK=KB</latex> за умовою. За властивістю рівнобедреного трикутника <latex>\\angle A=\\angle B=66^\\circ.</latex></p>\n<p><latex display=\"block\">$$\\angle KBC=\\angle KBA-\\angle CBA=66^\\circ-24^\\circ=42^\\circ.$$</latex></p>\n<p><b>3 – A.</b> <latex>\\Delta AKB</latex> – рівнобедрений, <latex>KO -</latex> медіана <latex>AO=OB</latex> (як радіуси). За властивістю рівнобедереного трикутника <latex>KO -</latex> висота, <latex>KO\\perp AB.</latex> <latex display=\"block\">\\begin{gather*} \\angle OKB=90^\\circ-\\angle KBO=90^\\circ-66^\\circ=24^\\circ . \\end{gather*}</latex> <latex>\\Delta ACB -</latex> прямокутний, тому центр кола описаного навколо нього, лежить на середині гіпотенузи <latex>AB.</latex></p>\n<p><strong>Відповідь: 1Г, 2В, 3А.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. \n Завдання перевіряє вміння застосовувати означення та властивості різних видів трикутників до розв'язування планіметричних задач.\n 1 – Г. У \\Delta ACB\\ (\\angle C=90^\\circ) \\angle B+\\angle A=90^\\circ, \\angle B=24^\\circ, тому \\angle A=90^\\circ-24^\\circ=66^\\circ. \\angle BAC=66^\\circ. \n 2 – B. \\Delta ABK – рівнобедрений, AK=KB за умовою. За властивістю рівнобедреного трикутника \\angle A=\\angle B=66^\\circ. \n $$\\angle KBC=\\angle KBA-\\angle CBA=66^\\circ-24^\\circ=42^\\circ.$$ \n 3 – A. \\Delta AKB – рівнобедрений, KO - медіана AO=OB (як радіуси). За властивістю рівнобедереного трикутника KO - висота, KO\\perp AB. \\begin{gather*} \\angle OKB=90^\\circ-\\angle KBO=90^\\circ-66^\\circ=24^\\circ . \\end{gather*} \\Delta ACB - прямокутний, тому центр кола описаного навколо нього, лежить на середині гіпотенузи AB. \n Відповідь: 1Г, 2В, 3А.",
+   "topic": "Геометрія. Планіметрія. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/268/26816/nmt-2023-1-new-18.png",
+    "https://zno.osvita.ua/doc/images/znotest/268/26816/ds-math-2023-1s-new-18.png"
+   ],
+   "text": "У прямокутному трикутнику ACB\\ \\angle C = 90^\\circ,\\ \\angle B = 24^\\circ. На продовженні катета AC вибрано точку K так, що AK = KB (див. рисунок). Точка O – центр кола, описаного навколо трикутника ACB. Узгодьте кут (1–3) із його градусною мірою (А – Д).",
+   "latex": [
+    "ACB\\ \\angle C = 90^\\circ,\\ \\angle B = 24^\\circ.",
+    "AC",
+    "K",
+    "AK = KB",
+    "O",
+    "ACB.",
+    "\\angle BAC",
+    "\\angle KBC",
+    "\\angle OKB",
+    "24^\\circ",
+    "34^\\circ",
+    "42^\\circ",
+    "66^\\circ",
+    "72^\\circ"
+   ],
+   "source_test": 546,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 38606,
+   "tip": 1,
+   "out_order": 32,
+   "type": "single_choice",
+   "question_html": "<p>На стороні <latex>BC</latex> прямокутника <latex>ABCD</latex> вибрано точку <latex>K</latex> так, що <latex>\\angle KAB=30^\\circ</latex> (див. рисунок). Визначте довжину відрізка <latex>AK</latex>, якщо периметр прямокутника дорівнює <span style=\"white-space:nowrap\"><latex>96</latex> см,</span> <latex>AB : BC = 3 : 5.</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/386/38606/35-var-15.png\" style=\"height: auto;\" width=\"252\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>36\\sqrt{3}</latex> см"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>12</latex> см"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>18</latex> см"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>12\\sqrt{3}</latex> см"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>36</latex> см"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Чотирикутники. Трикутники. </strong></p>\n<p>Завдання перевіряє знання властивостей чотирикутників і трикутників, зокрема прямокутника і прямокутного трикутника.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/386/38606/dc-35-var-15.png\" style=\"height: auto;\" width=\"255\"/></div>\n<p> </p>\n<p>Нехай <latex>x</latex> <i>–</i> коефіцієнт пропорційності <latex>(x\\gt 0).</latex> Тоді <latex>AB=3x</latex>, а <latex>BC=5x.</latex> За формулою периметра прямокутника:</p>\n<p><latex>\\begin{gather*} P=2(AB+BC);\\\\[7pt] 2(3x+5x)=96;\\\\[7pt] 16x=96;\\\\[7pt] x=96:16;\\\\[7pt] x=6. \\end{gather*}</latex></p>\n<p> </p>\n<p>Отже, сторона <latex>AB=3\\cdot 6=18</latex> см.</p>\n<p>У прямокутному трикутнику <latex>\\Delta ABK\\ (\\angle B=90^\\circ){:}</latex> <latex>\\angle KAB=30^\\circ</latex>, <latex>AB=18</latex> см – прилеглий катет, <latex>AK</latex> – шукана гіпотенуза. За означенням косинуса гострого кута:</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} \\cos 30^\\circ=\\frac{AB}{AK};\\\\[6pt] AK=\\frac{AB}{\\cos 30^\\circ};\\\\[6pt] AK=\\dfrac{18}{\\dfrac{\\sqrt{3}}{2}}=\\frac{18\\cdot 2}{\\sqrt{3}}=\\frac{36}{\\sqrt{3}}=\\frac{36\\cdot\\sqrt{3}}{\\sqrt{3}\\cdot \\sqrt{3}}=\\frac{36\\cdot \\sqrt{3}}{3}=12\\sqrt{3}\\ \\text{см}. \\end{gather*}</latex></div>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Чотирикутники. Трикутники. \n Завдання перевіряє знання властивостей чотирикутників і трикутників, зокрема прямокутника і прямокутного трикутника.\n Нехай x – коефіцієнт пропорційності (x\\gt 0). Тоді AB=3x , а BC=5x. За формулою периметра прямокутника:\n \\begin{gather*} P=2(AB+BC);\\\\[7pt] 2(3x+5x)=96;\\\\[7pt] 16x=96;\\\\[7pt] x=96:16;\\\\[7pt] x=6. \\end{gather*} \n Отже, сторона AB=3\\cdot 6=18 см.\n У прямокутному трикутнику \\Delta ABK\\ (\\angle B=90^\\circ){:} \\angle KAB=30^\\circ , AB=18 см – прилеглий катет, AK – шукана гіпотенуза. За означенням косинуса гострого кута:\n \\begin{gather*} \\cos 30^\\circ=\\frac{AB}{AK};\\\\[6pt] AK=\\frac{AB}{\\cos 30^\\circ};\\\\[6pt] AK=\\dfrac{18}{\\dfrac{\\sqrt{3}}{2}}=\\frac{18\\cdot 2}{\\sqrt{3}}=\\frac{36}{\\sqrt{3}}=\\frac{36\\cdot\\sqrt{3}}{\\sqrt{3}\\cdot \\sqrt{3}}=\\frac{36\\cdot \\sqrt{3}}{3}=12\\sqrt{3}\\ \\text{см}. \\end{gather*} \n Відповідь: Г.",
+   "topic": "Чотирикутники. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/386/38606/35-var-15.png",
+    "https://zno.osvita.ua/doc/images/znotest/386/38606/dc-35-var-15.png"
+   ],
+   "text": "На стороні BC прямокутника ABCD вибрано точку K так, що \\angle KAB=30^\\circ (див. рисунок). Визначте довжину відрізка AK , якщо периметр прямокутника дорівнює 96 см, AB : BC = 3 : 5.",
+   "latex": [
+    "BC",
+    "ABCD",
+    "K",
+    "\\angle KAB=30^\\circ",
+    "AK",
+    "96",
+    "AB : BC = 3 : 5.",
+    "36\\sqrt{3}",
+    "12",
+    "18",
+    "12\\sqrt{3}",
+    "36"
+   ],
+   "source_test": 806,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 40118,
+   "tip": 1,
+   "out_order": 33,
+   "type": "single_choice",
+   "question_html": "<p>Ділянка складається з прямокутного трикутника і прямокутника (див. рисунок). За наведеними на рисунку розмірами сторін визначте периметр ділянки.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/401/40118/46-var-07.png\" style=\"height: auto;\" width=\"274\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>28</latex> м"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>35</latex> м"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>38</latex> м"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>48</latex> м"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>94</latex> м"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники. </strong></p>\n<p>Завдання перевіряє вміння застосовувати теорему Піфагора та властивості прямокутника для обчислення периметра.</p>\n<p>Гіпотенуза прямокутного трикутника – спільна сторона з прямокутником.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/401/40118/dc-46-var-07.png\" style=\"height: auto;\" width=\"272\"/></div>\n<p>За теоремою Піфагора обчислімо довжину гіпотенузи:</p>\n<div class=\"more\" style=\"width: 100%;\"><latex>\\begin{gather*} c=\\sqrt{8^2+6^2}=\\sqrt{64+36}=\\sqrt{100}=10\\ \\text{м}. \\end{gather*}</latex></div>\n<p>Отже, протилежна (нижня) сторона прямокутника також дорівнює <latex>10</latex> м.</p>\n<p><b>Периметр</b> – це сума довжин усіх <b>зовнішніх</b> меж фігури (внутрішня пунктирна лінія до периметра не входить):</p>\n<p><latex>\\begin{gather*} P=8+6+7+10+7=38\\ \\text{м}. \\end{gather*}</latex></p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. Чотирикутники. \n Завдання перевіряє вміння застосовувати теорему Піфагора та властивості прямокутника для обчислення периметра.\n Гіпотенуза прямокутного трикутника – спільна сторона з прямокутником.\n За теоремою Піфагора обчислімо довжину гіпотенузи:\n \\begin{gather*} c=\\sqrt{8^2+6^2}=\\sqrt{64+36}=\\sqrt{100}=10\\ \\text{м}. \\end{gather*} \n Отже, протилежна (нижня) сторона прямокутника також дорівнює 10 м.\n Периметр – це сума довжин усіх зовнішніх меж фігури (внутрішня пунктирна лінія до периметра не входить):\n \\begin{gather*} P=8+6+7+10+7=38\\ \\text{м}. \\end{gather*} \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Трикутники. Чотирикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/401/40118/46-var-07.png",
+    "https://zno.osvita.ua/doc/images/znotest/401/40118/dc-46-var-07.png"
+   ],
+   "text": "Ділянка складається з прямокутного трикутника і прямокутника (див. рисунок). За наведеними на рисунку розмірами сторін визначте периметр ділянки.",
+   "latex": [
+    "28",
+    "35",
+    "38",
+    "48",
+    "94"
+   ],
+   "source_test": 874,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  },
+  {
+   "id": 40489,
+   "tip": 13,
+   "out_order": 34,
+   "type": "matching",
+   "question_html": "<p>У паралелограмі <latex>ABCD</latex> на висоті <latex>BM</latex> вибрано точку <latex>K</latex> так, що <latex>BK:KM=4:3</latex> (див. рисунок). <span style=\"white-space:nowrap\"><latex>CK=17</latex> см,</span> <span style=\"white-space:nowrap\"><latex>BK=8</latex> см.</span> Прямі <latex>CK</latex> й <latex>AD</latex> перетинаються в точці <latex>N.</latex> Доберіть до відрізка (1–3) його довжину (А – Д).</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/404/40489/48-var-18.png\" style=\"height: auto;\" width=\"334\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "<latex>BM</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "<latex>BC</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "<latex>NM</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>11{,}25</latex> см"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>12</latex> см"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>14</latex> см"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>15</latex> см"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>20</latex> см"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Відрізок",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>BM</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>BC</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>NM</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Довжина відрізка",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>11{,}25</latex> см"
+      },
+      {
+       "marker": "",
+       "html": "<latex>12</latex> см"
+      },
+      {
+       "marker": "",
+       "html": "<latex>14</latex> см"
+      },
+      {
+       "marker": "",
+       "html": "<latex>15</latex> см"
+      },
+      {
+       "marker": "",
+       "html": "<latex>20</latex> см"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1c;2d;3a",
+   "correct": [
+    "1c",
+    "2d",
+    "3a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Чотирикутники. Подібність трикутників та теорема Піфагора </strong></p>\n<p>Завдання перевіряє вміння застосовувати властивості паралелограма, теорему Піфагора, визначати невідомі відрізки за пропорційним поділом та з подібності трикутників.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/404/40489/dc-48-var-18.png\" style=\"height: auto;\" width=\"331\"/></div>\n<p><b>1.</b> <latex>BM.</latex></p>\n<p>З умови відомо, що відрізок <latex>BK=8</latex> см, а відношення відрізків <latex>BK:KM=4:3.</latex></p>\n<p>Обчислімо довжину однієї пропорційної частини:</p>\n<p><latex>\\begin{gather*} 8:4=2\\ \\text{см}. \\end{gather*}</latex></p>\n<p>Обчислімо довжину відрізка <latex>KM{:}</latex></p>\n<p><latex>\\begin{gather*} KM=3\\cdot 2=6\\ \\text{см}. \\end{gather*}</latex></p>\n<p>Обчислімо загальну довжину відрізка <latex>BM</latex> як суму його частин:</p>\n<p><latex>\\begin{gather*} BM=BK+KM=8+6=14\\ \\text{см}. \\end{gather*}</latex></p>\n<p>Отже, правильна відповідь – <b>B</b>.</p>\n<p> </p>\n<p><b>2.</b> <latex>BC.</latex></p>\n<p>Розгляньмо прямокутний трикутник <latex>BKC.</latex> Оскільки пряма <latex>BM\\!\\perp\\!AD</latex>, а протилежні сторони паралелограма <latex>BC\\!\\parallel\\!AD</latex>, то кут <latex>\\angle KBC=90^\\circ.</latex></p>\n<p>За теоремою Піфагора для трикутника <latex>BKC</latex> обчислімо довжину катета <latex>BC{:}</latex></p>\n<div class=\"more\" style=\"width: 100%;\"><latex>\\begin{gather*} CK^2=BK^2+BC^2;\\\\[7pt] BC=\\sqrt{CK^2-BK^2};\\\\[7pt] BC=\\sqrt{17^2-8^2}=\\sqrt{289-64}=\\sqrt{225}=15\\ \\text{см}. \\end{gather*}</latex></div>\n<p>Отже, правильна відповідь – <b>Г</b>.</p>\n<p> </p>\n<p><b>3.</b> <latex>NM.</latex></p>\n<p>Розгляньмо трикутники <latex>BKC</latex> та <latex>KMN.</latex> Вони подібні за двома кутами: <latex>\\angle BKC=\\angle MKN</latex> ( як вертикальні кути); <latex>\\angle KBC=\\angle KMN=90^\\circ</latex> (як прямі кути).</p>\n<p>З подібності трикутників <latex>(\\Delta BKC\\sim \\Delta KMN)</latex> складімо пропорцію відповідних сторін:</p>\n<p><latex>\\begin{gather*} \\frac{NM}{BC}=\\frac{KM}{BK}. \\end{gather*}</latex></p>\n<p>Підставмо відомі значення довжин відрізків:</p>\n<p><latex>\\begin{gather*} \\frac{NM}{15}=\\frac 68=\\frac 34. \\end{gather*}</latex></p>\n<p>Обчислімо довжину відрізка <latex>NM{:}</latex></p>\n<p><latex>\\begin{gather*} NM=15\\cdot \\frac 34=\\frac{45}{4}=11{,}25\\ \\text{см}. \\end{gather*}</latex></p>\n<p>Отже, правильна відповідь – <b>A</b>.</p>\n<p><strong>Відповідь: 1 – B, 2 – Г, 3 – A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Чотирикутники. Подібність трикутників та теорема Піфагора \n Завдання перевіряє вміння застосовувати властивості паралелограма, теорему Піфагора, визначати невідомі відрізки за пропорційним поділом та з подібності трикутників.\n 1. BM. \n З умови відомо, що відрізок BK=8 см, а відношення відрізків BK:KM=4:3. \n Обчислімо довжину однієї пропорційної частини:\n \\begin{gather*} 8:4=2\\ \\text{см}. \\end{gather*} \n Обчислімо довжину відрізка KM{:} \n \\begin{gather*} KM=3\\cdot 2=6\\ \\text{см}. \\end{gather*} \n Обчислімо загальну довжину відрізка BM як суму його частин:\n \\begin{gather*} BM=BK+KM=8+6=14\\ \\text{см}. \\end{gather*} \n Отже, правильна відповідь – B .\n 2. BC. \n Розгляньмо прямокутний трикутник BKC. Оскільки пряма BM\\!\\perp\\!AD , а протилежні сторони паралелограма BC\\!\\parallel\\!AD , то кут \\angle KBC=90^\\circ. \n За теоремою Піфагора для трикутника BKC обчислімо довжину катета BC{:} \n \\begin{gather*} CK^2=BK^2+BC^2;\\\\[7pt] BC=\\sqrt{CK^2-BK^2};\\\\[7pt] BC=\\sqrt{17^2-8^2}=\\sqrt{289-64}=\\sqrt{225}=15\\ \\text{см}. \\end{gather*} \n Отже, правильна відповідь – Г .\n 3. NM. \n Розгляньмо трикутники BKC та KMN. Вони подібні за двома кутами: \\angle BKC=\\angle MKN ( як вертикальні кути); \\angle KBC=\\angle KMN=90^\\circ (як прямі кути).\n З подібності трикутників (\\Delta BKC\\sim \\Delta KMN) складімо пропорцію відповідних сторін:\n \\begin{gather*} \\frac{NM}{BC}=\\frac{KM}{BK}. \\end{gather*} \n Підставмо відомі значення довжин відрізків:\n \\begin{gather*} \\frac{NM}{15}=\\frac 68=\\frac 34. \\end{gather*} \n Обчислімо довжину відрізка NM{:} \n \\begin{gather*} NM=15\\cdot \\frac 34=\\frac{45}{4}=11{,}25\\ \\text{см}. \\end{gather*} \n Отже, правильна відповідь – A .\n Відповідь: 1 – B, 2 – Г, 3 – A.",
+   "topic": "Геометрія. Чотирикутники. Подібність трикутників та теорема Піфагора",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/404/40489/48-var-18.png",
+    "https://zno.osvita.ua/doc/images/znotest/404/40489/dc-48-var-18.png"
+   ],
+   "text": "У паралелограмі ABCD на висоті BM вибрано точку K так, що BK:KM=4:3 (див. рисунок). CK=17 см, BK=8 см. Прямі CK й AD перетинаються в точці N. Доберіть до відрізка (1–3) його довжину (А – Д).",
+   "latex": [
+    "ABCD",
+    "BM",
+    "K",
+    "BK:KM=4:3",
+    "CK=17",
+    "BK=8",
+    "CK",
+    "AD",
+    "N.",
+    "BM",
+    "BC",
+    "NM",
+    "11{,}25",
+    "12",
+    "14",
+    "15",
+    "20"
+   ],
+   "source_test": 876,
+   "subject": "mathematics",
+   "topic_slug": "prjamokutni_trykutnyky"
+  }
+ ],
+ "questions_count": 34
+}

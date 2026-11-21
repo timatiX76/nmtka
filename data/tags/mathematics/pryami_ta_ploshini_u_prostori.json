@@ -1,0 +1,2782 @@
+{
+ "subject": "mathematics",
+ "topic": {
+  "slug": "pryami_ta_ploshini_u_prostori",
+  "name": "Прямі та площини у просторі (42 завдання) 0%",
+  "url": "https://zno.osvita.ua/mathematics/tag-pryami_ta_ploshini_u_prostori/"
+ },
+ "questions": [
+  {
+   "id": 4302,
+   "tip": 1,
+   "out_order": 1,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Пряма <latex>b</latex> не має спільних точок з площиною <latex>\\alpha.</latex> Які з наведених тверджень є правильними?\r\n </p>\n<p>I.   Через пряму <latex>b</latex> можна провести лише одну площину, перпендикулярну до <span style=\"white-space:nowrap\"> площини <latex>\\alpha.</latex></span>\n</p>\n<p>II.  Через пряму <latex>b</latex> можна провести лише одну площину, паралельну площині <latex>\\alpha.</latex></p>\n<p>III. У площині <latex>\\alpha</latex> можна провести лише одну пряму, паралельну прямій <latex>b.</latex></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише І"
+    },
+    {
+     "marker": "Б",
+     "html": "лише ІI"
+    },
+    {
+     "marker": "В",
+     "html": "лише І i II"
+    },
+    {
+     "marker": "Г",
+     "html": "лише ІI i ІІI"
+    },
+    {
+     "marker": "Д",
+     "html": "I, II i III"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання взаємного розміщення прямих і площин у просторі.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/43/4302/ds-os-math-2013-new-03-1.png\" style=\"height: auto;\" width=\"200\"/>\n</div>\n<br/>\n<p>\r\n Згідно з умовою, пряма <latex>b</latex> не має спільних точок з площиною <latex>\\alpha</latex>, звідси випливає <latex>b\\ ||\\ \\alpha</latex>, отже, твердження I – <b>правильне</b>.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/43/4302/ds-os-math-2013-new-03-2.png\" style=\"height: auto;\" width=\"220\"/>\n</div>\n<br/>\n<p>\r\n Твердження II – <b>правильне</b>.\r\n </p>\n<p>\r\n У площині <latex>\\alpha</latex> можна провести безліч прямих, паралельних <latex>b.</latex> Отже, твердження III – <b>неправильне</b>.\r\n </p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n Це завдання перевіряє знання взаємного розміщення прямих і площин у просторі.\r\n Згідно з умовою, пряма b не має спільних точок з площиною \\alpha , звідси випливає b\\ ||\\ \\alpha , отже, твердження I – правильне .\r\n Твердження II – правильне .\r\n У площині \\alpha можна провести безліч прямих, паралельних b. Отже, твердження III – неправильне .\r\n Відповідь: B.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/43/4302/ds-os-math-2013-new-03-1.png",
+    "https://zno.osvita.ua/doc/images/znotest/43/4302/ds-os-math-2013-new-03-2.png"
+   ],
+   "text": "Пряма b не має спільних точок з площиною \\alpha. Які з наведених тверджень є правильними?\r\n I. Через пряму b можна провести лише одну площину, перпендикулярну до площини \\alpha. \n II. Через пряму b можна провести лише одну площину, паралельну площині \\alpha. \n III. У площині \\alpha можна провести лише одну пряму, паралельну прямій b.",
+   "latex": [
+    "b",
+    "\\alpha.",
+    "b",
+    "\\alpha.",
+    "b",
+    "\\alpha.",
+    "\\alpha",
+    "b."
+   ],
+   "source_test": 1,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 5320,
+   "tip": 1,
+   "out_order": 2,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Які з наведених тверджень є правильними?\r\n </p>\n<p>I.   Через дві прямі, що перетинаються, можна провести лише одну площину.</p>\n<p>II.  Через точку, що не належить площині, можна провести безліч прямих, паралельних цій площині.</p>\n<p>III. Якщо дві різні площини паралельні одній і тій самій прямій, то вони паралельні між собою.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише І"
+    },
+    {
+     "marker": "Б",
+     "html": "лише І i II"
+    },
+    {
+     "marker": "В",
+     "html": "лише І i ІІI"
+    },
+    {
+     "marker": "Г",
+     "html": "лише ІІ і ІІІ"
+    },
+    {
+     "marker": "Д",
+     "html": "I, II i III"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Аксіоми і теореми стереометрії. Взаємне розміщення прямих у просторі, прямої та площини у просторі, площин у просторі. Ознаки паралельності прямих, прямої і площини, площин.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання взаємного розміщення прямих та площин у просторі, ознак паралельності прямої та площини, площин у просторі.\r\n </p>\n<p>\r\n Через дві прямі, що перетинаються, можна провести лише одну площину (аксіома). Отже, твердження I <b>правильне</b>.\r\n </p>\n<br/>\n<p>\r\n Через точку, що не належить площині, можна провести безліч прямих, паралельних цій площині.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/53/5320/ds-ds-math-2013-new-06-1.png\" style=\"height: auto;\" width=\"311\"/>\n</div>\n<br/>\n<p>\r\n Отже, твердження II <b>правильне</b>.\r\n </p>\n<br/>\n<p>\r\n Якщо дві різні площини паралельні одній прямій, то вони необов'язково паралельні між собою. Якщо пряма перетину площин паралельна прямій, то ці площини паралельні прямій.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/53/5320/ds-ds-math-2013-new-06-2.png\" style=\"height: auto;\" width=\"233\"/>\n</div>\n<br/>\n<p>\r\n Наприклад, <latex>\\alpha \\cap \\beta = a</latex>, <latex>a\\ ||\\ b.</latex>\n</p>\n<p>\r\n Отже, <latex>\\alpha\\ ||\\ b</latex>, <latex>\\beta\\ ||\\ b.</latex>\r\n Отже, твердження III <b>неправильне</b>.\r\n </p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Аксіоми і теореми стереометрії. Взаємне розміщення прямих у просторі, прямої та площини у просторі, площин у просторі. Ознаки паралельності прямих, прямої і площини, площин.\r\n Це завдання перевіряє знання взаємного розміщення прямих та площин у просторі, ознак паралельності прямої та площини, площин у просторі.\r\n Через дві прямі, що перетинаються, можна провести лише одну площину (аксіома). Отже, твердження I правильне .\r\n Через точку, що не належить площині, можна провести безліч прямих, паралельних цій площині.\r\n Отже, твердження II правильне .\r\n Якщо дві різні площини паралельні одній прямій, то вони необов'язково паралельні між собою. Якщо пряма перетину площин паралельна прямій, то ці площини паралельні прямій.\r\n Наприклад, \\alpha \\cap \\beta = a , a\\ ||\\ b. \n Отже, \\alpha\\ ||\\ b , \\beta\\ ||\\ b. \r\n Отже, твердження III неправильне .\r\n Відповідь: Б.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі. Аксіоми і теореми стереометрії. Взаємне розміщення прямих у просторі, прямої та площини у просторі, площин у просторі. Ознаки паралельності прямих, прямої і площини, площин.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/53/5320/ds-ds-math-2013-new-06-1.png",
+    "https://zno.osvita.ua/doc/images/znotest/53/5320/ds-ds-math-2013-new-06-2.png"
+   ],
+   "text": "Які з наведених тверджень є правильними?\r\n I. Через дві прямі, що перетинаються, можна провести лише одну площину.\n II. Через точку, що не належить площині, можна провести безліч прямих, паралельних цій площині.\n III. Якщо дві різні площини паралельні одній і тій самій прямій, то вони паралельні між собою.",
+   "latex": [],
+   "source_test": 2,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 6112,
+   "tip": 4,
+   "out_order": 3,
+   "type": "single_choice",
+   "question_html": "<p>Ha рисунку зображено куб \\(ABCDA_1B_1C_1D_1\\). Установіть відповідність між парою прямих тa їхнім взаємним розміщенням.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/61/6112/ds-math-2012-new-23.png\" style=\"height: auto;\" width=\"213\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "<latex>AC</latex> i <latex>CC_1</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "<latex>AB_1</latex> i <latex>CD_1</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "<latex>AC</latex> i <latex>CD_1</latex>"
+    },
+    {
+     "marker": "4",
+     "html": "<latex>AB_1</latex> i <latex>C_1D</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "прямі паралельні"
+    },
+    {
+     "marker": "Б",
+     "html": "прямі мимобіжні"
+    },
+    {
+     "marker": "В",
+     "html": "прямі перетинаються і утворюють прямий кут"
+    },
+    {
+     "marker": "Г",
+     "html": "прямі перетинаються i утворюють кут <latex>45^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "прямі перетинаються i утворюють кут <latex>60^\\circ</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Пара прямих",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>AC</latex> i <latex>CC_1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>AB_1</latex> i <latex>CD_1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>AC</latex> i <latex>CD_1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>AB_1</latex> i <latex>C_1D</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Взаємне розміщення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "прямі паралельні"
+      },
+      {
+       "marker": "",
+       "html": "прямі мимобіжні"
+      },
+      {
+       "marker": "",
+       "html": "прямі перетинаються і утворюють прямий кут"
+      },
+      {
+       "marker": "",
+       "html": "прямі перетинаються i утворюють кут <latex>45^\\circ</latex>"
+      },
+      {
+       "marker": "",
+       "html": "прямі перетинаються i утворюють кут <latex>60^\\circ</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1c;2b;3e;4a",
+   "correct": [
+    "1c",
+    "2b",
+    "3e",
+    "4a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Многогранники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння знаходити величини кутів у просторі, взаємне розміщення прямих та площин у просторі.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/61/6112/ds-ds-math-2012-new-23.png\" style=\"height: auto;\" width=\"215\"/>\n</div>\n<br/>\n<p>\n<b>1</b>. \\(CC_1\\!\\perp\\!(ABC)\\), \\(AC \\in (ABC) \\rightarrow CC_1\\!\\perp\\!AC.\\)\r\n <br/>Отже, 1 – B.\r\n </p>\n<br/>\n<p>\n<b>2</b>. \\(AB_1\\) і \\(CD_1\\) – мимобіжні (не перетинаються, не лежать в одній площині).\r\n <br/>Отже, 2 – Б.\r\n </p>\n<br/>\n<p>\n<b>3</b>. \\(AC \\cap CD_1\\), \\(\\Delta ACD_1\\) – рівносторонній. \\(AC = CD_1 = D_1A\\) – діагоналі рівних квадратів.\r\n Отже, \\(\\angle ACD_1 = 60^\\circ.\\)\r\n <br/>Отже, 3 – Д.\r\n </p>\n<br/>\n<p>\n<b>4</b>. \\(AB_1\\,||\\,DC_1\\) (лежать у паралельних площинах, через них можна провести площину).\r\n <br/>Отже, 4 – А.\r\n </p>\n<p><strong>Відповідь: 1 – В, 2 – Б, 3 – Д, 4 – А.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Многогранники.\r\n Це завдання перевіряє вміння знаходити величини кутів у просторі, взаємне розміщення прямих та площин у просторі.\r\n 1 . \\(CC_1\\!\\perp\\!(ABC)\\), \\(AC \\in (ABC) \\rightarrow CC_1\\!\\perp\\!AC.\\)\r\nОтже, 1 – B.\r\n 2 . \\(AB_1\\) і \\(CD_1\\) – мимобіжні (не перетинаються, не лежать в одній площині).\r\nОтже, 2 – Б.\r\n 3 . \\(AC \\cap CD_1\\), \\(\\Delta ACD_1\\) – рівносторонній. \\(AC = CD_1 = D_1A\\) – діагоналі рівних квадратів.\r\n Отже, \\(\\angle ACD_1 = 60^\\circ.\\)\r\nОтже, 3 – Д.\r\n 4 . \\(AB_1\\,||\\,DC_1\\) (лежать у паралельних площинах, через них можна провести площину).\r\nОтже, 4 – А.\r\n Відповідь: 1 – В, 2 – Б, 3 – Д, 4 – А.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі. Многогранники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/61/6112/ds-math-2012-new-23.png",
+    "https://zno.osvita.ua/doc/images/znotest/61/6112/ds-ds-math-2012-new-23.png"
+   ],
+   "text": "Ha рисунку зображено куб \\(ABCDA_1B_1C_1D_1\\). Установіть відповідність між парою прямих тa їхнім взаємним розміщенням.",
+   "latex": [
+    "AC",
+    "CC_1",
+    "AB_1",
+    "CD_1",
+    "AC",
+    "CD_1",
+    "AB_1",
+    "C_1D",
+    "45^\\circ",
+    "60^\\circ"
+   ],
+   "source_test": 121,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 6128,
+   "tip": 1,
+   "out_order": 4,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1</latex>. Укажіть серед поданих нижче пряму, що утворює з <latex>CD_1</latex> пару мимобіжних прямих.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/61/6128/7.jpg\" style=\"height: auto;\" width=\"300\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>A_1B</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>C_1D</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>CB_1</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>AB</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>CD</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Взаємне розміщення прямих і площин у просторі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання ознаки мимобіжних прямих.\r\n </p>\n<p>\r\n Використаємо ознаку мимобіжних прямих: якщо пряма <latex>AB \\in (ABC)</latex>, а пряма <latex>D_1C \\cap (ABC)</latex> в точці <latex>C</latex>, яка не належить прямій <latex>AB</latex>, то <latex>AB</latex> мимобіжна з <latex>CD_1.</latex>\n</p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Взаємне розміщення прямих і площин у просторі.\r\n Це завдання перевіряє знання ознаки мимобіжних прямих.\r\n Використаємо ознаку мимобіжних прямих: якщо пряма AB \\in (ABC) , а пряма D_1C \\cap (ABC) в точці C , яка не належить прямій AB , то AB мимобіжна з CD_1. \n Відповідь: Г.",
+   "topic": "Геометрія. Стереометрія. Взаємне розміщення прямих і площин у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/61/6128/7.jpg"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1 . Укажіть серед поданих нижче пряму, що утворює з CD_1 пару мимобіжних прямих.",
+   "latex": [
+    "ABCDA_1B_1C_1D_1",
+    "CD_1",
+    "A_1B",
+    "C_1D",
+    "CB_1",
+    "AB",
+    "CD"
+   ],
+   "source_test": 122,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 6201,
+   "tip": 4,
+   "out_order": 5,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1.</latex> До кожного початку речення (1–4) доберіть його закінчення (А – Д) так, щоб утворилося правильне твердження.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/62/6201/os-math-2012-new-24.png\" style=\"height: auto;\" width=\"220\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Пряма <latex>CB</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "Пряма <latex>CD_1</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "Пряма <latex>AC</latex>"
+    },
+    {
+     "marker": "4",
+     "html": "Пряма <latex>A_1B</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "паралельна площині <latex>AA_1B_1B.</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "перпендикулярна площині <latex>AA_1B_1B.</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "належить площині <latex>AA_1B_1B.</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "має з площиною <latex>AA_1B_1B</latex> лише дві спільні точки."
+    },
+    {
+     "marker": "Д",
+     "html": "утворює з площиною <latex>AA_1B_1B</latex> кут <latex>45^\\circ.</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Початок речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "Пряма <latex>CB</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Пряма <latex>CD_1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Пряма <latex>AC</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Пряма <latex>A_1B</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Закінчення речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "паралельна площині <latex>AA_1B_1B.</latex>"
+      },
+      {
+       "marker": "",
+       "html": "перпендикулярна площині <latex>AA_1B_1B.</latex>"
+      },
+      {
+       "marker": "",
+       "html": "належить площині <latex>AA_1B_1B.</latex>"
+      },
+      {
+       "marker": "",
+       "html": "має з площиною <latex>AA_1B_1B</latex> лише дві спільні точки."
+      },
+      {
+       "marker": "",
+       "html": "утворює з площиною <latex>AA_1B_1B</latex> кут <latex>45^\\circ.</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1b;2a;3e;4c",
+   "correct": [
+    "1b",
+    "2a",
+    "3e",
+    "4c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Многогранники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння знаходити величини кутів у просторі, взаємне розміщення прямих та площин у просторі.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/62/6201/ds-os-math-2012-new-24.png\" style=\"height: auto;\" width=\"212\"/>\n</div>\n<br/>\n<p>\n<b>1</b>.\r\n <latex>\\begin{gather*}\r\n \\left.\\begin{array}{l}\r\n CB\\!\\perp\\!BA,\\\\\r\n CB\\!\\perp\\!BB_1,\r\n \\end{array}\\right| \\Rightarrow\r\n CB\\!\\perp\\!(ABB_1).\r\n \\end{gather*}</latex>\n</p>\n<p>\r\n Отже, 1 – Б.\r\n </p>\n<br/>\n<div class=\"more\" style=\"width: 100%;\">\n<p>\n<b>2</b>.\r\n <latex>\\begin{gather*}\r\n \\left.\\begin{array}{l}\r\n CD \\in (CC_1D),\\\\\r\n (CC_1D)\\ ||\\ (ABB_1),\r\n \\end{array}\\right| \\Rightarrow\r\n CD_1\\ ||\\ (ABB_1).\r\n \\end{gather*}</latex>\n</p>\n</div>\n<p>\r\n Отже, 2 – А.\r\n </p>\n<br/>\n<div class=\"more\" style=\"width: 100%;\">\n<p>\n<b>3</b>.\r\n <latex>\\begin{gather*}\r\n \\left.\\begin{array}{l}\r\n CB\\!\\perp\\!(ABB_1),\\\\\r\n CA\\ –\\ \\text{похила},\\\\\r\n BA\\ –\\ \\text{проекція похилої}\\ CA\\ \\text{на}\\ (ABB_1)\r\n \\end{array}\\right| \\Rightarrow\r\n \\angle(CB,(ABB_1)) = \\angle CAB = 45^\\circ.\r\n \\end{gather*}</latex>\n</p>\n</div>\n<p>\r\n Отже, 3 – Д.\r\n </p>\n<p>\n<b>4</b>. <latex>A_1B \\in (ABB_1).</latex>\n</p>\n<p>\r\n Отже, 4 – В.\r\n </p>\n<p><strong>Відповідь: 1 – Б, 2 – А, 3 – Д, 4 – В.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Многогранники.\r\n Це завдання перевіряє вміння знаходити величини кутів у просторі, взаємне розміщення прямих та площин у просторі.\r\n 1 .\r\n \\begin{gather*}\r\n \\left.\\begin{array}{l}\r\n CB\\!\\perp\\!BA,\\\\\r\n CB\\!\\perp\\!BB_1,\r\n \\end{array}\\right| \\Rightarrow\r\n CB\\!\\perp\\!(ABB_1).\r\n \\end{gather*} \n Отже, 1 – Б.\r\n 2 .\r\n \\begin{gather*}\r\n \\left.\\begin{array}{l}\r\n CD \\in (CC_1D),\\\\\r\n (CC_1D)\\ ||\\ (ABB_1),\r\n \\end{array}\\right| \\Rightarrow\r\n CD_1\\ ||\\ (ABB_1).\r\n \\end{gather*} \n Отже, 2 – А.\r\n 3 .\r\n \\begin{gather*}\r\n \\left.\\begin{array}{l}\r\n CB\\!\\perp\\!(ABB_1),\\\\\r\n CA\\ –\\ \\text{похила},\\\\\r\n BA\\ –\\ \\text{проекція похилої}\\ CA\\ \\text{на}\\ (ABB_1)\r\n \\end{array}\\right| \\Rightarrow\r\n \\angle(CB,(ABB_1)) = \\angle CAB = 45^\\circ.\r\n \\end{gather*} \n Отже, 3 – Д.\r\n 4 . A_1B \\in (ABB_1). \n Отже, 4 – В.\r\n Відповідь: 1 – Б, 2 – А, 3 – Д, 4 – В.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі. Многогранники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/62/6201/os-math-2012-new-24.png",
+    "https://zno.osvita.ua/doc/images/znotest/62/6201/ds-os-math-2012-new-24.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1. До кожного початку речення (1–4) доберіть його закінчення (А – Д) так, щоб утворилося правильне твердження.",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "CB",
+    "CD_1",
+    "AC",
+    "A_1B",
+    "AA_1B_1B.",
+    "AA_1B_1B.",
+    "AA_1B_1B.",
+    "AA_1B_1B",
+    "AA_1B_1B",
+    "45^\\circ."
+   ],
+   "source_test": 3,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 6258,
+   "tip": 1,
+   "out_order": 6,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1</latex>, ребро якого дорівнює <latex>1</latex> см. Обчисліть відстань від точки <latex>A</latex> до прямої <latex>B_1C_1.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/62/6258/pr-math-2014-new-12.png\" style=\"height: auto;\" width=\"217\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>1</latex> см"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>2</latex> см"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\sqrt{2}</latex> см"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>3</latex> см"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>1{,}5</latex> см"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Многогранники. Прямі та площини у просторі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння знаходити відстань від точки до прямої, знання теореми про три перпендикуляри.\r\n </p>\n<p>\n<latex>ABCDA_1B_1C_1D_1</latex> – куб, ребро якого <latex>1</latex> см.\r\n </p>\n<p>\r\n Відстань від точки <latex>A</latex> до прямої <latex>B_1C_1</latex> – довжина перпендикуляра з точки <latex>A</latex> до прямої <latex>B_1C_1.</latex>\n</p>\n<p>\n<latex>AB\\ \\perp\\ (BB_1C_1)</latex>, <latex>AB_1</latex> – похила на <latex>(BB_1C_1)</latex>, <latex>BB_1</latex> – проекція <latex>AB_1</latex> на <latex>(BB_1C_1).</latex>\n</p>\n<p>\r\n За теоремою про три перпендикуляри: якщо проекція <latex>BB_1\\ \\perp\\ B_1C_1</latex>, то й похила <latex>AB_1\\ \\perp\\ B_1C_1</latex>, а отже, <latex>AB_1</latex> – відстань від <latex>A</latex> до <latex>B_1C_1.</latex>\n</p>\n<p>\r\n У <latex>\\triangle ABB_1</latex> (<latex>\\angle B=90^\\circ</latex>) <latex>AB=BB_1=1</latex> см.\r\n </p>\n<p>\r\n За теоремою Піфагора \r\n </p>\n<latex>\\begin{gather*}\r\n AB_1^2=AB^2+BB_1^2=1^2+1^2=2,\\\\[7pt]\r\n AB_1=\\sqrt{2}\\ \\text{см}.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Многогранники. Прямі та площини у просторі.\r\n Це завдання перевіряє вміння знаходити відстань від точки до прямої, знання теореми про три перпендикуляри.\r\n ABCDA_1B_1C_1D_1 – куб, ребро якого 1 см.\r\n Відстань від точки A до прямої B_1C_1 – довжина перпендикуляра з точки A до прямої B_1C_1. \n AB\\ \\perp\\ (BB_1C_1) , AB_1 – похила на (BB_1C_1) , BB_1 – проекція AB_1 на (BB_1C_1). \n За теоремою про три перпендикуляри: якщо проекція BB_1\\ \\perp\\ B_1C_1 , то й похила AB_1\\ \\perp\\ B_1C_1 , а отже, AB_1 – відстань від A до B_1C_1. \n У \\triangle ABB_1 ( \\angle B=90^\\circ ) AB=BB_1=1 см.\r\n За теоремою Піфагора \r\n \\begin{gather*}\r\n AB_1^2=AB^2+BB_1^2=1^2+1^2=2,\\\\[7pt]\r\n AB_1=\\sqrt{2}\\ \\text{см}.\r\n \\end{gather*} \n Відповідь: B.",
+   "topic": "Геометрія. Стереометрія. Многогранники. Прямі та площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/62/6258/pr-math-2014-new-12.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1 , ребро якого дорівнює 1 см. Обчисліть відстань від точки A до прямої B_1C_1.",
+   "latex": [
+    "ABCDA_1B_1C_1D_1",
+    "1",
+    "A",
+    "B_1C_1.",
+    "1",
+    "2",
+    "\\sqrt{2}",
+    "3",
+    "1{,}5"
+   ],
+   "source_test": 125,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 6263,
+   "tip": 1,
+   "out_order": 7,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Точка <latex>M</latex> <b>не</b> належить площині <latex>\\alpha.</latex> Які з наведених тверджень є правильними?\r\n </p>\n<p>I.   Через точку <latex>M</latex> можна провести лише одну площину, паралельну площині <latex>\\alpha.</latex></p>\n<p>II.  Через точку <latex>M</latex> можна провести лише одну площину, перпендикулярну до площини <latex>\\alpha.</latex></p>\n<p>III. Через точку <latex>M</latex> можна провести лише одну площину, що перетинає площину <latex>\\alpha</latex> під кутом <latex>45^\\circ.</latex></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише І"
+    },
+    {
+     "marker": "Б",
+     "html": "лише ІI"
+    },
+    {
+     "marker": "В",
+     "html": "лише І i ІІI"
+    },
+    {
+     "marker": "Г",
+     "html": "лише ІI i ІІI"
+    },
+    {
+     "marker": "Д",
+     "html": "I, II i III"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання про взаємне розміщення площин у просторі.\r\n </p>\n<p>\n<b>I</b>. Це твердження <b>правильне</b>.\r\n </p>\n<p>\n<b>II</b>. Через точку <latex>M</latex> можна провести пряму, перпендикулярну <latex>\\alpha</latex>, та тільки одну. Через дану пряму можна провести безліч площин, перпендикулярних даній. Отже, твердження – <b>неправильне</b>.\r\n </p>\n<p>\n<b>III</b>. Через точку <latex>M</latex> можна провести безліч похилих до площини <latex>\\alpha.</latex> Через кожну похилу можна провести площину, яка утворює з площиною <latex>\\alpha</latex> кут <latex>45^\\circ</latex>. Отже, твердження – <b>неправильне</b>.\r\n </p>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n Це завдання перевіряє знання про взаємне розміщення площин у просторі.\r\n I . Це твердження правильне .\r\n II . Через точку M можна провести пряму, перпендикулярну \\alpha , та тільки одну. Через дану пряму можна провести безліч площин, перпендикулярних даній. Отже, твердження – неправильне .\r\n III . Через точку M можна провести безліч похилих до площини \\alpha. Через кожну похилу можна провести площину, яка утворює з площиною \\alpha кут 45^\\circ . Отже, твердження – неправильне .\r\n Відповідь: A.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [],
+   "text": "Точка M не належить площині \\alpha. Які з наведених тверджень є правильними?\r\n I. Через точку M можна провести лише одну площину, паралельну площині \\alpha. \n II. Через точку M можна провести лише одну площину, перпендикулярну до площини \\alpha. \n III. Через точку M можна провести лише одну площину, що перетинає площину \\alpha під кутом 45^\\circ.",
+   "latex": [
+    "M",
+    "\\alpha.",
+    "M",
+    "\\alpha.",
+    "M",
+    "\\alpha.",
+    "M",
+    "\\alpha",
+    "45^\\circ."
+   ],
+   "source_test": 125,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 6401,
+   "tip": 1,
+   "out_order": 8,
+   "type": "single_choice",
+   "question_html": "<p>Які з наведених тверджень правильні?</p>\n<p>І. Якщо коло має з площиною дві спільні точки, то всі точки кола належать цій площині.<br/>\r\nІІ. Якщо три вершини паралелограма належать площині, то всі точки паралелограма належать цій площині.<br/>\r\nІІІ. Якщо круг і площина мають три спільні точки, то всі точки круга належать цій площині.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише II"
+    },
+    {
+     "marker": "Б",
+     "html": "лише III"
+    },
+    {
+     "marker": "В",
+     "html": "лише I i II"
+    },
+    {
+     "marker": "Г",
+     "html": "лише I i III"
+    },
+    {
+     "marker": "Д",
+     "html": "лише II i III"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. </strong></p>\n<p>Це завдання перевіряє знання взаємного розміщення прямих та площин у просторі.</p>\n<p><b>I</b> твердження <b>неправильне</b>.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/64/6401/ds-pr-math-2010-1-new-21-1-new.png\" style=\"height: auto;\" width=\"291\"/></div>\n<br/>\n<p><b>II</b>. Якщо три вершини паралелограма належать площині, то за аксіомою стереометрії вони визначають площину. Отже, твердження <b>правильне</b>.</p>\n<br/>\n<p><b>III</b>. Якщо круг і площина мають три спільні точки, то не обов'язково всі точки круга належать площині. Твердження <b>правильне</b>.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/64/6401/ds-pr-math-2010-1-new-21-2-new.png\" style=\"height: auto;\" width=\"291\"/></div>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. \n Це завдання перевіряє знання взаємного розміщення прямих та площин у просторі.\n I твердження неправильне .\n II . Якщо три вершини паралелограма належать площині, то за аксіомою стереометрії вони визначають площину. Отже, твердження правильне .\n III . Якщо круг і площина мають три спільні точки, то не обов'язково всі точки круга належать площині. Твердження правильне .\n Відповідь: A.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/64/6401/ds-pr-math-2010-1-new-21-1-new.png",
+    "https://zno.osvita.ua/doc/images/znotest/64/6401/ds-pr-math-2010-1-new-21-2-new.png"
+   ],
+   "text": "Які з наведених тверджень правильні?\n І. Якщо коло має з площиною дві спільні точки, то всі точки кола належать цій площині.\nІІ. Якщо три вершини паралелограма належать площині, то всі точки паралелограма належать цій площині.\nІІІ. Якщо круг і площина мають три спільні точки, то всі точки круга належать цій площині.",
+   "latex": [],
+   "source_test": 129,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 6468,
+   "tip": 4,
+   "out_order": 9,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1</latex>. Установіть відповідність між заданими кутами (1–4) та їхніми градусними мірами (А – Д).</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/64/6468/161605_28.jpg\" style=\"height: auto;\" width=\"300\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Кут між прямими <latex>AA_1</latex> і <latex>DC_1</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "Кут між прямими <latex>BD</latex> і <latex>A_1C_1</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "Кут між прямими <latex>AB_1</latex> і <latex>A_1D</latex>"
+    },
+    {
+     "marker": "4",
+     "html": "Кут між прямими <latex>BB_1</latex> і <latex>DD_1</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>0^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>30^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>45^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>60^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>90^\\circ</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "Кут між прямими <latex>AA_1</latex> і <latex>DC_1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Кут між прямими <latex>BD</latex> і <latex>A_1C_1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Кут між прямими <latex>AB_1</latex> і <latex>A_1D</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Кут між прямими <latex>BB_1</latex> і <latex>DD_1</latex>"
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>0^\\circ</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>30^\\circ</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>45^\\circ</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>60^\\circ</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>90^\\circ</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1c;2e;3d;4a",
+   "correct": [
+    "1c",
+    "2e",
+    "3d",
+    "4a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання взаємного розміщення прямих та площин у просторі.\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<p>\n<b>1</b>. <latex>DC_1\\!\\parallel\\!AB_1</latex>\n<br/>\n<latex>\\angle(AA_1, DC_1) = \\angle(AA_1, AB_1) = 45^\\circ.</latex> Отже, 1 – <b>В</b>.\r\n </p>\n<br/>\n<p>\n<b>2</b>. <latex>BD\\!\\parallel\\!B_1D_1</latex>\n<br/>\n<latex>\\angle(BD, A_1C_1) = \\angle(B_1D_1, A_1C_1) = 90^\\circ.</latex> Отже, 2 – <b>Д</b>.\r\n </p>\n<br/>\n<p>\n<b>3</b>. <latex>A_1D\\!\\parallel\\!B_1C</latex>\n<br/>\n<latex>\\angle(AB_1, A_1D) = \\angle(AB_1, B_1C) = 60^\\circ.</latex> <latex>\\Delta AB_1C</latex> – рівносторонній. Отже, 3 – <b>Г</b>.\r\n </p>\n<br/>\n<p>\n<b>4</b>. <latex>BB_1\\!\\parallel\\!DD_1</latex>\n<br/>\n<latex>\\angle(BB_1, DD_1) = 0^\\circ.</latex> Отже, 4 – <b>А</b>.\r\n </p>\n</div>\n<p><strong>Відповідь: 1 – B, 2 – Д, 3 – Г, 4 – A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n Це завдання перевіряє знання взаємного розміщення прямих та площин у просторі.\r\n 1 . DC_1\\!\\parallel\\!AB_1 \n \\angle(AA_1, DC_1) = \\angle(AA_1, AB_1) = 45^\\circ. Отже, 1 – В .\r\n 2 . BD\\!\\parallel\\!B_1D_1 \n \\angle(BD, A_1C_1) = \\angle(B_1D_1, A_1C_1) = 90^\\circ. Отже, 2 – Д .\r\n 3 . A_1D\\!\\parallel\\!B_1C \n \\angle(AB_1, A_1D) = \\angle(AB_1, B_1C) = 60^\\circ. \\Delta AB_1C – рівносторонній. Отже, 3 – Г .\r\n 4 . BB_1\\!\\parallel\\!DD_1 \n \\angle(BB_1, DD_1) = 0^\\circ. Отже, 4 – А .\r\n Відповідь: 1 – B, 2 – Д, 3 – Г, 4 – A.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/64/6468/161605_28.jpg"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1 . Установіть відповідність між заданими кутами (1–4) та їхніми градусними мірами (А – Д).",
+   "latex": [
+    "ABCDA_1B_1C_1D_1",
+    "AA_1",
+    "DC_1",
+    "BD",
+    "A_1C_1",
+    "AB_1",
+    "A_1D",
+    "BB_1",
+    "DD_1",
+    "0^\\circ",
+    "30^\\circ",
+    "45^\\circ",
+    "60^\\circ",
+    "90^\\circ"
+   ],
+   "source_test": 131,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 7085,
+   "tip": 1,
+   "out_order": 10,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1.</latex> Визначте градусну міру кута між прямими <latex>AB_1</latex> i <latex>DD_1.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/70/7085/pr-math-2015-new-15.png\" style=\"height: auto;\" width=\"211\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>0^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>30^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>45^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>60^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>90^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Кут між мимобіжними прямими.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання аксіом стереометрії та означення кута між мимобіжними прямими у просторі.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/70/7085/ds-pr-math-2015-new-15.png\" style=\"height: auto;\" width=\"210\"/>\n</div>\n<p>\r\n Щоб визначити кут між мимобіжними прямими <latex>a</latex> і <latex>b</latex> у просторі, проведемо пряму <latex>c</latex>, яка паралельна прямій <latex>b</latex> і перетинає пряму <latex>a</latex>. \r\n Кут між прямими <latex>a</latex> і <latex>c</latex>, що лежать в одній площині, і буде шуканим кутом між прямими <latex>a</latex> і <latex>b</latex>.\r\n </p>\n<p>\r\n Прямі <latex>AA_{1}</latex> і <latex>DD_{1}</latex> паралельні (як прямі, що проходять через паралельні ребра куба). \r\n Отже, кут між прямими <latex>AB_{1}</latex> і <latex>DD_{1}</latex> дорівнює куту між прямими <latex>AB_{1}</latex> і <latex>AA_{1}</latex> і становить <latex>45^\\circ</latex>, оскільки діагональ <latex>AB_{1}</latex> квадрата <latex>AA_{1}B_{1}B</latex> утворює зі стороною <latex>AA_{1}</latex> кут <latex>45^\\circ.</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Кут між мимобіжними прямими.\r\n Це завдання перевіряє знання аксіом стереометрії та означення кута між мимобіжними прямими у просторі.\r\n Щоб визначити кут між мимобіжними прямими a і b у просторі, проведемо пряму c , яка паралельна прямій b і перетинає пряму a . \r\n Кут між прямими a і c , що лежать в одній площині, і буде шуканим кутом між прямими a і b .\r\n Прямі AA_{1} і DD_{1} паралельні (як прямі, що проходять через паралельні ребра куба). \r\n Отже, кут між прямими AB_{1} і DD_{1} дорівнює куту між прямими AB_{1} і AA_{1} і становить 45^\\circ , оскільки діагональ AB_{1} квадрата AA_{1}B_{1}B утворює зі стороною AA_{1} кут 45^\\circ. \n Відповідь: B.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі. Кут між мимобіжними прямими.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/70/7085/pr-math-2015-new-15.png",
+    "https://zno.osvita.ua/doc/images/znotest/70/7085/ds-pr-math-2015-new-15.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1. Визначте градусну міру кута між прямими AB_1 i DD_1.",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "AB_1",
+    "DD_1.",
+    "0^\\circ",
+    "30^\\circ",
+    "45^\\circ",
+    "60^\\circ",
+    "90^\\circ"
+   ],
+   "source_test": 142,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 7177,
+   "tip": 1,
+   "out_order": 11,
+   "type": "single_choice",
+   "question_html": "<p>\r\n З вершини <latex>B</latex> квадрата <latex>ABCD</latex> проведено перпендикуляр <latex>SB</latex> до площини цього квадрата (див. рисунок). Які з наведених тверджень є правильними?\r\n </p>\n<img alt=\"\" src=\"/doc/images/znotest/71/7177/ds-math-2014-new-13.png\" style=\"height: auto;\" width=\"229\"/>\n<p>I.   <latex>\\angle SBA=90^\\circ.</latex></p>\n<p>II.  <latex>\\angle SAD=\\angle SDA.</latex></p>\n<p>III. <latex>\\angle SAD=90^\\circ.</latex></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише І"
+    },
+    {
+     "marker": "Б",
+     "html": "лише І i II"
+    },
+    {
+     "marker": "В",
+     "html": "лише І i ІІI"
+    },
+    {
+     "marker": "Г",
+     "html": "лише ІII"
+    },
+    {
+     "marker": "Д",
+     "html": "I, II i III"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Теорема про три перпендикуляра.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання аксіом та теорем стереометрії, означення перпендикулярних прямих у просторі. \r\n </p>\n<p>\r\n Розглянемо кожне з тверджень.\r\n </p>\n<p>\n<b>I</b>. За умовою пряма <latex>SB</latex> перпендикулярна до площини квадрата <latex>ABCD</latex>, тому вона перпендикулярна до будь-якої прямої в цій площині. Отже, <latex>SB\\ \\perp\\ AB</latex> і <latex>\\angle SBA=90^\\circ.</latex> Це твердження <b>правильне</b>.\r\n </p>\n<p>\n<b>II</b>, <b>III</b>. Оскільки <latex>SB\\ \\perp\\ AD</latex> і <latex>AB\\ \\perp\\ AD</latex> (<latex>ABCD</latex> – квадрат), то за теоремою про три перпендикуляри <latex>\\angle SAD=90^\\circ.</latex> Отже, твердження III <b>правильне</b>.<br/>\r\n Оскільки в трикутнику <latex>SAD</latex> не може бути двох прямих кутів, то <latex>\\angle SAD\\ne \\angle SDA.</latex> Тому твердження II <b>є неправильним</b>.\r\n </p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Теорема про три перпендикуляра.\r\n Це завдання перевіряє знання аксіом та теорем стереометрії, означення перпендикулярних прямих у просторі. \r\n Розглянемо кожне з тверджень.\r\n I . За умовою пряма SB перпендикулярна до площини квадрата ABCD , тому вона перпендикулярна до будь-якої прямої в цій площині. Отже, SB\\ \\perp\\ AB і \\angle SBA=90^\\circ. Це твердження правильне .\r\n II , III . Оскільки SB\\ \\perp\\ AD і AB\\ \\perp\\ AD ( ABCD – квадрат), то за теоремою про три перпендикуляри \\angle SAD=90^\\circ. Отже, твердження III правильне .\n Оскільки в трикутнику SAD не може бути двох прямих кутів, то \\angle SAD\\ne \\angle SDA. Тому твердження II є неправильним .\r\n Відповідь: B.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі. Теорема про три перпендикуляра.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/71/7177/ds-math-2014-new-13.png"
+   ],
+   "text": "З вершини B квадрата ABCD проведено перпендикуляр SB до площини цього квадрата (див. рисунок). Які з наведених тверджень є правильними?\r\n I. \\angle SBA=90^\\circ. \n II. \\angle SAD=\\angle SDA. \n III. \\angle SAD=90^\\circ.",
+   "latex": [
+    "B",
+    "ABCD",
+    "SB",
+    "\\angle SBA=90^\\circ.",
+    "\\angle SAD=\\angle SDA.",
+    "\\angle SAD=90^\\circ."
+   ],
+   "source_test": 144,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 7500,
+   "tip": 1,
+   "out_order": 12,
+   "type": "single_choice",
+   "question_html": "<p>Укажіть <strong>усі правильні</strong> твердження.</p>\n<p>І. Через точку <latex>A</latex>, що не належить площині <latex>\\alpha</latex>, можна провести лише одну пряму, паралельну площині <latex>\\alpha</latex>.<br/>\r\nІІ. Через точку <latex>A</latex>, що не належить площині <latex>\\alpha</latex>, можна провести лише одну площину, паралельну площині <latex>\\alpha</latex>.<br/>\r\nІІІ. Через точку <latex>A</latex>, що не належить площині <latex>\\alpha</latex>, можна провести лише одну пряму, перпендикулярну до площини <latex>\\alpha</latex>.<br/>\r\nІV. Через точку <latex>A</latex>, що не належить площині <latex>\\alpha</latex>, можна провести лише одну площину, перпендикулярну до площини <latex>\\alpha</latex>.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "II"
+    },
+    {
+     "marker": "Б",
+     "html": "II, III"
+    },
+    {
+     "marker": "В",
+     "html": "I, IV"
+    },
+    {
+     "marker": "Г",
+     "html": "I, III, IV"
+    },
+    {
+     "marker": "Д",
+     "html": "II, III, IV"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання ознак та властивостей перпендикулярних прямих та площин.\r\n </p>\n<p>\r\n Якщо через точку <latex>A</latex> провести площину <latex>\\beta</latex>, паралельну <latex>\\alpha</latex>, то будь-яка пряма, що проходить через точку <latex>A</latex> та лежить у площині <latex>\\beta</latex>, паралельна <latex>\\alpha.</latex> Отже, I – <b>неправильне твердження</b>.\r\n </p>\n<br/>\n<p>\r\n Через точку <latex>A</latex>, що не належить площині <latex>\\alpha</latex>, можна провести лише одну площину, паралельну <latex>\\alpha.</latex> Отже, II – <b>правильне твердження</b>.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/75/7500/ds-os-math-2009-new-15.png\" style=\"height: auto;\" width=\"299\"/>\n</div>\n<br/>\n<p>\r\n Отже, III – <b>правильне твердження</b>.\r\n </p>\n<br/>\n<p>\r\n Через пряму, перпендикулярну площині <latex>\\alpha</latex>, можна провести безліч площин. Якщо точка <latex>A</latex> лежить на даній прямій, то через неї проходить безліч площин. Отже, IV – <b>неправильне твердження</b>.\r\n </p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n Це завдання перевіряє знання ознак та властивостей перпендикулярних прямих та площин.\r\n Якщо через точку A провести площину \\beta , паралельну \\alpha , то будь-яка пряма, що проходить через точку A та лежить у площині \\beta , паралельна \\alpha. Отже, I – неправильне твердження .\r\n Через точку A , що не належить площині \\alpha , можна провести лише одну площину, паралельну \\alpha. Отже, II – правильне твердження .\r\n Отже, III – правильне твердження .\r\n Через пряму, перпендикулярну площині \\alpha , можна провести безліч площин. Якщо точка A лежить на даній прямій, то через неї проходить безліч площин. Отже, IV – неправильне твердження .\r\n Відповідь: Б.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/75/7500/ds-os-math-2009-new-15.png"
+   ],
+   "text": "Укажіть усі правильні твердження.\n І. Через точку A , що не належить площині \\alpha , можна провести лише одну пряму, паралельну площині \\alpha .\nІІ. Через точку A , що не належить площині \\alpha , можна провести лише одну площину, паралельну площині \\alpha .\nІІІ. Через точку A , що не належить площині \\alpha , можна провести лише одну пряму, перпендикулярну до площини \\alpha .\nІV. Через точку A , що не належить площині \\alpha , можна провести лише одну площину, перпендикулярну до площини \\alpha .",
+   "latex": [
+    "A",
+    "\\alpha",
+    "\\alpha",
+    "A",
+    "\\alpha",
+    "\\alpha",
+    "A",
+    "\\alpha",
+    "\\alpha",
+    "A",
+    "\\alpha",
+    "\\alpha"
+   ],
+   "source_test": 151,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 7627,
+   "tip": 1,
+   "out_order": 13,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1.</latex> Яка з наведених прямих паралельна площині <latex>(AA_1B_1)</latex>?\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/76/7627/os-math-2015-new-06.png\" style=\"height: auto;\" width=\"217\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>BC</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>BD</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>C_1D</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>CB_1</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>A_1B</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Ознаки паралельності прямої та площини.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння встановлювати паралельність прямої та площини.\r\n </p>\n<p>\r\n Пряма паралельна площині, якщо не має з нею спільних точок. Кожна з прямих <latex>BC</latex>, <latex>BD</latex>, i <latex>A_{1}B</latex> проходить через точку <latex>B</latex>, пряма <latex>CB_{1}</latex> проходить через точку <latex>B_{1}</latex>, що належать площині <latex>(AA_{1}B_{1})</latex>. Оскільки ці точки належать площині <latex>(AA_{1}B_{1})</latex>, то вказані прямі перетинають задану площину. Пряма <latex>C_{1}D</latex> лежить у площині <latex>(C_{1}CD)</latex>. Оскільки площина <latex>(C_{1}CD)</latex> паралельна площині <latex>(AA_{1}B_{1})</latex>, то пряма <latex>C_{1}D</latex> паралельна площині <latex>(AA_{1}B_{1})</latex>.\r\n </p>\n<p><strong>Відповідь: В.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Ознаки паралельності прямої та площини.\r\n Це завдання перевіряє вміння встановлювати паралельність прямої та площини.\r\n Пряма паралельна площині, якщо не має з нею спільних точок. Кожна з прямих BC , BD , i A_{1}B проходить через точку B , пряма CB_{1} проходить через точку B_{1} , що належать площині (AA_{1}B_{1}) . Оскільки ці точки належать площині (AA_{1}B_{1}) , то вказані прямі перетинають задану площину. Пряма C_{1}D лежить у площині (C_{1}CD) . Оскільки площина (C_{1}CD) паралельна площині (AA_{1}B_{1}) , то пряма C_{1}D паралельна площині (AA_{1}B_{1}) .\r\n Відповідь: В.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі. Ознаки паралельності прямої та площини.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/76/7627/os-math-2015-new-06.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1. Яка з наведених прямих паралельна площині (AA_1B_1) ?",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "(AA_1B_1)",
+    "BC",
+    "BD",
+    "C_1D",
+    "CB_1",
+    "A_1B"
+   ],
+   "source_test": 154,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 8171,
+   "tip": 1,
+   "out_order": 14,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У просторі задано пряму <latex>a</latex> і точку <latex>M</latex>, яка <b>не</b> належить цій прямій. Скільки всього прямих, що перетинають пряму <latex>a</latex>, можна провести перпендикулярно до неї через точку <latex>M</latex>?\r\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодної"
+    },
+    {
+     "marker": "Б",
+     "html": "одну"
+    },
+    {
+     "marker": "В",
+     "html": "дві"
+    },
+    {
+     "marker": "Г",
+     "html": "три"
+    },
+    {
+     "marker": "Д",
+     "html": "безліч"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання аксіом та теорем стереометрії, означення перпендикулярних прямих у просторі. \r\n </p>\n<p>\r\n Через пряму <latex>a</latex> та точку <latex>M</latex>, що не належить цій прямій, можна провести єдину площину (позначимо її через <latex>\\alpha</latex>), а в площині <latex>\\alpha</latex> через точку <latex>M</latex> можна провести єдину пряму, перпендикулярну до прямої <latex>a.</latex>\n</p>\n<p> \r\n Отже, через точку <latex>M</latex>, що не належить прямій <latex>a</latex>, можна провести лише одну пряму, яка перетинає пряму <latex>a</latex> і перпендикулярна до неї.\r\n </p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n Це завдання перевіряє знання аксіом та теорем стереометрії, означення перпендикулярних прямих у просторі. \r\n Через пряму a та точку M , що не належить цій прямій, можна провести єдину площину (позначимо її через \\alpha ), а в площині \\alpha через точку M можна провести єдину пряму, перпендикулярну до прямої a. \n Отже, через точку M , що не належить прямій a , можна провести лише одну пряму, яка перетинає пряму a і перпендикулярна до неї.\r\n Відповідь: Б.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [],
+   "text": "У просторі задано пряму a і точку M , яка не належить цій прямій. Скільки всього прямих, що перетинають пряму a , можна провести перпендикулярно до неї через точку M ?",
+   "latex": [
+    "a",
+    "M",
+    "a",
+    "M"
+   ],
+   "source_test": 166,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 9237,
+   "tip": 1,
+   "out_order": 15,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У просторі задано пряму <latex>b</latex> i точку <latex>A</latex>, що не належить цій прямій. Скільки всього існує різних площин, які проходять через точку <latex>A</latex> і <b>не мають</b> спільних точок з прямою <latex>b</latex>?\r\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодної"
+    },
+    {
+     "marker": "Б",
+     "html": "лише одна"
+    },
+    {
+     "marker": "В",
+     "html": "лише дві"
+    },
+    {
+     "marker": "Г",
+     "html": "лише три"
+    },
+    {
+     "marker": "Д",
+     "html": "безліч"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання основних аксіом стереометрії та їх наслідків і вміння їх використовувати до розв'язування задач.\r\n </p>\n<p>\r\n Через точку <latex>A</latex> в просторі можна провести єдину пряму <latex>c</latex>, паралельну прямій <latex>b.</latex> Але через пряму <latex>c</latex> можна провести безліч площин, паралельних прямій <latex>b</latex> і лише одну площину, що містить пряму <latex>b.</latex> Тобто існує безліч площин, паралельних прямій <latex>b</latex>, які проходять через <span style=\"white-space:nowrap\">точку <latex>A.</latex></span>\n</p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n Це завдання перевіряє знання основних аксіом стереометрії та їх наслідків і вміння їх використовувати до розв'язування задач.\r\n Через точку A в просторі можна провести єдину пряму c , паралельну прямій b. Але через пряму c можна провести безліч площин, паралельних прямій b і лише одну площину, що містить пряму b. Тобто існує безліч площин, паралельних прямій b , які проходять через точку A. \n Відповідь: Д.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [],
+   "text": "У просторі задано пряму b i точку A , що не належить цій прямій. Скільки всього існує різних площин, які проходять через точку A і не мають спільних точок з прямою b ?",
+   "latex": [
+    "b",
+    "A",
+    "A",
+    "b"
+   ],
+   "source_test": 187,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 9437,
+   "tip": 1,
+   "out_order": 16,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Прямі <latex>a</latex> та <latex>b</latex> мимобіжні. Які з наведених тверджень є правильними?\r\n </p>\n<p>I.   Прямі <latex>a</latex> та <latex>b</latex> перетинаються.</p>\n<p>II.  Прямі <latex>a</latex> та <latex>b</latex> лежать в одній площині.</p>\n<p>III. Існує пряма, паралельна прямій <latex>a</latex>, що перетинає пряму <latex>b.</latex></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише І"
+    },
+    {
+     "marker": "Б",
+     "html": "лише ІI"
+    },
+    {
+     "marker": "В",
+     "html": "лише І та ІІ"
+    },
+    {
+     "marker": "Г",
+     "html": "лише ІII"
+    },
+    {
+     "marker": "Д",
+     "html": "I, II та ІII"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання означення мимобіжних прямих і вміння його використовувати до розв'язування задач.\r\n </p>\n<p>\n<b>I.</b> Оскільки через дві прямі, що перетинаються, можна провести єдину площину, а мимобіжні прямі не перетинаються, тому твердження є <b>неправильним</b>.\r\n </p>\n<br/>\n<p>\n<b>II.</b> Прямі, які не лежать в одній площині, називаються мимобіжними. Тому твердження є <b>неправильним</b>.\r\n </p>\n<br/>\n<p>\n<b>III.</b> Оскільки прямі <latex>a</latex> i <latex>b</latex> не лежать в одній площині, то вони лежать у паралельних площинах <latex>\\alpha</latex> i <latex>\\beta</latex> відповідно. Тому у площині <latex>\\beta</latex> існує пряма, що паралельна прямій <latex>a</latex> і вона перетинає пряму <latex>b</latex>, оскільки прямі <latex>a</latex> i <latex>b</latex> не є паралельними (через паралельні прямі завжди можна провести площину). Тому твердження є <b>правильним</b>.\r\n </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. \r\n Це завдання перевіряє знання означення мимобіжних прямих і вміння його використовувати до розв'язування задач.\r\n I. Оскільки через дві прямі, що перетинаються, можна провести єдину площину, а мимобіжні прямі не перетинаються, тому твердження є неправильним .\r\n II. Прямі, які не лежать в одній площині, називаються мимобіжними. Тому твердження є неправильним .\r\n III. Оскільки прямі a i b не лежать в одній площині, то вони лежать у паралельних площинах \\alpha i \\beta відповідно. Тому у площині \\beta існує пряма, що паралельна прямій a і вона перетинає пряму b , оскільки прямі a i b не є паралельними (через паралельні прямі завжди можна провести площину). Тому твердження є правильним .\r\n Відповідь: Г.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [],
+   "text": "Прямі a та b мимобіжні. Які з наведених тверджень є правильними?\r\n I. Прямі a та b перетинаються.\n II. Прямі a та b лежать в одній площині.\n III. Існує пряма, паралельна прямій a , що перетинає пряму b.",
+   "latex": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a",
+    "b",
+    "a",
+    "b."
+   ],
+   "source_test": 191,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 10841,
+   "tip": 1,
+   "out_order": 17,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Відрізок <latex>OB</latex> є проекцією похилої <latex>AB</latex> на площину <latex>\\style{font-style:normal;font-weight:bold;font-size:1.1em}{\\alpha}</latex> (див. рисунок). Які з наведених тверджень є правильними?\r\n </p>\n<img alt=\"\" src=\"/doc/images/znotest/108/10841/ds-math-2016-new-10.png\" style=\"height: auto;\" width=\"330\"/>\n<p>I.   Відрізки <latex>AB</latex> і <latex>OB</latex> перпендикулярні.</p>\n<p>II.  Відрізки <latex>AB</latex> і <latex>OA</latex> перпендикулярні.</p>\n<p>III. Відрізки <latex>OB</latex> і <latex>OA</latex> перпендикулярні.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише І"
+    },
+    {
+     "marker": "Б",
+     "html": "лише ІI та ІІI"
+    },
+    {
+     "marker": "В",
+     "html": "лише І та ІІ"
+    },
+    {
+     "marker": "Г",
+     "html": "лише ІII"
+    },
+    {
+     "marker": "Д",
+     "html": "лише ІI"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання взаємного розміщення прямих у просторі, уміння застосовувати означення, ознаки та властивості перпендикулярних прямих.\r\n </p>\n<p>\n<b>I.</b> Твердження не правильне. Якщо <latex>AB\\ \\perp\\ OB</latex> то <latex>AB\\ \\perp\\ \\style{font-style:normal;font-weight:bold;font-size:1.1em}{\\alpha}</latex>, а це суперечить означенню похилої. Похилою, проведеною з даної точки до даної площини, називається будь-який відрізок, що з'єднує дану точку з точкою площини, який не є перпендикуляром до площини.\r\n </p>\n<br/>\n<p>\n<b>II.</b> <latex>AB</latex> також не є перпендикулярною до <latex>OA</latex>, бо <latex>\\angle BAO</latex> – гострий.\r\n </p>\n<br/>\n<p>\n<b>III.</b> <latex>OA\\ \\perp\\ OB.</latex> За умовою <latex>OB</latex> – проекція <latex>AB</latex> на площину <latex>\\style{font-style:normal;font-weight:bold;font-size:1.1em}{\\alpha}</latex>, тому <latex>AO\\ \\perp\\ \\style{font-style:normal;font-weight:bold;font-size:1.1em}{\\alpha}</latex>, <latex>OB\\in \\style{font-style:normal;font-weight:bold;font-size:1.1em}{\\alpha}.</latex> Отже, <latex>OB\\ \\perp\\ OA.</latex>\n</p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. \r\n Це завдання перевіряє знання взаємного розміщення прямих у просторі, уміння застосовувати означення, ознаки та властивості перпендикулярних прямих.\r\n I. Твердження не правильне. Якщо AB\\ \\perp\\ OB то AB\\ \\perp\\ \\style{font-style:normal;font-weight:bold;font-size:1.1em}{\\alpha} , а це суперечить означенню похилої. Похилою, проведеною з даної точки до даної площини, називається будь-який відрізок, що з'єднує дану точку з точкою площини, який не є перпендикуляром до площини.\r\n II. AB також не є перпендикулярною до OA , бо \\angle BAO – гострий.\r\n III. OA\\ \\perp\\ OB. За умовою OB – проекція AB на площину \\style{font-style:normal;font-weight:bold;font-size:1.1em}{\\alpha} , тому AO\\ \\perp\\ \\style{font-style:normal;font-weight:bold;font-size:1.1em}{\\alpha} , OB\\in \\style{font-style:normal;font-weight:bold;font-size:1.1em}{\\alpha}. Отже, OB\\ \\perp\\ OA. \n Відповідь: Г.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/108/10841/ds-math-2016-new-10.png"
+   ],
+   "text": "Відрізок OB є проекцією похилої AB на площину \\style{font-style:normal;font-weight:bold;font-size:1.1em}{\\alpha} (див. рисунок). Які з наведених тверджень є правильними?\r\n I. Відрізки AB і OB перпендикулярні.\n II. Відрізки AB і OA перпендикулярні.\n III. Відрізки OB і OA перпендикулярні.",
+   "latex": [
+    "OB",
+    "AB",
+    "\\style{font-style:normal;font-weight:bold;font-size:1.1em}{\\alpha}",
+    "AB",
+    "OB",
+    "AB",
+    "OA",
+    "OB",
+    "OA"
+   ],
+   "source_test": 221,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 12074,
+   "tip": 1,
+   "out_order": 18,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Точка <latex>A</latex> належить площині <latex>\\mathbf{\\alpha}.</latex> Які з наведених тверджень є правильними?\r\n </p>\n<p>I.   Через точку <latex>A</latex> <i>можна</i> провести пряму, перпендикулярну до площини <latex>\\mathbf{\\alpha}.</latex></p>\n<p>II.  Через точку <latex>A</latex> <i>можна</i> провести площину, перпендикулярну до площини <latex>\\mathbf{\\alpha}.</latex></p>\n<p>III. Через точку <latex>A</latex> <i>можна</i> провести площину, паралельну площині <latex>\\mathbf{\\alpha}.</latex></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише І"
+    },
+    {
+     "marker": "Б",
+     "html": "лише ІI та ІІI"
+    },
+    {
+     "marker": "В",
+     "html": "лише ІI"
+    },
+    {
+     "marker": "Г",
+     "html": "лише І та ІІ"
+    },
+    {
+     "marker": "Д",
+     "html": "I, II та ІII"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Паралельність і перпендикулярність прямої і площини. Паралельність площин. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання можливого взаємного розташування прямих та площин у просторі.\r\n </p>\n<p>\n<b>I.</b> Твердження є правильним, достатньо щоб пряма <latex>a</latex> була перпендикулярна до кожної з двох прямих <latex>c</latex> та <latex>b.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/120/12074/ds-os-math-2017-new-10-1.png\" style=\"height: auto;\" width=\"319\"/>\n</div>\n<br/>\n<p>\n<b>II.</b> Твердження є правильним, через точку <latex>A</latex> можна провести безліч перпендикулярних площин до площини <latex>\\mathbf{\\alpha}.</latex> Достатньо, щоб побудована перпендикулярна площина проходила через пряму <latex>a</latex> з п. I.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/120/12074/ds-os-math-2017-new-10-2.png\" style=\"height: auto;\" width=\"319\"/>\n</div>\n<br/>\n<p>\n<b>III.</b> Твердження є неправильним. Згідно з аксіомою стереометрії: <i>якщо дві площини мають спільну точку</i>, то вони або збігаються, або перетинаються по прямій, яка проходить через цю точку. Тобто якщо провести через точку <latex>A</latex> паралельну площину <latex>\\mathbf{\\beta}</latex> – то вона збігатиметься з площиною <latex>\\mathbf{\\alpha}.</latex>\n</p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Паралельність і перпендикулярність прямої і площини. Паралельність площин. \r\n Це завдання перевіряє знання можливого взаємного розташування прямих та площин у просторі.\r\n I. Твердження є правильним, достатньо щоб пряма a була перпендикулярна до кожної з двох прямих c та b. \n II. Твердження є правильним, через точку A можна провести безліч перпендикулярних площин до площини \\mathbf{\\alpha}. Достатньо, щоб побудована перпендикулярна площина проходила через пряму a з п. I.\r\n III. Твердження є неправильним. Згідно з аксіомою стереометрії: якщо дві площини мають спільну точку , то вони або збігаються, або перетинаються по прямій, яка проходить через цю точку. Тобто якщо провести через точку A паралельну площину \\mathbf{\\beta} – то вона збігатиметься з площиною \\mathbf{\\alpha}. \n Відповідь: Г.",
+   "topic": "Геометрія. Стереометрія. Паралельність і перпендикулярність прямої і площини. Паралельність площин.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/120/12074/ds-os-math-2017-new-10-1.png",
+    "https://zno.osvita.ua/doc/images/znotest/120/12074/ds-os-math-2017-new-10-2.png"
+   ],
+   "text": "Точка A належить площині \\mathbf{\\alpha}. Які з наведених тверджень є правильними?\r\n I. Через точку A можна провести пряму, перпендикулярну до площини \\mathbf{\\alpha}. \n II. Через точку A можна провести площину, перпендикулярну до площини \\mathbf{\\alpha}. \n III. Через точку A можна провести площину, паралельну площині \\mathbf{\\alpha}.",
+   "latex": [
+    "A",
+    "\\mathbf{\\alpha}.",
+    "A",
+    "\\mathbf{\\alpha}.",
+    "A",
+    "\\mathbf{\\alpha}.",
+    "A",
+    "\\mathbf{\\alpha}."
+   ],
+   "source_test": 247,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 12513,
+   "tip": 1,
+   "out_order": 19,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Площини <latex>\\mathbf{\\alpha}</latex> i <latex>\\mathbf{\\beta}</latex> паралельні. Які з наведених тверджень є правильними?\r\n </p>\n<p>I.   Існує пряма, що лежить і в площині <latex>\\mathbf{\\alpha}</latex>, і в площині <latex>\\mathbf{\\beta}.</latex></p>\n<p>II.  Якщо пряма перпендикулярна до площини <latex>\\mathbf{\\alpha}</latex>, то вона перпендикулярна до площини <latex>\\mathbf{\\beta}.</latex></p>\n<p>III. Якщо пряма лежить у площині <latex>\\mathbf{\\alpha}</latex>, то вона паралельна будь-якій прямій у площині <latex>\\mathbf{\\beta}.</latex></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише І"
+    },
+    {
+     "marker": "Б",
+     "html": "лише І та ІІ"
+    },
+    {
+     "marker": "В",
+     "html": "лише ІI"
+    },
+    {
+     "marker": "Г",
+     "html": "лише ІI та ІІI"
+    },
+    {
+     "marker": "Д",
+     "html": "лише ІII"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі і площини у просторі. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати означення, ознаки та властивості паралельних і перпендикулярних прямих і площин.\r\n </p>\n<p>\n<b>I.</b> Твердження хибне, тому що, якщо пряма лежить і в площині <latex>\\mathbf{\\alpha}</latex>, і в площині <latex>\\mathbf{\\beta}</latex>, то ці площини мають спільні точки, а це суперечить умові <latex>\\mathbf{\\alpha}\\ ||\\ \\mathbf{\\beta}.</latex>\n</p>\n<br/>\n<p>\n<b>II.</b> Твердження є правильним. Пряма, перпендикулярна до площини <latex>\\mathbf{\\alpha}</latex>, перпендикулярна й площині <latex>\\mathbf{\\beta}.</latex>\n</p>\n<br/>\n<p>\n<b>III.</b> Твердження хибне, тому що пряма, що лежить в одній з паралельних площин, може бути паралельною або мимобіжною з прямими, які лежать в іншій паралельній площині.\r\n </p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі і площини у просторі. \r\n Це завдання перевіряє вміння застосовувати означення, ознаки та властивості паралельних і перпендикулярних прямих і площин.\r\n I. Твердження хибне, тому що, якщо пряма лежить і в площині \\mathbf{\\alpha} , і в площині \\mathbf{\\beta} , то ці площини мають спільні точки, а це суперечить умові \\mathbf{\\alpha}\\ ||\\ \\mathbf{\\beta}. \n II. Твердження є правильним. Пряма, перпендикулярна до площини \\mathbf{\\alpha} , перпендикулярна й площині \\mathbf{\\beta}. \n III. Твердження хибне, тому що пряма, що лежить в одній з паралельних площин, може бути паралельною або мимобіжною з прямими, які лежать в іншій паралельній площині.\r\n Відповідь: B.",
+   "topic": "Геометрія. Стереометрія. Прямі і площини у просторі.",
+   "images": [],
+   "text": "Площини \\mathbf{\\alpha} i \\mathbf{\\beta} паралельні. Які з наведених тверджень є правильними?\r\n I. Існує пряма, що лежить і в площині \\mathbf{\\alpha} , і в площині \\mathbf{\\beta}. \n II. Якщо пряма перпендикулярна до площини \\mathbf{\\alpha} , то вона перпендикулярна до площини \\mathbf{\\beta}. \n III. Якщо пряма лежить у площині \\mathbf{\\alpha} , то вона паралельна будь-якій прямій у площині \\mathbf{\\beta}.",
+   "latex": [
+    "\\mathbf{\\alpha}",
+    "\\mathbf{\\beta}",
+    "\\mathbf{\\alpha}",
+    "\\mathbf{\\beta}.",
+    "\\mathbf{\\alpha}",
+    "\\mathbf{\\beta}.",
+    "\\mathbf{\\alpha}",
+    "\\mathbf{\\beta}."
+   ],
+   "source_test": 256,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 14245,
+   "tip": 1,
+   "out_order": 20,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Задано дві мимобіжні прямі <latex>a</latex> і <latex>b.</latex> Скільки існує різних площин, які проходять через пряму <latex>a</latex> та є паралельними прямій <latex>b</latex>?\r\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодної"
+    },
+    {
+     "marker": "Б",
+     "html": "одна"
+    },
+    {
+     "marker": "В",
+     "html": "дві"
+    },
+    {
+     "marker": "Г",
+     "html": "три"
+    },
+    {
+     "marker": "Д",
+     "html": "безліч"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання аксіом стереометрії, ознаки паралельності прямої та площини, ознаку мимобіжності прямих.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/142/14245/ds-ds-math-2018-new-11.png\" style=\"height: auto;\" width=\"300\"/>\n</div>\n<br/>\n<p>\r\n Задано дві мимобіжні прямі <latex>a</latex> i <latex>b.</latex> Нехай <latex>a</latex> міститься в площині <latex>\\mathbf{\\alpha}</latex>, <latex>b\\cap \\mathbf{\\alpha}=B.</latex>\n</p>\n<p>\r\n Проведемо в площині <latex>\\mathbf{\\alpha}</latex> пряму <latex>b_1\\ ||\\ a</latex> через точку <latex>B.</latex> Через дві прямі, що перетинаються <latex>b_1\\cap b</latex>, можна провести площину та тільки одну. Нехай це буде площина <latex>\\mathbf{\\beta}.</latex>\n</p>\n<p>\n<latex>\\mathbf{\\beta}\\ ||\\ a</latex> за ознакою паралельності прямої та площини.\r\n </p>\n<latex display=\"block\">$$\r\n \\left.\\begin{array}{l}\r\n a\\ ||\\ b_1,\\\\\r\n b_1\\subset \\mathbf{\\beta},\r\n \\end{array}\\right| \\rightarrow a\\ ||\\ \\mathbf{\\beta}.\r\n$$</latex>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n Це завдання перевіряє знання аксіом стереометрії, ознаки паралельності прямої та площини, ознаку мимобіжності прямих.\r\n Задано дві мимобіжні прямі a i b. Нехай a міститься в площині \\mathbf{\\alpha} , b\\cap \\mathbf{\\alpha}=B. \n Проведемо в площині \\mathbf{\\alpha} пряму b_1\\ ||\\ a через точку B. Через дві прямі, що перетинаються b_1\\cap b , можна провести площину та тільки одну. Нехай це буде площина \\mathbf{\\beta}. \n \\mathbf{\\beta}\\ ||\\ a за ознакою паралельності прямої та площини.\r\n $$\r\n \\left.\\begin{array}{l}\r\n a\\ ||\\ b_1,\\\\\r\n b_1\\subset \\mathbf{\\beta},\r\n \\end{array}\\right| \\rightarrow a\\ ||\\ \\mathbf{\\beta}.\r\n$$ \n Відповідь: Б.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/142/14245/ds-ds-math-2018-new-11.png"
+   ],
+   "text": "Задано дві мимобіжні прямі a і b. Скільки існує різних площин, які проходять через пряму a та є паралельними прямій b ?",
+   "latex": [
+    "a",
+    "b.",
+    "a",
+    "b"
+   ],
+   "source_test": 290,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 14604,
+   "tip": 1,
+   "out_order": 21,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У просторі задано паралельні прямі <latex>m</latex> і <latex>n.</latex> Які з наведених тверджень є правильними?\r\n </p>\n<p>I.   Існує площина, що містить обидві прямі <latex>m</latex> і <latex>n.</latex></p>\n<p>II.  Існує пряма, що перетинає обидві прямі <latex>m</latex> і <latex>n.</latex></p>\n<p>III. Існує точка, що належить обом прямим <latex>m</latex> і <latex>n.</latex></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише І"
+    },
+    {
+     "marker": "Б",
+     "html": "лише ІI"
+    },
+    {
+     "marker": "В",
+     "html": "лише ІI та ІІI"
+    },
+    {
+     "marker": "Г",
+     "html": "лише ІII"
+    },
+    {
+     "marker": "Д",
+     "html": "лише І та ІІ"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Стереометрія. Прямі та площини у просторі. Взаємне розміщення прямих у просторі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання означення паралельних прямих.\r\n </p>\n<p>\r\n У просторі задано паралельні прямі <latex>m</latex> i <latex>n.</latex> За означенням паралельних прямих вони лежать в одній площині та не перетинаються. Тому правильне твердження I, але неправильне ІІІ.\r\n </p>\n<p>\r\n Через дві прямі в площині можна провести пряму, що перетинає обидві прямі <latex>m</latex> i <latex>n.</latex> Правильне твердження ІІ.\r\n </p>\n<p>\r\n Отже, правильні твердження І та ІІ.\r\n </p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Стереометрія. Прямі та площини у просторі. Взаємне розміщення прямих у просторі.\r\n Це завдання перевіряє знання означення паралельних прямих.\r\n У просторі задано паралельні прямі m i n. За означенням паралельних прямих вони лежать в одній площині та не перетинаються. Тому правильне твердження I, але неправильне ІІІ.\r\n Через дві прямі в площині можна провести пряму, що перетинає обидві прямі m i n. Правильне твердження ІІ.\r\n Отже, правильні твердження І та ІІ.\r\n Відповідь: Д.",
+   "topic": "Стереометрія. Прямі та площини у просторі. Взаємне розміщення прямих у просторі.",
+   "images": [],
+   "text": "У просторі задано паралельні прямі m і n. Які з наведених тверджень є правильними?\r\n I. Існує площина, що містить обидві прямі m і n. \n II. Існує пряма, що перетинає обидві прямі m і n. \n III. Існує точка, що належить обом прямим m і n.",
+   "latex": [
+    "m",
+    "n.",
+    "m",
+    "n.",
+    "m",
+    "n.",
+    "m",
+    "n."
+   ],
+   "source_test": 298,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 15242,
+   "tip": 1,
+   "out_order": 22,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У просторі задано пряму <latex>m</latex> і точку <latex>A</latex>, яка <i>не</i> належить <latex>m.</latex> Які з наведених тверджень є правильними?\r\n </p>\n<p>I.   Через точку <latex>A</latex> i пряму <latex>m</latex> можна провести лише одну площину.</p>\n<p>II.  Через точку <latex>A</latex> можна провести лише одну площину, паралельну<br/>прямій <latex>m.</latex></p>\n<p>III. Через точку <latex>A</latex> можна провести лише одну площину, перпендикулярну до прямої <latex>m.</latex></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише І i II"
+    },
+    {
+     "marker": "Б",
+     "html": "лише І i III"
+    },
+    {
+     "marker": "В",
+     "html": "лише ІІI"
+    },
+    {
+     "marker": "Г",
+     "html": "лише ІI i III"
+    },
+    {
+     "marker": "Д",
+     "html": "лише І, II i IІІ"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Стереометрія. Прямі та площини у просторі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання взаємного розміщення прямої та площини у просторі.\r\n </p>\n<p>\r\n За наслідками з аксіом стереометрії: через пряму і точку, яка їй належить, проходить площина, і до того ж тільки одна.\r\n </p>\n<p>\r\n Через точку <latex>A</latex> можна провести безліч площин, паралельних прямій <latex>m</latex>, але лише одну, перпендикулярну до прямої <latex>m.</latex>\n</p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Стереометрія. Прямі та площини у просторі.\r\n Це завдання перевіряє знання взаємного розміщення прямої та площини у просторі.\r\n За наслідками з аксіом стереометрії: через пряму і точку, яка їй належить, проходить площина, і до того ж тільки одна.\r\n Через точку A можна провести безліч площин, паралельних прямій m , але лише одну, перпендикулярну до прямої m. \n Відповідь: Б.",
+   "topic": "Стереометрія. Прямі та площини у просторі.",
+   "images": [],
+   "text": "У просторі задано пряму m і точку A , яка не належить m. Які з наведених тверджень є правильними?\r\n I. Через точку A i пряму m можна провести лише одну площину.\n II. Через точку A можна провести лише одну площину, паралельну\nпрямій m. \n III. Через точку A можна провести лише одну площину, перпендикулярну до прямої m.",
+   "latex": [
+    "m",
+    "A",
+    "m.",
+    "A",
+    "m",
+    "A",
+    "m.",
+    "A",
+    "m."
+   ],
+   "source_test": 310,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 17084,
+   "tip": 4,
+   "out_order": 23,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1.</latex> Установіть відповідність між парою прямих (1–4) та їх взаємним розташуванням (А – Д).\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/170/17084/os-math-2019-new-24_1.png\" style=\"height: auto;\" width=\"250\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "<latex>AC</latex> й <latex>CC_1</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "<latex>AB_1</latex> i <latex>CD_1</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "<latex>AC</latex> й <latex>CD_1</latex>"
+    },
+    {
+     "marker": "4",
+     "html": "<latex>AB_1</latex> i <latex>C_1D</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "прямі паралельні"
+    },
+    {
+     "marker": "Б",
+     "html": "прямі мимобіжні"
+    },
+    {
+     "marker": "В",
+     "html": "прямі перетинаються й утворюють прямий кут"
+    },
+    {
+     "marker": "Г",
+     "html": "прямі перетинаються й утворюють кут <latex>45^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "прямі перетинаються й утворюють кут <latex>60^\\circ</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Пара прямих",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>AC</latex> й <latex>CC_1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>AB_1</latex> i <latex>CD_1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>AC</latex> й <latex>CD_1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>AB_1</latex> i <latex>C_1D</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Взаємне розташування",
+     "answers": [
+      {
+       "marker": "",
+       "html": "прямі паралельні"
+      },
+      {
+       "marker": "",
+       "html": "прямі мимобіжні"
+      },
+      {
+       "marker": "",
+       "html": "прямі перетинаються й утворюють прямий кут"
+      },
+      {
+       "marker": "",
+       "html": "прямі перетинаються й утворюють кут <latex>45^\\circ</latex>"
+      },
+      {
+       "marker": "",
+       "html": "прямі перетинаються й утворюють кут <latex>60^\\circ</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (4) -->\n</table>",
+   "correct_raw": "1c;2b;3e;4a",
+   "correct": [
+    "1c",
+    "2b",
+    "3e",
+    "4a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Многогранники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання про взаємне розміщення прямих у просторі, площин у просторі, многогранників та їхніх елементів.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/170/17084/ds-os-math-2019-new-24_1.png\" style=\"height: auto;\" width=\"250\"/>\n</div>\n<p>\n<b>1.</b> <latex>AC\\cup CC_1</latex>, <latex>AC\\ \\perp\\ CC_1</latex>,<br/><br/>\n<latex>\\left.\\begin{array}{l}\r\n CC_1\\ \\perp\\ (ABC),\\\\\r\n AC \\in (ABC),\r\n \\end{array}\\right|\r\n \\rightarrow CC_1\\ \\perp\\ AC.</latex><br/>\r\n Отже, 1 – B.\r\n </p><br/>\n<p>\n<b>2.</b> Прямі <latex>AB_1</latex> та <latex>CD_1</latex> мимобіжні, не лежать в одній площині та не перетинаються.\r\n <br/>\r\n Отже, 2 – Б.\r\n </p><br/>\n<p>\n<b>3.</b> <latex>\\Delta ACD_1</latex> – рівносторонній, так як <latex>AC=CD_1=AD_1</latex> (діагоналі рівних квадратів).\r\n <br/>\n<latex>\\angle(AC</latex>, <latex>CD_1)=\\angle ACD_1=60^\\circ.</latex>\n<br/>\r\n Отже, 3 – Д.\r\n </p><br/>\n<p>\n<b>4.</b> <latex>AB_1\\ ||\\ C_1D</latex> не перетинаються та лежать в одній площині <latex>(AB_1C_1).</latex>\n<br/>\r\n Отже, 4 – A.\r\n </p>\n<p><strong>Відповідь: 1 – B, 2 – Б, 3 – Д, 4 – A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Многогранники.\r\n Це завдання перевіряє знання про взаємне розміщення прямих у просторі, площин у просторі, многогранників та їхніх елементів.\r\n 1. AC\\cup CC_1 , AC\\ \\perp\\ CC_1 ,\n \\left.\\begin{array}{l}\r\n CC_1\\ \\perp\\ (ABC),\\\\\r\n AC \\in (ABC),\r\n \\end{array}\\right|\r\n \\rightarrow CC_1\\ \\perp\\ AC. \n Отже, 1 – B.\r\n 2. Прямі AB_1 та CD_1 мимобіжні, не лежать в одній площині та не перетинаються.\r\n Отже, 2 – Б.\r\n 3. \\Delta ACD_1 – рівносторонній, так як AC=CD_1=AD_1 (діагоналі рівних квадратів).\r\n \\angle(AC , CD_1)=\\angle ACD_1=60^\\circ. \n Отже, 3 – Д.\r\n 4. AB_1\\ ||\\ C_1D не перетинаються та лежать в одній площині (AB_1C_1). \n Отже, 4 – A.\r\n Відповідь: 1 – B, 2 – Б, 3 – Д, 4 – A.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі. Многогранники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/170/17084/os-math-2019-new-24_1.png",
+    "https://zno.osvita.ua/doc/images/znotest/170/17084/ds-os-math-2019-new-24_1.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1. Установіть відповідність між парою прямих (1–4) та їх взаємним розташуванням (А – Д).",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "AC",
+    "CC_1",
+    "AB_1",
+    "CD_1",
+    "AC",
+    "CD_1",
+    "AB_1",
+    "C_1D",
+    "45^\\circ",
+    "60^\\circ"
+   ],
+   "source_test": 346,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 17665,
+   "tip": 4,
+   "out_order": 24,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1.</latex> До кожного початку речення (1–4) доберіть його закінчення (А–Д) так, щоб утворилося правильне твердження. \r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/176/17665/ds-math-2019-new-24_1.png\" style=\"height: auto;\" width=\"212\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Пряма <latex>CB</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "Пряма <latex>CD_1</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "Пряма <latex>AC</latex>"
+    },
+    {
+     "marker": "4",
+     "html": "Пряма <latex>A_1B</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "паралельна площині <latex>AA_1B_1B.</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "перпендикулярна до площини <latex>AA_1B_1B.</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "належить площині <latex>AA_1B_1B.</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "має з площиною <latex>AA_1B_1B</latex> лише дві спільні точки."
+    },
+    {
+     "marker": "Д",
+     "html": "утворює з площиною <latex>AA_1B_1B</latex> кут <latex>45^\\circ</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Початок речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "Пряма <latex>CB</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Пряма <latex>CD_1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Пряма <latex>AC</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Пряма <latex>A_1B</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Закінчення речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "паралельна площині <latex>AA_1B_1B.</latex>"
+      },
+      {
+       "marker": "",
+       "html": "перпендикулярна до площини <latex>AA_1B_1B.</latex>"
+      },
+      {
+       "marker": "",
+       "html": "належить площині <latex>AA_1B_1B.</latex>"
+      },
+      {
+       "marker": "",
+       "html": "має з площиною <latex>AA_1B_1B</latex> лише дві спільні точки."
+      },
+      {
+       "marker": "",
+       "html": "утворює з площиною <latex>AA_1B_1B</latex> кут <latex>45^\\circ</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (4) -->\n</table>",
+   "correct_raw": "1b;2a;3e;4c",
+   "correct": [
+    "1b",
+    "2a",
+    "3e",
+    "4c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Аксіоми і теореми стереометрії. Взаємне розміщення прямих у просторі, прямої та площини у просторі, площин у просторі. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання взаємного розміщення прямих та площин у просторі.\r\n </p>\n<p>\n<b>1.</b> <latex>CB\\ \\perp\\ BA</latex> та <latex>CB\\ \\perp\\ BB_1</latex>, звідси <latex>CB\\ \\perp\\ (AA_1B_1).</latex> Отже, 1 – Б.\r\n </p><br/>\n<p>\n<b>2.</b> <latex>CD_1\\in (CC_1D_1)</latex>; \r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<p>\n<latex>(CC_1D_1)\\ ||\\ (ABA_1)\\rightarrow CD_1\\ ||\\ (ABA_1).</latex>\n</p>\n</div>\n<p>\r\n Отже, 2 – A.\r\n </p>\n<br/>\n<p>\n<b>3.</b> <latex>AC</latex> – похила до площини <latex>(ABA_1)</latex>, <latex>BC\\ \\perp\\ (ABA_1)</latex>, <latex>BA</latex> – проекція <latex>AC</latex> на <latex>(ABA_1).</latex> <latex>\\angle (AC,\\ (ABA_1))=\\angle CAB=45^\\circ.</latex> <latex>ABCD</latex> – квадрат, <latex>AC</latex> – бісектриса <latex>\\angle A.</latex> Отже, 3 – Д.\r\n </p><br/>\n<p>\n<b>4.</b> <latex>A_1B\\in (AA_1B_1B)</latex>, тому що точки <latex>A_1</latex> i <latex>B</latex> належать <latex>(AA_1B).</latex> Отже, 4 – B.\r\n </p>\n<p><strong>Відповідь: 1 – Б, 2 – A, 3 – Д, 4 – B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Аксіоми і теореми стереометрії. Взаємне розміщення прямих у просторі, прямої та площини у просторі, площин у просторі. \r\n Це завдання перевіряє знання взаємного розміщення прямих та площин у просторі.\r\n 1. CB\\ \\perp\\ BA та CB\\ \\perp\\ BB_1 , звідси CB\\ \\perp\\ (AA_1B_1). Отже, 1 – Б.\r\n 2. CD_1\\in (CC_1D_1) ; \r\n (CC_1D_1)\\ ||\\ (ABA_1)\\rightarrow CD_1\\ ||\\ (ABA_1). \n Отже, 2 – A.\r\n 3. AC – похила до площини (ABA_1) , BC\\ \\perp\\ (ABA_1) , BA – проекція AC на (ABA_1). \\angle (AC,\\ (ABA_1))=\\angle CAB=45^\\circ. ABCD – квадрат, AC – бісектриса \\angle A. Отже, 3 – Д.\r\n 4. A_1B\\in (AA_1B_1B) , тому що точки A_1 i B належать (AA_1B). Отже, 4 – B.\r\n Відповідь: 1 – Б, 2 – A, 3 – Д, 4 – B.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі. Аксіоми і теореми стереометрії. Взаємне розміщення прямих у просторі, прямої та площини у просторі, площин у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/176/17665/ds-math-2019-new-24_1.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1. До кожного початку речення (1–4) доберіть його закінчення (А–Д) так, щоб утворилося правильне твердження.",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "CB",
+    "CD_1",
+    "AC",
+    "A_1B",
+    "AA_1B_1B.",
+    "AA_1B_1B.",
+    "AA_1B_1B.",
+    "AA_1B_1B",
+    "AA_1B_1B",
+    "45^\\circ"
+   ],
+   "source_test": 357,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 18994,
+   "tip": 13,
+   "out_order": 25,
+   "type": "matching",
+   "question_html": "<p>На рисунку зображено прямокутний паралелепіпед <latex>ABCDA_1B_1C_1D_1.</latex> До кожного початку речення (1–3) доберіть його закінчення (А – Д) так, щоб утворилося правильне твердження.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/189/18994/profil-math-2021-new3-20.png\" style=\"height: auto;\" width=\"240\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Пряма <latex>BD</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "Пряма <latex>A_1C_1</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "Площина <latex>ABC_1</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "паралельна площині <latex>ABC</latex>."
+    },
+    {
+     "marker": "Б",
+     "html": "належить площині <latex>ABC</latex>."
+    },
+    {
+     "marker": "В",
+     "html": "перпендикулярна до площини <latex>ABC</latex>."
+    },
+    {
+     "marker": "Г",
+     "html": "паралельна прямій <latex>CD</latex>."
+    },
+    {
+     "marker": "Д",
+     "html": "перпендикулярна до прямої <latex>CD</latex>."
+    }
+   ],
+   "groups": [
+    {
+     "title": "Початок речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "Пряма <latex>BD</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Пряма <latex>A_1C_1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Площина <latex>ABC_1</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Закінчення речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "паралельна площині <latex>ABC</latex>."
+      },
+      {
+       "marker": "",
+       "html": "належить площині <latex>ABC</latex>."
+      },
+      {
+       "marker": "",
+       "html": "перпендикулярна до площини <latex>ABC</latex>."
+      },
+      {
+       "marker": "",
+       "html": "паралельна прямій <latex>CD</latex>."
+      },
+      {
+       "marker": "",
+       "html": "перпендикулярна до прямої <latex>CD</latex>."
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1b;2a;3d",
+   "correct": [
+    "1b",
+    "2a",
+    "3d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання ознак паралельності прямої та площини, аксіом стереометрії.\r\n </p>\n<p>\r\n 1. Точки <latex>B, D\\in (ABC)\\rightarrow BD\\in (ABC).</latex> Отже, 1 – Б.\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<p>\r\n 2. <latex>A_1C_1\\ ||\\ AC</latex>,<latex>\\ \\ AC\\in (ABC)\\rightarrow A_1C_1\\ ||\\ (ABC).</latex> Отже, 2 – A.\r\n </p>\n</div>\n<div class=\"more\" style=\"width: 100%;\">\n<p>\r\n 3. <latex>AB\\ ||\\ CD</latex>,<latex>\\ \\ AB\\in (ABC_1)\\rightarrow CD\\ ||\\ (ABC_1).</latex> Отже, 3 – Г.\r\n </p>\n</div>\n<p><strong>Відповідь: 1 – Б, 2 – A, 3 – Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n Це завдання перевіряє знання ознак паралельності прямої та площини, аксіом стереометрії.\r\n 1. Точки B, D\\in (ABC)\\rightarrow BD\\in (ABC). Отже, 1 – Б.\r\n 2. A_1C_1\\ ||\\ AC , \\ \\ AC\\in (ABC)\\rightarrow A_1C_1\\ ||\\ (ABC). Отже, 2 – A.\r\n 3. AB\\ ||\\ CD , \\ \\ AB\\in (ABC_1)\\rightarrow CD\\ ||\\ (ABC_1). Отже, 3 – Г.\r\n Відповідь: 1 – Б, 2 – A, 3 – Г.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/189/18994/profil-math-2021-new3-20.png"
+   ],
+   "text": "На рисунку зображено прямокутний паралелепіпед ABCDA_1B_1C_1D_1. До кожного початку речення (1–3) доберіть його закінчення (А – Д) так, щоб утворилося правильне твердження.",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "BD",
+    "A_1C_1",
+    "ABC_1",
+    "ABC",
+    "ABC",
+    "ABC",
+    "CD",
+    "CD"
+   ],
+   "source_test": 384,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 19509,
+   "tip": 13,
+   "out_order": 26,
+   "type": "matching",
+   "question_html": "<p>\r\n На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1.</latex> Установіть відповідність між початком речення (1–3) та його закінченням (А – Д) так, щоб утворилося правильне твердження.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/195/19509/pr-math-2020-new-24_1.png\" style=\"height: auto;\" width=\"217\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Точка <latex>C_1</latex> симетрична точці <latex>A_1</latex> відносно площини"
+    },
+    {
+     "marker": "2",
+     "html": "Пряма <latex>AD</latex> паралельна площині"
+    },
+    {
+     "marker": "3",
+     "html": "Пряма <latex>CC_1</latex> є прямою перетину площин <latex>(BB_1C_1)</latex> та"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>(AA_1B_1).</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(DD_1C_1).</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>(A_1B_1C_1).</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>(AA_1D_1).</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>(BB_1D_1).</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Початок речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "Точка <latex>C_1</latex> симетрична точці <latex>A_1</latex> відносно площини"
+      },
+      {
+       "marker": "",
+       "html": "Пряма <latex>AD</latex> паралельна площині"
+      },
+      {
+       "marker": "",
+       "html": "Пряма <latex>CC_1</latex> є прямою перетину площин <latex>(BB_1C_1)</latex> та"
+      }
+     ]
+    },
+    {
+     "title": "Закінчення речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>(AA_1B_1).</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>(DD_1C_1).</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>(A_1B_1C_1).</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>(AA_1D_1).</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>(BB_1D_1).</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1e;2c;3b",
+   "correct": [
+    "1e",
+    "2c",
+    "3b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє вміння застосовувати означення та властивості паралельних прямих і площин.\r\n </p>\n<p>\n<b>1.</b> Точка <latex>C_1</latex> симетрична точці <latex>A_1</latex> відносно площини <latex>(BB_1D_1).</latex> Отже, 1 – Д.\r\n </p>\n<p>\n<b>2.</b> <latex>A_1D_1\\in (A_1B_1C_1)</latex>, <latex>A_1D_1\\ ||\\ AD</latex>, звідси <latex>AD\\ ||\\ (A_1B_1C_1).</latex> Отже, 2 – B.\r\n </p>\n<p>\n<b>3.</b> <latex>(BB_1C_1)\\cap (DD_1C_1)=CC_1.</latex> Отже, 3 – Б.\r\n </p>\n<p><strong>Відповідь: 1 – Д, 2 – B, 3 – Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі.\r\n Завдання перевіряє вміння застосовувати означення та властивості паралельних прямих і площин.\r\n 1. Точка C_1 симетрична точці A_1 відносно площини (BB_1D_1). Отже, 1 – Д.\r\n 2. A_1D_1\\in (A_1B_1C_1) , A_1D_1\\ ||\\ AD , звідси AD\\ ||\\ (A_1B_1C_1). Отже, 2 – B.\r\n 3. (BB_1C_1)\\cap (DD_1C_1)=CC_1. Отже, 3 – Б.\r\n Відповідь: 1 – Д, 2 – B, 3 – Б.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/195/19509/pr-math-2020-new-24_1.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1. Установіть відповідність між початком речення (1–3) та його закінченням (А – Д) так, щоб утворилося правильне твердження.",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "C_1",
+    "A_1",
+    "AD",
+    "CC_1",
+    "(BB_1C_1)",
+    "(AA_1B_1).",
+    "(DD_1C_1).",
+    "(A_1B_1C_1).",
+    "(AA_1D_1).",
+    "(BB_1D_1)."
+   ],
+   "source_test": 390,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 24689,
+   "tip": 1,
+   "out_order": 27,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Точки <latex>A,\\ B,\\ C</latex> та <latex>D</latex> лежать в одній площині. Які з наведених тверджень є правильними?\r\n </p>\n<p>\r\n I.   Якщо точка <latex>B</latex> належить відрізку <latex>CD</latex>, то <latex>CB+BD=CD</latex>.\r\n </p>\n<p>\r\n II.  Якщо точка <latex>A</latex> <b>не</b> належить відрізку <latex>CD</latex>, то <latex>CA+AD\\lt CD</latex>.\r\n </p>\n<p>\r\n III. Якщо відрізок <latex>CD</latex> перетинає відрізок <latex>AB</latex> в точці О під прямим кутом i <latex>AO=OB</latex>, то <latex>AC=CB</latex>.\r\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише І та ІІ"
+    },
+    {
+     "marker": "Б",
+     "html": "лише І"
+    },
+    {
+     "marker": "В",
+     "html": "лише І та ІІІ"
+    },
+    {
+     "marker": "Г",
+     "html": "лише ІІ"
+    },
+    {
+     "marker": "Д",
+     "html": "І, ІІ та ІІІ"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їх властивості. \r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знання аксіом планіметрії, нерівності трикутника, рівності трикутників.\r\n </p>\n<p>\r\n Точки <latex>A,\\ B,\\ C,\\ D</latex> лежать в одній площині.\r\n </p>\n<p>\r\n I.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/246/24689/08-1.png\"/>\n</div><br/>\n<p>\r\n точка <latex>B\\in CD</latex>, отже, за аксіомами планіметрії <latex>CD=CB+BD</latex>.\r\n </p>\n<p>\r\n II.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/246/24689/08-2.png\"/>\n</div><br/>\n<p>\r\n точка <latex>A\\notin CD</latex>, то за нерівностю трикутників <latex>AC+AC\\gt CD</latex>.\r\n </p>\n<p>\r\n III.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/246/24689/08-3.png\"/>\n</div><br/>\n<p>\n<latex>CD\\cap AB =0</latex>, <latex>CD</latex> – серединний перпендикуляр відрізка <latex>AB</latex>, отже, будь-яка точка серединного перпендикуляра рівновіддалена від кінців відрізка. Отже, <latex>AC=CB</latex>.\r\n </p>\n<p>\r\n Правильними є твердження І та ІІІ.\r\n </p>\n<p><strong>Відповідь: В.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їх властивості. \r\n Завдання скеровано на перевірку знання аксіом планіметрії, нерівності трикутника, рівності трикутників.\r\n Точки A,\\ B,\\ C,\\ D лежать в одній площині.\r\n I.\r\n точка B\\in CD , отже, за аксіомами планіметрії CD=CB+BD .\r\n II.\r\n точка A\\notin CD , то за нерівностю трикутників AC+AC\\gt CD .\r\n III.\r\n CD\\cap AB =0 , CD – серединний перпендикуляр відрізка AB , отже, будь-яка точка серединного перпендикуляра рівновіддалена від кінців відрізка. Отже, AC=CB .\r\n Правильними є твердження І та ІІІ.\r\n Відповідь: В.",
+   "topic": "Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їх властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/246/24689/08-1.png",
+    "https://zno.osvita.ua/doc/images/znotest/246/24689/08-2.png",
+    "https://zno.osvita.ua/doc/images/znotest/246/24689/08-3.png"
+   ],
+   "text": "Точки A,\\ B,\\ C та D лежать в одній площині. Які з наведених тверджень є правильними?\r\n I. Якщо точка B належить відрізку CD , то CB+BD=CD .\r\n II. Якщо точка A не належить відрізку CD , то CA+AD\\lt CD .\r\n III. Якщо відрізок CD перетинає відрізок AB в точці О під прямим кутом i AO=OB , то AC=CB .",
+   "latex": [
+    "A,\\ B,\\ C",
+    "D",
+    "B",
+    "CD",
+    "CB+BD=CD",
+    "A",
+    "CD",
+    "CA+AD\\lt CD",
+    "CD",
+    "AB",
+    "AO=OB",
+    "AC=CB"
+   ],
+   "source_test": 489,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 34376,
+   "tip": 1,
+   "out_order": 28,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено трикутну піраміду <latex>SABC</latex> з основою <latex>ABC.</latex> Скільки всього площин, паралельних площині основи піраміди, можна провести через її вершину <latex>S</latex>?\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/343/34376/math-1-2025-05_1.png\" style=\"height: auto;\" width=\"181\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодної"
+    },
+    {
+     "marker": "Б",
+     "html": "лише одну"
+    },
+    {
+     "marker": "В",
+     "html": "лише дві"
+    },
+    {
+     "marker": "Г",
+     "html": "лише три"
+    },
+    {
+     "marker": "Д",
+     "html": "більше як три"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. \r\n </strong>\n</p>\n<p>\r\n Завдання скероване на перевірку розуміння властивостей паралельних площин.\r\n </p>\n<p>\r\n У піраміді <latex>SABC</latex> точка <latex>S</latex> не лежить у площині <latex>(ABC).</latex>\n</p>\n<p>\r\n Через точку, яка не лежить у площині, можна провести тільки одну площину, паралельну даній.\r\n </p>\n<p>\r\n Отже, через точку <latex>S</latex> можна провести лише одну площину паралельну площині <latex>ABC.</latex>\n</p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. \r\n Завдання скероване на перевірку розуміння властивостей паралельних площин.\r\n У піраміді SABC точка S не лежить у площині (ABC). \n Через точку, яка не лежить у площині, можна провести тільки одну площину, паралельну даній.\r\n Отже, через точку S можна провести лише одну площину паралельну площині ABC. \n Відповідь: Б.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/343/34376/math-1-2025-05_1.png"
+   ],
+   "text": "На рисунку зображено трикутну піраміду SABC з основою ABC. Скільки всього площин, паралельних площині основи піраміди, можна провести через її вершину S ?",
+   "latex": [
+    "SABC",
+    "ABC.",
+    "S"
+   ],
+   "source_test": 671,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 34399,
+   "tip": 1,
+   "out_order": 29,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1.</latex> Скільки всього площин, паралельних прямій <latex>AB</latex>, містять грані куба?\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/343/34399/math-2-2025-05.png\" style=\"height: auto;\" width=\"218\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодної"
+    },
+    {
+     "marker": "Б",
+     "html": "лише одну"
+    },
+    {
+     "marker": "В",
+     "html": "лише дві"
+    },
+    {
+     "marker": "Г",
+     "html": "лише три"
+    },
+    {
+     "marker": "Д",
+     "html": "більше як три"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Многогранники.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знань ознаки паралельності прямої та площини, властивостей призми.\r\n </p>\n<p>\r\n За ознакою паралельності прямої і площини, якщо пряма <latex>AB</latex>, що не лежить у площині <latex>(CDD_1)</latex>, паралельна прямій <latex>CD</latex>, яка лежить в цій площині, то <latex>AB\\ || (CDD_1).</latex>\n</p>\n<p>\r\n Аналогічно, <latex>AB</latex> не лежить у площині <latex>(A_1B_1C_1)</latex>, але паралельна прямій <latex>A_1B_1</latex>, яка лежить в цій площині, то <latex>AB\\ ||\\ (A_1B_1C_1).</latex>\n</p>\n<p>\r\n Отже, таких площин лише дві.\r\n </p>\n<p><strong>Відповідь: В.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини у просторі. Многогранники.\r\n Завдання скеровано на перевірку знань ознаки паралельності прямої та площини, властивостей призми.\r\n За ознакою паралельності прямої і площини, якщо пряма AB , що не лежить у площині (CDD_1) , паралельна прямій CD , яка лежить в цій площині, то AB\\ || (CDD_1). \n Аналогічно, AB не лежить у площині (A_1B_1C_1) , але паралельна прямій A_1B_1 , яка лежить в цій площині, то AB\\ ||\\ (A_1B_1C_1). \n Отже, таких площин лише дві.\r\n Відповідь: В.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини у просторі. Многогранники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/343/34399/math-2-2025-05.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1. Скільки всього площин, паралельних прямій AB , містять грані куба?",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "AB"
+   ],
+   "source_test": 672,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 35304,
+   "tip": 1,
+   "out_order": 30,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено чотирикутну піраміду <latex>SABCD.</latex> Скільки різних прямих, паралельних прямій <latex>AB</latex>, можна провести через точку <latex>S</latex>?\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/353/35304/8-var-07.png\" style=\"height: auto;\" width=\"262\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодної"
+    },
+    {
+     "marker": "Б",
+     "html": "лише одну"
+    },
+    {
+     "marker": "В",
+     "html": "лише дві"
+    },
+    {
+     "marker": "Г",
+     "html": "лише три"
+    },
+    {
+     "marker": "Д",
+     "html": "більше трьох"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Прямі та площини в просторі. </strong></p>\n<p>Завдання скеровано на перевірку знання аксіом стереометрії, взаємного розміщення прямих у просторі.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/353/35304/decide-8-variant-07.png\" style=\"height: auto;\" width=\"262\"/></div>\n<p>Скористаймося аксіомою паралельності: через точку, що не лежить на прямій, можна провести лише одну пряму, паралельну даній. Отже, через точку <latex>S</latex>, яка не лежить на прямій <latex>AB</latex>, можна провести лише одну пряму, паралельну даній.</p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Прямі та площини в просторі. \n Завдання скеровано на перевірку знання аксіом стереометрії, взаємного розміщення прямих у просторі.\n Скористаймося аксіомою паралельності: через точку, що не лежить на прямій, можна провести лише одну пряму, паралельну даній. Отже, через точку S , яка не лежить на прямій AB , можна провести лише одну пряму, паралельну даній.\n Відповідь: Б.",
+   "topic": "Прямі та площини в просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/353/35304/8-var-07.png",
+    "https://zno.osvita.ua/doc/images/znotest/353/35304/decide-8-variant-07.png"
+   ],
+   "text": "На рисунку зображено чотирикутну піраміду SABCD. Скільки різних прямих, паралельних прямій AB , можна провести через точку S ?",
+   "latex": [
+    "SABCD.",
+    "AB",
+    "S"
+   ],
+   "source_test": 698,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 35323,
+   "tip": 1,
+   "out_order": 31,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено трикутну піраміду <latex>SABC</latex>, <latex>SO</latex> – висота піраміди. Укажіть пару прямих, що лежать в одній площині.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/353/35323/9-var-03.png\" style=\"height: auto;\" width=\"200\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>SB</latex> i <latex>AC</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>SO</latex> i <latex>AC</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>SA</latex> i <latex>BC</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>SO</latex> i <latex>BC</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>SO</latex> i <latex>SB</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Прямі та площини у просторі.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знання аксіом стереометрії, взаємного розміщення прямих у просторі.\r\n </p>\n<p>\r\n Застосуймо аксіому стереометрії: якщо дві прямі мають спільну точку, то через них можна провести лише одну площину.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/353/35323/decide-9-variant-03.png\" style=\"height: auto;\" width=\"200\"/>\n</div>\n<p>\r\n Отже, прямі <latex>SO</latex> i <latex>SB</latex> лежать в одній площині, бо мають спільну точку <latex>S.</latex>\n</p>\n<p>\r\n За аксіомою стереометрії якщо дві прямі мають спільну точку, то через них можна провести площину, і до того ж, тільки одну.\r\n </p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Прямі та площини у просторі.\r\n Завдання скеровано на перевірку знання аксіом стереометрії, взаємного розміщення прямих у просторі.\r\n Застосуймо аксіому стереометрії: якщо дві прямі мають спільну точку, то через них можна провести лише одну площину.\r\n Отже, прямі SO i SB лежать в одній площині, бо мають спільну точку S. \n За аксіомою стереометрії якщо дві прямі мають спільну точку, то через них можна провести площину, і до того ж, тільки одну.\r\n Відповідь: Д.",
+   "topic": "Прямі та площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/353/35323/9-var-03.png",
+    "https://zno.osvita.ua/doc/images/znotest/353/35323/decide-9-variant-03.png"
+   ],
+   "text": "На рисунку зображено трикутну піраміду SABC , SO – висота піраміди. Укажіть пару прямих, що лежать в одній площині.",
+   "latex": [
+    "SABC",
+    "SO",
+    "SB",
+    "AC",
+    "SO",
+    "AC",
+    "SA",
+    "BC",
+    "SO",
+    "BC",
+    "SO",
+    "SB"
+   ],
+   "source_test": 699,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 35372,
+   "tip": 1,
+   "out_order": 32,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1.</latex> Укажіть кількість прямих, що проходять через ребра куба, і є паралельними до прямої <latex>AB.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/353/35372/11-var-08.png\" style=\"height: auto;\" width=\"213\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодної"
+    },
+    {
+     "marker": "Б",
+     "html": "лише одна"
+    },
+    {
+     "marker": "В",
+     "html": "лише дві"
+    },
+    {
+     "marker": "Г",
+     "html": "лише три"
+    },
+    {
+     "marker": "Д",
+     "html": "більше трьох"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Прямі та площини в просторі. </strong></p>\n<p>Завдання скеровано на перевірку вміння застосовувати означення, ознаки та властивості паралельних прямих.</p>\n<p>За властивістю паралельності прямих <latex>AB\\ ||\\ CD</latex>, <latex>CD\\ ||\\ C_1D_1</latex>, <latex>AB\\ ||\\ C_1D_1</latex>, <latex>AB\\ ||\\ A_1B_1</latex> (як протилежні сторони квадратів).</p>\n<p>Отже, прямих, що проходять через ребра куба і є паралельними прямій <latex>AB</latex>, – три <latex>(CD</latex>, <latex>\\ C_1D_1</latex>, <latex>\\ A_1B_1).</latex></p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/353/35372/decide-11-variant-08.png\" style=\"height: auto;\" width=\"216\"/></div>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Прямі та площини в просторі. \n Завдання скеровано на перевірку вміння застосовувати означення, ознаки та властивості паралельних прямих.\n За властивістю паралельності прямих AB\\ ||\\ CD , CD\\ ||\\ C_1D_1 , AB\\ ||\\ C_1D_1 , AB\\ ||\\ A_1B_1 (як протилежні сторони квадратів).\n Отже, прямих, що проходять через ребра куба і є паралельними прямій AB , – три (CD , \\ C_1D_1 , \\ A_1B_1). \n Відповідь: Г.",
+   "topic": "Прямі та площини в просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/353/35372/11-var-08.png",
+    "https://zno.osvita.ua/doc/images/znotest/353/35372/decide-11-variant-08.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1. Укажіть кількість прямих, що проходять через ребра куба, і є паралельними до прямої AB.",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "AB."
+   ],
+   "source_test": 701,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 35428,
+   "tip": 1,
+   "out_order": 33,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Висота конуса та його твірна лежать на прямих, що \r\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "паралельні"
+    },
+    {
+     "marker": "Б",
+     "html": "не мають спільних точок"
+    },
+    {
+     "marker": "В",
+     "html": "перпендикулярні"
+    },
+    {
+     "marker": "Г",
+     "html": "мимобіжні"
+    },
+    {
+     "marker": "Д",
+     "html": "належать одній площині"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Прямі та площини в просторі.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знання аксіом стереометрії, взаємного розміщення прямих у просторі.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/354/35428/ds-pr-math-2026-new-05.png\" style=\"height: auto;\" width=\"214\"/>\n</div>\n<br/>\n<p>\n<b>Висота конуса</b> <latex>(H)</latex> – це відрізок, що сполучає вершину конуса із центром його основи. <b>Твірна конуса</b> <latex>(L)</latex> – це відрізок, що сполучає вершину конуса з будь-якою точкою кола основи.\r\n </p>\n<p>\r\n Оскільки висота й твірна конуса мають спільну точку (перетинаються у вершині), вони, за визначенням, лежать в одній площині. \r\n </p>\n<p>\r\n За аксіомою стереометрії, якщо дві прямі мають спільну точку, то через них можна провести площину, і до того ж тільки одну.\r\n </p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Прямі та площини в просторі.\r\n Завдання скеровано на перевірку знання аксіом стереометрії, взаємного розміщення прямих у просторі.\r\n Висота конуса (H) – це відрізок, що сполучає вершину конуса із центром його основи. Твірна конуса (L) – це відрізок, що сполучає вершину конуса з будь-якою точкою кола основи.\r\n Оскільки висота й твірна конуса мають спільну точку (перетинаються у вершині), вони, за визначенням, лежать в одній площині. \r\n За аксіомою стереометрії, якщо дві прямі мають спільну точку, то через них можна провести площину, і до того ж тільки одну.\r\n Відповідь: Д.",
+   "topic": "Прямі та площини в просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/354/35428/ds-pr-math-2026-new-05.png"
+   ],
+   "text": "Висота конуса та його твірна лежать на прямих, що",
+   "latex": [],
+   "source_test": 712,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 35774,
+   "tip": 1,
+   "out_order": 34,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено чотирикутну піраміду <latex>SABCD.</latex> Скільки прямих, перпендикулярних до висоти <latex>SO</latex>, лежать у площині основи <latex>ABCD</latex>?\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/357/35774/12-var-06.png\" style=\"height: auto;\" width=\"261\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодної"
+    },
+    {
+     "marker": "Б",
+     "html": "лише одна"
+    },
+    {
+     "marker": "В",
+     "html": "лише дві"
+    },
+    {
+     "marker": "Г",
+     "html": "лише три"
+    },
+    {
+     "marker": "Д",
+     "html": "безліч"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Прямі та площини в просторі. Многогранники. \r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знання взаємного розміщення прямих і площин у просторі, властивостей піраміди. \r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/357/35774/decide-12-variant-06.png\" style=\"height: auto;\" width=\"263\"/>\n</div>\n<p>\r\n Висота піраміди <latex>SO</latex> перпендикулярна до основи <latex>ABCD.</latex> За властивістю перпендикулярності прямої і площини, якщо <latex>SO\\ \\perp\\ (ABC)</latex>, то <latex>SO</latex> перпендикулярна до будь-якої прямої в площині <latex>(ABC)</latex>, а площина <latex>(ABC)</latex> містить безліч прямих.\r\n </p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Прямі та площини в просторі. Многогранники. \r\n Завдання скеровано на перевірку знання взаємного розміщення прямих і площин у просторі, властивостей піраміди. \r\n Висота піраміди SO перпендикулярна до основи ABCD. За властивістю перпендикулярності прямої і площини, якщо SO\\ \\perp\\ (ABC) , то SO перпендикулярна до будь-якої прямої в площині (ABC) , а площина (ABC) містить безліч прямих.\r\n Відповідь: Д.",
+   "topic": "Прямі та площини в просторі. Многогранники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/357/35774/12-var-06.png",
+    "https://zno.osvita.ua/doc/images/znotest/357/35774/decide-12-variant-06.png"
+   ],
+   "text": "На рисунку зображено чотирикутну піраміду SABCD. Скільки прямих, перпендикулярних до висоти SO , лежать у площині основи ABCD ?",
+   "latex": [
+    "SABCD.",
+    "SO",
+    "ABCD"
+   ],
+   "source_test": 702,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 35792,
+   "tip": 1,
+   "out_order": 35,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено трикутну піраміду <latex>SABC.</latex> Скільки різних площин, паралельних площині основи піраміди, можна провести через точку <latex>S</latex>?\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/357/35792/13-var-02.png\" style=\"width: 203px; height: auto;\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодної"
+    },
+    {
+     "marker": "Б",
+     "html": "лише одну"
+    },
+    {
+     "marker": "В",
+     "html": "лише дві"
+    },
+    {
+     "marker": "Г",
+     "html": "лише три"
+    },
+    {
+     "marker": "Д",
+     "html": "більше трьох"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Прямі та площини в просторі. Многогранники.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знання взаємного розміщення прямих і площин у просторі, властивостей піраміди.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/357/35792/decide-13-variant-02.png\" style=\"height: auto;\" width=\"203\"/>\n</div>\n<p>\r\n За властивістю паралельних площин: через точку, яка не лежить у площині, можна провести площину, паралельну заданій, і до того ж тільки одну.\r\n </p>\n<p>\r\n Через точку <latex>S</latex> можна провести одну площину, паралельну основі піраміди.\r\n </p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Прямі та площини в просторі. Многогранники.\r\n Завдання скеровано на перевірку знання взаємного розміщення прямих і площин у просторі, властивостей піраміди.\r\n За властивістю паралельних площин: через точку, яка не лежить у площині, можна провести площину, паралельну заданій, і до того ж тільки одну.\r\n Через точку S можна провести одну площину, паралельну основі піраміди.\r\n Відповідь: Б.",
+   "topic": "Прямі та площини в просторі. Многогранники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/357/35792/13-var-02.png",
+    "https://zno.osvita.ua/doc/images/znotest/357/35792/decide-13-variant-02.png"
+   ],
+   "text": "На рисунку зображено трикутну піраміду SABC. Скільки різних площин, паралельних площині основи піраміди, можна провести через точку S ?",
+   "latex": [
+    "SABC.",
+    "S"
+   ],
+   "source_test": 703,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 36549,
+   "tip": 1,
+   "out_order": 36,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1</latex>, у якому точки <latex>M</latex>, <latex>K</latex>, <latex>N</latex>, <latex>L</latex> ділять навпіл ребра <latex>AD</latex>, <latex>A_1D_1</latex>, <latex>D_1C_1</latex>, <latex>DC</latex> відповідно. Визначте площину, що паралельна площині <latex>MKN.</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/365/36549/pr-sim-05-new.png\" style=\"height: auto;\" width=\"210\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>AA_1D_1</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>ABC</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>B_1D_1D</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>AA_1B_1</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>AA_1C_1</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Прямі та площини в просторі. </strong></p>\n<p>Завдання скеровано на перевірку вміння визначати взаємне розміщення площин у просторі.</p>\n<p><b>А</b> Площини перетинаються по прямій <latex>MK{:}</latex></p>\n<latex>\\begin{gather*} AA_1D_1\\cap MKN=MK. \\end{gather*}</latex>\n<p> </p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/365/36549/pr-sim-05-1.png\" style=\"height: auto;\" width=\"212\"/></div>\n<p> </p>\n<p><b>Б</b> Площини перетинаються по прямій <latex>ML{:}</latex></p>\n<p><latex>\\begin{gather*} ABC\\cap MKN=ML. \\end{gather*}</latex></p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/365/36549/pr-sim-05-2.png\" style=\"height: auto;\" width=\"212\"/></div>\n<p> </p>\n<p><b>B</b> Площини перетинаються по прямій <latex>PQ{:}</latex></p>\n<p><latex>\\begin{gather*} B_1D_1D\\cap MKN=PQ. \\end{gather*}</latex></p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/365/36549/pr-sim-05-3-new.png\" style=\"height: auto;\" width=\"212\"/></div>\n<p> </p>\n<p><b>Г</b> Продовживши зображення площин, можна побачити, що вони перетинаються по прямій <latex>GF{:}</latex></p>\n<p><latex>\\begin{gather*} AA_1B_1\\cap MKN=GF. \\end{gather*}</latex></p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/365/36549/pr-sim-05-4-new.png\" style=\"height: auto;\" width=\"230\"/></div>\n<p> </p>\n<p><b>Д</b> Площини <latex>AA_1C_1</latex> та <latex>MKN</latex> паралельні:</p>\n<p> </p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/365/36549/pr-sim-05-5-new.png\" style=\"height: auto;\" width=\"212\"/></div>\n<p> </p>\n<p><strong>Відповідь: Д.</strong></p>\n<p> </p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Прямі та площини в просторі. \n Завдання скеровано на перевірку вміння визначати взаємне розміщення площин у просторі.\n А Площини перетинаються по прямій MK{:} \n \\begin{gather*} AA_1D_1\\cap MKN=MK. \\end{gather*} \n Б Площини перетинаються по прямій ML{:} \n \\begin{gather*} ABC\\cap MKN=ML. \\end{gather*} \n B Площини перетинаються по прямій PQ{:} \n \\begin{gather*} B_1D_1D\\cap MKN=PQ. \\end{gather*} \n Г Продовживши зображення площин, можна побачити, що вони перетинаються по прямій GF{:} \n \\begin{gather*} AA_1B_1\\cap MKN=GF. \\end{gather*} \n Д Площини AA_1C_1 та MKN паралельні:\n Відповідь: Д.",
+   "topic": "Геометрія. Прямі та площини в просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/365/36549/pr-sim-05-new.png",
+    "https://zno.osvita.ua/doc/images/znotest/365/36549/pr-sim-05-1.png",
+    "https://zno.osvita.ua/doc/images/znotest/365/36549/pr-sim-05-2.png",
+    "https://zno.osvita.ua/doc/images/znotest/365/36549/pr-sim-05-3-new.png",
+    "https://zno.osvita.ua/doc/images/znotest/365/36549/pr-sim-05-4-new.png",
+    "https://zno.osvita.ua/doc/images/znotest/365/36549/pr-sim-05-5-new.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1 , у якому точки M , K , N , L ділять навпіл ребра AD , A_1D_1 , D_1C_1 , DC відповідно. Визначте площину, що паралельна площині MKN.",
+   "latex": [
+    "ABCDA_1B_1C_1D_1",
+    "M",
+    "K",
+    "N",
+    "L",
+    "AD",
+    "A_1D_1",
+    "D_1C_1",
+    "DC",
+    "MKN.",
+    "AA_1D_1",
+    "ABC",
+    "B_1D_1D",
+    "AA_1B_1",
+    "AA_1C_1"
+   ],
+   "source_test": 761,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 38389,
+   "tip": 1,
+   "out_order": 37,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1.</latex> Яка пряма лежить у площині <latex>BB_1C_1\\)?</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/383/38389/2-var-02.png\" style=\"height: auto;\" width=\"215\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>AB</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>B_1D_1</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>A_1C</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>AD</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>B_1C</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Прямі та площини у просторі. </strong></p>\n<p>Завдання перевіряє знання аксіом стереометрії та взаємного розміщення прямих і площин у просторі.</p>\n<p>Площина <latex>BB_1C_1</latex> – це площина бічної грані куба, яка містить чотири вершини: <latex>B</latex>, <latex>B_1</latex>, <latex>C_1</latex> та <latex>C</latex> (тобто <span style=\"white-space:nowrap\">це грань <latex>BB_1C_1C</latex>).</span></p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/383/38389/dc-34-var-02-new.png\" style=\"height: auto;\" width=\"219\"/></div>\n<p>Застосуймо<b> аксіому стереометрії</b>: пряма лежить у площині, якщо принаймні дві її точки належать цій площині.</p>\n<p> </p>\n<p><latex>B_1C</latex> – діагональ бічної грані <latex>BB_1C_1C.</latex> Оскільки обидві точки <latex>B_1</latex> і <latex>C</latex> лежать у площині цієї грані, то й уся пряма <latex>B_1C</latex> лежить у площині <latex>BB_1C_1.</latex></p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Прямі та площини у просторі. \n Завдання перевіряє знання аксіом стереометрії та взаємного розміщення прямих і площин у просторі.\n Площина BB_1C_1 – це площина бічної грані куба, яка містить чотири вершини: B , B_1 , C_1 та C (тобто це грань BB_1C_1C ). \n Застосуймо аксіому стереометрії : пряма лежить у площині, якщо принаймні дві її точки належать цій площині.\n B_1C – діагональ бічної грані BB_1C_1C. Оскільки обидві точки B_1 і C лежать у площині цієї грані, то й уся пряма B_1C лежить у площині BB_1C_1. \n Відповідь: Д.",
+   "topic": "Прямі та площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/383/38389/2-var-02.png",
+    "https://zno.osvita.ua/doc/images/znotest/383/38389/dc-34-var-02-new.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1. Яка пряма лежить у площині BB_1C_1\\)?",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "BB_1C_1\\)?",
+    "AB",
+    "B_1D_1",
+    "A_1C",
+    "AD",
+    "B_1C"
+   ],
+   "source_test": 805,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 38956,
+   "tip": 1,
+   "out_order": 38,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1.</latex> Визначте пряму перетину площин <latex>(BB_1C_1)</latex> і <latex>(CDD_1).</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/389/38956/41-var-06.png\" style=\"height: auto;\" width=\"217\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>DD_1</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>CC_1</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>BB_1</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>BC</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>AC_1</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Прямі й площини у просторі. </strong></p>\n<p>Завдання перевіряє знання аксіом стереометрії і взаємного розміщення площин у просторі.</p>\n<p>Щоб визначити пряму перетину двох площин, достатньо знайти дві спільні точки, які належать обом площинам.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/389/38956/dc-41-var-06.png\" style=\"height: auto;\" width=\"215\"/></div>\n<p>Площина <latex>(BB_1C_1)</latex> містить грань <latex>BB_1C_1C</latex>, а площина <latex>(CDD_1)</latex> – грань <latex>CDD_1C_1.</latex> Обидві площини проходять через спільні вершини <latex>C</latex> та <latex>C_1.</latex> Оскільки дві різні точки задають єдину пряму, то пряма <latex>CC_1</latex> є прямою перетину цих площин.</p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Прямі й площини у просторі. \n Завдання перевіряє знання аксіом стереометрії і взаємного розміщення площин у просторі.\n Щоб визначити пряму перетину двох площин, достатньо знайти дві спільні точки, які належать обом площинам.\n Площина (BB_1C_1) містить грань BB_1C_1C , а площина (CDD_1) – грань CDD_1C_1. Обидві площини проходять через спільні вершини C та C_1. Оскільки дві різні точки задають єдину пряму, то пряма CC_1 є прямою перетину цих площин.\n Відповідь: Б.",
+   "topic": "Прямі й площини у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/389/38956/41-var-06.png",
+    "https://zno.osvita.ua/doc/images/znotest/389/38956/dc-41-var-06.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1. Визначте пряму перетину площин (BB_1C_1) і (CDD_1).",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "(BB_1C_1)",
+    "(CDD_1).",
+    "DD_1",
+    "CC_1",
+    "BB_1",
+    "BC",
+    "AC_1"
+   ],
+   "source_test": 835,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 38977,
+   "tip": 1,
+   "out_order": 39,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено піраміду <latex>SABCD.</latex> Скільки всього прямих, які містять ребра піраміди, паралельні площині <latex>SBD</latex>?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/389/38977/pr-sim-2-05.png\" style=\"height: auto;\" width=\"264\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодної"
+    },
+    {
+     "marker": "Б",
+     "html": "лише одна"
+    },
+    {
+     "marker": "В",
+     "html": "лише дві"
+    },
+    {
+     "marker": "Г",
+     "html": "лише три"
+    },
+    {
+     "marker": "Д",
+     "html": "безліч"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Прямі та площини в просторі. </strong></p>\n<p>Завдання перевіряє вміння визначати прямі, паралельні площині.</p>\n<p>Зазначмо всі ребра наведеної піраміди. Бічні ребра: <latex>SA</latex>, <latex>SB</latex>, <latex>SC</latex>, <latex>SD.</latex> Ребра основи: <latex>AB</latex>, <latex>BC</latex>, <latex>CD</latex>, <latex>AD.</latex></p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/389/38977/dc-pr-sim-2-05.png\" style=\"height: auto;\" width=\"259\"/></div>\n<p>Оскільки пряма, яка паралельна площині, не повинна мати із нею спільних точок, визначмо, які з-поміж зазначених ребер не мають спільних точок із площиною <latex>SBD{:}</latex></p>\n<ul>\n<li>ребра <latex>SB</latex>, <latex>SD</latex> належать площині <latex>SBD</latex>;</li>\n<li>ребра <latex>SA</latex>, <latex>SC</latex> мають із площиною <latex>SBD</latex> спільну точку <latex>S</latex>;</li>\n<li>ребра <latex>AB</latex>, <latex>BC</latex> мають із площиною <latex>SBD</latex> спільну точку <latex>B</latex>;</li>\n<li>ребра <latex>CD</latex>, <latex>AD</latex> мають із площиною <latex>SBD</latex> спільну точку <latex>D.</latex></li>\n</ul>\n<p>Отже, кожна пряма, що містить ребро піраміди <latex>SABCD</latex>, має принаймні одну спільну точку з площиною <latex>SBD.</latex> Тобто прямих, які містять ребра піраміди й паралельні площині <latex>SBD</latex>, немає.</p>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Прямі та площини в просторі. \n Завдання перевіряє вміння визначати прямі, паралельні площині.\n Зазначмо всі ребра наведеної піраміди. Бічні ребра: SA , SB , SC , SD. Ребра основи: AB , BC , CD , AD. \n Оскільки пряма, яка паралельна площині, не повинна мати із нею спільних точок, визначмо, які з-поміж зазначених ребер не мають спільних точок із площиною SBD{:} \n ребра SB , SD належать площині SBD ;\n ребра SA , SC мають із площиною SBD спільну точку S ;\n ребра AB , BC мають із площиною SBD спільну точку B ;\n ребра CD , AD мають із площиною SBD спільну точку D. \n Отже, кожна пряма, що містить ребро піраміди SABCD , має принаймні одну спільну точку з площиною SBD. Тобто прямих, які містять ребра піраміди й паралельні площині SBD , немає.\n Відповідь: A.",
+   "topic": "Геометрія. Прямі та площини в просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/389/38977/pr-sim-2-05.png",
+    "https://zno.osvita.ua/doc/images/znotest/389/38977/dc-pr-sim-2-05.png"
+   ],
+   "text": "На рисунку зображено піраміду SABCD. Скільки всього прямих, які містять ребра піраміди, паралельні площині SBD ?",
+   "latex": [
+    "SABCD.",
+    "SBD"
+   ],
+   "source_test": 843,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 39987,
+   "tip": 1,
+   "out_order": 40,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1.</latex> Яка пряма паралельна прямій <latex>AB_1\\)?</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/399/39987/44-var-04.png\" style=\"height: auto;\" width=\"216\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>AD_1</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>CD_1</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>DC_1</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>A_1D</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>CD</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Стереометрія. Прямі та площини в просторі. Многогранники. </strong></p>\n<p>Завдання перевіряє знання ознаки паралельності прямої та площини, а також властивостей призми.</p>\n<p>Пряма <latex>AB_1</latex> є діагоналлю лівої грані куба <latex>ABB_1A_1.</latex></p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/399/39987/dc-44-var-04.png\" style=\"height: auto;\" width=\"217\"/></div>\n<p>Протилежна й паралельна їй грань – це <latex>DCC_1D_1.</latex> Відповідна паралельна діагональ у цій грані – пряма <latex>DC_1</latex> (чотирикутник <latex>ADC_1B_1</latex> є паралелограмом, <span style=\"white-space:nowrap\">тому <latex>AB_1\\!\\parallel\\!DC_1</latex>).</span></p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Прямі та площини в просторі. Многогранники. \n Завдання перевіряє знання ознаки паралельності прямої та площини, а також властивостей призми.\n Пряма AB_1 є діагоналлю лівої грані куба ABB_1A_1. \n Протилежна й паралельна їй грань – це DCC_1D_1. Відповідна паралельна діагональ у цій грані – пряма DC_1 (чотирикутник ADC_1B_1 є паралелограмом, тому AB_1\\!\\parallel\\!DC_1 ). \n Відповідь: B.",
+   "topic": "Геометрія. Стереометрія. Прямі та площини в просторі. Многогранники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/399/39987/44-var-04.png",
+    "https://zno.osvita.ua/doc/images/znotest/399/39987/dc-44-var-04.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1. Яка пряма паралельна прямій AB_1\\)?",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "AB_1\\)?",
+    "AD_1",
+    "CD_1",
+    "DC_1",
+    "A_1D",
+    "CD"
+   ],
+   "source_test": 838,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 40094,
+   "tip": 1,
+   "out_order": 41,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено куб <latex>ABCDA_1B_1C_1D_1.</latex> Скільки всього є прямих, кожна з яких проходить через дві вершини грані <latex>A_1B_1C_1D_1</latex> і паралельна площині грані <latex>ABCD</latex>?\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/400/40094/45-var-05.png\" style=\"height: auto;\" width=\"210\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодної"
+    },
+    {
+     "marker": "Б",
+     "html": "лише дві"
+    },
+    {
+     "marker": "В",
+     "html": "лише чотири"
+    },
+    {
+     "marker": "Г",
+     "html": "лише шість"
+    },
+    {
+     "marker": "Д",
+     "html": "більше за шість"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Стереометрія. Паралельність прямих і площин у просторі. </strong></p>\n<p>Завдання перевіряє вміння визначати взаємне розташування площин у просторі.</p>\n<p>Площина грані <latex>A_1B_1C_1D_1</latex> паралельна площині грані <latex>ABCD</latex> як протилежній грані куба. За означенням, <b>будь-яка</b> пряма, що лежить у площині <latex>(A_1B_1C_1D_1)</latex>, паралельна площині <latex>(ABCD).</latex></p>\n<p>Визначмо кількість усіх прямих, що проходять через обидві вершини чотирикутника <latex>A_1B_1C_1D_1{:}</latex></p>\n<ul>\n<li><latex>4</latex> прямі, що містять сторони (позначені <b>блакитним</b> кольором): <latex>A_1B_1</latex>, <latex>B_1C_1</latex>, <latex>C_1D_1</latex>, <latex>D_1A_1</latex>;</li>\n<li><latex>2</latex> прямі, що містять діагоналі (позначені <b>червоним</b> кольором): <latex>A_1C_1</latex>, <latex>B_1D_1.</latex></li>\n</ul>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/400/40094/dc-45-var-05-new.png\" style=\"height: auto;\" width=\"216\"/></div>\n<p>Усього таких прямих: <latex>4+2=6.</latex></p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Паралельність прямих і площин у просторі. \n Завдання перевіряє вміння визначати взаємне розташування площин у просторі.\n Площина грані A_1B_1C_1D_1 паралельна площині грані ABCD як протилежній грані куба. За означенням, будь-яка пряма, що лежить у площині (A_1B_1C_1D_1) , паралельна площині (ABCD). \n Визначмо кількість усіх прямих, що проходять через обидві вершини чотирикутника A_1B_1C_1D_1{:} \n 4 прямі, що містять сторони (позначені блакитним кольором): A_1B_1 , B_1C_1 , C_1D_1 , D_1A_1 ;\n 2 прямі, що містять діагоналі (позначені червоним кольором): A_1C_1 , B_1D_1. \n Усього таких прямих: 4+2=6. \n Відповідь: Г.",
+   "topic": "Геометрія. Стереометрія. Паралельність прямих і площин у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/400/40094/45-var-05.png",
+    "https://zno.osvita.ua/doc/images/znotest/400/40094/dc-45-var-05-new.png"
+   ],
+   "text": "На рисунку зображено куб ABCDA_1B_1C_1D_1. Скільки всього є прямих, кожна з яких проходить через дві вершини грані A_1B_1C_1D_1 і паралельна площині грані ABCD ?",
+   "latex": [
+    "ABCDA_1B_1C_1D_1.",
+    "A_1B_1C_1D_1",
+    "ABCD"
+   ],
+   "source_test": 839,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  },
+  {
+   "id": 40273,
+   "tip": 1,
+   "out_order": 42,
+   "type": "single_choice",
+   "question_html": "<p>Через вершину <latex>C</latex> ромба <latex>ABCD</latex> проведено перпендикуляр <latex>PC</latex> до площини ромба. Діагоналі ромба перетинаються в точці <latex>O.</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/402/40273/47-var-07-new.png\" style=\"height: auto;\" width=\"295\"/></p>\n<p>Яка пряма перпендикулярна до прямої \\(PO\\)?</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>BD</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>CD</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>BC</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>PC</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>AC</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Стереометрія. Перпендикулярність прямих і площин у просторі. </strong></p>\n<p>Завдання перевіряє вміння застосовувати теорему про три перпендикуляри та властивості діагоналей ромба для визначення перпендикулярності прямих у просторі.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/402/40273/dc-47-var-07.png\" style=\"height: auto;\" width=\"295\"/></div>\n<p>Оскільки <latex>PC\\!\\perp\\!(ABC)</latex>, відрізок <latex>CO</latex> є проєкцією похилої <latex>PO</latex> на площину ромба <latex>ABCD.</latex> За властивістю діагоналей ромба вони перетинаються під прямим кутом: <latex>BD\\!\\perp\\!AC</latex> (а отже, <span style=\"white-space:nowrap\"><latex>BD\\!\\perp\\!CO</latex>).</span></p>\n<p>За <b>теоремою про три перпендикуляри</b>: якщо пряма <latex>BD</latex>, яка лежить у площині, перпендикулярна до проєкції <latex>CO</latex>, то вона перпендикулярна й до самої похилої <latex>PO.</latex> Тобто <latex>BD\\!\\perp\\!PO.</latex></p>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Перпендикулярність прямих і площин у просторі. \n Завдання перевіряє вміння застосовувати теорему про три перпендикуляри та властивості діагоналей ромба для визначення перпендикулярності прямих у просторі.\n Оскільки PC\\!\\perp\\!(ABC) , відрізок CO є проєкцією похилої PO на площину ромба ABCD. За властивістю діагоналей ромба вони перетинаються під прямим кутом: BD\\!\\perp\\!AC (а отже, BD\\!\\perp\\!CO ). \n За теоремою про три перпендикуляри : якщо пряма BD , яка лежить у площині, перпендикулярна до проєкції CO , то вона перпендикулярна й до самої похилої PO. Тобто BD\\!\\perp\\!PO. \n Відповідь: A.",
+   "topic": "Геометрія. Стереометрія. Перпендикулярність прямих і площин у просторі.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/402/40273/47-var-07-new.png",
+    "https://zno.osvita.ua/doc/images/znotest/402/40273/dc-47-var-07.png"
+   ],
+   "text": "Через вершину C ромба ABCD проведено перпендикуляр PC до площини ромба. Діагоналі ромба перетинаються в точці O. \n Яка пряма перпендикулярна до прямої \\(PO\\)?",
+   "latex": [
+    "C",
+    "ABCD",
+    "PC",
+    "O.",
+    "BD",
+    "CD",
+    "BC",
+    "PC",
+    "AC"
+   ],
+   "source_test": 875,
+   "subject": "mathematics",
+   "topic_slug": "pryami_ta_ploshini_u_prostori"
+  }
+ ],
+ "questions_count": 42
+}

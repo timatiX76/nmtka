@@ -1,0 +1,673 @@
+{
+ "subject": "mathematics",
+ "topic": {
+  "slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan",
+  "name": "Розв’язування задач за допомогою рівнянь і систем рівнянь (19 завдань) 0%",
+  "url": "https://zno.osvita.ua/mathematics/tag-rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan/"
+ },
+ "questions": [
+  {
+   "id": 4330,
+   "tip": 8,
+   "out_order": 1,
+   "type": "short_answer",
+   "question_html": "<p>\r\n В автобусному парку налічується <latex>n</latex> автобусів, шосту частину яких було обладнано інформаційними табло. Пізніше інформаційні табло встановили ще на <latex>4</latex> автобуси з наявних у парку. Після проведеного переобладнання навмання вибирають один з <latex>n</latex> автобусів парку. Ймовірність того, що це буде автобус з інформаційним табло, становить <latex>0{,}25.</latex> Визначте <latex>n.</latex> Уважайте, що кожен автобус обладнується лише одним табло.\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "48",
+   "correct": [
+    "48"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Числа та вирази. Текстові задачі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння розв'язувати текстові задачі за допомогою складання рівняння.\r\n </p>\n<p>\r\n В автобусному парку <latex>n</latex> автобусів.\r\n Обладнано інформаційним табло:\r\n <latex>\\dfrac{1}{6}n</latex> та <latex>4</latex> автобуси.\r\n </p>\n<p>\r\n Усього автобусів з інформаційним табло <latex>\\left(\\dfrac{1}{6}n + 4\\right)</latex>.\r\n </p>\n<p>\r\n Імовірність того, що це буде автобус з інформаційним табло становить <latex>0{,}25.</latex>\n</p>\n<p>\r\n Отже,\r\n </p>\n<latex>\\begin{gather*}\r\n P=\\frac{\\dfrac{1}{6}n+4}{n}=\\frac{1}{4},\\\\[6pt]\r\n \\frac{4}{6}n+16=n,\\\\[6pt]\r\n n-\\frac{4}{6}n=16,\\\\[6pt]\r\n \\frac{2}{6}n=16,\\\\[6pt]\r\n n=\\frac{16\\cdot 6}{2},\\\\[6pt]\r\n n=48.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>48.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Числа та вирази. Текстові задачі.\r\n Це завдання перевіряє вміння розв'язувати текстові задачі за допомогою складання рівняння.\r\n В автобусному парку n автобусів.\r\n Обладнано інформаційним табло:\r\n \\dfrac{1}{6}n та 4 автобуси.\r\n Усього автобусів з інформаційним табло \\left(\\dfrac{1}{6}n + 4\\right) .\r\n Імовірність того, що це буде автобус з інформаційним табло становить 0{,}25. \n Отже,\r\n \\begin{gather*}\r\n P=\\frac{\\dfrac{1}{6}n+4}{n}=\\frac{1}{4},\\\\[6pt]\r\n \\frac{4}{6}n+16=n,\\\\[6pt]\r\n n-\\frac{4}{6}n=16,\\\\[6pt]\r\n \\frac{2}{6}n=16,\\\\[6pt]\r\n n=\\frac{16\\cdot 6}{2},\\\\[6pt]\r\n n=48.\r\n \\end{gather*} \n Відповідь: 48.",
+   "topic": "Алгебра і початки аналізу. Числа та вирази. Текстові задачі.",
+   "images": [],
+   "text": "В автобусному парку налічується n автобусів, шосту частину яких було обладнано інформаційними табло. Пізніше інформаційні табло встановили ще на 4 автобуси з наявних у парку. Після проведеного переобладнання навмання вибирають один з n автобусів парку. Ймовірність того, що це буде автобус з інформаційним табло, становить 0{,}25. Визначте n. Уважайте, що кожен автобус обладнується лише одним табло.",
+   "latex": [
+    "n",
+    "4",
+    "n",
+    "0{,}25.",
+    "n."
+   ],
+   "source_test": 1,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 5335,
+   "tip": 4,
+   "out_order": 2,
+   "type": "single_choice",
+   "question_html": "<p>\r\n З пунктів <latex>A</latex> i <latex>B</latex> одночасно по шосе назустріч один одному виїхали два велосипедисти. Вони їхали без зупинок зі сталими швидкостями: перший – зі швидкістю <latex>x</latex> км/год, другий – зі швидкістю <latex>y</latex> км/год <latex>(x\\gt y).</latex> Через <latex>t</latex> годин <latex>(t\\gt 1)</latex> вони зустрілися в точці <latex>C</latex> і, не зупиняючись, продовжили рух без зміни напрямків. До кожного запитання (1–4) доберіть правильну відповідь (А – Д).\r\n </p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "На скільки кілометрів зменшилася відстань по шосе між велосипедистами через <latex>1</latex> годину після початку руху?"
+    },
+    {
+     "marker": "2",
+     "html": "Чому дорівнює відстань по шосе між пунктами <latex>A</latex> i <latex>B</latex> (у км)?"
+    },
+    {
+     "marker": "3",
+     "html": "На скільки кілометрів більше проїхав перший велосипедист, ніж другий, за час від початку руху до моменту зустрічі?"
+    },
+    {
+     "marker": "4",
+     "html": "За скільки годин перший велосипедист подолає відстань по шосе від точки <latex>C</latex> до пункту <latex>B</latex>?"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>(x+y)t</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(x-y)t</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\dfrac{yt}{x}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\dfrac{(x-y)t}{y}</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>x+y</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Запитання",
+     "answers": [
+      {
+       "marker": "",
+       "html": "На скільки кілометрів зменшилася відстань по шосе між велосипедистами через <latex>1</latex> годину після початку руху?"
+      },
+      {
+       "marker": "",
+       "html": "Чому дорівнює відстань по шосе між пунктами <latex>A</latex> i <latex>B</latex> (у км)?"
+      },
+      {
+       "marker": "",
+       "html": "На скільки кілометрів більше проїхав перший велосипедист, ніж другий, за час від початку руху до моменту зустрічі?"
+      },
+      {
+       "marker": "",
+       "html": "За скільки годин перший велосипедист подолає відстань по шосе від точки <latex>C</latex> до пункту <latex>B</latex>?"
+      }
+     ]
+    },
+    {
+     "title": "Відповідь",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>(x+y)t</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>(x-y)t</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\dfrac{yt}{x}</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\dfrac{(x-y)t}{y}</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>x+y</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1e;2a;3b;4c",
+   "correct": [
+    "1e",
+    "2a",
+    "3b",
+    "4c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Алгебра і початки аналізу. Числа і вирази. Відношення та пропорції. </strong></p>\n<p>Це завдання перевіряє вміння застосовувати рівняння до розв’язування текстових задач.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/53/5335/ds-ds-math-2013-new-21.png\" style=\"height: auto;\" width=\"439\"/></div>\n<p> </p>\n<p><b>1</b>. За <latex>1</latex> годину велосипедисти пройдуть <latex>(x + y) \\cdot 1 = x + y</latex> км. На <latex>(x + y)</latex> зменшилась відстань по шосе між велосипедистами. Отже, 1 – Д.</p>\n<p> </p>\n<p> </p>\n<p><b>2</b>. Через <latex>t</latex> годин велосипедисти зустрілись. Отже, відстань між пунктами <latex>A</latex> і <latex>B</latex> <latex>(x + y)t.</latex> Отже, 2 – А.</p>\n<p> </p>\n<p> </p>\n<p><b>3</b>. За умовою <latex>x \\gt y.</latex> За <latex>1</latex> годину перший велосипедист проїхав більше ніж другий на <latex>(x - y)</latex> км. За <latex>t</latex> години різниця відстаней, які проїхали велосипедисти, становить: <latex>(x - y)t</latex>. Отже, 3 – Б.</p>\n<p> </p>\n<p><b>4</b>. Відстань <latex>CB = yt</latex> км. Час, за який перший подолає відстань <latex>CB</latex>: <latex>(yt/x)</latex> год. Отже, 4 – В.</p>\n<p><strong>Відповідь: 1 – Д, 2 – А, 3 – Б, 4 – В.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Відношення та пропорції. \n Це завдання перевіряє вміння застосовувати рівняння до розв’язування текстових задач.\n 1 . За 1 годину велосипедисти пройдуть (x + y) \\cdot 1 = x + y км. На (x + y) зменшилась відстань по шосе між велосипедистами. Отже, 1 – Д.\n 2 . Через t годин велосипедисти зустрілись. Отже, відстань між пунктами A і B (x + y)t. Отже, 2 – А.\n 3 . За умовою x \\gt y. За 1 годину перший велосипедист проїхав більше ніж другий на (x - y) км. За t години різниця відстаней, які проїхали велосипедисти, становить: (x - y)t . Отже, 3 – Б.\n 4 . Відстань CB = yt км. Час, за який перший подолає відстань CB : (yt/x) год. Отже, 4 – В.\n Відповідь: 1 – Д, 2 – А, 3 – Б, 4 – В.",
+   "topic": "Алгебра і початки аналізу. Числа і вирази. Відношення та пропорції.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/53/5335/ds-ds-math-2013-new-21.png"
+   ],
+   "text": "З пунктів A i B одночасно по шосе назустріч один одному виїхали два велосипедисти. Вони їхали без зупинок зі сталими швидкостями: перший – зі швидкістю x км/год, другий – зі швидкістю y км/год (x\\gt y). Через t годин (t\\gt 1) вони зустрілися в точці C і, не зупиняючись, продовжили рух без зміни напрямків. До кожного запитання (1–4) доберіть правильну відповідь (А – Д).",
+   "latex": [
+    "A",
+    "B",
+    "x",
+    "y",
+    "(x\\gt y).",
+    "t",
+    "(t\\gt 1)",
+    "C",
+    "1",
+    "A",
+    "B",
+    "C",
+    "B",
+    "(x+y)t",
+    "(x-y)t",
+    "\\dfrac{yt}{x}",
+    "\\dfrac{(x-y)t}{y}",
+    "x+y"
+   ],
+   "source_test": 2,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 6153,
+   "tip": 8,
+   "out_order": 3,
+   "type": "short_answer",
+   "question_html": "<p>Двоє робітників, працюючи разом, можуть скосити траву на ділянці за <latex>2</latex> години <nobr><latex>6</latex> хвилин.</nobr> Скільки часу (у годинах) витратить на скошування трави на цій ділянці другий робітник, працюючи самостійно, якщо йому потрібно на виконання цього завдання на <latex>4</latex> години більше, ніж першому робітникові?</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "7",
+   "correct": [
+    "7"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Рівняння і нерівності. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати рівняння, нерівності та їхні системи до розв’язування текстових задач.\r\n </p>\n<p>\r\n Нехай першому робітнику потрібно <latex>x</latex> годин на скошування трави, тоді другому потрібно – <latex>(x + 4)</latex> години.\r\n </p>\n<p>\r\n Якщо разом вони виконають цю роботу, то складемо рівняння:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n 2\\ \\text{години}\\ 6\\ \\text{хвилин}=2\\frac{6}{60}\\ \\text{год}=2 \\frac{1}{10}\\ \\text{год}=\\frac{21}{10};\\\\[6pt]\r\n \\frac 1x+\\frac{1}{x + 4} = \\frac{1}{21/10};\\\\[6pt]\r\n \\frac 1x + \\frac{1}{x + 4} = \\frac{10}{21};\\\\[6pt]\r\n \\frac{x + 4 + x}{x(x + 4)} = \\frac{10}{21};\\\\[6pt]\r\n \\frac{2x + 4}{x(x + 4)} = \\frac{10}{21}.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n ОДЗ: <latex>x \\ne 0</latex>, <latex>x \\ne -4.</latex>\n</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n 21(2x + 4) = 10x(x + 4);\\\\[7pt]\r\n 42x + 84 = 10x^2 + 40x;\\\\[7pt]\r\n 10x^2 - 2x - 84 = 0;\\\\[7pt]\r\n 5x^2 - x - 42 = 0;\\\\[7pt]\r\n D = (-1)^2 - 4 \\cdot 5(-42) = 1 + 840 = 841;\\\\[6pt]\r\n x_1 = \\frac{1 + 29}{10} = 3;\\\\[6pt]\r\n x_2 = \\frac{1 - 29}{10} = -2{,}8\\ \\text{не задовольняє умови задачі}.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n Другий робітник виконає цю роботу за\r\n </p>\n<latex>\\begin{gather*}\r\n 3 + 4 = 7\\ \\text{год}.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>7.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Рівняння і нерівності. \r\n Це завдання перевіряє вміння застосовувати рівняння, нерівності та їхні системи до розв’язування текстових задач.\r\n Нехай першому робітнику потрібно x годин на скошування трави, тоді другому потрібно – (x + 4) години.\r\n Якщо разом вони виконають цю роботу, то складемо рівняння:\r\n \\begin{gather*}\r\n 2\\ \\text{години}\\ 6\\ \\text{хвилин}=2\\frac{6}{60}\\ \\text{год}=2 \\frac{1}{10}\\ \\text{год}=\\frac{21}{10};\\\\[6pt]\r\n \\frac 1x+\\frac{1}{x + 4} = \\frac{1}{21/10};\\\\[6pt]\r\n \\frac 1x + \\frac{1}{x + 4} = \\frac{10}{21};\\\\[6pt]\r\n \\frac{x + 4 + x}{x(x + 4)} = \\frac{10}{21};\\\\[6pt]\r\n \\frac{2x + 4}{x(x + 4)} = \\frac{10}{21}.\r\n \\end{gather*} \n ОДЗ: x \\ne 0 , x \\ne -4. \n \\begin{gather*}\r\n 21(2x + 4) = 10x(x + 4);\\\\[7pt]\r\n 42x + 84 = 10x^2 + 40x;\\\\[7pt]\r\n 10x^2 - 2x - 84 = 0;\\\\[7pt]\r\n 5x^2 - x - 42 = 0;\\\\[7pt]\r\n D = (-1)^2 - 4 \\cdot 5(-42) = 1 + 840 = 841;\\\\[6pt]\r\n x_1 = \\frac{1 + 29}{10} = 3;\\\\[6pt]\r\n x_2 = \\frac{1 - 29}{10} = -2{,}8\\ \\text{не задовольняє умови задачі}.\r\n \\end{gather*} \n Другий робітник виконає цю роботу за\r\n \\begin{gather*}\r\n 3 + 4 = 7\\ \\text{год}.\r\n \\end{gather*} \n Відповідь: 7.",
+   "topic": "Алгебра і початки аналізу. Рівняння і нерівності.",
+   "images": [],
+   "text": "Двоє робітників, працюючи разом, можуть скосити траву на ділянці за 2 години 6 хвилин. Скільки часу (у годинах) витратить на скошування трави на цій ділянці другий робітник, працюючи самостійно, якщо йому потрібно на виконання цього завдання на 4 години більше, ніж першому робітникові?",
+   "latex": [
+    "2",
+    "6",
+    "4"
+   ],
+   "source_test": 122,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 6242,
+   "tip": 8,
+   "out_order": 4,
+   "type": "short_answer",
+   "question_html": "<p>Тарас може доїхати на велосипеді від села до станції за <latex>3</latex> год, а пішки дійти за <nobr><latex>7</latex> год.</nobr> Його швидкість пішки на <latex>8</latex> км/год менша, ніж на велосипеді. Знайдіть відстань від села до станції (у км).</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "42",
+   "correct": [
+    "42"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та їхні системи.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння розв’язувати текстові задачі за допомогою складання рівнянь.\r\n </p>\n<p>\r\n Нехай швидкість пішки <latex>x</latex> км/год, тоді на велосипеді – <latex>(x + 8)</latex> км/год.\r\n </p>\n<div class=\"table-responsive\">\n<table>\n<thead>\n<tr>\n<th></th>\n<th><latex>V</latex>, км/год</th>\n<th><latex>t</latex>, год</th>\n<th><latex>S</latex>, км</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Пішки:</td>\n<td><latex>x</latex></td>\n<td><latex>7</latex></td>\n<td><latex>7x</latex></td>\n</tr>\n<tr>\n<td>На велосипеді:</td>\n<td><latex>x + 8</latex></td>\n<td><latex>3</latex></td>\n<td><latex>3(x + 8)</latex></td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>\r\n Шлях пішки та на велосипеді однаковий, тому складемо рівняння: \r\n </p>\n<latex>\\begin{gather*}\r\n 7x = 3(x + 8);\\\\[7pt]\r\n 7x = 3x + 24;\\\\[7pt] \r\n 4x = 24;\\\\[7pt]\r\n x = 6.\r\n \\end{gather*}</latex>\n<p>\n<latex>6</latex> км/год – швидкість пішки.\r\n </p>\n<p>\r\n Отже, відстань від села до станції\r\n </p>\n<latex>\\begin{gather*}\r\n 6 \\cdot 7 = 42\\ \\text{км}.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>42.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та їхні системи.\r\n Це завдання перевіряє вміння розв’язувати текстові задачі за допомогою складання рівнянь.\r\n Нехай швидкість пішки x км/год, тоді на велосипеді – (x + 8) км/год.\r\n V , км/год \n t , год \n S , км \n Пішки: \n x \n 7 \n 7x \n На велосипеді: \n x + 8 \n 3 \n 3(x + 8) \n Шлях пішки та на велосипеді однаковий, тому складемо рівняння: \r\n \\begin{gather*}\r\n 7x = 3(x + 8);\\\\[7pt]\r\n 7x = 3x + 24;\\\\[7pt] \r\n 4x = 24;\\\\[7pt]\r\n x = 6.\r\n \\end{gather*} \n 6 км/год – швидкість пішки.\r\n Отже, відстань від села до станції\r\n \\begin{gather*}\r\n 6 \\cdot 7 = 42\\ \\text{км}.\r\n \\end{gather*} \n Відповідь: 42.",
+   "topic": "Алгебра і початки аналізу. Рівняння, нерівності та їхні системи.",
+   "images": [],
+   "text": "Тарас може доїхати на велосипеді від села до станції за 3 год, а пішки дійти за 7 год. Його швидкість пішки на 8 км/год менша, ніж на велосипеді. Знайдіть відстань від села до станції (у км).",
+   "latex": [
+    "3",
+    "7",
+    "8"
+   ],
+   "source_test": 124,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 6305,
+   "tip": 8,
+   "out_order": 5,
+   "type": "short_answer",
+   "question_html": "<p>При кожному пострілі в мішень спортсмен влучав або в «десятку», або в «дев'ятку», за що йому нараховувалося <latex>10</latex>, або <latex>9</latex> очок відповідно. За <latex>10</latex> пострілів він набрав <latex>94</latex> очки. Скільки разів з цих <latex>10</latex> пострілів спортсмен влучив у «дев'ятку»?</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "6",
+   "correct": [
+    "6"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та системи. Лінійні, квадратні, раціональні, ірраціональні, показникові, логарифмічні, тригонометричні рівняння, нерівності та їх системи. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння розв'язувати текстові задачі за допомогою складання рівнянь та їх систем.\r\n </p>\n<p>\r\n Нехай пострілів у «десятку» було <latex>x</latex>, а у «дев'ятку» – <latex>y.</latex>\n</p>\n<p>\r\n Усього пострілів зроблено <latex>10.</latex> Отже, <latex>x + y = 10.</latex>\n</p>\n<p>\r\n Усього спортсмен набрав <latex>94</latex> очки, отже, <latex>10x + 9y = 94.</latex>\n</p>\n<p>\r\n Розв'яжемо систему рівнянь методом додавання:\r\n </p>\n<latex>\\begin{gather*}\r\n \\left\\{\\begin{array}{l}\r\n x + y = 10,\\ |\\ \\cdot (-10)\\\\\r\n 10x + 9y = 94,\r\n \\end{array}\\right.\\\\[7pt]\r\n \\underline{\\left\\{\\begin{array}{l}\r\n -10x - 10y = -100, \\\\\r\n 10x + 9y = 94,\r\n \\end{array}\\right.}\\\\[7pt]\r\n -y=-6,\\\\[7pt]\r\n y=6.\r\n \\end{gather*}</latex>\n<p>\r\n Отже, у «дев'ятку» спортсмен влучив <latex>6</latex> разів.\r\n </p>\n<p><strong>Відповідь: </strong> <latex>6.</latex></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та системи. Лінійні, квадратні, раціональні, ірраціональні, показникові, логарифмічні, тригонометричні рівняння, нерівності та їх системи. \r\n Це завдання перевіряє вміння розв'язувати текстові задачі за допомогою складання рівнянь та їх систем.\r\n Нехай пострілів у «десятку» було x , а у «дев'ятку» – y. \n Усього пострілів зроблено 10. Отже, x + y = 10. \n Усього спортсмен набрав 94 очки, отже, 10x + 9y = 94. \n Розв'яжемо систему рівнянь методом додавання:\r\n \\begin{gather*}\r\n \\left\\{\\begin{array}{l}\r\n x + y = 10,\\ |\\ \\cdot (-10)\\\\\r\n 10x + 9y = 94,\r\n \\end{array}\\right.\\\\[7pt]\r\n \\underline{\\left\\{\\begin{array}{l}\r\n -10x - 10y = -100, \\\\\r\n 10x + 9y = 94,\r\n \\end{array}\\right.}\\\\[7pt]\r\n -y=-6,\\\\[7pt]\r\n y=6.\r\n \\end{gather*} \n Отже, у «дев'ятку» спортсмен влучив 6 разів.\r\n Відповідь: 6.",
+   "topic": "Алгебра і початки аналізу. Рівняння, нерівності та системи. Лінійні, квадратні, раціональні, ірраціональні, показникові, логарифмічні, тригонометричні рівняння, нерівності та їх системи.",
+   "images": [],
+   "text": "При кожному пострілі в мішень спортсмен влучав або в «десятку», або в «дев'ятку», за що йому нараховувалося 10 , або 9 очок відповідно. За 10 пострілів він набрав 94 очки. Скільки разів з цих 10 пострілів спортсмен влучив у «дев'ятку»?",
+   "latex": [
+    "10",
+    "9",
+    "10",
+    "94",
+    "10"
+   ],
+   "source_test": 126,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 6411,
+   "tip": 8,
+   "out_order": 6,
+   "type": "short_answer",
+   "question_html": "<p><latex>4</latex> кг огірків і <latex>5</latex> кг помідорів коштували <latex>44</latex> гривні. Після того як огірки подорожчали на <latex>50\\ \\%</latex>, а помідори подешевшали на <latex>40\\ \\%</latex>, за <latex>4</latex> кг огірків і <latex>5</latex> кг помідорів заплатили <latex>39</latex> гривень. Знайдіть початкову вартість <latex>x</latex> одного кілограма огірків і початкову вартість <latex>y</latex> одного кілограма помідорів. У відповідь запишіть <strong>суму</strong> <latex>x+y</latex> (у грн).</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "9.5",
+   "correct": [
+    "9.5"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та їхні системи.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння розв’язувати текстові задачі за допомогою рівнянь та їхніх систем.\r\n </p>\n<p>\r\n Нехай <latex>x</latex> грн коштували <latex>1</latex> кг огірків, <latex>y</latex> грн – <latex>1</latex> кг помідорів.\r\n </p>\n<p>\r\n За <latex>4</latex> кг огірків і <latex>5</latex> кг помідорів заплатили <latex>44</latex> гривні, отже, \r\n <latex>4x + 5y = 44.</latex>\n</p>\n<p>\r\n Після подорожчання огірків їхня ціна за <latex>1</latex> кг стала <latex>1{,}5x</latex> грн, а помідорів після подешевшання – <latex>0{,}6y</latex> грн за <latex>1</latex> кг.\r\n </p>\n<p>\r\n За <latex>4</latex> кг огірків та <latex>5</latex> кг помідорів заплатили <latex>39</latex> грн. \r\n </p>\n<latex>\\begin{gather*}\r\n 4 \\cdot 1{,}5x + 5 \\cdot 0{,}6y = 39.\r\n \\end{gather*}</latex>\n<p>\r\n Складемо систему:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n \\left\\{\\begin{array}{l}\r\n 4x + 5y = 44, \\\\\r\n 6x + 3y = 39\\ \\ |:3,\r\n \\end{array}\\right.\\ \\ \r\n \\left\\{\\begin{array}{l}\r\n 4x + 5y = 44, \\\\\r\n 2x + y = 13,\r\n \\end{array}\\right.\\\\[7pt]\r\n \\left\\{\\begin{array}{l}\r\n 4x+5(13-2x)=44,\\\\\r\n y=13-2x,\r\n \\end{array}\\right.\\ \\ \r\n \\left\\{\\begin{array}{l}\r\n -6x=-21,\\\\\r\n y=13-2x,\r\n \\end{array}\\right.\\\\[7pt]\r\n \\left\\{\\begin{array}{l}\r\n x=3{,}5,\\\\\r\n y=13-2\\cdot 3{,}5,\r\n \\end{array}\\right.\\ \\ \r\n \\left\\{\\begin{array}{l}\r\n x=3{,}5,\\\\\r\n y=6.\r\n \\end{array}\\right.\\\\[7pt]\r\n x + y = 3{,}5 + 6 = 9{,}5.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: <latex>9{,}5.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та їхні системи.\r\n Це завдання перевіряє вміння розв’язувати текстові задачі за допомогою рівнянь та їхніх систем.\r\n Нехай x грн коштували 1 кг огірків, y грн – 1 кг помідорів.\r\n За 4 кг огірків і 5 кг помідорів заплатили 44 гривні, отже, \r\n 4x + 5y = 44. \n Після подорожчання огірків їхня ціна за 1 кг стала 1{,}5x грн, а помідорів після подешевшання – 0{,}6y грн за 1 кг.\r\n За 4 кг огірків та 5 кг помідорів заплатили 39 грн. \r\n \\begin{gather*}\r\n 4 \\cdot 1{,}5x + 5 \\cdot 0{,}6y = 39.\r\n \\end{gather*} \n Складемо систему:\r\n \\begin{gather*}\r\n \\left\\{\\begin{array}{l}\r\n 4x + 5y = 44, \\\\\r\n 6x + 3y = 39\\ \\ |:3,\r\n \\end{array}\\right.\\ \\ \r\n \\left\\{\\begin{array}{l}\r\n 4x + 5y = 44, \\\\\r\n 2x + y = 13,\r\n \\end{array}\\right.\\\\[7pt]\r\n \\left\\{\\begin{array}{l}\r\n 4x+5(13-2x)=44,\\\\\r\n y=13-2x,\r\n \\end{array}\\right.\\ \\ \r\n \\left\\{\\begin{array}{l}\r\n -6x=-21,\\\\\r\n y=13-2x,\r\n \\end{array}\\right.\\\\[7pt]\r\n \\left\\{\\begin{array}{l}\r\n x=3{,}5,\\\\\r\n y=13-2\\cdot 3{,}5,\r\n \\end{array}\\right.\\ \\ \r\n \\left\\{\\begin{array}{l}\r\n x=3{,}5,\\\\\r\n y=6.\r\n \\end{array}\\right.\\\\[7pt]\r\n x + y = 3{,}5 + 6 = 9{,}5.\r\n \\end{gather*} \n Відповідь: 9{,}5.",
+   "topic": "Алгебра і початки аналізу. Рівняння, нерівності та їхні системи.",
+   "images": [],
+   "text": "4 кг огірків і 5 кг помідорів коштували 44 гривні. Після того як огірки подорожчали на 50\\ \\% , а помідори подешевшали на 40\\ \\% , за 4 кг огірків і 5 кг помідорів заплатили 39 гривень. Знайдіть початкову вартість x одного кілограма огірків і початкову вартість y одного кілограма помідорів. У відповідь запишіть суму x+y (у грн).",
+   "latex": [
+    "4",
+    "5",
+    "44",
+    "50\\ \\%",
+    "40\\ \\%",
+    "4",
+    "5",
+    "39",
+    "x",
+    "y",
+    "x+y"
+   ],
+   "source_test": 129,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 9454,
+   "tip": 8,
+   "out_order": 7,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У готелі для проживання туристів є одномісні, двомісні та тримісні номери. Їх всього <latex>124.</latex> Якщо всі номери в готелі заповенені, то одночасно в ньому проживає <span style=\"white-space:nowrap\"><latex>255</latex> туристів. </span> Скільки всього в цьому готелі тримісних номерів, якщо кількість одномісних номерів дорівнює кількості двомісних номерів?\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "46",
+   "correct": [
+    "46"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та їхні системи. Застосування рівнянь та їхніх систем до розв'язування текстових задач.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння розв'язувати текстові задачі за допомогою рівнянь та їх систем.\r\n </p>\n<p>\n<b>І спосіб.</b> Позначимо кількість тримісних номерів через <latex>n.</latex> Оскільки за умовою кількість одномісних номерів дорівнює кількості двомісних, то їх кількість становить\r\n <latex>$$\r\n \\frac{124-n}{2}\r\n $$</latex>\r\n номерів.\r\n </p>\n<p>\r\n В одномісних номерах при повному заповненні проживає\r\n <latex>$$\r\n \\frac{124-n}{2}\r\n $$</latex>\r\n туристів, в двомісних – \r\n <latex>$$\r\n 2\\cdot \\frac{124-n}{2}=124-n\r\n $$</latex>\r\n туристів, в тримісних – <latex>3n</latex> туристів.\r\n </p>\n<p>\r\n Складаємо рівняння\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n 1\\cdot \\frac{124-n}{2}+2\\frac{124-n}{2}+3n=255,\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n звідки отримуємо\r\n </p>\n<latex>\\begin{gather*}\r\n 124-n+2(124-n)+6n=510,\\\\[7pt]\r\n 124-n+248-2n+6n=510,\\\\[7pt]\r\n 3n=138,\\\\[7pt]\r\n n=46.\r\n \\end{gather*}</latex>\n<p>\r\n Отже, у готелі було всього <latex>46</latex> тримісних номерів.\r\n </p>\n<p>\n<b>ІІ спосіб.</b> Якщо ввести позначення: <latex>n</latex> – кількість тримісних номерів, <latex>k</latex> – кількість одномісних номерів, <latex>k</latex> – кількість двомісних номерів, то отримаємо систему рівнянь\r\n <latex>$$\r\n \\left\\{\\begin{array}{l}\r\n 2k+n=124,\\\\\r\n k+2k+3n=255,\r\n \\end{array}\\right.\r\n $$</latex>\r\n тобто\r\n <latex>$$\r\n \\left\\{\\begin{array}{l}\r\n 2k+n=124,\\\\\r\n k+n=85.\r\n \\end{array}\\right.\r\n $$</latex>\r\n Віднявши від першого рівняння друге, отримаємо <latex>k=39</latex>, тоді\r\n <latex>$$\r\n n=85-39=46.\r\n $$</latex>\n</p>\n<p><strong>Відповідь: <latex>46.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та їхні системи. Застосування рівнянь та їхніх систем до розв'язування текстових задач.\r\n Це завдання перевіряє вміння розв'язувати текстові задачі за допомогою рівнянь та їх систем.\r\n І спосіб. Позначимо кількість тримісних номерів через n. Оскільки за умовою кількість одномісних номерів дорівнює кількості двомісних, то їх кількість становить\r\n $$\r\n \\frac{124-n}{2}\r\n $$ \r\n номерів.\r\n В одномісних номерах при повному заповненні проживає\r\n $$\r\n \\frac{124-n}{2}\r\n $$ \r\n туристів, в двомісних – \r\n $$\r\n 2\\cdot \\frac{124-n}{2}=124-n\r\n $$ \r\n туристів, в тримісних – 3n туристів.\r\n Складаємо рівняння\r\n \\begin{gather*}\r\n 1\\cdot \\frac{124-n}{2}+2\\frac{124-n}{2}+3n=255,\r\n \\end{gather*} \n звідки отримуємо\r\n \\begin{gather*}\r\n 124-n+2(124-n)+6n=510,\\\\[7pt]\r\n 124-n+248-2n+6n=510,\\\\[7pt]\r\n 3n=138,\\\\[7pt]\r\n n=46.\r\n \\end{gather*} \n Отже, у готелі було всього 46 тримісних номерів.\r\n ІІ спосіб. Якщо ввести позначення: n – кількість тримісних номерів, k – кількість одномісних номерів, k – кількість двомісних номерів, то отримаємо систему рівнянь\r\n $$\r\n \\left\\{\\begin{array}{l}\r\n 2k+n=124,\\\\\r\n k+2k+3n=255,\r\n \\end{array}\\right.\r\n $$ \r\n тобто\r\n $$\r\n \\left\\{\\begin{array}{l}\r\n 2k+n=124,\\\\\r\n k+n=85.\r\n \\end{array}\\right.\r\n $$ \r\n Віднявши від першого рівняння друге, отримаємо k=39 , тоді\r\n $$\r\n n=85-39=46.\r\n $$ \n Відповідь: 46.",
+   "topic": "Алгебра і початки аналізу. Рівняння, нерівності та їхні системи. Застосування рівнянь та їхніх систем до розв'язування текстових задач.",
+   "images": [],
+   "text": "У готелі для проживання туристів є одномісні, двомісні та тримісні номери. Їх всього 124. Якщо всі номери в готелі заповенені, то одночасно в ньому проживає 255 туристів. Скільки всього в цьому готелі тримісних номерів, якщо кількість одномісних номерів дорівнює кількості двомісних номерів?",
+   "latex": [
+    "124.",
+    "255"
+   ],
+   "source_test": 191,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 10859,
+   "tip": 8,
+   "out_order": 8,
+   "type": "short_answer",
+   "question_html": "<p>\r\n Фабрика виготовляє комплекти пластикових меблів, кожен з яких складається зі стола, дивана та двох крісел. На виготовлення дивана витрачається на <latex>1</latex> кг пластику більше, ніж на виготовлення стола, та на <latex>3</latex> кг більше, ніж на виготовлення одного крісла. Відомо, що на виготовлення <latex>10</latex> крісел витрачається пластику стільки ж, як і на виготовлення <latex>2</latex> столів та <latex>4</latex> диванів разом. Скільки <b>кілограмів</b> пластику витрачається на виготовлення одного комплекту пластикових меблів?\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "21",
+   "correct": [
+    "21"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра та початки аналізу. Числа і вирази. Текстові задачі. Застосування рівнянь до розв'язування задач.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння розв'язувати текстові задачі, застосовувати рівняння до розв'язування задач.\r\n </p>\n<p>\r\n Розв'яжемо задачу складанням рівняння.\r\n </p>\n<p>\r\n Нехай на виготовлення <latex>1</latex> стола необхідно <latex>x</latex> пластику, тоді на <latex>1</latex> диван витрачають <latex>(x+1)</latex> кг, а на крісло – <latex>(x+1-3)</latex> кг.\r\n </p>\n<p>\r\n На <latex>10</latex> крісел витрачають стільки пластику, скільки на <latex>2</latex> стола та <latex>4</latex> дивана, тому\r\n </p>\n<latex>\\begin{gather*}\r\n 10(x-2)=2x+4(x+1),\\\\[7pt]\r\n 10x-20=2x+4x+4,\\\\[7pt]\r\n 10x-6x=4+20,\\\\[7pt]\r\n 4x=24,\\\\[7pt]\r\n x=6.\r\n \\end{gather*}</latex>\n<p>\r\n На <latex>1</latex> стiл витрачається пластику <latex>6</latex> кг, <latex>1</latex> диван – <latex>7</latex> кг, <latex>2</latex> крісла – <latex>2\\cdot 4=8</latex> кг.\r\n </p>\n<p>\r\n Отже, на виготовлення одного комплекту меблів витрачають\r\n <latex>$$\r\n 6+7+8=21\\ \\text{кг}\r\n $$</latex>\r\n пластику.\r\n </p>\n<p><strong>Відповідь: <latex>21.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра та початки аналізу. Числа і вирази. Текстові задачі. Застосування рівнянь до розв'язування задач.\r\n Це завдання перевіряє вміння розв'язувати текстові задачі, застосовувати рівняння до розв'язування задач.\r\n Розв'яжемо задачу складанням рівняння.\r\n Нехай на виготовлення 1 стола необхідно x пластику, тоді на 1 диван витрачають (x+1) кг, а на крісло – (x+1-3) кг.\r\n На 10 крісел витрачають стільки пластику, скільки на 2 стола та 4 дивана, тому\r\n \\begin{gather*}\r\n 10(x-2)=2x+4(x+1),\\\\[7pt]\r\n 10x-20=2x+4x+4,\\\\[7pt]\r\n 10x-6x=4+20,\\\\[7pt]\r\n 4x=24,\\\\[7pt]\r\n x=6.\r\n \\end{gather*} \n На 1 стiл витрачається пластику 6 кг, 1 диван – 7 кг, 2 крісла – 2\\cdot 4=8 кг.\r\n Отже, на виготовлення одного комплекту меблів витрачають\r\n $$\r\n 6+7+8=21\\ \\text{кг}\r\n $$ \r\n пластику.\r\n Відповідь: 21.",
+   "topic": "Алгебра та початки аналізу. Числа і вирази. Текстові задачі. Застосування рівнянь до розв'язування задач.",
+   "images": [],
+   "text": "Фабрика виготовляє комплекти пластикових меблів, кожен з яких складається зі стола, дивана та двох крісел. На виготовлення дивана витрачається на 1 кг пластику більше, ніж на виготовлення стола, та на 3 кг більше, ніж на виготовлення одного крісла. Відомо, що на виготовлення 10 крісел витрачається пластику стільки ж, як і на виготовлення 2 столів та 4 диванів разом. Скільки кілограмів пластику витрачається на виготовлення одного комплекту пластикових меблів?",
+   "latex": [
+    "1",
+    "3",
+    "10",
+    "2",
+    "4"
+   ],
+   "source_test": 221,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 12092,
+   "tip": 8,
+   "out_order": 9,
+   "type": "short_answer",
+   "question_html": "<p>\r\n Автобус вирушив з міста <latex>A</latex> до міста <latex>B</latex>, відстань між якими становить <latex>150</latex> <i>км</i>. Через <span style=\"white-space:nowrap\"><latex>30</latex> <i>хв</i></span> із міста <latex>A</latex> до міста <latex>B</latex> тією самою дорогою вирушив автомобіль, швидкість якого в <latex>1\\frac 15</latex> раза більша за швидкість автобуса. Скільки часу (у <i>год</i>) витратив на дорогу з міста <latex>A</latex> до міста <latex>B</latex> автомобіль, якщо він прибув до міста <latex>B</latex> одночасно з автобусом? Уважайте, що автобус та автомобіль рухалися зі сталими швидкостями.\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "2.5",
+   "correct": [
+    "2.5"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра та початки аналізу. Числа і вирази. Рівняння, нерівності та їхні системи.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння розв'язувати текстові задачі, застосовувати рівняння до розв'язування текстових задач, знання методів розв'язування раціональних рівнянь.\r\n </p>\n<p>\r\n Нехай швидкість автобуса <latex>x</latex> <i>км/год</i>, тоді швидкість автомобіля\r\n </p>\n<latex display=\"block\">$$\r\n 1\\frac 15x=1\\mathord{,}2x\\ \\text{км}/\\text{год}.\r\n$$</latex>\n<p>\n<latex>150</latex> <i>км</i> автобус проїжджає за <latex>\\frac{150}{x}</latex> <i>год</i>, а автомобіль за <latex>\\frac{150}{1\\mathord{,}2x}</latex> <i>год</i>. Це на <latex>30</latex> <i>хв</i> <latex>\\left(\\frac 12\\ \\textit{год}\\right)</latex> менше. Розв'яжемо рівняння\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n \\frac{150}{x}-\\frac{150}{1\\mathord{,}2x}=\\frac 12,\\\\[6pt]\r\n \\frac{150\\cdot(1\\mathord{,}2-1)}{1\\mathord{,}2x}=\\frac 12,\\\\[6pt]\r\n \\frac{150\\cdot 0\\mathord{,}2}{1\\mathord{,}2x}=\\frac 12,\\\\[6pt]\r\n x=\\frac{150\\cdot 0\\mathord{,}2\\cdot 2}{1\\mathord{,}2}=50\\ \\text{км}/\\text{год}.\r\n \\end{gather*}</latex>\n<p>\r\n Час, за який автомобіль долає відстань між <latex>A</latex> та <latex>B</latex>\n<latex display=\"block\">$$\r\n \\frac{150}{1\\mathord{,}2\\cdot 50}=2\\mathord{,}5\\ \\textit{год}.\r\n$$</latex>\n</p>\n<p><strong>Відповідь: <latex>2\\mathord{,}5.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра та початки аналізу. Числа і вирази. Рівняння, нерівності та їхні системи.\r\n Це завдання перевіряє вміння розв'язувати текстові задачі, застосовувати рівняння до розв'язування текстових задач, знання методів розв'язування раціональних рівнянь.\r\n Нехай швидкість автобуса x км/год , тоді швидкість автомобіля\r\n $$\r\n 1\\frac 15x=1\\mathord{,}2x\\ \\text{км}/\\text{год}.\r\n$$ \n 150 км автобус проїжджає за \\frac{150}{x} год , а автомобіль за \\frac{150}{1\\mathord{,}2x} год . Це на 30 хв \\left(\\frac 12\\ \\textit{год}\\right) менше. Розв'яжемо рівняння\r\n \\begin{gather*}\r\n \\frac{150}{x}-\\frac{150}{1\\mathord{,}2x}=\\frac 12,\\\\[6pt]\r\n \\frac{150\\cdot(1\\mathord{,}2-1)}{1\\mathord{,}2x}=\\frac 12,\\\\[6pt]\r\n \\frac{150\\cdot 0\\mathord{,}2}{1\\mathord{,}2x}=\\frac 12,\\\\[6pt]\r\n x=\\frac{150\\cdot 0\\mathord{,}2\\cdot 2}{1\\mathord{,}2}=50\\ \\text{км}/\\text{год}.\r\n \\end{gather*} \n Час, за який автомобіль долає відстань між A та B \n $$\r\n \\frac{150}{1\\mathord{,}2\\cdot 50}=2\\mathord{,}5\\ \\textit{год}.\r\n$$ \n Відповідь: 2\\mathord{,}5.",
+   "topic": "Алгебра та початки аналізу. Числа і вирази. Рівняння, нерівності та їхні системи.",
+   "images": [],
+   "text": "Автобус вирушив з міста A до міста B , відстань між якими становить 150 км . Через 30 хв із міста A до міста B тією самою дорогою вирушив автомобіль, швидкість якого в 1\\frac 15 раза більша за швидкість автобуса. Скільки часу (у год ) витратив на дорогу з міста A до міста B автомобіль, якщо він прибув до міста B одночасно з автобусом? Уважайте, що автобус та автомобіль рухалися зі сталими швидкостями.",
+   "latex": [
+    "A",
+    "B",
+    "150",
+    "30",
+    "A",
+    "B",
+    "1\\frac 15",
+    "A",
+    "B",
+    "B"
+   ],
+   "source_test": 247,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 14262,
+   "tip": 8,
+   "out_order": 10,
+   "type": "short_answer",
+   "question_html": "<p>\r\n З першої труби порожній басейн наповнюють водою на <latex>40</latex> <i>хвилин</i> швидше, ніж з другої. Скільки часу (<i>у хвилинах</i>) потрібно для наповнення порожнього басейну з першої труби, якщо з обох труб порожній басейн наповнюють за <latex>21</latex> <i>хвилину</i>? Уважайте, що швидкості наповнення басейну водою з кожної труби є сталими.\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "30",
+   "correct": [
+    "30"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Текстові задачі. Рівняння, нерівності та їхні системи. Раціональні рівняння.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння розв'язувати рівняння, що зводиться до квадратного, розв'язувати текстові задачі.\r\n </p>\n<p>\r\n Нехай порожній басейн заповнюється з другої труби за <latex>x</latex> хвилин, тоді з першої труби – за <latex>(x-40)</latex> хвилин.\r\n </p>\n<p>\r\n За <latex>1</latex> хвилину працюючи разом вони заповнять <latex>1/21</latex> частину басейну. Складемо рівняння:\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n \\frac{1}{x-40}+\\frac 1x=\\frac{1}{21},\\\\[6pt]\r\n \\frac{x+x-40}{x(x-40)}=\\frac{1}{21},\\\\[6pt]\r\n \\frac{2x-40}{x^2-40x}=\\frac{1}{21},\\\\[6pt]\r\n \\text{ОДЗ}:\\ \\ \\left[\\begin{array}{l}\r\n x\\ne 0,\\\\\r\n x\\ne 40,\r\n \\end{array}\\right.\\\\[7pt]\r\n x^2-40x=21(2x-40),\\\\[7pt]\r\n x^2-40x=42x-840,\\\\[7pt]\r\n x^2-82x+840=0.\r\n \\end{gather*}</latex>\n<p>\r\n Корені рівняння\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">$$\r\n \\left[\\begin{array}{l}\r\n x_1=12\\ \\ \\text{не задовільняє умові задачі},\\\\\r\n x=70.\r\n \\end{array}\\right.\r\n$$</latex>\n</div>\n<p>\r\n Отже, друга труба наповнює басейн за <latex>70</latex> хвилин, а перша – за \r\n <latex display=\"block\">$$\r\n 70-40=30\\ \\text{хв.}\r\n$$</latex>\n</p>\n<p><strong>Відповідь: <latex>30.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Текстові задачі. Рівняння, нерівності та їхні системи. Раціональні рівняння.\r\n Це завдання перевіряє вміння розв'язувати рівняння, що зводиться до квадратного, розв'язувати текстові задачі.\r\n Нехай порожній басейн заповнюється з другої труби за x хвилин, тоді з першої труби – за (x-40) хвилин.\r\n За 1 хвилину працюючи разом вони заповнять 1/21 частину басейну. Складемо рівняння:\r\n \\begin{gather*}\r\n \\frac{1}{x-40}+\\frac 1x=\\frac{1}{21},\\\\[6pt]\r\n \\frac{x+x-40}{x(x-40)}=\\frac{1}{21},\\\\[6pt]\r\n \\frac{2x-40}{x^2-40x}=\\frac{1}{21},\\\\[6pt]\r\n \\text{ОДЗ}:\\ \\ \\left[\\begin{array}{l}\r\n x\\ne 0,\\\\\r\n x\\ne 40,\r\n \\end{array}\\right.\\\\[7pt]\r\n x^2-40x=21(2x-40),\\\\[7pt]\r\n x^2-40x=42x-840,\\\\[7pt]\r\n x^2-82x+840=0.\r\n \\end{gather*} \n Корені рівняння\r\n $$\r\n \\left[\\begin{array}{l}\r\n x_1=12\\ \\ \\text{не задовільняє умові задачі},\\\\\r\n x=70.\r\n \\end{array}\\right.\r\n$$ \n Отже, друга труба наповнює басейн за 70 хвилин, а перша – за \r\n $$\r\n 70-40=30\\ \\text{хв.}\r\n$$ \n Відповідь: 30.",
+   "topic": "Алгебра і початки аналізу. Числа і вирази. Текстові задачі. Рівняння, нерівності та їхні системи. Раціональні рівняння.",
+   "images": [],
+   "text": "З першої труби порожній басейн наповнюють водою на 40 хвилин швидше, ніж з другої. Скільки часу ( у хвилинах ) потрібно для наповнення порожнього басейну з першої труби, якщо з обох труб порожній басейн наповнюють за 21 хвилину ? Уважайте, що швидкості наповнення басейну водою з кожної труби є сталими.",
+   "latex": [
+    "40",
+    "21"
+   ],
+   "source_test": 290,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 14546,
+   "tip": 8,
+   "out_order": 11,
+   "type": "short_answer",
+   "question_html": "<p>На перегоні, довжина якого дорівнює <latex>240</latex> км, поїзд рухався зі швидкістю на <nobr><latex>10</latex> км/год</nobr> менше, ніж мала бути за розкладом, і запізнився на <latex>48</latex> хв. З якою швидкістю мав рухатися поїзд за розкладом? (Відповідь в км/год).</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "60",
+   "correct": [
+    "60"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Числа та вирази. Текстові задачі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння розв'язувати текстові задачі на рух.\r\n </p>\n<p>\r\n Нехай швидкість поїзда за розкладом <latex>x</latex> км/год, тоді швидкість на перегоні була <span style=\"white-space:nowrap\"><latex>(x-10)</latex> км/год.</span>\n</p>\n<div class=\"table-responsive\">\n<table>\n<thead>\n<tr>\n<th></th>\n<th><latex>V</latex>, км/год</th>\n<th><latex>t</latex>, год</th>\n<th><latex>S</latex>, км</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>За розкладом</td>\n<td><latex>x</latex></td>\n<td><latex>\\dfrac{240}{x}</latex></td>\n<td><latex>240</latex></td>\n</tr>\n<tr>\n<td>Фактично</td>\n<td><latex>x-10</latex></td>\n<td><latex>\\dfrac{240}{x-10}</latex></td>\n<td><latex>240</latex></td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>\r\n Поїзд запізнився на <latex>48\\ \\text{хв}=\\dfrac{48}{60}\\ \\text{год}=\\dfrac 45\\ \\text{год}.</latex> Складемо рівняння:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n \\frac{240}{x-10}-\\frac{240}{x}=\\frac 45;\\\\[6pt]\r\n \\frac{240(x-x+10)}{x(x-10)}=\\frac 45;\\\\[6pt]\r\n \\frac{2400}{x(x-10)}=\\frac 45\\ \\big| :4;\\\\[6pt]\r\n \\frac{600}{x(x-10)}=\\frac 15;\\\\[6pt]\r\n \\begin{cases}\r\n x(x-10)=5\\cdot 600,\\\\\r\n x\\ne 0;\\ x\\ne 10,\r\n \\end{cases}\\ \\ \r\n \\begin{cases}\r\n x^2-10x-3000=0,\\\\\r\n x\\ne 0;\\ x\\ne 10,\r\n \\end{cases}\\\\[7pt]\r\n \\begin{cases}\r\n x=-50;\\ x=60,\\\\\r\n x\\ne 0;\\ x\\ne 10.\r\n \\end{cases}\r\n \\end{gather*}</latex>\n</div>\n<p>\n<latex>x=-50</latex> не задовольняє умові задачі.\r\n </p>\n<p>\r\n Отже, швидкість поїзда за розкладом – <latex>60</latex> км/год.\r\n </p>\n<p><strong>Відповідь: <latex>60.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Числа та вирази. Текстові задачі.\r\n Це завдання перевіряє вміння розв'язувати текстові задачі на рух.\r\n Нехай швидкість поїзда за розкладом x км/год, тоді швидкість на перегоні була (x-10) км/год. \n V , км/год \n t , год \n S , км \n За розкладом \n x \n \\dfrac{240}{x} \n 240 \n Фактично \n x-10 \n \\dfrac{240}{x-10} \n 240 \n Поїзд запізнився на 48\\ \\text{хв}=\\dfrac{48}{60}\\ \\text{год}=\\dfrac 45\\ \\text{год}. Складемо рівняння:\r\n \\begin{gather*}\r\n \\frac{240}{x-10}-\\frac{240}{x}=\\frac 45;\\\\[6pt]\r\n \\frac{240(x-x+10)}{x(x-10)}=\\frac 45;\\\\[6pt]\r\n \\frac{2400}{x(x-10)}=\\frac 45\\ \\big| :4;\\\\[6pt]\r\n \\frac{600}{x(x-10)}=\\frac 15;\\\\[6pt]\r\n \\begin{cases}\r\n x(x-10)=5\\cdot 600,\\\\\r\n x\\ne 0;\\ x\\ne 10,\r\n \\end{cases}\\ \\ \r\n \\begin{cases}\r\n x^2-10x-3000=0,\\\\\r\n x\\ne 0;\\ x\\ne 10,\r\n \\end{cases}\\\\[7pt]\r\n \\begin{cases}\r\n x=-50;\\ x=60,\\\\\r\n x\\ne 0;\\ x\\ne 10.\r\n \\end{cases}\r\n \\end{gather*} \n x=-50 не задовольняє умові задачі.\r\n Отже, швидкість поїзда за розкладом – 60 км/год.\r\n Відповідь: 60.",
+   "topic": "Алгебра і початки аналізу. Числа та вирази. Текстові задачі.",
+   "images": [],
+   "text": "На перегоні, довжина якого дорівнює 240 км, поїзд рухався зі швидкістю на 10 км/год менше, ніж мала бути за розкладом, і запізнився на 48 хв. З якою швидкістю мав рухатися поїзд за розкладом? (Відповідь в км/год).",
+   "latex": [
+    "240",
+    "10",
+    "48"
+   ],
+   "source_test": 296,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 14623,
+   "tip": 8,
+   "out_order": 12,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У майстерні мали виготовити <latex>240</latex> стільців за <latex>n</latex> днів, причому щодня планували виробляти однакову кількість стільців. Однак, на прохання замовника, завдання виконали на <latex>2</latex> дні раніше запланованого терміну. Для цього довелося денну норму виготовлення збільшити на <latex>4</latex> стільці. Визначте <latex>n.</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "12",
+   "correct": [
+    "12"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра. Рівняння, нерівності та їхні системи. Раціональні рівняння. Застосування рівнянь до розв'язування текстових задач.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння розв'язувати раціональні рівняння, застосовувати рівняння до розв'язування текстових задач.\r\n </p>\n<p>\r\n Нехай щодня планували виробляти <latex>\\frac{240}{n}</latex> стільців. Оскільки завдання виконали на <latex>2</latex> дні раніше запланованого терміну, то щодня виробляли <latex>\\frac{240}{n-2}</latex> стільців. Денна норма збільшилась на <latex>4</latex> стільця, тому складемо рівняння\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n \\frac{240}{n-2}-\\frac{240}{n}=4,\\ \\ \\ \r\n \\left\\{\\begin{array}{l}\r\n n\\ne 2,\\\\\r\n n\\ne 0,\r\n \\end{array}\\right.\\\\[6pt]\r\n \\frac{240(n-n+2)}{n(n-2)}=4,\\ \\ \\ \r\n \\frac{240\\cdot 2}{n(n-2)}=4,\\\\[6pt]\r\n \\frac{120}{n^2-2n}=1,\\\\[6pt]\r\n n^2-2n=120,\\\\[7pt]\r\n n^2-2n-120=0.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n За теоремою Вієта знаходимо корені рівняння: <latex>n=-10</latex> або <latex>n=12.</latex>\n</p>\n<p>\r\n Оскільки <latex>n</latex> – кількість днів, то визначається натуральним числом, то правильна відповідь: <latex>12</latex> днів.\r\n </p>\n<p><strong>Відповідь: <latex>12.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра. Рівняння, нерівності та їхні системи. Раціональні рівняння. Застосування рівнянь до розв'язування текстових задач.\r\n Це завдання перевіряє вміння розв'язувати раціональні рівняння, застосовувати рівняння до розв'язування текстових задач.\r\n Нехай щодня планували виробляти \\frac{240}{n} стільців. Оскільки завдання виконали на 2 дні раніше запланованого терміну, то щодня виробляли \\frac{240}{n-2} стільців. Денна норма збільшилась на 4 стільця, тому складемо рівняння\r\n \\begin{gather*}\r\n \\frac{240}{n-2}-\\frac{240}{n}=4,\\ \\ \\ \r\n \\left\\{\\begin{array}{l}\r\n n\\ne 2,\\\\\r\n n\\ne 0,\r\n \\end{array}\\right.\\\\[6pt]\r\n \\frac{240(n-n+2)}{n(n-2)}=4,\\ \\ \\ \r\n \\frac{240\\cdot 2}{n(n-2)}=4,\\\\[6pt]\r\n \\frac{120}{n^2-2n}=1,\\\\[6pt]\r\n n^2-2n=120,\\\\[7pt]\r\n n^2-2n-120=0.\r\n \\end{gather*} \n За теоремою Вієта знаходимо корені рівняння: n=-10 або n=12. \n Оскільки n – кількість днів, то визначається натуральним числом, то правильна відповідь: 12 днів.\r\n Відповідь: 12.",
+   "topic": "Алгебра. Рівняння, нерівності та їхні системи. Раціональні рівняння. Застосування рівнянь до розв'язування текстових задач.",
+   "images": [],
+   "text": "У майстерні мали виготовити 240 стільців за n днів, причому щодня планували виробляти однакову кількість стільців. Однак, на прохання замовника, завдання виконали на 2 дні раніше запланованого терміну. Для цього довелося денну норму виготовлення збільшити на 4 стільці. Визначте n.",
+   "latex": [
+    "240",
+    "n",
+    "2",
+    "4",
+    "n."
+   ],
+   "source_test": 298,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 15259,
+   "tip": 11,
+   "out_order": 13,
+   "type": "matching",
+   "question_html": "<p>\r\n Ha клумбі висадили рядами <latex>125</latex> кущів троянд з однаковою кількістю кущів у кожному ряду. Виявилось, що кількість рядів на <latex>20</latex> менша за кількість кущів у кожному ряду.\r\n </p>\n<p>\n<b>1.</b> Скільки висадили кущів троянд у кожному ряду?\r\n </p>\n<p>\n<b>2.</b> Узимку в першому ряду зазнали ушкоджень <latex>16\\ \\text{%}</latex> кущів троянд. Скільки кущів троянд у першому ряду перезимували <i>неушкодженими</i>?\r\n </p>",
+   "answers": [],
+   "answer_table_html": "<table class=\"answer select-answers-variants variants2\">\n<tr>\n<td><b>1.</b></td><td><input class=\"inptext\" maxlength=\"7\" name=\"a[1]\" type=\"text\" value=\"\"/></td><td>   </td>\n<td><b>2.</b></td><td><input class=\"inptext\" maxlength=\"7\" name=\"a[2]\" type=\"text\" value=\"\"/></td>\n</tr>\n<tr class=\"otvet\" style=\"display:none;\"><td></td><td>25</td><td>   </td><td></td><td>21</td></tr>\n</table>",
+   "correct_raw": "25;21",
+   "correct": [
+    "25",
+    "21"
+   ],
+   "input": true,
+   "input_maxlength": 7,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Відсотки. Основні задачі на відсоки. Текстові задачі. Квадратні рівняння.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати рівняння до розв'язування текстових задач, розв'язувати задачі на відсотки.\r\n </p>\n<p>\n<b>1.</b> Нехай у кожному ряду висадили <latex>x</latex> кущів, тоді кількість рядів буде <latex>(x-20).</latex> Усього висадили <latex>125</latex> кущів троянд. Складемо рівняння:\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n x(x-20)=125,\\\\[7pt]\r\n x^2-20x-125=0,\\\\[7pt]\r\n \\left\\{\\begin{array}{l}\r\n x_1=25,\\\\\r\n x_2=-5\\ \\ \\text{не задовільняє умові задачі.}\r\n \\end{array}\\right.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n Отже, в кожному ряду <latex>25</latex> кущів.\r\n </p>\n<br/>\n<p>\n<b>2.</b> Усього кущів у першому рядку <latex>25.</latex> Ушкоджених кущів виявилось <latex>16\\text{%}</latex>, отже, неушкоджених кущів <latex>84\\text{%}</latex> від кількості кущів у першому рядку.\r\n </p>\n<latex display=\"block\">$$\r\n 25\\cdot \\frac{84}{100}=21.\r\n$$</latex>\n<p><strong>Відповідь: 1.</strong> <latex>25.</latex>\n<br/>                  \r\n <strong>2.</strong> <latex>21.</latex></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Відсотки. Основні задачі на відсоки. Текстові задачі. Квадратні рівняння.\r\n Це завдання перевіряє вміння застосовувати рівняння до розв'язування текстових задач, розв'язувати задачі на відсотки.\r\n 1. Нехай у кожному ряду висадили x кущів, тоді кількість рядів буде (x-20). Усього висадили 125 кущів троянд. Складемо рівняння:\r\n \\begin{gather*}\r\n x(x-20)=125,\\\\[7pt]\r\n x^2-20x-125=0,\\\\[7pt]\r\n \\left\\{\\begin{array}{l}\r\n x_1=25,\\\\\r\n x_2=-5\\ \\ \\text{не задовільняє умові задачі.}\r\n \\end{array}\\right.\r\n \\end{gather*} \n Отже, в кожному ряду 25 кущів.\r\n 2. Усього кущів у першому рядку 25. Ушкоджених кущів виявилось 16\\text{%} , отже, неушкоджених кущів 84\\text{%} від кількості кущів у першому рядку.\r\n $$\r\n 25\\cdot \\frac{84}{100}=21.\r\n$$ \n Відповідь: 1. 25. \n 2. 21.",
+   "topic": "Алгебра і початки аналізу. Числа і вирази. Відсотки. Основні задачі на відсоки. Текстові задачі. Квадратні рівняння.",
+   "images": [],
+   "text": "Ha клумбі висадили рядами 125 кущів троянд з однаковою кількістю кущів у кожному ряду. Виявилось, що кількість рядів на 20 менша за кількість кущів у кожному ряду.\r\n 1. Скільки висадили кущів троянд у кожному ряду?\r\n 2. Узимку в першому ряду зазнали ушкоджень 16\\ \\text{%} кущів троянд. Скільки кущів троянд у першому ряду перезимували неушкодженими ?",
+   "latex": [
+    "125",
+    "20",
+    "16\\ \\text{%}"
+   ],
+   "source_test": 310,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 17669,
+   "tip": 8,
+   "out_order": 14,
+   "type": "short_answer",
+   "question_html": "<p>\r\n Шлях від пристані <latex>A</latex> до пристані <latex>B</latex> теплохід, що рухається за течією річки, долає за<br/><latex>2</latex> <i>години</i>. На зворотний шлях він витрачає на <latex>15</latex> <i>хвилин</i> більше. Швидкість течії річки дорівнює <latex>2</latex> <i>км/год</i>, власна швидкість теплохода є сталою. \r\n </p>\n<p>\r\n Визначте власну швидкість теплохода (у <i>км/год</i>).\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "34",
+   "correct": [
+    "34"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та системи. Лiнiйнi, квaдpaтні, рацiональнi, iррацiональнi, показникові, логарифмiчнi, тригонометричні рівняння, неpiвності та їx системи.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати рівняння до розв'язування текстових задач.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/176/17669/ds-ds-math-2019-new-28.png\" style=\"height: auto;\" width=\"410\"/>\n</div>\n<p>\n<latex>2</latex> <i>год</i> <latex>15</latex> <i>хв</i> <latex>=2\\frac 14</latex> <i>год</i>.\r\n </p>\n<p>\r\n Нехай власна швидкість телохода <latex>x</latex> <i>км/год</i>, тоді швидкість за течією <latex>(x+2)</latex> <i>км/год</i>, проти течії – <latex>(x-2)</latex> <i>км/год</i>. Оскільки відстань, яку пройшов теплохід за течією та проти течії, однакова, то складемо рівняння\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n 2(x+2)=2\\frac 14(x-2);\\ \\ 2x+4=2\\frac 14x-4\\mathord{,}5;\\\\[6pt]\r\n 2\\frac 14x-2x=4+4\\mathord{,}5;\\ \\ \\frac 14x=8\\mathord{,}5;\\\\[6pt]\r\n x=8\\mathord{,}5\\cdot 4;\\ \\ x=34.\r\n \\end{gather*}</latex>\n</div>\n<p> \r\n Отже, власна швидкість теплохода <latex>34</latex> <i>км/год</i>.\r\n </p>\n<p><strong>Відповідь: <latex>34.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Рівняння, нерівності та системи. Лiнiйнi, квaдpaтні, рацiональнi, iррацiональнi, показникові, логарифмiчнi, тригонометричні рівняння, неpiвності та їx системи.\r\n Це завдання перевіряє вміння застосовувати рівняння до розв'язування текстових задач.\r\n 2 год 15 хв =2\\frac 14 год .\r\n Нехай власна швидкість телохода x км/год , тоді швидкість за течією (x+2) км/год , проти течії – (x-2) км/год . Оскільки відстань, яку пройшов теплохід за течією та проти течії, однакова, то складемо рівняння\r\n \\begin{gather*}\r\n 2(x+2)=2\\frac 14(x-2);\\ \\ 2x+4=2\\frac 14x-4\\mathord{,}5;\\\\[6pt]\r\n 2\\frac 14x-2x=4+4\\mathord{,}5;\\ \\ \\frac 14x=8\\mathord{,}5;\\\\[6pt]\r\n x=8\\mathord{,}5\\cdot 4;\\ \\ x=34.\r\n \\end{gather*} \n Отже, власна швидкість теплохода 34 км/год .\r\n Відповідь: 34.",
+   "topic": "Алгебра і початки аналізу. Рівняння, нерівності та системи. Лiнiйнi, квaдpaтні, рацiональнi, iррацiональнi, показникові, логарифмiчнi, тригонометричні рівняння, неpiвності та їx системи.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/176/17669/ds-ds-math-2019-new-28.png"
+   ],
+   "text": "Шлях від пристані A до пристані B теплохід, що рухається за течією річки, долає за\n 2 години . На зворотний шлях він витрачає на 15 хвилин більше. Швидкість течії річки дорівнює 2 км/год , власна швидкість теплохода є сталою. \r\n Визначте власну швидкість теплохода (у км/год ).",
+   "latex": [
+    "A",
+    "B",
+    "2",
+    "15",
+    "2"
+   ],
+   "source_test": 357,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 19000,
+   "tip": 8,
+   "out_order": 15,
+   "type": "short_answer",
+   "question_html": "<p>\r\n Велосипедист витратив <latex>2</latex> години на дорогу з міста <latex>A</latex> до міста <latex>B.</latex> Мотоцикліст виїхав з міста <latex>A</latex> на півтори години пізніше за велосипедиста, але прибув у місто <latex>B</latex> одночасно з велосипедистом. Визначте відстань (у <i>км</i>) між містами <latex>A</latex> та <latex>B</latex>, якщо швидкість мотоцикліста на <latex>48</latex> <i>км/год</i> більша за швидкість велосипедиста. Уважайте, що велосипедист та мотоцикліст рухалися з міста <latex>A</latex> до міста <latex>B</latex> тією самою дорогою зі сталими швидкостями та без зупинок.\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "32",
+   "correct": [
+    "32"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Текстові задачі.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння розв'язувати задачі на рух.\r\n </p>\n<p>\r\n Нехай швидкість велосипедиста <latex>x</latex> <i>км/год</i>, тоді мотоцикліста <latex>(x+48)</latex> <i>км/год</i>.\r\n </p>\n<p>\r\n На дорогу з міста <latex>A</latex> до міста <latex>B</latex> велосипедист витратив <latex>2</latex> години. Отже, відстань з <latex>A</latex> до <latex>B</latex> становить <latex>2x</latex> <i>км</i>.\r\n </p>\n<p>\r\n Мотоцикліст виїхав на <latex>1\\mathord{,}5</latex> <i>год</i> пізніше, але прибув одночасно з велосипедистом. Отже, <latex>0\\mathord{,}5(x+48)</latex> <i>км</i> становить відстань від <latex>A</latex> до <latex>B.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<p>\n<latex>2x=0\\mathord{,}5(x+48)</latex>, <latex>2x=0\\mathord{,}5x+24</latex>, <latex>1\\mathord{,}5x=24</latex>, <latex>x=16.</latex>\n</p>\n</div>\n<p>\r\n Відстань між містами <latex>A</latex> та <latex>B</latex>    <latex>2\\cdot 16=32</latex> <i>км</i>.\r\n </p>\n<p><strong>Відповідь: <latex>32.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Текстові задачі.\r\n Це завдання перевіряє вміння розв'язувати задачі на рух.\r\n Нехай швидкість велосипедиста x км/год , тоді мотоцикліста (x+48) км/год .\r\n На дорогу з міста A до міста B велосипедист витратив 2 години. Отже, відстань з A до B становить 2x км .\r\n Мотоцикліст виїхав на 1\\mathord{,}5 год пізніше, але прибув одночасно з велосипедистом. Отже, 0\\mathord{,}5(x+48) км становить відстань від A до B. \n 2x=0\\mathord{,}5(x+48) , 2x=0\\mathord{,}5x+24 , 1\\mathord{,}5x=24 , x=16. \n Відстань між містами A та B 2\\cdot 16=32 км .\r\n Відповідь: 32.",
+   "topic": "Алгебра і початки аналізу. Числа і вирази. Текстові задачі.",
+   "images": [],
+   "text": "Велосипедист витратив 2 години на дорогу з міста A до міста B. Мотоцикліст виїхав з міста A на півтори години пізніше за велосипедиста, але прибув у місто B одночасно з велосипедистом. Визначте відстань (у км ) між містами A та B , якщо швидкість мотоцикліста на 48 км/год більша за швидкість велосипедиста. Уважайте, що велосипедист та мотоцикліст рухалися з міста A до міста B тією самою дорогою зі сталими швидкостями та без зупинок.",
+   "latex": [
+    "2",
+    "A",
+    "B.",
+    "A",
+    "B",
+    "A",
+    "B",
+    "48",
+    "A",
+    "B"
+   ],
+   "source_test": 384,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 19514,
+   "tip": 8,
+   "out_order": 16,
+   "type": "short_answer",
+   "question_html": "<p>\r\n Рекламна пауза на телевізійному каналі триває <latex>15</latex> <i>хвилин</i>. За цей час показують по одному разу <latex>10</latex> рекламних роликів однакової тривалості та трейлер фільму. Відомо, що якби цей трейлер показували на початку й наприкінці рекламної паузи, то решти часу вистачило б якраз на показ <latex>8</latex> таких рекламних роликів. Скільки <i>секунд</i> триває показ трейлера цього фільму? Уважайте, що між показами рекламних роликів та трейлера фільму немає пауз.\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "150",
+   "correct": [
+    "150"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Рівняння. \r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє вміння розв’язувати текстові задачі, застосовувати системи рівнянь до розв’язування текстових задач.\r\n </p>\n<p>\r\n Нехай тривалість одного рекламного ролика <latex>x</latex> <i>хв</i>., а одного трейлера – <latex>y</latex> <i>хв</i>. Тоді,\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n \\left\\{\\begin{array}{l}\r\n 10x+y=15,\\\\\r\n 8x+2y=15,\r\n \\end{array}\\right.\\ \\ \r\n \\left\\{\\begin{array}{l}\r\n y=15-10x,\\\\\r\n 8x+2(15-10x)=15,\r\n \\end{array}\\right.\\\\[7pt]\r\n \\left\\{\\begin{array}{l}\r\n y=15-10x,\\\\\r\n 30-12x=15,\r\n \\end{array}\\right.\\ \\ \r\n \\left\\{\\begin{array}{l}\r\n y=2\\mathord{,}5,\\\\\r\n x=1\\mathord{,}25.\r\n \\end{array}\\right.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n Трейлер триває <latex>2\\mathord{,}5</latex> <i>хв</i> <latex>=150</latex> <i>с</i>.\r\n </p>\n<p><strong>Відповідь: <latex>150.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Рівняння. \r\n Завдання перевіряє вміння розв’язувати текстові задачі, застосовувати системи рівнянь до розв’язування текстових задач.\r\n Нехай тривалість одного рекламного ролика x хв ., а одного трейлера – y хв . Тоді,\r\n \\begin{gather*}\r\n \\left\\{\\begin{array}{l}\r\n 10x+y=15,\\\\\r\n 8x+2y=15,\r\n \\end{array}\\right.\\ \\ \r\n \\left\\{\\begin{array}{l}\r\n y=15-10x,\\\\\r\n 8x+2(15-10x)=15,\r\n \\end{array}\\right.\\\\[7pt]\r\n \\left\\{\\begin{array}{l}\r\n y=15-10x,\\\\\r\n 30-12x=15,\r\n \\end{array}\\right.\\ \\ \r\n \\left\\{\\begin{array}{l}\r\n y=2\\mathord{,}5,\\\\\r\n x=1\\mathord{,}25.\r\n \\end{array}\\right.\r\n \\end{gather*} \n Трейлер триває 2\\mathord{,}5 хв =150 с .\r\n Відповідь: 150.",
+   "topic": "Алгебра і початки аналізу. Рівняння.",
+   "images": [],
+   "text": "Рекламна пауза на телевізійному каналі триває 15 хвилин . За цей час показують по одному разу 10 рекламних роликів однакової тривалості та трейлер фільму. Відомо, що якби цей трейлер показували на початку й наприкінці рекламної паузи, то решти часу вистачило б якраз на показ 8 таких рекламних роликів. Скільки секунд триває показ трейлера цього фільму? Уважайте, що між показами рекламних роликів та трейлера фільму немає пауз.",
+   "latex": [
+    "15",
+    "10",
+    "8"
+   ],
+   "source_test": 390,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 19972,
+   "tip": 8,
+   "out_order": 17,
+   "type": "short_answer",
+   "question_html": "<p>Човен проплив <latex>18</latex> <i>км</i> проти течії річки, витративши вдвічі менше часу, ніж на подолання <latex>48</latex> <i>км</i> за течією. Власна швидкість човна є сталою. Визначте <i>власну</i> швидкість човна (у <i>км/год</i>), якщо швидкість течії дорівнює <latex>2\\mathord{,}5</latex> <i>км/год</i>.</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "17.5",
+   "correct": [
+    "17.5"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Рівняння.\r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє вміння застосовувати рівняння до розв’язування текстових задач.\r\n </p>\n<p>\r\n Нехай власна швидкість човна <latex>x</latex> <i>км/год.</i>\n</p>\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tr>\n<td></td>\n<td style=\"padding: 7px;\"><latex>V</latex>, <i>км/год</i></td>\n<td style=\"padding: 7px;\"><latex>t</latex>, <i>год</i></td>\n<td style=\"padding: 7px;\"><latex>S</latex>, <i>км</i></td>\n</tr>\n<tr>\n<td style=\"padding: 7px;\">За течією</td>\n<td><latex display=\"block\">$$x+2\\mathord{,}5$$</latex></td>\n<td style=\"padding: 7px;\"><latex display=\"block\">$$\\frac{48}{x+2\\mathord{,}5}$$</latex>\n</td>\n<td><latex display=\"block\">$$48$$</latex></td>\n</tr>\n<tr>\n<td style=\"padding: 7px;\">Проти течії</td>\n<td><latex display=\"block\">$$x-2\\mathord{,}5$$</latex></td>\n<td style=\"padding: 7px;\"><latex display=\"block\">$$\\frac{18}{x-2\\mathord{,}5}$$</latex>\n</td>\n<td><latex display=\"block\">$$18$$</latex></td>\n</tr>\n</table>\n<p>\r\n Відстань проти течії човен подолав за час, вдвічі менший, ніж за течією.\r\n <latex display=\"block\">$$\r\n \\frac{48}{x+2\\mathord{,}5}=\\frac{18\\cdot 2}{x-2\\mathord{,}5}.\r\n$$</latex>\r\n Поділимо обидві частини рівняння на <latex>12.</latex>\n<latex display=\"block\">\\begin{gather*}\r\n \\frac{4}{x+2\\mathord{,}5}=\\frac{3}{x-2\\mathord{,}5}\\\\[6pt]\r\n 4(x-2\\mathord{,}5)=3(x+2\\mathord{,}5)\\\\[7pt]\r\n 4x-10=3x+7\\mathord{,}5\\\\[7pt]\r\n x=17\\mathord{,}5.\r\n \\end{gather*}</latex>\n</p>\n<p><strong>Відповідь: <latex>17\\mathord{,}5.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Рівняння.\r\n Завдання перевіряє вміння застосовувати рівняння до розв’язування текстових задач.\r\n Нехай власна швидкість човна x км/год. \n V , км/год \n t , год \n S , км \n За течією \n $$x+2\\mathord{,}5$$ \n $$\\frac{48}{x+2\\mathord{,}5}$$ \n $$48$$ \n Проти течії \n $$x-2\\mathord{,}5$$ \n $$\\frac{18}{x-2\\mathord{,}5}$$ \n $$18$$ \n Відстань проти течії човен подолав за час, вдвічі менший, ніж за течією.\r\n $$\r\n \\frac{48}{x+2\\mathord{,}5}=\\frac{18\\cdot 2}{x-2\\mathord{,}5}.\r\n$$ \r\n Поділимо обидві частини рівняння на 12. \n \\begin{gather*}\r\n \\frac{4}{x+2\\mathord{,}5}=\\frac{3}{x-2\\mathord{,}5}\\\\[6pt]\r\n 4(x-2\\mathord{,}5)=3(x+2\\mathord{,}5)\\\\[7pt]\r\n 4x-10=3x+7\\mathord{,}5\\\\[7pt]\r\n x=17\\mathord{,}5.\r\n \\end{gather*} \n Відповідь: 17\\mathord{,}5.",
+   "topic": "Алгебра і початки аналізу. Рівняння.",
+   "images": [],
+   "text": "Човен проплив 18 км проти течії річки, витративши вдвічі менше часу, ніж на подолання 48 км за течією. Власна швидкість човна є сталою. Визначте власну швидкість човна (у км/год ), якщо швидкість течії дорівнює 2\\mathord{,}5 км/год .",
+   "latex": [
+    "18",
+    "48",
+    "2\\mathord{,}5"
+   ],
+   "source_test": 400,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 22925,
+   "tip": 8,
+   "out_order": 18,
+   "type": "short_answer",
+   "question_html": "<p>\r\n Тривалість зеленого сигналу світлофора на 15 с довша за тривалість червоного сигналу й у дванадцять разів довша за тривалість жовтого сигналу. Яка тривалість (у с) червоного сигналу, якщо тривалість зеленого сигналу відноситься до сумарної тривалості червоного й жовтого сигналів як 3 до 2?\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "21",
+   "correct": [
+    "21"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Рівняння, нерівності та їх системи. Відношення та пропорції.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку вміння розв’язувати текстові задачі за допомогою рівнянь на пропорційні величини та пропорційний поділ.\r\n </p>\n<p>\r\n Нехай <latex>x\\ \\text{с}</latex> – тривалість жовтого сигналу, систематизуємо дані:<br/>\r\n Зелений - <latex>12x\\ \\text{с}</latex><br/>\r\n Червоний - <latex>(12x-15)\\ \\text{с}</latex><br/>\r\n Жовтий - <latex>x\\ \\text{с}</latex>.\r\n </p>\n<p>\r\n Тривалість зеленого сигналу відноситься до сумарної тривалості червоного та жовтого сигналів як 3 до 2.\r\n </p>\n<p>\r\n Отже,\r\n <latex display=\"block\">\\begin{gather*}\r\n \\frac{12x}{12x-15+x}=\\frac 32,\\ \\ \\frac{12x}{13x-15}=\\frac 32,\\\\[6pt]\r\n 3(13x-15)=2\\cdot 12x,\\ \\ 39x-45=24x,\\\\[7pt]\r\n 15x=45,\\ \\ x=3.\r\n \\end{gather*}</latex>\r\n Тривалість червоного сигналу:\r\n <latex display=\"block\">$$\r\n 12x-15=12\\cdot 3-15=36-15=21\\ \\text{с}.\r\n$$</latex>\n</p>\n<p><strong>Відповідь: 21.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Рівняння, нерівності та їх системи. Відношення та пропорції.\r\n Завдання скеровано на перевірку вміння розв’язувати текстові задачі за допомогою рівнянь на пропорційні величини та пропорційний поділ.\r\n Нехай x\\ \\text{с} – тривалість жовтого сигналу, систематизуємо дані:\n Зелений - 12x\\ \\text{с} \n Червоний - (12x-15)\\ \\text{с} \n Жовтий - x\\ \\text{с} .\r\n Тривалість зеленого сигналу відноситься до сумарної тривалості червоного та жовтого сигналів як 3 до 2.\r\n Отже,\r\n \\begin{gather*}\r\n \\frac{12x}{12x-15+x}=\\frac 32,\\ \\ \\frac{12x}{13x-15}=\\frac 32,\\\\[6pt]\r\n 3(13x-15)=2\\cdot 12x,\\ \\ 39x-45=24x,\\\\[7pt]\r\n 15x=45,\\ \\ x=3.\r\n \\end{gather*} \r\n Тривалість червоного сигналу:\r\n $$\r\n 12x-15=12\\cdot 3-15=36-15=21\\ \\text{с}.\r\n$$ \n Відповідь: 21.",
+   "topic": "Алгебра і початки аналізу. Числа і вирази. Рівняння, нерівності та їх системи. Відношення та пропорції.",
+   "images": [],
+   "text": "Тривалість зеленого сигналу світлофора на 15 с довша за тривалість червоного сигналу й у дванадцять разів довша за тривалість жовтого сигналу. Яка тривалість (у с) червоного сигналу, якщо тривалість зеленого сигналу відноситься до сумарної тривалості червоного й жовтого сигналів як 3 до 2?",
+   "latex": [],
+   "source_test": 455,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  },
+  {
+   "id": 24707,
+   "tip": 8,
+   "out_order": 19,
+   "type": "short_answer",
+   "question_html": "<p>\r\n Протягом 40 хвилин уроку учні виступили з трьома доповідями однакової тривалості й показали дві презентації. Показ кожної презентації тривав на 10 хвилин більше, ніж доповідь. Визначте тривалість однієї доповіді (у хв). Тривалістю пауз між доповідями й презентаціями знехтуйте.\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "4",
+   "correct": [
+    "4"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Рівняння, нерівності та їх системи. Відношення та пропорції. \r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку вміння розв’язувати текстові задачі за допомогою рівнянь.\r\n </p>\n<p>\r\n Нехай доповідь триває <latex>x</latex> хвилин, тоді презентація – <latex>(x+10)</latex> хвилин.<br/>\n<latex>3</latex> доповіді тривали <latex>3x</latex> хвилин,<br/>\n<latex>2</latex> презентації – <latex>2(x+10)</latex> хвилин.<br/>\r\n Доповіді й презентації тривали <latex>40</latex> хвилин. Отже, складемо рівняння:\r\n </p>\n<p>\n<latex display=\"block\">\\begin{gather*}\r\n 3x+2(x+10)=40,\\\\[7pt]\r\n 3x+2x+20=40,\\\\[7pt]\r\n 5x=20,\\\\[7pt]\r\n x=4.\r\n \\end{gather*}</latex>\r\n Доповідь тривала <latex>4</latex> хвилини.\r\n </p>\n<p><strong>Відповідь: 4.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Алгебра і початки аналізу. Числа і вирази. Рівняння, нерівності та їх системи. Відношення та пропорції. \r\n Завдання скеровано на перевірку вміння розв’язувати текстові задачі за допомогою рівнянь.\r\n Нехай доповідь триває x хвилин, тоді презентація – (x+10) хвилин.\n 3 доповіді тривали 3x хвилин,\n 2 презентації – 2(x+10) хвилин.\n Доповіді й презентації тривали 40 хвилин. Отже, складемо рівняння:\r\n \\begin{gather*}\r\n 3x+2(x+10)=40,\\\\[7pt]\r\n 3x+2x+20=40,\\\\[7pt]\r\n 5x=20,\\\\[7pt]\r\n x=4.\r\n \\end{gather*} \r\n Доповідь тривала 4 хвилини.\r\n Відповідь: 4.",
+   "topic": "Алгебра і початки аналізу. Числа і вирази. Рівняння, нерівності та їх системи. Відношення та пропорції.",
+   "images": [],
+   "text": "Протягом 40 хвилин уроку учні виступили з трьома доповідями однакової тривалості й показали дві презентації. Показ кожної презентації тривав на 10 хвилин більше, ніж доповідь. Визначте тривалість однієї доповіді (у хв). Тривалістю пауз між доповідями й презентаціями знехтуйте.",
+   "latex": [],
+   "source_test": 489,
+   "subject": "mathematics",
+   "topic_slug": "rozvjazuvannja_zadach_z_rivnjan_i_system_rivnjan"
+  }
+ ],
+ "questions_count": 19
+}

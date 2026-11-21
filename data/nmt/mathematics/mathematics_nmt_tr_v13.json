@@ -1,0 +1,1280 @@
+{
+ "url": "https://zno.osvita.ua/multitest/tag-mathematics_nmt_tr_v13/",
+ "title": "Національний мультитест з математики – Варіант 13",
+ "page_title": "Предмет: Тренувальні мультитести Розділ: Національний мультитест з математики Тест: Тренувальні тести НМТ 2022–2027 Блок: Варіант 13 Кількість завдань: 22",
+ "test_id": "mathematics_nmt_tr_v13",
+ "total": 22,
+ "section": 38,
+ "cnt": 22,
+ "qfirst": 1,
+ "list": 0,
+ "questions": [
+  {
+   "id": 35791,
+   "tip": 1,
+   "out_order": 1,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>На діаграмі відображено інформацію про кількісний розподіл за кольорами стрічок, із яких плетуть маскувальні сітки. Білі стовпці діаграми відповідають кількості стрічок зазначеного кольору, використаних для однієї сітки влітку, а сірі – восени. За діаграмою визначте різницю між зеленими стрічками влітку та восени.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/357/35791/13-var-01.png\" style=\"height: auto;\" width=\"600\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>15</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>20</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>25</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>30</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>35</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Вибіркові характеристики.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку вміння аналізувати статистичні дані, наведені в графічній, текстовій формі.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/357/35791/decide-13-variant-01.png\" style=\"height: auto;\" width=\"600\"/>\n</div>\n<p>\r\n За діаграмою влітку на плетіння однієї сітки використовують <latex>50</latex> зелених стрічок, а восени – <latex>20.</latex> Обчислімо різницю:\r\n <latex>$$\r\n 50-20=30\\ \\text{стрічок}.\r\n $$</latex>\n</p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Вибіркові характеристики.\r\n Завдання скеровано на перевірку вміння аналізувати статистичні дані, наведені в графічній, текстовій формі.\r\n За діаграмою влітку на плетіння однієї сітки використовують 50 зелених стрічок, а восени – 20. Обчислімо різницю:\r\n $$\r\n 50-20=30\\ \\text{стрічок}.\r\n $$ \n Відповідь: Г.",
+   "topic": "Вибіркові характеристики.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/357/35791/13-var-01.png",
+    "https://zno.osvita.ua/doc/images/znotest/357/35791/decide-13-variant-01.png"
+   ],
+   "text": "На діаграмі відображено інформацію про кількісний розподіл за кольорами стрічок, із яких плетуть маскувальні сітки. Білі стовпці діаграми відповідають кількості стрічок зазначеного кольору, використаних для однієї сітки влітку, а сірі – восени. За діаграмою визначте різницю між зеленими стрічками влітку та восени.",
+   "latex": [
+    "15",
+    "20",
+    "25",
+    "30",
+    "35"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35792,
+   "tip": 1,
+   "out_order": 2,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено трикутну піраміду <latex>SABC.</latex> Скільки різних площин, паралельних площині основи піраміди, можна провести через точку <latex>S</latex>?\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/357/35792/13-var-02.png\" style=\"width: 203px; height: auto;\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "жодної"
+    },
+    {
+     "marker": "Б",
+     "html": "лише одну"
+    },
+    {
+     "marker": "В",
+     "html": "лише дві"
+    },
+    {
+     "marker": "Г",
+     "html": "лише три"
+    },
+    {
+     "marker": "Д",
+     "html": "більше трьох"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Прямі та площини в просторі. Многогранники.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знання взаємного розміщення прямих і площин у просторі, властивостей піраміди.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/357/35792/decide-13-variant-02.png\" style=\"height: auto;\" width=\"203\"/>\n</div>\n<p>\r\n За властивістю паралельних площин: через точку, яка не лежить у площині, можна провести площину, паралельну заданій, і до того ж тільки одну.\r\n </p>\n<p>\r\n Через точку <latex>S</latex> можна провести одну площину, паралельну основі піраміди.\r\n </p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Прямі та площини в просторі. Многогранники.\r\n Завдання скеровано на перевірку знання взаємного розміщення прямих і площин у просторі, властивостей піраміди.\r\n За властивістю паралельних площин: через точку, яка не лежить у площині, можна провести площину, паралельну заданій, і до того ж тільки одну.\r\n Через точку S можна провести одну площину, паралельну основі піраміди.\r\n Відповідь: Б.",
+   "topic": "Прямі та площини в просторі. Многогранники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/357/35792/13-var-02.png",
+    "https://zno.osvita.ua/doc/images/znotest/357/35792/decide-13-variant-02.png"
+   ],
+   "text": "На рисунку зображено трикутну піраміду SABC. Скільки різних площин, паралельних площині основи піраміди, можна провести через точку S ?",
+   "latex": [
+    "SABC.",
+    "S"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35793,
+   "tip": 1,
+   "out_order": 3,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n У кав’ярні пропонують <latex>10</latex> видів десертів і <latex>12</latex> видів кави. Відвідувач хоче замовити один десерт або одну чашку кави у цьому кафе. Скільки всього різних варіантів замовлення є у відвідувача?\r\n </p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>120</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>12</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>60</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>10</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>22</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Перестановки, комбінації, розміщення. \r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку вміння розв’язувати задачі, використовуючи комбінації, комбінаторні правила суми. \r\n </p>\n<p>\r\n Кількість різних варіантів замовлення одного десерту – <latex>10</latex>, а однієї чашки кави – <latex>12.</latex>\n</p>\n<p>\r\n За комбінаторним правилом суми кількість способів замовити або один десерт, або одну чашку кави дорівнює:\r\n </p>\n<latex>$$\r\n 10+12=22\\ \\text{варіанти}.\r\n $$</latex>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Перестановки, комбінації, розміщення. \r\n Завдання скеровано на перевірку вміння розв’язувати задачі, використовуючи комбінації, комбінаторні правила суми. \r\n Кількість різних варіантів замовлення одного десерту – 10 , а однієї чашки кави – 12. \n За комбінаторним правилом суми кількість способів замовити або один десерт, або одну чашку кави дорівнює:\r\n $$\r\n 10+12=22\\ \\text{варіанти}.\r\n $$ \n Відповідь: Д.",
+   "topic": "Перестановки, комбінації, розміщення.",
+   "images": [],
+   "text": "У кав’ярні пропонують 10 видів десертів і 12 видів кави. Відвідувач хоче замовити один десерт або одну чашку кави у цьому кафе. Скільки всього різних варіантів замовлення є у відвідувача?",
+   "latex": [
+    "10",
+    "12",
+    "120",
+    "12",
+    "60",
+    "10",
+    "22"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35794,
+   "tip": 1,
+   "out_order": 4,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n Укажіть проміжок, якому належить корінь рівняння <latex>\\left(\\frac 38\\right)^x=\\frac 83.</latex>\n</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>(-6; -4)</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(-4; -2)</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>(-2; 0)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>(0; 2)</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>(2; 4)</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Показникові рівняння.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку вміння розв’язувати показникові рівняння, знання властивостей степенів.\r\n </p>\n<p>\r\n За властивістю степенів:\r\n </p>\n<latex>\\begin{gather*}\r\n a^{-n}=\\frac{1}{a^n},\\\\[6pt]\r\n \\frac 83=\\left(\\frac 38\\right)^{-1},\\\\[6pt]\r\n \\left(\\frac 38\\right)^x=\\left(\\frac 38\\right)^{-1},\\\\[6pt]\r\n x=-1.\r\n \\end{gather*}</latex>\n<p>\r\n Корінь рівняння належить проміжку <latex>(-2; 0).</latex>\n</p>\n<p><strong>Відповідь: В.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Показникові рівняння.\r\n Завдання скеровано на перевірку вміння розв’язувати показникові рівняння, знання властивостей степенів.\r\n За властивістю степенів:\r\n \\begin{gather*}\r\n a^{-n}=\\frac{1}{a^n},\\\\[6pt]\r\n \\frac 83=\\left(\\frac 38\\right)^{-1},\\\\[6pt]\r\n \\left(\\frac 38\\right)^x=\\left(\\frac 38\\right)^{-1},\\\\[6pt]\r\n x=-1.\r\n \\end{gather*} \n Корінь рівняння належить проміжку (-2; 0). \n Відповідь: В.",
+   "topic": "Показникові рівняння.",
+   "images": [],
+   "text": "Укажіть проміжок, якому належить корінь рівняння \\left(\\frac 38\\right)^x=\\frac 83.",
+   "latex": [
+    "\\left(\\frac 38\\right)^x=\\frac 83.",
+    "(-6; -4)",
+    "(-4; -2)",
+    "(-2; 0)",
+    "(0; 2)",
+    "(2; 4)"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35795,
+   "tip": 1,
+   "out_order": 5,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено графік функції <latex>y=f(x)</latex>, визначеної на проміжку <latex>[–5; 5].</latex> Укажіть абсцису <latex>x_0</latex> точки, у якій дотична до графіка функції, паралельна до осі <latex>x.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/357/35795/13-var-05.png\" style=\"height: auto;\" width=\"400\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>3</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>1</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>7</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>-3</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>-1</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Функціональна залежність.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку вміння визначати властивості числових функцій, заданих графіком.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/357/35795/decide-13-variant-05.png\" style=\"height: auto;\" width=\"400\"/>\n</div>\n<p>\r\n Дотична до графіка функції паралельна до осі <latex>x</latex> у точках максимуму та мінімуму <latex>x_0=-2</latex>, <latex>x_0=1.</latex>\n</p>\n<p>\r\n З наведених варіантів відповіді – це <latex>x_0=1.</latex>\n</p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Функціональна залежність.\r\n Завдання скеровано на перевірку вміння визначати властивості числових функцій, заданих графіком.\r\n Дотична до графіка функції паралельна до осі x у точках максимуму та мінімуму x_0=-2 , x_0=1. \n З наведених варіантів відповіді – це x_0=1. \n Відповідь: Б.",
+   "topic": "Функціональна залежність.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/357/35795/13-var-05.png",
+    "https://zno.osvita.ua/doc/images/znotest/357/35795/decide-13-variant-05.png"
+   ],
+   "text": "На рисунку зображено графік функції y=f(x) , визначеної на проміжку [–5; 5]. Укажіть абсцису x_0 точки, у якій дотична до графіка функції, паралельна до осі x.",
+   "latex": [
+    "y=f(x)",
+    "[–5; 5].",
+    "x_0",
+    "x.",
+    "3",
+    "1",
+    "7",
+    "-3",
+    "-1"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35796,
+   "tip": 1,
+   "out_order": 6,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n Ярослав визначив крокоміром, що зробив 2150 кроків. За якою формулою можна визначити відстань <latex>S</latex> (у кілометрах), яку пройшов Ярослав, якщо довжина кожного його кроку дорівнює <latex>d</latex> метрів?\r\n </p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>S=2150d</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>S=\\frac{1000d}{2150}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>S=\\frac{2150}{1000d}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>S=\\frac{2150d}{1000}</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>S=2150\\cdot 1000d</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Ярослав визначив крокоміром, що зробив 2150 кроків. За якою формулою можна визначити відстань S (у кілометрах), яку пройшов Ярослав, якщо довжина кожного його кроку дорівнює d метрів?",
+   "latex": [
+    "S",
+    "d",
+    "S=2150d",
+    "S=\\frac{1000d}{2150}",
+    "S=\\frac{2150}{1000d}",
+    "S=\\frac{2150d}{1000}",
+    "S=2150\\cdot 1000d"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35797,
+   "tip": 1,
+   "out_order": 7,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\n<latex>(a+b)^{-2}=</latex>\n</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>-a^2-2ab-b^2</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\frac{1}{a^2+b^2}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>-\\frac{2}{a+b}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\frac{1}{a^2+2ab+b^2}</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>-2a-2b</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "(a+b)^{-2}=",
+   "latex": [
+    "(a+b)^{-2}=",
+    "-a^2-2ab-b^2",
+    "\\frac{1}{a^2+b^2}",
+    "-\\frac{2}{a+b}",
+    "\\frac{1}{a^2+2ab+b^2}",
+    "-2a-2b"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35798,
+   "tip": 1,
+   "out_order": 8,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n Укажіть корінь рівняння <latex>\\log_6x=2.</latex>\n</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>3</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\frac 13</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>12</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>64</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>36</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Укажіть корінь рівняння \\log_6x=2.",
+   "latex": [
+    "\\log_6x=2.",
+    "3",
+    "\\frac 13",
+    "12",
+    "64",
+    "36"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35799,
+   "tip": 1,
+   "out_order": 9,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n Діагональ квадрата <latex>ABCD</latex> дорівнює <latex>12</latex> см. На стороні <latex>BC</latex> квадрата вибрано точку <latex>K</latex> так, що <latex>\\angle KAB=30^\\circ.</latex> Визначте площу трикутника <latex>ABK.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/357/35799/13-var-09.png\" style=\"height: auto;\" width=\"180\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>12\\sqrt{3}</latex> см<latex>^2</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>18</latex> см<latex>^2</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>24\\sqrt{3}</latex> см<latex>^2</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>36\\sqrt{3}</latex> см<latex>^2</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>36</latex> см<latex>^2</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/357/35799/13-var-09.png"
+   ],
+   "text": "Діагональ квадрата ABCD дорівнює 12 см. На стороні BC квадрата вибрано точку K так, що \\angle KAB=30^\\circ. Визначте площу трикутника ABK.",
+   "latex": [
+    "ABCD",
+    "12",
+    "BC",
+    "K",
+    "\\angle KAB=30^\\circ.",
+    "ABK.",
+    "12\\sqrt{3}",
+    "^2",
+    "18",
+    "^2",
+    "24\\sqrt{3}",
+    "^2",
+    "36\\sqrt{3}",
+    "^2",
+    "36",
+    "^2"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35800,
+   "tip": 1,
+   "out_order": 10,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n Розв'яжіть нерівність <latex>5^{3x-4}\\ge \\left(\\frac 15\\right)^{x-20}.</latex>\n</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>[4; +\\infty)</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(-\\infty; 6]</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>[6; +\\infty)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>(-\\infty; 8]</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>[12; +\\infty)</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Розв'яжіть нерівність 5^{3x-4}\\ge \\left(\\frac 15\\right)^{x-20}.",
+   "latex": [
+    "5^{3x-4}\\ge \\left(\\frac 15\\right)^{x-20}.",
+    "[4; +\\infty)",
+    "(-\\infty; 6]",
+    "[6; +\\infty)",
+    "(-\\infty; 8]",
+    "[12; +\\infty)"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35801,
+   "tip": 1,
+   "out_order": 11,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n Які з наведених тверджень є правильними для <i>довільного</i> трикутника?\r\n </p>\n<p>\r\n I.   Сума будь-яких двох сторін трикутника менша за третю його сторону.\r\n </p>\n<p>\r\n II.  Сума будь-яких двох кутів трикутника більша за <latex>90^\\circ.</latex>\n</p>\n<p>\r\n III. Навпроти найбільшої сторони трикутника лежить найбільший його кут.\r\n </p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише I"
+    },
+    {
+     "marker": "Б",
+     "html": "лише II"
+    },
+    {
+     "marker": "В",
+     "html": "лише III"
+    },
+    {
+     "marker": "Г",
+     "html": "лише І i ІІI"
+    },
+    {
+     "marker": "Д",
+     "html": "I, II та ІІI"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Які з наведених тверджень є правильними для довільного трикутника?\r\n I. Сума будь-яких двох сторін трикутника менша за третю його сторону.\r\n II. Сума будь-яких двох кутів трикутника більша за 90^\\circ. \n III. Навпроти найбільшої сторони трикутника лежить найбільший його кут.",
+   "latex": [
+    "90^\\circ."
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35802,
+   "tip": 1,
+   "out_order": 12,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n У прямокутній системі координат у просторі зображено прямокутний паралелепіпед, одна з вершин якого збігається з початком координат – точкою <latex>O</latex>, а три ребра лежать на координатних осях (див. рисунок). Точка <latex>K(5; 1; 7)</latex> є вершиною паралелепіпеда. Визначте довжину діагоналі цього паралелепіпеда.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/358/35802/13-var-12.png\" style=\"height: auto;\" width=\"227\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>5\\sqrt{3}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\sqrt{26}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>10\\sqrt{3}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>15</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>13</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/358/35802/13-var-12.png"
+   ],
+   "text": "У прямокутній системі координат у просторі зображено прямокутний паралелепіпед, одна з вершин якого збігається з початком координат – точкою O , а три ребра лежать на координатних осях (див. рисунок). Точка K(5; 1; 7) є вершиною паралелепіпеда. Визначте довжину діагоналі цього паралелепіпеда.",
+   "latex": [
+    "O",
+    "K(5; 1; 7)",
+    "5\\sqrt{3}",
+    "\\sqrt{26}",
+    "10\\sqrt{3}",
+    "15",
+    "13"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35803,
+   "tip": 1,
+   "out_order": 13,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n Розв’яжіть систему рівнянь\r\n <latex>$$\r\n \\left\\{\\begin{array}{l}\r\n 2^{y+2x}=64,\\\\\r\n 2x-y=12.\r\n \\end{array}\\right.\r\n $$</latex>\r\n Якщо <latex>(x_0; y_0)</latex> – розв’язок системи, то <latex>x_0+y_0=</latex>\n</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>4\\mathord{,}5</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>9</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>1\\mathord{,}5</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>7\\mathord{,}5</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>-3</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Розв’яжіть систему рівнянь\r\n $$\r\n \\left\\{\\begin{array}{l}\r\n 2^{y+2x}=64,\\\\\r\n 2x-y=12.\r\n \\end{array}\\right.\r\n $$ \r\n Якщо (x_0; y_0) – розв’язок системи, то x_0+y_0=",
+   "latex": [
+    "$$\r\n \\left\\{\\begin{array}{l}\r\n 2^{y+2x}=64,\\\\\r\n 2x-y=12.\r\n \\end{array}\\right.\r\n $$",
+    "(x_0; y_0)",
+    "x_0+y_0=",
+    "4\\mathord{,}5",
+    "9",
+    "1\\mathord{,}5",
+    "7\\mathord{,}5",
+    "-3"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35804,
+   "tip": 1,
+   "out_order": 14,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n Обчисліть\r\n <latex>$$\r\n \\frac{\\sin\\left(\\frac{3\\pi}{2}-\\alpha\\right)}{\\cos \\alpha}=\r\n $$</latex>\n</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>1</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>-\\mathrm{tg}\\ \\alpha</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\frac{1}{\\mathrm{tg}\\ \\alpha}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\mathrm{tg}\\ \\alpha</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>-1</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Обчисліть\r\n $$\r\n \\frac{\\sin\\left(\\frac{3\\pi}{2}-\\alpha\\right)}{\\cos \\alpha}=\r\n $$",
+   "latex": [
+    "$$\r\n \\frac{\\sin\\left(\\frac{3\\pi}{2}-\\alpha\\right)}{\\cos \\alpha}=\r\n $$",
+    "1",
+    "-\\mathrm{tg}\\ \\alpha",
+    "\\frac{1}{\\mathrm{tg}\\ \\alpha}",
+    "\\mathrm{tg}\\ \\alpha",
+    "-1"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35805,
+   "tip": 1,
+   "out_order": 15,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "single_choice",
+   "question_html": "<p>\r\n Обчисліть інтеграл <latex>\\mathop{\\int}\\limits_1^5 3f(x)dx,</latex> якщо <latex>\\mathop{\\int}\\limits_1^5 f(x)dx=14.</latex>\n</p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>11</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>42</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>17</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\frac{14}{3}</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>52</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Обчисліть інтеграл \\mathop{\\int}\\limits_1^5 3f(x)dx, якщо \\mathop{\\int}\\limits_1^5 f(x)dx=14.",
+   "latex": [
+    "\\mathop{\\int}\\limits_1^5 3f(x)dx,",
+    "\\mathop{\\int}\\limits_1^5 f(x)dx=14.",
+    "11",
+    "42",
+    "17",
+    "\\frac{14}{3}",
+    "52"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35806,
+   "tip": 13,
+   "out_order": 16,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "matching",
+   "question_html": "<p>\r\n Узгодьте функцію (1–3) із її властивістю (А – Д).\r\n </p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "<latex>y=x^2</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "<latex>y=x^3+1</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "<latex>y=\\log_2x</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "парна"
+    },
+    {
+     "marker": "Б",
+     "html": "непарна"
+    },
+    {
+     "marker": "В",
+     "html": "область визначення функції є проміжок <latex>(0; +\\infty)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "похідна функції є додатною на проміжку <latex>(-\\infty; 0)</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "є спадною на всій області визначення"
+    }
+   ],
+   "groups": [
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>y=x^2</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>y=x^3+1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>y=\\log_2x</latex>"
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "парна"
+      },
+      {
+       "marker": "",
+       "html": "непарна"
+      },
+      {
+       "marker": "",
+       "html": "область визначення функції є проміжок <latex>(0; +\\infty)</latex>"
+      },
+      {
+       "marker": "",
+       "html": "похідна функції є додатною на проміжку <latex>(-\\infty; 0)</latex>"
+      },
+      {
+       "marker": "",
+       "html": "є спадною на всій області визначення"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1a;2d;3c",
+   "correct": [
+    "1a",
+    "2d",
+    "3c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Узгодьте функцію (1–3) із її властивістю (А – Д).",
+   "latex": [
+    "y=x^2",
+    "y=x^3+1",
+    "y=\\log_2x",
+    "(0; +\\infty)",
+    "(-\\infty; 0)"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35807,
+   "tip": 13,
+   "out_order": 17,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "matching",
+   "question_html": "<p>\r\n Узгодьте вираз (1–3) й точку (А – Д) на координатній прямій, координатою якої є значення виразу, де <latex>e\\approx 2\\mathord{,}7</latex> – основа натурального логарифма (число Ейлера).\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/358/35807/13-var-17.png\" style=\"height: auto;\" width=\"400\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "<latex>2e\\cdot \\frac 1e</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "<latex>\\ln 1</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "<latex>(e-1)(e+1)-e^2</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>K</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>L</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>M</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>N</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>P</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>2e\\cdot \\frac 1e</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\ln 1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>(e-1)(e+1)-e^2</latex>"
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>K</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>L</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>M</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>N</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>P</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1e;2c;3b",
+   "correct": [
+    "1e",
+    "2c",
+    "3b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/358/35807/13-var-17.png"
+   ],
+   "text": "Узгодьте вираз (1–3) й точку (А – Д) на координатній прямій, координатою якої є значення виразу, де e\\approx 2\\mathord{,}7 – основа натурального логарифма (число Ейлера).",
+   "latex": [
+    "e\\approx 2\\mathord{,}7",
+    "2e\\cdot \\frac 1e",
+    "\\ln 1",
+    "(e-1)(e+1)-e^2",
+    "K",
+    "L",
+    "M",
+    "N",
+    "P"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35808,
+   "tip": 13,
+   "out_order": 18,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "matching",
+   "question_html": "<p>\r\n На рисунку зображено два рівні рівнобедрені трикутники <latex>ABC</latex> <latex>(AB=BC)</latex> і <latex>CMN</latex> <latex>(CM=MN)</latex>, що лежать в одній площині. <latex>AN=8</latex> см, <latex>AB=2\\sqrt{17}</latex> см. Узгодьте відрізок (1–3) із його довжиною (А – Д).\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/358/35808/13-var-18.png\" style=\"height: auto;\" width=\"200\"/></p>\n<!-- xlimit=1 -->",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Відстань від <latex>B</latex> до сторони <latex>AC</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "<latex>BM</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "Відстань між серединами сторін <latex>AB</latex> і <latex>MN</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>4</latex> см"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>6</latex> см"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>7</latex> см"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>8</latex> см"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>10</latex> см"
+    }
+   ],
+   "groups": [
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "Відстань від <latex>B</latex> до сторони <latex>AC</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>BM</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Відстань між серединами сторін <latex>AB</latex> і <latex>MN</latex>"
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>4</latex> см"
+      },
+      {
+       "marker": "",
+       "html": "<latex>6</latex> см"
+      },
+      {
+       "marker": "",
+       "html": "<latex>7</latex> см"
+      },
+      {
+       "marker": "",
+       "html": "<latex>8</latex> см"
+      },
+      {
+       "marker": "",
+       "html": "<latex>10</latex> см"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1d;2a;3b",
+   "correct": [
+    "1d",
+    "2a",
+    "3b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/358/35808/13-var-18.png"
+   ],
+   "text": "На рисунку зображено два рівні рівнобедрені трикутники ABC (AB=BC) і CMN (CM=MN) , що лежать в одній площині. AN=8 см, AB=2\\sqrt{17} см. Узгодьте відрізок (1–3) із його довжиною (А – Д).",
+   "latex": [
+    "ABC",
+    "(AB=BC)",
+    "CMN",
+    "(CM=MN)",
+    "AN=8",
+    "AB=2\\sqrt{17}",
+    "B",
+    "AC",
+    "BM",
+    "AB",
+    "MN",
+    "4",
+    "6",
+    "7",
+    "8",
+    "10"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35809,
+   "tip": 8,
+   "out_order": 19,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "short_answer",
+   "question_html": "<p>\r\n За умовами договору позичальник повинен повернути кредит протягом <latex>12</latex> місяців. Першого місяця він має повернути <latex>1300</latex> грн, а кожного наступного місяця – на <latex>50</latex> грн менше, ніж попереднього. Визначте загальну суму (у грн), яку повинен позичальник повернути протягом <latex>12</latex> місяців.\r\n </p>\n<!-- xlimit=1 -->",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "12300",
+   "correct": [
+    "12300"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "За умовами договору позичальник повинен повернути кредит протягом 12 місяців. Першого місяця він має повернути 1300 грн, а кожного наступного місяця – на 50 грн менше, ніж попереднього. Визначте загальну суму (у грн), яку повинен позичальник повернути протягом 12 місяців.",
+   "latex": [
+    "12",
+    "1300",
+    "50",
+    "12"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35810,
+   "tip": 8,
+   "out_order": 20,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "short_answer",
+   "question_html": "<p>\r\n Фермер планує висадити <latex>6</latex> рядів саджанців: <latex>4</latex> ряди – кісточкові (абрикос, персик, вишня, слива) та <latex>2</latex> ряди – плодові (яблуня та груша). У кожному ряду мають бути однакові саджанці. Скільки всього варіантів оформлення саду в нього є, якщо <latex>4</latex> ряди кісточкових саджанців мають бути поруч?\r\n </p>\n<!-- xlimit=1 -->",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "144",
+   "correct": [
+    "144"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Фермер планує висадити 6 рядів саджанців: 4 ряди – кісточкові (абрикос, персик, вишня, слива) та 2 ряди – плодові (яблуня та груша). У кожному ряду мають бути однакові саджанці. Скільки всього варіантів оформлення саду в нього є, якщо 4 ряди кісточкових саджанців мають бути поруч?",
+   "latex": [
+    "6",
+    "4",
+    "2",
+    "4"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35811,
+   "tip": 8,
+   "out_order": 21,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "short_answer",
+   "question_html": "<p>\r\n Пряма чотирикутна призма й циліндр мають рівні висоти. В основі призми лежить ромб з діагоналями <latex>12</latex> см і <latex>16</latex> см. Радіус основи циліндра дорівнює стороні ромба. Площа бічної поверхні циліндра дорівнює <latex>400\\pi</latex> см<latex>^2.</latex> Знайдіть об’єм призми (у см<latex>^3</latex>).\r\n </p>\n<!-- xlimit=1 -->",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "1920",
+   "correct": [
+    "1920"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Пряма чотирикутна призма й циліндр мають рівні висоти. В основі призми лежить ромб з діагоналями 12 см і 16 см. Радіус основи циліндра дорівнює стороні ромба. Площа бічної поверхні циліндра дорівнює 400\\pi см ^2. Знайдіть об’єм призми (у см ^3 ).",
+   "latex": [
+    "12",
+    "16",
+    "400\\pi",
+    "^2.",
+    "^3"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  },
+  {
+   "id": 35812,
+   "tip": 8,
+   "out_order": 22,
+   "test_id": "mathematics_nmt_tr_v13",
+   "type": "short_answer",
+   "question_html": "<p>\r\n Знайдіть найбільше значення <latex>a</latex>, за якого система рівнянь\r\n <latex>$$\r\n \\left\\{\\begin{array}{l}\r\n 3^x+y^2=a+3,\\\\\r\n 3^{x+1}+2y^2=7a+6.\r\n \\end{array}\\right.\r\n $$</latex>\r\n має хоча б один розв’язок.\r\n </p>\n<!-- xlimit=1 -->",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "0.75",
+   "correct": [
+    "0.75"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><b>ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ!</b></p>\n<p>Безкоштовно доступні пояснення до <b>перших пʼяти завдань</b> цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.</p>\n<p>Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.</p>\n<p><a class=\"q-btn button-green\" href=\"https://zno.osvita.ua/premium.html\">ОТРИМАТИ ПРЕМІУМ</a></p>",
+   "explanation_text": "ЧИТАЙТЕ ПОЯСНЕННЯ З ПРЕМІУМ-ДОСТУПОМ! \n Безкоштовно доступні пояснення до перших пʼяти завдань цього тесту. Щоб читати всі пояснення на сайті ЗНО-ОНЛАЙН, отримайте преміум-доступ.\n Опрацьовуйте складні теми та готуйтеся до НМТ ефективніше завдяки детальним поясненням до кожного завдання від експертів.\n ОТРИМАТИ ПРЕМІУМ",
+   "topic": null,
+   "images": [],
+   "text": "Знайдіть найбільше значення a , за якого система рівнянь\r\n $$\r\n \\left\\{\\begin{array}{l}\r\n 3^x+y^2=a+3,\\\\\r\n 3^{x+1}+2y^2=7a+6.\r\n \\end{array}\\right.\r\n $$ \r\n має хоча б один розв’язок.",
+   "latex": [
+    "a",
+    "$$\r\n \\left\\{\\begin{array}{l}\r\n 3^x+y^2=a+3,\\\\\r\n 3^{x+1}+2y^2=7a+6.\r\n \\end{array}\\right.\r\n $$"
+   ],
+   "source_test": 703,
+   "subject": "mathematics"
+  }
+ ],
+ "questions_count": 22,
+ "subject": "mathematics",
+ "kind": "nmt_training",
+ "slug": "mathematics_nmt_tr_v13"
+}

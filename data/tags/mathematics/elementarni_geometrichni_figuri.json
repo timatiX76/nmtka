@@ -1,0 +1,2078 @@
+{
+ "subject": "mathematics",
+ "topic": {
+  "slug": "elementarni_geometrichni_figuri",
+  "name": "Елементарні геометричні фігури на площині. Геометричні величини (36 завдань) 0%",
+  "url": "https://zno.osvita.ua/mathematics/tag-elementarni_geometrichni_figuri/"
+ },
+ "questions": [
+  {
+   "id": 5315,
+   "tip": 1,
+   "out_order": 1,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Три промені зі спільним початком лежать в одній площині (див. рисунок). Визначте градусну міру кута <latex>\\gamma</latex>, якщо <latex>\\alpha=20^\\circ</latex>, <latex>\\beta=50^\\circ.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/53/5315/ds-math-2013-new-01.png\" style=\"height: auto;\" width=\"152\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>330^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>290^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>250^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>160^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>110^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості. Геометричні величини та їх вимірювання. Величини кута, вимірювання кутів. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння вимірювати кути, знання аксіом планіметрії.\r\n </p>\n<p>\r\n Градусна міра повного кута <latex>360^\\circ.</latex>\n</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n \\alpha+\\beta+\\gamma= 360^\\circ,\\\\[7pt]\r\n \\gamma=360^\\circ - \\alpha-\\beta=360^\\circ - 20^\\circ - 50^\\circ = 290^\\circ.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості. Геометричні величини та їх вимірювання. Величини кута, вимірювання кутів. \r\n Це завдання перевіряє вміння вимірювати кути, знання аксіом планіметрії.\r\n Градусна міра повного кута 360^\\circ. \n \\begin{gather*}\r\n \\alpha+\\beta+\\gamma= 360^\\circ,\\\\[7pt]\r\n \\gamma=360^\\circ - \\alpha-\\beta=360^\\circ - 20^\\circ - 50^\\circ = 290^\\circ.\r\n \\end{gather*} \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості. Геометричні величини та їх вимірювання. Величини кута, вимірювання кутів.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/53/5315/ds-math-2013-new-01.png"
+   ],
+   "text": "Три промені зі спільним початком лежать в одній площині (див. рисунок). Визначте градусну міру кута \\gamma , якщо \\alpha=20^\\circ , \\beta=50^\\circ.",
+   "latex": [
+    "\\gamma",
+    "\\alpha=20^\\circ",
+    "\\beta=50^\\circ.",
+    "330^\\circ",
+    "290^\\circ",
+    "250^\\circ",
+    "160^\\circ",
+    "110^\\circ"
+   ],
+   "source_test": 2,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 6080,
+   "tip": 1,
+   "out_order": 2,
+   "type": "single_choice",
+   "question_html": "<p>Пряма \\(c\\) перетинає паралельні прямі \\(a\\) i \\(b\\) (див. рисунок). Які з наведених тверджень є правильними для кутів \\(1\\), \\(2\\), \\(3\\)?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/60/6080/tr-test-2026-4-var-10.png\" style=\"height: auto;\" width=\"263\"/></p>\n<p>I.   \\(\\angle 1\\) i \\(\\angle 3\\) – суміжні.</p>\n<p>II.  \\(\\angle 1=\\angle 2\\).</p>\n<p>III. \\(\\angle 2+ \\angle 3=180^\\circ\\).</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише I"
+    },
+    {
+     "marker": "Б",
+     "html": "лише I i III"
+    },
+    {
+     "marker": "В",
+     "html": "лише IІІ"
+    },
+    {
+     "marker": "Г",
+     "html": "лише I i ІІ"
+    },
+    {
+     "marker": "Д",
+     "html": "І, ІІ та ІІІ"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Прямі на площині. </strong></p>\n<p>Це завдання перевіряє знання властивостей паралельних прямих.</p>\n<p>\\(a\\ ||\\ b\\), \\(c\\) – січна.</p>\n<p>За властивістю паралельних прямих:</p>\n<p><b>I</b>. \\(\\angle 1\\) i \\(\\angle 3\\) суміжні (за означенням суміжних кутів).</p>\n<p><b>II</b>. \\(\\angle 1=\\angle 2\\) як відповідні при паралельних прямих.</p>\n<p><b>IІІ</b>. \\(\\angle 1=\\angle 2\\), \\(\\angle 1+\\angle 3=180^\\circ\\) (за властивістю суміжних кутів).</p>\n<p>Отже, \\(\\angle 2+\\angle 3=180^\\circ\\).</p>\n<p>Усі з наведених тверджень є правильними.</p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Прямі на площині. \n Це завдання перевіряє знання властивостей паралельних прямих.\n \\(a\\ ||\\ b\\), \\(c\\) – січна.\n За властивістю паралельних прямих:\n I . \\(\\angle 1\\) i \\(\\angle 3\\) суміжні (за означенням суміжних кутів).\n II . \\(\\angle 1=\\angle 2\\) як відповідні при паралельних прямих.\n IІІ . \\(\\angle 1=\\angle 2\\), \\(\\angle 1+\\angle 3=180^\\circ\\) (за властивістю суміжних кутів).\n Отже, \\(\\angle 2+\\angle 3=180^\\circ\\).\n Усі з наведених тверджень є правильними.\n Відповідь: Д.",
+   "topic": "Геометрія. Планіметрія. Прямі на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/60/6080/tr-test-2026-4-var-10.png"
+   ],
+   "text": "Пряма \\(c\\) перетинає паралельні прямі \\(a\\) i \\(b\\) (див. рисунок). Які з наведених тверджень є правильними для кутів \\(1\\), \\(2\\), \\(3\\)?\n I. \\(\\angle 1\\) i \\(\\angle 3\\) – суміжні.\n II. \\(\\angle 1=\\angle 2\\).\n III. \\(\\angle 2+ \\angle 3=180^\\circ\\).",
+   "latex": [],
+   "source_test": 3,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 6285,
+   "tip": 1,
+   "out_order": 3,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Пряма <latex>n</latex> перетинає перпендикулярні прямі <latex>l</latex> i <latex>m</latex> (див. рисунок). Визначте градусну міру кута <latex>\\alpha.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/62/6285/pr-math-2013-new-05.png\" style=\"height: auto;\" width=\"236\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>34^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>46^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>54^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>56^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>58^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання теореми про суму кутів трикутника, властивостей суміжних та вертикальних кутів.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/62/6285/ds-pr-math-2013-new-05.png\" style=\"height: auto;\" width=\"242\"/>\n</div>\n<br/>\n<p>\n<latex>\\angle DAC + \\angle CAB = 180^\\circ</latex> як суміжні.\r\n </p>\n<p>\n<latex>\\angle DAC = 146^\\circ</latex>, <latex>\\angle CAB = 180^\\circ - 146^\\circ = 34^\\circ.</latex>\n</p>\n<p>\r\n У <latex>\\Delta ABC</latex> <latex>(\\angle B = 90^\\circ).</latex> <latex>\\angle A + \\angle C = 90^\\circ</latex>, <latex>\\angle C = 90^\\circ - 34^\\circ = 56^\\circ.</latex> <latex>\\angle ACB = \\alpha = 56^\\circ</latex> (як вертикальні).\r\n </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники.\r\n Це завдання перевіряє знання теореми про суму кутів трикутника, властивостей суміжних та вертикальних кутів.\r\n \\angle DAC + \\angle CAB = 180^\\circ як суміжні.\r\n \\angle DAC = 146^\\circ , \\angle CAB = 180^\\circ - 146^\\circ = 34^\\circ. \n У \\Delta ABC (\\angle B = 90^\\circ). \\angle A + \\angle C = 90^\\circ , \\angle C = 90^\\circ - 34^\\circ = 56^\\circ. \\angle ACB = \\alpha = 56^\\circ (як вертикальні).\r\n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Трикутники.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/62/6285/pr-math-2013-new-05.png",
+    "https://zno.osvita.ua/doc/images/znotest/62/6285/ds-pr-math-2013-new-05.png"
+   ],
+   "text": "Пряма n перетинає перпендикулярні прямі l i m (див. рисунок). Визначте градусну міру кута \\alpha.",
+   "latex": [
+    "n",
+    "l",
+    "m",
+    "\\alpha.",
+    "34^\\circ",
+    "46^\\circ",
+    "54^\\circ",
+    "56^\\circ",
+    "58^\\circ"
+   ],
+   "source_test": 126,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 6316,
+   "tip": 1,
+   "out_order": 4,
+   "type": "single_choice",
+   "question_html": "<p>Три прямі, що розміщені в одній площині, перетинаються в одній точці (див. рисунок). Визначте градусну міру кута <latex>\\alpha</latex>.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/63/6316/pr-math-2012-new-03.png\" style=\"height: auto;\" width=\"213\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>101^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>99^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>81^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>79^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>69^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості. </strong></p>\n<p>Це завдання перевіряє знання про суміжні та вертикальні кути.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/63/6316/ds-pr-math-2012-new-03.png\" style=\"height: auto;\" width=\"213\"/></div>\n<br/>\n<p>Кути <latex>\\alpha</latex> та <latex>\\beta</latex> – вертикальні.</p>\n<p>За властивістю вертикальних кутів <latex>\\alpha = \\beta.</latex></p>\n<p>За аксіомою вимірювання кутів:</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} 52^\\circ + \\beta + 49^\\circ = 180^\\circ;\\\\[7pt] \\beta = 180^\\circ - (52^\\circ + 49^\\circ) = 180^\\circ - 101^\\circ = 79^\\circ;\\\\[7pt] \\alpha = \\beta = 79^\\circ. \\end{gather*}</latex></div>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості. \n Це завдання перевіряє знання про суміжні та вертикальні кути.\n Кути \\alpha та \\beta – вертикальні.\n За властивістю вертикальних кутів \\alpha = \\beta. \n За аксіомою вимірювання кутів:\n \\begin{gather*} 52^\\circ + \\beta + 49^\\circ = 180^\\circ;\\\\[7pt] \\beta = 180^\\circ - (52^\\circ + 49^\\circ) = 180^\\circ - 101^\\circ = 79^\\circ;\\\\[7pt] \\alpha = \\beta = 79^\\circ. \\end{gather*} \n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/63/6316/pr-math-2012-new-03.png",
+    "https://zno.osvita.ua/doc/images/znotest/63/6316/ds-pr-math-2012-new-03.png"
+   ],
+   "text": "Три прямі, що розміщені в одній площині, перетинаються в одній точці (див. рисунок). Визначте градусну міру кута \\alpha .",
+   "latex": [
+    "\\alpha",
+    "101^\\circ",
+    "99^\\circ",
+    "81^\\circ",
+    "79^\\circ",
+    "69^\\circ"
+   ],
+   "source_test": 127,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 6347,
+   "tip": 1,
+   "out_order": 5,
+   "type": "single_choice",
+   "question_html": "<p>Прямі <latex>a</latex>, <latex>b</latex>, <latex>c</latex> попарно перетинаються в точках <latex>A</latex>, <latex>B</latex>, <latex>C</latex> (див. рисунок). За даними, вказаними на рисунку, знайдіть градусну міру кута <latex>ABC</latex>.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/63/6347/2.png\" style=\"height: auto;\" width=\"350\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>70^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>80^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>140^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>100^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>40^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники. Найпростіші геометричні фігури на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання суміжних та вертикальних кутів, теореми про суму кутів трикутника.\r\n </p>\n<p>\r\n Кут <latex>30^\\circ</latex> та <latex>\\angle BCA</latex> – вертикальні, отже, рівні. Зовнішній кут трикутника <latex>110^\\circ</latex> дорівнює сумі внутрішніх кутів, не суміжних з даним.\r\n </p>\n<latex>\\begin{gather*}\r\n \\angle B = 110^\\circ – 30^\\circ = 80^\\circ.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. Найпростіші геометричні фігури на площині.\r\n Це завдання перевіряє знання суміжних та вертикальних кутів, теореми про суму кутів трикутника.\r\n Кут 30^\\circ та \\angle BCA – вертикальні, отже, рівні. Зовнішній кут трикутника 110^\\circ дорівнює сумі внутрішніх кутів, не суміжних з даним.\r\n \\begin{gather*}\r\n \\angle B = 110^\\circ – 30^\\circ = 80^\\circ.\r\n \\end{gather*} \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Трикутники. Найпростіші геометричні фігури на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/63/6347/2.png"
+   ],
+   "text": "Прямі a , b , c попарно перетинаються в точках A , B , C (див. рисунок). За даними, вказаними на рисунку, знайдіть градусну міру кута ABC .",
+   "latex": [
+    "a",
+    "b",
+    "c",
+    "A",
+    "B",
+    "C",
+    "ABC",
+    "70^\\circ",
+    "80^\\circ",
+    "140^\\circ",
+    "100^\\circ",
+    "40^\\circ"
+   ],
+   "source_test": 128,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 6876,
+   "tip": 1,
+   "out_order": 6,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Які з наведених тверджень є правильними?\r\n </p>\n<p>I.   Сума двох будь-яких вертикальних кутів дорівнює <latex>180^\\circ.</latex></p>\n<p>II.  Сума двох будь-яких суміжних кутів дорівнює <latex>180^\\circ.</latex></p>\n<p>III. Сума будь-якого гострого кута та будь-якого тупого кута дорівнює <latex>180^\\circ.</latex></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "лише І"
+    },
+    {
+     "marker": "Б",
+     "html": "лише ІI"
+    },
+    {
+     "marker": "В",
+     "html": "лише І i III"
+    },
+    {
+     "marker": "Г",
+     "html": "лише ІI i ІІI"
+    },
+    {
+     "marker": "Д",
+     "html": "I, II i III"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Найпростіші фігури на площині. Вертикальні кути. Суміжні кути.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання основних властивостей вертикальних та суміжних кутів, які відносяться до найпростіших геометричних фігур на площині.\r\n </p>\n<p>\r\n Нагадаємо, що суміжними називають два кути, у яких одна сторона спільна, а інші є доповняльними променями. На рис. 1 кути <latex>AOC</latex> та <latex>COB</latex> є суміжними.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/68/6876/ds-os-math-2014-new-05-1.png\" style=\"height: auto;\" width=\"261\"/>\n</div>\n<br/>\n<p>\r\n Вертикальними називаються два кути, в яких сторони одного кута є доповнювальними променями сторін другого. На рис. 2 кути <latex>AOB</latex> та <latex>COD</latex> є вертикальними. Вертикальними також є кути <latex>AOD</latex> та <latex>BOC.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/68/6876/ds-os-math-2014-new-05-2.png\" style=\"height: auto;\" width=\"260\"/>\n</div>\n<br/>\n<p>\r\n Проаналізуємо наведені твердження.\r\n </p>\n<p>\n<b>I</b>. Вертикальні кути є рівними, але їх сума дорівнює <latex>180^\\circ</latex> лише тоді, коли ці кути прямі. Тому твердження I <b>не є правильним</b>.\r\n </p>\n<p>\n<b>II</b>. Суміжні кути в сумі утворюють розгорнутий кут, градусна міра якого дорівнює <latex>180^\\circ.</latex> Отже, твердження II <b>є правильним</b>.\r\n </p>\n<p>\n<b>III</b>. Кут називається гострим, якщо його градусна міра менше <latex>90^\\circ</latex>, і тупим, якщо його градусна міра більше <latex>90^\\circ</latex> і менше <latex>180^\\circ.</latex> Їх сума не обов’язково дорівнює <latex>180^\\circ</latex>, а дорівнює <latex>180^\\circ</latex> лише тоді, коли вони суміжні. Отже, твердження III <b>не є правильним</b>.\r\n </p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші фігури на площині. Вертикальні кути. Суміжні кути.\r\n Це завдання перевіряє знання основних властивостей вертикальних та суміжних кутів, які відносяться до найпростіших геометричних фігур на площині.\r\n Нагадаємо, що суміжними називають два кути, у яких одна сторона спільна, а інші є доповняльними променями. На рис. 1 кути AOC та COB є суміжними.\r\n Вертикальними називаються два кути, в яких сторони одного кута є доповнювальними променями сторін другого. На рис. 2 кути AOB та COD є вертикальними. Вертикальними також є кути AOD та BOC. \n Проаналізуємо наведені твердження.\r\n I . Вертикальні кути є рівними, але їх сума дорівнює 180^\\circ лише тоді, коли ці кути прямі. Тому твердження I не є правильним .\r\n II . Суміжні кути в сумі утворюють розгорнутий кут, градусна міра якого дорівнює 180^\\circ. Отже, твердження II є правильним .\r\n III . Кут називається гострим, якщо його градусна міра менше 90^\\circ , і тупим, якщо його градусна міра більше 90^\\circ і менше 180^\\circ. Їх сума не обов’язково дорівнює 180^\\circ , а дорівнює 180^\\circ лише тоді, коли вони суміжні. Отже, твердження III не є правильним .\r\n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Найпростіші фігури на площині. Вертикальні кути. Суміжні кути.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/68/6876/ds-os-math-2014-new-05-1.png",
+    "https://zno.osvita.ua/doc/images/znotest/68/6876/ds-os-math-2014-new-05-2.png"
+   ],
+   "text": "Які з наведених тверджень є правильними?\r\n I. Сума двох будь-яких вертикальних кутів дорівнює 180^\\circ. \n II. Сума двох будь-яких суміжних кутів дорівнює 180^\\circ. \n III. Сума будь-якого гострого кута та будь-якого тупого кута дорівнює 180^\\circ.",
+   "latex": [
+    "180^\\circ.",
+    "180^\\circ.",
+    "180^\\circ."
+   ],
+   "source_test": 138,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 7072,
+   "tip": 1,
+   "out_order": 7,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Відрізок, довжина якого дорівнює <latex>60</latex> см, розділений точками на чотири рівні відрізки. Визначте відстань між серединами отриманих крайніх відрізків.\r\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>36</latex> см"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>40</latex> см"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>45</latex> см"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>48</latex> см"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>50</latex> см"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Найпростіші фігури на площині. Довжина відрізка.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння знаходити довжини відрізків, використовуючи основну властивість вимірювання відрізків. \r\n </p>\n<p>\r\n Довжина відрізка дорівнює сумі довжин частин, на які відрізок ділиться будь-якою його точкою.\r\n </p>\n<p>\r\n Розділимо відрізок <latex>AB</latex> точками <latex>K</latex>, <latex>L</latex>, <latex>M</latex> на рівні відрізки <latex>AK</latex>, <latex>KL</latex>, <latex>LM</latex> та <latex>MB</latex> (див. рисунок).\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/70/7072/ds-pr-math-2015-new-02.png\" style=\"height: auto;\" width=\"392\"/>\n</div>\n<p>\r\n Тоді довжина кожного з цих відрізків дорівнює\r\n <latex>$$\r\n \\frac{1}{4} AB = \\frac{1}{4} \\cdot 60 = 15\\ \\text{см}.\r\n $$</latex>\r\n Нехай точки <latex>C</latex> і <latex>D</latex> – середини крайніх відрізків <latex>AK</latex> і <latex>MB</latex> відповідно. Тоді\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n AC = CK = MD = DB = \\frac{15}{2} = 7{,}5\\ \\text{см}\\ \\text{і}\\\\[6pt] \r\n CD = CK + KL + LM + MD = 7{,}5 + 15 + 15 + 7{,}5 = 45\\ \\text{см}.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші фігури на площині. Довжина відрізка.\r\n Це завдання перевіряє вміння знаходити довжини відрізків, використовуючи основну властивість вимірювання відрізків. \r\n Довжина відрізка дорівнює сумі довжин частин, на які відрізок ділиться будь-якою його точкою.\r\n Розділимо відрізок AB точками K , L , M на рівні відрізки AK , KL , LM та MB (див. рисунок).\r\n Тоді довжина кожного з цих відрізків дорівнює\r\n $$\r\n \\frac{1}{4} AB = \\frac{1}{4} \\cdot 60 = 15\\ \\text{см}.\r\n $$ \r\n Нехай точки C і D – середини крайніх відрізків AK і MB відповідно. Тоді\r\n \\begin{gather*}\r\n AC = CK = MD = DB = \\frac{15}{2} = 7{,}5\\ \\text{см}\\ \\text{і}\\\\[6pt] \r\n CD = CK + KL + LM + MD = 7{,}5 + 15 + 15 + 7{,}5 = 45\\ \\text{см}.\r\n \\end{gather*} \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Найпростіші фігури на площині. Довжина відрізка.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/70/7072/ds-pr-math-2015-new-02.png"
+   ],
+   "text": "Відрізок, довжина якого дорівнює 60 см, розділений точками на чотири рівні відрізки. Визначте відстань між серединами отриманих крайніх відрізків.",
+   "latex": [
+    "60",
+    "36",
+    "40",
+    "45",
+    "48",
+    "50"
+   ],
+   "source_test": 142,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 7170,
+   "tip": 1,
+   "out_order": 8,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Прямі <latex>k</latex>, <latex>l</latex>, <latex>m</latex> i <latex>n</latex> лежать в одній площині (див. рисунок). Визначте градусну міру кута <latex>\\alpha.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/71/7170/ds-math-2014-new-07.png\" style=\"height: auto;\" width=\"250\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>15^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>25^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>35^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>45^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>55^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Суміжні кути. Трикутники. Зовнішній кут трикутника. Теорема про суму кутів трикутника.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння знаходити градусні міри кутів. \r\n </p>\n<p>\r\n Для розв’язання завдання потрібно знати такі теореми. \r\n </p>\n<p>\r\n Теорема 1. Сума внутрішніх кутів трикутника дорівнює <latex>180^\\circ.</latex>\n</p>\n<p>\r\n Теорема 2. Сума суміжних кутів дорівнює <latex>180^\\circ.</latex>\n</p>\n<p>\r\n Наведемо декілька способів розв’язання цього завдання.\r\n </p>\n<p>\n<b>Перший спосіб</b>. Розглянемо трикутник <latex>ABC</latex> (див. рисунок), у якого <latex>\\angle B=85^\\circ</latex>, <latex>\\angle MAB</latex> – зовнішній кут трикутника, суміжний з кутом <latex>A</latex>, тоді\r\n <latex>$$\r\n \\angle A=180^\\circ-\\angle MAB=40^\\circ.\r\n $$</latex>\r\n Знаючи два внутрішніх кути трикутника <latex>ABC</latex>, можемо визначити градусну міру його третього кута:\r\n <latex>$$\r\n \\angle C=180^\\circ-(40^\\circ+85^\\circ)=55^\\circ.\r\n $$</latex>\r\n Оскільки за умовою <latex>\\angle ACN=90^\\circ</latex>, то\r\n <latex>$$\r\n 55^\\circ+\\alpha=90^\\circ,\r\n $$</latex>\r\n звідки <latex>\\alpha=35^\\circ.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/71/7170/ds-ds-math-2014-new-07-1.png\" style=\"height: auto;\" width=\"253\"/>\n</div>\n<br/>\n<p>\n<b>Другий спосіб</b>. Опустимо з вершини <latex>B</latex> трикутника <latex>ABC</latex> на сторону <latex>AC</latex> перпендикуляр <latex>AD</latex> (див. рисунок). З паралельності прямих <latex>BD</latex> і <latex>CN</latex> випливає, що <latex>\\angle DBC=\\angle BCN</latex> як внутрішні різносторонні. Тому шуканий кут <latex>\\alpha</latex> дорівнює куту <latex>DBC.</latex> Маємо:\r\n </p>\n<latex>\\begin{gather*}\r\n \\angle A=180^\\circ-\\angle MAB=40^\\circ,\\\\[7pt]\r\n \\angle ABD=90^\\circ-\\angle A=90^\\circ-40^\\circ=50^\\circ,\\\\[7pt]\r\n \\alpha=\\angle DBC=\\angle ABC-\\angle ABD=85^\\circ-50^\\circ=35^\\circ.\r\n \\end{gather*}</latex>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/71/7170/ds-ds-math-2014-new-07-2.png\" style=\"height: auto;\" width=\"253\"/>\n</div>\n<br/>\n<p>\n<b>Третій спосіб</b>. Скористаємось теоремою. Зовнішній кут трикутника дорівнює сумі двох внутрішніх, не суміжних з ним. Отже, <latex>\\angle BCP=\\angle A+\\angle B</latex> (див. рисунок). Оскільки\r\n </p>\n<latex>\\begin{gather*}\r\n \\angle BCP=90^\\circ+\\alpha,\\\\[7pt]\r\n \\angle A=180^\\circ-140^\\circ=40^\\circ,\r\n \\end{gather*}</latex>\n<p>\r\n то\r\n </p>\n<latex>$$\r\n 90^\\circ+\\alpha=40^\\circ+85^\\circ.\r\n $$</latex>\n<p>\r\n Звідки одержуємо:\r\n </p>\n<latex>$$\r\n \\alpha=125^\\circ-90^\\circ=35^\\circ.\r\n $$</latex>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/71/7170/ds-ds-math-2014-new-07-3.png\" style=\"height: auto;\" width=\"263\"/>\n</div>\n<br/>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Суміжні кути. Трикутники. Зовнішній кут трикутника. Теорема про суму кутів трикутника.\r\n Це завдання перевіряє вміння знаходити градусні міри кутів. \r\n Для розв’язання завдання потрібно знати такі теореми. \r\n Теорема 1. Сума внутрішніх кутів трикутника дорівнює 180^\\circ. \n Теорема 2. Сума суміжних кутів дорівнює 180^\\circ. \n Наведемо декілька способів розв’язання цього завдання.\r\n Перший спосіб . Розглянемо трикутник ABC (див. рисунок), у якого \\angle B=85^\\circ , \\angle MAB – зовнішній кут трикутника, суміжний з кутом A , тоді\r\n $$\r\n \\angle A=180^\\circ-\\angle MAB=40^\\circ.\r\n $$ \r\n Знаючи два внутрішніх кути трикутника ABC , можемо визначити градусну міру його третього кута:\r\n $$\r\n \\angle C=180^\\circ-(40^\\circ+85^\\circ)=55^\\circ.\r\n $$ \r\n Оскільки за умовою \\angle ACN=90^\\circ , то\r\n $$\r\n 55^\\circ+\\alpha=90^\\circ,\r\n $$ \r\n звідки \\alpha=35^\\circ. \n Другий спосіб . Опустимо з вершини B трикутника ABC на сторону AC перпендикуляр AD (див. рисунок). З паралельності прямих BD і CN випливає, що \\angle DBC=\\angle BCN як внутрішні різносторонні. Тому шуканий кут \\alpha дорівнює куту DBC. Маємо:\r\n \\begin{gather*}\r\n \\angle A=180^\\circ-\\angle MAB=40^\\circ,\\\\[7pt]\r\n \\angle ABD=90^\\circ-\\angle A=90^\\circ-40^\\circ=50^\\circ,\\\\[7pt]\r\n \\alpha=\\angle DBC=\\angle ABC-\\angle ABD=85^\\circ-50^\\circ=35^\\circ.\r\n \\end{gather*} \n Третій спосіб . Скористаємось теоремою. Зовнішній кут трикутника дорівнює сумі двох внутрішніх, не суміжних з ним. Отже, \\angle BCP=\\angle A+\\angle B (див. рисунок). Оскільки\r\n \\begin{gather*}\r\n \\angle BCP=90^\\circ+\\alpha,\\\\[7pt]\r\n \\angle A=180^\\circ-140^\\circ=40^\\circ,\r\n \\end{gather*} \n то\r\n $$\r\n 90^\\circ+\\alpha=40^\\circ+85^\\circ.\r\n $$ \n Звідки одержуємо:\r\n $$\r\n \\alpha=125^\\circ-90^\\circ=35^\\circ.\r\n $$ \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Суміжні кути. Трикутники. Зовнішній кут трикутника. Теорема про суму кутів трикутника.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/71/7170/ds-math-2014-new-07.png",
+    "https://zno.osvita.ua/doc/images/znotest/71/7170/ds-ds-math-2014-new-07-1.png",
+    "https://zno.osvita.ua/doc/images/znotest/71/7170/ds-ds-math-2014-new-07-2.png",
+    "https://zno.osvita.ua/doc/images/znotest/71/7170/ds-ds-math-2014-new-07-3.png"
+   ],
+   "text": "Прямі k , l , m i n лежать в одній площині (див. рисунок). Визначте градусну міру кута \\alpha.",
+   "latex": [
+    "k",
+    "l",
+    "m",
+    "n",
+    "\\alpha.",
+    "15^\\circ",
+    "25^\\circ",
+    "35^\\circ",
+    "45^\\circ",
+    "55^\\circ"
+   ],
+   "source_test": 144,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 9240,
+   "tip": 1,
+   "out_order": 9,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Прямі <latex>AB</latex> i <latex>CK</latex> паралельні, <latex>CB</latex> – бісектриса кута <latex>ACK.</latex> Визначте градусну міру кута <latex>ABC</latex>, якщо <latex>\\angle BAC=52^\\circ.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/92/9240/pr-math-2016-new-09.png\" style=\"height: auto;\" width=\"300\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>38^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>52^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>64^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>69^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>128^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Кути при паралельних прямих. Бісектриса кута.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання властивостей кутів, що утворюються при перетині двох паралельних прямих січною та означення бісектриси кута.\r\n </p>\n<p>\r\n Кути <latex>\\angle BAC</latex> та <latex>\\angle ACK</latex> – внутрішні односторонні кути при паралельних прямих <latex>AB</latex> i <latex>CK</latex> та січній <latex>AC.</latex> Сума внутрішніх односторонніх кутів при паралельних прямих дорівнює <latex>180^\\circ.</latex> Отже, \r\n <latex>$$\r\n \\angle BAC+\\angle ACK=180^\\circ,\r\n $$</latex>\r\n звідки\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>$$\r\n \\angle ACK=180^\\circ-\\angle BAC=180^\\circ-52^\\circ=128^\\circ.\r\n $$</latex>\n</div>\n<p>\r\n Оскільки <latex>BC</latex> є бісектрисою кута <latex>\\angle ACK</latex>, то за означенням бісектриси, вона ділить цей кут навпіл, отже,\r\n </p>\n<latex>$$\r\n \\angle ACB=\\angle BCK=\\frac{128^\\circ}{2}=64^\\circ.\r\n $$</latex>\n<p>\r\n Кути <latex>\\angle BCK</latex> i <latex>\\angle ABC</latex> – внутрішні різносторонні кути при паралельних прямих <latex>AB</latex> i <latex>CK</latex> та січній <latex>BC</latex>, тому вони рівні. Отже, <latex>\\angle ABC=64^\\circ.</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Кути при паралельних прямих. Бісектриса кута.\r\n Це завдання перевіряє знання властивостей кутів, що утворюються при перетині двох паралельних прямих січною та означення бісектриси кута.\r\n Кути \\angle BAC та \\angle ACK – внутрішні односторонні кути при паралельних прямих AB i CK та січній AC. Сума внутрішніх односторонніх кутів при паралельних прямих дорівнює 180^\\circ. Отже, \r\n $$\r\n \\angle BAC+\\angle ACK=180^\\circ,\r\n $$ \r\n звідки\r\n $$\r\n \\angle ACK=180^\\circ-\\angle BAC=180^\\circ-52^\\circ=128^\\circ.\r\n $$ \n Оскільки BC є бісектрисою кута \\angle ACK , то за означенням бісектриси, вона ділить цей кут навпіл, отже,\r\n $$\r\n \\angle ACB=\\angle BCK=\\frac{128^\\circ}{2}=64^\\circ.\r\n $$ \n Кути \\angle BCK i \\angle ABC – внутрішні різносторонні кути при паралельних прямих AB i CK та січній BC , тому вони рівні. Отже, \\angle ABC=64^\\circ. \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Кути при паралельних прямих. Бісектриса кута.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/92/9240/pr-math-2016-new-09.png"
+   ],
+   "text": "Прямі AB i CK паралельні, CB – бісектриса кута ACK. Визначте градусну міру кута ABC , якщо \\angle BAC=52^\\circ.",
+   "latex": [
+    "AB",
+    "CK",
+    "CB",
+    "ACK.",
+    "ABC",
+    "\\angle BAC=52^\\circ.",
+    "38^\\circ",
+    "52^\\circ",
+    "64^\\circ",
+    "69^\\circ",
+    "128^\\circ"
+   ],
+   "source_test": 187,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 9427,
+   "tip": 1,
+   "out_order": 10,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено прямі <latex>m</latex> i <latex>n</latex>, що перетинаються. Визначте градусну міру кута <span style=\"white-space:nowrap\"><latex>\\gamma</latex>,</span> якщо <latex>\\alpha+\\beta=50^\\circ.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/94/9427/os-math-2016-new-01.png\" style=\"height: auto;\" width=\"300\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>310^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>155^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>145^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>140^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>130^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Найпростіші фігури на площині. Вертикальні та суміжні кути.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння визначати невідомий кут, використовуючи означення суміжних кутів і властивості вертикальникх кутів.\r\n </p>\n<p>\r\n Зображені на рисунку кути <latex>\\alpha</latex> i <latex>\\beta</latex> є вертикальними, тому що утворені при перетині двох прямих <latex>m</latex> i <latex>n.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/94/9427/ds-os-math-2016-new-01.png\" style=\"height: auto;\" width=\"300\"/>\n</div>\n<p>\r\n Вертикальні кути рівні, тому\r\n <latex>$$\r\n \\alpha=\\beta=\\frac{50^\\circ}{2}=25^\\circ.\r\n $$</latex>\r\n Кути <latex>\\alpha</latex> i <latex>\\gamma</latex> є суміжними, оскільки промінь <latex>OA</latex>, що лежить на прямій <latex>n</latex>, є спільною стороною цих кутів, а сторони <latex>OB</latex> та <latex>OC</latex>, що лежать на прямій <latex>m</latex>, є доповняльними променями. Оскільки сума суміжних кутів дорівнює <latex>180^\\circ</latex>, то\r\n <latex>$$\r\n \\gamma=180^\\circ-\\alpha=180^\\circ-25^\\circ=155^\\circ.\r\n $$</latex>\n</p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші фігури на площині. Вертикальні та суміжні кути.\r\n Це завдання перевіряє вміння визначати невідомий кут, використовуючи означення суміжних кутів і властивості вертикальникх кутів.\r\n Зображені на рисунку кути \\alpha i \\beta є вертикальними, тому що утворені при перетині двох прямих m i n. \n Вертикальні кути рівні, тому\r\n $$\r\n \\alpha=\\beta=\\frac{50^\\circ}{2}=25^\\circ.\r\n $$ \r\n Кути \\alpha i \\gamma є суміжними, оскільки промінь OA , що лежить на прямій n , є спільною стороною цих кутів, а сторони OB та OC , що лежать на прямій m , є доповняльними променями. Оскільки сума суміжних кутів дорівнює 180^\\circ , то\r\n $$\r\n \\gamma=180^\\circ-\\alpha=180^\\circ-25^\\circ=155^\\circ.\r\n $$ \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Найпростіші фігури на площині. Вертикальні та суміжні кути.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/94/9427/os-math-2016-new-01.png",
+    "https://zno.osvita.ua/doc/images/znotest/94/9427/ds-os-math-2016-new-01.png"
+   ],
+   "text": "На рисунку зображено прямі m i n , що перетинаються. Визначте градусну міру кута \\gamma , якщо \\alpha+\\beta=50^\\circ.",
+   "latex": [
+    "m",
+    "n",
+    "\\gamma",
+    "\\alpha+\\beta=50^\\circ.",
+    "310^\\circ",
+    "155^\\circ",
+    "145^\\circ",
+    "140^\\circ",
+    "130^\\circ"
+   ],
+   "source_test": 191,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 12066,
+   "tip": 1,
+   "out_order": 11,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На відрізку <latex>AB</latex> вибрано точку <latex>M</latex> так, що довжина відрізка <latex>AM</latex> утричі більша за довжину <latex>MB.</latex> Визначте довжину відрізка <latex>AB</latex>, якщо <latex>MB=12</latex> <i>см</i>.\r\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>48</latex> <i>см</i>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>36</latex> <i>см</i>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>24</latex> <i>см</i>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>42</latex> <i>см</i>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>54</latex> <i>см</i>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості. Аксіоми планіметрії.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати властивості найпростіших геометричних фігур до розв’язування планіметричних задач.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/120/12066/ds-os-math-2017-new-02.png\" style=\"height: auto;\" width=\"300\"/>\n</div>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n AM=3MB=3\\cdot 12=36\\ \\textit{см},\\\\[7pt]\r\n AB=AM+MB=36+12=48\\ \\textit{см}.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості. Аксіоми планіметрії.\r\n Це завдання перевіряє вміння застосовувати властивості найпростіших геометричних фігур до розв’язування планіметричних задач.\r\n \\begin{gather*}\r\n AM=3MB=3\\cdot 12=36\\ \\textit{см},\\\\[7pt]\r\n AB=AM+MB=36+12=48\\ \\textit{см}.\r\n \\end{gather*} \n Відповідь: A.",
+   "topic": "Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості. Аксіоми планіметрії.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/120/12066/ds-os-math-2017-new-02.png"
+   ],
+   "text": "На відрізку AB вибрано точку M так, що довжина відрізка AM утричі більша за довжину MB. Визначте довжину відрізка AB , якщо MB=12 см .",
+   "latex": [
+    "AB",
+    "M",
+    "AM",
+    "MB.",
+    "AB",
+    "MB=12",
+    "48",
+    "36",
+    "24",
+    "42",
+    "54"
+   ],
+   "source_test": 247,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 12072,
+   "tip": 1,
+   "out_order": 12,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Усі зображені на рисунку прямі лежать в одній площині, прямі <latex>m</latex> i <latex>n</latex> є паралельними. Визначте градусну міру кута <latex>\\mathbf{\\alpha}.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/120/12072/os-math-2017-new-08.png\" style=\"height: auto;\" width=\"300\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>20^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>50^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>60^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>70^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>110^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання аксіом стереометрії, властивостей паралельних прямих, уміння застосовувати властивості найпростіших геометричних фігур до розв’язування планіметричних задач.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/120/12072/ds-os-math-2017-new-08.png\" style=\"height: auto;\" width=\"250\"/>\n</div>\n<br/>\n<p>\n<latex>\\angle ABC+\\angle CBD+\\angle DBE=180^\\circ</latex>, <latex>\\angle CBD=\\angle BDE=70^\\circ</latex>, як внутрішні різносторонні при <latex>m\\ ||\\ n</latex> та січною <latex>BD.</latex> Кут <latex>\\mathbf{\\alpha}=180^\\circ-60^\\circ-70^\\circ=50^\\circ.</latex>\n</p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості.\r\n Це завдання перевіряє знання аксіом стереометрії, властивостей паралельних прямих, уміння застосовувати властивості найпростіших геометричних фігур до розв’язування планіметричних задач.\r\n \\angle ABC+\\angle CBD+\\angle DBE=180^\\circ , \\angle CBD=\\angle BDE=70^\\circ , як внутрішні різносторонні при m\\ ||\\ n та січною BD. Кут \\mathbf{\\alpha}=180^\\circ-60^\\circ-70^\\circ=50^\\circ. \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/120/12072/os-math-2017-new-08.png",
+    "https://zno.osvita.ua/doc/images/znotest/120/12072/ds-os-math-2017-new-08.png"
+   ],
+   "text": "Усі зображені на рисунку прямі лежать в одній площині, прямі m i n є паралельними. Визначте градусну міру кута \\mathbf{\\alpha}.",
+   "latex": [
+    "m",
+    "n",
+    "\\mathbf{\\alpha}.",
+    "20^\\circ",
+    "50^\\circ",
+    "60^\\circ",
+    "70^\\circ",
+    "110^\\circ"
+   ],
+   "source_test": 247,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 12505,
+   "tip": 1,
+   "out_order": 13,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Точка <latex>B</latex> належить відрізку <latex>AC.</latex> Визначте відстань між серединами відрізків <latex>AB</latex> і <latex>BC</latex>, якщо <latex>AB=10\\ \\textit{см}</latex>, <latex>BC=5\\mathord{,}2\\ \\textit{см}.</latex>\n</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>2\\mathord{,}4</latex> <i>см</i>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>2\\mathord{,}6</latex> <i>см</i>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>5\\mathord{,}0</latex> <i>см</i>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>7\\mathord{,}6</latex> <i>см</i>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>10\\mathord{,}2</latex> <i>см</i>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. </strong></p>\n<p>Це завдання перевіряє знання аксіом планіметрії, уміння застосовувати властивості найпростіших геометричних фігур до розв'язування планіметричних задач.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/125/12505/ds-ds-math-2017-new-04-new.png\" style=\"height: auto;\" width=\"400\"/></div>\n<p>Нехай точка <latex>K</latex> – середина <latex>AB</latex>, а точка <latex>M</latex> – середина <latex>BC.</latex></p>\n<p><latex display=\"block\">\\begin{gather*} KM=KB+BM=\\frac 12AB+\\frac 12BC=\\\\[6pt] =\\frac 12(AB+BC)=(10+5\\mathord{,}2):2=7\\mathord{,6}\\ \\textit{см}. \\end{gather*}</latex></p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. \n Це завдання перевіряє знання аксіом планіметрії, уміння застосовувати властивості найпростіших геометричних фігур до розв'язування планіметричних задач.\n Нехай точка K – середина AB , а точка M – середина BC. \n \\begin{gather*} KM=KB+BM=\\frac 12AB+\\frac 12BC=\\\\[6pt] =\\frac 12(AB+BC)=(10+5\\mathord{,}2):2=7\\mathord{,6}\\ \\textit{см}. \\end{gather*} \n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/125/12505/ds-ds-math-2017-new-04-new.png"
+   ],
+   "text": "Точка B належить відрізку AC. Визначте відстань між серединами відрізків AB і BC , якщо AB=10\\ \\textit{см} , BC=5\\mathord{,}2\\ \\textit{см}.",
+   "latex": [
+    "B",
+    "AC.",
+    "AB",
+    "BC",
+    "AB=10\\ \\textit{см}",
+    "BC=5\\mathord{,}2\\ \\textit{см}.",
+    "2\\mathord{,}4",
+    "2\\mathord{,}6",
+    "5\\mathord{,}0",
+    "7\\mathord{,}6",
+    "10\\mathord{,}2"
+   ],
+   "source_test": 256,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 14597,
+   "tip": 1,
+   "out_order": 14,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Три прямі, розміщені в одній площині, перетинаються в одній точці (див. рисунок). Визначте градусну міру кута <latex>\\mathbf{\\alpha}.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/145/14597/os-math-2018-new-02.png\" style=\"height: auto;\" width=\"268\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>80^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>50^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>90^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>100^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>70^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Найпростіші геометричні фігури на площині та їхні властивості.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати властивості найпростіших геометричних фігур до розв'язування планіметричних задач, знання властивості вертикальних кутів.\r\n </p>\n<p>\n<latex>\\angle \\mathbf{\\beta}=60^\\circ</latex> як вертикальний з даним кутом <latex>60^\\circ.</latex>\n</p>\n<p>\n<latex>\\mathbf{\\alpha}+\\mathbf{\\beta}+40^\\circ=180^\\circ</latex> оскільки складають розгорнутий кут.\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<p>\r\n Тому <latex>\\mathbf{\\alpha}=180^\\circ-40^\\circ-\\mathbf{\\beta}=180^\\circ-40^\\circ-60^\\circ=80^\\circ.</latex>\n</p>\n</div>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/145/14597/ds-os-math-2018-new-02.png\" style=\"height: auto;\" width=\"290\"/>\n</div>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Найпростіші геометричні фігури на площині та їхні властивості.\r\n Це завдання перевіряє вміння застосовувати властивості найпростіших геометричних фігур до розв'язування планіметричних задач, знання властивості вертикальних кутів.\r\n \\angle \\mathbf{\\beta}=60^\\circ як вертикальний з даним кутом 60^\\circ. \n \\mathbf{\\alpha}+\\mathbf{\\beta}+40^\\circ=180^\\circ оскільки складають розгорнутий кут.\r\n Тому \\mathbf{\\alpha}=180^\\circ-40^\\circ-\\mathbf{\\beta}=180^\\circ-40^\\circ-60^\\circ=80^\\circ. \n Відповідь: A.",
+   "topic": "Найпростіші геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/145/14597/os-math-2018-new-02.png",
+    "https://zno.osvita.ua/doc/images/znotest/145/14597/ds-os-math-2018-new-02.png"
+   ],
+   "text": "Три прямі, розміщені в одній площині, перетинаються в одній точці (див. рисунок). Визначте градусну міру кута \\mathbf{\\alpha}.",
+   "latex": [
+    "\\mathbf{\\alpha}.",
+    "80^\\circ",
+    "50^\\circ",
+    "90^\\circ",
+    "100^\\circ",
+    "70^\\circ"
+   ],
+   "source_test": 298,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 14606,
+   "tip": 1,
+   "out_order": 15,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Ha рисунку зображено паралельні прямі <latex>a</latex> i <latex>b</latex> тa січну <latex>CD.</latex> Знайдіть відстань між прямими <latex>a</latex> i <latex>b</latex>, якщо <latex>CK=5</latex> <i>см</i>, <latex>KD=2</latex> <i>см</i>, a відстань від точки <latex>K</latex> до прямої <latex>a</latex>, дорівнює <latex>1</latex> <i>см</i>.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/146/14606/os-math-2018-new-11.png\" style=\"width: 270px; height: auto;\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>2\\mathord{,}5</latex> <i>см</i>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>3</latex> <i>см</i>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>3\\mathord{,}5</latex> <i>см</i>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>4</latex> <i>см</i>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>4\\mathord{,}5</latex> <i>см</i>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. Трикутники. Суміжні та вертикальні кути, паралельні та перпендикулярні прямі. Геометричні перетворення.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати властивості паралельних прямих, ознаки подібності трикутників до розв'язування планіметричних задач.\r\n </p>\n<p>\r\n Зробимо додаткову побудову і терез точку <latex>K</latex> проведемо пряму <latex>AB</latex>, перпендикулярну до прямих <latex>a</latex> i <latex>b.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/146/14606/ds-os-math-2018-new-11.png\" style=\"height: auto;\" width=\"270\"/>\n</div>\n<p>\r\n Розглянемо трикутники <latex>ADK</latex> та <latex>BCK.</latex> Вони подібні за двома кутами: <latex>\\angle ADK=\\angle BCK</latex> як внутрішні різносторонні при <latex>a\\ ||\\ b</latex> та січною <latex>CD.</latex>\n</p>\n<p>\n<latex>\\angle DAK=\\angle KBC=90^\\circ</latex> за побудовою.\r\n </p>\n<p>\r\n У подібних трикутниках відповідні сторони пропорційні, отже\r\n <latex display=\"block\">$$\r\n \\frac{AK}{KB}=\\frac{KD}{CK}.\r\n$$</latex>\n</p>\n<p>\r\n Відстань від точки <latex>K</latex> до прямої <latex>a</latex> – це довжина перпенидкуляра <latex>KA=1</latex> <i>см</i>\n<latex display=\"block\">\\begin{gather*}\r\n \\frac{1}{KB}=\\frac 25,\\\\[6pt]\r\n KB=2\\mathord{,}5\\ \\textit{см}.\r\n \\end{gather*}</latex>\n</p>\n<p>\r\n Відстань між прямими <latex>a</latex> i <latex>b</latex> – це довжина спільного перпендикуляра \r\n </p>\n<p>\n<latex>AB=AK+KB=1+2\\mathord{,}5=3\\mathord{,}5</latex> <i>см</i>.\r\n </p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. Трикутники. Суміжні та вертикальні кути, паралельні та перпендикулярні прямі. Геометричні перетворення.\r\n Це завдання перевіряє вміння застосовувати властивості паралельних прямих, ознаки подібності трикутників до розв'язування планіметричних задач.\r\n Зробимо додаткову побудову і терез точку K проведемо пряму AB , перпендикулярну до прямих a i b. \n Розглянемо трикутники ADK та BCK. Вони подібні за двома кутами: \\angle ADK=\\angle BCK як внутрішні різносторонні при a\\ ||\\ b та січною CD. \n \\angle DAK=\\angle KBC=90^\\circ за побудовою.\r\n У подібних трикутниках відповідні сторони пропорційні, отже\r\n $$\r\n \\frac{AK}{KB}=\\frac{KD}{CK}.\r\n$$ \n Відстань від точки K до прямої a – це довжина перпенидкуляра KA=1 см \n \\begin{gather*}\r\n \\frac{1}{KB}=\\frac 25,\\\\[6pt]\r\n KB=2\\mathord{,}5\\ \\textit{см}.\r\n \\end{gather*} \n Відстань між прямими a i b – це довжина спільного перпендикуляра \r\n AB=AK+KB=1+2\\mathord{,}5=3\\mathord{,}5 см .\r\n Відповідь: B.",
+   "topic": "Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. Трикутники. Суміжні та вертикальні кути, паралельні та перпендикулярні прямі. Геометричні перетворення.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/146/14606/os-math-2018-new-11.png",
+    "https://zno.osvita.ua/doc/images/znotest/146/14606/ds-os-math-2018-new-11.png"
+   ],
+   "text": "Ha рисунку зображено паралельні прямі a i b тa січну CD. Знайдіть відстань між прямими a i b , якщо CK=5 см , KD=2 см , a відстань від точки K до прямої a , дорівнює 1 см .",
+   "latex": [
+    "a",
+    "b",
+    "CD.",
+    "a",
+    "b",
+    "CK=5",
+    "KD=2",
+    "K",
+    "a",
+    "1",
+    "2\\mathord{,}5",
+    "3",
+    "3\\mathord{,}5",
+    "4",
+    "4\\mathord{,}5"
+   ],
+   "source_test": 298,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 15236,
+   "tip": 1,
+   "out_order": 16,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Дві дороги розходяться на рівнинній місцевості як промені <latex>OA</latex> та <latex>OB</latex>, позначені на рисунку. Перша дорога (промінь <latex>OA</latex>) утворює кут <latex>40^\\circ</latex> з напрямком «схід», а друга (промінь <latex>OB</latex>) – кут <latex>20^\\circ</latex> з напрямком «південь». Який кут утворюють ці дороги між собою?\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/152/15236/ds-math-2018-new-02.png\" style=\"height: auto;\" width=\"300\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>90^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>100^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>110^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>120^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>130^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати означення, ознаки та властивості найпростіших геометричних фігур до розв'язування задач практичного змісту.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/152/15236/ds-ds-math-2018-new-02.png\" style=\"height: auto;\" width=\"300\"/>\n</div>\n<p>\r\n Кут <latex>COD</latex> – прямий.\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n \\angle COB=\\angle COD-\\angle BOD=90^\\circ-20^\\circ=70^\\circ,\\\\[7pt]\r\n \\angle AOB=\\angle AOC+\\angle COB=40^\\circ+70^\\circ=110^\\circ.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості.\r\n Це завдання перевіряє вміння застосовувати означення, ознаки та властивості найпростіших геометричних фігур до розв'язування задач практичного змісту.\r\n Кут COD – прямий.\r\n \\begin{gather*}\r\n \\angle COB=\\angle COD-\\angle BOD=90^\\circ-20^\\circ=70^\\circ,\\\\[7pt]\r\n \\angle AOB=\\angle AOC+\\angle COB=40^\\circ+70^\\circ=110^\\circ.\r\n \\end{gather*} \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/152/15236/ds-math-2018-new-02.png",
+    "https://zno.osvita.ua/doc/images/znotest/152/15236/ds-ds-math-2018-new-02.png"
+   ],
+   "text": "Дві дороги розходяться на рівнинній місцевості як промені OA та OB , позначені на рисунку. Перша дорога (промінь OA ) утворює кут 40^\\circ з напрямком «схід», а друга (промінь OB ) – кут 20^\\circ з напрямком «південь». Який кут утворюють ці дороги між собою?",
+   "latex": [
+    "OA",
+    "OB",
+    "OA",
+    "40^\\circ",
+    "OB",
+    "20^\\circ",
+    "90^\\circ",
+    "100^\\circ",
+    "110^\\circ",
+    "120^\\circ",
+    "130^\\circ"
+   ],
+   "source_test": 310,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 19946,
+   "tip": 1,
+   "out_order": 17,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Прямі <latex>l</latex>, <latex>m</latex> і <latex>n</latex> лежать в одній площині (див. рисунок). Визначте градусну міру<br/>кута <latex>\\mathbf{\\alpha}.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/199/19946/os-math-2020-new-02.png\" style=\"height: auto;\" width=\"215\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>110^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>50^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>60^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>70^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>80^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їхні властивості.\r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє знання властивостей суміжних та вертикальних кутів, теореми про суму кутів трикутника.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/199/19946/ds-os-math-2020-new-02.png\" style=\"height: auto;\" width=\"215\"/>\n</div>\n<p>\n<latex>\\angle BAC=180^\\circ-120^\\circ=60^\\circ</latex> – суміжний до кута <latex>120^\\circ.</latex>\n</p>\n<p>\n<latex>\\angle ACB=\\mathbf{\\alpha}</latex> – вертикальні кути.\r\n </p>\n<p>\r\n Сума кутів <latex>\\Delta ABC</latex> дорівнює <latex>180^\\circ</latex>, тому\r\n <latex display=\"block\">$$\r\n \\mathbf{\\alpha}=180^\\circ-(50^\\circ+60^\\circ)=70^\\circ.\r\n$$</latex>\n</p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їхні властивості.\r\n Завдання перевіряє знання властивостей суміжних та вертикальних кутів, теореми про суму кутів трикутника.\r\n \\angle BAC=180^\\circ-120^\\circ=60^\\circ – суміжний до кута 120^\\circ. \n \\angle ACB=\\mathbf{\\alpha} – вертикальні кути.\r\n Сума кутів \\Delta ABC дорівнює 180^\\circ , тому\r\n $$\r\n \\mathbf{\\alpha}=180^\\circ-(50^\\circ+60^\\circ)=70^\\circ.\r\n$$ \n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/199/19946/os-math-2020-new-02.png",
+    "https://zno.osvita.ua/doc/images/znotest/199/19946/ds-os-math-2020-new-02.png"
+   ],
+   "text": "Прямі l , m і n лежать в одній площині (див. рисунок). Визначте градусну міру\nкута \\mathbf{\\alpha}.",
+   "latex": [
+    "l",
+    "m",
+    "n",
+    "\\mathbf{\\alpha}.",
+    "110^\\circ",
+    "50^\\circ",
+    "60^\\circ",
+    "70^\\circ",
+    "80^\\circ"
+   ],
+   "source_test": 400,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 21208,
+   "tip": 1,
+   "out_order": 18,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Пряма <latex>l</latex> перетинає паралельні прямі <latex>m</latex> та <latex>n</latex> (див. рисунок). Визначте градусну міру кута <latex>\\mathbf{\\alpha}</latex>, якщо <latex>\\mathbf{\\beta} = 125^\\circ.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/212/21208/ds-math-2020-new-02.png\" style=\"height: auto;\" width=\"150\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>35^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>45^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>55^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>65^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>75^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури та їхні властивості.\r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє знання властивостей вертикальних i суміжних кутів, паралельних прямих.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/212/21208/ds-ds-math-2020-new-02.png\" style=\"height: auto;\" width=\"150\"/>\n</div>\n<p>\n<latex>\\angle\\mathbf{\\beta}=\\angle\\mathbf{\\gamma}</latex> як вертикальний. <latex>\\mathbf{\\alpha}+\\mathbf{\\gamma}=180^\\circ.</latex> За властивістю паралельних прямих. <latex>\\mathbf{\\alpha}</latex>, <latex>\\mathbf{\\gamma}</latex> – внутрішні односторонні.\r\n <latex display=\"block\">$$\r\n \\mathbf{\\alpha}=180^\\circ-\\mathbf{\\gamma}=180^\\circ-125^\\circ=55^\\circ.\r\n$$</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури та їхні властивості.\r\n Завдання перевіряє знання властивостей вертикальних i суміжних кутів, паралельних прямих.\r\n \\angle\\mathbf{\\beta}=\\angle\\mathbf{\\gamma} як вертикальний. \\mathbf{\\alpha}+\\mathbf{\\gamma}=180^\\circ. За властивістю паралельних прямих. \\mathbf{\\alpha} , \\mathbf{\\gamma} – внутрішні односторонні.\r\n $$\r\n \\mathbf{\\alpha}=180^\\circ-\\mathbf{\\gamma}=180^\\circ-125^\\circ=55^\\circ.\r\n$$ \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Елементарні геометричні фігури та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/212/21208/ds-math-2020-new-02.png",
+    "https://zno.osvita.ua/doc/images/znotest/212/21208/ds-ds-math-2020-new-02.png"
+   ],
+   "text": "Пряма l перетинає паралельні прямі m та n (див. рисунок). Визначте градусну міру кута \\mathbf{\\alpha} , якщо \\mathbf{\\beta} = 125^\\circ.",
+   "latex": [
+    "l",
+    "m",
+    "n",
+    "\\mathbf{\\alpha}",
+    "\\mathbf{\\beta} = 125^\\circ.",
+    "35^\\circ",
+    "45^\\circ",
+    "55^\\circ",
+    "65^\\circ",
+    "75^\\circ"
+   ],
+   "source_test": 425,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 26118,
+   "tip": 1,
+   "out_order": 19,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Прямі <latex>AB</latex> і <latex>CK</latex> паралельні, <latex>CB</latex> – бісектриса кута <latex>ACK</latex>. Визначте градусну міру кута <latex>ABC</latex>, якщо <latex>\\angle BAC = 52^\\circ.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/260/26058/multy-os-math-05-2022.png\" style=\"height: auto;\" width=\"219\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>38^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>52^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>64^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>69^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>128^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури та їхні властивості. \r\n </strong>\n</p>\n<p>\r\n Перевіряє знання властивостей, паралельних прямих, суми кутів трикутника. \r\n </p>\n<p>\n<latex display=\"block\">$$\r\n \\angle BAC+\\angle ACK=180^\\circ\r\n$$</latex>\r\n за властивістю паралельних прямих сума внутрішніх односторонніх кутів <latex>180^\\circ.</latex>\n<latex display=\"block\">$$\r\n \\angle ACK=180^\\circ-52^\\circ=128^\\circ.\r\n$$</latex>\n<latex>CB</latex> – бісектриса, тому\r\n <latex display=\"block\">$$\r\n \\angle ACB=\\angle BCK=128^\\circ:2=64^\\circ.\r\n$$</latex>\r\n Сума кутів трикутника <latex>180^\\circ.</latex> Отже,\r\n <latex display=\"block\">\\begin{gather*}\r\n \\angle ABC=180^\\circ-(\\angle BAC +\\angle ACB)=\\\\[7pt]\r\n =180^\\circ-(52^\\circ+64^\\circ)=180^\\circ-116^\\circ=64^\\circ.\r\n \\end{gather*}</latex>\r\n Або в такий спосіб: <latex>\\angle ABC=\\angle BCK=64^\\circ</latex> як внутрішні різносторонні при <latex>AB\\ ||\\ CK</latex> та січної <latex>BC.</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури та їхні властивості. \r\n Перевіряє знання властивостей, паралельних прямих, суми кутів трикутника. \r\n $$\r\n \\angle BAC+\\angle ACK=180^\\circ\r\n$$ \r\n за властивістю паралельних прямих сума внутрішніх односторонніх кутів 180^\\circ. \n $$\r\n \\angle ACK=180^\\circ-52^\\circ=128^\\circ.\r\n$$ \n CB – бісектриса, тому\r\n $$\r\n \\angle ACB=\\angle BCK=128^\\circ:2=64^\\circ.\r\n$$ \r\n Сума кутів трикутника 180^\\circ. Отже,\r\n \\begin{gather*}\r\n \\angle ABC=180^\\circ-(\\angle BAC +\\angle ACB)=\\\\[7pt]\r\n =180^\\circ-(52^\\circ+64^\\circ)=180^\\circ-116^\\circ=64^\\circ.\r\n \\end{gather*} \r\n Або в такий спосіб: \\angle ABC=\\angle BCK=64^\\circ як внутрішні різносторонні при AB\\ ||\\ CK та січної BC. \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Елементарні геометричні фігури та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/260/26058/multy-os-math-05-2022.png"
+   ],
+   "text": "Прямі AB і CK паралельні, CB – бісектриса кута ACK . Визначте градусну міру кута ABC , якщо \\angle BAC = 52^\\circ.",
+   "latex": [
+    "AB",
+    "CK",
+    "CB",
+    "ACK",
+    "ABC",
+    "\\angle BAC = 52^\\circ.",
+    "38^\\circ",
+    "52^\\circ",
+    "64^\\circ",
+    "69^\\circ",
+    "128^\\circ"
+   ],
+   "source_test": 521,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 26824,
+   "tip": 1,
+   "out_order": 20,
+   "type": "single_choice",
+   "question_html": "<p>Із точки <latex>O,</latex> яка лежить на прямій <latex>AB,</latex> проведено промені <latex>OM</latex> і <latex>OK</latex> (див. рисунок). Відомо, що <latex>\\angle BOM = 30^\\circ,</latex> <latex>\\angle MOK = 80^\\circ.</latex> Визначте градусну міру кута <latex>AOK.</latex> Уважайте, що промені <latex>OK,\\ OM</latex> і пряма <latex>AB</latex> лежать в одній площині.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/268/26824/nmt-2023-2-new-02.png\" style=\"height: auto;\" width=\"239\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>60^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>70^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>80^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>150^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>170^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їх властивості. </strong></p>\n<p>Завдання перевіряє знання аксіом планіметрії.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/268/26824/ds-math-2023-2s-new-02.png\" style=\"height: auto;\" width=\"238\"/></div>\n<p><latex>\\angle AOK+\\angle KOM+\\angle MOB=180^\\circ.</latex></p>\n<p><latex>\\angle AOK=180^\\circ-(30^\\circ+80^\\circ)=70^\\circ.</latex></p>\n<p>Отже, правильна відповідь – <b>Б</b>.</p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їх властивості. \n Завдання перевіряє знання аксіом планіметрії.\n \\angle AOK+\\angle KOM+\\angle MOB=180^\\circ. \n \\angle AOK=180^\\circ-(30^\\circ+80^\\circ)=70^\\circ. \n Отже, правильна відповідь – Б .\n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їх властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/268/26824/nmt-2023-2-new-02.png",
+    "https://zno.osvita.ua/doc/images/znotest/268/26824/ds-math-2023-2s-new-02.png"
+   ],
+   "text": "Із точки O, яка лежить на прямій AB, проведено промені OM і OK (див. рисунок). Відомо, що \\angle BOM = 30^\\circ, \\angle MOK = 80^\\circ. Визначте градусну міру кута AOK. Уважайте, що промені OK,\\ OM і пряма AB лежать в одній площині.",
+   "latex": [
+    "O,",
+    "AB,",
+    "OM",
+    "OK",
+    "\\angle BOM = 30^\\circ,",
+    "\\angle MOK = 80^\\circ.",
+    "AOK.",
+    "OK,\\ OM",
+    "AB",
+    "60^\\circ",
+    "70^\\circ",
+    "80^\\circ",
+    "150^\\circ",
+    "170^\\circ"
+   ],
+   "source_test": 547,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 28379,
+   "tip": 1,
+   "out_order": 21,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Відомо, що вісь <latex>AO</latex> Пізанської вежі натепер відхилена від вертикалі <latex>BO</latex> на кут <latex>4^\\circ</latex> (див. рисунок). Визначте градусну міру кута <latex>AOC,</latex> який утворює вісь вежі з горизонтальною поверхнею <latex>OC.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/283/28379/04-math-2-2024.png\" style=\"height: auto;\" width=\"146\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>176^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>94^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>104^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>86^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>96^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їхні властивості. \r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знання властивостей кутів, аксіом планіметрії.\r\n </p>\n<p>\n<latex>\\angle BOC=90^\\circ, \\angle BOA=4^\\circ.</latex> Отже, \r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex display=\"block\">$$\r\n \\angle AOC=\\angle BOC-\\angle BOA=90^\\circ-4^\\circ=86^\\circ.\r\n$$</latex>\n</div>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їхні властивості. \r\n Завдання скеровано на перевірку знання властивостей кутів, аксіом планіметрії.\r\n \\angle BOC=90^\\circ, \\angle BOA=4^\\circ. Отже, \r\n $$\r\n \\angle AOC=\\angle BOC-\\angle BOA=90^\\circ-4^\\circ=86^\\circ.\r\n$$ \n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/283/28379/04-math-2-2024.png"
+   ],
+   "text": "Відомо, що вісь AO Пізанської вежі натепер відхилена від вертикалі BO на кут 4^\\circ (див. рисунок). Визначте градусну міру кута AOC, який утворює вісь вежі з горизонтальною поверхнею OC.",
+   "latex": [
+    "AO",
+    "BO",
+    "4^\\circ",
+    "AOC,",
+    "OC.",
+    "176^\\circ",
+    "94^\\circ",
+    "104^\\circ",
+    "86^\\circ",
+    "96^\\circ"
+   ],
+   "source_test": 606,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 35325,
+   "tip": 1,
+   "out_order": 22,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено дві прямі, що перетинаються.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/353/35325/9-var-05.png\" style=\"height: auto;\" width=\"300\"/></p>\n<p>\r\n Визначте градусну міру кута <latex>\\mathbf{\\alpha}</latex>, якщо <latex>\\mathbf{\\beta}+\\mathbf{\\varphi}=70^\\circ.</latex>\n</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>145^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>135^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>125^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>110^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>290^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Елементарні геометричні фігури на площині та їхні властивості.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знання властивостей суміжних і вертикальних кутів.\r\n </p>\n<p>\r\n Кути <latex>\\mathbf{\\beta}</latex> i <latex>\\mathbf{\\varphi}</latex> – вертикальні. За їхньою властивістю <latex>\\mathbf{\\beta}=\\mathbf{\\varphi}.</latex>\n</p>\n<p>\r\n За умовою <latex>\\mathbf{\\beta}+\\mathbf{\\varphi}=70^\\circ</latex>, тому \r\n <latex display=\"block\">$$\r\n \\mathbf{\\beta}=\\mathbf{\\varphi}=70^\\circ:2=35^\\circ.\r\n$$</latex>\n</p>\n<p>\r\n Кути <latex>\\mathbf{\\alpha}</latex> i <latex>\\mathbf{\\beta}</latex> – суміжні. За властивістю суміжних кутів:\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n \\mathbf{\\alpha}+\\mathbf{\\beta}=180^\\circ,\\\\[7pt]\r\n \\mathbf{\\alpha}=180^\\circ - \\mathbf{\\beta}=180^\\circ-35^\\circ=145^\\circ.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Елементарні геометричні фігури на площині та їхні властивості.\r\n Завдання скеровано на перевірку знання властивостей суміжних і вертикальних кутів.\r\n Кути \\mathbf{\\beta} i \\mathbf{\\varphi} – вертикальні. За їхньою властивістю \\mathbf{\\beta}=\\mathbf{\\varphi}. \n За умовою \\mathbf{\\beta}+\\mathbf{\\varphi}=70^\\circ , тому \r\n $$\r\n \\mathbf{\\beta}=\\mathbf{\\varphi}=70^\\circ:2=35^\\circ.\r\n$$ \n Кути \\mathbf{\\alpha} i \\mathbf{\\beta} – суміжні. За властивістю суміжних кутів:\r\n \\begin{gather*}\r\n \\mathbf{\\alpha}+\\mathbf{\\beta}=180^\\circ,\\\\[7pt]\r\n \\mathbf{\\alpha}=180^\\circ - \\mathbf{\\beta}=180^\\circ-35^\\circ=145^\\circ.\r\n \\end{gather*} \n Відповідь: A.",
+   "topic": "Елементарні геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/353/35325/9-var-05.png"
+   ],
+   "text": "На рисунку зображено дві прямі, що перетинаються.\r\n Визначте градусну міру кута \\mathbf{\\alpha} , якщо \\mathbf{\\beta}+\\mathbf{\\varphi}=70^\\circ.",
+   "latex": [
+    "\\mathbf{\\alpha}",
+    "\\mathbf{\\beta}+\\mathbf{\\varphi}=70^\\circ.",
+    "145^\\circ",
+    "135^\\circ",
+    "125^\\circ",
+    "110^\\circ",
+    "290^\\circ"
+   ],
+   "source_test": 699,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 35346,
+   "tip": 1,
+   "out_order": 23,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Пряма <latex>l</latex> перетинає паралельні прямі <latex>m</latex> і <latex>n.</latex> Визначте градусну міру кута <latex>\\mathbf{\\beta}</latex>, якщо <latex>\\mathbf{\\alpha}=35^\\circ.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/353/35346/10-var-04.png\" style=\"height: auto;\" width=\"200\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>135^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>125^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>155^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>55^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>145^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Елементарні геометричні фігури на площині та їхні властивості. \r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знання властивостей суміжних і вертикальних кутів, паралельних прямих.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/353/35346/decide-10-variant-04.png\" style=\"height: auto;\" width=\"200\"/>\n</div>\n<p>\r\n Кути <latex>\\mathbf{\\gamma}</latex> i <latex>\\mathbf{\\beta}</latex> – вертикальні. За властивістю вертикальних кутів <latex>\\mathbf{\\beta} = \\mathbf{\\gamma}.</latex>\n</p>\n<p>\r\n Кути <latex>\\mathbf{\\alpha}</latex> i <latex>\\mathbf{\\gamma}</latex> – внутрішні односторонні. За їхньою властивістю: \r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n \\mathbf{\\alpha}+ \\mathbf{\\gamma}=180^\\circ,\\\\[7pt]\r\n \\mathbf{\\alpha}=35^\\circ,\\\\[7pt]\r\n \\mathbf{\\gamma}=180^\\circ - 35^\\circ=145^\\circ.\r\n \\end{gather*}</latex>\n<p>\r\n Отже, <latex>\\mathbf{\\beta}=145^\\circ.</latex>\n</p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Елементарні геометричні фігури на площині та їхні властивості. \r\n Завдання скеровано на перевірку знання властивостей суміжних і вертикальних кутів, паралельних прямих.\r\n Кути \\mathbf{\\gamma} i \\mathbf{\\beta} – вертикальні. За властивістю вертикальних кутів \\mathbf{\\beta} = \\mathbf{\\gamma}. \n Кути \\mathbf{\\alpha} i \\mathbf{\\gamma} – внутрішні односторонні. За їхньою властивістю: \r\n \\begin{gather*}\r\n \\mathbf{\\alpha}+ \\mathbf{\\gamma}=180^\\circ,\\\\[7pt]\r\n \\mathbf{\\alpha}=35^\\circ,\\\\[7pt]\r\n \\mathbf{\\gamma}=180^\\circ - 35^\\circ=145^\\circ.\r\n \\end{gather*} \n Отже, \\mathbf{\\beta}=145^\\circ. \n Відповідь: Д.",
+   "topic": "Елементарні геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/353/35346/10-var-04.png",
+    "https://zno.osvita.ua/doc/images/znotest/353/35346/decide-10-variant-04.png"
+   ],
+   "text": "Пряма l перетинає паралельні прямі m і n. Визначте градусну міру кута \\mathbf{\\beta} , якщо \\mathbf{\\alpha}=35^\\circ.",
+   "latex": [
+    "l",
+    "m",
+    "n.",
+    "\\mathbf{\\beta}",
+    "\\mathbf{\\alpha}=35^\\circ.",
+    "135^\\circ",
+    "125^\\circ",
+    "155^\\circ",
+    "55^\\circ",
+    "145^\\circ"
+   ],
+   "source_test": 700,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 35369,
+   "tip": 1,
+   "out_order": 24,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено елемент декору паркану, що складається з п’яти довгих і чотирьох коротких стрілок, які виходять з вершини розгорнутого кута та поділяють його на рівні частини. Знайдіть градусну міру кута між двома довгими сусідніми стрілками.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/353/35369/11-var-05.jpeg\" style=\"height: auto;\" width=\"300\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>18^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>20^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>30^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>36^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>40^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Елементарні геометричні фігури на площині та їхні властивості.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знання властивостей і видів кутів.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/353/35369/decide-11-variant-05.png\" style=\"height: auto;\" width=\"257\"/>\n</div>\n<p>\r\n Розгорнутий кут поділено на <latex>10</latex> рівних частин. Градусна міра кожного з-поміж цих кутів\r\n <latex display=\"block\">$$\r\n 180^\\circ: 10=18^\\circ.\r\n$$</latex>\n</p>\n<p>\r\n Градусна міра кута між довгими стрілками складається з двох градусних мір кутів між довгою і короткою стрілкою.\r\n </p>\n<p>\r\n Отже, \r\n </p>\n<latex display=\"block\">$$\r\n 18^\\circ\\cdot 2=36^\\circ.\r\n$$</latex>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Елементарні геометричні фігури на площині та їхні властивості.\r\n Завдання скеровано на перевірку знання властивостей і видів кутів.\r\n Розгорнутий кут поділено на 10 рівних частин. Градусна міра кожного з-поміж цих кутів\r\n $$\r\n 180^\\circ: 10=18^\\circ.\r\n$$ \n Градусна міра кута між довгими стрілками складається з двох градусних мір кутів між довгою і короткою стрілкою.\r\n Отже, \r\n $$\r\n 18^\\circ\\cdot 2=36^\\circ.\r\n$$ \n Відповідь: Г.",
+   "topic": "Елементарні геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/353/35369/11-var-05.jpeg",
+    "https://zno.osvita.ua/doc/images/znotest/353/35369/decide-11-variant-05.png"
+   ],
+   "text": "На рисунку зображено елемент декору паркану, що складається з п’яти довгих і чотирьох коротких стрілок, які виходять з вершини розгорнутого кута та поділяють його на рівні частини. Знайдіть градусну міру кута між двома довгими сусідніми стрілками.",
+   "latex": [
+    "18^\\circ",
+    "20^\\circ",
+    "30^\\circ",
+    "36^\\circ",
+    "40^\\circ"
+   ],
+   "source_test": 701,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 36326,
+   "tip": 1,
+   "out_order": 25,
+   "type": "single_choice",
+   "question_html": "<p>Визначте радіанну міру кута <latex>\\beta</latex>, якщо суміжний із ним кут <latex>\\alpha=\\frac{\\pi}{5}.</latex></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\frac{\\pi}{5}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\frac{7\\pi}{10}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\frac{4\\pi}{5}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\frac{9\\pi}{5}</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>\\frac{3\\pi}{10}</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Найпростіші фігури на площині. Вертикальні кути. Суміжні кути.\r\n </strong>\n</p>\n<p>\r\n Завдання спрямовано на перевірку знань про суміжні та вертикальні кути як основні геометричні фігури на площині.\r\n </p>\n<p>\r\n Суміжними називають два кути, у яких одна сторона спільна, а інші є доповняльними променями. На рис. 1 кути <latex>AOC</latex> та <latex>COB</latex> суміжні.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/363/36326/dc-1-var-02.png\" style=\"height: auto;\" width=\"350\"/><br/>\r\n Рис. 1\r\n </div>\n<br/>\n<p>\r\n Сума суміжних кутів дорівнює <latex>180^\\circ.</latex> Оскільки в умові міру кута наведено в радіанах, скористаймось еквівалентом:\r\n <latex>\\begin{gather*}\r\n \\alpha+\\beta=\\pi.\r\n \\end{gather*}</latex>\n</p>\n<p>\r\n Відомо, що кут\r\n <latex>\\begin{gather*}\r\n \\alpha=\\frac{\\pi}{5}.\r\n \\end{gather*}</latex>\n</p>\n<p>\r\n Щоб визначити міру кута <latex>\\beta</latex>, віднімімо від <latex>\\pi</latex> відомий кут:\r\n <latex>\\begin{gather*}\r\n \\beta=\\pi-\\frac{\\pi}{5}.\r\n \\end{gather*}</latex>\n</p>\n<p>\r\n Зведімо до спільного знаменника:\r\n </p>\n<latex>\\begin{gather*}\r\n \\beta=\\frac{5\\pi}{5}-\\frac{\\pi}{5}=\\frac{5\\pi-\\pi}{5}=\\frac{4\\pi}{5}.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші фігури на площині. Вертикальні кути. Суміжні кути.\r\n Завдання спрямовано на перевірку знань про суміжні та вертикальні кути як основні геометричні фігури на площині.\r\n Суміжними називають два кути, у яких одна сторона спільна, а інші є доповняльними променями. На рис. 1 кути AOC та COB суміжні.\r\n Рис. 1\r\n Сума суміжних кутів дорівнює 180^\\circ. Оскільки в умові міру кута наведено в радіанах, скористаймось еквівалентом:\r\n \\begin{gather*}\r\n \\alpha+\\beta=\\pi.\r\n \\end{gather*} \n Відомо, що кут\r\n \\begin{gather*}\r\n \\alpha=\\frac{\\pi}{5}.\r\n \\end{gather*} \n Щоб визначити міру кута \\beta , віднімімо від \\pi відомий кут:\r\n \\begin{gather*}\r\n \\beta=\\pi-\\frac{\\pi}{5}.\r\n \\end{gather*} \n Зведімо до спільного знаменника:\r\n \\begin{gather*}\r\n \\beta=\\frac{5\\pi}{5}-\\frac{\\pi}{5}=\\frac{5\\pi-\\pi}{5}=\\frac{4\\pi}{5}.\r\n \\end{gather*} \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Найпростіші фігури на площині. Вертикальні кути. Суміжні кути.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/363/36326/dc-1-var-02.png"
+   ],
+   "text": "Визначте радіанну міру кута \\beta , якщо суміжний із ним кут \\alpha=\\frac{\\pi}{5}.",
+   "latex": [
+    "\\beta",
+    "\\alpha=\\frac{\\pi}{5}.",
+    "\\frac{\\pi}{5}",
+    "\\frac{7\\pi}{10}",
+    "\\frac{4\\pi}{5}",
+    "\\frac{9\\pi}{5}",
+    "\\frac{3\\pi}{10}"
+   ],
+   "source_test": 731,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 36904,
+   "tip": 1,
+   "out_order": 26,
+   "type": "single_choice",
+   "question_html": "<p>З точки <latex>O</latex>, яка лежить на прямій <latex>AB</latex>, проведено промені <latex>OM</latex> і <latex>OK</latex> (див. рисунок). Відомо, що <latex>\\angle BOM=30^\\circ</latex>, <latex>\\angle MOK=80^\\circ\\).</latex> Визначте градусну міру кута <latex>AOK\\).</latex> Уважайте, що промені <latex>OK</latex>, <latex>OM</latex> і пряма <latex>AB</latex> лежать в одній площині.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/369/36904/5-var-03-new.png\" style=\"width: 260px; height: auto;\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>50^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>60^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>80^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>70^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>110^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їх властивості.\r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє знання аксіом планіметрії.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/369/36904/dc-5-var-03.png\" style=\"height: auto;\" width=\"300\"/>\n</div>\n<br/>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n \\angle AOK+\\angle KOM+\\angle MOB=180^\\circ;\\\\[7pt]\r\n \\angle AOK=180^\\circ-(30^\\circ+80^\\circ)=70^\\circ.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n Отже, правильна відповідь – <b>Г</b>.\r\n </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їх властивості.\r\n Завдання перевіряє знання аксіом планіметрії.\r\n \\begin{gather*}\r\n \\angle AOK+\\angle KOM+\\angle MOB=180^\\circ;\\\\[7pt]\r\n \\angle AOK=180^\\circ-(30^\\circ+80^\\circ)=70^\\circ.\r\n \\end{gather*} \n Отже, правильна відповідь – Г .\r\n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їх властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/369/36904/5-var-03-new.png",
+    "https://zno.osvita.ua/doc/images/znotest/369/36904/dc-5-var-03.png"
+   ],
+   "text": "З точки O , яка лежить на прямій AB , проведено промені OM і OK (див. рисунок). Відомо, що \\angle BOM=30^\\circ , \\angle MOK=80^\\circ\\). Визначте градусну міру кута AOK\\). Уважайте, що промені OK , OM і пряма AB лежать в одній площині.",
+   "latex": [
+    "O",
+    "AB",
+    "OM",
+    "OK",
+    "\\angle BOM=30^\\circ",
+    "\\angle MOK=80^\\circ\\).",
+    "AOK\\).",
+    "OK",
+    "OM",
+    "AB",
+    "50^\\circ",
+    "60^\\circ",
+    "80^\\circ",
+    "70^\\circ",
+    "110^\\circ"
+   ],
+   "source_test": 735,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 37099,
+   "tip": 1,
+   "out_order": 27,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено прямі, що перетинаються. Визначте градусну міру кута <latex>\\beta</latex>, якщо <latex>\\alpha=25^\\circ.</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/370/37099/6-var-02.png\" style=\"height: auto;\" width=\"247\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>145^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>155^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>115^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>65^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>165^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Найпростіші фігури на площині. Суміжні кути. </strong></p>\n<p>Завдання перевіряє вміння визначати невідомий кут, використовуючи означення і властивість суміжних кутів.</p>\n<p>Кути <latex>\\alpha</latex> та <latex>\\beta</latex> <b>суміжні</b>, оскільки мають спільну сторону, а інші їхні сторони є <b>доповняльними</b> променями. Сума суміжних кутів завжди дорівнює <latex>180^\\circ.</latex> Тому</p>\n<latex>\\begin{gather*} \\beta=180^\\circ-\\alpha=180^\\circ-25^\\circ=155^\\circ. \\end{gather*}</latex>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші фігури на площині. Суміжні кути. \n Завдання перевіряє вміння визначати невідомий кут, використовуючи означення і властивість суміжних кутів.\n Кути \\alpha та \\beta суміжні , оскільки мають спільну сторону, а інші їхні сторони є доповняльними променями. Сума суміжних кутів завжди дорівнює 180^\\circ. Тому\n \\begin{gather*} \\beta=180^\\circ-\\alpha=180^\\circ-25^\\circ=155^\\circ. \\end{gather*} \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Найпростіші фігури на площині. Суміжні кути.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/370/37099/6-var-02.png"
+   ],
+   "text": "На рисунку зображено прямі, що перетинаються. Визначте градусну міру кута \\beta , якщо \\alpha=25^\\circ.",
+   "latex": [
+    "\\beta",
+    "\\alpha=25^\\circ.",
+    "145^\\circ",
+    "155^\\circ",
+    "115^\\circ",
+    "65^\\circ",
+    "165^\\circ"
+   ],
+   "source_test": 736,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 37161,
+   "tip": 1,
+   "out_order": 28,
+   "type": "single_choice",
+   "question_html": "<p>На відрізку <latex>AB</latex> вибрано точку <latex>C</latex> так, що <latex>AC:CB=2:3.</latex> Визначте довжину відрізка <latex>AC</latex>, якщо <latex>CB=12</latex> см.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>4</latex> см"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>18</latex> см"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>6</latex> см"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>12</latex> см"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>8</latex> см"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості. Аксіоми планіметрії. </strong></p>\n<p>Це завдання перевіряє вміння застосовувати властивості найпростіших геометричних фігур до розв’язування планіметричних задач.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/371/37161/dc-7-var-01-new.png\" style=\"height: auto;\" width=\"350\"/></div>\n<p> </p>\n<p>Відрізок <latex>AC</latex> складається з <latex>2</latex> <b>частин</b>, отже: <latex>AC=2x.</latex></p>\n<p> </p>\n<p>Відрізок <latex>CB</latex> складається з <latex>3</latex> <b>частин</b>, отже: <latex>CB=3x.</latex></p>\n<p>За умовою <latex>CB=12</latex> см. Тоді</p>\n<latex>\\begin{gather*} 3x=12;\\\\[7pt] x=4\\ \\text{см}. \\end{gather*}</latex>\n<p> </p>\n<p>Підставимо це значення у вираз для <latex>AC{:}</latex></p>\n<p><latex>\\begin{gather*} AC=2x=2\\cdot 4=8\\ \\text{см}. \\end{gather*}</latex></p>\n<p><strong>Відповідь: Д.</strong></p>\n<p> </p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості. Аксіоми планіметрії. \n Це завдання перевіряє вміння застосовувати властивості найпростіших геометричних фігур до розв’язування планіметричних задач.\n Відрізок AC складається з 2 частин , отже: AC=2x. \n Відрізок CB складається з 3 частин , отже: CB=3x. \n За умовою CB=12 см. Тоді\n \\begin{gather*} 3x=12;\\\\[7pt] x=4\\ \\text{см}. \\end{gather*} \n Підставимо це значення у вираз для AC{:} \n \\begin{gather*} AC=2x=2\\cdot 4=8\\ \\text{см}. \\end{gather*} \n Відповідь: Д.",
+   "topic": "Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їх властивості. Аксіоми планіметрії.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/371/37161/dc-7-var-01-new.png"
+   ],
+   "text": "На відрізку AB вибрано точку C так, що AC:CB=2:3. Визначте довжину відрізка AC , якщо CB=12 см.",
+   "latex": [
+    "AB",
+    "C",
+    "AC:CB=2:3.",
+    "AC",
+    "CB=12",
+    "4",
+    "18",
+    "6",
+    "12",
+    "8"
+   ],
+   "source_test": 737,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 37381,
+   "tip": 1,
+   "out_order": 29,
+   "type": "single_choice",
+   "question_html": "<p>На відрізку <latex>AB</latex> вибрано точку <latex>M</latex> (див. рисунок). Визначте відстань між серединами відрізків <latex>AM</latex> i <latex>MB</latex>, якщо <latex>AM=12</latex> см, <latex>MB=2AM.</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/373/37381/9-var-04.png\" style=\"height: auto;\" width=\"400\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>9</latex> см"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>24</latex> см"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>12</latex> см"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>18</latex> см"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>16</latex> см"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. </strong></p>\n<p>Завдання перевіряє знання аксіом планіметрії, уміння застосовувати властивості найпростіших геометричних фігур у розв'язуванні планіметричних задач.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/373/37381/dc-9-var-04.png\" style=\"height: auto;\" width=\"400\"/></div>\n<p> </p>\n<p>За умовою <latex>MB=2AM</latex>, отже <latex>MB=2\\cdot 12=24</latex> см.</p>\n<p> </p>\n<p>Нехай точка <latex>K</latex> – середина <latex>AM</latex>, а точка <latex>C</latex> – середина <latex>MB.</latex></p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} KC=KM+MC=\\frac 12 AM+\\frac 12 MB;\\\\[6pt] KC=\\frac 12(AM+MB)=\\frac 12(12+24)=\\frac 12\\cdot 36=18\\ \\text{см}. \\end{gather*}</latex></div>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. \n Завдання перевіряє знання аксіом планіметрії, уміння застосовувати властивості найпростіших геометричних фігур у розв'язуванні планіметричних задач.\n За умовою MB=2AM , отже MB=2\\cdot 12=24 см.\n Нехай точка K – середина AM , а точка C – середина MB. \n \\begin{gather*} KC=KM+MC=\\frac 12 AM+\\frac 12 MB;\\\\[6pt] KC=\\frac 12(AM+MB)=\\frac 12(12+24)=\\frac 12\\cdot 36=18\\ \\text{см}. \\end{gather*} \n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/373/37381/9-var-04.png",
+    "https://zno.osvita.ua/doc/images/znotest/373/37381/dc-9-var-04.png"
+   ],
+   "text": "На відрізку AB вибрано точку M (див. рисунок). Визначте відстань між серединами відрізків AM i MB , якщо AM=12 см, MB=2AM.",
+   "latex": [
+    "AB",
+    "M",
+    "AM",
+    "MB",
+    "AM=12",
+    "MB=2AM.",
+    "9",
+    "24",
+    "12",
+    "18",
+    "16"
+   ],
+   "source_test": 739,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 37506,
+   "tip": 1,
+   "out_order": 30,
+   "type": "single_choice",
+   "question_html": "<p>З вершини зображеного на рисунку розгорнутого кута <latex>AOB</latex> проведено два промені <latex>OK</latex> i <latex>OM</latex> так, що <latex>\\angle KOB=110^\\circ</latex>, <latex>\\angle MOB=30^\\circ.</latex> Обчисліть градусну міру кута <latex>KOM.</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/375/37506/11-var-04.png\" style=\"height: auto;\" width=\"259\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>140^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>80^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>60^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>70^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>90^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їхні властивості. </strong></p>\n<p>Завдання перевіряє знання аксіом планіметрії.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/375/37506/dc-11-var-04.png\" style=\"height: auto;\" width=\"300\"/></div>\n<p> </p>\n<p><latex>\\angle KOB=\\angle KOM+\\angle MOB.</latex></p>\n<p>Підставмо відомі значення:</p>\n<latex>\\begin{gather*} 110^\\circ=\\angle KOM+30^\\circ;\\\\[7pt] \\angle KOM=110^\\circ-30^\\circ;\\\\[7pt] \\angle KOM=80^\\circ. \\end{gather*}</latex>\n<p><strong>Відповідь: Б.</strong></p>\n<p> </p>\n<p> </p>\n<p> </p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їхні властивості. \n Завдання перевіряє знання аксіом планіметрії.\n \\angle KOB=\\angle KOM+\\angle MOB. \n Підставмо відомі значення:\n \\begin{gather*} 110^\\circ=\\angle KOM+30^\\circ;\\\\[7pt] \\angle KOM=110^\\circ-30^\\circ;\\\\[7pt] \\angle KOM=80^\\circ. \\end{gather*} \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/375/37506/11-var-04.png",
+    "https://zno.osvita.ua/doc/images/znotest/375/37506/dc-11-var-04.png"
+   ],
+   "text": "З вершини зображеного на рисунку розгорнутого кута AOB проведено два промені OK i OM так, що \\angle KOB=110^\\circ , \\angle MOB=30^\\circ. Обчисліть градусну міру кута KOM.",
+   "latex": [
+    "AOB",
+    "OK",
+    "OM",
+    "\\angle KOB=110^\\circ",
+    "\\angle MOB=30^\\circ.",
+    "KOM.",
+    "140^\\circ",
+    "80^\\circ",
+    "60^\\circ",
+    "70^\\circ",
+    "90^\\circ"
+   ],
+   "source_test": 741,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 37687,
+   "tip": 1,
+   "out_order": 31,
+   "type": "single_choice",
+   "question_html": "<p>На відрізку <latex>AB</latex> вибрано точку <latex>M</latex> (див. рисунок). Обчисліть відстань від середини відрізка <latex>AM</latex> до точки <latex>B</latex>, якщо <latex>AB=26</latex> см, <latex>AM=8</latex> см.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/376/37687/13-var-08.png\" style=\"height: auto;\" width=\"400\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>17</latex> см"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>22</latex> см"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>18</latex> см"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>24</latex> см"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>20</latex> см"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. </strong></p>\n<p>Завдання перевіряє знання аксіом планіметрії, уміння застосовувати властивості найпростіших геометричних фігур у розв'язуванні планіметричних задач.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/376/37687/dc-13-var-08.png\" style=\"height: auto;\" width=\"500\"/></div>\n<p>Оскільки точка <latex>M</latex> лежить на відрізку <latex>AB</latex>, загальна довжина складається з двох частин:</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} AB=AM+MB;\\\\[7pt] MB=AB-AM=26-8=18\\ \\text{см}. \\end{gather*}</latex></div>\n<p>Нехай точка <latex>K</latex> – середина відрізка <latex>AM.</latex> Тоді відстань від <latex>K</latex> до <latex>M</latex> дорівнює половині довжини <latex>AM{:}</latex></p>\n<latex>\\begin{gather*} KM=AM:2=8:2=4\\ \\text{см}. \\end{gather*}</latex>\n<p>Відстань від середини відрізка <latex>AM</latex> (точки <latex>K</latex>) до точки <latex>B</latex> складається з відрізків <latex>KM</latex> та <latex>MB{:}</latex></p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} KB=KM+MB=4+18=22\\ \\text{см}. \\end{gather*}</latex></div>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. \n Завдання перевіряє знання аксіом планіметрії, уміння застосовувати властивості найпростіших геометричних фігур у розв'язуванні планіметричних задач.\n Оскільки точка M лежить на відрізку AB , загальна довжина складається з двох частин:\n \\begin{gather*} AB=AM+MB;\\\\[7pt] MB=AB-AM=26-8=18\\ \\text{см}. \\end{gather*} \n Нехай точка K – середина відрізка AM. Тоді відстань від K до M дорівнює половині довжини AM{:} \n \\begin{gather*} KM=AM:2=8:2=4\\ \\text{см}. \\end{gather*} \n Відстань від середини відрізка AM (точки K ) до точки B складається з відрізків KM та MB{:} \n \\begin{gather*} KB=KM+MB=4+18=22\\ \\text{см}. \\end{gather*} \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/376/37687/13-var-08.png",
+    "https://zno.osvita.ua/doc/images/znotest/376/37687/dc-13-var-08.png"
+   ],
+   "text": "На відрізку AB вибрано точку M (див. рисунок). Обчисліть відстань від середини відрізка AM до точки B , якщо AB=26 см, AM=8 см.",
+   "latex": [
+    "AB",
+    "M",
+    "AM",
+    "B",
+    "AB=26",
+    "AM=8",
+    "17",
+    "22",
+    "18",
+    "24",
+    "20"
+   ],
+   "source_test": 743,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 38250,
+   "tip": 1,
+   "out_order": 32,
+   "type": "single_choice",
+   "question_html": "<p>З вершини зображеного розгорнутого кута \\(AOB\\) проведено два промені \\(OK\\) i \\(OM\\) так, що \\(\\angle KOB=115^\\circ\\), \\(\\angle MOB=35^\\circ.\\) Обчисліть градусну міру кута \\(KOM.\\)<img alt=\"\" src=\"/doc/images/znotest/382/38250/19-var-01.png\" style=\"height: auto;\" width=\"259\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>140^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>120^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>60^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>70^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>80^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їх властивості. </strong></p>\n<p>Завдання перевіряє знання аксіом планіметрії.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/382/38250/dc-19-var-02.png\" style=\"height: auto;\" width=\"257\"/></div>\n<p><latex>\\angle KOB=\\angle KOM+\\angle MOB.</latex></p>\n<p>Підставмо відомі значення:</p>\n<p><latex>\\begin{gather*} 115^\\circ=\\angle KOM+35^\\circ;\\\\[7pt] \\angle KOM=115^\\circ-35^\\circ;\\\\[7pt] \\angle KOM=80^\\circ. \\end{gather*}</latex></p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їх властивості. \n Завдання перевіряє знання аксіом планіметрії.\n \\angle KOB=\\angle KOM+\\angle MOB. \n Підставмо відомі значення:\n \\begin{gather*} 115^\\circ=\\angle KOM+35^\\circ;\\\\[7pt] \\angle KOM=115^\\circ-35^\\circ;\\\\[7pt] \\angle KOM=80^\\circ. \\end{gather*} \n Відповідь: Д.",
+   "topic": "Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їх властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/382/38250/19-var-01.png",
+    "https://zno.osvita.ua/doc/images/znotest/382/38250/dc-19-var-02.png"
+   ],
+   "text": "З вершини зображеного розгорнутого кута \\(AOB\\) проведено два промені \\(OK\\) i \\(OM\\) так, що \\(\\angle KOB=115^\\circ\\), \\(\\angle MOB=35^\\circ.\\) Обчисліть градусну міру кута \\(KOM.\\)",
+   "latex": [
+    "140^\\circ",
+    "120^\\circ",
+    "60^\\circ",
+    "70^\\circ",
+    "80^\\circ"
+   ],
+   "source_test": 749,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 38367,
+   "tip": 1,
+   "out_order": 33,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено елемент декору паркану, що складається з дев’яти стрілок, які виходять із вершини розгорнутого кута й поділяють його на рівні частини. Обчисліть градусну міру кута між двома сусідніми стрілками.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/383/38367/1-var-02.png\" style=\"height: auto;\" width=\"336\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>20^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>18^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>15^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>10^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>9^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їхні властивості. </strong></p>\n<p>Завдання перевіряє знання видів і властивостей кутів.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/383/38367/dc-33-var-02-new.png\" style=\"height: auto;\" width=\"356\"/></div>\n<br/>\n<p>Розгорнутий кут поділено на <latex>10</latex> рівних частин. Обчислімо градусну міру кожного із цих кутів:</p>\n<p><latex>\\begin{gather*} 180^\\circ:10=18^\\circ. \\end{gather*}</latex></p>\n<p>Отже, градусна міра кута між двома сусідніми стрілками становить <latex>18^\\circ.</latex></p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їхні властивості. \n Завдання перевіряє знання видів і властивостей кутів.\n Розгорнутий кут поділено на 10 рівних частин. Обчислімо градусну міру кожного із цих кутів:\n \\begin{gather*} 180^\\circ:10=18^\\circ. \\end{gather*} \n Отже, градусна міра кута між двома сусідніми стрілками становить 18^\\circ. \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Елементарні геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/383/38367/1-var-02.png",
+    "https://zno.osvita.ua/doc/images/znotest/383/38367/dc-33-var-02-new.png"
+   ],
+   "text": "На рисунку зображено елемент декору паркану, що складається з дев’яти стрілок, які виходять із вершини розгорнутого кута й поділяють його на рівні частини. Обчисліть градусну міру кута між двома сусідніми стрілками.",
+   "latex": [
+    "20^\\circ",
+    "18^\\circ",
+    "15^\\circ",
+    "10^\\circ",
+    "9^\\circ"
+   ],
+   "source_test": 804,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 38594,
+   "tip": 1,
+   "out_order": 34,
+   "type": "single_choice",
+   "question_html": "<p>Група туристів рухається в напрямку <latex>OA</latex>, який утворює кут <latex>15^\\circ</latex> із напрямком <em><strong>північ</strong></em> (див. рисунок). На який кут треба змінити напрямок руху цій групі, щоб рухатися в напрямку <strong><em>південний схід</em></strong>?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/385/38594/35-var-03.png\" style=\"height: auto;\" width=\"293\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>75^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>85^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>110^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>120^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>125^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. </strong></p>\n<p>Завдання перевіряє вміння застосовувати означення, ознаки та властивості найпростіших геометричних фігур для розв'язання задач практичного змісту.</p>\n<div class=\"txtcntr\" style=\"width: 100%;\"><img alt=\"\" src=\"/doc/images/znotest/385/38594/dc-35-var-03.png\" style=\"height: auto;\" width=\"290\"/></div>\n<p>Напрямки <strong><em>північ</em></strong> і <strong><em>схід</em></strong> перпендикулярні, тому кут між ними дорівнює <latex>90^\\circ.</latex> Кут між напрямком <em>північ </em>і напрямком <latex>OA</latex> дорівнює <latex>15^\\circ</latex>, тому:</p>\n<p><latex>\\begin{gather*} \\angle AOB=90^\\circ-15^\\circ=75^\\circ. \\end{gather*}</latex></p>\n<p>Напрямок <em><strong>південний схід</strong> </em>є бісектрисою прямого кута між напрямками <strong><em>схід</em></strong> і <strong><em>південь</em></strong>, тобто</p>\n<p><latex>\\begin{gather*} \\angle BOC=\\angle COD=90^\\circ: 2=45^\\circ. \\end{gather*}</latex></p>\n<p>Обчислімо шуканий кут повороту:</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} \\angle AOC=\\angle AOB+\\angle BOC=75^\\circ+45^\\circ=120^\\circ. \\end{gather*}</latex></div>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. \n Завдання перевіряє вміння застосовувати означення, ознаки та властивості найпростіших геометричних фігур для розв'язання задач практичного змісту.\n Напрямки північ і схід перпендикулярні, тому кут між ними дорівнює 90^\\circ. Кут між напрямком північ і напрямком OA дорівнює 15^\\circ , тому:\n \\begin{gather*} \\angle AOB=90^\\circ-15^\\circ=75^\\circ. \\end{gather*} \n Напрямок південний схід є бісектрисою прямого кута між напрямками схід і південь , тобто\n \\begin{gather*} \\angle BOC=\\angle COD=90^\\circ: 2=45^\\circ. \\end{gather*} \n Обчислімо шуканий кут повороту:\n \\begin{gather*} \\angle AOC=\\angle AOB+\\angle BOC=75^\\circ+45^\\circ=120^\\circ. \\end{gather*} \n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/385/38594/35-var-03.png",
+    "https://zno.osvita.ua/doc/images/znotest/385/38594/dc-35-var-03.png"
+   ],
+   "text": "Група туристів рухається в напрямку OA , який утворює кут 15^\\circ із напрямком північ (див. рисунок). На який кут треба змінити напрямок руху цій групі, щоб рухатися в напрямку південний схід ?",
+   "latex": [
+    "OA",
+    "15^\\circ",
+    "75^\\circ",
+    "85^\\circ",
+    "110^\\circ",
+    "120^\\circ",
+    "125^\\circ"
+   ],
+   "source_test": 806,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 38873,
+   "tip": 1,
+   "out_order": 35,
+   "type": "single_choice",
+   "question_html": "<p>Пряма <latex>l</latex> перетинає паралельні прямі <latex>m</latex> і <latex>n</latex> (див. рисунок). Визначте градусну міру кута <latex>\\alpha</latex>, якщо <latex>\\alpha+\\beta=58^\\circ.</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/388/38873/39-var-01.png\" style=\"height: auto;\" width=\"159\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>116^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>32^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>24^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>29^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>19^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Кути при паралельних прямих. </strong></p>\n<p>Завдання перевіряє знання властивостей кутів, що утворюються внаслідок перетинання двох паралельних прямих січною.</p>\n<p>Оскільки прямі <latex>m</latex> і <latex>n</latex> паралельні <latex>(m\\!\\parallel\\!n)</latex>, а пряма <latex>l</latex> є січною, то кути <latex>\\alpha</latex> та <latex>\\beta</latex> є <b>внутрішніми різносторонніми</b>. За властивістю паралельних прямих внутрішні різносторонні кути рівні: <latex>\\alpha=\\beta.</latex></p>\n<p>Підставмо <latex>\\alpha=\\beta</latex> в задану в умові рівність <latex>\\alpha+\\beta=58^\\circ{:}</latex></p>\n<p><latex>\\begin{gather*} \\alpha+\\alpha=58^\\circ;\\\\[7pt] 2\\alpha=58^\\circ;\\\\[7pt] \\alpha=29^\\circ. \\end{gather*}</latex></p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Кути при паралельних прямих. \n Завдання перевіряє знання властивостей кутів, що утворюються внаслідок перетинання двох паралельних прямих січною.\n Оскільки прямі m і n паралельні (m\\!\\parallel\\!n) , а пряма l є січною, то кути \\alpha та \\beta є внутрішніми різносторонніми . За властивістю паралельних прямих внутрішні різносторонні кути рівні: \\alpha=\\beta. \n Підставмо \\alpha=\\beta в задану в умові рівність \\alpha+\\beta=58^\\circ{:} \n \\begin{gather*} \\alpha+\\alpha=58^\\circ;\\\\[7pt] 2\\alpha=58^\\circ;\\\\[7pt] \\alpha=29^\\circ. \\end{gather*} \n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Кути при паралельних прямих.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/388/38873/39-var-01.png"
+   ],
+   "text": "Пряма l перетинає паралельні прямі m і n (див. рисунок). Визначте градусну міру кута \\alpha , якщо \\alpha+\\beta=58^\\circ.",
+   "latex": [
+    "l",
+    "m",
+    "n",
+    "\\alpha",
+    "\\alpha+\\beta=58^\\circ.",
+    "116^\\circ",
+    "32^\\circ",
+    "24^\\circ",
+    "29^\\circ",
+    "19^\\circ"
+   ],
+   "source_test": 810,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  },
+  {
+   "id": 40472,
+   "tip": 1,
+   "out_order": 36,
+   "type": "single_choice",
+   "question_html": "<p>Автомат пакує однакові за розміром брикети сиру в коробки, що мають форму півциліндра (див. фото). На рисунку схематично зображено (вигляд зверху) таку запаковану коробку. Визначте градусну міру кута <latex>AOB.</latex></p>\n<p><img alt=\"\" src=\"/doc/images/znotest/404/40472/48-var-01.png\" style=\"height: auto;\" width=\"428\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>24^\\circ</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>32^\\circ</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>36^\\circ</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>42^\\circ</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>48^\\circ</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. </strong></p>\n<p>Завдання перевіряє вміння вимірювати кути й застосовувати властивості розгорнутого кута й аксіоми вимірювання кутів.</p>\n<p>Коробка має форму півциліндра, тому її основа (вигляд зверху) – це півкруг, градусна міра розгорнутого кута якого становить <latex>180^\\circ.</latex> Півкруг розділено на <span style=\"white-space:nowrap\"><latex>5</latex> однакових</span> секторів (брикетів сиру). Кут <latex>AOB</latex> – центральний кут, що відповідає одному такому сектору:</p>\n<p><latex>\\begin{gather*} \\angle AOB=\\frac{180^\\circ}{5}=36^\\circ. \\end{gather*}</latex></p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості. \n Завдання перевіряє вміння вимірювати кути й застосовувати властивості розгорнутого кута й аксіоми вимірювання кутів.\n Коробка має форму півциліндра, тому її основа (вигляд зверху) – це півкруг, градусна міра розгорнутого кута якого становить 180^\\circ. Півкруг розділено на 5 однакових секторів (брикетів сиру). Кут AOB – центральний кут, що відповідає одному такому сектору:\n \\begin{gather*} \\angle AOB=\\frac{180^\\circ}{5}=36^\\circ. \\end{gather*} \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Найпростіші геометричні фігури на площині та їхні властивості.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/404/40472/48-var-01.png"
+   ],
+   "text": "Автомат пакує однакові за розміром брикети сиру в коробки, що мають форму півциліндра (див. фото). На рисунку схематично зображено (вигляд зверху) таку запаковану коробку. Визначте градусну міру кута AOB.",
+   "latex": [
+    "AOB.",
+    "24^\\circ",
+    "32^\\circ",
+    "36^\\circ",
+    "42^\\circ",
+    "48^\\circ"
+   ],
+   "source_test": 876,
+   "subject": "mathematics",
+   "topic_slug": "elementarni_geometrichni_figuri"
+  }
+ ],
+ "questions_count": 36
+}

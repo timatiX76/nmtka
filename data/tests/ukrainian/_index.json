@@ -1,0 +1,586 @@
+{
+ "subject": "ukrainian",
+ "name": "Українська мова та література",
+ "tests": [
+  {
+   "id": 583,
+   "url": "https://zno.osvita.ua/ukrainian/583/",
+   "title": "НМТ онлайн 2024 року з української мови – 1 сесія",
+   "year": 2024,
+   "kind": "nmt",
+   "session": "1",
+   "questions_count": 30,
+   "file": "tests/ukrainian/583.json"
+  },
+  {
+   "id": 584,
+   "url": "https://zno.osvita.ua/ukrainian/584/",
+   "title": "НМТ онлайн 2024 року з української мови – 2 сесія",
+   "year": 2024,
+   "kind": "nmt",
+   "session": "2",
+   "questions_count": 30,
+   "file": "tests/ukrainian/584.json"
+  },
+  {
+   "id": 604,
+   "url": "https://zno.osvita.ua/ukrainian/604/",
+   "title": "НМТ онлайн 2024 року з української літератури – 1 сесія",
+   "year": 2024,
+   "kind": "nmt",
+   "session": "1",
+   "questions_count": 30,
+   "file": "tests/ukrainian/604.json"
+  },
+  {
+   "id": 605,
+   "url": "https://zno.osvita.ua/ukrainian/605/",
+   "title": "НМТ онлайн 2024 року з української літератури – 2 сесія",
+   "year": 2024,
+   "kind": "nmt",
+   "session": "2",
+   "questions_count": 30,
+   "file": "tests/ukrainian/605.json"
+  },
+  {
+   "id": 568,
+   "url": "https://zno.osvita.ua/ukrainian/568/",
+   "title": "НМТ онлайн 2024 року з української мови – демоваріант",
+   "year": 2024,
+   "kind": "demo",
+   "session": null,
+   "questions_count": 30,
+   "file": "tests/ukrainian/568.json"
+  },
+  {
+   "id": 567,
+   "url": "https://zno.osvita.ua/ukrainian/567/",
+   "title": "НМТ онлайн 2024 року з української літератури – демоваріант",
+   "year": 2024,
+   "kind": "demo",
+   "session": null,
+   "questions_count": 30,
+   "file": "tests/ukrainian/567.json"
+  },
+  {
+   "id": 544,
+   "url": "https://zno.osvita.ua/ukrainian/544/",
+   "title": "НМТ онлайн 2023 року з української мови – 1 сесія",
+   "year": 2023,
+   "kind": "nmt",
+   "session": "1",
+   "questions_count": 30,
+   "file": "tests/ukrainian/544.json"
+  },
+  {
+   "id": 545,
+   "url": "https://zno.osvita.ua/ukrainian/545/",
+   "title": "НМТ онлайн 2023 року з української мови – 2 сесія",
+   "year": 2023,
+   "kind": "nmt",
+   "session": "2",
+   "questions_count": 30,
+   "file": "tests/ukrainian/545.json"
+  },
+  {
+   "id": 522,
+   "url": "https://zno.osvita.ua/ukrainian/522/",
+   "title": "НМТ онлайн 2023 року з української мови – демоваріант",
+   "year": 2023,
+   "kind": "demo",
+   "session": null,
+   "questions_count": 30,
+   "file": "tests/ukrainian/522.json"
+  },
+  {
+   "id": 519,
+   "url": "https://zno.osvita.ua/ukrainian/519/",
+   "title": "НМТ онлайн 2022 року з української мови – основна сесія",
+   "year": 2022,
+   "kind": "nmt",
+   "session": "main",
+   "questions_count": 20,
+   "file": "tests/ukrainian/519.json"
+  },
+  {
+   "id": 515,
+   "url": "https://zno.osvita.ua/ukrainian/515/",
+   "title": "НМТ онлайн 2022 року з української мови – демоваріант",
+   "year": 2022,
+   "kind": "demo",
+   "session": null,
+   "questions_count": 20,
+   "file": "tests/ukrainian/515.json"
+  },
+  {
+   "id": 491,
+   "url": "https://zno.osvita.ua/ukrainian/491/",
+   "title": "ЗНО онлайн 2021 року з української мови та літератури – додаткова сесія",
+   "year": 2021,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 67,
+   "file": "tests/ukrainian/491.json"
+  },
+  {
+   "id": 471,
+   "url": "https://zno.osvita.ua/ukrainian/471/",
+   "title": "ЗНО онлайн 2021 року з української мови та літератури – основна сесія",
+   "year": 2021,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 67,
+   "file": "tests/ukrainian/471.json"
+  },
+  {
+   "id": 452,
+   "url": "https://zno.osvita.ua/ukrainian/452/",
+   "title": "ЗНО онлайн 2021 року з української мови та літератури – пробний тест",
+   "year": 2021,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 67,
+   "file": "tests/ukrainian/452.json"
+  },
+  {
+   "id": 436,
+   "url": "https://zno.osvita.ua/ukrainian/436/",
+   "title": "ЗНО онлайн 2021 року з української мови та літератури – демоваріант",
+   "year": 2021,
+   "kind": "demo",
+   "session": null,
+   "questions_count": 67,
+   "file": "tests/ukrainian/436.json"
+  },
+  {
+   "id": 429,
+   "url": "https://zno.osvita.ua/ukrainian/429/",
+   "title": "ЗНО онлайн 2020 року з української мови та літератури – додаткова сесія",
+   "year": 2020,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 58,
+   "file": "tests/ukrainian/429.json"
+  },
+  {
+   "id": 401,
+   "url": "https://zno.osvita.ua/ukrainian/401/",
+   "title": "ЗНО онлайн 2020 року з української мови та літератури – основна сесія",
+   "year": 2020,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 58,
+   "file": "tests/ukrainian/401.json"
+  },
+  {
+   "id": 389,
+   "url": "https://zno.osvita.ua/ukrainian/389/",
+   "title": "ЗНО онлайн 2020 року з української мови та літератури – пробний тест",
+   "year": 2020,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 58,
+   "file": "tests/ukrainian/389.json"
+  },
+  {
+   "id": 347,
+   "url": "https://zno.osvita.ua/ukrainian/347/",
+   "title": "ЗНО онлайн 2019 року з української мови та літератури – основна сесія",
+   "year": 2019,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 58,
+   "file": "tests/ukrainian/347.json"
+  },
+  {
+   "id": 363,
+   "url": "https://zno.osvita.ua/ukrainian/363/",
+   "title": "ЗНО онлайн 2019 року з української мови та літератури – додаткова сесія",
+   "year": 2019,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 58,
+   "file": "tests/ukrainian/363.json"
+  },
+  {
+   "id": 335,
+   "url": "https://zno.osvita.ua/ukrainian/335/",
+   "title": "ЗНО онлайн 2019 року з української мови та літератури – пробний тест",
+   "year": 2019,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 58,
+   "file": "tests/ukrainian/335.json"
+  },
+  {
+   "id": 299,
+   "url": "https://zno.osvita.ua/ukrainian/299/",
+   "title": "ЗНО онлайн 2018 року з української мови та літератури – основна сесія",
+   "year": 2018,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 58,
+   "file": "tests/ukrainian/299.json"
+  },
+  {
+   "id": 309,
+   "url": "https://zno.osvita.ua/ukrainian/309/",
+   "title": "ЗНО онлайн 2018 року з української мови та літератури – додаткова сесія",
+   "year": 2018,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 58,
+   "file": "tests/ukrainian/309.json"
+  },
+  {
+   "id": 281,
+   "url": "https://zno.osvita.ua/ukrainian/281/",
+   "title": "ЗНО онлайн 2018 року з української мови та літератури – пробний тест",
+   "year": 2018,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 58,
+   "file": "tests/ukrainian/281.json"
+  },
+  {
+   "id": 240,
+   "url": "https://zno.osvita.ua/ukrainian/240/",
+   "title": "ЗНО онлайн 2017 року з української мови та літератури – основна сесія",
+   "year": 2017,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 58,
+   "file": "tests/ukrainian/240.json"
+  },
+  {
+   "id": 254,
+   "url": "https://zno.osvita.ua/ukrainian/254/",
+   "title": "ЗНО онлайн 2017 року з української мови та літератури – додаткова сесія",
+   "year": 2017,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 58,
+   "file": "tests/ukrainian/254.json"
+  },
+  {
+   "id": 206,
+   "url": "https://zno.osvita.ua/ukrainian/206/",
+   "title": "ЗНО онлайн 2017 року з української мови та літератури – пробний тест",
+   "year": 2017,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 58,
+   "file": "tests/ukrainian/206.json"
+  },
+  {
+   "id": 189,
+   "url": "https://zno.osvita.ua/ukrainian/189/",
+   "title": "ЗНО онлайн 2016 року з української мови та літератури – основна сесія",
+   "year": 2016,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 58,
+   "file": "tests/ukrainian/189.json"
+  },
+  {
+   "id": 203,
+   "url": "https://zno.osvita.ua/ukrainian/203/",
+   "title": "ЗНО онлайн 2016 року з української мови та літератури – додаткова сесія",
+   "year": 2016,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 58,
+   "file": "tests/ukrainian/203.json"
+  },
+  {
+   "id": 168,
+   "url": "https://zno.osvita.ua/ukrainian/168/",
+   "title": "ЗНО онлайн 2016 року з української мови та літератури – пробний тест",
+   "year": 2016,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 58,
+   "file": "tests/ukrainian/168.json"
+  },
+  {
+   "id": 143,
+   "url": "https://zno.osvita.ua/ukrainian/143/",
+   "title": "ЗНО онлайн 2015 року з української мови та літератури – основна сесія",
+   "year": 2015,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 58,
+   "file": "tests/ukrainian/143.json"
+  },
+  {
+   "id": 157,
+   "url": "https://zno.osvita.ua/ukrainian/157/",
+   "title": "ЗНО онлайн 2015 року з української мови та літератури – додаткова сесія",
+   "year": 2015,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 58,
+   "file": "tests/ukrainian/157.json"
+  },
+  {
+   "id": 139,
+   "url": "https://zno.osvita.ua/ukrainian/139/",
+   "title": "ЗНО онлайн 2015 року з української мови та літератури (1) – пробний тест",
+   "year": 2015,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 58,
+   "file": "tests/ukrainian/139.json"
+  },
+  {
+   "id": 175,
+   "url": "https://zno.osvita.ua/ukrainian/175/",
+   "title": "ЗНО онлайн 2015 року з української мови та літератури (2) – пробний тест",
+   "year": 2015,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 58,
+   "file": "tests/ukrainian/175.json"
+  },
+  {
+   "id": 132,
+   "url": "https://zno.osvita.ua/ukrainian/132/",
+   "title": "ЗНО онлайн 2014 року з української мови та літератури – 1 сесія",
+   "year": 2014,
+   "kind": "test",
+   "session": "1",
+   "questions_count": 61,
+   "file": "tests/ukrainian/132.json"
+  },
+  {
+   "id": 133,
+   "url": "https://zno.osvita.ua/ukrainian/133/",
+   "title": "ЗНО онлайн 2014 року з української мови та літератури – 2 сесія",
+   "year": 2014,
+   "kind": "test",
+   "session": "2",
+   "questions_count": 61,
+   "file": "tests/ukrainian/133.json"
+  },
+  {
+   "id": 130,
+   "url": "https://zno.osvita.ua/ukrainian/130/",
+   "title": "ЗНО онлайн 2014 року з української мови та літератури – додаткова сесія",
+   "year": 2014,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 61,
+   "file": "tests/ukrainian/130.json"
+  },
+  {
+   "id": 4,
+   "url": "https://zno.osvita.ua/ukrainian/4/",
+   "title": "ЗНО онлайн 2014 року з української мови та літератури – пробний тест",
+   "year": 2014,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 61,
+   "file": "tests/ukrainian/4.json"
+  },
+  {
+   "id": 6,
+   "url": "https://zno.osvita.ua/ukrainian/6/",
+   "title": "ЗНО онлайн 2013 року з української мови та літератури – 1 сесія",
+   "year": 2013,
+   "kind": "test",
+   "session": "1",
+   "questions_count": 61,
+   "file": "tests/ukrainian/6.json"
+  },
+  {
+   "id": 10,
+   "url": "https://zno.osvita.ua/ukrainian/10/",
+   "title": "ЗНО онлайн 2013 року з української мови та літератури – 2 сесія",
+   "year": 2013,
+   "kind": "test",
+   "session": "2",
+   "questions_count": 61,
+   "file": "tests/ukrainian/10.json"
+  },
+  {
+   "id": 19,
+   "url": "https://zno.osvita.ua/ukrainian/19/",
+   "title": "ЗНО онлайн 2013 року з української мови та літератури – пробний тест",
+   "year": 2013,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 61,
+   "file": "tests/ukrainian/19.json"
+  },
+  {
+   "id": 11,
+   "url": "https://zno.osvita.ua/ukrainian/11/",
+   "title": "ЗНО онлайн 2012 року з української мови та літератури – 1 сесія",
+   "year": 2012,
+   "kind": "test",
+   "session": "1",
+   "questions_count": 61,
+   "file": "tests/ukrainian/11.json"
+  },
+  {
+   "id": 12,
+   "url": "https://zno.osvita.ua/ukrainian/12/",
+   "title": "ЗНО онлайн 2012 року з української мови та літератури – 2 сесія",
+   "year": 2012,
+   "kind": "test",
+   "session": "2",
+   "questions_count": 61,
+   "file": "tests/ukrainian/12.json"
+  },
+  {
+   "id": 30,
+   "url": "https://zno.osvita.ua/ukrainian/30/",
+   "title": "ЗНО онлайн 2012 року з української мови та літератури – пробний тест",
+   "year": 2012,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 61,
+   "file": "tests/ukrainian/30.json"
+  },
+  {
+   "id": 13,
+   "url": "https://zno.osvita.ua/ukrainian/13/",
+   "title": "ЗНО онлайн 2011 року з української мови та літератури – 1 сесія",
+   "year": 2011,
+   "kind": "test",
+   "session": "1",
+   "questions_count": 61,
+   "file": "tests/ukrainian/13.json"
+  },
+  {
+   "id": 14,
+   "url": "https://zno.osvita.ua/ukrainian/14/",
+   "title": "ЗНО онлайн 2011 року з української мови та літератури – 2 сесія",
+   "year": 2011,
+   "kind": "test",
+   "session": "2",
+   "questions_count": 61,
+   "file": "tests/ukrainian/14.json"
+  },
+  {
+   "id": 31,
+   "url": "https://zno.osvita.ua/ukrainian/31/",
+   "title": "ЗНО онлайн 2011 року з української мови та літератури – пробний тест",
+   "year": 2011,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 61,
+   "file": "tests/ukrainian/31.json"
+  },
+  {
+   "id": 15,
+   "url": "https://zno.osvita.ua/ukrainian/15/",
+   "title": "ЗНО онлайн 2010 року з української мови та літератури – 1 сесія",
+   "year": 2010,
+   "kind": "test",
+   "session": "1",
+   "questions_count": 61,
+   "file": "tests/ukrainian/15.json"
+  },
+  {
+   "id": 16,
+   "url": "https://zno.osvita.ua/ukrainian/16/",
+   "title": "ЗНО онлайн 2010 року з української мови та літератури – 2 сесія",
+   "year": 2010,
+   "kind": "test",
+   "session": "2",
+   "questions_count": 61,
+   "file": "tests/ukrainian/16.json"
+  },
+  {
+   "id": 17,
+   "url": "https://zno.osvita.ua/ukrainian/17/",
+   "title": "ЗНО онлайн 2010 року з української мови та літератури – 3 сесія",
+   "year": 2010,
+   "kind": "test",
+   "session": null,
+   "questions_count": 61,
+   "file": "tests/ukrainian/17.json"
+  },
+  {
+   "id": 32,
+   "url": "https://zno.osvita.ua/ukrainian/32/",
+   "title": "ЗНО онлайн 2010 року з української мови та літератури – пробний тест",
+   "year": 2010,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 61,
+   "file": "tests/ukrainian/32.json"
+  },
+  {
+   "id": 25,
+   "url": "https://zno.osvita.ua/ukrainian/25/",
+   "title": "ЗНО онлайн 2009 року з української мови та літератури – основна сесія",
+   "year": 2009,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 61,
+   "file": "tests/ukrainian/25.json"
+  },
+  {
+   "id": 178,
+   "url": "https://zno.osvita.ua/ukrainian/178/",
+   "title": "ЗНО онлайн 2009 року з української мови та літератури – пробний тест",
+   "year": 2009,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 64,
+   "file": "tests/ukrainian/178.json"
+  },
+  {
+   "id": 172,
+   "url": "https://zno.osvita.ua/ukrainian/172/",
+   "title": "ЗНО онлайн 2008 року з української мови та літератури – основна сесія",
+   "year": 2008,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 58,
+   "file": "tests/ukrainian/172.json"
+  },
+  {
+   "id": 176,
+   "url": "https://zno.osvita.ua/ukrainian/176/",
+   "title": "ЗНО онлайн 2008 року з української мови та літератури – пробний тест",
+   "year": 2008,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 61,
+   "file": "tests/ukrainian/176.json"
+  },
+  {
+   "id": 174,
+   "url": "https://zno.osvita.ua/ukrainian/174/",
+   "title": "ЗНО онлайн 2007 року з української мови та літератури – основна сесія",
+   "year": 2007,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 54,
+   "file": "tests/ukrainian/174.json"
+  },
+  {
+   "id": 173,
+   "url": "https://zno.osvita.ua/ukrainian/173/",
+   "title": "ЗНО онлайн 2006 року з української мови та літератури – основна сесія",
+   "year": 2006,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 48,
+   "file": "tests/ukrainian/173.json"
+  },
+  {
+   "id": 177,
+   "url": "https://zno.osvita.ua/ukrainian/177/",
+   "title": "ЗНО онлайн 2006 року з української мови та літератури – пробний тест",
+   "year": 2006,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 52,
+   "file": "tests/ukrainian/177.json"
+  }
+ ]
+}

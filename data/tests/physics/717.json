@@ -1,0 +1,1290 @@
+{
+ "url": "https://zno.osvita.ua/physics/717/",
+ "title": "НМТ онлайн 2026 року з фізики – демоваріант",
+ "page_title": "НМТ онлайн 2026 року з фізики – демоваріант",
+ "test_id": 717,
+ "total": 22,
+ "section": 8,
+ "cnt": 22,
+ "qfirst": 1,
+ "list": 0,
+ "questions": [
+  {
+   "id": 35597,
+   "tip": 1,
+   "out_order": 1,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n М’яч упав із крутого берега заввишки <latex>15</latex> м вертикально вниз і потрапив у воду. Перш ніж його витягли, він ще <latex>20</latex> м прямолінійно плив за течією. Яке переміщення здійснив м’яч протягом усього руху? \n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>15</latex> м"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>20</latex> м"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>25</latex> м"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>35</latex> м"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Механіка. Основи кінематики. Шлях і переміщення.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння поняття переміщення і вміння його визначати.\n </p>\n<p>\n Зобразімо схематично, як рухався м’яч.\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/355/35597/demo-multi-fisika-2026-01.png\" style=\"height: auto;\" width=\"284\"/>\n</div>\n<br/>\n<p>\n<b>Переміщенням</b> буде довжина відрізка, який з’єднує <b>початкове</b> положення <latex>1</latex> м’яча з його <b>кінцевим</b> положенням <latex>2.</latex> Це гіпотенуза прямокутного трикутника. Обчислімо її довжину:\n </p>\n<latex>\\begin{gather*}\n s=\\sqrt{(15\\ \\text{м})^2+(20\\ \\text{м})^2}=\\sqrt{225\\ \\text{м}^2+400\\ \\text{м}^2}=\\sqrt{625\\ \\text{м}^2}=25\\ \\text{м}.\n \\end{gather*}</latex>\n<p>\n Також можна було визначити довжину гіпотенузи за єгипетським трикутником: сторони відносяться, як\n </p>\n<latex>\\begin{gather*}\n 3:4:5=15:20:x,\\\\[7pt]\n x=25.\n \\end{gather*}</latex>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Механіка. Основи кінематики. Шлях і переміщення.\n Завдання скеровано на перевірку знання і розуміння поняття переміщення і вміння його визначати.\n Зобразімо схематично, як рухався м’яч.\n Переміщенням буде довжина відрізка, який з’єднує початкове положення 1 м’яча з його кінцевим положенням 2. Це гіпотенуза прямокутного трикутника. Обчислімо її довжину:\n \\begin{gather*}\n s=\\sqrt{(15\\ \\text{м})^2+(20\\ \\text{м})^2}=\\sqrt{225\\ \\text{м}^2+400\\ \\text{м}^2}=\\sqrt{625\\ \\text{м}^2}=25\\ \\text{м}.\n \\end{gather*} \n Також можна було визначити довжину гіпотенузи за єгипетським трикутником: сторони відносяться, як\n \\begin{gather*}\n 3:4:5=15:20:x,\\\\[7pt]\n x=25.\n \\end{gather*} \n Відповідь: B.",
+   "topic": "Механіка. Основи кінематики. Шлях і переміщення.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/355/35597/demo-multi-fisika-2026-01.png",
+     "path": "images/doc/images/znotest/355/35597/demo-multi-fisika-2026-01.png"
+    }
+   ],
+   "text": "М’яч упав із крутого берега заввишки 15 м вертикально вниз і потрапив у воду. Перш ніж його витягли, він ще 20 м прямолінійно плив за течією. Яке переміщення здійснив м’яч протягом усього руху?",
+   "latex": [
+    "15",
+    "20",
+    "15",
+    "20",
+    "25",
+    "35"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": 35598,
+   "tip": 1,
+   "out_order": 2,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n На рисунках у масштабі схематично позначено сили, що діють на тіло. У якому з варіантів відповіді прискорення тіла напрямлене вгору в площині рисунка?\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/355/35598/ansa_35598.png\"/>"
+    },
+    {
+     "marker": "Б",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/355/35598/ansb_35598.png\"/>"
+    },
+    {
+     "marker": "В",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/355/35598/ansc_35598.png\"/>"
+    },
+    {
+     "marker": "Г",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/355/35598/ansd_35598.png\"/>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Механіка. Основи динаміки. Додавання сил. Другий закон Ньютона.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння додавання сил, визначення напрямку рівнодійної сил, що діють на тіло, і напрямку прискорення руху тіла.\n </p>\n<p>\n Напрямок прискорення руху завжди збігається з напрямком рівнодійної сил, які діють на тіло:\n <latex>\\begin{gather*}\n \\overrightarrow{a}\\ \\uparrow\\uparrow \\overrightarrow{F}.\n \\end{gather*}</latex>\n</p>\n<p>\n На кожному рисунку побудуймо рівнодійну сил за правилом паралелограма, і в такий спосіб визначмо напрямок прискорення.\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/355/35598/demo-multi-fisika-2026-02.png\" style=\"height: auto;\" width=\"527\"/>\n</div>\n<br/>\n<p>\n За побудовою легко побачити, що на рисунку <b>А</b> напрямок прискорення – угору.\n </p>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Механіка. Основи динаміки. Додавання сил. Другий закон Ньютона.\n Завдання скеровано на перевірку знання і розуміння додавання сил, визначення напрямку рівнодійної сил, що діють на тіло, і напрямку прискорення руху тіла.\n Напрямок прискорення руху завжди збігається з напрямком рівнодійної сил, які діють на тіло:\n \\begin{gather*}\n \\overrightarrow{a}\\ \\uparrow\\uparrow \\overrightarrow{F}.\n \\end{gather*} \n На кожному рисунку побудуймо рівнодійну сил за правилом паралелограма, і в такий спосіб визначмо напрямок прискорення.\n За побудовою легко побачити, що на рисунку А напрямок прискорення – угору.\n Відповідь: A.",
+   "topic": "Механіка. Основи динаміки. Додавання сил. Другий закон Ньютона.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/355/35598/demo-multi-fisika-2026-02.png",
+     "path": "images/doc/images/znotest/355/35598/demo-multi-fisika-2026-02.png"
+    }
+   ],
+   "text": "На рисунках у масштабі схематично позначено сили, що діють на тіло. У якому з варіантів відповіді прискорення тіла напрямлене вгору в площині рисунка?",
+   "latex": [],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 2
+    }
+   ]
+  },
+  {
+   "id": 35599,
+   "tip": 1,
+   "out_order": 3,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n Як зміниться кінетична енергія тіла, якщо його імпульс зменшиться в <latex>3</latex> рази?\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "збільшиться в <latex>3</latex> рази"
+    },
+    {
+     "marker": "Б",
+     "html": "зменшиться в <latex>3</latex> рази"
+    },
+    {
+     "marker": "В",
+     "html": "збільшиться у <latex>9</latex> разів"
+    },
+    {
+     "marker": "Г",
+     "html": "зменшиться у <latex>9</latex> разів"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Механіка. Закони збереження в механіці. Імпульс тіла. Кінетична енергія тіла.\n </strong>\n</p>\n<p> \n Завдання скеровано на перевірку знання і розуміння понять імпульсу тіла та кінетичної енергії тіла.\n </p>\n<p>\n Імпульс тіла <b>до змін</b>:\n <latex>\\begin{gather*}\n p_1=mv_1,\n \\end{gather*}</latex>\n<b>після змін</b>\n</p>\n<latex>\\begin{gather*}\n p_2=\\frac 13p_1=\\frac 13mv_1=m\\cdot \\frac{v_1}{3}.\n \\end{gather*}</latex>\n<p>\n Змінитися може лише <b>швидкість</b> <latex>v</latex> руху тіла, <b>маса</b> <latex>m</latex> змінитися <b>не може</b>, тому що тіло те саме.\n </p>\n<p>\n<b>Кінетичну</b> енергію <latex>E_k</latex> тіла визначмо за формулою:\n <latex>\\begin{gather*}\n E_{k1}=\\frac{mv_1^2}{2}.\n \\end{gather*}</latex>\n</p>\n<p>\n Після змін\n </p>\n<latex>\\begin{gather*}\n E_{k2}=\\frac{mv_2^2}{2}=\\frac m2\\cdot \\left(\\frac{v_1}{3}\\right)^2=\\frac 19\\cdot \\frac{mv_1^2}{2}=\\frac 19E_{k1}.\n \\end{gather*}</latex>\n<p>\n Отже, кінетична енергія <latex>E_{k2}</latex> <b>зменшиться в</b> <latex>9</latex> <b>разів</b>.\n </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Механіка. Закони збереження в механіці. Імпульс тіла. Кінетична енергія тіла.\n Завдання скеровано на перевірку знання і розуміння понять імпульсу тіла та кінетичної енергії тіла.\n Імпульс тіла до змін :\n \\begin{gather*}\n p_1=mv_1,\n \\end{gather*} \n після змін \n \\begin{gather*}\n p_2=\\frac 13p_1=\\frac 13mv_1=m\\cdot \\frac{v_1}{3}.\n \\end{gather*} \n Змінитися може лише швидкість v руху тіла, маса m змінитися не може , тому що тіло те саме.\n Кінетичну енергію E_k тіла визначмо за формулою:\n \\begin{gather*}\n E_{k1}=\\frac{mv_1^2}{2}.\n \\end{gather*} \n Після змін\n \\begin{gather*}\n E_{k2}=\\frac{mv_2^2}{2}=\\frac m2\\cdot \\left(\\frac{v_1}{3}\\right)^2=\\frac 19\\cdot \\frac{mv_1^2}{2}=\\frac 19E_{k1}.\n \\end{gather*} \n Отже, кінетична енергія E_{k2} зменшиться в 9 разів .\n Відповідь: Г.",
+   "topic": "Механіка. Закони збереження в механіці. Імпульс тіла. Кінетична енергія тіла.",
+   "images": [],
+   "text": "Як зміниться кінетична енергія тіла, якщо його імпульс зменшиться в 3 рази?",
+   "latex": [
+    "3",
+    "3",
+    "3",
+    "9",
+    "9"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 3
+    }
+   ]
+  },
+  {
+   "id": 35600,
+   "tip": 1,
+   "out_order": 4,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n Позначте правильне твердження, яке стосується абсолютної температури. \n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "Абсолютна температура може мати від’ємні значення."
+    },
+    {
+     "marker": "Б",
+     "html": "Абсолютний нуль – температура, за якої рух молекул й атомів має припинитися."
+    },
+    {
+     "marker": "В",
+     "html": "Одиницею абсолютної температури є градус Цельсія."
+    },
+    {
+     "marker": "Г",
+     "html": "Середня кінетична енергія поступального руху молекул обернено пропорційна абсолютній температурі."
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Молекулярна фізика і термодинаміка. Основи молекулярно-кінетичної теорії. Температура та її вимірювання. Шкала абсолютних температур.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння поняття абсолютної температури.\n </p>\n<p>\n Абсолютний нуль, – температура, за якої рух молекул й атомів має припинитися є <b>правильним</b> твердженням.\n </p>\n<p>\n Абсолютна температура НЕ може мати від’ємних значень.\n </p>\n<p> \n Нульова точка шкали Кельвіна ‒ це <b>найнижча</b> теоретично можлива температура. Якщо газ охолодити до температури <latex>T=0\\ \\text{K},</latex> рух його молекул має припинитися. Насправді <b>рух молекул не припиняється ніколи</b>, тому досягти температури <latex>0\\ \\text{K}\\ (–273\\ ^\\circ\\mathrm{C})</latex> <b>неможливо</b>.\n </p>\n<p>\n Одиницею абсолютної температури є <b>кельвін</b>.\n </p>\n<p>\n Англійський фізик Вільям Томсон (лорд Кельвін) (1824–1907) запропонував 1848 р. абсолютну шкалу температур (зараз її називають шкалою Кельвіна). Температуру <latex>T</latex>, виміряну за шкалою Кельвіна, називають <b>абсолютною</b> температурою. Одиниця абсолютної температури ‒ кельвін ‒ основна одиниця SІ:\n </p>\n<latex>\\begin{gather*}\n [T]=1\\ \\text{K}\\ (\\text{K}).\n \\end{gather*}</latex>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35600/demo-multi-fisika-2026-04.png\" style=\"height: auto;\" width=\"641\"/>\n</div>\n<br/>\n<p>\n Середня кінетична енергія поступального руху молекул <b>прямо</b> пропорційна абсолютній температурі:\n </p>\n<latex>\\begin{gather*}\n \\overline{E}_k=\\frac 32kT.\n \\end{gather*}</latex>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Молекулярна фізика і термодинаміка. Основи молекулярно-кінетичної теорії. Температура та її вимірювання. Шкала абсолютних температур.\n Завдання скеровано на перевірку знання і розуміння поняття абсолютної температури.\n Абсолютний нуль, – температура, за якої рух молекул й атомів має припинитися є правильним твердженням.\n Абсолютна температура НЕ може мати від’ємних значень.\n Нульова точка шкали Кельвіна ‒ це найнижча теоретично можлива температура. Якщо газ охолодити до температури T=0\\ \\text{K}, рух його молекул має припинитися. Насправді рух молекул не припиняється ніколи , тому досягти температури 0\\ \\text{K}\\ (–273\\ ^\\circ\\mathrm{C}) неможливо .\n Одиницею абсолютної температури є кельвін .\n Англійський фізик Вільям Томсон (лорд Кельвін) (1824–1907) запропонував 1848 р. абсолютну шкалу температур (зараз її називають шкалою Кельвіна). Температуру T , виміряну за шкалою Кельвіна, називають абсолютною температурою. Одиниця абсолютної температури ‒ кельвін ‒ основна одиниця SІ:\n \\begin{gather*}\n [T]=1\\ \\text{K}\\ (\\text{K}).\n \\end{gather*} \n Середня кінетична енергія поступального руху молекул прямо пропорційна абсолютній температурі:\n \\begin{gather*}\n \\overline{E}_k=\\frac 32kT.\n \\end{gather*} \n Відповідь: Б.",
+   "topic": "Молекулярна фізика і термодинаміка. Основи молекулярно-кінетичної теорії. Температура та її вимірювання. Шкала абсолютних температур.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35600/demo-multi-fisika-2026-04.png",
+     "path": "images/doc/images/znotest/356/35600/demo-multi-fisika-2026-04.png"
+    }
+   ],
+   "text": "Позначте правильне твердження, яке стосується абсолютної температури.",
+   "latex": [],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": 35601,
+   "tip": 1,
+   "out_order": 5,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n Під час нагрівання в калориметрі лід перетворився на водяну пару. Початкова температура льоду становила <latex>–10\\ ^\\circ\\mathrm{C}.</latex> На рисунку зображено графік залежності температури <latex>t</latex> речовини в різних агрегатних станах від часу <latex>\\tau.</latex> Позначте ділянку графіка, що відповідає процесу, під час якого внутрішня енергія речовини буде змінюватися за рахунок отримання кількості теплоти, яку можна обчислити за формулою <latex>Q=\\lambda m</latex>, де <latex>\\lambda</latex> – питома теплота плавлення. \n </p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/356/35601/fizika-pr-2026-05.png\" style=\"height: auto;\" width=\"415\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "1–2"
+    },
+    {
+     "marker": "Б",
+     "html": "2–3"
+    },
+    {
+     "marker": "В",
+     "html": "3–4"
+    },
+    {
+     "marker": "Г",
+     "html": "4–5"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Молекулярна фізика і термодинаміка. Властивості газів, рідин і твердих тіл. Плавлення і тверднення тіл. Питома теплота плавлення.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння процесів нагрівання і охолодження речовини, а також зміни агрегатного стану речовини.\n </p>\n<p>\n За графіком бачимо, що спочатку (процес <latex>1‒2</latex>) лід нагріли від <latex>‒10\\ ^\\circ\\mathrm{C}</latex> до <latex>0\\ ^\\circ\\mathrm{C},</latex> тобто до температури <b>плавлення</b>. Ділянка графіка <latex>2‒3</latex> відповідає саме процесу плавлення, який можна описати формулою\n <latex>\\begin{gather*}\n Q=\\lambda m.\n \\end{gather*}</latex>\n</p>\n<p>\n Розгляньмо пояснювальний рисунок.\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35601/demo-multi-fisika-2026-05.png\" style=\"height: auto;\" width=\"533\"/>\n</div>\n<br/>\n<p>\n Після досягнення температури <latex>0\\ ^\\circ\\mathrm{C}</latex> (точка <b>B</b>) лід починає плавитися, а його температура не змінюється попри те, що нагрівник продовжує працювати. Уся енергія, що надходить від нагрівника, витрачається на руйнування кристалічної ґратки льоду. У цей інтервал часу внутрішня енергія льоду продовжує збільшуватися.\n </p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Молекулярна фізика і термодинаміка. Властивості газів, рідин і твердих тіл. Плавлення і тверднення тіл. Питома теплота плавлення.\n Завдання скеровано на перевірку знання і розуміння процесів нагрівання і охолодження речовини, а також зміни агрегатного стану речовини.\n За графіком бачимо, що спочатку (процес 1‒2 ) лід нагріли від ‒10\\ ^\\circ\\mathrm{C} до 0\\ ^\\circ\\mathrm{C}, тобто до температури плавлення . Ділянка графіка 2‒3 відповідає саме процесу плавлення, який можна описати формулою\n \\begin{gather*}\n Q=\\lambda m.\n \\end{gather*} \n Розгляньмо пояснювальний рисунок.\n Після досягнення температури 0\\ ^\\circ\\mathrm{C} (точка B ) лід починає плавитися, а його температура не змінюється попри те, що нагрівник продовжує працювати. Уся енергія, що надходить від нагрівника, витрачається на руйнування кристалічної ґратки льоду. У цей інтервал часу внутрішня енергія льоду продовжує збільшуватися.\n Відповідь: Б.",
+   "topic": "Молекулярна фізика і термодинаміка. Властивості газів, рідин і твердих тіл. Плавлення і тверднення тіл. Питома теплота плавлення.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35601/fizika-pr-2026-05.png",
+     "path": "images/doc/images/znotest/356/35601/fizika-pr-2026-05.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35601/demo-multi-fisika-2026-05.png",
+     "path": "images/doc/images/znotest/356/35601/demo-multi-fisika-2026-05.png"
+    }
+   ],
+   "text": "Під час нагрівання в калориметрі лід перетворився на водяну пару. Початкова температура льоду становила –10\\ ^\\circ\\mathrm{C}. На рисунку зображено графік залежності температури t речовини в різних агрегатних станах від часу \\tau. Позначте ділянку графіка, що відповідає процесу, під час якого внутрішня енергія речовини буде змінюватися за рахунок отримання кількості теплоти, яку можна обчислити за формулою Q=\\lambda m , де \\lambda – питома теплота плавлення.",
+   "latex": [
+    "–10\\ ^\\circ\\mathrm{C}.",
+    "t",
+    "\\tau.",
+    "Q=\\lambda m",
+    "\\lambda"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 5
+    }
+   ]
+  },
+  {
+   "id": 35602,
+   "tip": 1,
+   "out_order": 6,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n Проаналізуйте наведені в психрометричній таблиці дані й визначте температуру повітря в кімнаті, якщо вологий термометр психрометра показує температуру <latex>10\\ ^\\circ\\mathrm{C}</latex> за відносної вологості повітря <latex>60\\ \\%.</latex>\n</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/356/35602/fizika-pr-2026-06.png\" style=\"height: auto;\" width=\"534\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>6\\ ^\\circ\\mathrm{C}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>7\\ ^\\circ\\mathrm{C}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>14\\ ^\\circ\\mathrm{C}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>18\\ ^\\circ\\mathrm{C}</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Молекулярна фізика і термодинаміка. Властивості газів, рідин і твердих тіл. Відносна вологість повітря та її вимірювання.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння відносної вологості повітря і вміння визначати її за психометричною таблицею.\n </p>\n<p>\n Проаналізувавши психометричну таблицю, знаходимо два значення відносної вологості повітря <latex>60\\ \\%.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35602/demo-multi-fisika-2026-06.png\" style=\"height: auto;\" width=\"649\"/>\n</div>\n<br/>\n<p>\n За умовою завдання вологий термометр показує <latex>10\\ ^\\circ\\mathrm{C}.</latex> У першому випадку різниця показів сухого і вологого термометрів дорівнює <latex>3\\ ^\\circ\\mathrm{C},</latex> отже, сухий термометр має показувати температуру <latex>13\\ ^\\circ\\mathrm{C}.</latex> Але в таблиці бачимо <latex>6\\ ^\\circ\\mathrm{C}.</latex> Такого бути не може, тому що сухий термометр має температуру або вищу за вологий (вода з тканини випаровується, забираючи з собою енергію, і вологий термометр показує нижчу температуру, ніж сухий), або таку саму (якщо вологість <latex>100\\ \\%</latex> ‒ відбувається конденсація ‒ утворюється роса, туман, може йти дощ). Отже, перший варіант не задовольняє умові.\n </p>\n<p>\n У другому випадку різниця показів сухого і вологого термометрів дорівнює <latex>4\\ ^\\circ\\mathrm{C},</latex> отже, сухий термометр має показувати температуру <latex>14\\ ^\\circ\\mathrm{C}.</latex> У таблиці бачимо саме це значення температури ‒ <latex>14\\ ^\\circ\\mathrm{C}.</latex> Тепер правильно.\n </p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Молекулярна фізика і термодинаміка. Властивості газів, рідин і твердих тіл. Відносна вологість повітря та її вимірювання.\n Завдання скеровано на перевірку знання і розуміння відносної вологості повітря і вміння визначати її за психометричною таблицею.\n Проаналізувавши психометричну таблицю, знаходимо два значення відносної вологості повітря 60\\ \\%. \n За умовою завдання вологий термометр показує 10\\ ^\\circ\\mathrm{C}. У першому випадку різниця показів сухого і вологого термометрів дорівнює 3\\ ^\\circ\\mathrm{C}, отже, сухий термометр має показувати температуру 13\\ ^\\circ\\mathrm{C}. Але в таблиці бачимо 6\\ ^\\circ\\mathrm{C}. Такого бути не може, тому що сухий термометр має температуру або вищу за вологий (вода з тканини випаровується, забираючи з собою енергію, і вологий термометр показує нижчу температуру, ніж сухий), або таку саму (якщо вологість 100\\ \\% ‒ відбувається конденсація ‒ утворюється роса, туман, може йти дощ). Отже, перший варіант не задовольняє умові.\n У другому випадку різниця показів сухого і вологого термометрів дорівнює 4\\ ^\\circ\\mathrm{C}, отже, сухий термометр має показувати температуру 14\\ ^\\circ\\mathrm{C}. У таблиці бачимо саме це значення температури ‒ 14\\ ^\\circ\\mathrm{C}. Тепер правильно.\n Відповідь: B.",
+   "topic": "Молекулярна фізика і термодинаміка. Властивості газів, рідин і твердих тіл. Відносна вологість повітря та її вимірювання.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35602/fizika-pr-2026-06.png",
+     "path": "images/doc/images/znotest/356/35602/fizika-pr-2026-06.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35602/demo-multi-fisika-2026-06.png",
+     "path": "images/doc/images/znotest/356/35602/demo-multi-fisika-2026-06.png"
+    }
+   ],
+   "text": "Проаналізуйте наведені в психрометричній таблиці дані й визначте температуру повітря в кімнаті, якщо вологий термометр психрометра показує температуру 10\\ ^\\circ\\mathrm{C} за відносної вологості повітря 60\\ \\%.",
+   "latex": [
+    "10\\ ^\\circ\\mathrm{C}",
+    "60\\ \\%.",
+    "6\\ ^\\circ\\mathrm{C}",
+    "7\\ ^\\circ\\mathrm{C}",
+    "14\\ ^\\circ\\mathrm{C}",
+    "18\\ ^\\circ\\mathrm{C}"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 6
+    }
+   ]
+  },
+  {
+   "id": 35603,
+   "tip": 1,
+   "out_order": 7,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n Дві маленькі заряджені кульки було розміщено на відстані <latex>12</latex> см одна від одної на вертикальній прямій. Верхню кульку перемістили на <latex>6</latex> см уздовж прямої вгору, а нижню – на <latex>6</latex> см униз. У скільки разів зменшилася сила кулонівської взаємодії між кульками? \n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "в <latex>1{,}5</latex> раза"
+    },
+    {
+     "marker": "Б",
+     "html": "у <latex>2</latex> рази"
+    },
+    {
+     "marker": "В",
+     "html": "у <latex>3</latex> рази"
+    },
+    {
+     "marker": "Г",
+     "html": "у <latex>4</latex> рази"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Електродинаміка. Основи електростатики. Закон Кулона.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння закону Кулона.\n </p>\n<p>\n Запишімо закон Кулона: сила <latex>F</latex> взаємодії двох нерухомих точкових зарядів прямо пропорційна добутку модулів цих зарядів й обернено пропорційна квадрату відстані між ними:\n </p>\n<latex>\\begin{gather*}\n F=k\\frac{|q_1||q_2|}{r^2},\n \\end{gather*}</latex>\n<p>\n де <latex>q_1</latex> і <latex>q_2</latex> ‒ заряди <latex>1</latex> і <latex>2</latex> відповідно; <latex>r</latex> ‒ відстань між цими зарядами; <latex>k</latex> ‒ коефіцієнт пропорційності.\n </p>\n<p>\n Відстань між кульками збільшиться <b>вдвічі</b>, якщо їх перемістити так, як зазначено в умові. Зважаючи на те, що сила взаємодії зарядів обернено пропорційна квадрату відстані між кульками, маємо:\n </p>\n<latex>\\begin{gather*}\n F\\sim \\frac{1}{r^2}.\n \\end{gather*}</latex>\n<p>\n Отже, сила кулонівської взаємодії між кульками <b>зменшиться в</b> <latex>4</latex> <b>рази</b>.\n </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Електродинаміка. Основи електростатики. Закон Кулона.\n Завдання скеровано на перевірку знання і розуміння закону Кулона.\n Запишімо закон Кулона: сила F взаємодії двох нерухомих точкових зарядів прямо пропорційна добутку модулів цих зарядів й обернено пропорційна квадрату відстані між ними:\n \\begin{gather*}\n F=k\\frac{|q_1||q_2|}{r^2},\n \\end{gather*} \n де q_1 і q_2 ‒ заряди 1 і 2 відповідно; r ‒ відстань між цими зарядами; k ‒ коефіцієнт пропорційності.\n Відстань між кульками збільшиться вдвічі , якщо їх перемістити так, як зазначено в умові. Зважаючи на те, що сила взаємодії зарядів обернено пропорційна квадрату відстані між кульками, маємо:\n \\begin{gather*}\n F\\sim \\frac{1}{r^2}.\n \\end{gather*} \n Отже, сила кулонівської взаємодії між кульками зменшиться в 4 рази .\n Відповідь: Г.",
+   "topic": "Електродинаміка. Основи електростатики. Закон Кулона.",
+   "images": [],
+   "text": "Дві маленькі заряджені кульки було розміщено на відстані 12 см одна від одної на вертикальній прямій. Верхню кульку перемістили на 6 см уздовж прямої вгору, а нижню – на 6 см униз. У скільки разів зменшилася сила кулонівської взаємодії між кульками?",
+   "latex": [
+    "12",
+    "6",
+    "6",
+    "1{,}5",
+    "2",
+    "3",
+    "4"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 7
+    }
+   ]
+  },
+  {
+   "id": 35604,
+   "tip": 1,
+   "out_order": 8,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n До затискачів джерела постійної електрорушійної сили приєднали металеву дротину. Як би змінилася кількість теплоти, що виділиться в дротині впродовж <latex>5</latex> хвилин, якщо б діаметр дротини був удвічі більший, а довжина у <latex>8</latex> разів більша? Внутрішнім опором джерела знехтувати. \n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "зменшилася б в <latex>4</latex> рази"
+    },
+    {
+     "marker": "Б",
+     "html": "збільшилася б в <latex>4</latex> рази"
+    },
+    {
+     "marker": "В",
+     "html": "зменшилася б у <latex>2</latex> рази"
+    },
+    {
+     "marker": "Г",
+     "html": "збільшилася б у <latex>2</latex> рази"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Електродинаміка. Закони постійного струму. Закон Джоуля – Ленца.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння закону Джоуля – Ленца.\n </p>\n<p>\n Кількість теплоти <latex>Q,</latex> яка виділяється в провіднику зі струмом, прямо пропорційна квадрату сили струму <latex>I,</latex> опору <latex>R</latex> провідника та часу <latex>t</latex> проходження струму (закон Джоуля – Ленца):\n </p>\n<latex>\\begin{gather*}\n Q=I^2Rt.\n \\end{gather*}</latex>\n<p>\n Або за законом Ома:\n </p>\n<latex>\\begin{gather*}\n Q=\\frac{U^2}{R^2}Rt=\\frac{U^2t}{R},\n \\end{gather*}</latex>\n<p>\n де <latex>U</latex> ‒ напруга, що залишиться сталою на відміну від сили струму, яка зміниться внаслідок зміни опору.\n </p>\n<p>\n<b>До змін</b> кількість теплоти, що виділиться в металевій дротині, становитиме:\n </p>\n<latex>\\begin{gather*}\n Q_1=\\frac{U^2t}{R_1}.\n \\end{gather*}</latex>\n<p>\n<b>Після змін</b>:\n </p>\n<latex>\\begin{gather*}\n Q_2=\\frac{U^2t}{R_2}.\n \\end{gather*}</latex>\n<p>\n Тривалість проходження струму однакова, і напруга також однакова (те саме джерело). Усе залежатиме від параметрів дротини.\n </p>\n<p>\n Запишімо формулу для електричного опору R:\n </p>\n<latex>\\begin{gather*}\n R=\\rho\\frac lS,\n \\end{gather*}</latex>\n<p>\n де <latex>\\rho</latex> ‒ питомий опір речовини дротини (залишається той самий), <latex>l</latex> ‒ довжина дротини, <latex>S</latex> ‒ площа поперечного перерізу.\n </p>\n<p>\n<b>До змін</b>:\n </p>\n<latex>\\begin{gather*}\n R_1=\\rho\\frac{l_1}{S_1}=\\rho\\frac{l_1}{\\pi\\left(\\frac{d_1}{2}\\right)^2}=\\frac{4\\rho l_1}{\\pi d_1^2},\n \\end{gather*}</latex>\n<p>\n<b>після змін</b>:\n </p>\n<latex>\\begin{gather*}\n R_2=\\rho\\frac{l_2}{S_2}=\\rho\\frac{8l_1}{\\pi\\left(\\frac{2d_1}{2}\\right)^2}=\\frac{8\\rho l_1}{\\pi d_1^2}.\n \\end{gather*}</latex>\n<p>\n Визначмо відношення <latex>\\dfrac{Q_2}{Q_1}.</latex>\n</p>\n<latex>\\begin{gather*}\n \\frac{Q_2}{Q_1}=\\frac{U^2t}{R_2}:\\frac{U^2t}{R_1}=\\frac{R_1}{R_2},\\\\[6pt]\n \\frac{Q_2}{Q_1}=\\frac{4\\rho l_1}{\\pi d_1^2}: \\frac{8\\rho l_1}{\\pi d_1^2}=\\frac 12.\n \\end{gather*}</latex>\n<p>\n Отже, кількість теплоти <latex>Q_2</latex> <b>зменшиться вдвічі</b>.\n </p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Електродинаміка. Закони постійного струму. Закон Джоуля – Ленца.\n Завдання скеровано на перевірку знання і розуміння закону Джоуля – Ленца.\n Кількість теплоти Q, яка виділяється в провіднику зі струмом, прямо пропорційна квадрату сили струму I, опору R провідника та часу t проходження струму (закон Джоуля – Ленца):\n \\begin{gather*}\n Q=I^2Rt.\n \\end{gather*} \n Або за законом Ома:\n \\begin{gather*}\n Q=\\frac{U^2}{R^2}Rt=\\frac{U^2t}{R},\n \\end{gather*} \n де U ‒ напруга, що залишиться сталою на відміну від сили струму, яка зміниться внаслідок зміни опору.\n До змін кількість теплоти, що виділиться в металевій дротині, становитиме:\n \\begin{gather*}\n Q_1=\\frac{U^2t}{R_1}.\n \\end{gather*} \n Після змін :\n \\begin{gather*}\n Q_2=\\frac{U^2t}{R_2}.\n \\end{gather*} \n Тривалість проходження струму однакова, і напруга також однакова (те саме джерело). Усе залежатиме від параметрів дротини.\n Запишімо формулу для електричного опору R:\n \\begin{gather*}\n R=\\rho\\frac lS,\n \\end{gather*} \n де \\rho ‒ питомий опір речовини дротини (залишається той самий), l ‒ довжина дротини, S ‒ площа поперечного перерізу.\n До змін :\n \\begin{gather*}\n R_1=\\rho\\frac{l_1}{S_1}=\\rho\\frac{l_1}{\\pi\\left(\\frac{d_1}{2}\\right)^2}=\\frac{4\\rho l_1}{\\pi d_1^2},\n \\end{gather*} \n після змін :\n \\begin{gather*}\n R_2=\\rho\\frac{l_2}{S_2}=\\rho\\frac{8l_1}{\\pi\\left(\\frac{2d_1}{2}\\right)^2}=\\frac{8\\rho l_1}{\\pi d_1^2}.\n \\end{gather*} \n Визначмо відношення \\dfrac{Q_2}{Q_1}. \n \\begin{gather*}\n \\frac{Q_2}{Q_1}=\\frac{U^2t}{R_2}:\\frac{U^2t}{R_1}=\\frac{R_1}{R_2},\\\\[6pt]\n \\frac{Q_2}{Q_1}=\\frac{4\\rho l_1}{\\pi d_1^2}: \\frac{8\\rho l_1}{\\pi d_1^2}=\\frac 12.\n \\end{gather*} \n Отже, кількість теплоти Q_2 зменшиться вдвічі .\n Відповідь: B.",
+   "topic": "Електродинаміка. Закони постійного струму. Закон Джоуля – Ленца.",
+   "images": [],
+   "text": "До затискачів джерела постійної електрорушійної сили приєднали металеву дротину. Як би змінилася кількість теплоти, що виділиться в дротині впродовж 5 хвилин, якщо б діаметр дротини був удвічі більший, а довжина у 8 разів більша? Внутрішнім опором джерела знехтувати.",
+   "latex": [
+    "5",
+    "8",
+    "4",
+    "4",
+    "2",
+    "2"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 8
+    }
+   ]
+  },
+  {
+   "id": 35605,
+   "tip": 1,
+   "out_order": 9,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n Прямий провідник зі струмом <latex>I</latex> розміщено в магнітному полі (див. рисунок). Напрямок струму й ліній магнітної індукції <latex>\\overrightarrow{B}</latex> магнітного поля позначено стрілками. І провідник, і лінії, які пронизують його, лежать у площині рисунка. Визначте напрямок сили, що діє на провідник з боку магнітного поля. \n </p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/356/35605/fizika-pr-2026-09.png\" style=\"height: auto;\" width=\"233\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "праворуч у площині рисунка"
+    },
+    {
+     "marker": "Б",
+     "html": "униз у площині рисунка"
+    },
+    {
+     "marker": "В",
+     "html": "до вас перпендикулярно до площини рисунка"
+    },
+    {
+     "marker": "Г",
+     "html": "від вас перпендикулярно до площини рисунка"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Електродинаміка. Магнітне поле, електромагнітна індукція. Сила Ампера.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння дії сили Ампера й уміння визначати її напрямок.\n </p>\n<p>\n Сила, з якою магнітне поле діє на провідник зі струмом, ‒ це сила Ампера.\n </p>\n<p>\n Щоб визначити напрямок сили Ампера, використовують правило лівої руки: Якщо ліву руку розташувати так, щоб лінії магнітної індукції входили в долоню, а чотири випростані пальці вказували напрямок струму в провіднику, то відігнутий на <latex>90^\\circ</latex> великий палець укаже напрямок сили Ампера (див. рисунок).\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35605/demo-multi-fisika-2026-09.png\" style=\"height: auto;\" width=\"235\"/>\n</div>\n<br/>\n<p>\n Якщо за цим правилом розташувати ліву руку, то сила Ампера буде напрямлена перпендикулярно до площини рисунка від вас.\n </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Електродинаміка. Магнітне поле, електромагнітна індукція. Сила Ампера.\n Завдання скеровано на перевірку знання і розуміння дії сили Ампера й уміння визначати її напрямок.\n Сила, з якою магнітне поле діє на провідник зі струмом, ‒ це сила Ампера.\n Щоб визначити напрямок сили Ампера, використовують правило лівої руки: Якщо ліву руку розташувати так, щоб лінії магнітної індукції входили в долоню, а чотири випростані пальці вказували напрямок струму в провіднику, то відігнутий на 90^\\circ великий палець укаже напрямок сили Ампера (див. рисунок).\n Якщо за цим правилом розташувати ліву руку, то сила Ампера буде напрямлена перпендикулярно до площини рисунка від вас.\n Відповідь: Г.",
+   "topic": "Електродинаміка. Магнітне поле, електромагнітна індукція. Сила Ампера.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35605/fizika-pr-2026-09.png",
+     "path": "images/doc/images/znotest/356/35605/fizika-pr-2026-09.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35605/demo-multi-fisika-2026-09.png",
+     "path": "images/doc/images/znotest/356/35605/demo-multi-fisika-2026-09.png"
+    }
+   ],
+   "text": "Прямий провідник зі струмом I розміщено в магнітному полі (див. рисунок). Напрямок струму й ліній магнітної індукції \\overrightarrow{B} магнітного поля позначено стрілками. І провідник, і лінії, які пронизують його, лежать у площині рисунка. Визначте напрямок сили, що діє на провідник з боку магнітного поля.",
+   "latex": [
+    "I",
+    "\\overrightarrow{B}"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 9
+    }
+   ]
+  },
+  {
+   "id": 35606,
+   "tip": 1,
+   "out_order": 10,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n На рисунку зображено графік залежності координати <latex>x</latex> від часу <latex>t</latex> під час гармонічних коливань тіла на пружині. Визначте значення шляху <latex>l</latex> i модуля переміщення <latex>s</latex> тіла через <span style=\"white-space:nowrap\"><latex>2</latex> секунди</span> від початку руху. \n </p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/356/35606/fizika-pr-2026-10.png\" style=\"height: auto;\" width=\"326\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>l=160</latex> см; <latex>s=0</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>l=160</latex> см; <latex>s=20</latex> см"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>l=200</latex> см; <latex>s=0</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>l=200</latex> см; <latex>s=20</latex> см"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Коливання і хвилі. Оптика. Механічні коливання і хвилі. Коливання вантажу на пружині.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння гармонічних коливань, а також вміння визначати величини, що їх описують.\n </p>\n<p>\n Визначмо амплітуду <latex>A</latex> коливань тіла на пружині та період <latex>T</latex> його коливань за графіком на рисунку:\n </p>\n<latex>\\begin{gather*}\n A=20\\ \\text{см}=0{,}2\\ \\text{м},\\\\[7pt]\n T=0{,}8\\ \\text{с}.\n \\end{gather*}</latex>\n<p>\n Обчислімо кількість коливань за <latex>2\\ \\text{с}{:}</latex>\n</p>\n<latex>\\begin{gather*}\n T=\\frac tN\\Rightarrow N=\\frac tT,\\\\[6pt]\n N=\\frac{2\\ \\text{с}}{0{,}8\\ \\text{с}}=2{,}5.\n \\end{gather*}</latex>\n<p>\n За одне повне коливання тіло проходить шлях, що дорівнює чотирьом амплітудам:\n <latex>\\begin{gather*}\n l_0=4A.\n \\end{gather*}</latex>\n</p>\n<p>\n Тоді за <latex>2{,}5</latex> коливання тіло пройде шлях:\n </p>\n<latex>\\begin{gather*}\n l=Nl_0=N\\cdot 4A,\\\\[6pt]\n l=2{,}5\\cdot 4\\cdot 0{,}2\\ \\text{м}=2\\ \\text{м}=200\\ \\text{см}.\n \\end{gather*}</latex>\n<p>\n Дізнаймося координату тіла через <latex>2</latex> секунди. Опишімо рух тіла гармонічним рівнянням:\n </p>\n<latex>\\begin{gather*}\n x=A\\sin\\omega t,\\\\[6pt]\n x=0{,}2\\sin\\frac{2\\pi}{0{,}8}t,\\\\[6pt]\n x=0{,}2\\sin 2{,}5\\pi t,\\\\[7pt]\n x(2\\ \\text{с})=0{,}2\\sin 2{,}5\\pi\\cdot 2\\text{с}=0.\n \\end{gather*}</latex>\n<p>\n Тобто через <latex>2{,}5</latex> коливання координата тіла буде <latex>0.</latex> Отже, <b>переміщення тіла дорівнюватиме нулю</b>.\n </p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Коливання і хвилі. Оптика. Механічні коливання і хвилі. Коливання вантажу на пружині.\n Завдання скеровано на перевірку знання і розуміння гармонічних коливань, а також вміння визначати величини, що їх описують.\n Визначмо амплітуду A коливань тіла на пружині та період T його коливань за графіком на рисунку:\n \\begin{gather*}\n A=20\\ \\text{см}=0{,}2\\ \\text{м},\\\\[7pt]\n T=0{,}8\\ \\text{с}.\n \\end{gather*} \n Обчислімо кількість коливань за 2\\ \\text{с}{:} \n \\begin{gather*}\n T=\\frac tN\\Rightarrow N=\\frac tT,\\\\[6pt]\n N=\\frac{2\\ \\text{с}}{0{,}8\\ \\text{с}}=2{,}5.\n \\end{gather*} \n За одне повне коливання тіло проходить шлях, що дорівнює чотирьом амплітудам:\n \\begin{gather*}\n l_0=4A.\n \\end{gather*} \n Тоді за 2{,}5 коливання тіло пройде шлях:\n \\begin{gather*}\n l=Nl_0=N\\cdot 4A,\\\\[6pt]\n l=2{,}5\\cdot 4\\cdot 0{,}2\\ \\text{м}=2\\ \\text{м}=200\\ \\text{см}.\n \\end{gather*} \n Дізнаймося координату тіла через 2 секунди. Опишімо рух тіла гармонічним рівнянням:\n \\begin{gather*}\n x=A\\sin\\omega t,\\\\[6pt]\n x=0{,}2\\sin\\frac{2\\pi}{0{,}8}t,\\\\[6pt]\n x=0{,}2\\sin 2{,}5\\pi t,\\\\[7pt]\n x(2\\ \\text{с})=0{,}2\\sin 2{,}5\\pi\\cdot 2\\text{с}=0.\n \\end{gather*} \n Тобто через 2{,}5 коливання координата тіла буде 0. Отже, переміщення тіла дорівнюватиме нулю .\n Відповідь: B.",
+   "topic": "Коливання і хвилі. Оптика. Механічні коливання і хвилі. Коливання вантажу на пружині.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35606/fizika-pr-2026-10.png",
+     "path": "images/doc/images/znotest/356/35606/fizika-pr-2026-10.png"
+    }
+   ],
+   "text": "На рисунку зображено графік залежності координати x від часу t під час гармонічних коливань тіла на пружині. Визначте значення шляху l i модуля переміщення s тіла через 2 секунди від початку руху.",
+   "latex": [
+    "x",
+    "t",
+    "l",
+    "s",
+    "2",
+    "l=160",
+    "s=0",
+    "l=160",
+    "s=20",
+    "l=200",
+    "s=0",
+    "l=200",
+    "s=20"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 10
+    }
+   ]
+  },
+  {
+   "id": 35607,
+   "tip": 1,
+   "out_order": 11,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n До генератора змінної напруги, який працює на частоті <latex>0{,}25</latex> Гц, приєднано лампу розжарювання. Визначте проміжок часу між двома найближчими спалахами лампи. \n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>0{,}5</latex> с"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>1</latex> с"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>2</latex> с"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>3</latex> с"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Коливання і хвилі. Оптика. Електромагнітні коливання і хвилі. \n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння гармонічного закону зміни значень фізичних величин.\n </p>\n<p>\n Змінний електричний струм ‒ це електричний струм, сила якого змінюється за гармонічним законом. На відміну від постійного струму, змінний струм увесь час періодично змінює свої значення та напрямок.\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35607/demo-multi-fisika-2026-11.png\" style=\"height: auto;\" width=\"635\"/>\n</div>\n<br/>\n<p>\n Визначмо період <latex>T</latex> поширення хвилі:\n </p>\n<latex>\\begin{gather*}\n T=\\frac{1}{\\nu}=\\frac{1}{0{,}25\\ \\text{Гц}}=4\\ \\text{с}.\n \\end{gather*}</latex>\n<p>\n Проаналізувавши графіки змінного струму, робимо висновок, що проміжок часу між двома найближчими спалахами становить <b>половину періоду</b>, тобто <latex>2</latex> секунди.\n </p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Коливання і хвилі. Оптика. Електромагнітні коливання і хвилі. \n Завдання скеровано на перевірку знання і розуміння гармонічного закону зміни значень фізичних величин.\n Змінний електричний струм ‒ це електричний струм, сила якого змінюється за гармонічним законом. На відміну від постійного струму, змінний струм увесь час періодично змінює свої значення та напрямок.\n Визначмо період T поширення хвилі:\n \\begin{gather*}\n T=\\frac{1}{\\nu}=\\frac{1}{0{,}25\\ \\text{Гц}}=4\\ \\text{с}.\n \\end{gather*} \n Проаналізувавши графіки змінного струму, робимо висновок, що проміжок часу між двома найближчими спалахами становить половину періоду , тобто 2 секунди.\n Відповідь: B.",
+   "topic": "Коливання і хвилі. Оптика. Електромагнітні коливання і хвилі.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35607/demo-multi-fisika-2026-11.png",
+     "path": "images/doc/images/znotest/356/35607/demo-multi-fisika-2026-11.png"
+    }
+   ],
+   "text": "До генератора змінної напруги, який працює на частоті 0{,}25 Гц, приєднано лампу розжарювання. Визначте проміжок часу між двома найближчими спалахами лампи.",
+   "latex": [
+    "0{,}25",
+    "0{,}5",
+    "1",
+    "2",
+    "3"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 11
+    }
+   ]
+  },
+  {
+   "id": 35608,
+   "tip": 1,
+   "out_order": 12,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n Яка з характеристик світлової хвилі залишилася незмінною після переходу світла з повітря в скло? \n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "частота хвилі"
+    },
+    {
+     "marker": "Б",
+     "html": "довжина хвилі"
+    },
+    {
+     "marker": "В",
+     "html": "швидкість хвилі"
+    },
+    {
+     "marker": "Г",
+     "html": "енергія хвилі"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n Коливання і хвилі. Оптика. Зв’язок між довжиною хвилі, швидкістю її поширення та періодом (частотою).\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння поширення хвиль і зміни під час цього їхніх характеристик.\n </p>\n<p>\n Світло ‒ це електромагнітна хвиля, швидкість поширення якої у вакуумі дорівнює <latex>3\\cdot 10^8\\ \\text{м/с}.</latex> У різних середовищах світло поширюється з різною швидкістю, але завжди повільніше, ніж у вакуумі.\n </p>\n<p>\n<b>Швидкість поширення хвилі</b> переважно визначають пружні властивості середовища, у якому хвиля поширюється, тому якщо хвиля переходить з одного середовища в інше, то швидкість її поширення <b>змінюється</b>. Відповідно змінюватиметься й енергія хвилі.\n </p>\n<p>\n<b>Частота</b> <latex>\\nu</latex> хвилі залишається <b>незмінною</b>, оскільки її визначає частота коливань джерела хвилі.\n </p>\n<p>\n Щодо довжини хвилі, то відповідно до формули хвилі в разі переходу хвилі з одного середовища в інше її <b>довжина</b> змінюється, оскільки змінюється <b>швидкість</b> поширення хвилі:\n </p>\n<latex>\\begin{gather*}\n v=\\lambda\\nu \\Rightarrow \\lambda=\\frac{v}{\\nu}.\n \\end{gather*}</latex>\n<p>\n Отже, після переходу світла з повітря у скло незмінною залишиться тільки частота хвилі.\n </p>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n Коливання і хвилі. Оптика. Зв’язок між довжиною хвилі, швидкістю її поширення та періодом (частотою).\n Завдання скеровано на перевірку знання і розуміння поширення хвиль і зміни під час цього їхніх характеристик.\n Світло ‒ це електромагнітна хвиля, швидкість поширення якої у вакуумі дорівнює 3\\cdot 10^8\\ \\text{м/с}. У різних середовищах світло поширюється з різною швидкістю, але завжди повільніше, ніж у вакуумі.\n Швидкість поширення хвилі переважно визначають пружні властивості середовища, у якому хвиля поширюється, тому якщо хвиля переходить з одного середовища в інше, то швидкість її поширення змінюється . Відповідно змінюватиметься й енергія хвилі.\n Частота \\nu хвилі залишається незмінною , оскільки її визначає частота коливань джерела хвилі.\n Щодо довжини хвилі, то відповідно до формули хвилі в разі переходу хвилі з одного середовища в інше її довжина змінюється, оскільки змінюється швидкість поширення хвилі:\n \\begin{gather*}\n v=\\lambda\\nu \\Rightarrow \\lambda=\\frac{v}{\\nu}.\n \\end{gather*} \n Отже, після переходу світла з повітря у скло незмінною залишиться тільки частота хвилі.\n Відповідь: A.",
+   "topic": null,
+   "images": [],
+   "text": "Яка з характеристик світлової хвилі залишилася незмінною після переходу світла з повітря в скло?",
+   "latex": [],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 12
+    }
+   ]
+  },
+  {
+   "id": 35609,
+   "tip": 1,
+   "out_order": 13,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n Маса зорі щосекунди зменшується на <latex>4\\cdot 10^6</latex> т за рахунок випромінювання. Визначте потужність випромінювання зорі. Уважайте, що швидкість світла дорівнює <latex>3\\cdot 10^8</latex> м/с. \n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>2{,}25\\cdot 10^7</latex> кВт"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>12\\cdot 10^{14}</latex> кВт"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>36\\cdot 10^{19}</latex> кВт"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>3{,}6\\cdot 10^{23}</latex> кВт"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Квантова фізика. Елементи теорії відносності. Взаємозв’язок маси та енергії.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння взаємозв’язку між масою та енергією.\n </p>\n<p>\n Потужність <latex>P</latex> випромінювання зорі визначмо за формулою:\n </p>\n<latex>\\begin{gather*}\n P=\\frac Et,\n \\end{gather*}</latex>\n<p>\n де <latex>E</latex> – енергія, яку випромінює зоря, <latex>t</latex> – час, протягом якого це випромінювання відбувається.\n </p>\n<p>\n Енергію, яку віддаватиме зоря щосекунди внаслідок випромінювання, визначмо за формулою взаємозв’язку маси та енергії:\n </p>\n<latex>\\begin{gather*}\n E=mc^2.\n \\end{gather*}</latex>\n<p>\n Обчислімо потужність:\n </p>\n<latex>\\begin{gather*}\n P=\\frac Et=\\frac{mc^2}{t},\\\\[6pt]\n P=\\frac{4\\cdot 10^9\\ \\text{кг}\\cdot (3\\cdot 10^8)^2}{1\\ \\text{с}}=36\\cdot 10^{25}\\ \\text{Вт}=3{,}6\\cdot 10^{23}\\ \\text{кВт}.\n \\end{gather*}</latex>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Квантова фізика. Елементи теорії відносності. Взаємозв’язок маси та енергії.\n Завдання скеровано на перевірку знання і розуміння взаємозв’язку між масою та енергією.\n Потужність P випромінювання зорі визначмо за формулою:\n \\begin{gather*}\n P=\\frac Et,\n \\end{gather*} \n де E – енергія, яку випромінює зоря, t – час, протягом якого це випромінювання відбувається.\n Енергію, яку віддаватиме зоря щосекунди внаслідок випромінювання, визначмо за формулою взаємозв’язку маси та енергії:\n \\begin{gather*}\n E=mc^2.\n \\end{gather*} \n Обчислімо потужність:\n \\begin{gather*}\n P=\\frac Et=\\frac{mc^2}{t},\\\\[6pt]\n P=\\frac{4\\cdot 10^9\\ \\text{кг}\\cdot (3\\cdot 10^8)^2}{1\\ \\text{с}}=36\\cdot 10^{25}\\ \\text{Вт}=3{,}6\\cdot 10^{23}\\ \\text{кВт}.\n \\end{gather*} \n Відповідь: Г.",
+   "topic": "Квантова фізика. Елементи теорії відносності. Взаємозв’язок маси та енергії.",
+   "images": [],
+   "text": "Маса зорі щосекунди зменшується на 4\\cdot 10^6 т за рахунок випромінювання. Визначте потужність випромінювання зорі. Уважайте, що швидкість світла дорівнює 3\\cdot 10^8 м/с.",
+   "latex": [
+    "4\\cdot 10^6",
+    "3\\cdot 10^8",
+    "2{,}25\\cdot 10^7",
+    "12\\cdot 10^{14}",
+    "36\\cdot 10^{19}",
+    "3{,}6\\cdot 10^{23}"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 13
+    }
+   ]
+  },
+  {
+   "id": 35610,
+   "tip": 1,
+   "out_order": 14,
+   "test_id": 717,
+   "type": "single_choice",
+   "question_html": "<p>\n Обчисліть заряд ядра ізотопа Літію <latex>_3^7\\mathrm{Li}.</latex> Уважайте, що елементарний заряд <span style=\"white-space:nowrap\"><latex>e=1{,}6\\cdot 10^{–19}</latex> Кл.</span>\n</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>+4{,}8\\cdot 10^{-19}</latex> Кл"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>+6{,}4\\cdot 10^{-19}</latex> Кл"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>+11{,}2\\cdot 10^{-19}</latex> Кл"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>+16{,}0\\cdot 10^{-19}</latex> Кл"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Квантова фізика. Елементи теорії відносності. Атом та атомне ядро. Склад ядра атома.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння будови атома та його ядра.\n </p>\n<p>\n Атомне ядро складається із частинок двох видів: <b>протонів</b>, які мають позитивний електричний заряд, і <b>нейтронів</b>, які не мають заряду. Протони й нейтрони в ядрі атома називають <b>нуклонами</b>. Сумарну кількість протонів і нейтронів в атомі називають <b>нуклонним</b> (масовим) числом і позначають символом <latex>\\mathrm{A}.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35610/demo-multi-fisika-2026-14.png\" style=\"height: auto;\" width=\"241\"/>\n</div>\n<br/>\n<p>\n Кількість протонів у ядрі називають зарядовим (протонним) числом і позначають символом <latex>\\mathrm{Z}.</latex> Порядковий номер елемента в періодичній таблиці хімічних елементів відповідає кількості протонів у ядрі (зарядовому числу).\n </p>\n<p>\n Отже, у ядрі нукліда <latex>_3^7\\mathrm{Li}</latex> три протони <latex>(N=3).</latex> Обчислімо заряд <latex>q</latex> ядра:\n </p>\n<latex>\\begin{gather*}\n q=N\\cdot e,\\\\[7pt]\n q=3\\cdot 1{,}6\\cdot 10^{-19}=+4{,}8\\cdot 10^{-19}\\ \\text{Кл}.\n \\end{gather*}</latex>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Квантова фізика. Елементи теорії відносності. Атом та атомне ядро. Склад ядра атома.\n Завдання скеровано на перевірку знання і розуміння будови атома та його ядра.\n Атомне ядро складається із частинок двох видів: протонів , які мають позитивний електричний заряд, і нейтронів , які не мають заряду. Протони й нейтрони в ядрі атома називають нуклонами . Сумарну кількість протонів і нейтронів в атомі називають нуклонним (масовим) числом і позначають символом \\mathrm{A}. \n Кількість протонів у ядрі називають зарядовим (протонним) числом і позначають символом \\mathrm{Z}. Порядковий номер елемента в періодичній таблиці хімічних елементів відповідає кількості протонів у ядрі (зарядовому числу).\n Отже, у ядрі нукліда _3^7\\mathrm{Li} три протони (N=3). Обчислімо заряд q ядра:\n \\begin{gather*}\n q=N\\cdot e,\\\\[7pt]\n q=3\\cdot 1{,}6\\cdot 10^{-19}=+4{,}8\\cdot 10^{-19}\\ \\text{Кл}.\n \\end{gather*} \n Відповідь: A.",
+   "topic": "Квантова фізика. Елементи теорії відносності. Атом та атомне ядро. Склад ядра атома.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35610/demo-multi-fisika-2026-14.png",
+     "path": "images/doc/images/znotest/356/35610/demo-multi-fisika-2026-14.png"
+    }
+   ],
+   "text": "Обчисліть заряд ядра ізотопа Літію _3^7\\mathrm{Li}. Уважайте, що елементарний заряд e=1{,}6\\cdot 10^{–19} Кл.",
+   "latex": [
+    "_3^7\\mathrm{Li}.",
+    "e=1{,}6\\cdot 10^{–19}",
+    "+4{,}8\\cdot 10^{-19}",
+    "+6{,}4\\cdot 10^{-19}",
+    "+11{,}2\\cdot 10^{-19}",
+    "+16{,}0\\cdot 10^{-19}"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 14
+    }
+   ]
+  },
+  {
+   "id": 35611,
+   "tip": 13,
+   "out_order": 15,
+   "test_id": 717,
+   "type": "matching",
+   "question_html": "<p>\n На рисунку зображено графіки процесів, які здійснює ідеальний газ незмінної маси (<latex>p</latex> – тиск, <latex>V</latex> – об’єм, графік 1 є частиною гіперболи; напрямок процесу збігається з напрямком стрілки на графіку). Доберіть до графіка процесу (1–3) характеристику термодинамічного процесу (А – Д), де <latex>Q</latex> – кількість теплоти, отримана газом, <latex>A</latex> – робота газу. \n </p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/356/35611/fizika-pr-2026-15.png\" style=\"height: auto;\" width=\"211\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Графік 1"
+    },
+    {
+     "marker": "2",
+     "html": "Графік 2"
+    },
+    {
+     "marker": "3",
+     "html": "Графік 3"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>Q\\gt 0</latex>; <latex>A=0</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>Q=A\\gt 0</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>Q\\gt A\\gt 0</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>Q\\lt 0</latex>; <latex>A=0</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>Q\\lt 0</latex>; <latex>A\\lt 0</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "Графік 1"
+      },
+      {
+       "marker": "",
+       "html": "Графік 2"
+      },
+      {
+       "marker": "",
+       "html": "Графік 3"
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>Q\\gt 0</latex>; <latex>A=0</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>Q=A\\gt 0</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>Q\\gt A\\gt 0</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>Q\\lt 0</latex>; <latex>A=0</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>Q\\lt 0</latex>; <latex>A\\lt 0</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1b;2e;3c",
+   "correct": [
+    "1b",
+    "2e",
+    "3c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Молекулярна фізика і термодинаміка. Основи термодинаміки. Застосування першого закону термодинаміки до ізопроцесів.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння ізопроцесів, їхньої графічної інтерпретації та вміння застосовувати перший закон термодинаміки до ізопроцесів.\n </p>\n<p>\n Застосуймо <b>перший закон термодинаміки</b> до ізопроцесів: кількість теплоти <latex>Q</latex>, передана системі, йде на зміну внутрішньої енергії <latex>\\Delta U</latex> системи та на виконання системою роботи <latex>A</latex> проти зовнішніх сил:\n </p>\n<latex>\\begin{gather*}\n Q=\\Delta U+A.\n \\end{gather*}</latex>\n<p>\n Графік <latex>1</latex> відповідає <b>ізотермічному</b> процесу, тобто\n </p>\n<latex>\\begin{gather*}\n T=\\mathrm{const}.\n \\end{gather*}</latex>\n<p>\n Оскільки об’єм <latex>V</latex> збільшується, а тиск <latex>p</latex> падає (див. рисунок), то це відповідно до рівняння <b>Клапейрона</b> процес ізотермічного розширення:\n </p>\n<latex>\\begin{gather*}\n pV=\\mathrm{const}\\Rightarrow p\\downarrow V\\uparrow=\\mathrm{const}\n \\end{gather*}</latex>\n<p>\n (стрілочка, напрямлена вгору, означає зростання значення величини; стрілочка, напрямлена вниз, означає зменшення значення величини).\n </p>\n<p>\n У ході цього процесу температура, а отже, і внутрішня енергія газу не змінюються <latex>(\\Delta U=0),</latex> тому рівняння першого закону термодинаміки має вигляд:\n </p>\n<latex>\\begin{gather*}\n Q=A.\n \\end{gather*}</latex>\n<p>\n Під час ізотермічного процесу вся передана газу кількість теплоти йде на виконання механічної роботи (відповідь <b>Б</b>).\n </p>\n<p>\n Графік <latex>2</latex> відповідає ізобарному процесу <latex>(p=\\mathrm{const}).</latex> Під час цього об’єм <latex>V</latex> <b>зменшується</b> (див. рисунок), і, відповідно до рівняння <b>Клапейрона</b> для <b>ізобарного</b> процесу, температура <latex>T</latex> теж зменшуватиметься:\n </p>\n<latex>\\begin{gather*}\n \\frac VT=\\mathrm{const}\\Rightarrow \\frac{V\\downarrow}{T\\downarrow}=\\mathrm{const}.\n \\end{gather*}</latex>\n<p>\n Отже, це процес ізобарного стиснення (або ж ізобарного охолодження).\n </p>\n<p>\n У ході цього процесу виконується робота і змінюється внутрішня енергія газу, тому рівняння першого закону термодинаміки має вигляд:\n </p>\n<latex>\\begin{gather*}\n Q=\\Delta U+A.\n \\end{gather*}</latex>\n<p>\n Під час ізобарного стиснення (охолодження) газ повинен віддати певну кількість теплоти <latex>(Q\\lt 0),</latex> а роботу виконуватимуть над газом (щоб стиснути), а не газ <latex>(A\\lt 0)</latex> (відповідь <b>Д</b>).\n </p>\n<p>\n Графік <latex>3</latex> відповідає процесу, під час якого змінюватимуться всі три параметри ідеального газу ‒ тиск, об’єм, абсолютна температура:\n </p>\n<latex>\\begin{gather*}\n \\frac{pV}{T}=\\mathrm{const}\\Rightarrow \\frac{p\\uparrow V\\uparrow}{T\\uparrow}=\\mathrm{const}.\n \\end{gather*}</latex>\n<p>\n Під час цього процесу передана газу кількість теплоти <latex>(Q\\gt 0)</latex> витрачається і на виконання механічної роботи <latex>(A\\gt 0),</latex> і на збільшення внутрішньої енергії газу, отже, <latex>Q\\gt A</latex> <span style=\"white-space:nowrap\">(відповідь <b>В</b>).</span>\n</p>\n<p><strong>Відповідь: 1Б, 2Д, 3В.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Молекулярна фізика і термодинаміка. Основи термодинаміки. Застосування першого закону термодинаміки до ізопроцесів.\n Завдання скеровано на перевірку знання і розуміння ізопроцесів, їхньої графічної інтерпретації та вміння застосовувати перший закон термодинаміки до ізопроцесів.\n Застосуймо перший закон термодинаміки до ізопроцесів: кількість теплоти Q , передана системі, йде на зміну внутрішньої енергії \\Delta U системи та на виконання системою роботи A проти зовнішніх сил:\n \\begin{gather*}\n Q=\\Delta U+A.\n \\end{gather*} \n Графік 1 відповідає ізотермічному процесу, тобто\n \\begin{gather*}\n T=\\mathrm{const}.\n \\end{gather*} \n Оскільки об’єм V збільшується, а тиск p падає (див. рисунок), то це відповідно до рівняння Клапейрона процес ізотермічного розширення:\n \\begin{gather*}\n pV=\\mathrm{const}\\Rightarrow p\\downarrow V\\uparrow=\\mathrm{const}\n \\end{gather*} \n (стрілочка, напрямлена вгору, означає зростання значення величини; стрілочка, напрямлена вниз, означає зменшення значення величини).\n У ході цього процесу температура, а отже, і внутрішня енергія газу не змінюються (\\Delta U=0), тому рівняння першого закону термодинаміки має вигляд:\n \\begin{gather*}\n Q=A.\n \\end{gather*} \n Під час ізотермічного процесу вся передана газу кількість теплоти йде на виконання механічної роботи (відповідь Б ).\n Графік 2 відповідає ізобарному процесу (p=\\mathrm{const}). Під час цього об’єм V зменшується (див. рисунок), і, відповідно до рівняння Клапейрона для ізобарного процесу, температура T теж зменшуватиметься:\n \\begin{gather*}\n \\frac VT=\\mathrm{const}\\Rightarrow \\frac{V\\downarrow}{T\\downarrow}=\\mathrm{const}.\n \\end{gather*} \n Отже, це процес ізобарного стиснення (або ж ізобарного охолодження).\n У ході цього процесу виконується робота і змінюється внутрішня енергія газу, тому рівняння першого закону термодинаміки має вигляд:\n \\begin{gather*}\n Q=\\Delta U+A.\n \\end{gather*} \n Під час ізобарного стиснення (охолодження) газ повинен віддати певну кількість теплоти (Q\\lt 0), а роботу виконуватимуть над газом (щоб стиснути), а не газ (A\\lt 0) (відповідь Д ).\n Графік 3 відповідає процесу, під час якого змінюватимуться всі три параметри ідеального газу ‒ тиск, об’єм, абсолютна температура:\n \\begin{gather*}\n \\frac{pV}{T}=\\mathrm{const}\\Rightarrow \\frac{p\\uparrow V\\uparrow}{T\\uparrow}=\\mathrm{const}.\n \\end{gather*} \n Під час цього процесу передана газу кількість теплоти (Q\\gt 0) витрачається і на виконання механічної роботи (A\\gt 0), і на збільшення внутрішньої енергії газу, отже, Q\\gt A (відповідь В ). \n Відповідь: 1Б, 2Д, 3В.",
+   "topic": "Молекулярна фізика і термодинаміка. Основи термодинаміки. Застосування першого закону термодинаміки до ізопроцесів.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35611/fizika-pr-2026-15.png",
+     "path": "images/doc/images/znotest/356/35611/fizika-pr-2026-15.png"
+    }
+   ],
+   "text": "На рисунку зображено графіки процесів, які здійснює ідеальний газ незмінної маси ( p – тиск, V – об’єм, графік 1 є частиною гіперболи; напрямок процесу збігається з напрямком стрілки на графіку). Доберіть до графіка процесу (1–3) характеристику термодинамічного процесу (А – Д), де Q – кількість теплоти, отримана газом, A – робота газу.",
+   "latex": [
+    "p",
+    "V",
+    "Q",
+    "A",
+    "Q\\gt 0",
+    "A=0",
+    "Q=A\\gt 0",
+    "Q\\gt A\\gt 0",
+    "Q\\lt 0",
+    "A=0",
+    "Q\\lt 0",
+    "A\\lt 0"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 15
+    }
+   ]
+  },
+  {
+   "id": 35612,
+   "tip": 13,
+   "out_order": 16,
+   "test_id": 717,
+   "type": "matching",
+   "question_html": "<p>\n Поєднайте назву технічного пристрою (1–3) з фізичною основою його дії (А – Д). \n </p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "фоторезистор"
+    },
+    {
+     "marker": "2",
+     "html": "світлодіод"
+    },
+    {
+     "marker": "3",
+     "html": "напівпровідниковий діод"
+    },
+    {
+     "marker": "А",
+     "html": "залежність опору від напрямку струму"
+    },
+    {
+     "marker": "Б",
+     "html": "залежність опору від температури"
+    },
+    {
+     "marker": "В",
+     "html": "залежність опору від освітленості"
+    },
+    {
+     "marker": "Г",
+     "html": "перетворення світлової енергії на електричну"
+    },
+    {
+     "marker": "Д",
+     "html": "перетворення електричної енергії на світлову"
+    }
+   ],
+   "groups": [
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "фоторезистор"
+      },
+      {
+       "marker": "",
+       "html": "світлодіод"
+      },
+      {
+       "marker": "",
+       "html": "напівпровідниковий діод"
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "залежність опору від напрямку струму"
+      },
+      {
+       "marker": "",
+       "html": "залежність опору від температури"
+      },
+      {
+       "marker": "",
+       "html": "залежність опору від освітленості"
+      },
+      {
+       "marker": "",
+       "html": "перетворення світлової енергії на електричну"
+      },
+      {
+       "marker": "",
+       "html": "перетворення електричної енергії на світлову"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1c;2e;3a",
+   "correct": [
+    "1c",
+    "2e",
+    "3a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Електродинаміка. Електричний струм у різних середовищах.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння будови технічних пристроїв, фізичної основи їхніх дій.\n </p>\n<p>\n<b>1 – В</b>: на залежності провідності напівпровідників від освітленості ґрунтується дія фоторезисторів (див. рисунок), які застосовують для вимірювання освітленості, у системах сигналізації та автоматики, для сортування виробів тощо. За допомогою фоторезисторів запобігають нещасним випадкам і аваріям, автоматично зупиняючи роботу обладнання в разі порушення процесу.\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35612/demo-multi-fisika-2026-16-1.png\" style=\"height: auto;\" width=\"215\"/>\n</div>\n<br/>\n<p>\n<b>2 ‒ Д</b>: світлодіод ‒ це напівпровідниковий прилад, який перетворює електричний струм безпосередньо на світлове випромінювання. Він працює на основі принципу електролюмінесценції, де напівпровідниковий кристал випромінює світло внаслідок проходження струму. Світлодіоди відомі завдяки високій енергоефективності, довговічності та швидкому ввімкненню.\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35612/demo-multi-fisika-2026-16-2.png\" style=\"height: auto;\" width=\"255\"/>\n</div>\n<br/>\n<p>\n<b>3 ‒ А</b>: напівпровідниковий діод ‒ це електронний прилад з одним переходом та двома виводами (анодом і катодом), який проводить електричний струм лише в одному напрямку. Його використовують для випрямлення змінного струму, захисту схем від зворотного струму та перемикання.\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35612/demo-multi-fisika-2026-16-3.png\" style=\"height: auto;\" width=\"286\"/>\n</div>\n<p><strong>Відповідь: 1В, 2Д, 3А.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Електродинаміка. Електричний струм у різних середовищах.\n Завдання скеровано на перевірку знання і розуміння будови технічних пристроїв, фізичної основи їхніх дій.\n 1 – В : на залежності провідності напівпровідників від освітленості ґрунтується дія фоторезисторів (див. рисунок), які застосовують для вимірювання освітленості, у системах сигналізації та автоматики, для сортування виробів тощо. За допомогою фоторезисторів запобігають нещасним випадкам і аваріям, автоматично зупиняючи роботу обладнання в разі порушення процесу.\n 2 ‒ Д : світлодіод ‒ це напівпровідниковий прилад, який перетворює електричний струм безпосередньо на світлове випромінювання. Він працює на основі принципу електролюмінесценції, де напівпровідниковий кристал випромінює світло внаслідок проходження струму. Світлодіоди відомі завдяки високій енергоефективності, довговічності та швидкому ввімкненню.\n 3 ‒ А : напівпровідниковий діод ‒ це електронний прилад з одним переходом та двома виводами (анодом і катодом), який проводить електричний струм лише в одному напрямку. Його використовують для випрямлення змінного струму, захисту схем від зворотного струму та перемикання.\n Відповідь: 1В, 2Д, 3А.",
+   "topic": "Електродинаміка. Електричний струм у різних середовищах.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35612/demo-multi-fisika-2026-16-1.png",
+     "path": "images/doc/images/znotest/356/35612/demo-multi-fisika-2026-16-1.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35612/demo-multi-fisika-2026-16-2.png",
+     "path": "images/doc/images/znotest/356/35612/demo-multi-fisika-2026-16-2.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35612/demo-multi-fisika-2026-16-3.png",
+     "path": "images/doc/images/znotest/356/35612/demo-multi-fisika-2026-16-3.png"
+    }
+   ],
+   "text": "Поєднайте назву технічного пристрою (1–3) з фізичною основою його дії (А – Д).",
+   "latex": [],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 16
+    }
+   ]
+  },
+  {
+   "id": 35613,
+   "tip": 8,
+   "out_order": 17,
+   "test_id": 717,
+   "type": "short_answer",
+   "question_html": "<p>\n До лінійки, що лежить горизонтально на двох нерухомих опорах, підвішено два тягарці (див. рисунок). \n </p>\n<img alt=\"\" src=\"images/doc/images/znotest/356/35613/fizika-pr-2026-17.png\" style=\"height: auto;\" width=\"313\"/>\n<p>\n На яку максимальну відстань можна перемістити лінійку праворуч, щоб вона не втратила рівноваги? Масою лінійки знехтуйте.\n </p>\n<p>\n Відповідь запишіть у сантиметрах (см).\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "10",
+   "correct": [
+    "10"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Механіка. Основи динаміки. Момент сили. Умови рівноваги тіла.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння умови рівноваги тіла.\n </p>\n<p>\n Якщо рухатимемо лінійку праворуч, то вона може втратити рівновагу й почати обертатися навколо правої нерухомої опори. Щоб лінійка не втратила рівноваги, треба, щоб момент <latex>M_1</latex> сили <latex>\\overrightarrow{F}_1</latex> (вага вантажу <latex>1</latex>), яка обертає лінійку проти ходу годинникової стрілки, дорівнював моменту <latex>M_2</latex> сили <latex>\\overrightarrow{F}_2</latex> (вага вантажу <latex>2</latex>), яка обертає лінійку за ходом годинникової стрілки (див. рисунок):\n </p>\n<latex>\\begin{gather*}\n M_1=M_2,\\\\[7pt]\n F_1d_1=F_2d_2.\n \\end{gather*}</latex>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35613/demo-multi-fisika-2026-17.png\" style=\"height: auto;\" width=\"320\"/>\n</div>\n<br/>\n<p>\n З рисунка бачимо, що плечі цих сил початково становлять:\n </p>\n<latex>\\begin{gather*}\n d_1=40\\ \\text{см}=0{,}4\\ \\text{м},\\\\[7pt]\n d_2=(50-40)\\ \\text{см}=10\\ \\text{см}=0{,}1\\ \\text{м}.\n \\end{gather*}</latex>\n<p>\n Якщо ж рухатимемо лінійку праворуч на <latex>x</latex> м, то плечі становитимуть:\n </p>\n<latex>\\begin{gather*}\n d_1=(0{,}4-x)\\ \\text{м},\\\\[7pt]\n d_2=(0{,}1+x)\\ \\text{м}.\n \\end{gather*}</latex>\n<p>\n Вантажі нерухомі, тому вагу кожного тягарця можна визначити за формулою:\n </p>\n<latex>\\begin{gather*}\n F_1=m_1g,\\\\[7pt]\n F_2=m_2g,\n \\end{gather*}</latex>\n<p>\n де <latex>g</latex> – прискорення вільного падіння.\n </p>\n<p>\n Важіль перебуває в рівновазі, тому можемо скористатися правилом важеля:\n </p>\n<latex>\\begin{gather*}\n F_1d_1=F_2d_2,\\\\[7pt]\n m_1g(0{,}4-x)=m_2g(0{,}1+x),\\\\[7pt]\n m_1(0{,}4-x)=m_2(0{,}1+x),\\\\[7pt]\n 2(0{,}4-x)=3(0{,}1+x),\\\\[7pt]\n 0{,}8-2x=0{,}3+3x,\\\\[7pt]\n 5x=0{,}5,\\\\[7pt]\n x=0{,}1\\ (\\text{м}).\n \\end{gather*}</latex>\n<p>\n Отже, лінійку можна перемістити праворуч на <latex>0{,}1</latex> м або на <latex>10</latex> см.\n </p>\n<p><strong>Відповідь: <latex>10.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Механіка. Основи динаміки. Момент сили. Умови рівноваги тіла.\n Завдання скеровано на перевірку знання і розуміння умови рівноваги тіла.\n Якщо рухатимемо лінійку праворуч, то вона може втратити рівновагу й почати обертатися навколо правої нерухомої опори. Щоб лінійка не втратила рівноваги, треба, щоб момент M_1 сили \\overrightarrow{F}_1 (вага вантажу 1 ), яка обертає лінійку проти ходу годинникової стрілки, дорівнював моменту M_2 сили \\overrightarrow{F}_2 (вага вантажу 2 ), яка обертає лінійку за ходом годинникової стрілки (див. рисунок):\n \\begin{gather*}\n M_1=M_2,\\\\[7pt]\n F_1d_1=F_2d_2.\n \\end{gather*} \n З рисунка бачимо, що плечі цих сил початково становлять:\n \\begin{gather*}\n d_1=40\\ \\text{см}=0{,}4\\ \\text{м},\\\\[7pt]\n d_2=(50-40)\\ \\text{см}=10\\ \\text{см}=0{,}1\\ \\text{м}.\n \\end{gather*} \n Якщо ж рухатимемо лінійку праворуч на x м, то плечі становитимуть:\n \\begin{gather*}\n d_1=(0{,}4-x)\\ \\text{м},\\\\[7pt]\n d_2=(0{,}1+x)\\ \\text{м}.\n \\end{gather*} \n Вантажі нерухомі, тому вагу кожного тягарця можна визначити за формулою:\n \\begin{gather*}\n F_1=m_1g,\\\\[7pt]\n F_2=m_2g,\n \\end{gather*} \n де g – прискорення вільного падіння.\n Важіль перебуває в рівновазі, тому можемо скористатися правилом важеля:\n \\begin{gather*}\n F_1d_1=F_2d_2,\\\\[7pt]\n m_1g(0{,}4-x)=m_2g(0{,}1+x),\\\\[7pt]\n m_1(0{,}4-x)=m_2(0{,}1+x),\\\\[7pt]\n 2(0{,}4-x)=3(0{,}1+x),\\\\[7pt]\n 0{,}8-2x=0{,}3+3x,\\\\[7pt]\n 5x=0{,}5,\\\\[7pt]\n x=0{,}1\\ (\\text{м}).\n \\end{gather*} \n Отже, лінійку можна перемістити праворуч на 0{,}1 м або на 10 см.\n Відповідь: 10.",
+   "topic": "Механіка. Основи динаміки. Момент сили. Умови рівноваги тіла.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35613/fizika-pr-2026-17.png",
+     "path": "images/doc/images/znotest/356/35613/fizika-pr-2026-17.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35613/demo-multi-fisika-2026-17.png",
+     "path": "images/doc/images/znotest/356/35613/demo-multi-fisika-2026-17.png"
+    }
+   ],
+   "text": "До лінійки, що лежить горизонтально на двох нерухомих опорах, підвішено два тягарці (див. рисунок). \n На яку максимальну відстань можна перемістити лінійку праворуч, щоб вона не втратила рівноваги? Масою лінійки знехтуйте.\n Відповідь запишіть у сантиметрах (см).",
+   "latex": [],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 17
+    }
+   ]
+  },
+  {
+   "id": 35614,
+   "tip": 8,
+   "out_order": 18,
+   "test_id": 717,
+   "type": "short_answer",
+   "question_html": "<p>\n Супутник рухається навколо планети по коловій траєкторії радіуса <latex>10\\ 000</latex> км, здійснюючи кожен оберт за <latex>10\\ 000</latex> с. Визначте прискорення, якого надає супутнику сила тяжіння планети. Уважайте, що <latex>\\pi^2=10.</latex>\n</p>\n<p>\n Відповідь запишіть у метрах за секунду в квадраті (м/с<latex>^2</latex>). \n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "4",
+   "correct": [
+    "4"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Механіка. Основи кінематики. Рівномірний рух по колу. Доцентрове прискорення.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння рівномірного руху по колу, уміння визначати доцентрове прискорення руху тіла.\n </p>\n<p>\n У разі рівномірного руху тіла по колу вектор прискорення напрямлений до центра кола − саме тому прискорення рівномірного руху тіла по колу називають доцентровим прискоренням <latex>\\overrightarrow{a}_\\text{дц}.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35614/demo-multi-fisika-2026-18.png\" style=\"height: auto;\" width=\"262\"/>\n</div>\n<br/>\n<p>\n Модуль доцентрового прискорення обчислюють за формулою:\n </p>\n<latex>\\begin{gather*}\n a_\\text{дц}=\\frac{v^2}{R},\n \\end{gather*}</latex>\n<p> \n де <latex>v</latex> – модуль лінійної швидкості руху тіла, <latex>R</latex> − радіус кола.\n </p>\n<p>\n Час одного повного оберту – це період <latex>T=10000\\ \\text{с}.</latex> За періодом обертання та радіусом колової траєкторії легко визначити модуль лінійної швидкості <latex>v</latex> рівномірного руху тіла по колу. Дійсно, за час <latex>(t=T)</latex> одного оберту тіло долає відстань, що дорівнює довжині кола <latex>l=2\\pi R.</latex> Оскільки <latex>v=\\frac lt,</latex> маємо:\n </p>\n<latex>\\begin{gather*}\n v=\\frac{2\\pi R}{T}.\n \\end{gather*}</latex>\n<p>\n Запишімо формулу для визначення доцентрового прискорення через радіус кола і період обертання:\n </p>\n<latex>\\begin{gather*}\n a_\\text{дц}=\\frac{v^2}{R}=\\frac{(2\\pi R)^2}{R\\cdot T^2}=\\frac{4\\pi^2R^2}{R\\cdot T^2}=\\frac{4\\pi^2R}{T^2}.\n \\end{gather*}</latex>\n<p>\n Обчислімо:\n </p>\n<latex>\\begin{gather*}\n a_\\text{дц}=\\frac{4\\cdot 10\\cdot 10^7}{(10^4)^2}=4\\ \\text{м/с}^2.\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>4.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Механіка. Основи кінематики. Рівномірний рух по колу. Доцентрове прискорення.\n Завдання скеровано на перевірку знання і розуміння рівномірного руху по колу, уміння визначати доцентрове прискорення руху тіла.\n У разі рівномірного руху тіла по колу вектор прискорення напрямлений до центра кола − саме тому прискорення рівномірного руху тіла по колу називають доцентровим прискоренням \\overrightarrow{a}_\\text{дц}. \n Модуль доцентрового прискорення обчислюють за формулою:\n \\begin{gather*}\n a_\\text{дц}=\\frac{v^2}{R},\n \\end{gather*} \n де v – модуль лінійної швидкості руху тіла, R − радіус кола.\n Час одного повного оберту – це період T=10000\\ \\text{с}. За періодом обертання та радіусом колової траєкторії легко визначити модуль лінійної швидкості v рівномірного руху тіла по колу. Дійсно, за час (t=T) одного оберту тіло долає відстань, що дорівнює довжині кола l=2\\pi R. Оскільки v=\\frac lt, маємо:\n \\begin{gather*}\n v=\\frac{2\\pi R}{T}.\n \\end{gather*} \n Запишімо формулу для визначення доцентрового прискорення через радіус кола і період обертання:\n \\begin{gather*}\n a_\\text{дц}=\\frac{v^2}{R}=\\frac{(2\\pi R)^2}{R\\cdot T^2}=\\frac{4\\pi^2R^2}{R\\cdot T^2}=\\frac{4\\pi^2R}{T^2}.\n \\end{gather*} \n Обчислімо:\n \\begin{gather*}\n a_\\text{дц}=\\frac{4\\cdot 10\\cdot 10^7}{(10^4)^2}=4\\ \\text{м/с}^2.\n \\end{gather*} \n Відповідь: 4.",
+   "topic": "Механіка. Основи кінематики. Рівномірний рух по колу. Доцентрове прискорення.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35614/demo-multi-fisika-2026-18.png",
+     "path": "images/doc/images/znotest/356/35614/demo-multi-fisika-2026-18.png"
+    }
+   ],
+   "text": "Супутник рухається навколо планети по коловій траєкторії радіуса 10\\ 000 км, здійснюючи кожен оберт за 10\\ 000 с. Визначте прискорення, якого надає супутнику сила тяжіння планети. Уважайте, що \\pi^2=10. \n Відповідь запишіть у метрах за секунду в квадраті (м/с ^2 ).",
+   "latex": [
+    "10\\ 000",
+    "10\\ 000",
+    "\\pi^2=10.",
+    "^2"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 18
+    }
+   ]
+  },
+  {
+   "id": 35615,
+   "tip": 8,
+   "out_order": 19,
+   "test_id": 717,
+   "type": "short_answer",
+   "question_html": "<p>\n У посудину з холодною водою за температури <latex>10\\ ^\\circ\\mathrm{C}</latex> додали гарячу воду, температура якої була <latex>90\\ ^\\circ\\mathrm{C}.</latex> У результаті змішування маса води в посудині становила <latex>6</latex> кг, а її температура після встановлення теплової рівноваги дорівнювала <latex>70\\ ^\\circ\\mathrm{C}.</latex> Обчисліть масу гарячої води, використаної для змішування. Теплоємність посудини та теплообмін із навколишнім середовищем не враховуйте. \n </p>\n<p>\n Відповідь запишіть у кілограмах (кг).\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "4.5",
+   "correct": [
+    "4.5"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Молекулярна фізика і термодинаміка. Властивості газів, рідин і твердих тіл. Рівняння теплового балансу для найпростіших теплових процесів.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання, розуміння і вміння застосовувати рівняння теплового балансу.\n </p>\n<p>\n У системі тіл, яка не одержує та не віддає енергію, а внутрішня енергія тіл системи змінюється тільки внаслідок теплопередачі, загальна кількість теплоти, віддана одними тілами системи <latex>(Q^-),</latex> дорівнює загальній кількості теплоти, одержаної іншими тілами цієї системи <latex>(Q^+)</latex> ‒ рівняння теплового балансу:\n </p>\n<latex>\\begin{gather*}\n Q_1^-+Q_2^-+\\ \\text{...}\\ +Q_n^-=Q_1^++Q_2^++\\ \\text{...}\\ +Q_k^+,\n \\end{gather*}</latex>\n<p>\n де <latex>n</latex> ‒ кількість тіл, що віддають енергію; <latex>k</latex> ‒ кількість тіл, що одержують енергію.\n </p>\n<p>\n Згідно з умовою, гаряча вода, яку доливали в посудину, віддаватиме певну кількість теплоти <latex>Q_\\text{г}^-,</latex> а холодна вода в посудині від цього нагріватиметься ‒ одержить кількість теплоти <latex>Q_\\text{х}^+.</latex> Кінцевим станом теплообміну є теплова рівновага – стан з однаковою температурою всіх частин системи. Запишімо рівняння теплового балансу відповідно до умови завдання:\n </p>\n<latex>\\begin{gather*}\n Q_\\text{г}^-=Q_\\text{х}^+,\\\\[7pt]\n cm_\\text{г}(90-70)=cm_\\text{х}(70-10),\\\\[7pt]\n 20m_\\text{г}=60m_\\text{х},\\\\[7pt]\n m_\\text{г}=3m_\\text{х},\n \\end{gather*}</latex>\n<p>\n де <latex>c</latex> ‒ питома теплоємність води (і холодної, і гарячої), <latex>m_\\text{г}</latex> ‒ маса гарячої води, <latex>m_\\text{х}</latex> ‒ маса холодної води. У дужках зазначено різницю температур гарячої і холодної води відповідно.\n </p>\n<p>\n Треба обчислити масу гарячої води, тож виразімо масу холодної води через різницю загальної маси і маси гарячої води:\n </p>\n<latex>\\begin{gather*}\n m_\\text{х}=m-m_\\text{г}.\n \\end{gather*}</latex>\n<p>\n Підставмо в попереднє рівняння:\n </p>\n<latex>\\begin{gather*}\n m_\\text{г}=3(m-m_\\text{г}),\\\\[7pt]\n 4m_\\text{г}=3m,\\\\[6pt]\n m_\\text{г}=\\frac{3m}{4},\\\\[6pt]\n m_\\text{г}=\\frac{3\\cdot 6\\ \\text{кг}}{4}=4{,}5\\ \\text{кг}.\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>4{,}5.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Молекулярна фізика і термодинаміка. Властивості газів, рідин і твердих тіл. Рівняння теплового балансу для найпростіших теплових процесів.\n Завдання скеровано на перевірку знання, розуміння і вміння застосовувати рівняння теплового балансу.\n У системі тіл, яка не одержує та не віддає енергію, а внутрішня енергія тіл системи змінюється тільки внаслідок теплопередачі, загальна кількість теплоти, віддана одними тілами системи (Q^-), дорівнює загальній кількості теплоти, одержаної іншими тілами цієї системи (Q^+) ‒ рівняння теплового балансу:\n \\begin{gather*}\n Q_1^-+Q_2^-+\\ \\text{...}\\ +Q_n^-=Q_1^++Q_2^++\\ \\text{...}\\ +Q_k^+,\n \\end{gather*} \n де n ‒ кількість тіл, що віддають енергію; k ‒ кількість тіл, що одержують енергію.\n Згідно з умовою, гаряча вода, яку доливали в посудину, віддаватиме певну кількість теплоти Q_\\text{г}^-, а холодна вода в посудині від цього нагріватиметься ‒ одержить кількість теплоти Q_\\text{х}^+. Кінцевим станом теплообміну є теплова рівновага – стан з однаковою температурою всіх частин системи. Запишімо рівняння теплового балансу відповідно до умови завдання:\n \\begin{gather*}\n Q_\\text{г}^-=Q_\\text{х}^+,\\\\[7pt]\n cm_\\text{г}(90-70)=cm_\\text{х}(70-10),\\\\[7pt]\n 20m_\\text{г}=60m_\\text{х},\\\\[7pt]\n m_\\text{г}=3m_\\text{х},\n \\end{gather*} \n де c ‒ питома теплоємність води (і холодної, і гарячої), m_\\text{г} ‒ маса гарячої води, m_\\text{х} ‒ маса холодної води. У дужках зазначено різницю температур гарячої і холодної води відповідно.\n Треба обчислити масу гарячої води, тож виразімо масу холодної води через різницю загальної маси і маси гарячої води:\n \\begin{gather*}\n m_\\text{х}=m-m_\\text{г}.\n \\end{gather*} \n Підставмо в попереднє рівняння:\n \\begin{gather*}\n m_\\text{г}=3(m-m_\\text{г}),\\\\[7pt]\n 4m_\\text{г}=3m,\\\\[6pt]\n m_\\text{г}=\\frac{3m}{4},\\\\[6pt]\n m_\\text{г}=\\frac{3\\cdot 6\\ \\text{кг}}{4}=4{,}5\\ \\text{кг}.\n \\end{gather*} \n Відповідь: 4{,}5.",
+   "topic": "Молекулярна фізика і термодинаміка. Властивості газів, рідин і твердих тіл. Рівняння теплового балансу для найпростіших теплових процесів.",
+   "images": [],
+   "text": "У посудину з холодною водою за температури 10\\ ^\\circ\\mathrm{C} додали гарячу воду, температура якої була 90\\ ^\\circ\\mathrm{C}. У результаті змішування маса води в посудині становила 6 кг, а її температура після встановлення теплової рівноваги дорівнювала 70\\ ^\\circ\\mathrm{C}. Обчисліть масу гарячої води, використаної для змішування. Теплоємність посудини та теплообмін із навколишнім середовищем не враховуйте. \n Відповідь запишіть у кілограмах (кг).",
+   "latex": [
+    "10\\ ^\\circ\\mathrm{C}",
+    "90\\ ^\\circ\\mathrm{C}.",
+    "6",
+    "70\\ ^\\circ\\mathrm{C}."
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 19
+    }
+   ]
+  },
+  {
+   "id": 35616,
+   "tip": 8,
+   "out_order": 20,
+   "test_id": 717,
+   "type": "short_answer",
+   "question_html": "<p>\n Радіоаматор виготовив плоский конденсатор з однакових квадратних шматків фольги й поліетиленової плівки (рис. 1). Електрична ємність саморобного конденсатора дорівнює <latex>240</latex> пФ. Потім радіоаматор розрізав цей конденсатор на чотири однакові частини й склав із них батарею конденсаторів (рис. 2). Визначте загальну електричну ємність цієї батареї.\n </p>\n<p>\n Відповідь запишіть у пікофарадах (пФ).\n </p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/356/35616/fizika-pr-2026-20.png\" style=\"height: auto;\" width=\"569\"/></p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "15",
+   "correct": [
+    "15"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Електродинаміка. Основи електростатики. Електроємність плоского конденсатора. З’єднання конденсаторів.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння того, від яких фізичних величин залежить електроємність плоского конденсатора, а також уміння визначати електроємність батареї конденсаторів, з’єднаних послідовно.\n </p>\n<p>\n За умовою початкова електроємність саморобного конденсатора дорівнює\n </p>\n<latex>\\begin{gather*}\n C=240\\ \\text{пФ}.\n \\end{gather*}</latex>\n<p>\n Електроємність плоского конденсатора обчислюють за формулою:\n <latex>\\begin{gather*}\n C=\\frac{\\varepsilon_0\\varepsilon S}{d},\n \\end{gather*}</latex>\n де <latex>\\varepsilon_0=8,85\\cdot 10^{-12}\\ \\text{Ф/м}</latex> ‒ електрична стала; <latex>\\varepsilon</latex> ‒ діелектрична проникність діелектрика; <span style=\"white-space:nowrap\"><latex>S</latex> ‒ площа пластини конденсатора;</span> <latex>d</latex> ‒ відстань між пластинами.\n </p>\n<p>\n Тобто електроємність конденсатора прямо пропорційна площі пластини:\n </p>\n<latex>\\begin{gather*}\n C\\sim S.\n \\end{gather*}</latex>\n<p>\n Коли радіоаматор розрізав цей конденсатор на чотири однакові частини, то електроємність кожної четвертої частини буде вчетверо менша за початкову:\n </p>\n<latex>\\begin{gather*}\n C_{\\frac 14}=\\frac C4=\\frac{240\\ \\text{пФ}}{4}=60\\ \\text{пФ}.\n \\end{gather*}</latex>\n<p>\n Якщо із цих розрізаних частин скласти батарею конденсаторів, як на рисунку <latex>2,</latex> то це буде послідовне з’єднання чотирьох конденсаторів:\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35616/demo-multi-fisika-2026-20.png\" style=\"height: auto;\" width=\"279\"/>\n</div>\n<br/>\n<p>\n Електроємність батареї послідовно з’єднаних конденсаторів можна обчислити, скориставшись формулою:\n </p>\n<latex>\\begin{gather*}\n \\frac{1}{C_\\text{посл}}=\\frac{1}{C_1}+\\frac{1}{C_2}+\\frac{1}{C_3}+\\frac{1}{C_4}.\n \\end{gather*}</latex>\n<p>\n Оскільки ці всі частини (конденсатори) однакові, то скористаймося формулою:\n </p>\n<latex>\\begin{gather*}\n \\frac{1}{C_\\text{посл}}=\\frac{4}{C_{\\frac 14}}\\ \\text{або}\\ C_\\text{посл}=\\frac{C_{\\frac 14}}{4}.\n \\end{gather*}</latex>\n<p>\n Обчислімо:\n </p>\n<latex>\\begin{gather*}\n C_\\text{посл}=\\frac{60\\ \\text{пФ}}{4}=15\\ \\text{пФ}.\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>15.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Електродинаміка. Основи електростатики. Електроємність плоского конденсатора. З’єднання конденсаторів.\n Завдання скеровано на перевірку знання і розуміння того, від яких фізичних величин залежить електроємність плоского конденсатора, а також уміння визначати електроємність батареї конденсаторів, з’єднаних послідовно.\n За умовою початкова електроємність саморобного конденсатора дорівнює\n \\begin{gather*}\n C=240\\ \\text{пФ}.\n \\end{gather*} \n Електроємність плоского конденсатора обчислюють за формулою:\n \\begin{gather*}\n C=\\frac{\\varepsilon_0\\varepsilon S}{d},\n \\end{gather*} \n де \\varepsilon_0=8,85\\cdot 10^{-12}\\ \\text{Ф/м} ‒ електрична стала; \\varepsilon ‒ діелектрична проникність діелектрика; S ‒ площа пластини конденсатора; d ‒ відстань між пластинами.\n Тобто електроємність конденсатора прямо пропорційна площі пластини:\n \\begin{gather*}\n C\\sim S.\n \\end{gather*} \n Коли радіоаматор розрізав цей конденсатор на чотири однакові частини, то електроємність кожної четвертої частини буде вчетверо менша за початкову:\n \\begin{gather*}\n C_{\\frac 14}=\\frac C4=\\frac{240\\ \\text{пФ}}{4}=60\\ \\text{пФ}.\n \\end{gather*} \n Якщо із цих розрізаних частин скласти батарею конденсаторів, як на рисунку 2, то це буде послідовне з’єднання чотирьох конденсаторів:\n Електроємність батареї послідовно з’єднаних конденсаторів можна обчислити, скориставшись формулою:\n \\begin{gather*}\n \\frac{1}{C_\\text{посл}}=\\frac{1}{C_1}+\\frac{1}{C_2}+\\frac{1}{C_3}+\\frac{1}{C_4}.\n \\end{gather*} \n Оскільки ці всі частини (конденсатори) однакові, то скористаймося формулою:\n \\begin{gather*}\n \\frac{1}{C_\\text{посл}}=\\frac{4}{C_{\\frac 14}}\\ \\text{або}\\ C_\\text{посл}=\\frac{C_{\\frac 14}}{4}.\n \\end{gather*} \n Обчислімо:\n \\begin{gather*}\n C_\\text{посл}=\\frac{60\\ \\text{пФ}}{4}=15\\ \\text{пФ}.\n \\end{gather*} \n Відповідь: 15.",
+   "topic": "Електродинаміка. Основи електростатики. Електроємність плоского конденсатора. З’єднання конденсаторів.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35616/fizika-pr-2026-20.png",
+     "path": "images/doc/images/znotest/356/35616/fizika-pr-2026-20.png"
+    },
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35616/demo-multi-fisika-2026-20.png",
+     "path": "images/doc/images/znotest/356/35616/demo-multi-fisika-2026-20.png"
+    }
+   ],
+   "text": "Радіоаматор виготовив плоский конденсатор з однакових квадратних шматків фольги й поліетиленової плівки (рис. 1). Електрична ємність саморобного конденсатора дорівнює 240 пФ. Потім радіоаматор розрізав цей конденсатор на чотири однакові частини й склав із них батарею конденсаторів (рис. 2). Визначте загальну електричну ємність цієї батареї.\n Відповідь запишіть у пікофарадах (пФ).",
+   "latex": [
+    "240"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 20
+    }
+   ]
+  },
+  {
+   "id": 35617,
+   "tip": 8,
+   "out_order": 21,
+   "test_id": 717,
+   "type": "short_answer",
+   "question_html": "<p>\n Предмет розташовано на відстані <latex>20</latex> см від збиральної лінзи. Дійсне зображення цього предмета також на відстані <latex>20</latex> см від лінзи. Визначте оптичну силу лінзи. \n </p>\n<p>\n Відповідь запишіть у діоптріях (дптр).\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "10",
+   "correct": [
+    "10"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Коливання і хвилі. Оптика. Оптична сила лінзи. Формула тонкої лінзи.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і розуміння зображень, які дає тонка лінза, уміння застосовувати формулу тонкої лінзи.\n </p>\n<p>\n Фізичну величину, яка характеризує заломні властивості лінзи та обернена до її фокусної відстані <latex>F,</latex> називають оптичною силою <latex>D</latex> лінзи:\n </p>\n<latex>\\begin{gather*}\n D=\\frac 1F.\n \\end{gather*}</latex>\n<p>\n Одиниця оптичної сили ‒ діоптрія:\n <latex>\\begin{gather*}\n [D]=1\\ \\text{дптр}.\n \\end{gather*}</latex>\n</p>\n<p>\n Опишімо зазначене в умові розміщення предмета, лінзи й зображення цього предмета <b>формулою тонкої лінзи</b>:\n </p>\n<latex>\\begin{gather*}\n D=\\frac 1F=\\frac 1d+\\frac 1f,\n \\end{gather*}</latex>\n<p>\n де <latex>d</latex> ‒ відстань від предмета до лінзи (за умовою <latex>d=20\\ \\text{см}=0{,}2\\ \\text{м}</latex>), <latex>f</latex> ‒ відстань від лінзи до зображення (за умовою <latex>f=20\\ \\text{см}=0{,}2\\ \\text{м}</latex>).\n </p>\n<p>\n Якщо <latex>d=f,</latex> то це випадок розміщення предмета у подвійному фокусі збиральної лінзи ‒ зображення дійсне, рівне предмету, перевернуте:\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"images/doc/images/znotest/356/35617/demo-multi-fisika-2026-21.png\" style=\"height: auto;\" width=\"294\"/>\n</div>\n<br/>\n<p>\n Щодо знаків у формулі: зауважмо, що відстань <latex>f</latex> (від лінзи до зображення) треба брати зі знаком плюс, якщо зображення є дійсним (лише збиральна лінза дає дійсні зображення); і фокусна відстань <latex>F</latex> збиральної лінзи є додатною.\n </p>\n<p>\n Обчислімо оптичну силу лінзи:\n </p>\n<latex>\\begin{gather*}\n D=\\frac 1d+\\frac 1f=\\frac{1}{0{,}2}+\\frac{1}{0{,}2}=\\frac{2}{0{,}2}=10\\ \\text{дптр}.\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>10.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Коливання і хвилі. Оптика. Оптична сила лінзи. Формула тонкої лінзи.\n Завдання скеровано на перевірку знання і розуміння зображень, які дає тонка лінза, уміння застосовувати формулу тонкої лінзи.\n Фізичну величину, яка характеризує заломні властивості лінзи та обернена до її фокусної відстані F, називають оптичною силою D лінзи:\n \\begin{gather*}\n D=\\frac 1F.\n \\end{gather*} \n Одиниця оптичної сили ‒ діоптрія:\n \\begin{gather*}\n [D]=1\\ \\text{дптр}.\n \\end{gather*} \n Опишімо зазначене в умові розміщення предмета, лінзи й зображення цього предмета формулою тонкої лінзи :\n \\begin{gather*}\n D=\\frac 1F=\\frac 1d+\\frac 1f,\n \\end{gather*} \n де d ‒ відстань від предмета до лінзи (за умовою d=20\\ \\text{см}=0{,}2\\ \\text{м} ), f ‒ відстань від лінзи до зображення (за умовою f=20\\ \\text{см}=0{,}2\\ \\text{м} ).\n Якщо d=f, то це випадок розміщення предмета у подвійному фокусі збиральної лінзи ‒ зображення дійсне, рівне предмету, перевернуте:\n Щодо знаків у формулі: зауважмо, що відстань f (від лінзи до зображення) треба брати зі знаком плюс, якщо зображення є дійсним (лише збиральна лінза дає дійсні зображення); і фокусна відстань F збиральної лінзи є додатною.\n Обчислімо оптичну силу лінзи:\n \\begin{gather*}\n D=\\frac 1d+\\frac 1f=\\frac{1}{0{,}2}+\\frac{1}{0{,}2}=\\frac{2}{0{,}2}=10\\ \\text{дптр}.\n \\end{gather*} \n Відповідь: 10.",
+   "topic": "Коливання і хвилі. Оптика. Оптична сила лінзи. Формула тонкої лінзи.",
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/356/35617/demo-multi-fisika-2026-21.png",
+     "path": "images/doc/images/znotest/356/35617/demo-multi-fisika-2026-21.png"
+    }
+   ],
+   "text": "Предмет розташовано на відстані 20 см від збиральної лінзи. Дійсне зображення цього предмета також на відстані 20 см від лінзи. Визначте оптичну силу лінзи. \n Відповідь запишіть у діоптріях (дптр).",
+   "latex": [
+    "20",
+    "20"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 21
+    }
+   ]
+  },
+  {
+   "id": 35618,
+   "tip": 8,
+   "out_order": 22,
+   "test_id": 717,
+   "type": "short_answer",
+   "question_html": "<p>У початковий момент часу в радіоактивному зразку кількість ядер першого нукліда така сама, як і кількість ядер другого нукліда <latex>N_{01}=N_{02}.</latex> Періоди їхнього піврозпаду такі: <span style=\"white-space: nowrap\"><latex>T_1=2</latex> год,</span> <latex>T_2=3</latex> год. Обчисліть відношення кількостей ядер <latex>\\frac{N_2}{N_1}</latex> цих нуклідів у зразку через добу. </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "16",
+   "correct": [
+    "16"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\n ТЕМА: Квантова фізика. Елементи теорії відносності. Атом та атомне ядро. Період піврозпаду.\n </strong>\n</p>\n<p>\n Завдання скеровано на перевірку знання і застосування основного закону радіоактивного розпаду.\n </p>\n<p>\n Скористаймося основним законом <b>радіоактивного розпаду</b>:\n </p>\n<latex>\\begin{gather*}\n N=N_0\\cdot 2^{-\\frac tT},\n \\end{gather*}</latex>\n<p>\n де <latex>N</latex> ‒ <b>кількість</b> ядер радіонукліда, що залишились у зразку через <b>час</b> <latex>t;\\ N_0</latex> ‒ початкова <b>кількість</b> ядер; <latex>T</latex> ‒ <b>період</b> піврозпаду; <latex>t=1\\ \\text{доба}=24\\ \\text{год}</latex> ‒ <b>час</b> розпаду.\n </p>\n<p>\n Запишімо цей закон для обох нуклідів <latex>(t=1\\ \\text{доба}=24\\ \\text{год}){:}</latex>\n</p>\n<latex>\\begin{gather*}\n N_1=N_{01}\\cdot 2^{-\\frac{24}{2}},\\\\[6pt]\n N_2=N_{02}\\cdot 2^{-\\frac{24}{3}}.\n \\end{gather*}</latex>\n<p>\n Обчислімо відношення кількості ядер <latex>\\dfrac{N_2}{N_1}{:}</latex>\n</p>\n<latex>\\begin{gather*}\n \\frac{N_2}{N_1}=\\frac{N_{02}\\cdot 2^{-\\frac{24}{3}}}{N_{01}\\cdot 2^{-\\frac{24}{2}}}=2^{-8-(-12)}=2^4=16.\n \\end{gather*}</latex>\n<p>\n Отже, через добу ядер другого нукліда буде в <latex>16</latex> разів більше, ніж ядер першого.\n </p>\n<p><strong>Відповідь: <latex>16.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Квантова фізика. Елементи теорії відносності. Атом та атомне ядро. Період піврозпаду.\n Завдання скеровано на перевірку знання і застосування основного закону радіоактивного розпаду.\n Скористаймося основним законом радіоактивного розпаду :\n \\begin{gather*}\n N=N_0\\cdot 2^{-\\frac tT},\n \\end{gather*} \n де N ‒ кількість ядер радіонукліда, що залишились у зразку через час t;\\ N_0 ‒ початкова кількість ядер; T ‒ період піврозпаду; t=1\\ \\text{доба}=24\\ \\text{год} ‒ час розпаду.\n Запишімо цей закон для обох нуклідів (t=1\\ \\text{доба}=24\\ \\text{год}){:} \n \\begin{gather*}\n N_1=N_{01}\\cdot 2^{-\\frac{24}{2}},\\\\[6pt]\n N_2=N_{02}\\cdot 2^{-\\frac{24}{3}}.\n \\end{gather*} \n Обчислімо відношення кількості ядер \\dfrac{N_2}{N_1}{:} \n \\begin{gather*}\n \\frac{N_2}{N_1}=\\frac{N_{02}\\cdot 2^{-\\frac{24}{3}}}{N_{01}\\cdot 2^{-\\frac{24}{2}}}=2^{-8-(-12)}=2^4=16.\n \\end{gather*} \n Отже, через добу ядер другого нукліда буде в 16 разів більше, ніж ядер першого.\n Відповідь: 16.",
+   "topic": "Квантова фізика. Елементи теорії відносності. Атом та атомне ядро. Період піврозпаду.",
+   "images": [],
+   "text": "У початковий момент часу в радіоактивному зразку кількість ядер першого нукліда така сама, як і кількість ядер другого нукліда N_{01}=N_{02}. Періоди їхнього піврозпаду такі: T_1=2 год, T_2=3 год. Обчисліть відношення кількостей ядер \\frac{N_2}{N_1} цих нуклідів у зразку через добу.",
+   "latex": [
+    "N_{01}=N_{02}.",
+    "T_1=2",
+    "T_2=3",
+    "\\frac{N_2}{N_1}"
+   ],
+   "source_test": 717,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 717,
+     "order": 22
+    }
+   ]
+  }
+ ],
+ "questions_count": 22,
+ "subject": "physics",
+ "subject_name": "Фізика",
+ "id": 717,
+ "year": 2026,
+ "kind": "demo",
+ "session": null
+}

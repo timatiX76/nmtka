@@ -1,0 +1,2421 @@
+{
+ "subject": "mathematics",
+ "topic": {
+  "slug": "koordinati_ta_vektori",
+  "name": "Координати та вектори на площині. Геометричні переміщення (42 завдання) 0%",
+  "url": "https://zno.osvita.ua/mathematics/tag-koordinati_ta_vektori/"
+ },
+ "questions": [
+  {
+   "id": 4314,
+   "tip": 1,
+   "out_order": 1,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У координатній площині <latex>xy</latex> зображено п'ять точок: <latex>O</latex>, <latex>L</latex>, <latex>N</latex>, <latex>M</latex>, <latex>K</latex> (див. рисунок). Коло з центром в одній із цих точок дотикається до осі ординат у точці <latex>M.</latex> У якій точці знаходиться центр цього кола?\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/43/4314/os-math-2013-new-13.png\" style=\"height: auto;\" width=\"450\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "у точці <latex>L</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "у точці <latex>N</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "у точці <latex>M</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "у точці <latex>O</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "у точці <latex>K</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання прямокутної системи координат, координати точки, кола на площині.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/43/4314/ds-os-math-2013-new-13.png\" style=\"height: auto;\" width=\"290\"/>\n</div>\n<br/>\n<p>\r\n Центр кола знаходиться у точці <latex>N.</latex>\n</p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати на площині.\r\n Це завдання перевіряє знання прямокутної системи координат, координати точки, кола на площині.\r\n Центр кола знаходиться у точці N. \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Координати на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/43/4314/os-math-2013-new-13.png",
+    "https://zno.osvita.ua/doc/images/znotest/43/4314/ds-os-math-2013-new-13.png"
+   ],
+   "text": "У координатній площині xy зображено п'ять точок: O , L , N , M , K (див. рисунок). Коло з центром в одній із цих точок дотикається до осі ординат у точці M. У якій точці знаходиться центр цього кола?",
+   "latex": [
+    "xy",
+    "O",
+    "L",
+    "N",
+    "M",
+    "K",
+    "M.",
+    "L",
+    "N",
+    "M",
+    "O",
+    "K"
+   ],
+   "source_test": 1,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 4323,
+   "tip": 4,
+   "out_order": 2,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У прямокутній системі координат на площині <latex>xy</latex> задано точки <latex>O(0; 0)</latex> і <latex>A(6; 8).</latex> З точки <latex>A</latex> на вісь <latex>x</latex> опущено перпендикуляр. Точка <latex>B</latex> – основа цього перпендикуляра. Установіть відповідність між величиною (1–4) та її числовим значенням (А – Д).\r\n </p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "довжина вектора <latex>OA</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "відстань від точки <latex>A</latex> до осі <latex>x</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "ордината точки <latex>B</latex>"
+    },
+    {
+     "marker": "4",
+     "html": "довжина радіуса кола, описаного навколо трикутника <latex>OAB</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>0</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>5</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>6</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>8</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>10</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Величина",
+     "answers": [
+      {
+       "marker": "",
+       "html": "довжина вектора <latex>OA</latex>"
+      },
+      {
+       "marker": "",
+       "html": "відстань від точки <latex>A</latex> до осі <latex>x</latex>"
+      },
+      {
+       "marker": "",
+       "html": "ордината точки <latex>B</latex>"
+      },
+      {
+       "marker": "",
+       "html": "довжина радіуса кола, описаного навколо трикутника <latex>OAB</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Числове значення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>0</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>5</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>6</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>8</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>10</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1e;2d;3a;4b",
+   "correct": [
+    "1e",
+    "2d",
+    "3a",
+    "4b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання координат вектора, властивостей трикутника, вписаного в коло; вміння знаходити довжину вектора, відстані від точки до прямої.\r\n </p>\n<p>\n<b>1</b>. <latex>\\overrightarrow{OA}(6-0;\\ 8-0)</latex>, <latex>\\overrightarrow{OA}(6;\\ 8).</latex> Довжина вектора <latex>\\overrightarrow{OA}{:}</latex>\n<latex>$$\r\n \\left|\\overrightarrow{OA}\\right|=\\sqrt{6^2+8^2}=\\sqrt{36+64}=10.\r\n $$</latex>\r\n Отже, 1 – Д.\r\n </p>\n<br/>\n<p>\n<b>2</b>. <latex>AB\\ \\perp\\ OB.</latex> Відстань від точки <latex>A</latex> до осі <latex>x</latex> – це координата точки <latex>A</latex>,\r\n <latex>\\rho(A,\\ Ox)=8.</latex>\n</p>\n<p>\r\n Отже, 2 – Г.\r\n </p>\n<br/>\n<p>\n<b>3</b>. <latex>B(6;\\ 0)</latex>, ордината дорівнює <latex>0.</latex>\n</p>\n<p>\r\n Отже, 3 – А.\r\n </p>\n<br/>\n<p>\n<b>4</b>. <latex>\\Delta AOB\\ (\\angle B=90^\\circ).</latex>\n</p>\n<latex>$$\r\n R=\\frac{1}{2}\\ OA=\\frac{1}{2}\\cdot 10=5.\r\n $$</latex>\n<p>\r\n Отже, 4 – Б.\r\n </p>\n<p><strong>Відповідь: 1 – Д, 2 – Г, 3 – А, 4 – Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n Це завдання перевіряє знання координат вектора, властивостей трикутника, вписаного в коло; вміння знаходити довжину вектора, відстані від точки до прямої.\r\n 1 . \\overrightarrow{OA}(6-0;\\ 8-0) , \\overrightarrow{OA}(6;\\ 8). Довжина вектора \\overrightarrow{OA}{:} \n $$\r\n \\left|\\overrightarrow{OA}\\right|=\\sqrt{6^2+8^2}=\\sqrt{36+64}=10.\r\n $$ \r\n Отже, 1 – Д.\r\n 2 . AB\\ \\perp\\ OB. Відстань від точки A до осі x – це координата точки A ,\r\n \\rho(A,\\ Ox)=8. \n Отже, 2 – Г.\r\n 3 . B(6;\\ 0) , ордината дорівнює 0. \n Отже, 3 – А.\r\n 4 . \\Delta AOB\\ (\\angle B=90^\\circ). \n $$\r\n R=\\frac{1}{2}\\ OA=\\frac{1}{2}\\cdot 10=5.\r\n $$ \n Отже, 4 – Б.\r\n Відповідь: 1 – Д, 2 – Г, 3 – А, 4 – Б.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [],
+   "text": "У прямокутній системі координат на площині xy задано точки O(0; 0) і A(6; 8). З точки A на вісь x опущено перпендикуляр. Точка B – основа цього перпендикуляра. Установіть відповідність між величиною (1–4) та її числовим значенням (А – Д).",
+   "latex": [
+    "xy",
+    "O(0; 0)",
+    "A(6; 8).",
+    "A",
+    "x",
+    "B",
+    "OA",
+    "A",
+    "x",
+    "B",
+    "OAB",
+    "0",
+    "5",
+    "6",
+    "8",
+    "10"
+   ],
+   "source_test": 1,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 5337,
+   "tip": 4,
+   "out_order": 3,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У прямокутній системі координат на площині дано вектори <latex>\\overrightarrow{a}\\ (3; 4)</latex> i <latex>\\overrightarrow{b}\\ (-2; 2).</latex> До кожного початку речення (1–4) доберіть його закінчення (А – Д) так, щоб утворилося правильне твердження.\r\n </p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Довжина вектора <latex>\\overrightarrow{a}</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "Сумою векторів <latex>\\overrightarrow{a}</latex> i <latex>\\overrightarrow{c}\\ (-3; k)</latex> є нульовий вектор, якщо <latex>k</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "Вектори <latex>\\overrightarrow{b}</latex> i <latex>\\overrightarrow{d}\\ (-4; m)</latex> колінеарні, якщо <latex>m</latex>"
+    },
+    {
+     "marker": "4",
+     "html": "Скалярний добуток векторів <latex>\\overrightarrow{a}</latex> i <latex>\\overrightarrow{b}</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "дорівнює <latex>7.</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "дорівнює <latex>2.</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "дорівнює <latex>-4.</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "дорівнює <latex>5.</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "дорівнює <latex>4.</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Початок речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "Довжина вектора <latex>\\overrightarrow{a}</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Сумою векторів <latex>\\overrightarrow{a}</latex> i <latex>\\overrightarrow{c}\\ (-3; k)</latex> є нульовий вектор, якщо <latex>k</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Вектори <latex>\\overrightarrow{b}</latex> i <latex>\\overrightarrow{d}\\ (-4; m)</latex> колінеарні, якщо <latex>m</latex>"
+      },
+      {
+       "marker": "",
+       "html": "Скалярний добуток векторів <latex>\\overrightarrow{a}</latex> i <latex>\\overrightarrow{b}</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Закінчення речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "дорівнює <latex>7.</latex>"
+      },
+      {
+       "marker": "",
+       "html": "дорівнює <latex>2.</latex>"
+      },
+      {
+       "marker": "",
+       "html": "дорівнює <latex>-4.</latex>"
+      },
+      {
+       "marker": "",
+       "html": "дорівнює <latex>5.</latex>"
+      },
+      {
+       "marker": "",
+       "html": "дорівнює <latex>4.</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1d;2c;3e;4b",
+   "correct": [
+    "1d",
+    "2c",
+    "3e",
+    "4b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині. </strong></p>\n<p>Це завдання перевіряє знання поняття вектора, довжини вектора, колінеарних векторів, рівних векторів, координати вектора, скалярного добутку векторів та його властивостей.</p>\n<p><b>1</b>. Довжина вектора <latex>\\overrightarrow{a}{:}</latex></p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} \\overrightarrow{a} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5. \\end{gather*}</latex></div>\n<p>Отже, 1 – Г.</p>\n<p> </p>\n<p><b>2</b>.</p>\n<p> </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\"><latex>\\begin{gather*} \\overrightarrow{a} + \\overrightarrow{c} = \\overrightarrow{(3 + (-3);\\ 4 + k)} = \\overrightarrow{(0;\\ 4 + k)} = \\overrightarrow{(0;\\ 0)} \\end{gather*}</latex></div>\n<p>рівні вектори мають рівні координати: <latex>4 + k = 0</latex>, <latex>k = -4.</latex> Отже, 2 – В.</p>\n<p> </p>\n<p><b>3</b>. Вектори <latex>\\overrightarrow{b}</latex> і <latex>\\overrightarrow{d}</latex> колінеарні <latex>\\overrightarrow{b}(-2;\\ 2)</latex>, <latex>\\overrightarrow{d}(-4;\\ m).</latex> Отже, <latex>\\begin{gather*} \\frac{-2}{-4} = \\frac{2}{m},\\\\[6pt] m = 4. \\end{gather*}</latex> Отже, 3 – Д.</p>\n<p> </p>\n<p> </p>\n<p><strong>4</strong>. Скалярний добуток векторів:</p>\n<latex>\\begin{gather*} \\overrightarrow{a} \\cdot \\overrightarrow{b} = 3 \\cdot (-2) + 4 \\cdot 2 = -6 + 8 = 2. \\end{gather*}</latex>\n<p> </p>\n<p>Отже, 4 – Б.</p>\n<p><strong>Відповідь: 1 – Г, 2 – B, 3 – Д, 4 – Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині. \n Це завдання перевіряє знання поняття вектора, довжини вектора, колінеарних векторів, рівних векторів, координати вектора, скалярного добутку векторів та його властивостей.\n 1 . Довжина вектора \\overrightarrow{a}{:} \n \\begin{gather*} \\overrightarrow{a} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5. \\end{gather*} \n Отже, 1 – Г.\n 2 .\n \\begin{gather*} \\overrightarrow{a} + \\overrightarrow{c} = \\overrightarrow{(3 + (-3);\\ 4 + k)} = \\overrightarrow{(0;\\ 4 + k)} = \\overrightarrow{(0;\\ 0)} \\end{gather*} \n рівні вектори мають рівні координати: 4 + k = 0 , k = -4. Отже, 2 – В.\n 3 . Вектори \\overrightarrow{b} і \\overrightarrow{d} колінеарні \\overrightarrow{b}(-2;\\ 2) , \\overrightarrow{d}(-4;\\ m). Отже, \\begin{gather*} \\frac{-2}{-4} = \\frac{2}{m},\\\\[6pt] m = 4. \\end{gather*} Отже, 3 – Д.\n 4 . Скалярний добуток векторів:\n \\begin{gather*} \\overrightarrow{a} \\cdot \\overrightarrow{b} = 3 \\cdot (-2) + 4 \\cdot 2 = -6 + 8 = 2. \\end{gather*} \n Отже, 4 – Б.\n Відповідь: 1 – Г, 2 – B, 3 – Д, 4 – Б.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [],
+   "text": "У прямокутній системі координат на площині дано вектори \\overrightarrow{a}\\ (3; 4) i \\overrightarrow{b}\\ (-2; 2). До кожного початку речення (1–4) доберіть його закінчення (А – Д) так, щоб утворилося правильне твердження.",
+   "latex": [
+    "\\overrightarrow{a}\\ (3; 4)",
+    "\\overrightarrow{b}\\ (-2; 2).",
+    "\\overrightarrow{a}",
+    "\\overrightarrow{a}",
+    "\\overrightarrow{c}\\ (-3; k)",
+    "k",
+    "\\overrightarrow{b}",
+    "\\overrightarrow{d}\\ (-4; m)",
+    "m",
+    "\\overrightarrow{a}",
+    "\\overrightarrow{b}",
+    "7.",
+    "2.",
+    "-4.",
+    "5.",
+    "4."
+   ],
+   "source_test": 2,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6095,
+   "tip": 1,
+   "out_order": 4,
+   "type": "single_choice",
+   "question_html": "<p>При якому значенні <latex>y</latex> вектори <latex>\\vec a(-3;5)</latex> i <latex>\\vec b(6;y)</latex> колінеарні?</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>-10</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>-2{,}5</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>2{,}5</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>3{,}6</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>10</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання умови колінеарності векторів.\r\n </p>\n<p>\r\n Вектори \\(\\vec{a}(-3; 5)\\) та \\(\\vec{b}(6; y)\\) колінеарні за умови пропорційності відповідних координат.\r\n </p>\r\n \\begin{gather*}\r\n \\frac{-3}{6} = \\frac{5}{y};\\\\[6pt]\r\n -3 \\cdot y = 5 \\cdot 6;\\\\[6pt]\r\n y = \\frac{5 \\cdot 6}{-3} = -10.\r\n \\end{gather*}\r\n <p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n Це завдання перевіряє знання умови колінеарності векторів.\r\n Вектори \\(\\vec{a}(-3; 5)\\) та \\(\\vec{b}(6; y)\\) колінеарні за умови пропорційності відповідних координат.\r\n \\begin{gather*}\r\n \\frac{-3}{6} = \\frac{5}{y};\\\\[6pt]\r\n -3 \\cdot y = 5 \\cdot 6;\\\\[6pt]\r\n y = \\frac{5 \\cdot 6}{-3} = -10.\r\n \\end{gather*}\r\n Відповідь: A.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [],
+   "text": "При якому значенні y вектори \\vec a(-3;5) i \\vec b(6;y) колінеарні?",
+   "latex": [
+    "y",
+    "\\vec a(-3;5)",
+    "\\vec b(6;y)",
+    "-10",
+    "-2{,}5",
+    "2{,}5",
+    "3{,}6",
+    "10"
+   ],
+   "source_test": 121,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6148,
+   "tip": 4,
+   "out_order": 5,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено вектори <latex>\\vec a</latex>, <latex>\\vec b</latex>, <latex>\\vec c</latex>, <latex>\\vec d</latex> у прямокутній системі координат. Установіть відповідність між парою векторів (1–4) і твердженням (А – Д), що є правильним для цієї пари.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/61/6148/27_1.jpg\" style=\"height: auto;\" width=\"300\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "<latex>\\vec a</latex> i <latex>\\vec b</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "<latex>\\vec a</latex> i <latex>\\vec c</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "<latex>\\vec c</latex> i <latex>\\vec d</latex>"
+    },
+    {
+     "marker": "4",
+     "html": "<latex>\\vec b</latex> i <latex>\\vec c</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "вектори перпендикулярні"
+    },
+    {
+     "marker": "Б",
+     "html": "вектори колінеарні, але не рівні"
+    },
+    {
+     "marker": "В",
+     "html": "скалярний добуток векторів більший за <latex>0</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "вектори рівні"
+    },
+    {
+     "marker": "Д",
+     "html": "кут між векторами тупий"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Вектори",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>\\vec a</latex> i <latex>\\vec b</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\vec a</latex> i <latex>\\vec c</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\vec c</latex> i <latex>\\vec d</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\vec b</latex> i <latex>\\vec c</latex>"
+      }
+     ]
+    },
+    {
+     "title": "Твердження",
+     "answers": [
+      {
+       "marker": "",
+       "html": "вектори перпендикулярні"
+      },
+      {
+       "marker": "",
+       "html": "вектори колінеарні, але не рівні"
+      },
+      {
+       "marker": "",
+       "html": "скалярний добуток векторів більший за <latex>0</latex>"
+      },
+      {
+       "marker": "",
+       "html": "вектори рівні"
+      },
+      {
+       "marker": "",
+       "html": "кут між векторами тупий"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1c;2e;3a;4b",
+   "correct": [
+    "1c",
+    "2e",
+    "3a",
+    "4b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Вектори.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання про рівні вектори, кут між векторами, дії з векторами.\r\n </p>\n<p>\n<b>1</b>. Кут між векторами гострий, тому скалярний добуток векторів більший за <latex>0.</latex> Отже, 1 – <b>В</b>.\r\n </p>\n<br/>\n<p>\n<b>2</b>. Кут між векторами тупий. Отже, 2 – <b>Д</b>.\r\n </p>\n<br/>\n<p>\n<b>3</b>. Вектори перпендикулярні. Отже, 3 – <b>А</b>.\r\n </p>\n<br/>\n<p>\n<b>4</b>. Колінеарні, але не рівні (лежать на паралельних прямих, але різні за довжиною). <span style=\"white-space:nowrap\">Отже, 4 – <b>Б</b>.</span>\n</p>\n<p><strong>Відповідь: 1 – В, 2 – Д, 3 – А, 4 – Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Вектори.\r\n Це завдання перевіряє знання про рівні вектори, кут між векторами, дії з векторами.\r\n 1 . Кут між векторами гострий, тому скалярний добуток векторів більший за 0. Отже, 1 – В .\r\n 2 . Кут між векторами тупий. Отже, 2 – Д .\r\n 3 . Вектори перпендикулярні. Отже, 3 – А .\r\n 4 . Колінеарні, але не рівні (лежать на паралельних прямих, але різні за довжиною). Отже, 4 – Б . \n Відповідь: 1 – В, 2 – Д, 3 – А, 4 – Б.",
+   "topic": "Геометрія. Планіметрія. Вектори.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/61/6148/27_1.jpg"
+   ],
+   "text": "На рисунку зображено вектори \\vec a , \\vec b , \\vec c , \\vec d у прямокутній системі координат. Установіть відповідність між парою векторів (1–4) і твердженням (А – Д), що є правильним для цієї пари.",
+   "latex": [
+    "\\vec a",
+    "\\vec b",
+    "\\vec c",
+    "\\vec d",
+    "\\vec a",
+    "\\vec b",
+    "\\vec a",
+    "\\vec c",
+    "\\vec c",
+    "\\vec d",
+    "\\vec b",
+    "\\vec c",
+    "0"
+   ],
+   "source_test": 122,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6160,
+   "tip": 1,
+   "out_order": 6,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено вектор <latex>\\vec a</latex>. Який із наведених векторів дорівнює вектору <latex>-\\dfrac{2}{3}\\vec a</latex>?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/61/6160/171740_4.jpg\" style=\"height: 201px; width: 200px;\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/61/6160/ansa_6160.jpg\" width=\"180\"/>"
+    },
+    {
+     "marker": "Б",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/61/6160/ansb_6160.jpg\" width=\"180\"/>"
+    },
+    {
+     "marker": "В",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/61/6160/ansc_6160.jpg\" width=\"180\"/>"
+    },
+    {
+     "marker": "Г",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/61/6160/ansd_6160.jpg\" width=\"180\"/>"
+    },
+    {
+     "marker": "Д",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/61/6160/anse_6160.jpg\" width=\"180\"/>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Вектори і координати на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання поняття вектора, уміння виконувати дії з векторами.\r\n </p>\n<p>\r\n За правилом знаходження добутку вектора на число, вектор <latex>-\\dfrac{2}{3}\\vec{a}</latex> спрямований у протилежний бік від <latex>\\vec{a}</latex> та довжиною <latex>\\dfrac{2}{3}</latex> від довжини <latex>\\vec{a}.</latex>\n</p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Вектори і координати на площині.\r\n Це завдання перевіряє знання поняття вектора, уміння виконувати дії з векторами.\r\n За правилом знаходження добутку вектора на число, вектор -\\dfrac{2}{3}\\vec{a} спрямований у протилежний бік від \\vec{a} та довжиною \\dfrac{2}{3} від довжини \\vec{a}. \n Відповідь: Д.",
+   "topic": "Геометрія. Планіметрія. Вектори і координати на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/61/6160/171740_4.jpg"
+   ],
+   "text": "На рисунку зображено вектор \\vec a . Який із наведених векторів дорівнює вектору -\\dfrac{2}{3}\\vec a ?",
+   "latex": [
+    "\\vec a",
+    "-\\dfrac{2}{3}\\vec a"
+   ],
+   "source_test": 123,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6220,
+   "tip": 1,
+   "out_order": 7,
+   "type": "single_choice",
+   "question_html": "<p>У прямокутній системі координат зображено прямокутний рівнобедрений трикутник <latex>ABC</latex>, в якому <latex>A(-3;5)</latex> і <latex>B(4;5)</latex> (див. рисунок). Знайдіть координати точки <latex>C</latex>.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/62/6220/ds-math-2010-new-10.png\" style=\"height: auto;\" width=\"375\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>(4;-3)</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(4;-2)</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>(5;-3)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>(-2;4)</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>(4;-1)</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання координат точки на площині.\r\n </p>\n<p>\n<latex>\\Delta ABC\\ (\\angle B = 90^\\circ)</latex>, <latex>AB=BC=7.</latex>\n</p>\n<p>\r\n Абсциси точок <latex>B</latex> та <latex>C</latex> збігаються. <latex>C(4; -2).</latex>\n</p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n Це завдання перевіряє знання координат точки на площині.\r\n \\Delta ABC\\ (\\angle B = 90^\\circ) , AB=BC=7. \n Абсциси точок B та C збігаються. C(4; -2). \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/62/6220/ds-math-2010-new-10.png"
+   ],
+   "text": "У прямокутній системі координат зображено прямокутний рівнобедрений трикутник ABC , в якому A(-3;5) і B(4;5) (див. рисунок). Знайдіть координати точки C .",
+   "latex": [
+    "ABC",
+    "A(-3;5)",
+    "B(4;5)",
+    "C",
+    "(4;-3)",
+    "(4;-2)",
+    "(5;-3)",
+    "(-2;4)",
+    "(4;-1)"
+   ],
+   "source_test": 124,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6255,
+   "tip": 1,
+   "out_order": 8,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено паралелограм <latex>ABCD</latex>, діагоналі якого перетинаються в <span style=\"white-space:nowrap\">точці <latex>O.</latex></span> Укажіть пару колінеарних векторів.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/62/6255/pr-math-2014-new-09.png\" style=\"height: auto;\" width=\"425\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\overrightarrow{AB}\\) і \\(\\overrightarrow{BC}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\overrightarrow{AC}\\) і \\(\\overrightarrow{BD}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\overrightarrow{AO}\\) і \\( \\overrightarrow{OD}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\overrightarrow{BO}\\) і \\(\\overrightarrow{BD}</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>\\overrightarrow{BC}\\) і \\(\\overrightarrow{BD}</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання колінеарних векторів.\r\n </p>\n<p>\r\n Колінеарні вектори – це вектори, які лежать на паралельних прямих або на одній прямій.\r\n Напрямок та довжина для визначення їх колінеарності не важливі.\r\n </p>\n<p>\n<latex>\\overrightarrow{BO}\\parallel\\overrightarrow{BD}</latex>.\r\n </p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n Це завдання перевіряє знання колінеарних векторів.\r\n Колінеарні вектори – це вектори, які лежать на паралельних прямих або на одній прямій.\r\n Напрямок та довжина для визначення їх колінеарності не важливі.\r\n \\overrightarrow{BO}\\parallel\\overrightarrow{BD} .\r\n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/62/6255/pr-math-2014-new-09.png"
+   ],
+   "text": "На рисунку зображено паралелограм ABCD , діагоналі якого перетинаються в точці O. Укажіть пару колінеарних векторів.",
+   "latex": [
+    "ABCD",
+    "O.",
+    "\\overrightarrow{AB}\\) і \\(\\overrightarrow{BC}",
+    "\\overrightarrow{AC}\\) і \\(\\overrightarrow{BD}",
+    "\\overrightarrow{AO}\\) і \\( \\overrightarrow{OD}",
+    "\\overrightarrow{BO}\\) і \\(\\overrightarrow{BD}",
+    "\\overrightarrow{BC}\\) і \\(\\overrightarrow{BD}"
+   ],
+   "source_test": 125,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6256,
+   "tip": 1,
+   "out_order": 9,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Коло задано рівнянням <latex>x^2+y^2=9.</latex> Визначте координати точки, яка належить кругу, обмеженому цим колом.\r\n </p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>(\\sqrt{2}; 5)</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(1; 3)</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>(4; 5)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>(3; 2)</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>(2; \\sqrt{3})</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p><strong>ТЕМА: Геометрія. Планіметрія. Коло та круг. Координати та вектори на площині. </strong></p>\n<p>Це завдання перевіряє знання властивостей кола та круга, їхніх елементів; формули для обчислення відстані між двома точками, рівняння кола.</p>\n<p>Коло задано рівнянням <latex>x^2+y^2=9</latex>. Точки, які належать кругу, обмеженого цим колом, розташовані на відстані, не більшій, ніж радіус від центра кола. <latex>(0; 0)</latex> – центр кола, <latex>R=3.</latex></p>\n<p>Отже, умова виконується, якщо координати точки <latex>(x_0, y_0)</latex> задовольняють умові <latex>$$ x_0^2+y_0^2\\le 9. $$</latex></p>\n<p>А) <latex>(\\sqrt{2})^2+5^2\\gt 9.</latex></p>\n<p>Б) <latex>1^2+3^2\\gt 9.</latex></p>\n<p>В) <latex>4^2+5^2\\gt 9.</latex></p>\n<p>Г) <latex>3^2+2^2\\gt 9.</latex></p>\n<p>Д) <latex>2^2+(\\sqrt{3})^2\\le 9,\\ 7\\le 9.</latex></p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Коло та круг. Координати та вектори на площині. \n Це завдання перевіряє знання властивостей кола та круга, їхніх елементів; формули для обчислення відстані між двома точками, рівняння кола.\n Коло задано рівнянням x^2+y^2=9 . Точки, які належать кругу, обмеженого цим колом, розташовані на відстані, не більшій, ніж радіус від центра кола. (0; 0) – центр кола, R=3. \n Отже, умова виконується, якщо координати точки (x_0, y_0) задовольняють умові $$ x_0^2+y_0^2\\le 9. $$ \n А) (\\sqrt{2})^2+5^2\\gt 9. \n Б) 1^2+3^2\\gt 9. \n В) 4^2+5^2\\gt 9. \n Г) 3^2+2^2\\gt 9. \n Д) 2^2+(\\sqrt{3})^2\\le 9,\\ 7\\le 9. \n Відповідь: Д.",
+   "topic": "Геометрія. Планіметрія. Коло та круг. Координати та вектори на площині.",
+   "images": [],
+   "text": "Коло задано рівнянням x^2+y^2=9. Визначте координати точки, яка належить кругу, обмеженому цим колом.",
+   "latex": [
+    "x^2+y^2=9.",
+    "(\\sqrt{2}; 5)",
+    "(1; 3)",
+    "(4; 5)",
+    "(3; 2)",
+    "(2; \\sqrt{3})"
+   ],
+   "source_test": 125,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6267,
+   "tip": 4,
+   "out_order": 10,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено відрізок <latex>d</latex> на координатній площині <latex>xy.</latex> Установіть відповідність між відрізком (1–4) та рисунком (А – Д), на якому він зображений.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/62/6267/pr-math-2014-new-21-0.png\" style=\"height: auto;\" width=\"330\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "відрізок, симетричний відрізку <latex>d</latex> відносно осі <latex>x</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "відрізок, симетричний відрізку <latex>d</latex> відносно осі <latex>y</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "відрізок, симетричний відрізку <latex>d</latex> відносно точки <latex>O</latex>"
+    },
+    {
+     "marker": "4",
+     "html": "відрізок, у який переходить відрізок <latex>d</latex>, внаслідок повороту навколо точки <latex>O</latex> на кут <latex>90^\\circ</latex> проти руху годинникової стрілки"
+    },
+    {
+     "marker": "А",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/62/6267/ansa_6267.png\" width=\"220\"/>"
+    },
+    {
+     "marker": "Б",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/62/6267/ansb_6267.png\" width=\"220\"/>"
+    },
+    {
+     "marker": "В",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/62/6267/ansc_6267.png\" width=\"220\"/>"
+    },
+    {
+     "marker": "Г",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/62/6267/ansd_6267.png\" width=\"220\"/>"
+    },
+    {
+     "marker": "Д",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/62/6267/anse_6267.png\" width=\"220\"/>"
+    }
+   ],
+   "groups": [
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "відрізок, симетричний відрізку <latex>d</latex> відносно осі <latex>x</latex>"
+      },
+      {
+       "marker": "",
+       "html": "відрізок, симетричний відрізку <latex>d</latex> відносно осі <latex>y</latex>"
+      },
+      {
+       "marker": "",
+       "html": "відрізок, симетричний відрізку <latex>d</latex> відносно точки <latex>O</latex>"
+      },
+      {
+       "marker": "",
+       "html": "відрізок, у який переходить відрізок <latex>d</latex>, внаслідок повороту навколо точки <latex>O</latex> на кут <latex>90^\\circ</latex> проти руху годинникової стрілки"
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/62/6267/ansa_6267.png\" width=\"220\"/>"
+      },
+      {
+       "marker": "",
+       "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/62/6267/ansb_6267.png\" width=\"220\"/>"
+      },
+      {
+       "marker": "",
+       "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/62/6267/ansc_6267.png\" width=\"220\"/>"
+      },
+      {
+       "marker": "",
+       "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/62/6267/ansd_6267.png\" width=\"220\"/>"
+      },
+      {
+       "marker": "",
+       "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/62/6267/anse_6267.png\" width=\"220\"/>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1b;2d;3a;4e",
+   "correct": [
+    "1b",
+    "2d",
+    "3a",
+    "4e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектор на площині. Геометричні перетворення.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання прямокутної системи координат на площині, основних видів та змісту геометричних перетворень на площині (симетрія, поворот).\r\n </p>\n<p>\n<b>1</b>. Симетрія відносно осі <latex>x</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/62/6267/ds-pr-math-2014-new-21-1.png\" style=\"height: auto;\" width=\"220\"/>\n</div>\n<p>\r\n Отже, 1 – Б.\r\n </p>\n<br/>\n<p>\n<b>2</b>. Симетрія відносно осі <latex>y</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/62/6267/ds-pr-math-2014-new-21-2.png\" style=\"height: auto;\" width=\"290\"/>\n</div>\n<br/>\n<p>\r\n Отже, 2 – Г.\r\n </p>\n<br/>\n<p>\n<b>3</b>. Симетрія відносно точки <latex>O</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/62/6267/ds-pr-math-2014-new-21-3.png\" style=\"height: auto;\" width=\"290\"/>\n</div>\n<br/>\n<p>\r\n Отже, 3 – А.\r\n </p>\n<br/>\n<p>\n<b>4</b>. Поворот відносно точки <latex>O</latex> на <latex>90^\\circ</latex> проти годинникової стрілки.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/62/6267/ds-pr-math-2014-new-21-4.png\" style=\"height: auto;\" width=\"290\"/>\n</div>\n<br/>\n<p>\r\n Отже, 4 – Д.\r\n </p>\n<p><strong>Відповідь: 1 – Б, 2 – Г, 3 – А, 4 – Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектор на площині. Геометричні перетворення.\r\n Це завдання перевіряє знання прямокутної системи координат на площині, основних видів та змісту геометричних перетворень на площині (симетрія, поворот).\r\n 1 . Симетрія відносно осі x \n Отже, 1 – Б.\r\n 2 . Симетрія відносно осі y \n Отже, 2 – Г.\r\n 3 . Симетрія відносно точки O \n Отже, 3 – А.\r\n 4 . Поворот відносно точки O на 90^\\circ проти годинникової стрілки.\r\n Отже, 4 – Д.\r\n Відповідь: 1 – Б, 2 – Г, 3 – А, 4 – Д.",
+   "topic": "Геометрія. Планіметрія. Координати та вектор на площині. Геометричні перетворення.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/62/6267/pr-math-2014-new-21-0.png",
+    "https://zno.osvita.ua/doc/images/znotest/62/6267/ds-pr-math-2014-new-21-1.png",
+    "https://zno.osvita.ua/doc/images/znotest/62/6267/ds-pr-math-2014-new-21-2.png",
+    "https://zno.osvita.ua/doc/images/znotest/62/6267/ds-pr-math-2014-new-21-3.png",
+    "https://zno.osvita.ua/doc/images/znotest/62/6267/ds-pr-math-2014-new-21-4.png"
+   ],
+   "text": "На рисунку зображено відрізок d на координатній площині xy. Установіть відповідність між відрізком (1–4) та рисунком (А – Д), на якому він зображений.",
+   "latex": [
+    "d",
+    "xy.",
+    "d",
+    "x",
+    "d",
+    "y",
+    "d",
+    "O",
+    "d",
+    "O",
+    "90^\\circ"
+   ],
+   "source_test": 125,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6287,
+   "tip": 1,
+   "out_order": 11,
+   "type": "single_choice",
+   "question_html": "<p>Діагоналі паралелограма <latex>ABCD</latex> перетинаються в точці <latex>O</latex> (див. рисунок). Укажіть правильну векторну рівність.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/62/6287/pr-math-2013-new-07-new.png\" style=\"height: auto;\" width=\"317\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\overrightarrow{CO}=\\dfrac 12(\\overrightarrow{AB}+\\overrightarrow{AD})</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\overrightarrow{CO}=-\\dfrac 12(\\overrightarrow{AB}+\\overrightarrow{AD})</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\overrightarrow{CO}=\\dfrac 12(\\overrightarrow{AD}-\\overrightarrow{AB})</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\overrightarrow{CO}=\\dfrac 12(\\overrightarrow{AB}-\\overrightarrow{AD})</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>\\overrightarrow{CO}=2(\\overrightarrow{AB}+\\overrightarrow{AD})</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання поняття вектора, вміння множити вектор на число, виконувати додавання векторів.\r\n </p>\n<p>\r\n За правилом паралелограма\r\n </p>\n<latex>\\begin{gather*}\r\n \\overrightarrow{AB} + \\overrightarrow{AD} = \\overrightarrow{AC},\\\\[7pt]\r\n \\overrightarrow{AC} = -\\overrightarrow{CA},\\\\[6pt] \r\n CO = \\frac{1}{2}AC,\\\\[6pt]\r\n \\overrightarrow{CO} = -\\frac{1}{2}\\overrightarrow{AC}.\r\n \\end{gather*}</latex>\n<p>\r\n Отже,\r\n <latex>\\begin{gather*}\r\n \\overrightarrow{CO} = -\\frac{1}{2}(\\overrightarrow{AB} + \\overrightarrow{AD}).\r\n \\end{gather*}</latex>\n</p>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n Це завдання перевіряє знання поняття вектора, вміння множити вектор на число, виконувати додавання векторів.\r\n За правилом паралелограма\r\n \\begin{gather*}\r\n \\overrightarrow{AB} + \\overrightarrow{AD} = \\overrightarrow{AC},\\\\[7pt]\r\n \\overrightarrow{AC} = -\\overrightarrow{CA},\\\\[6pt] \r\n CO = \\frac{1}{2}AC,\\\\[6pt]\r\n \\overrightarrow{CO} = -\\frac{1}{2}\\overrightarrow{AC}.\r\n \\end{gather*} \n Отже,\r\n \\begin{gather*}\r\n \\overrightarrow{CO} = -\\frac{1}{2}(\\overrightarrow{AB} + \\overrightarrow{AD}).\r\n \\end{gather*} \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/62/6287/pr-math-2013-new-07-new.png"
+   ],
+   "text": "Діагоналі паралелограма ABCD перетинаються в точці O (див. рисунок). Укажіть правильну векторну рівність.",
+   "latex": [
+    "ABCD",
+    "O",
+    "\\overrightarrow{CO}=\\dfrac 12(\\overrightarrow{AB}+\\overrightarrow{AD})",
+    "\\overrightarrow{CO}=-\\dfrac 12(\\overrightarrow{AB}+\\overrightarrow{AD})",
+    "\\overrightarrow{CO}=\\dfrac 12(\\overrightarrow{AD}-\\overrightarrow{AB})",
+    "\\overrightarrow{CO}=\\dfrac 12(\\overrightarrow{AB}-\\overrightarrow{AD})",
+    "\\overrightarrow{CO}=2(\\overrightarrow{AB}+\\overrightarrow{AD})"
+   ],
+   "source_test": 126,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6322,
+   "tip": 1,
+   "out_order": 12,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено квадрат <latex>ABCD</latex>. Укажіть правильну векторну рівність.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/63/6322/9_2.png\" style=\"height: auto;\" width=\"175\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\overrightarrow{AC}=\\overrightarrow{AB}-\\overrightarrow{AD}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\overrightarrow{AC}=\\overrightarrow{AD}-\\overrightarrow{AB}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{AD}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\overrightarrow{AC}=-\\overrightarrow{AD}-\\overrightarrow{AB}</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>\\overrightarrow{AC}=\\sqrt2(\\overrightarrow{AB}+\\overrightarrow{AD})</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння виконувати дії з векторами.\r\n </p>\n<p>\r\n За правилом паралелограма додаємо вектори:\r\n </p>\n<latex>\\begin{gather*}\r\n \\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n Це завдання перевіряє вміння виконувати дії з векторами.\r\n За правилом паралелограма додаємо вектори:\r\n \\begin{gather*}\r\n \\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}.\r\n \\end{gather*} \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/63/6322/9_2.png"
+   ],
+   "text": "На рисунку зображено квадрат ABCD . Укажіть правильну векторну рівність.",
+   "latex": [
+    "ABCD",
+    "\\overrightarrow{AC}=\\overrightarrow{AB}-\\overrightarrow{AD}",
+    "\\overrightarrow{AC}=\\overrightarrow{AD}-\\overrightarrow{AB}",
+    "\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{AD}",
+    "\\overrightarrow{AC}=-\\overrightarrow{AD}-\\overrightarrow{AB}",
+    "\\overrightarrow{AC}=\\sqrt2(\\overrightarrow{AB}+\\overrightarrow{AD})"
+   ],
+   "source_test": 127,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6351,
+   "tip": 1,
+   "out_order": 13,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено вектори <latex>\\vec a</latex> і <latex>\\vec b</latex>. Який із наведених векторів дорівнює вектору <latex>\\vec a + \\vec b</latex>?</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/63/6351/6_1.png\" style=\"height: auto;\" width=\"200\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/63/6351/ansa_6351.png\" width=\"130\"/>"
+    },
+    {
+     "marker": "Б",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/63/6351/ansb_6351.png\" width=\"130\"/>"
+    },
+    {
+     "marker": "В",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/63/6351/ansc_6351.png\" width=\"130\"/>"
+    },
+    {
+     "marker": "Г",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/63/6351/ansd_6351.png\" width=\"130\"/>"
+    },
+    {
+     "marker": "Д",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/63/6351/anse_6351.png\" width=\"130\"/>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння виконувати арифметичні дії з векторами.\r\n </p>\n<p>\r\n Суму векторів <latex>\\vec{a} + \\vec{b}</latex> знаходимо за правилом паралелограма.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/63/6351/ds-pr-math-2011-new-06.png\" style=\"height: auto;\" width=\"161\"/>\n</div>\n<br/>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Вектори на площині.\r\n Це завдання перевіряє вміння виконувати арифметичні дії з векторами.\r\n Суму векторів \\vec{a} + \\vec{b} знаходимо за правилом паралелограма.\r\n Відповідь: Д.",
+   "topic": "Геометрія. Планіметрія. Вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/63/6351/6_1.png",
+    "https://zno.osvita.ua/doc/images/znotest/63/6351/ds-pr-math-2011-new-06.png"
+   ],
+   "text": "На рисунку зображено вектори \\vec a і \\vec b . Який із наведених векторів дорівнює вектору \\vec a + \\vec b ?",
+   "latex": [
+    "\\vec a",
+    "\\vec b",
+    "\\vec a + \\vec b"
+   ],
+   "source_test": 128,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6357,
+   "tip": 1,
+   "out_order": 14,
+   "type": "single_choice",
+   "question_html": "<p>Укажіть рівняння кола з центром у початку координат, якщо воно проходить через точку <latex>(3;-4)</latex>.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>x^2+y^2=5</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(x+3)^2+(x-4)^2=25</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>x^2+y^2=25</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>x^2+y^2=49</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>(x-3)^2+(x+4)^2=25</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати і вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання рівняння кола.\r\n </p>\n<p>\r\n За умовою завдання коло з центром у початку координат, тому рівняння кола має вигляд:\r\n <latex>\\begin{gather*}\r\n x^2 + y^2 = R^2,\r\n \\end{gather*}</latex>\r\n і проходить через точку <latex>(3; -4).</latex> Тобто точка належить колу.\r\n </p>\n<p>\r\n Підставляємо числові значення у рівняння кола \r\n </p>\n<latex>\\begin{gather*}\r\n 3^2 + (-4)^2 = 9 + 16 = 25.\r\n \\end{gather*}</latex>\n<p>\r\n Отже рівняння, яке задовольняє умові:\r\n </p>\n<latex>\\begin{gather*}\r\n x^2 + y^2 = 25.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати і вектори на площині.\r\n Це завдання перевіряє знання рівняння кола.\r\n За умовою завдання коло з центром у початку координат, тому рівняння кола має вигляд:\r\n \\begin{gather*}\r\n x^2 + y^2 = R^2,\r\n \\end{gather*} \r\n і проходить через точку (3; -4). Тобто точка належить колу.\r\n Підставляємо числові значення у рівняння кола \r\n \\begin{gather*}\r\n 3^2 + (-4)^2 = 9 + 16 = 25.\r\n \\end{gather*} \n Отже рівняння, яке задовольняє умові:\r\n \\begin{gather*}\r\n x^2 + y^2 = 25.\r\n \\end{gather*} \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Координати і вектори на площині.",
+   "images": [],
+   "text": "Укажіть рівняння кола з центром у початку координат, якщо воно проходить через точку (3;-4) .",
+   "latex": [
+    "(3;-4)",
+    "x^2+y^2=5",
+    "(x+3)^2+(x-4)^2=25",
+    "x^2+y^2=25",
+    "x^2+y^2=49",
+    "(x-3)^2+(x+4)^2=25"
+   ],
+   "source_test": 128,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6382,
+   "tip": 1,
+   "out_order": 15,
+   "type": "single_choice",
+   "question_html": "<p>Точка <latex>A(3;1)</latex> належить колу з центром у точці <latex>O(-2;1)</latex>. Знайдіть радіус цього кола.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>10</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>5</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>3</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>2</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>1</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Вектори і координати на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання координат точок на площині, формули відстані між точками на площині.\r\n </p>\n<p>\r\n Точка <latex>A(3; 1)</latex> належить колу, <latex>O(-2; 1)</latex> – центр кола. <latex>OA</latex> – радіус кола. За формулою відстані між точками\r\n </p>\n<latex>\\begin{gather*}\r\n d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\r\n \\end{gather*}</latex>\n<p>\r\n знайдемо\r\n </p>\n<latex>\\begin{gather*}\r\n OA=\\sqrt{(3+2)^2+(1-1)^2}=5.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Вектори і координати на площині.\r\n Це завдання перевіряє знання координат точок на площині, формули відстані між точками на площині.\r\n Точка A(3; 1) належить колу, O(-2; 1) – центр кола. OA – радіус кола. За формулою відстані між точками\r\n \\begin{gather*}\r\n d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\r\n \\end{gather*} \n знайдемо\r\n \\begin{gather*}\r\n OA=\\sqrt{(3+2)^2+(1-1)^2}=5.\r\n \\end{gather*} \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Вектори і координати на площині.",
+   "images": [],
+   "text": "Точка A(3;1) належить колу з центром у точці O(-2;1) . Знайдіть радіус цього кола.",
+   "latex": [
+    "A(3;1)",
+    "O(-2;1)",
+    "10",
+    "5",
+    "3",
+    "2",
+    "1"
+   ],
+   "source_test": 129,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6429,
+   "tip": 1,
+   "out_order": 16,
+   "type": "single_choice",
+   "question_html": "<p>Знайдіть координати вектора <latex>\\overrightarrow{AB}</latex>, якщо <latex>A(-2;3)</latex>, <latex>B(-8;-5)</latex>.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\overrightarrow{AB}(6;8)</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\overrightarrow{AB}(-10;-8)</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\overrightarrow{AB}(-10;-2)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\overrightarrow{AB}(-6;-2)</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>\\overrightarrow{AB}(-6;-8)</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Вектори і координати на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння знаходити координати вектора на площині.\r\n </p>\n<p>\r\n Якщо <latex>A(x_1; y_1)</latex>, <latex>B(x_2; y_2)</latex>, то координати вектора <latex>\\overrightarrow{AB}(x_2 - x_1; y_2 - y_1).</latex>\n</p>\n<latex>\\begin{gather*}\r\n A(-2; 3);\\\\[7pt]\r\n B(-8; -5);\\\\[7pt]\r\n \\overrightarrow{AB}(-8 - (-2); -5 - 3);\\\\[7pt]\r\n \\overrightarrow{AB}(-6; -8).\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Вектори і координати на площині.\r\n Це завдання перевіряє вміння знаходити координати вектора на площині.\r\n Якщо A(x_1; y_1) , B(x_2; y_2) , то координати вектора \\overrightarrow{AB}(x_2 - x_1; y_2 - y_1). \n \\begin{gather*}\r\n A(-2; 3);\\\\[7pt]\r\n B(-8; -5);\\\\[7pt]\r\n \\overrightarrow{AB}(-8 - (-2); -5 - 3);\\\\[7pt]\r\n \\overrightarrow{AB}(-6; -8).\r\n \\end{gather*} \n Відповідь: Д.",
+   "topic": "Геометрія. Планіметрія. Вектори і координати на площині.",
+   "images": [],
+   "text": "Знайдіть координати вектора \\overrightarrow{AB} , якщо A(-2;3) , B(-8;-5) .",
+   "latex": [
+    "\\overrightarrow{AB}",
+    "A(-2;3)",
+    "B(-8;-5)",
+    "\\overrightarrow{AB}(6;8)",
+    "\\overrightarrow{AB}(-10;-8)",
+    "\\overrightarrow{AB}(-10;-2)",
+    "\\overrightarrow{AB}(-6;-2)",
+    "\\overrightarrow{AB}(-6;-8)"
+   ],
+   "source_test": 131,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 6880,
+   "tip": 1,
+   "out_order": 17,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Точка <latex>C</latex> лежить на осі <latex>x</latex> прямокутної системи координат і знаходиться на відстані <latex>5</latex> від точки <latex>A(-2; 4).</latex> Відрізок <latex>AC</latex> перетинає вісь <latex>y.</latex> Знайдіть координати точки <latex>C.</latex>\n</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>(1; 0)</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(0; 1)</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>(-5; 0)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>(0; 0)</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>(3; 4)</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Декартова система координат на площині. Теорема Піфагора.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання прямокутної системи координат на площині, координат точок та вміння визначати координати точки, розташованої на координатній осі.\r\n </p>\n<p>\r\n Згідно з умовою точка <latex>C</latex> лежить на осі <latex>x</latex>, тому її координати <latex>(x_0; 0)</latex>. Оскільки відрізок <latex>AC</latex> перетинає вісь <latex>y</latex>, то <latex>x_0\\gt 0</latex> і відрізок розташований так, як показано на рисунку. Трикутник <latex>AKC</latex> є прямокутним із катетом <latex>AK=4</latex> (довжина <latex>AK</latex> дорівнює модулю ординати точки <latex>A</latex>) і гіпотенузою <latex>AC=5</latex>, тобто його другий катет <latex>KC</latex> можна визначити за теоремою Піфагора:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>$$\r\n KC=\\sqrt{AC^2-AK^2}=\\sqrt{25-16}=3.\r\n $$</latex>\n</div>\n<p>\r\n Додавши до <latex>-2</latex> число <latex>3</latex>, дістанемо абсцису <latex>x_0=1</latex> точки <latex>C.</latex> Тоді <latex>C(1; 0)</latex> – шукана точка.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/68/6880/ds-os-math-2014-new-09.png\" style=\"height: auto;\" width=\"215\"/>\n</div>\n<br/>\n<p>\r\n Це завдання можна розв’язати, використовуючи лише формулу довжини відрізка за заданими координатами його кінцевих точок.\r\n </p>\n<p>\r\n Оскільки точка <latex>C</latex> лежить на осі абсцис, то її ордината дорівнює нулю, тобто <latex>C(x; 0)</latex>. Тоді, довжина відрізка <latex>AC{:}</latex>\n</p>\n<latex>$$\r\n \\sqrt{(x-(-2))^2+(0-4)^2}=5.\r\n $$</latex>\n<p>\r\n Розв’язавши це рівняння, одержимо два корені: <latex>x=-5</latex> та <latex>x=1.</latex> Значення <latex>x=-5</latex> не може бути абсцисою точки <latex>C</latex>, оскільки в цьому випадку відрізок <latex>AC</latex> не перетинатиме вісь ординат. Отже, <latex>C(1; 0).</latex>\n</p>\n<p><strong>Відповідь: A.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Декартова система координат на площині. Теорема Піфагора.\r\n Це завдання перевіряє знання прямокутної системи координат на площині, координат точок та вміння визначати координати точки, розташованої на координатній осі.\r\n Згідно з умовою точка C лежить на осі x , тому її координати (x_0; 0) . Оскільки відрізок AC перетинає вісь y , то x_0\\gt 0 і відрізок розташований так, як показано на рисунку. Трикутник AKC є прямокутним із катетом AK=4 (довжина AK дорівнює модулю ординати точки A ) і гіпотенузою AC=5 , тобто його другий катет KC можна визначити за теоремою Піфагора:\r\n $$\r\n KC=\\sqrt{AC^2-AK^2}=\\sqrt{25-16}=3.\r\n $$ \n Додавши до -2 число 3 , дістанемо абсцису x_0=1 точки C. Тоді C(1; 0) – шукана точка.\r\n Це завдання можна розв’язати, використовуючи лише формулу довжини відрізка за заданими координатами його кінцевих точок.\r\n Оскільки точка C лежить на осі абсцис, то її ордината дорівнює нулю, тобто C(x; 0) . Тоді, довжина відрізка AC{:} \n $$\r\n \\sqrt{(x-(-2))^2+(0-4)^2}=5.\r\n $$ \n Розв’язавши це рівняння, одержимо два корені: x=-5 та x=1. Значення x=-5 не може бути абсцисою точки C , оскільки в цьому випадку відрізок AC не перетинатиме вісь ординат. Отже, C(1; 0). \n Відповідь: A.",
+   "topic": "Геометрія. Планіметрія. Декартова система координат на площині. Теорема Піфагора.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/68/6880/ds-os-math-2014-new-09.png"
+   ],
+   "text": "Точка C лежить на осі x прямокутної системи координат і знаходиться на відстані 5 від точки A(-2; 4). Відрізок AC перетинає вісь y. Знайдіть координати точки C.",
+   "latex": [
+    "C",
+    "x",
+    "5",
+    "A(-2; 4).",
+    "AC",
+    "y.",
+    "C.",
+    "(1; 0)",
+    "(0; 1)",
+    "(-5; 0)",
+    "(0; 0)",
+    "(3; 4)"
+   ],
+   "source_test": 138,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 7079,
+   "tip": 1,
+   "out_order": 18,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Довжини перпендикулярних векторів <latex>\\overrightarrow{a}</latex> i <latex>\\overrightarrow{b}</latex> (див. рисунок) дорівнюють <latex>6</latex> і <latex>8</latex> відповідно. Знайдіть довжину вектора <latex>\\overrightarrow{a}+\\overrightarrow{b}.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/70/7079/pr-math-2015-new-09.png\" style=\"height: auto;\" width=\"180\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>2</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>6</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>8</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>10</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>14</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Вектори. Сума векторів. Теорема Піфагора.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння визначати довжину вектора, що є сумою зображених на рисунку векторів. \r\n </p>\n<p>\r\n Для розв’язання завдання необхідно вміти виконувати операцію додавання двох векторів, використовувати теорему Піфагора для знаходження невідомих елементів прямокутних трикутників.\r\n </p>\n<p>\r\n Для визначення суми зображених на рисунку векторів скористаємося правилом паралелограма. \r\n Побудуємо паралелограм <latex>ABCD</latex>, причому <latex>\\overrightarrow{a} = \\overrightarrow{AB}</latex>, <latex>\\overrightarrow{b} = \\overrightarrow{AD}.</latex> \r\n Тоді сумою векторів <latex>\\overrightarrow{a}</latex> і <latex>\\overrightarrow{b}</latex> є вектор <latex>\\overrightarrow{c} = \\overrightarrow{AC}\\mathord{:}</latex>\n<latex>$$\r\n \\overrightarrow{c} = \\overrightarrow{a} + \\overrightarrow{b},\\ \\text{або}\r\n $$\r\n $$ \r\n \\overrightarrow{AC} = \\overrightarrow{AB} + \\overrightarrow{AD}\r\n $$</latex>\r\n (див. рисунок).\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/70/7079/ds-pr-math-2015-new-09-1.png\" style=\"height: auto;\" width=\"278\"/>\n</div>\n<br/>\n<p>\r\n Оскільки за умовою вектори <latex>\\overrightarrow{a}</latex> і <latex>\\overrightarrow{b}</latex> перпендикулярні, то паралелограм <latex>ABCD</latex> є прямокутником, довжина вектора <latex>\\overrightarrow{a} + \\overrightarrow{b}</latex> дорівнює довжині гіпотенузи <latex>AC</latex> прямокутного трикутника <latex>ADC</latex> з катетами <latex>AD = 8</latex> та <latex>DC = 6</latex> (див. рисунок).\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/70/7079/ds-pr-math-2015-new-09-2.png\" style=\"height: auto;\" width=\"192\"/>\n</div>\n<br/>\n<p>\r\n За теоремою Піфагора \r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>$$\r\n AC = \\sqrt{AD^2 + DC^2} = \\sqrt{8^2 + 6^2} = 10. \r\n $$</latex>\n</div>\n<p>\r\n Отже, довжина вектора <latex>\\overrightarrow{a} + \\overrightarrow{b}</latex> дорівнює <latex>10.</latex>\n</p>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Вектори. Сума векторів. Теорема Піфагора.\r\n Це завдання перевіряє вміння визначати довжину вектора, що є сумою зображених на рисунку векторів. \r\n Для розв’язання завдання необхідно вміти виконувати операцію додавання двох векторів, використовувати теорему Піфагора для знаходження невідомих елементів прямокутних трикутників.\r\n Для визначення суми зображених на рисунку векторів скористаємося правилом паралелограма. \r\n Побудуємо паралелограм ABCD , причому \\overrightarrow{a} = \\overrightarrow{AB} , \\overrightarrow{b} = \\overrightarrow{AD}. \r\n Тоді сумою векторів \\overrightarrow{a} і \\overrightarrow{b} є вектор \\overrightarrow{c} = \\overrightarrow{AC}\\mathord{:} \n $$\r\n \\overrightarrow{c} = \\overrightarrow{a} + \\overrightarrow{b},\\ \\text{або}\r\n $$\r\n $$ \r\n \\overrightarrow{AC} = \\overrightarrow{AB} + \\overrightarrow{AD}\r\n $$ \r\n (див. рисунок).\r\n Оскільки за умовою вектори \\overrightarrow{a} і \\overrightarrow{b} перпендикулярні, то паралелограм ABCD є прямокутником, довжина вектора \\overrightarrow{a} + \\overrightarrow{b} дорівнює довжині гіпотенузи AC прямокутного трикутника ADC з катетами AD = 8 та DC = 6 (див. рисунок).\r\n За теоремою Піфагора \r\n $$\r\n AC = \\sqrt{AD^2 + DC^2} = \\sqrt{8^2 + 6^2} = 10. \r\n $$ \n Отже, довжина вектора \\overrightarrow{a} + \\overrightarrow{b} дорівнює 10. \n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Вектори. Сума векторів. Теорема Піфагора.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/70/7079/pr-math-2015-new-09.png",
+    "https://zno.osvita.ua/doc/images/znotest/70/7079/ds-pr-math-2015-new-09-1.png",
+    "https://zno.osvita.ua/doc/images/znotest/70/7079/ds-pr-math-2015-new-09-2.png"
+   ],
+   "text": "Довжини перпендикулярних векторів \\overrightarrow{a} i \\overrightarrow{b} (див. рисунок) дорівнюють 6 і 8 відповідно. Знайдіть довжину вектора \\overrightarrow{a}+\\overrightarrow{b}.",
+   "latex": [
+    "\\overrightarrow{a}",
+    "\\overrightarrow{b}",
+    "6",
+    "8",
+    "\\overrightarrow{a}+\\overrightarrow{b}.",
+    "2",
+    "6",
+    "8",
+    "10",
+    "14"
+   ],
+   "source_test": 142,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 7151,
+   "tip": 4,
+   "out_order": 19,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У прямокутній декартовій системі координат <latex>xyz</latex> у просторі задано точку <latex>M(1; -4; 8).</latex> Установіть відповідність між початком речення (1–4) та його закінченням <span style=\"white-space:nowrap\">(А – Д)</span> так, щоб утворилося правильне твердження.\r\n </p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Відстань від точки <latex>M</latex> до площини <latex>xy</latex> дорівнює"
+    },
+    {
+     "marker": "2",
+     "html": "Відстань від точки <latex>M</latex> до початку координат дорівнює"
+    },
+    {
+     "marker": "3",
+     "html": "Відстань від точки <latex>M</latex> до осі <latex>z</latex> дорівнює"
+    },
+    {
+     "marker": "4",
+     "html": "Відстань від точки <latex>M</latex> до <latex>N(1; 0; 8)</latex> дорівнює"
+    },
+    {
+     "marker": "А",
+     "html": "<latex>1</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>4</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\sqrt{17}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>8</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>9</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Початок речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "Відстань від точки <latex>M</latex> до площини <latex>xy</latex> дорівнює"
+      },
+      {
+       "marker": "",
+       "html": "Відстань від точки <latex>M</latex> до початку координат дорівнює"
+      },
+      {
+       "marker": "",
+       "html": "Відстань від точки <latex>M</latex> до осі <latex>z</latex> дорівнює"
+      },
+      {
+       "marker": "",
+       "html": "Відстань від точки <latex>M</latex> до <latex>N(1; 0; 8)</latex> дорівнює"
+      }
+     ]
+    },
+    {
+     "title": "Закінчення речення",
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>1</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>4</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>\\sqrt{17}</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>8</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>9</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1d;2e;3c;4b",
+   "correct": [
+    "1d",
+    "2e",
+    "3c",
+    "4b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Стереометрія. Координати та вектори у просторі. Формула для обчислення відстані між двома точками. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє розуміння декартової системи координат у просторі, а також уміння визначати відстань від заданої точки до геометричних об’єктів (точки, прямої та площини).\r\n </p>\n<p>\r\n Нагадаємо, що відстань <latex>d</latex> між точками \r\n <latex>M_1(x_1; y_1; z_1)</latex> та <latex>M_2(x_2; y_2; z_2)</latex> \r\n можна обчислити за формулою: \r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>$$\r\n d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2 }.\r\n $$</latex>\n</div>\n<p>\n<b>1.</b> Відстань від точки <latex>M(1; -4; 8)</latex> до площини <latex>xy</latex> дорівнює відстані від точки <latex>M</latex> до її проєкції на цю площину, тобто до точки <latex>(1; -4; 0)</latex>. Ця відстань дорівнює <latex>8.</latex> Отже, 1 – Г.\r\n </p>\n<p>\r\n У загальному випадку відстань від точки <latex>M_1(x_1; y_1; z_1)</latex> до площини <latex>xy</latex> дорівнює <latex>|z_1|</latex>, \r\n до площини <latex>xz</latex> — <latex>|y_1|</latex>, до площини <latex>yz</latex> — <latex>|x_1|</latex>.\r\n </p>\n<br/>\n<p>\n<b>2.</b> Відстань від точки <latex>M</latex> до початку координат – це відстань від проекції точки <latex>M</latex> до точки <latex>(0; 0; 0)</latex> і дорівнює\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>$$\r\n \\sqrt{(1 - 0)^2 + (-4 - 0)^2 + (8 - 0)^2} = \\sqrt{1 + 16 + 64} = 9.\r\n $$</latex>\n</div>\n<p>\r\n Отже, 2 – Д.\r\n </p>\n<br/>\n<p>\n<b>3.</b> Відстань від точки <latex>M</latex> до осі <latex>z</latex> – це відстань від проєкції точки <latex>M</latex> на площину <latex>xy</latex> до початку координат, тобто точки <latex>(0; 0; 0)</latex>. Отже, шуканa відстань – це відстань між точками <latex>(1; -4; 0)</latex> та <latex>(0; 0; 0)</latex> і дорівнює \r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>$$\r\n \\sqrt{(1 - 0)^2 + (-4 - 0)^2 + (0 - 0)^2}= \\sqrt{1 + 16+0} = \\sqrt{17}.\r\n $$</latex>\n</div>\n<p>\r\n Отже, 3 – В.\r\n </p>\n<br/>\n<p>\n<b>4.</b> Відстань від точки <latex>M</latex> до точки <latex>N(1; 0; 8)</latex> дорівнює \r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>$$\r\n \\sqrt{(1 - 1)^2 + (-4 - 0)^2 + (8 - 8)^2}= \\sqrt{0 + 16 + 0} = 4.\r\n $$</latex>\n</div>\n<p>\r\n Отже, 4 – Б.\r\n </p>\n<p><strong>Відповідь: 1 – Г, 2 – Д, 3 – В, 4 – Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Стереометрія. Координати та вектори у просторі. Формула для обчислення відстані між двома точками. \r\n Це завдання перевіряє розуміння декартової системи координат у просторі, а також уміння визначати відстань від заданої точки до геометричних об’єктів (точки, прямої та площини).\r\n Нагадаємо, що відстань d між точками \r\n M_1(x_1; y_1; z_1) та M_2(x_2; y_2; z_2) \r\n можна обчислити за формулою: \r\n $$\r\n d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2 }.\r\n $$ \n 1. Відстань від точки M(1; -4; 8) до площини xy дорівнює відстані від точки M до її проєкції на цю площину, тобто до точки (1; -4; 0) . Ця відстань дорівнює 8. Отже, 1 – Г.\r\n У загальному випадку відстань від точки M_1(x_1; y_1; z_1) до площини xy дорівнює |z_1| , \r\n до площини xz — |y_1| , до площини yz — |x_1| .\r\n 2. Відстань від точки M до початку координат – це відстань від проекції точки M до точки (0; 0; 0) і дорівнює\r\n $$\r\n \\sqrt{(1 - 0)^2 + (-4 - 0)^2 + (8 - 0)^2} = \\sqrt{1 + 16 + 64} = 9.\r\n $$ \n Отже, 2 – Д.\r\n 3. Відстань від точки M до осі z – це відстань від проєкції точки M на площину xy до початку координат, тобто точки (0; 0; 0) . Отже, шуканa відстань – це відстань між точками (1; -4; 0) та (0; 0; 0) і дорівнює \r\n $$\r\n \\sqrt{(1 - 0)^2 + (-4 - 0)^2 + (0 - 0)^2}= \\sqrt{1 + 16+0} = \\sqrt{17}.\r\n $$ \n Отже, 3 – В.\r\n 4. Відстань від точки M до точки N(1; 0; 8) дорівнює \r\n $$\r\n \\sqrt{(1 - 1)^2 + (-4 - 0)^2 + (8 - 8)^2}= \\sqrt{0 + 16 + 0} = 4.\r\n $$ \n Отже, 4 – Б.\r\n Відповідь: 1 – Г, 2 – Д, 3 – В, 4 – Б.",
+   "topic": "Геометрія. Стереометрія. Координати та вектори у просторі. Формула для обчислення відстані між двома точками.",
+   "images": [],
+   "text": "У прямокутній декартовій системі координат xyz у просторі задано точку M(1; -4; 8). Установіть відповідність між початком речення (1–4) та його закінченням (А – Д) так, щоб утворилося правильне твердження.",
+   "latex": [
+    "xyz",
+    "M(1; -4; 8).",
+    "M",
+    "xy",
+    "M",
+    "M",
+    "z",
+    "M",
+    "N(1; 0; 8)",
+    "1",
+    "4",
+    "\\sqrt{17}",
+    "8",
+    "9"
+   ],
+   "source_test": 142,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 7169,
+   "tip": 1,
+   "out_order": 20,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На координатній площині <latex>xy</latex> зображено коло, яке дотикається до прямих <latex>x=2</latex>, <latex>x=6</latex> та осі <latex>x</latex> (див. рисунок). Визначте координати точки, яка є центром цього кола.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/71/7169/ds-math-2014-new-05.png\" style=\"height: auto;\" width=\"350\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>(4; 1)</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(6; 2)</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>(4; 4)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>(2; 4)</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>(4; 2)</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Декартова система координат на площині. Коло.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання прямокутної системи координат на площині, координати точки та вміння визначати координати центра кола. \r\n </p>\n<p>\r\n Оскільки прямі <latex>x=2</latex> і <latex>x=6</latex>, що паралельні осі ординат, є дотичними до кола, то діаметр кола дорівнює відстані між цими прямими, тобто дорівнює <latex>6-2=4</latex>, відповідно радіус кола дорівнює <latex>2</latex> (див. рисунок). Тому абсциса центра кола дорівнює\r\n <latex>$$\r\n x_0=2+2=6-2=\\frac{2+6}{2}=4.\r\n $$</latex>\r\n Оскільки коло дотикається осі абсцис, а саме коло розміщене над віссю <latex>x</latex>, то ордината центра кола дорівнює його радіусу, тобто <latex>y_0=2.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/71/7169/ds-ds-math-2014-new-05.png\" style=\"height: auto;\" width=\"350\"/>\n</div>\n<br/>\n<p>\r\n Отже, координати центра кола дорівнюють <latex>(4; 2).</latex>\n</p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Декартова система координат на площині. Коло.\r\n Це завдання перевіряє знання прямокутної системи координат на площині, координати точки та вміння визначати координати центра кола. \r\n Оскільки прямі x=2 і x=6 , що паралельні осі ординат, є дотичними до кола, то діаметр кола дорівнює відстані між цими прямими, тобто дорівнює 6-2=4 , відповідно радіус кола дорівнює 2 (див. рисунок). Тому абсциса центра кола дорівнює\r\n $$\r\n x_0=2+2=6-2=\\frac{2+6}{2}=4.\r\n $$ \r\n Оскільки коло дотикається осі абсцис, а саме коло розміщене над віссю x , то ордината центра кола дорівнює його радіусу, тобто y_0=2. \n Отже, координати центра кола дорівнюють (4; 2). \n Відповідь: Д.",
+   "topic": "Геометрія. Планіметрія. Декартова система координат на площині. Коло.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/71/7169/ds-math-2014-new-05.png",
+    "https://zno.osvita.ua/doc/images/znotest/71/7169/ds-ds-math-2014-new-05.png"
+   ],
+   "text": "На координатній площині xy зображено коло, яке дотикається до прямих x=2 , x=6 та осі x (див. рисунок). Визначте координати точки, яка є центром цього кола.",
+   "latex": [
+    "xy",
+    "x=2",
+    "x=6",
+    "x",
+    "(4; 1)",
+    "(6; 2)",
+    "(4; 4)",
+    "(2; 4)",
+    "(4; 2)"
+   ],
+   "source_test": 144,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 8177,
+   "tip": 1,
+   "out_order": 21,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено трикутник <latex>ABC</latex>, точки <latex>K</latex> i <latex>M</latex> – середини сторін <latex>AB</latex> i <latex>BC</latex> відповідно. Укажіть правильну рівність, якщо <latex>\\overrightarrow{MK}=\\overrightarrow{a}.</latex>\n</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/81/8177/ds-math-2015-new-10.png\" style=\"height: auto;\" width=\"234\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\overrightarrow{AC}=2\\overrightarrow{a}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\overrightarrow{AC}=\\frac 12\\overrightarrow{a}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\overrightarrow{AC}=-\\overrightarrow{a}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\overrightarrow{AC}=-\\frac 12\\overrightarrow{a}</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>\\overrightarrow{AC}=-2\\overrightarrow{a}</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники. Середня лінія трикутника. Вектори. Множення вектора на число. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання означення і властивостей середньої лінії трикутника, а також уміння множити вектор на число. \r\n </p>\n<p>\r\n Якщо точки <latex>K</latex> і <latex>M</latex> є серединами сторін <latex>AB</latex> і <latex>BC</latex> відповідно, то <latex>KM</latex> – середня лінія трикутника <latex>ABC</latex>, яка паралельна стороні <latex>AC</latex>, причому <latex>KM\\ ||\\ AC</latex>, <latex>KM = \\frac{1}{2}AC</latex>, тоді <latex>AC = 2KM.</latex>\n</p>\n<p>\r\n Вектори <latex>\\overrightarrow{MK}</latex> і <latex>\\overrightarrow{AC}</latex> лежать на паралельних прямих, отже, є колінеарними. Їх напрямки протилежні, а довжина вектора <latex>\\overrightarrow{AC}</latex> вдвічі більша за довжину вектора <latex>\\overrightarrow{MK}</latex>, тому <latex>\\overrightarrow{AC} = -2\\overrightarrow{MK}.</latex>\n</p>\n<p>\r\n Оскільки <latex>\\overrightarrow{MK} = a</latex>, то <latex>\\overrightarrow{AC} = -2a.</latex>\n</p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. Середня лінія трикутника. Вектори. Множення вектора на число. \r\n Це завдання перевіряє знання означення і властивостей середньої лінії трикутника, а також уміння множити вектор на число. \r\n Якщо точки K і M є серединами сторін AB і BC відповідно, то KM – середня лінія трикутника ABC , яка паралельна стороні AC , причому KM\\ ||\\ AC , KM = \\frac{1}{2}AC , тоді AC = 2KM. \n Вектори \\overrightarrow{MK} і \\overrightarrow{AC} лежать на паралельних прямих, отже, є колінеарними. Їх напрямки протилежні, а довжина вектора \\overrightarrow{AC} вдвічі більша за довжину вектора \\overrightarrow{MK} , тому \\overrightarrow{AC} = -2\\overrightarrow{MK}. \n Оскільки \\overrightarrow{MK} = a , то \\overrightarrow{AC} = -2a. \n Відповідь: Д.",
+   "topic": "Геометрія. Планіметрія. Трикутники. Середня лінія трикутника. Вектори. Множення вектора на число.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/81/8177/ds-math-2015-new-10.png"
+   ],
+   "text": "На рисунку зображено трикутник ABC , точки K i M – середини сторін AB i BC відповідно. Укажіть правильну рівність, якщо \\overrightarrow{MK}=\\overrightarrow{a}.",
+   "latex": [
+    "ABC",
+    "K",
+    "M",
+    "AB",
+    "BC",
+    "\\overrightarrow{MK}=\\overrightarrow{a}.",
+    "\\overrightarrow{AC}=2\\overrightarrow{a}",
+    "\\overrightarrow{AC}=\\frac 12\\overrightarrow{a}",
+    "\\overrightarrow{AC}=-\\overrightarrow{a}",
+    "\\overrightarrow{AC}=-\\frac 12\\overrightarrow{a}",
+    "\\overrightarrow{AC}=-2\\overrightarrow{a}"
+   ],
+   "source_test": 166,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 9455,
+   "tip": 8,
+   "out_order": 22,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У прямокутній системі координат на площині задано паралелограм <latex>ABCD</latex>, <latex>\\cos A=0\\mathord{,}44.</latex> Визначте довжину діагоналі <latex>BD</latex> паралелограма, якщо скалярний добуток векторів <latex>\\overrightarrow{AB}(6; -8)</latex> i <latex>\\overrightarrow{AD}</latex> дорівнює <latex>88.</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "18",
+   "correct": [
+    "18"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Чотирикутники. Паралелограм та його властивості. Координати та вектори на площині. Скалярний добуток векторів та його властивості. Теорема косинусів.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння застосовувати координати й вектори до розв'язування планіметричних задач.\r\n </p>\n<p>\r\n Нагадаємо, що скалярним добутком векторів <latex>\\overrightarrow{a}</latex> i <latex>\\overrightarrow{b}</latex> називають число, яке дорівнює добутку довжин цих векторів на косинус кута між ними:\r\n <latex>$$\r\n \\overrightarrow{a}\\cdot \\overrightarrow{b}=|\\overrightarrow{a}||\\overrightarrow{b}|\\cos \\varphi,\r\n $$</latex>\r\n де <latex>\\varphi</latex> – кут між векторами <latex>\\overrightarrow{a}</latex> i <latex>\\overrightarrow{b}</latex>.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/94/9455/ds-os-math-2016-new-29-1.png\" style=\"height: auto;\" width=\"130\"/>\n</div>\n<br/>\n<p>\r\n Довжину вектора <latex>\\overrightarrow{a}(a_x; a_y)</latex> обчислюють за формулою\r\n <latex>$$\r\n |\\overrightarrow{a}|=\\sqrt{a_x^2+a_y^2}.\r\n $$</latex>\n</p>\n<p>\r\n На рисунку <latex>ABCD</latex> – паралелограм, <latex>\\overrightarrow{AB}(6; -8)</latex>, <latex>\\cos A=0\\mathord{,}44.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/94/9455/ds-os-math-2016-new-29-2.png\" style=\"height: auto;\" width=\"305\"/>\n</div>\n<br/>\n<p>\r\n За умовою\r\n <latex>$$\r\n \\overrightarrow{AB}\\cdot \\overrightarrow{AD}=88,\r\n $$</latex>\r\n тобто\r\n <latex>$$\r\n |\\overrightarrow{AB}||\\overrightarrow{AD}|\\cos A=88.\r\n $$</latex>\r\n Оскільки вектор <latex>\\overrightarrow{AB}(6; -8)</latex> відомий, то його довжина\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n |\\overrightarrow{AB}|=\\sqrt{6^2+(-8)^2}=\\sqrt{36+64}=10.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n Визначаємо довжину вектора <latex>\\overrightarrow{AD}\\mathord{:}</latex>\n</p>\n<latex>\\begin{gather*}\r\n 10\\cdot |\\overrightarrow{AD}|\\cdot 0\\mathord{,}44=88,\\\\[6pt]\r\n |\\overrightarrow{AD}|=\\frac{88}{4\\mathord{,}4}=20.\r\n \\end{gather*}</latex>\n<p>\r\n Діагональ <latex>BD</latex> паралелограма <latex>ABCD</latex> є стороною трикутника <latex>ABD.</latex> У цьому трикутнику відомі довжини сторін <latex>AB</latex> та <latex>AD</latex>, що дорівнюють довжинам векторів <latex>\\overrightarrow{AB}</latex> та <latex>\\overrightarrow{AD}</latex> відповідно, та косинус кута між ними. За теоремою косинусів\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex>$$\r\n BD^2=AB^2+AD^2-2AB\\cdot AD\\cos A=10^2+20^2-2\\cdot 10\\cdot 20\\cdot 0\\mathord{,}44=324,\r\n $$</latex>\n</div>\n<p>\r\n Звідки отримуємо\r\n <latex>$$\r\n BD=\\sqrt{324}=18.\r\n $$</latex>\n</p>\n<p>\r\n Отже, довжина діагоналі <latex>BD</latex> дорівнює <latex>18.</latex>\n</p>\n<p>\r\n Знаючи довжини сторін <latex>AB</latex> та <latex>AD</latex> і косинус кута між ними, довжину діагоналі <latex>BD</latex> можна визначати ще так. Опустимо з вершини <latex>B</latex> на сторону <latex>AD</latex> перпендикуляр <latex>BK</latex>.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/94/9455/ds-os-math-2016-new-29-3.png\" style=\"height: auto;\" width=\"305\"/>\n</div>\n<br/>\n<p>\r\n Прямокутні трикутники <latex>AKB</latex> та <latex>BKD</latex> мають спільний катет, тоді виконується рівність\r\n </p>\n<latex>$$\r\n AB^2-AK^2=BD^2-KD^2.\r\n $$</latex>\n<p>\r\n З прямокутного трикутника <latex>AKB</latex> визначаємо\r\n </p>\n<latex>$$\r\n AK=AB\\cos A=10\\cdot 0\\mathord{,}44=4\\mathord{,}4.\r\n $$</latex>\n<p>\r\n Тоді\r\n </p>\n<latex>$$\r\n KD=20-4\\mathord{,}4=15\\mathord{,}6.\r\n $$</latex>\n<p>\r\n Отже, \r\n <latex>$$\r\n 10^2-4\\mathord{,}4^2=BD^2-15\\mathord{,}6^2\r\n $$</latex>\r\n звідки отримуємо\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex>$$\r\n BD^2=100+15\\mathord{,}6^2-4\\mathord{,}4^2=100+(15\\mathord{,}6-4\\mathord{,}4)(15\\mathord{,}6+4\\mathord{,}4)=100+11\\mathord{,}2\\cdot 20=324,\r\n $$</latex>\n</div>\n<p>\r\n тоді\r\n <latex>$$\r\n BD=\\sqrt{324}=18.\r\n $$</latex>\n</p>\n<p><strong>Відповідь: <latex>18.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Чотирикутники. Паралелограм та його властивості. Координати та вектори на площині. Скалярний добуток векторів та його властивості. Теорема косинусів.\r\n Це завдання перевіряє вміння застосовувати координати й вектори до розв'язування планіметричних задач.\r\n Нагадаємо, що скалярним добутком векторів \\overrightarrow{a} i \\overrightarrow{b} називають число, яке дорівнює добутку довжин цих векторів на косинус кута між ними:\r\n $$\r\n \\overrightarrow{a}\\cdot \\overrightarrow{b}=|\\overrightarrow{a}||\\overrightarrow{b}|\\cos \\varphi,\r\n $$ \r\n де \\varphi – кут між векторами \\overrightarrow{a} i \\overrightarrow{b} .\r\n Довжину вектора \\overrightarrow{a}(a_x; a_y) обчислюють за формулою\r\n $$\r\n |\\overrightarrow{a}|=\\sqrt{a_x^2+a_y^2}.\r\n $$ \n На рисунку ABCD – паралелограм, \\overrightarrow{AB}(6; -8) , \\cos A=0\\mathord{,}44. \n За умовою\r\n $$\r\n \\overrightarrow{AB}\\cdot \\overrightarrow{AD}=88,\r\n $$ \r\n тобто\r\n $$\r\n |\\overrightarrow{AB}||\\overrightarrow{AD}|\\cos A=88.\r\n $$ \r\n Оскільки вектор \\overrightarrow{AB}(6; -8) відомий, то його довжина\r\n \\begin{gather*}\r\n |\\overrightarrow{AB}|=\\sqrt{6^2+(-8)^2}=\\sqrt{36+64}=10.\r\n \\end{gather*} \n Визначаємо довжину вектора \\overrightarrow{AD}\\mathord{:} \n \\begin{gather*}\r\n 10\\cdot |\\overrightarrow{AD}|\\cdot 0\\mathord{,}44=88,\\\\[6pt]\r\n |\\overrightarrow{AD}|=\\frac{88}{4\\mathord{,}4}=20.\r\n \\end{gather*} \n Діагональ BD паралелограма ABCD є стороною трикутника ABD. У цьому трикутнику відомі довжини сторін AB та AD , що дорівнюють довжинам векторів \\overrightarrow{AB} та \\overrightarrow{AD} відповідно, та косинус кута між ними. За теоремою косинусів\r\n $$\r\n BD^2=AB^2+AD^2-2AB\\cdot AD\\cos A=10^2+20^2-2\\cdot 10\\cdot 20\\cdot 0\\mathord{,}44=324,\r\n $$ \n Звідки отримуємо\r\n $$\r\n BD=\\sqrt{324}=18.\r\n $$ \n Отже, довжина діагоналі BD дорівнює 18. \n Знаючи довжини сторін AB та AD і косинус кута між ними, довжину діагоналі BD можна визначати ще так. Опустимо з вершини B на сторону AD перпендикуляр BK .\r\n Прямокутні трикутники AKB та BKD мають спільний катет, тоді виконується рівність\r\n $$\r\n AB^2-AK^2=BD^2-KD^2.\r\n $$ \n З прямокутного трикутника AKB визначаємо\r\n $$\r\n AK=AB\\cos A=10\\cdot 0\\mathord{,}44=4\\mathord{,}4.\r\n $$ \n Тоді\r\n $$\r\n KD=20-4\\mathord{,}4=15\\mathord{,}6.\r\n $$ \n Отже, \r\n $$\r\n 10^2-4\\mathord{,}4^2=BD^2-15\\mathord{,}6^2\r\n $$ \r\n звідки отримуємо\r\n $$\r\n BD^2=100+15\\mathord{,}6^2-4\\mathord{,}4^2=100+(15\\mathord{,}6-4\\mathord{,}4)(15\\mathord{,}6+4\\mathord{,}4)=100+11\\mathord{,}2\\cdot 20=324,\r\n $$ \n тоді\r\n $$\r\n BD=\\sqrt{324}=18.\r\n $$ \n Відповідь: 18.",
+   "topic": "Геометрія. Планіметрія. Чотирикутники. Паралелограм та його властивості. Координати та вектори на площині. Скалярний добуток векторів та його властивості. Теорема косинусів.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/94/9455/ds-os-math-2016-new-29-1.png",
+    "https://zno.osvita.ua/doc/images/znotest/94/9455/ds-os-math-2016-new-29-2.png",
+    "https://zno.osvita.ua/doc/images/znotest/94/9455/ds-os-math-2016-new-29-3.png"
+   ],
+   "text": "У прямокутній системі координат на площині задано паралелограм ABCD , \\cos A=0\\mathord{,}44. Визначте довжину діагоналі BD паралелограма, якщо скалярний добуток векторів \\overrightarrow{AB}(6; -8) i \\overrightarrow{AD} дорівнює 88.",
+   "latex": [
+    "ABCD",
+    "\\cos A=0\\mathord{,}44.",
+    "BD",
+    "\\overrightarrow{AB}(6; -8)",
+    "\\overrightarrow{AD}",
+    "88."
+   ],
+   "source_test": 191,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 10861,
+   "tip": 8,
+   "out_order": 23,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У прямокутній системі координат на площині задано трапецію <latex>ABCD</latex>, основа якої <latex>AD</latex> вдвічі більша за основу <latex>BC.</latex> Обчисліть скалярний добуток векторів <latex>\\overrightarrow{BD}</latex> та <latex>\\overrightarrow{AC}</latex>, якщо <latex>\\overrightarrow{AB}(2; 9)</latex> i <latex>\\overrightarrow{BC}(-4; 3).</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "-16",
+   "correct": [
+    "-16"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння виконувати дії з векторами, знаходити скалярний добуток векторів.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/108/10861/ds-ds-math-2016-new-30.png\" style=\"height: auto;\" width=\"425\"/>\n</div>\n<br/>\n<p>\n<b>1.</b> <latex>AD\\ ||\\ BC.</latex> Отже, \r\n </p>\n<latex>\\begin{gather*}\r\n \\overrightarrow{AD}=2\\overrightarrow{BC},\\\\[7pt]\r\n \\overrightarrow{BC}(-4; 3)\\Rightarrow \\overrightarrow{AD}(-8; 6).\r\n \\end{gather*}</latex>\n<br/>\n<p>\n<b>2.</b> <latex>\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}</latex> (за правилом трикутника). Отже, <latex>\\overrightarrow{AC}(-2; 12).</latex>\n</p>\n<br/>\n<p>\n<b>3.</b> <latex>\\overrightarrow{BD}=\\overrightarrow{AD}-\\overrightarrow{AB}</latex>, <latex>\\overrightarrow{BD}(-10; -3).</latex>\n</p>\n<br/>\n<p>\n<b>4.</b> Знаходимо скалярний добуток векторів:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>$$\r\n \\overrightarrow{BD}\\cdot \\overrightarrow{AC}=-10\\cdot (-2)+(-3)\\cdot 12=20-36=-16.\r\n $$</latex>\n</div>\n<p><strong>Відповідь: <latex>-16.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині. \r\n Це завдання перевіряє вміння виконувати дії з векторами, знаходити скалярний добуток векторів.\r\n 1. AD\\ ||\\ BC. Отже, \r\n \\begin{gather*}\r\n \\overrightarrow{AD}=2\\overrightarrow{BC},\\\\[7pt]\r\n \\overrightarrow{BC}(-4; 3)\\Rightarrow \\overrightarrow{AD}(-8; 6).\r\n \\end{gather*} \n 2. \\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC} (за правилом трикутника). Отже, \\overrightarrow{AC}(-2; 12). \n 3. \\overrightarrow{BD}=\\overrightarrow{AD}-\\overrightarrow{AB} , \\overrightarrow{BD}(-10; -3). \n 4. Знаходимо скалярний добуток векторів:\r\n $$\r\n \\overrightarrow{BD}\\cdot \\overrightarrow{AC}=-10\\cdot (-2)+(-3)\\cdot 12=20-36=-16.\r\n $$ \n Відповідь: -16.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/108/10861/ds-ds-math-2016-new-30.png"
+   ],
+   "text": "У прямокутній системі координат на площині задано трапецію ABCD , основа якої AD вдвічі більша за основу BC. Обчисліть скалярний добуток векторів \\overrightarrow{BD} та \\overrightarrow{AC} , якщо \\overrightarrow{AB}(2; 9) i \\overrightarrow{BC}(-4; 3).",
+   "latex": [
+    "ABCD",
+    "AD",
+    "BC.",
+    "\\overrightarrow{BD}",
+    "\\overrightarrow{AC}",
+    "\\overrightarrow{AB}(2; 9)",
+    "\\overrightarrow{BC}(-4; 3)."
+   ],
+   "source_test": 221,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 12094,
+   "tip": 8,
+   "out_order": 24,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У прямокутній системі координат на площині задано взаємно перпендикулярні вектори <latex>\\overrightarrow{AB}</latex> та <latex>\\overrightarrow{a}(4; 3).</latex> Визначте абсцису точки <latex>B</latex>, якщо <latex>A(-2; 0)</latex>, а точка <latex>B</latex> лежить на прямій <latex>y=2x.</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "-0.8",
+   "correct": [
+    "-0.8"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння знаходити координати вектора, знаходити скалярний добуток векторів, застосовувати координати й вектори до розв'язування планіметричних задач.\r\n </p>\n<p>\n<latex>\\overrightarrow{AB}\\ \\perp \\overrightarrow{a}</latex>, <latex>\\ \\overrightarrow{a}(4;3).</latex> Точка <latex>A(-2; 0)</latex>, а точка <latex>B</latex> лежить на прямій <latex>y=2x</latex>, тому <latex>B(x; 2x).</latex>\n</p>\n<p>\r\n Координати вектора <latex>\\overrightarrow{AB}(x+2; 2x).</latex> Координати <latex>\\overrightarrow{a}</latex> та <latex>\\overrightarrow{AB}</latex> взаємно перпендикулярні, тому скалярний добуток їх дорівнює нулю.\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n \\overrightarrow{a}\\cdot \\overrightarrow{AB}=0,\\\\[7pt]\r\n 4(x+2)+3\\cdot 2x=0,\\\\[7pt]\r\n 4x+8+6x=0,\\\\[7pt]\r\n 10x+8=0,\\\\[7pt]\r\n 10x=-8,\\\\[7pt]\r\n x=-0\\mathord{,}8.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>-0\\mathord{,}8.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині. \r\n Це завдання перевіряє вміння знаходити координати вектора, знаходити скалярний добуток векторів, застосовувати координати й вектори до розв'язування планіметричних задач.\r\n \\overrightarrow{AB}\\ \\perp \\overrightarrow{a} , \\ \\overrightarrow{a}(4;3). Точка A(-2; 0) , а точка B лежить на прямій y=2x , тому B(x; 2x). \n Координати вектора \\overrightarrow{AB}(x+2; 2x). Координати \\overrightarrow{a} та \\overrightarrow{AB} взаємно перпендикулярні, тому скалярний добуток їх дорівнює нулю.\r\n \\begin{gather*}\r\n \\overrightarrow{a}\\cdot \\overrightarrow{AB}=0,\\\\[7pt]\r\n 4(x+2)+3\\cdot 2x=0,\\\\[7pt]\r\n 4x+8+6x=0,\\\\[7pt]\r\n 10x+8=0,\\\\[7pt]\r\n 10x=-8,\\\\[7pt]\r\n x=-0\\mathord{,}8.\r\n \\end{gather*} \n Відповідь: -0\\mathord{,}8.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [],
+   "text": "У прямокутній системі координат на площині задано взаємно перпендикулярні вектори \\overrightarrow{AB} та \\overrightarrow{a}(4; 3). Визначте абсцису точки B , якщо A(-2; 0) , а точка B лежить на прямій y=2x.",
+   "latex": [
+    "\\overrightarrow{AB}",
+    "\\overrightarrow{a}(4; 3).",
+    "B",
+    "A(-2; 0)",
+    "B",
+    "y=2x."
+   ],
+   "source_test": 247,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 12531,
+   "tip": 8,
+   "out_order": 25,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У прямокутній системі координат на площині задано вектори <latex>\\overrightarrow{a}(-1; 1)</latex> та <latex>\\overrightarrow{b}(-1; 2).</latex> Визначте значення <latex>m</latex>, за якого вектори <latex>\\overrightarrow{a}+\\overrightarrow{mb}</latex> та <latex>\\overrightarrow{b}</latex> перпендикулярні.\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "-0.6",
+   "correct": [
+    "-0.6"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння виконувати дії з векторами, знаходити скалярний добуток векторів, знання правил додавання векторів, множення вектора на число.\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n \\overrightarrow{a}(-1; 1),\\\\[7pt]\r\n \\overrightarrow{b}(-1; 2),\\\\[7pt]\r\n m\\overrightarrow{b}(-m; 2m),\\\\[7pt]\r\n \\overrightarrow{a}+m\\overrightarrow{b}(\\overrightarrow{-1-m; 1+2m}).\r\n \\end{gather*}</latex>\n<p>\r\n Умова перпендикулярності векторів – їх скалярний добуток дорівнює нулю.\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n (-1-m)\\cdot (-1)+(1+2m)\\cdot 2=0,\\\\[7pt]\r\n 1+m+2+4m=0,\\\\[7pt]\r\n 5m+3=0,\\\\[7pt]\r\n 5m=-3,\\\\[7pt]\r\n m=-3:5=-0\\mathord{,}6.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>-0\\mathord{,}6.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n Це завдання перевіряє вміння виконувати дії з векторами, знаходити скалярний добуток векторів, знання правил додавання векторів, множення вектора на число.\r\n \\begin{gather*}\r\n \\overrightarrow{a}(-1; 1),\\\\[7pt]\r\n \\overrightarrow{b}(-1; 2),\\\\[7pt]\r\n m\\overrightarrow{b}(-m; 2m),\\\\[7pt]\r\n \\overrightarrow{a}+m\\overrightarrow{b}(\\overrightarrow{-1-m; 1+2m}).\r\n \\end{gather*} \n Умова перпендикулярності векторів – їх скалярний добуток дорівнює нулю.\r\n \\begin{gather*}\r\n (-1-m)\\cdot (-1)+(1+2m)\\cdot 2=0,\\\\[7pt]\r\n 1+m+2+4m=0,\\\\[7pt]\r\n 5m+3=0,\\\\[7pt]\r\n 5m=-3,\\\\[7pt]\r\n m=-3:5=-0\\mathord{,}6.\r\n \\end{gather*} \n Відповідь: -0\\mathord{,}6.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [],
+   "text": "У прямокутній системі координат на площині задано вектори \\overrightarrow{a}(-1; 1) та \\overrightarrow{b}(-1; 2). Визначте значення m , за якого вектори \\overrightarrow{a}+\\overrightarrow{mb} та \\overrightarrow{b} перпендикулярні.",
+   "latex": [
+    "\\overrightarrow{a}(-1; 1)",
+    "\\overrightarrow{b}(-1; 2).",
+    "m",
+    "\\overrightarrow{a}+\\overrightarrow{mb}",
+    "\\overrightarrow{b}"
+   ],
+   "source_test": 256,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 14247,
+   "tip": 1,
+   "out_order": 26,
+   "type": "single_choice",
+   "question_html": "<p>\r\n На рисунку зображено квадрат <latex>ABCD.</latex> Укажіть правильну векторну рівність.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/142/14247/pr-math-2018-new-13.png\" style=\"height: auto;\" width=\"170\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\overrightarrow{AC}=\\overrightarrow{AB}-\\overrightarrow{AD}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\overrightarrow{AC}=\\overrightarrow{AD}-\\overrightarrow{AB}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{AD}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\overrightarrow{AC}=-\\overrightarrow{AB}-\\overrightarrow{AD}</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>\\overrightarrow{AC}=-\\sqrt{2}(\\overrightarrow{AB}+\\overrightarrow{AD})</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння виконувати дії з векторами.\r\n </p>\n<p>\r\n На рисунку зображено квадрат <latex>ABCD.</latex> Вектори <latex>\\overrightarrow{AB}</latex> та <latex>\\overrightarrow{AD}</latex> із спільним початком. Їх сума зображується діагоналлю паралелограма, побудованого на цих векторах.\r\n </p>\n<p>\r\n Отже, <latex>\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}.</latex>\n</p>\n<p><strong>Відповідь: B.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині. \r\n Це завдання перевіряє вміння виконувати дії з векторами.\r\n На рисунку зображено квадрат ABCD. Вектори \\overrightarrow{AB} та \\overrightarrow{AD} із спільним початком. Їх сума зображується діагоналлю паралелограма, побудованого на цих векторах.\r\n Отже, \\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}. \n Відповідь: B.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/142/14247/pr-math-2018-new-13.png"
+   ],
+   "text": "На рисунку зображено квадрат ABCD. Укажіть правильну векторну рівність.",
+   "latex": [
+    "ABCD.",
+    "\\overrightarrow{AC}=\\overrightarrow{AB}-\\overrightarrow{AD}",
+    "\\overrightarrow{AC}=\\overrightarrow{AD}-\\overrightarrow{AB}",
+    "\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{AD}",
+    "\\overrightarrow{AC}=-\\overrightarrow{AB}-\\overrightarrow{AD}",
+    "\\overrightarrow{AC}=-\\sqrt{2}(\\overrightarrow{AB}+\\overrightarrow{AD})"
+   ],
+   "source_test": 290,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 14264,
+   "tip": 8,
+   "out_order": 27,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У прямокутній системі координат на площині задано трапецію <latex>ABCD</latex> <latex>(AD\\ ||\\ BC</latex>, <latex>AD\\gt BC).</latex> Площа трапеції дорівнює <latex>42.</latex> Визначте <i>абсцису</i> вершини <latex>D</latex>, якщо <latex>A(-1; 3)</latex>, <latex>B(1; 6)</latex>, <latex>C(7; 6).</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "21",
+   "correct": [
+    "21"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині. Геометричні величини та їх вимірювання. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання прямокутної системи координат на площині, координати точки, формули площі трапеції.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/142/14264/ds-ds-math-2018-new-30.png\" style=\"height: auto;\" width=\"686\"/>\n</div>\n<p>\r\n Позначимо задані точки на координатній площині.\r\n </p>\n<p>\r\n Задано трапеція <latex>ABCD.</latex> Точки <latex>B</latex> та <latex>C</latex> мають однакову ординату, тому пряма <latex>BC</latex> паралельна осі <latex>Ox.</latex>\n</p>\n<p>\n<latex>BC\\ ||\\ AD</latex>, тому точка <latex>D</latex> має з точкою <latex>A</latex> однакову ординату <latex>y=3.</latex> Площа трапеції <latex>42</latex>, тому\r\n <latex display=\"block\">$$\r\n S=\\frac{BC+AD}{2}\\cdot h,\r\n$$</latex>\r\n де <latex>h</latex> – висота трапеції, складемо рівняння.\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n BC=6,\\\\[7pt]\r\n h=BK=3,\\\\[7pt]\r\n S=42,\\\\[6pt]\r\n \\frac{6+AD}{2}\\cdot 3=42,\r\n \\end{gather*}</latex>\n<p>\r\n звідси <latex>AD=22.</latex>\n</p>\n<p>\r\n Так як точка <latex>A</latex> має абсцису <latex>-1</latex>, то точка <latex>D</latex> буде мати абсцису <latex>21.</latex>\n</p>\n<p><strong>Відповідь: <latex>21.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині. Геометричні величини та їх вимірювання. \r\n Це завдання перевіряє знання прямокутної системи координат на площині, координати точки, формули площі трапеції.\r\n Позначимо задані точки на координатній площині.\r\n Задано трапеція ABCD. Точки B та C мають однакову ординату, тому пряма BC паралельна осі Ox. \n BC\\ ||\\ AD , тому точка D має з точкою A однакову ординату y=3. Площа трапеції 42 , тому\r\n $$\r\n S=\\frac{BC+AD}{2}\\cdot h,\r\n$$ \r\n де h – висота трапеції, складемо рівняння.\r\n \\begin{gather*}\r\n BC=6,\\\\[7pt]\r\n h=BK=3,\\\\[7pt]\r\n S=42,\\\\[6pt]\r\n \\frac{6+AD}{2}\\cdot 3=42,\r\n \\end{gather*} \n звідси AD=22. \n Так як точка A має абсцису -1 , то точка D буде мати абсцису 21. \n Відповідь: 21.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині. Геометричні величини та їх вимірювання.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/142/14264/ds-ds-math-2018-new-30.png"
+   ],
+   "text": "У прямокутній системі координат на площині задано трапецію ABCD (AD\\ ||\\ BC , AD\\gt BC). Площа трапеції дорівнює 42. Визначте абсцису вершини D , якщо A(-1; 3) , B(1; 6) , C(7; 6).",
+   "latex": [
+    "ABCD",
+    "(AD\\ ||\\ BC",
+    "AD\\gt BC).",
+    "42.",
+    "D",
+    "A(-1; 3)",
+    "B(1; 6)",
+    "C(7; 6)."
+   ],
+   "source_test": 290,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 14337,
+   "tip": 8,
+   "out_order": 28,
+   "type": "short_answer",
+   "question_html": "<p>Визначте кут між векторами <latex>\\vec{a}</latex> і <latex>\\vec{b}+\\vec{c}</latex> у градусах, якщо відомо, що <latex>\\vec{a}(2;2)</latex>, <latex>\\vec{b}(2;4)</latex> і <latex>\\vec{c}(-2;-6)</latex>.</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "135",
+   "correct": [
+    "135"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Вектори і координати на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання поняття вектора, уміння виконувати дії з векторами, знаходити кут між векторами.\r\n </p>\n<p>\r\n Кут між векторами знайдемо за формулою:\r\n </p>\n<latex>\\begin{gather*}\r\n \\cos \\varphi = \\frac{\\vec a \\cdot (\\vec b + \\vec c)}{|\\vec a| \\cdot |\\vec b + \\vec c|},\r\n \\end{gather*}</latex>\n<p>\r\n де <latex>\\varphi</latex> – кут між векторами.\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n \\vec a \\cdot (\\vec b + \\vec c) = 2 \\cdot (2 + (-2)) + 2 \\cdot (4 + (-6))= 2 \\cdot 0 + 2 \\cdot (-2) = -4;\\\\[7pt]\r\n |\\vec a| = \\sqrt{2^2 + 2^2} = 2\\sqrt{2};\\\\[7pt]\r\n |\\vec b + \\vec c| = \\sqrt{(2 + (-2))^2 + (4 + (-6))^2} = 2;\\\\[6pt]\r\n \\cos \\varphi = \\frac{-4}{2\\sqrt{2} \\cdot 2} = -\\frac{1}{\\sqrt{2}}= -\\frac{\\sqrt{2}}{2};\\\\[7pt]\r\n \\varphi = 135^\\circ.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: <latex>135.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Вектори і координати на площині.\r\n Це завдання перевіряє знання поняття вектора, уміння виконувати дії з векторами, знаходити кут між векторами.\r\n Кут між векторами знайдемо за формулою:\r\n \\begin{gather*}\r\n \\cos \\varphi = \\frac{\\vec a \\cdot (\\vec b + \\vec c)}{|\\vec a| \\cdot |\\vec b + \\vec c|},\r\n \\end{gather*} \n де \\varphi – кут між векторами.\r\n \\begin{gather*}\r\n \\vec a \\cdot (\\vec b + \\vec c) = 2 \\cdot (2 + (-2)) + 2 \\cdot (4 + (-6))= 2 \\cdot 0 + 2 \\cdot (-2) = -4;\\\\[7pt]\r\n |\\vec a| = \\sqrt{2^2 + 2^2} = 2\\sqrt{2};\\\\[7pt]\r\n |\\vec b + \\vec c| = \\sqrt{(2 + (-2))^2 + (4 + (-6))^2} = 2;\\\\[6pt]\r\n \\cos \\varphi = \\frac{-4}{2\\sqrt{2} \\cdot 2} = -\\frac{1}{\\sqrt{2}}= -\\frac{\\sqrt{2}}{2};\\\\[7pt]\r\n \\varphi = 135^\\circ.\r\n \\end{gather*} \n Відповідь: 135.",
+   "topic": "Геометрія. Планіметрія. Вектори і координати на площині.",
+   "images": [],
+   "text": "Визначте кут між векторами \\vec{a} і \\vec{b}+\\vec{c} у градусах, якщо відомо, що \\vec{a}(2;2) , \\vec{b}(2;4) і \\vec{c}(-2;-6) .",
+   "latex": [
+    "\\vec{a}",
+    "\\vec{b}+\\vec{c}",
+    "\\vec{a}(2;2)",
+    "\\vec{b}(2;4)",
+    "\\vec{c}(-2;-6)"
+   ],
+   "source_test": 292,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 14555,
+   "tip": 8,
+   "out_order": 29,
+   "type": "short_answer",
+   "question_html": "<p>Сторона рівностороннього трикутника <latex>ABC</latex> дорівнює <latex>5</latex> см. Знайдіть скалярний добуток <latex>\\overrightarrow{AB}\\cdot\\overrightarrow{AC}</latex>.</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "12.5",
+   "correct": [
+    "12.5"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Вектори. \r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння знаходити скалярний добуток векторів.\r\n </p>\n<latex>\\begin{gather*}\r\n AB=BC=AC=5\\ \\text{см}.\\\\[7pt]\r\n \\overrightarrow{AB}\\cdot \\overrightarrow{AC}=|\\overrightarrow{AB}|\\cdot |\\overrightarrow{AC}|\\cdot \\cos A.\r\n \\end{gather*}</latex>\n<p>\n<latex>|\\overrightarrow{AB}|=|\\overrightarrow{AC}|=5</latex> (довжина вектора).\r\n </p>\n<p>\n<latex>\\Delta ABC</latex> рівносторонній, отже<latex>\\angle A=\\angle B=\\angle C=60^\\circ.</latex>\n</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n \\overrightarrow{AB}\\cdot \\overrightarrow{AC}=5\\cdot 5\\cdot \\cos 60^\\circ=25\\cdot \\frac 12=12{,}5.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: <latex>12{,}5.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Вектори. \r\n Це завдання перевіряє вміння знаходити скалярний добуток векторів.\r\n \\begin{gather*}\r\n AB=BC=AC=5\\ \\text{см}.\\\\[7pt]\r\n \\overrightarrow{AB}\\cdot \\overrightarrow{AC}=|\\overrightarrow{AB}|\\cdot |\\overrightarrow{AC}|\\cdot \\cos A.\r\n \\end{gather*} \n |\\overrightarrow{AB}|=|\\overrightarrow{AC}|=5 (довжина вектора).\r\n \\Delta ABC рівносторонній, отже \\angle A=\\angle B=\\angle C=60^\\circ. \n \\begin{gather*}\r\n \\overrightarrow{AB}\\cdot \\overrightarrow{AC}=5\\cdot 5\\cdot \\cos 60^\\circ=25\\cdot \\frac 12=12{,}5.\r\n \\end{gather*} \n Відповідь: 12{,}5.",
+   "topic": "Геометрія. Планіметрія. Вектори.",
+   "images": [],
+   "text": "Сторона рівностороннього трикутника ABC дорівнює 5 см. Знайдіть скалярний добуток \\overrightarrow{AB}\\cdot\\overrightarrow{AC} .",
+   "latex": [
+    "ABC",
+    "5",
+    "\\overrightarrow{AB}\\cdot\\overrightarrow{AC}"
+   ],
+   "source_test": 296,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 14625,
+   "tip": 8,
+   "out_order": 30,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У прямокутній системі координат нa площині задано колінеарні вектори <latex>\\overrightarrow{AB}</latex> тa <latex>\\overrightarrow{a}(3; -5).</latex> Визначте <i>абсцису</i> точки <latex>B</latex>, якщо <latex>A(-4; 1)</latex>, a точка <latex>B</latex> лежить нa прямій <latex>y=3.</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "-5.2",
+   "correct": [
+    "-5.2"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Планіметрія. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання поняття колінеарних векторів, координат вектора, уміння застосовувати вектори до розв'язування планіметричних задач.\r\n </p>\n<p>\r\n За умовою задачі, <latex>\\overrightarrow{AB}\\ ||\\ \\overrightarrow{a}.</latex>\n</p>\n<p>\r\n Нехай абсциса точки <latex>B</latex> буде <latex>x</latex>, тоді точка <latex>B(x; 3).</latex> Ордината дорівнює <latex>3</latex> тому, що точка <latex>B</latex> лежить на прямій <latex>y=3.</latex>\n</p>\n<latex display=\"block\">\\begin{gather*}\r\n \\overrightarrow{AB}(x+4; 2),\\\\[7pt]\r\n \\overrightarrow{a}(3; -5).\r\n \\end{gather*}</latex>\n<p>\r\n У колінеарних векторів відповідні координати пропорційні, тому\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n \\frac{x+4}{3}=\\frac{2}{-5},\\\\[6pt]\r\n -5(x+4)=2\\cdot 3,\\\\[7pt]\r\n -5x-20=6,\\\\[7pt]\r\n -5x=26,\\\\[7pt]\r\n x=-5\\mathord{,}2.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>-5\\mathord{,}2.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Планіметрія. Координати та вектори на площині.\r\n Це завдання перевіряє знання поняття колінеарних векторів, координат вектора, уміння застосовувати вектори до розв'язування планіметричних задач.\r\n За умовою задачі, \\overrightarrow{AB}\\ ||\\ \\overrightarrow{a}. \n Нехай абсциса точки B буде x , тоді точка B(x; 3). Ордината дорівнює 3 тому, що точка B лежить на прямій y=3. \n \\begin{gather*}\r\n \\overrightarrow{AB}(x+4; 2),\\\\[7pt]\r\n \\overrightarrow{a}(3; -5).\r\n \\end{gather*} \n У колінеарних векторів відповідні координати пропорційні, тому\r\n \\begin{gather*}\r\n \\frac{x+4}{3}=\\frac{2}{-5},\\\\[6pt]\r\n -5(x+4)=2\\cdot 3,\\\\[7pt]\r\n -5x-20=6,\\\\[7pt]\r\n -5x=26,\\\\[7pt]\r\n x=-5\\mathord{,}2.\r\n \\end{gather*} \n Відповідь: -5\\mathord{,}2.",
+   "topic": "Планіметрія. Координати та вектори на площині.",
+   "images": [],
+   "text": "У прямокутній системі координат нa площині задано колінеарні вектори \\overrightarrow{AB} тa \\overrightarrow{a}(3; -5). Визначте абсцису точки B , якщо A(-4; 1) , a точка B лежить нa прямій y=3.",
+   "latex": [
+    "\\overrightarrow{AB}",
+    "\\overrightarrow{a}(3; -5).",
+    "B",
+    "A(-4; 1)",
+    "B",
+    "y=3."
+   ],
+   "source_test": 298,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 16627,
+   "tip": 8,
+   "out_order": 31,
+   "type": "short_answer",
+   "question_html": "<p>\r\n На колі із центром <latex>O</latex>, яке задано рівнянням <latex>x^2+y^2=80</latex>, вибрано точку <span style=\"white-space:nowrap\"><latex>M(x_0; y_0)</latex>,</span> так, що вектор <latex>\\overrightarrow{OM}</latex> перпендикулярний до вектора <latex>\\overrightarrow{a} (–2; 1).</latex> Визначте <i>абсцису</i> <latex>x_0</latex> точки <latex>M</latex>, якщо <latex>x_0\\lt 0.</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "-4",
+   "correct": [
+    "-4"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Планіметрія. Координати і вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння виконувати дії з векторами, знаходити скалярний добуток, координати вектора.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/166/16627/ds-pr-math-2019-new-30.png\" style=\"height: auto;\" width=\"291\"/>\n</div>\n<p>\r\n Коло із центром в точці <latex>O</latex> задано рівнянням <latex>x^2+y^2=80.</latex>\n</p>\n<p>\n<latex>M(x_0; y_0)</latex> лежить на колі, тому <latex>x_0^2+y_0^2=80.</latex>\n</p>\n<p>\n<latex>O(0; 0)</latex>, <latex>M(x_0; y_0)</latex> отже, <latex>\\overrightarrow{OM}(x_0; y_0).</latex>\n</p>\n<p>\r\n За умовою <latex>\\overrightarrow{a}\\ \\perp\\ \\overrightarrow{OM}</latex>, тому <latex>\\overrightarrow{a}\\cdot \\overrightarrow{OM}=0</latex>, <latex>\\overrightarrow{a}(-2; 1)</latex>, <latex>-2x_0+1\\cdot y_0=0.</latex>\n</p>\n<p>\r\n Складемо систему рівнянь:\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n \\left\\{\\begin{array}{l}\r\n x_0^2+y_0^2=80,\\\\\r\n -2x_0+y_0=0,\r\n \\end{array}\\right.\\ \\ \r\n \\left\\{\\begin{array}{l}\r\n 4x_0^2+x_0^2=80,\\\\\r\n y_0=2x_0,\r\n \\end{array}\\right.\\ \\ \r\n \\\\[7pt]\r\n \\left\\{\\begin{array}{l}\r\n x_0^2=16,\\\\\r\n y_0=2x_0.\r\n \\end{array}\\right.\\\\[7pt]\r\n x_0^2=16,\\ \\ x_0=\\pm 4.\r\n \\end{gather*}</latex>\n<p>\r\n За умовою <latex>x_0\\lt 0</latex>, а отже, <latex>x_0=-4.</latex>\n</p>\n<p><strong>Відповідь: <latex>-4.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Планіметрія. Координати і вектори на площині.\r\n Це завдання перевіряє вміння виконувати дії з векторами, знаходити скалярний добуток, координати вектора.\r\n Коло із центром в точці O задано рівнянням x^2+y^2=80. \n M(x_0; y_0) лежить на колі, тому x_0^2+y_0^2=80. \n O(0; 0) , M(x_0; y_0) отже, \\overrightarrow{OM}(x_0; y_0). \n За умовою \\overrightarrow{a}\\ \\perp\\ \\overrightarrow{OM} , тому \\overrightarrow{a}\\cdot \\overrightarrow{OM}=0 , \\overrightarrow{a}(-2; 1) , -2x_0+1\\cdot y_0=0. \n Складемо систему рівнянь:\r\n \\begin{gather*}\r\n \\left\\{\\begin{array}{l}\r\n x_0^2+y_0^2=80,\\\\\r\n -2x_0+y_0=0,\r\n \\end{array}\\right.\\ \\ \r\n \\left\\{\\begin{array}{l}\r\n 4x_0^2+x_0^2=80,\\\\\r\n y_0=2x_0,\r\n \\end{array}\\right.\\ \\ \r\n \\\\[7pt]\r\n \\left\\{\\begin{array}{l}\r\n x_0^2=16,\\\\\r\n y_0=2x_0.\r\n \\end{array}\\right.\\\\[7pt]\r\n x_0^2=16,\\ \\ x_0=\\pm 4.\r\n \\end{gather*} \n За умовою x_0\\lt 0 , а отже, x_0=-4. \n Відповідь: -4.",
+   "topic": "Планіметрія. Координати і вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/166/16627/ds-pr-math-2019-new-30.png"
+   ],
+   "text": "На колі із центром O , яке задано рівнянням x^2+y^2=80 , вибрано точку M(x_0; y_0) , так, що вектор \\overrightarrow{OM} перпендикулярний до вектора \\overrightarrow{a} (–2; 1). Визначте абсцису x_0 точки M , якщо x_0\\lt 0.",
+   "latex": [
+    "O",
+    "x^2+y^2=80",
+    "M(x_0; y_0)",
+    "\\overrightarrow{OM}",
+    "\\overrightarrow{a} (–2; 1).",
+    "x_0",
+    "M",
+    "x_0\\lt 0."
+   ],
+   "source_test": 337,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 17090,
+   "tip": 8,
+   "out_order": 32,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У прямокутній системі координат на площині <latex>xy</latex> задано прямокутний трикутник <latex>ACB\\ (\\angle C=90^\\circ).</latex> Коло з центром у точці <latex>A</latex>, задане рівнянням <latex>(x+3)^2+y^2-4y=21</latex>, проходить через вершину <latex>C.</latex> Сторона <latex>AC</latex> паралельна осі <latex>y</latex>, довжина сторони <latex>BC</latex> втричі більша за довжину сторони <latex>AC.</latex> Визначте координати вершини <latex>B(x_B; y_B)</latex>, якщо вона лежить у першій координатній чверті. У відповідь запишіть суму <latex>x_B+y_B.</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "19",
+   "correct": [
+    "19"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/>\n<p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Коло та круг. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання про коло, круг та їхні елементи, прямокутну систему координат; уміння застосовувати координати до розв'язування планіметричних задач.\r\n </p>\n<p>\r\n Рівняння кола зведемо до стандартного вигляду:\r\n <latex display=\"block\">\\begin{gather*}\r\n (x+3)^2+y^2-4y=21,\\\\[7pt]\r\n (x+3)^2+y^2-4y+4=25,\\\\[7pt]\r\n (x+3)^2+(y-2)^2=25.\r\n \\end{gather*}</latex>\n</p>\n<p>\r\n Коло з центром у точці <latex>A(-3; 2)</latex> та радіусом <latex>5.\\ 3AC=BC.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/170/17090/ds-os-math-2019-new-30.png\" style=\"height: auto;\" width=\"500\"/>\n</div>\n<p>\n<latex>AC\\ ||\\ Oy</latex>, тому <latex>x_c=-3</latex>.<br/>\n<latex>AC=5</latex>, <latex>y_c=7.</latex> Отже, <latex>C(-3; 7).</latex>\n</p>\n<p>\n<latex>\\Delta ACB,</latex> <latex>\\angle C=90^\\circ</latex>, <latex>BC\\ ||\\ Ox</latex>, <latex>BC=3AC=15.</latex><br/>\r\n Отже, <latex>x_\\text{в}=12</latex>, <latex>y_\\text{в}=7.</latex><br/>\n<latex>B(12; 7)</latex>, <latex>12+7=19.</latex>\n</p>\n<p><strong>Відповідь: <latex>19.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Коло та круг. Координати та вектори на площині.\r\n Це завдання перевіряє знання про коло, круг та їхні елементи, прямокутну систему координат; уміння застосовувати координати до розв'язування планіметричних задач.\r\n Рівняння кола зведемо до стандартного вигляду:\r\n \\begin{gather*}\r\n (x+3)^2+y^2-4y=21,\\\\[7pt]\r\n (x+3)^2+y^2-4y+4=25,\\\\[7pt]\r\n (x+3)^2+(y-2)^2=25.\r\n \\end{gather*} \n Коло з центром у точці A(-3; 2) та радіусом 5.\\ 3AC=BC. \n AC\\ ||\\ Oy , тому x_c=-3 .\n AC=5 , y_c=7. Отже, C(-3; 7). \n \\Delta ACB, \\angle C=90^\\circ , BC\\ ||\\ Ox , BC=3AC=15. \n Отже, x_\\text{в}=12 , y_\\text{в}=7. \n B(12; 7) , 12+7=19. \n Відповідь: 19.",
+   "topic": "Геометрія. Планіметрія. Коло та круг. Координати та вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/170/17090/ds-os-math-2019-new-30.png"
+   ],
+   "text": "У прямокутній системі координат на площині xy задано прямокутний трикутник ACB\\ (\\angle C=90^\\circ). Коло з центром у точці A , задане рівнянням (x+3)^2+y^2-4y=21 , проходить через вершину C. Сторона AC паралельна осі y , довжина сторони BC втричі більша за довжину сторони AC. Визначте координати вершини B(x_B; y_B) , якщо вона лежить у першій координатній чверті. У відповідь запишіть суму x_B+y_B.",
+   "latex": [
+    "xy",
+    "ACB\\ (\\angle C=90^\\circ).",
+    "A",
+    "(x+3)^2+y^2-4y=21",
+    "C.",
+    "AC",
+    "y",
+    "BC",
+    "AC.",
+    "B(x_B; y_B)",
+    "x_B+y_B."
+   ],
+   "source_test": 346,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 17671,
+   "tip": 8,
+   "out_order": 33,
+   "type": "short_answer",
+   "question_html": "<p>\r\n Центр кола, заданого рівнянням <latex>x^2-8x+y^2+7=0</latex>, збігається з точкою перетину діагоналей <latex>AC</latex> і <latex>BD</latex> паралелограма <latex>ABCD.</latex> Обчисліть площу цього паралелограма, якщо <latex>A(-4; -3)</latex> i <latex>B(0; 3).</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "72",
+   "correct": [
+    "72"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння знаходити координати середини відрізка, виконувати дії з векторами, знаходити скалярний добуток векторів.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/176/17671/ds-ds-math-2019-new-30.png\" style=\"height: auto;\" width=\"452\"/>\n</div>\n<p>\r\n Запишемо рівняння кола у вигляді:\r\n </p>\n<p>\n<latex>(x-a)^2+(y-b)^2=R^2</latex>, де <latex>(a; b)</latex> – центр кола, <latex>R</latex> – радіус.<br/>\n<latex>(x^2-8x+16)+y^2-16+7=0</latex>,<br/>\n<latex>(x-4)^2+y^2=9</latex>, <latex>O(4; 0)</latex> – центр кола.\r\n </p>\n<p>\r\n За формулою знаходження координат середини відрізка знаходимо координати точки <latex>D:</latex>\n</p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n x_O=\\frac{x_B+x_D}{2};\\ \\ x_D=2x_O-x_B=2\\cdot 4-0=8;\\\\[6pt]\r\n y_O=\\frac{y_B+y_D}{2};\\ \\ y_D=2y_O-y_B=2\\cdot 0-3=-3;\\\\[6pt]\r\n D(8; -3).\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n Знайдемо координати векторів <latex>\\overline{AB}</latex> та <latex>\\overline{AD}:</latex>\n</p>\n<p>\n<latex>\\overline{AB}(0-(-4); 3-(-3))</latex>, <latex>\\overline{AB}(4; 6)</latex>, <latex>\\overline{AD}(12; 0).</latex>\n</p>\n<p>\r\n Знайдемо довжини векторів:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n |\\overline{AB}|=\\sqrt{4^2+6^2}=\\sqrt{16+36}=\\sqrt{52}=2\\sqrt{13}.\\\\[7pt]\r\n |\\overline{AD}|=\\sqrt{12^{2}+0^2}=12.\\\\[6pt]\r\n \\cos A=\\frac{\\overline{AB}\\cdot \\overline{AD}}{|\\overline{AB}|\\cdot |\\overline{AD}|}=\\frac{4\\cdot 12+6\\cdot 0}{2\\sqrt{13}\\cdot 12}=\\frac{48}{24\\sqrt{13}}=\\frac{2}{\\sqrt{13}}.\\\\[6pt]\r\n \\sin A=\\sqrt{1-\\cos^2A}=\\sqrt{1-\\frac{4}{13}}=\\sqrt{\\frac{9}{13}}=\\frac{3}{\\sqrt{13}}.\\\\[6pt]\r\n S_{ABCD}=AB\\cdot AD\\cdot \\sin A=2\\sqrt{13}\\cdot 12\\cdot \\frac{3}{\\sqrt{13}}=72.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: <latex>72.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n Це завдання перевіряє вміння знаходити координати середини відрізка, виконувати дії з векторами, знаходити скалярний добуток векторів.\r\n Запишемо рівняння кола у вигляді:\r\n (x-a)^2+(y-b)^2=R^2 , де (a; b) – центр кола, R – радіус.\n (x^2-8x+16)+y^2-16+7=0 ,\n (x-4)^2+y^2=9 , O(4; 0) – центр кола.\r\n За формулою знаходження координат середини відрізка знаходимо координати точки D: \n \\begin{gather*}\r\n x_O=\\frac{x_B+x_D}{2};\\ \\ x_D=2x_O-x_B=2\\cdot 4-0=8;\\\\[6pt]\r\n y_O=\\frac{y_B+y_D}{2};\\ \\ y_D=2y_O-y_B=2\\cdot 0-3=-3;\\\\[6pt]\r\n D(8; -3).\r\n \\end{gather*} \n Знайдемо координати векторів \\overline{AB} та \\overline{AD}: \n \\overline{AB}(0-(-4); 3-(-3)) , \\overline{AB}(4; 6) , \\overline{AD}(12; 0). \n Знайдемо довжини векторів:\r\n \\begin{gather*}\r\n |\\overline{AB}|=\\sqrt{4^2+6^2}=\\sqrt{16+36}=\\sqrt{52}=2\\sqrt{13}.\\\\[7pt]\r\n |\\overline{AD}|=\\sqrt{12^{2}+0^2}=12.\\\\[6pt]\r\n \\cos A=\\frac{\\overline{AB}\\cdot \\overline{AD}}{|\\overline{AB}|\\cdot |\\overline{AD}|}=\\frac{4\\cdot 12+6\\cdot 0}{2\\sqrt{13}\\cdot 12}=\\frac{48}{24\\sqrt{13}}=\\frac{2}{\\sqrt{13}}.\\\\[6pt]\r\n \\sin A=\\sqrt{1-\\cos^2A}=\\sqrt{1-\\frac{4}{13}}=\\sqrt{\\frac{9}{13}}=\\frac{3}{\\sqrt{13}}.\\\\[6pt]\r\n S_{ABCD}=AB\\cdot AD\\cdot \\sin A=2\\sqrt{13}\\cdot 12\\cdot \\frac{3}{\\sqrt{13}}=72.\r\n \\end{gather*} \n Відповідь: 72.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/176/17671/ds-ds-math-2019-new-30.png"
+   ],
+   "text": "Центр кола, заданого рівнянням x^2-8x+y^2+7=0 , збігається з точкою перетину діагоналей AC і BD паралелограма ABCD. Обчисліть площу цього паралелограма, якщо A(-4; -3) i B(0; 3).",
+   "latex": [
+    "x^2-8x+y^2+7=0",
+    "AC",
+    "BD",
+    "ABCD.",
+    "A(-4; -3)",
+    "B(0; 3)."
+   ],
+   "source_test": 357,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 19517,
+   "tip": 8,
+   "out_order": 34,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У прямокутній системі координат <latex>xy</latex> на площині задано рівнобедрений трикутник <latex>ACB</latex>, у якому <latex>AC=BC</latex>, <latex>A(2; -5)</latex>, <latex>B(4; 3).</latex> Навколо цього трикутника описано коло, задане рівнянням <latex>(x-3)^2+y^2+2y=16.</latex> Визначте площу трикутника <latex>ABC</latex>.\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "17",
+   "correct": [
+    "17"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Коло та круг. Трикутники. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє вміння знаходити координати середини відрізка, складати рівняння кола, застосовувати властивості прямокутного трикутника, використовувати формули площі трикутника.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/195/19517/ds-pr-math-2020-new-32.png\" style=\"height: auto;\" width=\"225\"/>\n</div>\n<p>\r\n Коло задане рівнянням <latex>(x-3)^2+y^2+2y=16.</latex>\n</p>\n<p>\r\n Запишемо у стандартному вигляді<br/>\n<latex>(x-a)^2+(y-b)^2=R^2</latex>, де <latex>(a; b)</latex> – центр кола, <latex>R</latex> – радіус<br/>\n<latex>(x-3)^2+y^2+2y+1=16+1</latex><br/>\n<latex>(x-3)^2+(y+1)^2=17.</latex><br/>\n<latex>(3; -1)</latex> – центр кола, <latex>R=\\sqrt{17}.</latex>\n</p>\n<p>\r\n Точка <latex>A(2; -5)</latex>, <latex>B(4; 3).</latex> Центр кола <latex>O(3; -1)</latex> є серединою відрізка <latex>AB</latex>\n<latex display=\"block\">$$\r\n x=\\frac{2+4}{2}=3;\\ \\ y=\\frac{-5+3}{2}=-1.\r\n$$</latex>\n</p>\n<p>\r\n Отже, <latex>\\Delta ABC</latex> – рівнобедрений прямокутний з гіпотенузою <latex>AB=2\\sqrt{17}.</latex>\n</p>\n<p>\r\n Висота, проведена до гіпотенузи, – медіана та радіус описаного кола.\r\n </p>\n<p>\r\n Отже, <latex>S_{ABC}=\\frac 12 AB\\cdot OC</latex>, <latex>OC=R=\\sqrt{17}.</latex>\n</p>\n<p>\n<latex>S_{ABC}=\\frac 12\\cdot 2\\sqrt{17}\\cdot \\sqrt{17}=17.</latex>\n</p>\n<p><strong>Відповідь: <latex>17.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Коло та круг. Трикутники. Координати та вектори на площині.\r\n Завдання перевіряє вміння знаходити координати середини відрізка, складати рівняння кола, застосовувати властивості прямокутного трикутника, використовувати формули площі трикутника.\r\n Коло задане рівнянням (x-3)^2+y^2+2y=16. \n Запишемо у стандартному вигляді\n (x-a)^2+(y-b)^2=R^2 , де (a; b) – центр кола, R – радіус\n (x-3)^2+y^2+2y+1=16+1 \n (x-3)^2+(y+1)^2=17. \n (3; -1) – центр кола, R=\\sqrt{17}. \n Точка A(2; -5) , B(4; 3). Центр кола O(3; -1) є серединою відрізка AB \n $$\r\n x=\\frac{2+4}{2}=3;\\ \\ y=\\frac{-5+3}{2}=-1.\r\n$$ \n Отже, \\Delta ABC – рівнобедрений прямокутний з гіпотенузою AB=2\\sqrt{17}. \n Висота, проведена до гіпотенузи, – медіана та радіус описаного кола.\r\n Отже, S_{ABC}=\\frac 12 AB\\cdot OC , OC=R=\\sqrt{17}. \n S_{ABC}=\\frac 12\\cdot 2\\sqrt{17}\\cdot \\sqrt{17}=17. \n Відповідь: 17.",
+   "topic": "Геометрія. Планіметрія. Коло та круг. Трикутники. Координати та вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/195/19517/ds-pr-math-2020-new-32.png"
+   ],
+   "text": "У прямокутній системі координат xy на площині задано рівнобедрений трикутник ACB , у якому AC=BC , A(2; -5) , B(4; 3). Навколо цього трикутника описано коло, задане рівнянням (x-3)^2+y^2+2y=16. Визначте площу трикутника ABC .",
+   "latex": [
+    "xy",
+    "ACB",
+    "AC=BC",
+    "A(2; -5)",
+    "B(4; 3).",
+    "(x-3)^2+y^2+2y=16.",
+    "ABC"
+   ],
+   "source_test": 390,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 19976,
+   "tip": 8,
+   "out_order": 35,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У прямокутній системі координат <latex>xy</latex> на площині коло задано рівнянням\r\n <latex>x^2-4x+y^2+12y=9.</latex> Центр <latex>O</latex> цього кола збігається з точкою перетину діагоналей паралелограма <latex>ABCD.</latex> Визначте координати вершини <latex>C(x_\\text{C}; y_\\text{C})</latex>, якщо вектор <latex>\\overrightarrow{OA}(-1; 2).</latex> У відповіді запишіть <i>добуток</i> <latex>x_\\text{C}\\cdot y_\\text{C}.</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "-24",
+   "correct": [
+    "-24"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє знання властивості рівних векторів, координат вектора; уміння складати рівняння кола, знаходити координати середини відрізка.\r\n </p>\n<p>\r\n Коло задано рівнянням\r\n <latex display=\"block\">$$\r\n x^2-4x+y^2+12y=9.\r\n$$</latex>\n</p>\n<p>\r\n Запишемо в стандартному вигляді:\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n (x^2-4x+4)-4+(y^2+12y+36)-36=9,\\\\[7pt]\r\n (x-2)^2+(y+6)^2=49.\r\n \\end{gather*}</latex>\n<p>\r\n Точка <latex>O(2; -6)</latex> – центр кола, <latex>R=7.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/199/19976/ds-os-math-2020-new-32.png\" style=\"height: auto;\" width=\"265\"/>\n</div>\n<p>\r\n Нехай точка <latex>A(x_\\text{A}; y_\\text{A})</latex>, <latex>\\overrightarrow{OA}(x_\\text{A}-2; y_\\text{A}+6)</latex>, <latex>\\overrightarrow{OA}(-1; 2).</latex>\n</p>\n<p>\r\n Отже,\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n x_\\text{A}-2=-1,\\ \\ x_\\text{A}=1,\\\\[7pt]\r\n y_\\text{A}+6=2,\\ \\ y_\\text{A}=-4,\\\\[7pt]\r\n A(1; -4).\r\n \\end{gather*}</latex>\n<p>\r\n Точка <latex>O</latex> середина відрізка <latex>AC.</latex>\n</p>\n<p>\r\n За формулами\r\n <latex display=\"block\">$$\r\n x=\\frac{x_1+x_2}{2},\\ \\ y=\\frac{y_1+y_2}{2}\r\n$$</latex>\r\n знаходимо координати точки <latex>C:</latex>\n</p>\n<latex display=\"block\">\\begin{gather*}\r\n x_0=\\frac{x_\\text{A}+x_\\text{C}}{2},\\ \\ x_\\text{C}=2x_0-x_A=2\\cdot 2-1=3,\\\\[7pt]\r\n y_0=\\frac{y_\\text{A}+y_\\text{C}}{2},\\ \\ y_\\text{C}=2y_0-y_\\text{A}=2\\cdot (-6)+4=-8,\\\\[7pt]\r\n x_\\text{C}\\cdot y_\\text{C}=3\\cdot (-8)=-24.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>-24.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n Завдання перевіряє знання властивості рівних векторів, координат вектора; уміння складати рівняння кола, знаходити координати середини відрізка.\r\n Коло задано рівнянням\r\n $$\r\n x^2-4x+y^2+12y=9.\r\n$$ \n Запишемо в стандартному вигляді:\r\n \\begin{gather*}\r\n (x^2-4x+4)-4+(y^2+12y+36)-36=9,\\\\[7pt]\r\n (x-2)^2+(y+6)^2=49.\r\n \\end{gather*} \n Точка O(2; -6) – центр кола, R=7. \n Нехай точка A(x_\\text{A}; y_\\text{A}) , \\overrightarrow{OA}(x_\\text{A}-2; y_\\text{A}+6) , \\overrightarrow{OA}(-1; 2). \n Отже,\r\n \\begin{gather*}\r\n x_\\text{A}-2=-1,\\ \\ x_\\text{A}=1,\\\\[7pt]\r\n y_\\text{A}+6=2,\\ \\ y_\\text{A}=-4,\\\\[7pt]\r\n A(1; -4).\r\n \\end{gather*} \n Точка O середина відрізка AC. \n За формулами\r\n $$\r\n x=\\frac{x_1+x_2}{2},\\ \\ y=\\frac{y_1+y_2}{2}\r\n$$ \r\n знаходимо координати точки C: \n \\begin{gather*}\r\n x_0=\\frac{x_\\text{A}+x_\\text{C}}{2},\\ \\ x_\\text{C}=2x_0-x_A=2\\cdot 2-1=3,\\\\[7pt]\r\n y_0=\\frac{y_\\text{A}+y_\\text{C}}{2},\\ \\ y_\\text{C}=2y_0-y_\\text{A}=2\\cdot (-6)+4=-8,\\\\[7pt]\r\n x_\\text{C}\\cdot y_\\text{C}=3\\cdot (-8)=-24.\r\n \\end{gather*} \n Відповідь: -24.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/199/19976/ds-os-math-2020-new-32.png"
+   ],
+   "text": "У прямокутній системі координат xy на площині коло задано рівнянням\r\n x^2-4x+y^2+12y=9. Центр O цього кола збігається з точкою перетину діагоналей паралелограма ABCD. Визначте координати вершини C(x_\\text{C}; y_\\text{C}) , якщо вектор \\overrightarrow{OA}(-1; 2). У відповіді запишіть добуток x_\\text{C}\\cdot y_\\text{C}.",
+   "latex": [
+    "xy",
+    "x^2-4x+y^2+12y=9.",
+    "O",
+    "ABCD.",
+    "C(x_\\text{C}; y_\\text{C})",
+    "\\overrightarrow{OA}(-1; 2).",
+    "x_\\text{C}\\cdot y_\\text{C}."
+   ],
+   "source_test": 400,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 21238,
+   "tip": 8,
+   "out_order": 36,
+   "type": "short_answer",
+   "question_html": "<p>\r\n У прямокутній системі координат <latex>xy</latex> на площині задано рівнобедрений трикутник <latex>ABC</latex>, у якому <latex>AB=BC.</latex> Вершина <latex>B</latex> лежить на прямій <latex>y=2x+9.</latex> Визначте площу трикутника <latex>ABC</latex>, якщо <latex>A(-6; -8)</latex>, <latex>C(4; -8).</latex>\n</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "75",
+   "correct": [
+    "75"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Трикутники. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє вміння застосовувати властивості рівнобедреного трикутника, знаходити площу трикутника.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/212/21238/ds-ds-math-2020-new-32.png\" style=\"height: auto;\" width=\"407\"/>\n</div>\n<p>\r\n Накреслимо трикутник <latex>ABC. AB=BC.</latex> Отже, точка <latex>B</latex> має абсцису <latex>-1.</latex> <latex>(AC=10).</latex> Нехай координати точки <latex>B(-1; y).</latex>\n</p>\n<p>\r\n Точка <latex>B</latex> лежить на прямій <latex>y=2x+9,</latex> тому <latex>y=2(-1)+9=7,</latex> <latex>B(-1; 7).</latex> <latex>BK\\perp AC.</latex> <latex>BK=15</latex> висота та медіана.\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n S_{ABC}=\\frac 12AC\\cdot BK=\\frac 12\\cdot 10\\cdot 15=75.\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: <latex>75.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Трикутники. Координати та вектори на площині.\r\n Завдання перевіряє вміння застосовувати властивості рівнобедреного трикутника, знаходити площу трикутника.\r\n Накреслимо трикутник ABC. AB=BC. Отже, точка B має абсцису -1. (AC=10). Нехай координати точки B(-1; y). \n Точка B лежить на прямій y=2x+9, тому y=2(-1)+9=7, B(-1; 7). BK\\perp AC. BK=15 висота та медіана.\r\n \\begin{gather*}\r\n S_{ABC}=\\frac 12AC\\cdot BK=\\frac 12\\cdot 10\\cdot 15=75.\r\n \\end{gather*} \n Відповідь: 75.",
+   "topic": "Геометрія. Планіметрія. Трикутники. Координати та вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/212/21238/ds-ds-math-2020-new-32.png"
+   ],
+   "text": "У прямокутній системі координат xy на площині задано рівнобедрений трикутник ABC , у якому AB=BC. Вершина B лежить на прямій y=2x+9. Визначте площу трикутника ABC , якщо A(-6; -8) , C(4; -8).",
+   "latex": [
+    "xy",
+    "ABC",
+    "AB=BC.",
+    "B",
+    "y=2x+9.",
+    "ABC",
+    "A(-6; -8)",
+    "C(4; -8)."
+   ],
+   "source_test": 425,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 26201,
+   "tip": 13,
+   "out_order": 37,
+   "type": "matching",
+   "question_html": "<p>На рисунку зображено відрізок <latex>d</latex> на координатній площині. Установіть відповідність між відрізком (1–3) та рисунком (А – Д), на якому він зображений.</p>\n<p><img alt=\"\" src=\"/doc/images/znotest/262/26201/math-demo-2023-18-0.png\" style=\"height: auto;\" width=\"328\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "відрізок, симетричний відрізку <latex>d</latex> відносно oсі <latex>x</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "відрізок, симетричний відрізку <latex>d</latex> відносно осі <latex>y</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "відрізок, симетричний відрізку <latex>d</latex> відносно точки <latex>O</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/262/26201/ansa_26201.png\"/>"
+    },
+    {
+     "marker": "Б",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/262/26201/ansb_26201.png\"/>"
+    },
+    {
+     "marker": "В",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/262/26201/ansc_26201.png\"/>"
+    },
+    {
+     "marker": "Г",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/262/26201/ansd_26201.png\"/>"
+    },
+    {
+     "marker": "Д",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/262/26201/anse_26201.png\"/>"
+    }
+   ],
+   "groups": [
+    {
+     "title": "Відрізок",
+     "answers": [
+      {
+       "marker": "",
+       "html": "відрізок, симетричний відрізку <latex>d</latex> відносно oсі <latex>x</latex>"
+      },
+      {
+       "marker": "",
+       "html": "відрізок, симетричний відрізку <latex>d</latex> відносно осі <latex>y</latex>"
+      },
+      {
+       "marker": "",
+       "html": "відрізок, симетричний відрізку <latex>d</latex> відносно точки <latex>O</latex>"
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/262/26201/ansa_26201.png\"/>"
+      },
+      {
+       "marker": "",
+       "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/262/26201/ansb_26201.png\"/>"
+      },
+      {
+       "marker": "",
+       "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/262/26201/ansc_26201.png\"/>"
+      },
+      {
+       "marker": "",
+       "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/262/26201/ansd_26201.png\"/>"
+      },
+      {
+       "marker": "",
+       "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/262/26201/anse_26201.png\"/>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td>\n</tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td>\n</tr>\n</table>",
+   "correct_raw": "1b;2d;3e",
+   "correct": [
+    "1b",
+    "2d",
+    "3e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Геометричні перетворення.\r\n </strong>\n</p>\n<p>\r\n Завдання перевіряє знання геометричних перетворень на площині: симетрії відносно прямої та точки.\r\n </p>\n<p>\n<b>1 – Б.</b> симетрія відносно осі <latex>x.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/262/26201/pr-multi-2023-18-01.png\" style=\"height: auto;\" width=\"178\"/>\n</div>\n<br/>\n<p>\n<b>2 – Г.</b> симетрія відносно осі <latex>y.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/262/26201/pr-multi-2023-18-02.png\" style=\"height: auto;\" width=\"183\"/>\n</div>\n<br/>\n<p>\n<b>3 – Д.</b> симетрія відносно точки <latex>O.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<imgalt src=\"/doc/images/znotest/262/26201/pr-multi-2023-18-03.png\" style=\"height: auto;\" width=\"181\">\n</imgalt></div>\n<br/>\n<p><strong>Відповідь: 1Б, 2Г, 3Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Геометричні перетворення.\r\n Завдання перевіряє знання геометричних перетворень на площині: симетрії відносно прямої та точки.\r\n 1 – Б. симетрія відносно осі x. \n 2 – Г. симетрія відносно осі y. \n 3 – Д. симетрія відносно точки O. \n Відповідь: 1Б, 2Г, 3Д.",
+   "topic": "Геометрія. Планіметрія. Геометричні перетворення.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/262/26201/math-demo-2023-18-0.png",
+    "https://zno.osvita.ua/doc/images/znotest/262/26201/pr-multi-2023-18-01.png",
+    "https://zno.osvita.ua/doc/images/znotest/262/26201/pr-multi-2023-18-02.png"
+   ],
+   "text": "На рисунку зображено відрізок d на координатній площині. Установіть відповідність між відрізком (1–3) та рисунком (А – Д), на якому він зображений.",
+   "latex": [
+    "d",
+    "d",
+    "x",
+    "d",
+    "y",
+    "d",
+    "O"
+   ],
+   "source_test": 523,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 35300,
+   "tip": 1,
+   "out_order": 38,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У прямокутній системі координат у просторі задано точки <latex>A(5; –4; 0)</latex> і <latex>B(7; 2; –2).</latex> Визначте координати точки <latex>C</latex>, яка симетрична до точки <latex>A</latex> відносно точки <latex>B.</latex>\n</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>(2; 6; -2)</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(12; -6; 2)</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>(9; 8; 4)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>(6; -1; -1)</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>(9; 8; -4)</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "e",
+   "correct": [
+    "e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Координати і вектори в просторі. Геометричні переміщення.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку вміння визначати координати середини відрізка, знання основних видів геометричних переміщень, зокрема симетрії відносно точки.\r\n </p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/353/35300/decide-8-variant-03.png\" style=\"height: auto;\" width=\"400\"/>\n</div>\n<p>\r\n Точка <latex>C</latex> симетрична точці <latex>A</latex> відносно точки <latex>B</latex>, якщо точки лежать на одній прямій і <latex>AB=BC.</latex>\n</p>\n<p>\r\n Скористаймося формулою визначення координат середини відрізка:\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n x=\\frac{x_1+x_2}{2},\\\\[6pt]\r\n y=\\frac{y_1+y_2}{2},\\\\[6pt]\r\n z=\\frac{z_1+z_2}{2},\r\n \\end{gather*}</latex>\n<p>\r\n де кінці відрізка мають координати: <latex>(x_1; y_1; z_1)</latex>, <latex>(x_2; y_2; z_2).</latex>\n</p>\n<p>\n<latex>A(5; -4; 0)</latex>, <latex>B(7; 2; -2)</latex>, <latex>C(x_2; y_2; z_2).</latex>\n</p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n 7=\\frac{5+x_2}{2},\\ \\ 5+x_2=14,\\ \\ x_2=9,\\\\[6pt]\r\n 2=\\frac{-4+y_2}{2},\\ \\ -4+y_2=4,\\ \\ y_2=8,\\\\[6pt]\r\n -2=\\frac{0+z_2}{2},\\ \\ 0+z_2=-4,\\ \\ z_2=-4.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n Отже, правильна відповідь – <latex>C(9; 8; -4).</latex>\n</p>\n<p><strong>Відповідь: Д.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Координати і вектори в просторі. Геометричні переміщення.\r\n Завдання скеровано на перевірку вміння визначати координати середини відрізка, знання основних видів геометричних переміщень, зокрема симетрії відносно точки.\r\n Точка C симетрична точці A відносно точки B , якщо точки лежать на одній прямій і AB=BC. \n Скористаймося формулою визначення координат середини відрізка:\r\n \\begin{gather*}\r\n x=\\frac{x_1+x_2}{2},\\\\[6pt]\r\n y=\\frac{y_1+y_2}{2},\\\\[6pt]\r\n z=\\frac{z_1+z_2}{2},\r\n \\end{gather*} \n де кінці відрізка мають координати: (x_1; y_1; z_1) , (x_2; y_2; z_2). \n A(5; -4; 0) , B(7; 2; -2) , C(x_2; y_2; z_2). \n \\begin{gather*}\r\n 7=\\frac{5+x_2}{2},\\ \\ 5+x_2=14,\\ \\ x_2=9,\\\\[6pt]\r\n 2=\\frac{-4+y_2}{2},\\ \\ -4+y_2=4,\\ \\ y_2=8,\\\\[6pt]\r\n -2=\\frac{0+z_2}{2},\\ \\ 0+z_2=-4,\\ \\ z_2=-4.\r\n \\end{gather*} \n Отже, правильна відповідь – C(9; 8; -4). \n Відповідь: Д.",
+   "topic": "Координати і вектори в просторі. Геометричні переміщення.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/353/35300/decide-8-variant-03.png"
+   ],
+   "text": "У прямокутній системі координат у просторі задано точки A(5; –4; 0) і B(7; 2; –2). Визначте координати точки C , яка симетрична до точки A відносно точки B.",
+   "latex": [
+    "A(5; –4; 0)",
+    "B(7; 2; –2).",
+    "C",
+    "A",
+    "B.",
+    "(2; 6; -2)",
+    "(12; -6; 2)",
+    "(9; 8; 4)",
+    "(6; -1; -1)",
+    "(9; 8; -4)"
+   ],
+   "source_test": 698,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 35319,
+   "tip": 8,
+   "out_order": 39,
+   "type": "short_answer",
+   "question_html": "<p>\r\n Знайдіть найменше ціле значення <latex>a</latex>, за якого коло <latex>(x-11-3a)^2+(y+2)^2=49</latex> двічі перетинає вісь ординат.\r\n </p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "-5",
+   "correct": [
+    "-5"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Координати і вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку знання рівняння кола, властивостей прямокутної системи координат на площині, уміння застосовувати координати для розв’язання планіметричних задач.\r\n </p>\n<p>\r\n За умовою: \r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n (x-11-3a)^2+(y+2)^2=49,\\\\[7pt]\r\n (x-(11+3a))^2+(y-(-2))^2=7^2.\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n Рівняння кола: <latex>(x-x_0)^2+(y-y_0)^2=R^2.</latex>\n</p>\n<br/>\n<p>\r\n Дано коло із центром у точці <latex>(11+3a; -2)</latex> i радіусом <latex>7.</latex>\n</p>\n<div class=\"txtcntr\" style=\"width: 100%;\">\n<img alt=\"\" src=\"/doc/images/znotest/353/35319/decide-8-variant-22.png\" style=\"height: auto;\" width=\"384\"/>\n</div>\n<p>\r\n Унаслідок зміни параметра <latex>a</latex> коло переміщується вздовж прямої <latex>y=-2.</latex>\n</p>\n<p>\r\n Для того, щоб коло дотикалося до осі <latex>Oy</latex>, центр кола повинен бути в точці <latex>(7; -2)</latex> або <latex>(-7; -2).</latex>\n</p>\n<p>\r\n Щоб коло перетинало двічі вісь ординат, абсциса <latex>a</latex> центра кола повинна бути цілим числом – розв'язком нерівності:\r\n </p>\n<latex display=\"block\">\\begin{gather*}\r\n -7\\lt 11+3a\\lt 7,\\\\[7pt]\r\n -7-11\\lt 3a\\lt 7-11,\\\\[7pt]\r\n -18\\lt 3a\\lt -4,\\\\[6pt]\r\n -6\\lt a\\lt -1\\frac 13.\r\n \\end{gather*}</latex>\n<p>\r\n Найменше ціле значення <latex>a=-5.</latex>\n</p>\n<p><strong>Відповідь: <latex>-5.</latex></strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Координати і вектори на площині.\r\n Завдання скеровано на перевірку знання рівняння кола, властивостей прямокутної системи координат на площині, уміння застосовувати координати для розв’язання планіметричних задач.\r\n За умовою: \r\n \\begin{gather*}\r\n (x-11-3a)^2+(y+2)^2=49,\\\\[7pt]\r\n (x-(11+3a))^2+(y-(-2))^2=7^2.\r\n \\end{gather*} \n Рівняння кола: (x-x_0)^2+(y-y_0)^2=R^2. \n Дано коло із центром у точці (11+3a; -2) i радіусом 7. \n Унаслідок зміни параметра a коло переміщується вздовж прямої y=-2. \n Для того, щоб коло дотикалося до осі Oy , центр кола повинен бути в точці (7; -2) або (-7; -2). \n Щоб коло перетинало двічі вісь ординат, абсциса a центра кола повинна бути цілим числом – розв'язком нерівності:\r\n \\begin{gather*}\r\n -7\\lt 11+3a\\lt 7,\\\\[7pt]\r\n -7-11\\lt 3a\\lt 7-11,\\\\[7pt]\r\n -18\\lt 3a\\lt -4,\\\\[6pt]\r\n -6\\lt a\\lt -1\\frac 13.\r\n \\end{gather*} \n Найменше ціле значення a=-5. \n Відповідь: -5.",
+   "topic": "Координати і вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/353/35319/decide-8-variant-22.png"
+   ],
+   "text": "Знайдіть найменше ціле значення a , за якого коло (x-11-3a)^2+(y+2)^2=49 двічі перетинає вісь ординат.",
+   "latex": [
+    "a",
+    "(x-11-3a)^2+(y+2)^2=49"
+   ],
+   "source_test": 698,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 35328,
+   "tip": 1,
+   "out_order": 40,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Визначте модуль (довжину) вектора <latex>\\overrightarrow{c}=\\overrightarrow{a}-\\overrightarrow{b}</latex>  якщо <latex>\\ \\overrightarrow{a}(2; 1; -5)\\ \\text{i}\\ \\overrightarrow{b}(-7; 0; 3).</latex>\n</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\sqrt{86}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\sqrt{146}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\sqrt{90}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>\\sqrt{30}</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>20</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Координати і вектори в просторі.\r\n </strong>\n</p>\n<p>\r\n Завдання скеровано на перевірку вміння додавати і віднімати вектори, визначати модуль вектора.\r\n </p>\n<p>\r\n Визначмо різницю векторів за формулами:\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n \\overrightarrow{a}(x_1; y_1; z_1),\\\\[7pt]\r\n \\overrightarrow{b}(x_2; y_2; z_2),\\\\[7pt]\r\n \\overrightarrow{a}-\\overrightarrow{b}=(\\overrightarrow{x_1-x_2; y_1-y_2; z_1-z_2}),\\\\[7pt]\r\n \\overrightarrow{c}=\\overrightarrow{a}-\\overrightarrow{b}=(\\overrightarrow{2-(-7); 1-0; -5-3})=(\\overrightarrow{9; 1; -8}).\r\n \\end{gather*}</latex>\n</div>\n<p>\r\n Визначимо модуль вектора <latex>\\overrightarrow{c}</latex> за формулою:\r\n </p>\n<div class=\"more\" style=\"width: 100%;\">\n<latex display=\"block\">\\begin{gather*}\r\n \\overrightarrow{c}(x, y, z),\\ |\\overrightarrow{c}|=\\sqrt{x^2+y^2+z^2},\\\\[7pt] \r\n |\\overrightarrow{c}|=\\sqrt{9^2+1^2+(-8)^2}=\\sqrt{81+1+64}=\\sqrt{146}.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Координати і вектори в просторі.\r\n Завдання скеровано на перевірку вміння додавати і віднімати вектори, визначати модуль вектора.\r\n Визначмо різницю векторів за формулами:\r\n \\begin{gather*}\r\n \\overrightarrow{a}(x_1; y_1; z_1),\\\\[7pt]\r\n \\overrightarrow{b}(x_2; y_2; z_2),\\\\[7pt]\r\n \\overrightarrow{a}-\\overrightarrow{b}=(\\overrightarrow{x_1-x_2; y_1-y_2; z_1-z_2}),\\\\[7pt]\r\n \\overrightarrow{c}=\\overrightarrow{a}-\\overrightarrow{b}=(\\overrightarrow{2-(-7); 1-0; -5-3})=(\\overrightarrow{9; 1; -8}).\r\n \\end{gather*} \n Визначимо модуль вектора \\overrightarrow{c} за формулою:\r\n \\begin{gather*}\r\n \\overrightarrow{c}(x, y, z),\\ |\\overrightarrow{c}|=\\sqrt{x^2+y^2+z^2},\\\\[7pt] \r\n |\\overrightarrow{c}|=\\sqrt{9^2+1^2+(-8)^2}=\\sqrt{81+1+64}=\\sqrt{146}.\r\n \\end{gather*} \n Відповідь: Б.",
+   "topic": "Координати і вектори в просторі.",
+   "images": [],
+   "text": "Визначте модуль (довжину) вектора \\overrightarrow{c}=\\overrightarrow{a}-\\overrightarrow{b} якщо \\ \\overrightarrow{a}(2; 1; -5)\\ \\text{i}\\ \\overrightarrow{b}(-7; 0; 3).",
+   "latex": [
+    "\\overrightarrow{c}=\\overrightarrow{a}-\\overrightarrow{b}",
+    "\\ \\overrightarrow{a}(2; 1; -5)\\ \\text{i}\\ \\overrightarrow{b}(-7; 0; 3).",
+    "\\sqrt{86}",
+    "\\sqrt{146}",
+    "\\sqrt{90}",
+    "\\sqrt{30}",
+    "20"
+   ],
+   "source_test": 699,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 36397,
+   "tip": 1,
+   "out_order": 41,
+   "type": "single_choice",
+   "question_html": "<p>\r\n Визначте координати вектора <latex>\\overrightarrow{KL}</latex>, якщо <latex>K(4; 3; 6)</latex>, <latex>L(-2; 3; 0).</latex>\n</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>(6; 0; 6)</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>(-6; 0; -6)</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>(-3; 0; -3)</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>(2; 3; 3)</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>(3; 6; 6)</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Вектори і координати на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє вміння визначати координати вектора на площині.\r\n </p>\n<p>\r\n Якщо <latex>K(x_1; y_1; z_1)</latex>, <latex>L(x_2; y_2; z_2)</latex>, то координати вектора <latex>\\overrightarrow{KL}(x_2-x_1; y_2-y_1; z_2-z_1).</latex>\n</p>\n<latex>\\begin{gather*}\r\n K(4; 3; 6),\\\\[7pt]\r\n L(-2; 3; 0),\\\\[7pt]\r\n \\overrightarrow{KL}(-2-4; 3-3; 0-6),\\\\[7pt]\r\n \\overrightarrow{KL}(-6; 0; -6).\r\n \\end{gather*}</latex>\n<p><strong>Відповідь: Б.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Вектори і координати на площині.\r\n Це завдання перевіряє вміння визначати координати вектора на площині.\r\n Якщо K(x_1; y_1; z_1) , L(x_2; y_2; z_2) , то координати вектора \\overrightarrow{KL}(x_2-x_1; y_2-y_1; z_2-z_1). \n \\begin{gather*}\r\n K(4; 3; 6),\\\\[7pt]\r\n L(-2; 3; 0),\\\\[7pt]\r\n \\overrightarrow{KL}(-2-4; 3-3; 0-6),\\\\[7pt]\r\n \\overrightarrow{KL}(-6; 0; -6).\r\n \\end{gather*} \n Відповідь: Б.",
+   "topic": "Геометрія. Планіметрія. Вектори і координати на площині.",
+   "images": [],
+   "text": "Визначте координати вектора \\overrightarrow{KL} , якщо K(4; 3; 6) , L(-2; 3; 0).",
+   "latex": [
+    "\\overrightarrow{KL}",
+    "K(4; 3; 6)",
+    "L(-2; 3; 0).",
+    "(6; 0; 6)",
+    "(-6; 0; -6)",
+    "(-3; 0; -3)",
+    "(2; 3; 3)",
+    "(3; 6; 6)"
+   ],
+   "source_test": 733,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  },
+  {
+   "id": 36909,
+   "tip": 1,
+   "out_order": 42,
+   "type": "single_choice",
+   "question_html": "<p>\r\n У прямокутній системі координат на площині задано точки <latex>A</latex> та <latex>B</latex> (див. рисунок). Визначте відстань між цими точками.\r\n </p>\n<p><img alt=\"\" src=\"/doc/images/znotest/369/36909/5-var-08.png\" style=\"height: auto;\" width=\"260\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\sqrt{5}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>25</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>\\sqrt{13}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>5</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>\\sqrt{17}</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"e\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": "<p><strong>Пояснення</strong></p><br/><p>\n<strong>\r\n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n </strong>\n</p>\n<p>\r\n Це завдання перевіряє знання координат точки на площині.\r\n </p>\n<p>\r\n Визначмо координати точок за рисунком: <latex>A(-1; -1)</latex> і <latex>B(3; 2).</latex>\n</p>\n<p>\r\n Обчислімо відстань між цими точками за формулою:\r\n </p>\n<div class=\"txtcntr more\" style=\"width: 100%;\">\n<latex>\\begin{gather*}\r\n \\left |AB\\right |=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2},\\\\[7pt]\r\n \\left |AB\\right |=\\sqrt{(3-(-1))^2+(2-(-1))^2}=\\sqrt{(3+1)^2+(2+1)^2}=\\\\[7pt]\r\n =\\sqrt{4^2+3^2}=\\sqrt{16+9}=\\sqrt{25}=5.\r\n \\end{gather*}</latex>\n</div>\n<p><strong>Відповідь: Г.</strong></p>",
+   "explanation_text": "Пояснення \n ТЕМА: Геометрія. Планіметрія. Координати та вектори на площині.\r\n Це завдання перевіряє знання координат точки на площині.\r\n Визначмо координати точок за рисунком: A(-1; -1) і B(3; 2). \n Обчислімо відстань між цими точками за формулою:\r\n \\begin{gather*}\r\n \\left |AB\\right |=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2},\\\\[7pt]\r\n \\left |AB\\right |=\\sqrt{(3-(-1))^2+(2-(-1))^2}=\\sqrt{(3+1)^2+(2+1)^2}=\\\\[7pt]\r\n =\\sqrt{4^2+3^2}=\\sqrt{16+9}=\\sqrt{25}=5.\r\n \\end{gather*} \n Відповідь: Г.",
+   "topic": "Геометрія. Планіметрія. Координати та вектори на площині.",
+   "images": [
+    "https://zno.osvita.ua/doc/images/znotest/369/36909/5-var-08.png"
+   ],
+   "text": "У прямокутній системі координат на площині задано точки A та B (див. рисунок). Визначте відстань між цими точками.",
+   "latex": [
+    "A",
+    "B",
+    "\\sqrt{5}",
+    "25",
+    "\\sqrt{13}",
+    "5",
+    "\\sqrt{17}"
+   ],
+   "source_test": 735,
+   "subject": "mathematics",
+   "topic_slug": "koordinati_ta_vektori"
+  }
+ ],
+ "questions_count": 42
+}

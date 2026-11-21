@@ -1,0 +1,2058 @@
+{
+ "url": "https://zno.osvita.ua/physics/185/",
+ "title": "ЗНО онлайн 2009 року з фізики – основна сесія",
+ "page_title": "ЗНО онлайн 2009 року з фізики – основна сесія",
+ "test_id": 185,
+ "total": 35,
+ "section": 8,
+ "cnt": 35,
+ "qfirst": 1,
+ "list": 0,
+ "questions": [
+  {
+   "id": 9137,
+   "tip": 1,
+   "out_order": 1,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Рух тіла описано рівнянням <latex>x=4-3t+2t^2</latex>, де всі величини виражено в одиницях <latex>\\mathrm{SI}</latex>. Визначте проекцію швидкості тіла на вісь <latex>OX</latex> через <latex>2</latex> секунди після початку руху.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>-6</latex> м/с"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>5</latex> м/с"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>6</latex> м/с"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>8</latex> м/с"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Рух тіла описано рівнянням x=4-3t+2t^2 , де всі величини виражено в одиницях \\mathrm{SI} . Визначте проекцію швидкості тіла на вісь OX через 2 секунди після початку руху.",
+   "latex": [
+    "x=4-3t+2t^2",
+    "\\mathrm{SI}",
+    "OX",
+    "2",
+    "-6",
+    "5",
+    "6",
+    "8"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 1
+    }
+   ]
+  },
+  {
+   "id": 9138,
+   "tip": 1,
+   "out_order": 2,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>За поданим графіком залежності координати тіла від часу визначте можливий графік залежності проекції швидкості цього тіла від часу.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/91/9138/2.png\" style=\"width: 300px; height: auto;\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/91/9138/ansa_9138.png\" width=\"275\"/>"
+    },
+    {
+     "marker": "Б",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/91/9138/ansb_9138.png\" width=\"275\"/>"
+    },
+    {
+     "marker": "В",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/91/9138/ansc_9138.png\" width=\"275\"/>"
+    },
+    {
+     "marker": "Г",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/91/9138/ansd_9138.png\" width=\"275\"/>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/91/9138/2.png",
+     "path": "images/doc/images/znotest/91/9138/2.png"
+    }
+   ],
+   "text": "За поданим графіком залежності координати тіла від часу визначте можливий графік залежності проекції швидкості цього тіла від часу.",
+   "latex": [],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 2
+    }
+   ]
+  },
+  {
+   "id": 9139,
+   "tip": 1,
+   "out_order": 3,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Вантаж масою <latex>5{,}19</latex> кг підвішено до невагомих стержнів (див. рисунок). З’єднання в точках <latex>A</latex>, <latex>B</latex>, <latex>C</latex> є шарнірними. Довжина стержня <latex>AB</latex> становить <latex>70</latex> см, довжина стержня <latex>BC</latex> – <latex>35</latex> см. Визначте силу, що стискає стержень <latex>AB</latex>. Уважайте, що <latex>g=10</latex> м/с<latex>^2</latex>, <latex>\\sqrt{3}=1{,}73</latex>.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/91/9139/3_3.png\" style=\"width: 125px; height: auto;\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>20</latex> Н"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>30</latex> Н"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>50</latex> Н"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>60</latex> Н"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/91/9139/3_3.png",
+     "path": "images/doc/images/znotest/91/9139/3_3.png"
+    }
+   ],
+   "text": "Вантаж масою 5{,}19 кг підвішено до невагомих стержнів (див. рисунок). З’єднання в точках A , B , C є шарнірними. Довжина стержня AB становить 70 см, довжина стержня BC – 35 см. Визначте силу, що стискає стержень AB . Уважайте, що g=10 м/с ^2 , \\sqrt{3}=1{,}73 .",
+   "latex": [
+    "5{,}19",
+    "A",
+    "B",
+    "C",
+    "AB",
+    "70",
+    "BC",
+    "35",
+    "AB",
+    "g=10",
+    "^2",
+    "\\sqrt{3}=1{,}73",
+    "20",
+    "30",
+    "50",
+    "60"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 3
+    }
+   ]
+  },
+  {
+   "id": 9140,
+   "tip": 1,
+   "out_order": 4,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Брусок тягнуть угору похилою площиною. Рух бруска є рівномірним. Визначте ККД цієї похилої площини, якщо її довжина дорівнює <latex>0{,}5</latex> м, а висота – <latex>0{,}2</latex> м. Результати зважування бруска подано на фото, розміщеному праворуч. Уважайте, що <latex>g=10</latex> м/с<latex>^2</latex>.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/91/9140/4.png\" style=\"width: 665px; height: auto;\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>85\\, \\%</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>80\\, \\%</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>75\\, \\%</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>50\\, \\%</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/91/9140/4.png",
+     "path": "images/doc/images/znotest/91/9140/4.png"
+    }
+   ],
+   "text": "Брусок тягнуть угору похилою площиною. Рух бруска є рівномірним. Визначте ККД цієї похилої площини, якщо її довжина дорівнює 0{,}5 м, а висота – 0{,}2 м. Результати зважування бруска подано на фото, розміщеному праворуч. Уважайте, що g=10 м/с ^2 .",
+   "latex": [
+    "0{,}5",
+    "0{,}2",
+    "g=10",
+    "^2",
+    "85\\, \\%",
+    "80\\, \\%",
+    "75\\, \\%",
+    "50\\, \\%"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": 9141,
+   "tip": 1,
+   "out_order": 5,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Пластилінова кулька вільно падає на підлогу без початкової швидкості. Укажіть графік, що відображає залежність потенціальної енергії цієї кульки від часу.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/91/9141/ansa_9141.png\" width=\"160\"/>"
+    },
+    {
+     "marker": "Б",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/91/9141/ansb_9141.png\" width=\"160\"/>"
+    },
+    {
+     "marker": "В",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/91/9141/ansc_9141.png\" width=\"160\"/>"
+    },
+    {
+     "marker": "Г",
+     "html": "<img src=\"https://zno.osvita.ua/doc/images/znotest/91/9141/ansd_9141.png\" width=\"160\"/>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Пластилінова кулька вільно падає на підлогу без початкової швидкості. Укажіть графік, що відображає залежність потенціальної енергії цієї кульки від часу.",
+   "latex": [],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 5
+    }
+   ]
+  },
+  {
+   "id": 9142,
+   "tip": 1,
+   "out_order": 6,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Повітряну кулю об’ємом <latex>200</latex> м<latex>^3</latex> наповнено теплим повітрям. Куля з підвішеним до неї вантажем плаває на невеликій висоті над землею, де густина зовнішнього повітря дорівнює <latex>1{,}3</latex> кг/м<latex>^3</latex>. Загальна маса оболонки кулі та вантажу, що підвішений до кулі, становить <latex>100</latex> кг. Визначте густину повітря всередині кулі.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>1{,}25</latex> кг/м<latex>^3</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>0{,}8</latex> кг/м<latex>^3</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>0{,}5</latex> кг/м<latex>^3</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>0{,}05</latex> кг/м<latex>^3</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Повітряну кулю об’ємом 200 м ^3 наповнено теплим повітрям. Куля з підвішеним до неї вантажем плаває на невеликій висоті над землею, де густина зовнішнього повітря дорівнює 1{,}3 кг/м ^3 . Загальна маса оболонки кулі та вантажу, що підвішений до кулі, становить 100 кг. Визначте густину повітря всередині кулі.",
+   "latex": [
+    "200",
+    "^3",
+    "1{,}3",
+    "^3",
+    "100",
+    "1{,}25",
+    "^3",
+    "0{,}8",
+    "^3",
+    "0{,}5",
+    "^3",
+    "0{,}05",
+    "^3"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 6
+    }
+   ]
+  },
+  {
+   "id": 9143,
+   "tip": 1,
+   "out_order": 7,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Визначте, під час якого із зазначених процесів з певною масою газу концентрація молекул газу не змінюється.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "Ізохорний процес"
+    },
+    {
+     "marker": "Б",
+     "html": "Ізотермічний процес"
+    },
+    {
+     "marker": "В",
+     "html": "Адіабатний процес"
+    },
+    {
+     "marker": "Г",
+     "html": "Ізобарний процес"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Визначте, під час якого із зазначених процесів з певною масою газу концентрація молекул газу не змінюється.",
+   "latex": [],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 7
+    }
+   ]
+  },
+  {
+   "id": 9144,
+   "tip": 1,
+   "out_order": 8,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Початковий об’єм газу становить <latex>60</latex> л. Визначте, яким стане об’єм цієї маси газу, якщо абсолютна температура підвищиться від <latex>300</latex> К до <latex>450</latex> К, а тиск зменшиться в <latex>2</latex> рази.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>20</latex> л"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>45</latex> л"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>80</latex> л"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>180</latex> л"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Початковий об’єм газу становить 60 л. Визначте, яким стане об’єм цієї маси газу, якщо абсолютна температура підвищиться від 300 К до 450 К, а тиск зменшиться в 2 рази.",
+   "latex": [
+    "60",
+    "300",
+    "450",
+    "2",
+    "20",
+    "45",
+    "80",
+    "180"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 8
+    }
+   ]
+  },
+  {
+   "id": 9145,
+   "tip": 1,
+   "out_order": 9,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Температура нагрівника ідеальної теплової машини дорівнює <latex>527</latex> °С, а температура холодильника становить <latex>7</latex> °С. Визначте, яку кількість теплоти має передати нагрівник робочому тілу, щоб машина виконала корисну роботу, що дорівнює <latex>5{,}2</latex> кДж.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>0{,}07</latex> кДж"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>3{,}4</latex> кДж"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>5{,}27</latex> кДж"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>8</latex> кДж"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Температура нагрівника ідеальної теплової машини дорівнює 527 °С, а температура холодильника становить 7 °С. Визначте, яку кількість теплоти має передати нагрівник робочому тілу, щоб машина виконала корисну роботу, що дорівнює 5{,}2 кДж.",
+   "latex": [
+    "527",
+    "7",
+    "5{,}2",
+    "0{,}07",
+    "3{,}4",
+    "5{,}27",
+    "8"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 9
+    }
+   ]
+  },
+  {
+   "id": 9146,
+   "tip": 1,
+   "out_order": 10,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Відносна вологість повітря в закритому балоні дорівнювала <latex>60\\, \\%</latex> за температури <latex>30</latex> °С. Визначте відносну вологість повітря в балоні після охолодження повітря до <nobr><latex>11</latex> °С.</nobr></p>\n<div class=\"table-responsive\">\n<table>\n<tbody>\n<tr>\n<td class=\"gray\"><strong>Температура, °С</strong></td>\n<td class=\"gray\"><strong>Густина насиченої водяної пари, г/м<latex>^3</latex></strong></td>\n</tr>\n<tr>\n<td style=\"border-bottom: none;\"><latex>11</latex></td>\n<td style=\"border-bottom: none;\"><latex>10</latex></td>\n</tr>\n<tr>\n<td style=\"border-top: none;\"><latex>30</latex></td>\n<td style=\"border-top: none;\"><latex>30</latex></td>\n</tr>\n</tbody>\n</table>\n</div>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>20\\, \\%</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>60\\, \\%</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>66\\, \\%</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>100\\, \\%</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Відносна вологість повітря в закритому балоні дорівнювала 60\\, \\% за температури 30 °С. Визначте відносну вологість повітря в балоні після охолодження повітря до 11 °С. \n Температура, °С \n Густина насиченої водяної пари, г/м ^3 \n 11 \n 10 \n 30 \n 30",
+   "latex": [
+    "60\\, \\%",
+    "30",
+    "11",
+    "^3",
+    "11",
+    "10",
+    "30",
+    "30",
+    "20\\, \\%",
+    "60\\, \\%",
+    "66\\, \\%",
+    "100\\, \\%"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 10
+    }
+   ]
+  },
+  {
+   "id": 9147,
+   "tip": 1,
+   "out_order": 11,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Уважаючи електричне поле у проміжку між контактами батареї гальванічних елементів «Крона» однорідним, визначте модуль напруженості цього поля. ЕРС батареї дорівнює <latex>9</latex> В. Відстань між контактами становить <latex>6</latex> мм.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>9</latex> В/м"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>540</latex> В/м"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>1{,}5</latex> кВ/м"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>9</latex> кВ/м"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Уважаючи електричне поле у проміжку між контактами батареї гальванічних елементів «Крона» однорідним, визначте модуль напруженості цього поля. ЕРС батареї дорівнює 9 В. Відстань між контактами становить 6 мм.",
+   "latex": [
+    "9",
+    "6",
+    "9",
+    "540",
+    "1{,}5",
+    "9"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 11
+    }
+   ]
+  },
+  {
+   "id": 9148,
+   "tip": 1,
+   "out_order": 12,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Два конденсатори ємністю <latex>10</latex> мкФ і <latex>20</latex> мкФ були з’єднані в батарею за схемою, зображеною на рисунку <latex>1</latex>. Потім ці самі конденсатори з’єднали за схемою, зображеною на рисунку <latex>2</latex>. Визначте, як змінилася ємність батареї конденсаторів у результаті такої зміни їхнього з’єднання.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/91/9148/12.png\" style=\"width: 575px; height: auto;\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "збільшилася в <latex>4{,}5</latex> раза"
+    },
+    {
+     "marker": "Б",
+     "html": "збільшилася в <latex>4</latex> рази"
+    },
+    {
+     "marker": "В",
+     "html": "зменшилася в <latex>4</latex> рази"
+    },
+    {
+     "marker": "Г",
+     "html": "зменшилася в <latex>4{,}5</latex> раза"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "a",
+   "correct": [
+    "a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/91/9148/12.png",
+     "path": "images/doc/images/znotest/91/9148/12.png"
+    }
+   ],
+   "text": "Два конденсатори ємністю 10 мкФ і 20 мкФ були з’єднані в батарею за схемою, зображеною на рисунку 1 . Потім ці самі конденсатори з’єднали за схемою, зображеною на рисунку 2 . Визначте, як змінилася ємність батареї конденсаторів у результаті такої зміни їхнього з’єднання.",
+   "latex": [
+    "10",
+    "20",
+    "1",
+    "2",
+    "4{,}5",
+    "4",
+    "4",
+    "4{,}5"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 12
+    }
+   ]
+  },
+  {
+   "id": 9149,
+   "tip": 1,
+   "out_order": 13,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Два однакових конденсатори заряджені до напруги <latex>200</latex> В. Один із них розрядили за допомогою резистора. У результаті протікання розрядного струму резистор нагрівся на <latex>5</latex> °С. Інший конденсатор розряджають через два такі самі резистори, з’єднані паралельно. На скільки градусів нагріються резистори у другому випадку? Уважайте, що вся енергія електричного поля конденсатора перетворюється на внутрішню енергію резисторів.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>25</latex> °C"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>10</latex> °C"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>5</latex> °C"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>2{,}5</latex> °C"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Два однакових конденсатори заряджені до напруги 200 В. Один із них розрядили за допомогою резистора. У результаті протікання розрядного струму резистор нагрівся на 5 °С. Інший конденсатор розряджають через два такі самі резистори, з’єднані паралельно. На скільки градусів нагріються резистори у другому випадку? Уважайте, що вся енергія електричного поля конденсатора перетворюється на внутрішню енергію резисторів.",
+   "latex": [
+    "200",
+    "5",
+    "25",
+    "10",
+    "5",
+    "2{,}5"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 13
+    }
+   ]
+  },
+  {
+   "id": 9150,
+   "tip": 1,
+   "out_order": 14,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Ділянка електричного кола складається з трьох однакових резисторів та вимикача (див. рисунок). Коли вимикач розімкнено, опір ділянки дорівнює <latex>6</latex> Ом. Визначте, яким буде опір ділянки електричного кола після замикання вимикача.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/91/9150/14_2.png\" style=\"width: 150px; height: auto;\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>3</latex> Ом"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>4{,}5</latex> Ом"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>6</latex> Ом"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>9</latex> Ом"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/91/9150/14_2.png",
+     "path": "images/doc/images/znotest/91/9150/14_2.png"
+    }
+   ],
+   "text": "Ділянка електричного кола складається з трьох однакових резисторів та вимикача (див. рисунок). Коли вимикач розімкнено, опір ділянки дорівнює 6 Ом. Визначте, яким буде опір ділянки електричного кола після замикання вимикача.",
+   "latex": [
+    "6",
+    "3",
+    "4{,}5",
+    "6",
+    "9"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 14
+    }
+   ]
+  },
+  {
+   "id": 9151,
+   "tip": 1,
+   "out_order": 15,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Досліджуючи вольт-амперну характеристику суцільного шматка матеріалу, отримали зображений на рисунку результат. Визначте, який це міг бути матеріал.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/91/9151/15_1.png\" style=\"width: 135px; height: auto;\"/></p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "Алюміній"
+    },
+    {
+     "marker": "Б",
+     "html": "Залізо"
+    },
+    {
+     "marker": "В",
+     "html": "Слюда"
+    },
+    {
+     "marker": "Г",
+     "html": "Кремній"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/91/9151/15_1.png",
+     "path": "images/doc/images/znotest/91/9151/15_1.png"
+    }
+   ],
+   "text": "Досліджуючи вольт-амперну характеристику суцільного шматка матеріалу, отримали зображений на рисунку результат. Визначте, який це міг бути матеріал.",
+   "latex": [],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 15
+    }
+   ]
+  },
+  {
+   "id": 9152,
+   "tip": 1,
+   "out_order": 16,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Електрична лампа ліхтаря з вольфрамовою ниткою розжарeння, що живиться від акумулятора напругою <latex>12</latex> В, має потужність <latex>24</latex> Вт. Обчисліть кількість електронів, які проходять через нитку розжарення лампи щосекунди. Елементарний електричний заряд дорівнює <latex>1{,}6\\cdot10^{-19}</latex> Кл.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>0{,}8\\cdot10^{19}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>1{,}25\\cdot10^{19}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>1{,}6\\cdot10^{19}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>3{,}2\\cdot10^{19}</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Електрична лампа ліхтаря з вольфрамовою ниткою розжарeння, що живиться від акумулятора напругою 12 В, має потужність 24 Вт. Обчисліть кількість електронів, які проходять через нитку розжарення лампи щосекунди. Елементарний електричний заряд дорівнює 1{,}6\\cdot10^{-19} Кл.",
+   "latex": [
+    "12",
+    "24",
+    "1{,}6\\cdot10^{-19}",
+    "0{,}8\\cdot10^{19}",
+    "1{,}25\\cdot10^{19}",
+    "1{,}6\\cdot10^{19}",
+    "3{,}2\\cdot10^{19}"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 16
+    }
+   ]
+  },
+  {
+   "id": 9153,
+   "tip": 1,
+   "out_order": 17,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Мідний провідник, маса якого дорівнює <latex>2</latex> г, довжина – <latex>10</latex> см, уміщений горизонтально в однорідне магнітне поле з індукцією <latex>20</latex> мТл. Вектор магнітної індукції горизонтальний і перпендикулярний до провідника. Визначте силу струму, яка повинна бути у провіднику, щоб він «завис» у магнітному полі. Уважайте, що <latex>g=10</latex> м/с<latex>^2</latex>.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>0{,}1</latex> А"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>10</latex> А"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>20</latex> А"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>10000</latex> А"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Мідний провідник, маса якого дорівнює 2 г, довжина – 10 см, уміщений горизонтально в однорідне магнітне поле з індукцією 20 мТл. Вектор магнітної індукції горизонтальний і перпендикулярний до провідника. Визначте силу струму, яка повинна бути у провіднику, щоб він «завис» у магнітному полі. Уважайте, що g=10 м/с ^2 .",
+   "latex": [
+    "2",
+    "10",
+    "20",
+    "g=10",
+    "^2",
+    "0{,}1",
+    "10",
+    "20",
+    "10000"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 17
+    }
+   ]
+  },
+  {
+   "id": 9154,
+   "tip": 1,
+   "out_order": 18,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>У повітрі поширюється звукова хвиля з частотою <latex>1{,}7</latex> кГц. Визначте довжину хвилі, якщо швидкість звуку в повітрі дорівнює <latex>340</latex> м/с.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>5</latex> см"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>20</latex> см"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>58</latex> см"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>580</latex> см"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "b",
+   "correct": [
+    "b"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "У повітрі поширюється звукова хвиля з частотою 1{,}7 кГц. Визначте довжину хвилі, якщо швидкість звуку в повітрі дорівнює 340 м/с.",
+   "latex": [
+    "1{,}7",
+    "340",
+    "5",
+    "20",
+    "58",
+    "580"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 18
+    }
+   ]
+  },
+  {
+   "id": 9155,
+   "tip": 1,
+   "out_order": 19,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Посудина з водою, у дні якої є невеликий отвір, здійснює вертикальні коливання на пружині. Початковий період коливань дорівнює <latex>4</latex> с. Вода потроху витікає. Визначте, яким буде період коливань, коли маса посудини з водою зменшиться в <latex>4</latex> рази.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>16</latex> с"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>1</latex> с"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>4</latex> с"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>2</latex> с"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Посудина з водою, у дні якої є невеликий отвір, здійснює вертикальні коливання на пружині. Початковий період коливань дорівнює 4 с. Вода потроху витікає. Визначте, яким буде період коливань, коли маса посудини з водою зменшиться в 4 рази.",
+   "latex": [
+    "4",
+    "4",
+    "16",
+    "1",
+    "4",
+    "2"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 19
+    }
+   ]
+  },
+  {
+   "id": 9156,
+   "tip": 1,
+   "out_order": 20,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Частота вільних коливань у коливальному контурі з ідеальних конденсатора та котушки дорівнює <latex>2</latex> кГц. Ті самі конденсатор і котушку з’єднали послідовно та підключили до джерела змінного струму. Визначте, як змінюватиметься амплітудне значення сили струму <latex>I_m</latex> в колі, якщо частоту змінного струму повільно збільшувати від <latex>1</latex> до <latex>3</latex> кГц. Амплітуда напруги є сталою.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>I_m</latex> весь час зростатиме"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>I_m</latex> весь час зменшуватиметься"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>I_m</latex> зростатиме, а потім зменшуватиметься"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>I_m</latex> зменшуватиметься, а потім зростатиме"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Частота вільних коливань у коливальному контурі з ідеальних конденсатора та котушки дорівнює 2 кГц. Ті самі конденсатор і котушку з’єднали послідовно та підключили до джерела змінного струму. Визначте, як змінюватиметься амплітудне значення сили струму I_m в колі, якщо частоту змінного струму повільно збільшувати від 1 до 3 кГц. Амплітуда напруги є сталою.",
+   "latex": [
+    "2",
+    "I_m",
+    "1",
+    "3",
+    "I_m",
+    "I_m",
+    "I_m",
+    "I_m"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 20
+    }
+   ]
+  },
+  {
+   "id": 9157,
+   "tip": 1,
+   "out_order": 21,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Індуктивність котушки коливального контура дорівнює <latex>20</latex> мГн. Визначте ємність конденсатора, якщо максимальна напруга на ньому становить <latex>80</latex> В, а максимальна сила струму в котушці дорівнює <latex>2</latex> А. Коливання в контурі вважайте незатухаючими.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>2{,}5</latex> мкФ"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>7{,}5</latex> мкФ"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>12{,}5</latex> мкФ"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>20</latex> мкФ"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Індуктивність котушки коливального контура дорівнює 20 мГн. Визначте ємність конденсатора, якщо максимальна напруга на ньому становить 80 В, а максимальна сила струму в котушці дорівнює 2 А. Коливання в контурі вважайте незатухаючими.",
+   "latex": [
+    "20",
+    "80",
+    "2",
+    "2{,}5",
+    "7{,}5",
+    "12{,}5",
+    "20"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 21
+    }
+   ]
+  },
+  {
+   "id": 9158,
+   "tip": 1,
+   "out_order": 22,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Увечері від хлопчика, який знаходиться неподалік ліхтарного стовпа, на землі утворилася тінь. Якщо хлопчик відійде на <latex>1</latex> м від ліхтарного стовпа, тінь хлопчика стане довшою на <latex>50</latex> см. Визначте висоту ліхтаря над землею, якщо зріст хлопчика дорівнює <latex>1{,}5</latex> м. Ліхтар закріплено на верхівці стовпа.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>3</latex> м"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>3{,}5</latex> м"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>4</latex> м"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>4{,}5</latex> м"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Увечері від хлопчика, який знаходиться неподалік ліхтарного стовпа, на землі утворилася тінь. Якщо хлопчик відійде на 1 м від ліхтарного стовпа, тінь хлопчика стане довшою на 50 см. Визначте висоту ліхтаря над землею, якщо зріст хлопчика дорівнює 1{,}5 м. Ліхтар закріплено на верхівці стовпа.",
+   "latex": [
+    "1",
+    "50",
+    "1{,}5",
+    "3",
+    "3{,}5",
+    "4",
+    "4{,}5"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 22
+    }
+   ]
+  },
+  {
+   "id": 9159,
+   "tip": 1,
+   "out_order": 23,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Тіло отримало внаслідок теплопровідності кількість теплоти <latex>Q</latex> і внаслідок випромінювання втратило енергію <latex>\\dfrac23Q</latex>. Визначте, як змінилася маса спокою тіла. Швидкість світла у вакуумі дорівнює <latex>c</latex>.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "зменшилася на <latex>\\dfrac{Q}{3c^2}</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "зменшилася на <latex>\\dfrac{5Q}{3c^2}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "збільшилася на <latex>\\dfrac{Q}{3c^2}</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "збільшилася на <latex>\\dfrac{5Q}{3c^2}</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "c",
+   "correct": [
+    "c"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Тіло отримало внаслідок теплопровідності кількість теплоти Q і внаслідок випромінювання втратило енергію \\dfrac23Q . Визначте, як змінилася маса спокою тіла. Швидкість світла у вакуумі дорівнює c .",
+   "latex": [
+    "Q",
+    "\\dfrac23Q",
+    "c",
+    "\\dfrac{Q}{3c^2}",
+    "\\dfrac{5Q}{3c^2}",
+    "\\dfrac{Q}{3c^2}",
+    "\\dfrac{5Q}{3c^2}"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 23
+    }
+   ]
+  },
+  {
+   "id": 9160,
+   "tip": 1,
+   "out_order": 24,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Речовину по черзі опромінюють пучками різних частинок, що мають невелику кінетичну енергію. Визначте, які з цих частинок можуть бути захоплені ядрами атомів.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>\\alpha</latex>-частинки"
+    },
+    {
+     "marker": "Б",
+     "html": "електрони"
+    },
+    {
+     "marker": "В",
+     "html": "протони"
+    },
+    {
+     "marker": "Г",
+     "html": "нейтрони"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Речовину по черзі опромінюють пучками різних частинок, що мають невелику кінетичну енергію. Визначте, які з цих частинок можуть бути захоплені ядрами атомів.",
+   "latex": [
+    "\\alpha"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 24
+    }
+   ]
+  },
+  {
+   "id": 9161,
+   "tip": 1,
+   "out_order": 25,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Унаслідок ядерної реакції між ядрами Дейтерію <latex>\\mathrm{^2_1H}</latex> і Молібдену <latex>\\mathrm{^{98}_{42}Mo}</latex> утворилося ядро Технецію <latex>\\mathrm{^{99}_{43}Tc}</latex>. Укажіть, яка ще частинка утворилася в результаті цієї реакції.</p>",
+   "answers": [
+    {
+     "marker": "А",
+     "html": "<latex>^1_1p</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>\\mathrm{^4_2He}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>^{\\phantom{-}0}_{-1}e</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>^1_0n</latex>"
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr>\n<th>А</th><th>Б</th><th>В</th><th>Г</th></tr>\n<tr>\n<td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"a\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"b\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"c\"/><span class=\"marker\"></span></label></td><td><label><input class=\"q-radio\" name=\"a\" type=\"radio\" value=\"d\"/><span class=\"marker\"></span></label></td></tr>\n</table>",
+   "correct_raw": "d",
+   "correct": [
+    "d"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Унаслідок ядерної реакції між ядрами Дейтерію \\mathrm{^2_1H} і Молібдену \\mathrm{^{98}_{42}Mo} утворилося ядро Технецію \\mathrm{^{99}_{43}Tc} . Укажіть, яка ще частинка утворилася в результаті цієї реакції.",
+   "latex": [
+    "\\mathrm{^2_1H}",
+    "\\mathrm{^{98}_{42}Mo}",
+    "\\mathrm{^{99}_{43}Tc}",
+    "^1_1p",
+    "\\mathrm{^4_2He}",
+    "^{\\phantom{-}0}_{-1}e",
+    "^1_0n"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 25
+    }
+   ]
+  },
+  {
+   "id": 9162,
+   "tip": 4,
+   "out_order": 26,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Установіть відповідність між процесами та формулами, що їх описують.</p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Розтягується гумова нитка."
+    },
+    {
+     "marker": "2",
+     "html": "Тіло падає на землю."
+    },
+    {
+     "marker": "3",
+     "html": "Черевик ковзає по підлозі."
+    },
+    {
+     "marker": "4",
+     "html": "М'яч плаває на поверхні озера."
+    },
+    {
+     "marker": "А",
+     "html": "<latex>A=mgh</latex>"
+    },
+    {
+     "marker": "Б",
+     "html": "<latex>E=\\dfrac{kx^2}{2}</latex>"
+    },
+    {
+     "marker": "В",
+     "html": "<latex>F=\\mu N</latex>"
+    },
+    {
+     "marker": "Г",
+     "html": "<latex>F_1l_1=F_2l_2</latex>"
+    },
+    {
+     "marker": "Д",
+     "html": "<latex>F=\\rho gV</latex>"
+    }
+   ],
+   "groups": [
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "Розтягується гумова нитка."
+      },
+      {
+       "marker": "",
+       "html": "Тіло падає на землю."
+      },
+      {
+       "marker": "",
+       "html": "Черевик ковзає по підлозі."
+      },
+      {
+       "marker": "",
+       "html": "М'яч плаває на поверхні озера."
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "<latex>A=mgh</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>E=\\dfrac{kx^2}{2}</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>F=\\mu N</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>F_1l_1=F_2l_2</latex>"
+      },
+      {
+       "marker": "",
+       "html": "<latex>F=\\rho gV</latex>"
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1b;2a;3c;4e",
+   "correct": [
+    "1b",
+    "2a",
+    "3c",
+    "4e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Установіть відповідність між процесами та формулами, що їх описують.",
+   "latex": [
+    "A=mgh",
+    "E=\\dfrac{kx^2}{2}",
+    "F=\\mu N",
+    "F_1l_1=F_2l_2",
+    "F=\\rho gV"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 26
+    }
+   ]
+  },
+  {
+   "id": 9163,
+   "tip": 4,
+   "out_order": 27,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>На рисунку зображено графік залежності механічної напруги <latex>\\sigma</latex> в мідному дроті від відносного видовження дроту <latex>\\dfrac{\\Delta l}{l_0}</latex>. Установіть відповідність між точками <latex>K</latex>, <latex>L</latex>, <nobr><latex>M</latex>,</nobr> <latex>N</latex> на графіку і характером деформації дроту.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/91/9163/27.png\" style=\"width: 215px; height: auto;\"/></p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "точка <latex>K</latex>"
+    },
+    {
+     "marker": "2",
+     "html": "точка <latex>L</latex>"
+    },
+    {
+     "marker": "3",
+     "html": "точка <latex>M</latex>"
+    },
+    {
+     "marker": "4",
+     "html": "точка <latex>N</latex>"
+    },
+    {
+     "marker": "А",
+     "html": "Деформація непружна, спостерігається текучість."
+    },
+    {
+     "marker": "Б",
+     "html": "Деформація пружна, закон Гука не виконується."
+    },
+    {
+     "marker": "В",
+     "html": "Деформація непружна, закон Гука виконується."
+    },
+    {
+     "marker": "Г",
+     "html": "Деформація пружна, закон Гука виконується."
+    },
+    {
+     "marker": "Д",
+     "html": "Деформація непружна, відповідає границі міцності."
+    }
+   ],
+   "groups": [
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "точка <latex>K</latex>"
+      },
+      {
+       "marker": "",
+       "html": "точка <latex>L</latex>"
+      },
+      {
+       "marker": "",
+       "html": "точка <latex>M</latex>"
+      },
+      {
+       "marker": "",
+       "html": "точка <latex>N</latex>"
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "Деформація непружна, спостерігається текучість."
+      },
+      {
+       "marker": "",
+       "html": "Деформація пружна, закон Гука не виконується."
+      },
+      {
+       "marker": "",
+       "html": "Деформація непружна, закон Гука виконується."
+      },
+      {
+       "marker": "",
+       "html": "Деформація пружна, закон Гука виконується."
+      },
+      {
+       "marker": "",
+       "html": "Деформація непружна, відповідає границі міцності."
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1d;2b;3a;4e",
+   "correct": [
+    "1d",
+    "2b",
+    "3a",
+    "4e"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/91/9163/27.png",
+     "path": "images/doc/images/znotest/91/9163/27.png"
+    }
+   ],
+   "text": "На рисунку зображено графік залежності механічної напруги \\sigma в мідному дроті від відносного видовження дроту \\dfrac{\\Delta l}{l_0} . Установіть відповідність між точками K , L , M , N на графіку і характером деформації дроту.",
+   "latex": [
+    "\\sigma",
+    "\\dfrac{\\Delta l}{l_0}",
+    "K",
+    "L",
+    "M",
+    "N",
+    "K",
+    "L",
+    "M",
+    "N"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 27
+    }
+   ]
+  },
+  {
+   "id": 9164,
+   "tip": 4,
+   "out_order": 28,
+   "test_id": 185,
+   "type": "single_choice",
+   "question_html": "<p>Установіть відповідність між указаними діями і результатами (можливими змінами опору провідника).</p>",
+   "answers": [
+    {
+     "marker": "1",
+     "html": "Неізольований металевий дріт склали удвоє."
+    },
+    {
+     "marker": "2",
+     "html": "Неізольований металевий дріт протягли через волочильний верстат: довжина дроту збільшилася у <latex>2</latex> рази, а маса не змінилася."
+    },
+    {
+     "marker": "3",
+     "html": "На неізольованому металевому дроті нарізали різьбу, у результаті цього площа його поперечного перерізу зменшилася вдвічі по всій довжині."
+    },
+    {
+     "marker": "4",
+     "html": "Неізольований металевий дріт вкрили ізоляцією."
+    },
+    {
+     "marker": "А",
+     "html": "Опір провідника не змінився."
+    },
+    {
+     "marker": "Б",
+     "html": "Опір провідника збільшився в <latex>4</latex> рази."
+    },
+    {
+     "marker": "В",
+     "html": "Опір провідника збільшився в <latex>2</latex> рази."
+    },
+    {
+     "marker": "Г",
+     "html": "Опір провідника зменшився в <latex>4</latex> рази."
+    },
+    {
+     "marker": "Д",
+     "html": "Опір провідника зменшився до нуля."
+    }
+   ],
+   "groups": [
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "Неізольований металевий дріт склали удвоє."
+      },
+      {
+       "marker": "",
+       "html": "Неізольований металевий дріт протягли через волочильний верстат: довжина дроту збільшилася у <latex>2</latex> рази, а маса не змінилася."
+      },
+      {
+       "marker": "",
+       "html": "На неізольованому металевому дроті нарізали різьбу, у результаті цього площа його поперечного перерізу зменшилася вдвічі по всій довжині."
+      },
+      {
+       "marker": "",
+       "html": "Неізольований металевий дріт вкрили ізоляцією."
+      }
+     ]
+    },
+    {
+     "title": null,
+     "answers": [
+      {
+       "marker": "",
+       "html": "Опір провідника не змінився."
+      },
+      {
+       "marker": "",
+       "html": "Опір провідника збільшився в <latex>4</latex> рази."
+      },
+      {
+       "marker": "",
+       "html": "Опір провідника збільшився в <latex>2</latex> рази."
+      },
+      {
+       "marker": "",
+       "html": "Опір провідника зменшився в <latex>4</latex> рази."
+      },
+      {
+       "marker": "",
+       "html": "Опір провідника зменшився до нуля."
+      }
+     ]
+    }
+   ],
+   "answer_table_html": "<table class=\"select-answers-variants\">\n<tr><th></th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr>\n<tr>\n<th class=\"r\">1</th>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[1]\" type=\"radio\" value=\"1e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">2</th>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[2]\" type=\"radio\" value=\"2e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">3</th>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[3]\" type=\"radio\" value=\"3e\"/><span class=\"marker\"></span></label></td></tr>\n<tr>\n<th class=\"r\">4</th>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4a\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4b\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4c\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4d\"/><span class=\"marker\"></span></label></td>\n<td><label><input class=\"q-radio\" name=\"a[4]\" type=\"radio\" value=\"4e\"/><span class=\"marker\"></span></label></td></tr>\n<!-- for 5 ans (0) -->\n</table>",
+   "correct_raw": "1d;2b;3c;4a",
+   "correct": [
+    "1d",
+    "2b",
+    "3c",
+    "4a"
+   ],
+   "input": false,
+   "input_maxlength": null,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Установіть відповідність між указаними діями і результатами (можливими змінами опору провідника).",
+   "latex": [
+    "2",
+    "4",
+    "2",
+    "4"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 28
+    }
+   ]
+  },
+  {
+   "id": 9165,
+   "tip": 8,
+   "out_order": 29,
+   "test_id": 185,
+   "type": "short_answer",
+   "question_html": "<p>У мішку з піском масою <latex>1</latex> кг, що висить на легкому підвісі завдовжки <latex>10</latex> м, застряє куля масою <latex>10</latex> г, яка летіла горизонтально зі швидкістю <latex>1010</latex> м/с. Визначте кут, на який відхилиться підвіс від вертикалі. Уважайте, що <latex>g=10</latex> м/с<latex>^2</latex>.</p>\n<p>Відповідь запишіть у градусах.</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "60",
+   "correct": [
+    "60"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "У мішку з піском масою 1 кг, що висить на легкому підвісі завдовжки 10 м, застряє куля масою 10 г, яка летіла горизонтально зі швидкістю 1010 м/с. Визначте кут, на який відхилиться підвіс від вертикалі. Уважайте, що g=10 м/с ^2 .\n Відповідь запишіть у градусах.",
+   "latex": [
+    "1",
+    "10",
+    "10",
+    "1010",
+    "g=10",
+    "^2"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 29
+    }
+   ]
+  },
+  {
+   "id": 9166,
+   "tip": 8,
+   "out_order": 30,
+   "test_id": 185,
+   "type": "short_answer",
+   "question_html": "<p>Визначте кількість теплоти, яку отримав ідеальний газ під час процесу, зображеного на графіку. Урахуйте, що внутрішня енергія ідеального газу залежить тільки від його температури.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/91/9166/30_2.png\" style=\"width: 275px; height: auto;\"/></p>\n<p>Відповідь запишіть у джоулях.</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "200",
+   "correct": [
+    "200"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/91/9166/30_2.png",
+     "path": "images/doc/images/znotest/91/9166/30_2.png"
+    }
+   ],
+   "text": "Визначте кількість теплоти, яку отримав ідеальний газ під час процесу, зображеного на графіку. Урахуйте, що внутрішня енергія ідеального газу залежить тільки від його температури.\n Відповідь запишіть у джоулях.",
+   "latex": [],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 30
+    }
+   ]
+  },
+  {
+   "id": 9167,
+   "tip": 8,
+   "out_order": 31,
+   "test_id": 185,
+   "type": "short_answer",
+   "question_html": "<p>Електричне коло складається з гальванічного елемента (<latex>1</latex>) з внутрішнім опором <latex>0{,}5</latex> Ом, магазину резисторів (<latex>2</latex>), реостата (<latex>3</latex>) та амперметра (<latex>4</latex>). Проведено два досліди (див. фотографії). Визначте кількість теплоти, що виділялася за <latex>1</latex> хв у обмотці реостата під час досліду <latex>1</latex>. Опір реостата в обох дослідах однаковий. Результат запишіть у джоулях.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/91/9167/31.png\" style=\"width: 665px; height: auto;\"/></p>\n<p><em>Довідка: магазин резисторів являє собою чотири послідовно з’єднані дротяні спіралі, опори яких дорівнюють </em><latex>\\mathit{1}</latex><em> Ом, </em><latex>\\mathit{2}</latex><em> Ом, </em><latex>\\mathit{2}</latex><em> Ом, </em><latex>\\mathit{5}</latex><em> Ом. Кожна спіраль може вмикатися в електричне коло чи вимикатися з нього шляхом видалення чи встановлення спеціальної металевої перемички. Коли всі перемички вставлені, загальний опір магазину можна вважати рівним нулю, коли всі видалені – рівним </em><latex>\\mathit{10}</latex><em> Ом.</em></p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "15",
+   "correct": [
+    "15"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/91/9167/31.png",
+     "path": "images/doc/images/znotest/91/9167/31.png"
+    }
+   ],
+   "text": "Електричне коло складається з гальванічного елемента ( 1 ) з внутрішнім опором 0{,}5 Ом, магазину резисторів ( 2 ), реостата ( 3 ) та амперметра ( 4 ). Проведено два досліди (див. фотографії). Визначте кількість теплоти, що виділялася за 1 хв у обмотці реостата під час досліду 1 . Опір реостата в обох дослідах однаковий. Результат запишіть у джоулях.\n Довідка: магазин резисторів являє собою чотири послідовно з’єднані дротяні спіралі, опори яких дорівнюють \\mathit{1} Ом, \\mathit{2} Ом, \\mathit{2} Ом, \\mathit{5} Ом. Кожна спіраль може вмикатися в електричне коло чи вимикатися з нього шляхом видалення чи встановлення спеціальної металевої перемички. Коли всі перемички вставлені, загальний опір магазину можна вважати рівним нулю, коли всі видалені – рівним \\mathit{10} Ом.",
+   "latex": [
+    "1",
+    "0{,}5",
+    "2",
+    "3",
+    "4",
+    "1",
+    "1",
+    "\\mathit{1}",
+    "\\mathit{2}",
+    "\\mathit{2}",
+    "\\mathit{5}",
+    "\\mathit{10}"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 31
+    }
+   ]
+  },
+  {
+   "id": 9168,
+   "tip": 8,
+   "out_order": 32,
+   "test_id": 185,
+   "type": "short_answer",
+   "question_html": "<p>Під час роботи електродвигуна постійного струму сила струму в обмотці його ротора дорівнює <latex>1</latex> А. Якщо зупинити обертання ротора, сила струму в його обмотці збільшиться до <latex>10</latex> А. Визначте частку електричної енергії, що витрачається на нагрівання обмотки ротора під час його обертання. Напругу в мережі, від якої живиться електродвигун, уважайте сталою.</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "0.1",
+   "correct": [
+    "0.1"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Під час роботи електродвигуна постійного струму сила струму в обмотці його ротора дорівнює 1 А. Якщо зупинити обертання ротора, сила струму в його обмотці збільшиться до 10 А. Визначте частку електричної енергії, що витрачається на нагрівання обмотки ротора під час його обертання. Напругу в мережі, від якої живиться електродвигун, уважайте сталою.",
+   "latex": [
+    "1",
+    "10"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 32
+    }
+   ]
+  },
+  {
+   "id": 9169,
+   "tip": 8,
+   "out_order": 33,
+   "test_id": 185,
+   "type": "short_answer",
+   "question_html": "<p>У електричному колі, зображеному на рисунку, внутрішній опір джерела струму дорівнює <latex>1</latex> Ом, повний опір реостата дорівнює <latex>6</latex> Ом, активний опір котушки дорівнює <latex>2</latex> Ом. Спочатку ковзний контакт реостата знаходився в крайньому лівому положенні, а ключ – у положенні <latex>1</latex>. Коли ключ перевели в положення <latex>2</latex>, у конденсаторі та котушці виникли вільні електромагнітні коливання. Визначте, у скільки разів збільшиться початкова амплітуда коливань, якщо установити опір реостата рівним <latex>3</latex> Ом та повторити дослід.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/91/9169/33_1.png\" style=\"width: 240px; height: auto;\"/></p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "1.5",
+   "correct": [
+    "1.5"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/91/9169/33_1.png",
+     "path": "images/doc/images/znotest/91/9169/33_1.png"
+    }
+   ],
+   "text": "У електричному колі, зображеному на рисунку, внутрішній опір джерела струму дорівнює 1 Ом, повний опір реостата дорівнює 6 Ом, активний опір котушки дорівнює 2 Ом. Спочатку ковзний контакт реостата знаходився в крайньому лівому положенні, а ключ – у положенні 1 . Коли ключ перевели в положення 2 , у конденсаторі та котушці виникли вільні електромагнітні коливання. Визначте, у скільки разів збільшиться початкова амплітуда коливань, якщо установити опір реостата рівним 3 Ом та повторити дослід.",
+   "latex": [
+    "1",
+    "6",
+    "2",
+    "1",
+    "2",
+    "3"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 33
+    }
+   ]
+  },
+  {
+   "id": 9170,
+   "tip": 8,
+   "out_order": 34,
+   "test_id": 185,
+   "type": "short_answer",
+   "question_html": "<p>На рисунку показано пучок монохроматичного світла, що проходить через дифракційну ґратку Д, яка має <latex>1250</latex> штрихів на один міліметр. Визначте довжину хвилі світла. Уважайте, що <latex>\\sqrt2=1{,}41</latex>.</p>\n<p><img alt=\"\" src=\"images/doc/images/znotest/91/9170/34.png\" style=\"height: auto; width: 295px;\"/></p>\n<p>Відповідь запишіть у нанометрах.</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "564",
+   "correct": [
+    "564"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [
+    {
+     "url": "https://zno.osvita.ua/doc/images/znotest/91/9170/34.png",
+     "path": "images/doc/images/znotest/91/9170/34.png"
+    }
+   ],
+   "text": "На рисунку показано пучок монохроматичного світла, що проходить через дифракційну ґратку Д, яка має 1250 штрихів на один міліметр. Визначте довжину хвилі світла. Уважайте, що \\sqrt2=1{,}41 .\n Відповідь запишіть у нанометрах.",
+   "latex": [
+    "1250",
+    "\\sqrt2=1{,}41"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 34
+    }
+   ]
+  },
+  {
+   "id": 9171,
+   "tip": 8,
+   "out_order": 35,
+   "test_id": 185,
+   "type": "short_answer",
+   "question_html": "<p>Монохроматичне світло падає на поверхні двох різних металів. Для першого з них робота виходу електронів дорівнює <latex>1{,}1</latex> еВ, а для другого вона дорівнює <latex>2{,}9</latex> еВ. Визначте максимальну швидкість фотоелектронів, що вилітають із другого металу, якщо для першого металу ця швидкість дорівнює <latex>1000</latex> км/с. Уважайте, що маса електрона дорівнює <latex>9\\cdot10^{-31}</latex> кг, <latex>1\\ \\text{еВ}=1{,}6\\cdot10^{-19}</latex> Дж.</p>\n<p>Відповідь запишіть у кілометрах за секунду.</p>",
+   "answers": [],
+   "answer_table_html": null,
+   "correct_raw": "600",
+   "correct": [
+    "600"
+   ],
+   "input": true,
+   "input_maxlength": 30,
+   "explanation_html": null,
+   "explanation_text": "",
+   "topic": null,
+   "images": [],
+   "text": "Монохроматичне світло падає на поверхні двох різних металів. Для першого з них робота виходу електронів дорівнює 1{,}1 еВ, а для другого вона дорівнює 2{,}9 еВ. Визначте максимальну швидкість фотоелектронів, що вилітають із другого металу, якщо для першого металу ця швидкість дорівнює 1000 км/с. Уважайте, що маса електрона дорівнює 9\\cdot10^{-31} кг, 1\\ \\text{еВ}=1{,}6\\cdot10^{-19} Дж.\n Відповідь запишіть у кілометрах за секунду.",
+   "latex": [
+    "1{,}1",
+    "2{,}9",
+    "1000",
+    "9\\cdot10^{-31}",
+    "1\\ \\text{еВ}=1{,}6\\cdot10^{-19}"
+   ],
+   "source_test": 185,
+   "subject": "physics",
+   "tests": [
+    {
+     "test_id": 185,
+     "order": 35
+    }
+   ]
+  }
+ ],
+ "questions_count": 35,
+ "subject": "physics",
+ "subject_name": "Фізика",
+ "id": 185,
+ "year": 2009,
+ "kind": "test",
+ "session": "main"
+}

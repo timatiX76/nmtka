@@ -1,0 +1,506 @@
+{
+ "subject": "chemistry",
+ "name": "Хімія",
+ "tests": [
+  {
+   "id": 854,
+   "url": "https://zno.osvita.ua/chemistry/854/",
+   "title": "НМТ онлайн 2026 року з хімії – 1 сесія",
+   "year": 2026,
+   "kind": "nmt",
+   "session": "1",
+   "questions_count": 24,
+   "file": "tests/chemistry/854.json"
+  },
+  {
+   "id": 857,
+   "url": "https://zno.osvita.ua/chemistry/857/",
+   "title": "НМТ онлайн 2026 року з хімії – 2 сесія",
+   "year": 2026,
+   "kind": "nmt",
+   "session": "2",
+   "questions_count": 24,
+   "file": "tests/chemistry/857.json"
+  },
+  {
+   "id": 718,
+   "url": "https://zno.osvita.ua/chemistry/718/",
+   "title": "НМТ онлайн 2026 року з хімії – демоваріант",
+   "year": 2026,
+   "kind": "demo",
+   "session": null,
+   "questions_count": 24,
+   "file": "tests/chemistry/718.json"
+  },
+  {
+   "id": 687,
+   "url": "https://zno.osvita.ua/chemistry/687/",
+   "title": "НМТ онлайн 2025 року з хімії – 1 сесія",
+   "year": 2025,
+   "kind": "nmt",
+   "session": "1",
+   "questions_count": 30,
+   "file": "tests/chemistry/687.json"
+  },
+  {
+   "id": 688,
+   "url": "https://zno.osvita.ua/chemistry/688/",
+   "title": "НМТ онлайн 2025 року з хімії – 2 сесія",
+   "year": 2025,
+   "kind": "nmt",
+   "session": "2",
+   "questions_count": 30,
+   "file": "tests/chemistry/688.json"
+  },
+  {
+   "id": 594,
+   "url": "https://zno.osvita.ua/chemistry/594/",
+   "title": "НМТ онлайн 2024 року з хімії – 1 сесія",
+   "year": 2024,
+   "kind": "nmt",
+   "session": "1",
+   "questions_count": 30,
+   "file": "tests/chemistry/594.json"
+  },
+  {
+   "id": 595,
+   "url": "https://zno.osvita.ua/chemistry/595/",
+   "title": "НМТ онлайн 2024 року з хімії – 2 сесія",
+   "year": 2024,
+   "kind": "nmt",
+   "session": "2",
+   "questions_count": 30,
+   "file": "tests/chemistry/595.json"
+  },
+  {
+   "id": 574,
+   "url": "https://zno.osvita.ua/chemistry/574/",
+   "title": "НМТ онлайн 2024 року з хімії – демоваріант",
+   "year": 2024,
+   "kind": "demo",
+   "session": null,
+   "questions_count": 30,
+   "file": "tests/chemistry/574.json"
+  },
+  {
+   "id": 555,
+   "url": "https://zno.osvita.ua/chemistry/555/",
+   "title": "НМТ онлайн 2023 року з хімії – 1 сесія",
+   "year": 2023,
+   "kind": "nmt",
+   "session": "1",
+   "questions_count": 30,
+   "file": "tests/chemistry/555.json"
+  },
+  {
+   "id": 554,
+   "url": "https://zno.osvita.ua/chemistry/554/",
+   "title": "НМТ онлайн 2023 року з хімії – 2 сесія",
+   "year": 2023,
+   "kind": "nmt",
+   "session": "2",
+   "questions_count": 30,
+   "file": "tests/chemistry/554.json"
+  },
+  {
+   "id": 529,
+   "url": "https://zno.osvita.ua/chemistry/529/",
+   "title": "НМТ онлайн 2023 року з хімії – демоваріант",
+   "year": 2023,
+   "kind": "demo",
+   "session": null,
+   "questions_count": 30,
+   "file": "tests/chemistry/529.json"
+  },
+  {
+   "id": 477,
+   "url": "https://zno.osvita.ua/chemistry/477/",
+   "title": "ЗНО онлайн 2021 року з хімії – додаткова сесія",
+   "year": 2021,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 52,
+   "file": "tests/chemistry/477.json"
+  },
+  {
+   "id": 464,
+   "url": "https://zno.osvita.ua/chemistry/464/",
+   "title": "ЗНО онлайн 2021 року з хімії – основна сесія",
+   "year": 2021,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 52,
+   "file": "tests/chemistry/464.json"
+  },
+  {
+   "id": 461,
+   "url": "https://zno.osvita.ua/chemistry/461/",
+   "title": "ЗНО онлайн 2021 року з хімії – пробний тест",
+   "year": 2021,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 52,
+   "file": "tests/chemistry/461.json"
+  },
+  {
+   "id": 433,
+   "url": "https://zno.osvita.ua/chemistry/433/",
+   "title": "ЗНО онлайн 2020 року з хімії – додаткова сесія",
+   "year": 2020,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 52,
+   "file": "tests/chemistry/433.json"
+  },
+  {
+   "id": 418,
+   "url": "https://zno.osvita.ua/chemistry/418/",
+   "title": "ЗНО онлайн 2020 року з хімії – основна сесія",
+   "year": 2020,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 52,
+   "file": "tests/chemistry/418.json"
+  },
+  {
+   "id": 392,
+   "url": "https://zno.osvita.ua/chemistry/392/",
+   "title": "ЗНО онлайн 2020 року з хімії – пробний тест",
+   "year": 2020,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 52,
+   "file": "tests/chemistry/392.json"
+  },
+  {
+   "id": 356,
+   "url": "https://zno.osvita.ua/chemistry/356/",
+   "title": "ЗНО онлайн 2019 року з хімії – основна сесія",
+   "year": 2019,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 52,
+   "file": "tests/chemistry/356.json"
+  },
+  {
+   "id": 374,
+   "url": "https://zno.osvita.ua/chemistry/374/",
+   "title": "ЗНО онлайн 2019 року з хімії – додаткова сесія",
+   "year": 2019,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 52,
+   "file": "tests/chemistry/374.json"
+  },
+  {
+   "id": 341,
+   "url": "https://zno.osvita.ua/chemistry/341/",
+   "title": "ЗНО онлайн 2019 року з хімії – пробний тест",
+   "year": 2019,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 52,
+   "file": "tests/chemistry/341.json"
+  },
+  {
+   "id": 308,
+   "url": "https://zno.osvita.ua/chemistry/308/",
+   "title": "ЗНО онлайн 2018 року з хімії – основна сесія",
+   "year": 2018,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 52,
+   "file": "tests/chemistry/308.json"
+  },
+  {
+   "id": 328,
+   "url": "https://zno.osvita.ua/chemistry/328/",
+   "title": "ЗНО онлайн 2018 року з хімії – додаткова сесія",
+   "year": 2018,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 52,
+   "file": "tests/chemistry/328.json"
+  },
+  {
+   "id": 289,
+   "url": "https://zno.osvita.ua/chemistry/289/",
+   "title": "ЗНО онлайн 2018 року з хімії – пробний тест",
+   "year": 2018,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 52,
+   "file": "tests/chemistry/289.json"
+  },
+  {
+   "id": 253,
+   "url": "https://zno.osvita.ua/chemistry/253/",
+   "title": "ЗНО онлайн 2017 року з хімії – основна сесія",
+   "year": 2017,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 50,
+   "file": "tests/chemistry/253.json"
+  },
+  {
+   "id": 261,
+   "url": "https://zno.osvita.ua/chemistry/261/",
+   "title": "ЗНО онлайн 2017 року з хімії – додаткова сесія",
+   "year": 2017,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 50,
+   "file": "tests/chemistry/261.json"
+  },
+  {
+   "id": 219,
+   "url": "https://zno.osvita.ua/chemistry/219/",
+   "title": "ЗНО онлайн 2017 року з хімії – пробний тест",
+   "year": 2017,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 50,
+   "file": "tests/chemistry/219.json"
+  },
+  {
+   "id": 202,
+   "url": "https://zno.osvita.ua/chemistry/202/",
+   "title": "ЗНО онлайн 2016 року з хімії – основна сесія",
+   "year": 2016,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 50,
+   "file": "tests/chemistry/202.json"
+  },
+  {
+   "id": 229,
+   "url": "https://zno.osvita.ua/chemistry/229/",
+   "title": "ЗНО онлайн 2016 року з хімії – додаткова сесія",
+   "year": 2016,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 50,
+   "file": "tests/chemistry/229.json"
+  },
+  {
+   "id": 196,
+   "url": "https://zno.osvita.ua/chemistry/196/",
+   "title": "ЗНО онлайн 2016 року з хімії – пробний тест",
+   "year": 2016,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 50,
+   "file": "tests/chemistry/196.json"
+  },
+  {
+   "id": 163,
+   "url": "https://zno.osvita.ua/chemistry/163/",
+   "title": "ЗНО онлайн 2015 року з хімії – основна сесія",
+   "year": 2015,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 54,
+   "file": "tests/chemistry/163.json"
+  },
+  {
+   "id": 171,
+   "url": "https://zno.osvita.ua/chemistry/171/",
+   "title": "ЗНО онлайн 2015 року з хімії – додаткова сесія",
+   "year": 2015,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 54,
+   "file": "tests/chemistry/171.json"
+  },
+  {
+   "id": 233,
+   "url": "https://zno.osvita.ua/chemistry/233/",
+   "title": "ЗНО онлайн 2015 року з хімії – пробний тест",
+   "year": 2015,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 54,
+   "file": "tests/chemistry/233.json"
+  },
+  {
+   "id": 223,
+   "url": "https://zno.osvita.ua/chemistry/223/",
+   "title": "ЗНО онлайн 2014 року з хімії – основна сесія",
+   "year": 2014,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 60,
+   "file": "tests/chemistry/223.json"
+  },
+  {
+   "id": 228,
+   "url": "https://zno.osvita.ua/chemistry/228/",
+   "title": "ЗНО онлайн 2014 року з хімії – додаткова сесія",
+   "year": 2014,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 60,
+   "file": "tests/chemistry/228.json"
+  },
+  {
+   "id": 237,
+   "url": "https://zno.osvita.ua/chemistry/237/",
+   "title": "ЗНО онлайн 2014 року з хімії – пробний тест",
+   "year": 2014,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 60,
+   "file": "tests/chemistry/237.json"
+  },
+  {
+   "id": 72,
+   "url": "https://zno.osvita.ua/chemistry/72/",
+   "title": "ЗНО онлайн 2013 року з хімії – основна сесія",
+   "year": 2013,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 60,
+   "file": "tests/chemistry/72.json"
+  },
+  {
+   "id": 238,
+   "url": "https://zno.osvita.ua/chemistry/238/",
+   "title": "ЗНО онлайн 2013 року з хімії – додаткова сесія",
+   "year": 2013,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 60,
+   "file": "tests/chemistry/238.json"
+  },
+  {
+   "id": 241,
+   "url": "https://zno.osvita.ua/chemistry/241/",
+   "title": "ЗНО онлайн 2013 року з хімії – пробний тест",
+   "year": 2013,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 60,
+   "file": "tests/chemistry/241.json"
+  },
+  {
+   "id": 73,
+   "url": "https://zno.osvita.ua/chemistry/73/",
+   "title": "ЗНО онлайн 2012 року з хімії – основна сесія",
+   "year": 2012,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 60,
+   "file": "tests/chemistry/73.json"
+  },
+  {
+   "id": 242,
+   "url": "https://zno.osvita.ua/chemistry/242/",
+   "title": "ЗНО онлайн 2012 року з хімії – пробний тест",
+   "year": 2012,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 60,
+   "file": "tests/chemistry/242.json"
+  },
+  {
+   "id": 385,
+   "url": "https://zno.osvita.ua/chemistry/385/",
+   "title": "ЗНО онлайн 2011 року з хімії – додаткова сесія",
+   "year": 2011,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 60,
+   "file": "tests/chemistry/385.json"
+  },
+  {
+   "id": 74,
+   "url": "https://zno.osvita.ua/chemistry/74/",
+   "title": "ЗНО онлайн 2011 року з хімії – основна сесія",
+   "year": 2011,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 60,
+   "file": "tests/chemistry/74.json"
+  },
+  {
+   "id": 78,
+   "url": "https://zno.osvita.ua/chemistry/78/",
+   "title": "ЗНО онлайн 2011 року з хімії – пробний тест",
+   "year": 2011,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 60,
+   "file": "tests/chemistry/78.json"
+  },
+  {
+   "id": 386,
+   "url": "https://zno.osvita.ua/chemistry/386/",
+   "title": "ЗНО онлайн 2010 року з хімії – додаткова сесія",
+   "year": 2010,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 60,
+   "file": "tests/chemistry/386.json"
+  },
+  {
+   "id": 75,
+   "url": "https://zno.osvita.ua/chemistry/75/",
+   "title": "ЗНО онлайн 2010 року з хімії – основна сесія",
+   "year": 2010,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 60,
+   "file": "tests/chemistry/75.json"
+  },
+  {
+   "id": 79,
+   "url": "https://zno.osvita.ua/chemistry/79/",
+   "title": "ЗНО онлайн 2010 року з хімії – пробний тест",
+   "year": 2010,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 60,
+   "file": "tests/chemistry/79.json"
+  },
+  {
+   "id": 387,
+   "url": "https://zno.osvita.ua/chemistry/387/",
+   "title": "ЗНО онлайн 2009 року з хімії – додаткова сесія",
+   "year": 2009,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 60,
+   "file": "tests/chemistry/387.json"
+  },
+  {
+   "id": 293,
+   "url": "https://zno.osvita.ua/chemistry/293/",
+   "title": "ЗНО онлайн 2009 року з хімії – основна сесія",
+   "year": 2009,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 60,
+   "file": "tests/chemistry/293.json"
+  },
+  {
+   "id": 294,
+   "url": "https://zno.osvita.ua/chemistry/294/",
+   "title": "ЗНО онлайн 2008 року з хімії – основна сесія",
+   "year": 2008,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 60,
+   "file": "tests/chemistry/294.json"
+  },
+  {
+   "id": 295,
+   "url": "https://zno.osvita.ua/chemistry/295/",
+   "title": "ЗНО онлайн 2007 року з хімії – основна сесія",
+   "year": 2007,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 61,
+   "file": "tests/chemistry/295.json"
+  }
+ ]
+}

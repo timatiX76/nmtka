@@ -1,0 +1,14 @@
+[package]
+name = "zno-gui"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "zno-gui"
+path = "src/main.rs"
+
+[dependencies]
+zno-core = { path = "../zno-core" }
+eframe = "0.37"
+egui_extras = { version = "0.37", features = ["all_loaders"] }
+anyhow = "1"

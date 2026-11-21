@@ -1,0 +1,13 @@
+{
+  "name": "zno-latex-prerender",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Предрендер LaTeX-формул датасета ЗНО/НМТ в SVG (MathJax)",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "mathjax-full": "^3.2.2"
+  }
+}

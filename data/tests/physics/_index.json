@@ -1,0 +1,456 @@
+{
+ "subject": "physics",
+ "name": "Фізика",
+ "tests": [
+  {
+   "id": 862,
+   "url": "https://zno.osvita.ua/physics/862/",
+   "title": "НМТ онлайн 2026 року з фізики – 1 сесія",
+   "year": 2026,
+   "kind": "nmt",
+   "session": "1",
+   "questions_count": 22,
+   "file": "tests/physics/862.json"
+  },
+  {
+   "id": 864,
+   "url": "https://zno.osvita.ua/physics/864/",
+   "title": "НМТ онлайн 2026 року з фізики – 2 сесія",
+   "year": 2026,
+   "kind": "nmt",
+   "session": "2",
+   "questions_count": 22,
+   "file": "tests/physics/864.json"
+  },
+  {
+   "id": 717,
+   "url": "https://zno.osvita.ua/physics/717/",
+   "title": "НМТ онлайн 2026 року з фізики – демоваріант",
+   "year": 2026,
+   "kind": "demo",
+   "session": null,
+   "questions_count": 22,
+   "file": "tests/physics/717.json"
+  },
+  {
+   "id": 677,
+   "url": "https://zno.osvita.ua/physics/677/",
+   "title": "НМТ онлайн 2025 року з фізики – 1 сесія",
+   "year": 2025,
+   "kind": "nmt",
+   "session": "1",
+   "questions_count": 20,
+   "file": "tests/physics/677.json"
+  },
+  {
+   "id": 678,
+   "url": "https://zno.osvita.ua/physics/678/",
+   "title": "НМТ онлайн 2025 року з фізики – 2 сесія",
+   "year": 2025,
+   "kind": "nmt",
+   "session": "2",
+   "questions_count": 20,
+   "file": "tests/physics/678.json"
+  },
+  {
+   "id": 592,
+   "url": "https://zno.osvita.ua/physics/592/",
+   "title": "НМТ онлайн 2024 року з фізики – 1 сесія",
+   "year": 2024,
+   "kind": "nmt",
+   "session": "1",
+   "questions_count": 20,
+   "file": "tests/physics/592.json"
+  },
+  {
+   "id": 593,
+   "url": "https://zno.osvita.ua/physics/593/",
+   "title": "НМТ онлайн 2024 року з фізики – 2 сесія",
+   "year": 2024,
+   "kind": "nmt",
+   "session": "2",
+   "questions_count": 20,
+   "file": "tests/physics/593.json"
+  },
+  {
+   "id": 573,
+   "url": "https://zno.osvita.ua/physics/573/",
+   "title": "НМТ онлайн 2024 року з фізики – демоваріант",
+   "year": 2024,
+   "kind": "demo",
+   "session": null,
+   "questions_count": 20,
+   "file": "tests/physics/573.json"
+  },
+  {
+   "id": 553,
+   "url": "https://zno.osvita.ua/physics/553/",
+   "title": "НМТ онлайн 2023 року з фізики – 1 сесія",
+   "year": 2023,
+   "kind": "nmt",
+   "session": "1",
+   "questions_count": 20,
+   "file": "tests/physics/553.json"
+  },
+  {
+   "id": 552,
+   "url": "https://zno.osvita.ua/physics/552/",
+   "title": "НМТ онлайн 2023 року з фізики – 2 сесія",
+   "year": 2023,
+   "kind": "nmt",
+   "session": "2",
+   "questions_count": 20,
+   "file": "tests/physics/552.json"
+  },
+  {
+   "id": 526,
+   "url": "https://zno.osvita.ua/physics/526/",
+   "title": "НМТ онлайн 2023 року з фізики – демоваріант",
+   "year": 2023,
+   "kind": "demo",
+   "session": null,
+   "questions_count": 20,
+   "file": "tests/physics/526.json"
+  },
+  {
+   "id": 490,
+   "url": "https://zno.osvita.ua/physics/490/",
+   "title": "ЗНО онлайн 2021 року з фізики – додаткова сесія",
+   "year": 2021,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 38,
+   "file": "tests/physics/490.json"
+  },
+  {
+   "id": 473,
+   "url": "https://zno.osvita.ua/physics/473/",
+   "title": "ЗНО онлайн 2021 року з фізики – основна сесія",
+   "year": 2021,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 38,
+   "file": "tests/physics/473.json"
+  },
+  {
+   "id": 462,
+   "url": "https://zno.osvita.ua/physics/462/",
+   "title": "ЗНО онлайн 2021 року з фізики – пробний тест",
+   "year": 2021,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 38,
+   "file": "tests/physics/462.json"
+  },
+  {
+   "id": 407,
+   "url": "https://zno.osvita.ua/physics/407/",
+   "title": "ЗНО онлайн 2020 року з фізики – основна сесія",
+   "year": 2020,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 38,
+   "file": "tests/physics/407.json"
+  },
+  {
+   "id": 424,
+   "url": "https://zno.osvita.ua/physics/424/",
+   "title": "ЗНО онлайн 2020 року з фізики – додаткова сесія",
+   "year": 2020,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 38,
+   "file": "tests/physics/424.json"
+  },
+  {
+   "id": 391,
+   "url": "https://zno.osvita.ua/physics/391/",
+   "title": "ЗНО онлайн 2020 року з фізики – пробний тест",
+   "year": 2020,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 38,
+   "file": "tests/physics/391.json"
+  },
+  {
+   "id": 352,
+   "url": "https://zno.osvita.ua/physics/352/",
+   "title": "ЗНО онлайн 2019 року з фізики – основна сесія",
+   "year": 2019,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 38,
+   "file": "tests/physics/352.json"
+  },
+  {
+   "id": 367,
+   "url": "https://zno.osvita.ua/physics/367/",
+   "title": "ЗНО онлайн 2019 року з фізики – додаткова сесія",
+   "year": 2019,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 38,
+   "file": "tests/physics/367.json"
+  },
+  {
+   "id": 339,
+   "url": "https://zno.osvita.ua/physics/339/",
+   "title": "ЗНО онлайн 2019 року з фізики – пробний тест",
+   "year": 2019,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 38,
+   "file": "tests/physics/339.json"
+  },
+  {
+   "id": 307,
+   "url": "https://zno.osvita.ua/physics/307/",
+   "title": "ЗНО онлайн 2018 року з фізики – основна сесія",
+   "year": 2018,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 38,
+   "file": "tests/physics/307.json"
+  },
+  {
+   "id": 318,
+   "url": "https://zno.osvita.ua/physics/318/",
+   "title": "ЗНО онлайн 2018 року з фізики – додаткова сесія",
+   "year": 2018,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 38,
+   "file": "tests/physics/318.json"
+  },
+  {
+   "id": 291,
+   "url": "https://zno.osvita.ua/physics/291/",
+   "title": "ЗНО онлайн 2018 року з фізики – пробний тест",
+   "year": 2018,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 38,
+   "file": "tests/physics/291.json"
+  },
+  {
+   "id": 252,
+   "url": "https://zno.osvita.ua/physics/252/",
+   "title": "ЗНО онлайн 2017 року з фізики – основна сесія",
+   "year": 2017,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 34,
+   "file": "tests/physics/252.json"
+  },
+  {
+   "id": 260,
+   "url": "https://zno.osvita.ua/physics/260/",
+   "title": "ЗНО онлайн 2017 року з фізики – додаткова сесія",
+   "year": 2017,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 34,
+   "file": "tests/physics/260.json"
+  },
+  {
+   "id": 217,
+   "url": "https://zno.osvita.ua/physics/217/",
+   "title": "ЗНО онлайн 2017 року з фізики – пробний тест",
+   "year": 2017,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 34,
+   "file": "tests/physics/217.json"
+  },
+  {
+   "id": 231,
+   "url": "https://zno.osvita.ua/physics/231/",
+   "title": "ЗНО онлайн 2016 року з фізики – основна сесія",
+   "year": 2016,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 34,
+   "file": "tests/physics/231.json"
+  },
+  {
+   "id": 222,
+   "url": "https://zno.osvita.ua/physics/222/",
+   "title": "ЗНО онлайн 2016 року з фізики – додаткова сесія",
+   "year": 2016,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 34,
+   "file": "tests/physics/222.json"
+  },
+  {
+   "id": 195,
+   "url": "https://zno.osvita.ua/physics/195/",
+   "title": "ЗНО онлайн 2016 року з фізики – пробний тест",
+   "year": 2016,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 34,
+   "file": "tests/physics/195.json"
+  },
+  {
+   "id": 161,
+   "url": "https://zno.osvita.ua/physics/161/",
+   "title": "ЗНО онлайн 2015 року з фізики – основна сесія",
+   "year": 2015,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 34,
+   "file": "tests/physics/161.json"
+  },
+  {
+   "id": 170,
+   "url": "https://zno.osvita.ua/physics/170/",
+   "title": "ЗНО онлайн 2015 року з фізики – додаткова сесія",
+   "year": 2015,
+   "kind": "test",
+   "session": "extra",
+   "questions_count": 34,
+   "file": "tests/physics/170.json"
+  },
+  {
+   "id": 183,
+   "url": "https://zno.osvita.ua/physics/183/",
+   "title": "ЗНО онлайн 2015 року з фізики – пробний тест",
+   "year": 2015,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 34,
+   "file": "tests/physics/183.json"
+  },
+  {
+   "id": 182,
+   "url": "https://zno.osvita.ua/physics/182/",
+   "title": "ЗНО онлайн 2014 року з фізики – основна сесія",
+   "year": 2014,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 34,
+   "file": "tests/physics/182.json"
+  },
+  {
+   "id": 107,
+   "url": "https://zno.osvita.ua/physics/107/",
+   "title": "ЗНО онлайн 2014 року з фізики – пробний тест",
+   "year": 2014,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 34,
+   "file": "tests/physics/107.json"
+  },
+  {
+   "id": 103,
+   "url": "https://zno.osvita.ua/physics/103/",
+   "title": "ЗНО онлайн 2013 року з фізики – основна сесія",
+   "year": 2013,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 34,
+   "file": "tests/physics/103.json"
+  },
+  {
+   "id": 108,
+   "url": "https://zno.osvita.ua/physics/108/",
+   "title": "ЗНО онлайн 2013 року з фізики – пробний тест",
+   "year": 2013,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 34,
+   "file": "tests/physics/108.json"
+  },
+  {
+   "id": 104,
+   "url": "https://zno.osvita.ua/physics/104/",
+   "title": "ЗНО онлайн 2012 року з фізики – основна сесія",
+   "year": 2012,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 36,
+   "file": "tests/physics/104.json"
+  },
+  {
+   "id": 109,
+   "url": "https://zno.osvita.ua/physics/109/",
+   "title": "ЗНО онлайн 2012 року з фізики – пробний тест",
+   "year": 2012,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 36,
+   "file": "tests/physics/109.json"
+  },
+  {
+   "id": 105,
+   "url": "https://zno.osvita.ua/physics/105/",
+   "title": "ЗНО онлайн 2011 року з фізики – основна сесія",
+   "year": 2011,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 36,
+   "file": "tests/physics/105.json"
+  },
+  {
+   "id": 110,
+   "url": "https://zno.osvita.ua/physics/110/",
+   "title": "ЗНО онлайн 2011 року з фізики – пробний тест",
+   "year": 2011,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 36,
+   "file": "tests/physics/110.json"
+  },
+  {
+   "id": 106,
+   "url": "https://zno.osvita.ua/physics/106/",
+   "title": "ЗНО онлайн 2010 року з фізики – основна сесія",
+   "year": 2010,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 37,
+   "file": "tests/physics/106.json"
+  },
+  {
+   "id": 111,
+   "url": "https://zno.osvita.ua/physics/111/",
+   "title": "ЗНО онлайн 2010 року з фізики – пробний тест",
+   "year": 2010,
+   "kind": "trial",
+   "session": null,
+   "questions_count": 37,
+   "file": "tests/physics/111.json"
+  },
+  {
+   "id": 185,
+   "url": "https://zno.osvita.ua/physics/185/",
+   "title": "ЗНО онлайн 2009 року з фізики – основна сесія",
+   "year": 2009,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 35,
+   "file": "tests/physics/185.json"
+  },
+  {
+   "id": 184,
+   "url": "https://zno.osvita.ua/physics/184/",
+   "title": "ЗНО онлайн 2008 року з фізики – основна сесія",
+   "year": 2008,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 35,
+   "file": "tests/physics/184.json"
+  },
+  {
+   "id": 297,
+   "url": "https://zno.osvita.ua/physics/297/",
+   "title": "ЗНО онлайн 2007 року з фізики – основна сесія",
+   "year": 2007,
+   "kind": "test",
+   "session": "main",
+   "questions_count": 35,
+   "file": "tests/physics/297.json"
+  }
+ ]
+}
