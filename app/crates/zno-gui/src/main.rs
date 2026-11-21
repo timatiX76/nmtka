@@ -8,8 +8,7 @@ use zno_core::{Dataset, NmtVariant, Question, QuestionType, TestListItem, Topic}
 
 use html::Block;
 
-fn main() -> eframe::Result {
-    let args: Vec<String> = std::env::args().collect();
+fn main() -> eframe::Result {    let args: Vec<String> = std::env::args().collect();
     let root = args
         .get(1)
         .cloned()
@@ -24,7 +23,24 @@ fn main() -> eframe::Result {
     let ds = match Dataset::open(&root) {
         Ok(ds) => ds,
         Err(e) => {
+            let cwd = std::env::current_dir()
+                .map(|d| d.display().to_string())
+                .unwrap_or_else(|_| "?".to_string());
+            let exe_dir = std::env::current_exe()
+                .ok()
+                .and_then(|p| p.parent().map(|d| d.display().to_string()))
+                .unwrap_or_else(|| "?".to_string());
+            let msg = format!(
+                "Не знайдено датасет (потрібна папка data з index.json).\n\n\
+                 Поклади nmtka.exe поруч із папкою data/ з репозиторію nmtka,\n\
+                 або вкажи шлях аргументом:  nmtka.exe D:\\шлях\\до\\nmtka\n\
+                 або змінною середовища ZNO_DATA.\n\n\
+                 Папка запуску: {cwd}\n\
+                 Папка exe: {exe_dir}\n\n\
+                 Деталі: {e:#}"
+            );
             eprintln!("Не вдалося відкрити датасет {root}:\n{e:#}");
+            error_box("nmtka", &msg);
             std::process::exit(1);
         }
     };
@@ -43,6 +59,24 @@ fn main() -> eframe::Result {
         Box::new(|cc| Ok(Box::new(App::new(cc, ds, deep_link)))),
     )
 }
+
+#[cfg(windows)]
+fn error_box(title: &str, text: &str) {
+    #[link(name = "user32")]
+    extern "system" {
+        fn MessageBoxW(hwnd: isize, text: *const u16, caption: *const u16, flags: u32) -> i32;
+    }
+    let mut t: Vec<u16> = text.encode_utf16().collect();
+    t.push(0);
+    let mut c: Vec<u16> = title.encode_utf16().collect();
+    c.push(0);
+    unsafe {
+        MessageBoxW(0, t.as_ptr(), c.as_ptr(), 0x00000010);
+    }
+}
+
+#[cfg(not(windows))]
+fn error_box(_title: &str, _text: &str) {}
 
 fn find_root() -> Option<String> {
     let mut starts = Vec::new();
