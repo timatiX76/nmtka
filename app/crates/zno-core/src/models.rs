@@ -41,12 +41,12 @@ pub enum QuestionType {
 impl QuestionType {
     pub fn label(self) -> &'static str {
         match self {
-            QuestionType::SingleChoice => "один вариант",
-            QuestionType::MultiChoice => "несколько вариантов",
-            QuestionType::ShortAnswer => "короткий ответ",
+            QuestionType::SingleChoice => "один варіант",
+            QuestionType::MultiChoice => "кілька варіантів",
+            QuestionType::ShortAnswer => "коротка відповідь",
             QuestionType::Matching => "відповідність",
             QuestionType::Sequence => "послідовність",
-            QuestionType::Unknown => "задание",
+            QuestionType::Unknown => "завдання",
         }
     }
 }

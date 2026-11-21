@@ -1,20 +1,48 @@
 mod html;
+mod theme;
 
 use eframe::egui;
+use eframe::egui::Color32;
+use theme::*;
 use zno_core::{Dataset, NmtVariant, Question, QuestionType, TestListItem, Topic};
 
 use html::Block;
 
-const BG_TOP: egui::Color32 = egui::Color32::from_rgb(8, 12, 16);
-const BG_BOTTOM: egui::Color32 = egui::Color32::from_rgb(13, 45, 40);
-const CARD_BG: egui::Color32 = egui::Color32::from_rgb(17, 25, 29);
-const CARD_HOVER: egui::Color32 = egui::Color32::from_rgb(25, 40, 44);
-const BORDER: egui::Color32 = egui::Color32::from_rgb(42, 74, 68);
-const ACCENT: egui::Color32 = egui::Color32::from_rgb(88, 205, 168);
-const TEXT: egui::Color32 = egui::Color32::from_rgb(226, 236, 238);
-const MUTED: egui::Color32 = egui::Color32::from_rgb(138, 158, 162);
-const GREEN: egui::Color32 = egui::Color32::from_rgb(96, 214, 150);
-const RED: egui::Color32 = egui::Color32::from_rgb(238, 112, 112);
+fn main() -> eframe::Result {
+    let args: Vec<String> = std::env::args().collect();
+    let root = args
+        .get(1)
+        .cloned()
+        .or_else(|| std::env::var("ZNO_DATA").ok())
+        .or_else(find_root)
+        .unwrap_or_else(|| ".".to_string());
+    let deep_link = match (args.get(2), args.get(3)) {
+        (Some(subject), Some(key)) => Some((subject.clone(), key.clone())),
+        _ => None,
+    };
+
+    let ds = match Dataset::open(&root) {
+        Ok(ds) => ds,
+        Err(e) => {
+            eprintln!("Не вдалося відкрити датасет {root}:\n{e:#}");
+            std::process::exit(1);
+        }
+    };
+
+    let options = eframe::NativeOptions {
+        viewport: egui::ViewportBuilder::default()
+            .with_inner_size([1280.0, 860.0])
+            .with_min_inner_size([900.0, 600.0])
+            .with_title("nmtka — ЗНО/НМТ підготовка"),
+        ..Default::default()
+    };
+
+    eframe::run_native(
+        "nmtka — ЗНО/НМТ підготовка",
+        options,
+        Box::new(|cc| Ok(Box::new(App::new(cc, ds, deep_link)))),
+    )
+}
 
 fn find_root() -> Option<String> {
     let mut starts = Vec::new();
@@ -43,42 +71,6 @@ fn find_root() -> Option<String> {
         }
     }
     None
-}
-
-fn main() -> eframe::Result {
-    let args: Vec<String> = std::env::args().collect();
-    let root = args
-        .get(1)
-        .cloned()
-        .or_else(|| std::env::var("ZNO_DATA").ok())
-        .or_else(find_root)
-        .unwrap_or_else(|| ".".to_string());
-    let deep_link = match (args.get(2), args.get(3)) {
-        (Some(subject), Some(key)) => Some((subject.clone(), key.clone())),
-        _ => None,
-    };
-
-    let ds = match Dataset::open(&root) {
-        Ok(ds) => ds,
-        Err(e) => {
-            eprintln!("Не удалось открыть датасет {root}:\n{e:#}");
-            std::process::exit(1);
-        }
-    };
-
-    let options = eframe::NativeOptions {
-        viewport: egui::ViewportBuilder::default()
-            .with_inner_size([1280.0, 860.0])
-            .with_min_inner_size([900.0, 600.0])
-            .with_title("ЗНО/НМТ — підготовка"),
-        ..Default::default()
-    };
-
-    eframe::run_native(
-        "ЗНО/НМТ — підготовка",
-        options,
-        Box::new(|cc| Ok(Box::new(App::new(cc, ds, deep_link)))),
-    )
 }
 
 fn resolve_latex_dir(root: &std::path::Path) -> Option<std::path::PathBuf> {
@@ -178,39 +170,11 @@ impl App {
         deep_link: Option<(String, String)>,
     ) -> Self {
         egui_extras::install_image_loaders(&cc.egui_ctx);
+        theme::load_fonts(&cc.egui_ctx);
+        theme::apply(&cc.egui_ctx);
         if let Some(dir) = resolve_latex_dir(ds.root()) {
             html::set_latex_dir(dir);
         }
-
-        use egui::{FontFamily, FontId, TextStyle};
-        let mut visuals = egui::Visuals::dark();
-        visuals.override_text_color = Some(TEXT);
-        visuals.panel_fill = egui::Color32::TRANSPARENT;
-        visuals.window_fill = CARD_BG;
-        visuals.extreme_bg_color = egui::Color32::from_rgb(10, 15, 19);
-        visuals.faint_bg_color = egui::Color32::from_rgb(20, 30, 34);
-        visuals.hyperlink_color = ACCENT;
-        visuals.selection.bg_fill = egui::Color32::from_rgb(26, 92, 78);
-        visuals.selection.stroke = egui::Stroke::new(1.0, ACCENT);
-        visuals.widgets.noninteractive.bg_stroke = egui::Stroke::new(1.0, BORDER);
-        visuals.widgets.inactive.bg_fill = egui::Color32::from_rgb(22, 33, 37);
-        visuals.widgets.inactive.weak_bg_fill = egui::Color32::from_rgb(22, 33, 37);
-        visuals.widgets.hovered.bg_fill = egui::Color32::from_rgb(30, 50, 54);
-        visuals.widgets.hovered.weak_bg_fill = egui::Color32::from_rgb(30, 50, 54);
-        visuals.widgets.active.bg_fill = egui::Color32::from_rgb(34, 62, 62);
-        cc.egui_ctx.set_visuals(visuals);
-
-        cc.egui_ctx.all_styles_mut(|style| {
-            style.text_styles = [
-                (TextStyle::Heading, FontId::new(26.0, FontFamily::Proportional)),
-                (TextStyle::Body, FontId::new(16.0, FontFamily::Proportional)),
-                (TextStyle::Button, FontId::new(16.0, FontFamily::Proportional)),
-                (TextStyle::Small, FontId::new(13.0, FontFamily::Proportional)),
-                (TextStyle::Monospace, FontId::new(15.0, FontFamily::Monospace)),
-            ]
-            .into();
-            style.spacing.item_spacing = egui::vec2(8.0, 7.0);
-        });
 
         let mut app = Self {
             ds,
@@ -343,7 +307,8 @@ impl App {
         };
     }
 
-    fn subject_name(&self, slug: &str) -> String {        self.ds
+    fn subject_name(&self, slug: &str) -> String {
+        self.ds
             .subject(slug)
             .map(|s| s.name.clone())
             .unwrap_or_else(|| slug.to_string())
@@ -372,76 +337,36 @@ impl App {
 
     fn ui_subjects(&mut self, ui: &mut egui::Ui) {
         ui.add_space(10.0);
-        ui.heading(egui::RichText::new("Оберіть предмет").color(TEXT));
+        ui.label(semi("Оберіть предмет", 28.0).color(TEXT));
         ui.label(
-            egui::RichText::new(format!(
-                "{} тестів · {} завдань · {} формул",
-                self.ds.index().tests,
-                self.ds.index().questions,
-                10214
-            ))
+            t(
+                format!(
+                    "{} тестів · {} завдань",
+                    self.ds.index().tests,
+                    self.ds.index().questions
+                ),
+                14.0,
+            )
             .color(MUTED),
         );
-        ui.add_space(14.0);
+        ui.add_space(16.0);
 
         let mut goto: Option<String> = None;
         egui::ScrollArea::vertical().show(ui, |ui| {
             egui::Grid::new("subjects_grid")
                 .num_columns(3)
-                .spacing([12.0, 12.0])
+                .spacing([14.0, 14.0])
                 .show(ui, |ui| {
                     for (i, s) in self.ds.subjects().iter().enumerate() {
-                        egui::Frame::new()
-                            .inner_margin(14)
-                            .fill(CARD_BG)
-                            .stroke(egui::Stroke::new(1.0, BORDER))
-                            .corner_radius(10)
-                            .show(ui, |ui| {
-                                ui.set_width(300.0);
-                                ui.vertical(|ui| {
-                                    if ui
-                                        .add(
-                                            egui::Button::new(
-                                                egui::RichText::new(&s.name)
-                                                    .size(17.0)
-                                                    .strong()
-                                                    .color(TEXT),
-                                            )
-                                            .frame(false),
-                                        )
-                                        .clicked()
-                                    {
-                                        goto = Some(s.slug.clone());
-                                    }
-                                    ui.label(
-                                        egui::RichText::new(format!(
-                                            "{} тестів · {} завдань",
-                                            s.tests, s.questions
-                                        ))
-                                        .small()
-                                        .color(MUTED),
-                                    );
-                                    let mut extra = Vec::new();
-                                    if s.topics > 0 {
-                                        extra.push(format!("{} тем", s.topics));
-                                    }
-                                    if s.nmt_variants > 0 {
-                                        extra.push(format!("{} НМТ", s.nmt_variants));
-                                    }
-                                    if !extra.is_empty() {
-                                        ui.label(
-                                            egui::RichText::new(extra.join(" · "))
-                                                .small()
-                                                .color(MUTED),
-                                        );
-                                    }
-                                });
-                            });
+                        if subject_card(ui, i as u64, s) {
+                            goto = Some(s.slug.clone());
+                        }
                         if i % 3 == 2 {
                             ui.end_row();
                         }
                     }
                 });
+            ui.add_space(24.0);
         });
         if let Some(slug) = goto {
             self.open_subject(&slug);
@@ -454,15 +379,18 @@ impl App {
         let mut action: Option<Screen> = None;
 
         ui.add_space(6.0);
-        ui.heading(egui::RichText::new(name).color(TEXT).size(30.0));
+        ui.label(semi(name, 30.0).color(TEXT));
         if let Some(s) = &stat {
-            ui.label(
-                egui::RichText::new(format!(
-                    "{} тестів · {} завдань · {} тем",
-                    s.tests, s.questions, s.topics
-                ))
-                .color(MUTED),
-            );
+            ui.horizontal(|ui| {
+                badge(ui, &format!("{} тестів", s.tests), MUTED, CHIP_BG);
+                badge(ui, &format!("{} завдань", s.questions), MUTED, CHIP_BG);
+                if s.topics > 0 {
+                    badge(ui, &format!("{} тем", s.topics), MUTED, CHIP_BG);
+                }
+                if s.nmt_variants > 0 {
+                    badge(ui, &format!("{} НМТ", s.nmt_variants), ACCENT, ACCENT_SOFT);
+                }
+            });
         }
         ui.add_space(18.0);
 
@@ -471,6 +399,8 @@ impl App {
 
             if menu_card(
                 ui,
+                "hub_nmt",
+                ph::LIGHTNING,
                 "Тренувальні варіанти НМТ 2027",
                 &format!("{} варіантів", self.nmt.len()),
             ) {
@@ -479,10 +409,12 @@ impl App {
                     mode: ListMode::Nmt,
                 });
             }
-            ui.add_space(8.0);
+            ui.add_space(10.0);
             let demo_count = self.demo_tests().len();
             if menu_card(
                 ui,
+                "hub_demo",
+                ph::PLAY,
                 "Пробні варіанти НМТ (демо)",
                 &format!("{demo_count} варіантів"),
             ) {
@@ -491,9 +423,11 @@ impl App {
                     mode: ListMode::Demo,
                 });
             }
-            ui.add_space(8.0);
+            ui.add_space(10.0);
             if menu_card(
                 ui,
+                "hub_topics",
+                ph::FOLDER_OPEN,
                 "Завдання за темами",
                 &format!("{} тем", self.topics.len()),
             ) {
@@ -502,9 +436,11 @@ impl App {
                     mode: ListMode::Topics,
                 });
             }
-            ui.add_space(8.0);
+            ui.add_space(10.0);
             if menu_card(
                 ui,
+                "hub_tests",
+                ph::ARCHIVE,
                 "Усі тести НМТ/ЗНО",
                 &format!("{} тестів", self.tests.len()),
             ) {
@@ -513,13 +449,21 @@ impl App {
                     mode: ListMode::Tests,
                 });
             }
-            ui.add_space(8.0);
-            if menu_card(ui, "Десятка випадкових завдань", "10 завдань") {
-                self.start_random(slug);
-            }
-            ui.add_space(8.0);
+            ui.add_space(10.0);
             if menu_card(
                 ui,
+                "hub_random",
+                ph::SHUFFLE,
+                "Десятка випадкових завдань",
+                "10 завдань",
+            ) {
+                self.start_random(slug);
+            }
+            ui.add_space(10.0);
+            if menu_card(
+                ui,
+                "hub_all",
+                ph::STACK,
                 "Усі завдання з предмета",
                 &format!(
                     "{} завдань",
@@ -528,7 +472,7 @@ impl App {
             ) {
                 self.start_all(slug);
             }
-            ui.add_space(20.0);
+            ui.add_space(24.0);
         });
 
         if let Some(screen) = action {
@@ -539,71 +483,63 @@ impl App {
     fn ui_list(&mut self, ui: &mut egui::Ui, subject: &str, mode: ListMode) {
         ui.add_space(4.0);
         ui.horizontal(|ui| {
-            if ui.button("← Назад").clicked() {
-                self.screen = Screen::Hub(subject.to_string());
-            }
-            ui.heading(egui::RichText::new(mode.title()).color(TEXT));
+            ui.label(semi(mode.title(), 24.0).color(TEXT));
         });
-        ui.add_space(8.0);
+        ui.add_space(10.0);
 
         let mut action: Option<(String, String)> = None;
         egui::ScrollArea::vertical().show(ui, |ui| {
             ui.set_max_width(1000.0);
             match mode {
                 ListMode::Nmt => {
-                    for v in &self.nmt {
-                        let label = format!(
-                            "{}   ·   {} завдань",
-                            v.title,
-                            v.questions_count.unwrap_or(0)
-                        );
-                        if ui.selectable_label(false, label).clicked() {
+                    for (i, v) in self.nmt.iter().enumerate() {
+                        if list_row(ui, ("nmt", i), &v.title, Vec::new(), v.questions_count, ph::LIGHTNING) {
                             action = Some((v.slug.clone(), v.title.clone()));
                         }
+                        ui.add_space(8.0);
                     }
                     if self.nmt.is_empty() {
-                        ui.label(egui::RichText::new("Для цього предмета варіантів НМТ немає").color(MUTED));
+                        empty_state(ui, "Для цього предмета варіантів НМТ немає");
                     }
                 }
                 ListMode::Demo => {
                     let demos = self.demo_tests();
-                    for t in &demos {
-                        let label = format!(
-                            "{}   ·   {} завдань",
-                            t.title,
-                            t.questions_count.unwrap_or(0)
-                        );
-                        if ui.selectable_label(false, label).clicked() {
-                            action = Some((t.id.to_string(), t.title.clone()));
+                    for (i, item) in demos.iter().enumerate() {
+                        let badges = test_badges(item);
+                        if list_row(ui, ("demo", i), &item.title, badges, item.questions_count, ph::PLAY) {
+                            action = Some((item.id.to_string(), item.title.clone()));
                         }
+                        ui.add_space(8.0);
                     }
                     if demos.is_empty() {
-                        ui.label(egui::RichText::new("Для цього предмета демоваріантів немає").color(MUTED));
+                        empty_state(ui, "Для цього предмета демоваріантів немає");
                     }
                 }
                 ListMode::Tests => {
-                    for t in &self.tests {
-                        let label = format!(
-                            "{}   ·   {} завдань",
-                            t.title,
-                            t.questions_count.unwrap_or(0)
-                        );
-                        if ui.selectable_label(false, label).clicked() {
-                            action = Some((t.id.to_string(), t.title.clone()));
+                    for (i, item) in self.tests.iter().enumerate() {
+                        let badges = test_badges(item);
+                        if list_row(ui, ("tests", i), &item.title, badges, item.questions_count, ph::FILE_TEXT) {
+                            action = Some((item.id.to_string(), item.title.clone()));
                         }
+                        ui.add_space(8.0);
+                    }
+                    if self.tests.is_empty() {
+                        empty_state(ui, "Для цього предмета тестів немає");
                     }
                 }
                 ListMode::Topics => {
-                    for t in &self.topics {
-                        if ui.selectable_label(false, &t.name).clicked() {
-                            action = Some((t.slug.clone(), t.name.clone()));
+                    for (i, item) in self.topics.iter().enumerate() {
+                        if list_row(ui, ("topics", i), &item.name, Vec::new(), None, ph::NOTE_PENCIL) {
+                            action = Some((item.slug.clone(), item.name.clone()));
                         }
+                        ui.add_space(8.0);
                     }
                     if self.topics.is_empty() {
-                        ui.label(egui::RichText::new("Для цього предмета тем немає").color(MUTED));
+                        empty_state(ui, "Для цього предмета тем немає");
                     }
                 }
             }
+            ui.add_space(24.0);
         });
 
         if let Some((key, _)) = action {
@@ -624,12 +560,12 @@ impl App {
 
     fn ui_practice(&mut self, ui: &mut egui::Ui) {
         let Some(sess) = self.session.as_ref() else {
-            ui.label("Сессия не загружена");
+            ui.label(t("Сесія не завантажена", 15.0).color(MUTED));
             return;
         };
         let total = sess.questions.len();
         if total == 0 {
-            ui.label("Нет заданий");
+            empty_state(ui, "Немає завдань");
             return;
         }
         let qi = sess.idx.min(total - 1);
@@ -637,23 +573,19 @@ impl App {
         let title = sess.title.clone();
 
         ui.horizontal(|ui| {
-            ui.heading(egui::RichText::new(title).color(TEXT).size(22.0));
+            ui.with_layout(egui::Layout::left_to_right(egui::Align::Center), |ui| {
+                ui.label(semi(title, 20.0).color(TEXT));
+            });
             ui.with_layout(egui::Layout::right_to_left(egui::Align::Center), |ui| {
-                ui.label(
-                    egui::RichText::new(format!("✔ {} / {}", self.right, self.answered))
-                        .color(ACCENT)
-                        .strong(),
-                );
+                score_chip(ui, self.right, self.answered);
             });
         });
-        ui.add_space(4.0);
+        ui.add_space(6.0);
 
         let frac = (qi + 1) as f32 / total as f32;
-        let bar = egui::ProgressBar::new(frac)
-            .desired_width(ui.available_width())
-            .text(egui::RichText::new(format!("{} / {}", qi + 1, total)).small());
-        ui.add(bar);
-        ui.add_space(8.0);
+        progress_bar(ui, egui::Id::unique("practice_progress"), frac);
+        ui.label(t(format!("{} / {}", qi + 1, total), 12.5).color(MUTED));
+        ui.add_space(10.0);
 
         let mut prev = false;
         let mut next = false;
@@ -666,93 +598,75 @@ impl App {
         egui::ScrollArea::vertical()
             .auto_shrink([false, false])
             .show(ui, |ui| {
-                ui.horizontal_wrapped(|ui| {
-                    ui.label(
-                        egui::RichText::new(q.kind.label())
-                            .small()
-                            .strong()
-                            .color(ACCENT),
-                    );
-                    if let Some(t) = &q.topic {
-                        ui.label(egui::RichText::new(format!("· {t}")).small().color(MUTED));
+                ui.horizontal(|ui| {
+                    badge(ui, q.kind.label(), ACCENT, ACCENT_SOFT);
+                    if let Some(topic) = &q.topic {
+                        badge(ui, topic, MUTED, CHIP_BG);
                     }
-                    ui.label(
-                        egui::RichText::new(format!("· №{}", q.id))
-                            .small()
-                            .color(MUTED),
-                    );
+                    badge(ui, &format!("№{}", q.id), MUTED, CHIP_BG);
                 });
-                ui.add_space(6.0);
+                ui.add_space(8.0);
 
                 match cur {
                     Some(c) if !c.q_blocks.is_empty() => html::render(ui, &c.q_blocks, &root),
                     _ => {
-                        ui.label(&q.text);
+                        ui.label(t(&q.text, 16.0).color(TEXT));
                     }
                 }
 
-                ui.add_space(12.0);
+                ui.add_space(14.0);
                 answers_ui(ui, q, st);
 
-                ui.add_space(14.0);
+                ui.add_space(16.0);
                 ui.horizontal(|ui| {
                     if ui
-                        .add_enabled(qi > 0, egui::Button::new("← Назад"))
+                        .add_enabled(qi > 0, back_button())
                         .clicked()
                     {
                         prev = true;
                     }
-                    if !st.checked && ui.button("Перевірити").clicked() {
+                    if !st.checked && primary_button(ui, "Перевірити").clicked() {
                         check = true;
                     }
-                    if st.checked && ui.button("Далі →").clicked() {
+                    if st.checked && primary_button(ui, "Далі").clicked() {
                         next = true;
                     }
                 });
 
                 if st.checked {
-                    ui.add_space(10.0);
+                    ui.add_space(14.0);
                     if matches!(q.kind, QuestionType::Matching | QuestionType::Sequence) {
-                        ui.label(
-                            egui::RichText::new("Самоперевірка: звірте з правильною відповіддю")
-                                .italics()
-                                .color(MUTED),
+                        result_banner(
+                            ui,
+                            None,
+                            "Самоперевірка: звірте з правильною відповіддю",
+                            &correct_answer_text(q),
                         );
                     } else if st.correct {
-                        ui.label(egui::RichText::new("✔ Правильно").color(GREEN).strong());
+                        result_banner(ui, Some(true), "Правильно", &correct_answer_text(q));
                     } else {
-                        ui.label(egui::RichText::new("✘ Неправильно").color(RED).strong());
-                    }
-                    let ans = correct_answer_text(q);
-                    if !ans.is_empty() {
-                        ui.label(
-                            egui::RichText::new(format!("Правильна відповідь: {ans}"))
-                                .color(TEXT)
-                                .strong(),
-                        );
+                        result_banner(ui, Some(false), "Неправильно", &correct_answer_text(q));
                     }
                 }
 
                 if st.checked {
-                    ui.add_space(10.0);
+                    ui.add_space(14.0);
                     if q.explanation_is_stub() {
                         ui.label(
-                            egui::RichText::new(
-                                "Повне пояснення цього завдання доступне лише на сайті",
-                            )
-                            .italics()
-                            .color(MUTED),
+                            t("Повне пояснення цього завдання доступне лише на сайті", 14.0)
+                                .italics()
+                                .color(MUTED),
                         );
                     } else if let Some(c) = cur {
                         if !c.e_blocks.is_empty() {
-                            egui::CollapsingHeader::new("Пояснення")
+                            egui::CollapsingHeader::new(semi("Пояснення", 17.0).color(ACCENT))
                                 .default_open(true)
                                 .show(ui, |ui| {
                                     html::render(ui, &c.e_blocks, &root);
                                 });
                         }
                     } else if let Some(txt) = &q.explanation_text {
-                        ui.label(txt);
+                        ui.label(t(txt, 15.0).color(TEXT));
                     }
                 }
                 ui.add_space(24.0);
@@ -783,28 +697,43 @@ impl eframe::App for App {
         paint_bg(ui);
 
         egui::Panel::top("top").show(ui, |ui| {
-            ui.add_space(4.0);
+            ui.add_space(6.0);
             ui.horizontal(|ui| {
-                if !matches!(self.screen, Screen::Subjects) && ui.button("← Назад").clicked() {
+                if !matches!(self.screen, Screen::Subjects) && ui.add(back_button()).clicked() {
                     self.go_back();
                 }
-                ui.label(
-                    egui::RichText::new("ЗНО / НМТ")
-                        .strong()
-                        .size(18.0)
-                        .color(ACCENT),
-                );
-                ui.label(egui::RichText::new("підготовка").small().color(MUTED));
-                ui.separator();
-                ui.label(egui::RichText::new(self.breadcrumb()).color(MUTED));
+                ui.label(icon(ph::GRADUATION_CAP, 22.0, ACCENT));
+                ui.label(semi("nmtka", 19.0).color(ACCENT));
+                ui.label(t("· ЗНО/НМТ підготовка", 13.0).color(MUTED));
+                ui.with_layout(egui::Layout::right_to_left(egui::Align::Center), |ui| {
+                    ui.label(t(self.breadcrumb(), 13.0).color(MUTED));
+                });
             });
-            ui.add_space(4.0);
+            ui.add_space(6.0);
+            let r = ui.max_rect();
+            ui.painter().line_segment(
+                [
+                    egui::pos2(r.left(), r.bottom()),
+                    egui::pos2(r.right(), r.bottom()),
+                ],
+                egui::Stroke::new(1.0, Color32::from_rgb(24, 36, 40)),
+            );
         });
 
         egui::CentralPanel::default().show(ui, |ui| {
             if let Some(err) = &self.error {
-                ui.colored_label(RED, err);
-                ui.separator();
+                egui::Frame::new()
+                    .fill(RED_SOFT)
+                    .stroke(egui::Stroke::new(1.0, RED.gamma_multiply(0.5)))
+                    .corner_radius(10)
+                    .inner_margin(egui::Margin::same(12))
+                    .show(ui, |ui| {
+                        ui.horizontal(|ui| {
+                            ui.label(icon(ph::WARNING_CIRCLE, 18.0, RED));
+                            ui.label(t(err, 14.0).color(TEXT));
+                        });
+                    });
+                ui.add_space(8.0);
             }
             match self.screen.clone() {
                 Screen::Subjects => self.ui_subjects(ui),
@@ -827,19 +756,46 @@ fn paint_bg(ui: &egui::Ui) {
     mesh.add_triangle(0, 2, 3);
     ui.painter().add(egui::Shape::mesh(mesh));
 
-    let center = egui::pos2(rect.right() - 240.0, rect.top() + 90.0);
-    let radius = 560.0_f32;
-    let mut glow = egui::Mesh::default();
-    glow.colored_vertex(
-        center,
-        egui::Color32::from_rgba_unmultiplied(70, 190, 155, 34),
+    glow(
+        ui,
+        egui::pos2(rect.right() - 240.0, rect.top() + 90.0),
+        560.0,
+        (70, 190, 155, 34),
     );
+    glow(
+        ui,
+        egui::pos2(rect.left() + 120.0, rect.bottom() - 40.0),
+        480.0,
+        (60, 170, 140, 22),
+    );
+
+    let shade_h = 140.0_f32.min(rect.height() * 0.2);
+    let mut shade = egui::Mesh::default();
+    let y0 = rect.bottom() - shade_h;
+    shade.colored_vertex(egui::pos2(rect.left(), y0), Color32::TRANSPARENT);
+    shade.colored_vertex(egui::pos2(rect.right(), y0), Color32::TRANSPARENT);
+    shade.colored_vertex(
+        egui::pos2(rect.right(), rect.bottom()),
+        Color32::from_rgba_unmultiplied(0, 0, 0, 42),
+    );
+    shade.colored_vertex(
+        egui::pos2(rect.left(), rect.bottom()),
+        Color32::from_rgba_unmultiplied(0, 0, 0, 42),
+    );
+    shade.add_triangle(0, 1, 2);
+    shade.add_triangle(0, 2, 3);
+    ui.painter().add(egui::Shape::mesh(shade));
+}
+
+fn glow(ui: &egui::Ui, center: egui::Pos2, radius: f32, (r, g, b, a): (u8, u8, u8, u8)) {
+    let mut glow = egui::Mesh::default();
+    glow.colored_vertex(center, Color32::from_rgba_unmultiplied(r, g, b, a));
     const SEGMENTS: usize = 40;
     for i in 0..=SEGMENTS {
-        let a = i as f32 / SEGMENTS as f32 * std::f32::consts::TAU;
+        let angle = i as f32 / SEGMENTS as f32 * std::f32::consts::TAU;
         glow.colored_vertex(
-            center + egui::vec2(a.cos() * radius, a.sin() * radius),
-            egui::Color32::TRANSPARENT,
+            center + egui::vec2(angle.cos() * radius, angle.sin() * radius),
+            Color32::TRANSPARENT,
         );
     }
     for i in 0..SEGMENTS as u32 {
@@ -848,41 +804,346 @@ fn paint_bg(ui: &egui::Ui) {
     ui.painter().add(egui::Shape::mesh(glow));
 }
 
-fn menu_card(ui: &mut egui::Ui, title: &str, hint: &str) -> bool {
-    let width = ui.available_width().min(900.0);
-    let (rect, resp) =
-        ui.allocate_exact_size(egui::vec2(width, 68.0), egui::Sense::click());
-    let hovered = resp.hovered();
+fn subject_card(ui: &mut egui::Ui, idx: u64, s: &zno_core::SubjectStat) -> bool {
+    let size = egui::vec2(300.0, 112.0);
+    let (rect, resp) = ui.allocate_exact_size(size, egui::Sense::click());
+    let k = hover_t(ui.ctx(), ("subject_card", idx), resp.hovered());
     let painter = ui.painter();
     painter.rect(
         rect,
-        egui::CornerRadius::same(10),
-        if hovered { CARD_HOVER } else { CARD_BG },
-        egui::Stroke::new(1.0, if hovered { ACCENT } else { BORDER }),
+        egui::CornerRadius::same(12),
+        mix(CARD_BG, CARD_HOVER, k),
+        egui::Stroke::new(1.0 + 0.5 * k, mix(BORDER, ACCENT, k)),
+        egui::StrokeKind::Inside,
+    );
+
+    let chip = egui::Rect::from_min_size(
+        rect.left_top() + egui::vec2(16.0, 16.0),
+        egui::vec2(38.0, 38.0),
+    );
+    painter.rect(
+        chip,
+        egui::CornerRadius::same(9),
+        mix(CHIP_BG, ACCENT_SOFT, k),
+        egui::Stroke::NONE,
         egui::StrokeKind::Inside,
     );
     painter.text(
-        rect.left_center() + egui::vec2(22.0, -9.0),
+        chip.center(),
+        egui::Align2::CENTER_CENTER,
+        subject_icon(&s.slug),
+        icon_id(20.0),
+        ACCENT,
+    );
+
+    let text_x = rect.left() + 68.0;
+    let name_g = painter.layout(s.name.clone(), semibold_id(16.5), TEXT, rect.width() - 84.0);
+    painter.galley(
+        egui::pos2(text_x, rect.top() + 14.0),
+        name_g,
+        TEXT,
+    );
+
+    let line1 = format!("{} тестів · {} завдань", s.tests, s.questions);
+    painter.text(
+        egui::pos2(text_x, rect.top() + 56.0),
+        egui::Align2::LEFT_TOP,
+        line1,
+        egui::FontId::proportional(12.5),
+        MUTED,
+    );
+    let mut extra = Vec::new();
+    if s.topics > 0 {
+        extra.push(format!("{} тем", s.topics));
+    }
+    if s.nmt_variants > 0 {
+        extra.push(format!("{} НМТ", s.nmt_variants));
+    }
+    if !extra.is_empty() {
+        painter.text(
+            egui::pos2(text_x, rect.top() + 76.0),
+            egui::Align2::LEFT_TOP,
+            extra.join(" · "),
+            egui::FontId::proportional(12.5),
+            mix(MUTED, ACCENT, 0.35),
+        );
+    }
+    resp.on_hover_cursor(egui::CursorIcon::PointingHand).clicked()
+}
+
+fn menu_card(ui: &mut egui::Ui, id: &str, glyph: &str, title: &str, hint: &str) -> bool {
+    let width = ui.available_width().min(900.0);
+    let (rect, resp) = ui.allocate_exact_size(egui::vec2(width, 72.0), egui::Sense::click());
+    let k = hover_t(ui.ctx(), id, resp.hovered());
+    let painter = ui.painter();
+    painter.rect(
+        rect,
+        egui::CornerRadius::same(12),
+        mix(CARD_BG, CARD_HOVER, k),
+        egui::Stroke::new(1.0 + 0.5 * k, mix(BORDER, ACCENT, k)),
+        egui::StrokeKind::Inside,
+    );
+
+    let chip = egui::Rect::from_min_size(
+        rect.left_center() + egui::vec2(18.0, -19.0),
+        egui::vec2(38.0, 38.0),
+    );
+    painter.rect(
+        chip,
+        egui::CornerRadius::same(9),
+        mix(CHIP_BG, ACCENT_SOFT, k),
+        egui::Stroke::NONE,
+        egui::StrokeKind::Inside,
+    );
+    painter.text(
+        chip.center(),
+        egui::Align2::CENTER_CENTER,
+        glyph,
+        icon_id(20.0),
+        mix(ACCENT, TEXT, 0.3 * k),
+    );
+
+    painter.text(
+        egui::pos2(rect.left() + 70.0, rect.center().y - 11.0),
         egui::Align2::LEFT_CENTER,
         title,
-        egui::FontId::proportional(19.0),
+        semibold_id(17.5),
         TEXT,
     );
     painter.text(
-        rect.left_center() + egui::vec2(22.0, 14.0),
+        egui::pos2(rect.left() + 70.0, rect.center().y + 11.0),
         egui::Align2::LEFT_CENTER,
         hint,
         egui::FontId::proportional(13.0),
         MUTED,
     );
     painter.text(
-        rect.right_center() - egui::vec2(22.0, 0.0),
+        rect.right_center() - egui::vec2(22.0 - 4.0 * k, 0.0),
         egui::Align2::RIGHT_CENTER,
-        "Перейти →",
-        egui::FontId::proportional(15.0),
-        if hovered { TEXT } else { ACCENT },
+        ph::ARROW_RIGHT,
+        icon_id(18.0),
+        mix(MUTED, ACCENT, k),
     );
     resp.on_hover_cursor(egui::CursorIcon::PointingHand).clicked()
+}
+
+fn test_badges(t: &TestListItem) -> Vec<(String, Color32, Color32)> {
+    let mut out = Vec::new();
+    if let Some(y) = t.year {
+        out.push((format!("{y}"), ACCENT, ACCENT_SOFT));
+    }
+    if let Some(k) = &t.kind {
+        if !k.is_empty() {
+            out.push((k.clone(), MUTED, CHIP_BG));
+        }
+    }
+    if let Some(s) = &t.session {
+        if !s.is_empty() {
+            out.push((s.clone(), MUTED, CHIP_BG));
+        }
+    }
+    out
+}
+
+fn list_row(
+    ui: &mut egui::Ui,
+    id: impl std::hash::Hash + std::fmt::Debug,
+    title: &str,
+    badges: Vec<(String, Color32, Color32)>,
+    count: Option<u32>,
+    glyph: &str,
+) -> bool {
+    let width = ui.available_width().min(1000.0);
+    let height = if badges.is_empty() { 56.0 } else { 66.0 };
+    let (rect, resp) = ui.allocate_exact_size(egui::vec2(width, height), egui::Sense::click());
+    let k = hover_t(ui.ctx(), id, resp.hovered());
+    let painter = ui.painter();
+    painter.rect(
+        rect,
+        egui::CornerRadius::same(12),
+        mix(CARD_BG, CARD_HOVER, k),
+        egui::Stroke::new(1.0 + 0.5 * k, mix(BORDER, ACCENT, k)),
+        egui::StrokeKind::Inside,
+    );
+
+    let chip = egui::Rect::from_center_size(
+        egui::pos2(rect.left() + 34.0, rect.center().y),
+        egui::vec2(32.0, 32.0),
+    );
+    painter.rect(
+        chip,
+        egui::CornerRadius::same(8),
+        mix(CHIP_BG, ACCENT_SOFT, k),
+        egui::Stroke::NONE,
+        egui::StrokeKind::Inside,
+    );
+    painter.text(
+        chip.center(),
+        egui::Align2::CENTER_CENTER,
+        glyph,
+        icon_id(16.0),
+        mix(ACCENT, TEXT, 0.3 * k),
+    );
+
+    let text_x = rect.left() + 62.0;
+    let title_y = if badges.is_empty() {
+        rect.center().y
+    } else {
+        rect.center().y - 10.0
+    };
+    let max_tw = rect.right() - text_x - 150.0;
+    let g = painter.layout(title.to_string(), semibold_id(16.0), TEXT, max_tw.max(200.0));
+    painter.galley(egui::pos2(text_x, title_y - g.size().y / 2.0), g, TEXT);
+
+    let mut badge_x = text_x;
+    if !badges.is_empty() {
+        let by = egui::pos2(badge_x, rect.center().y + 12.0);
+        for (text, fg, bg) in &badges {
+            badge_x = paint_pill(painter, egui::pos2(badge_x, by.y), text, *fg, *bg, false) + 6.0;
+        }
+    }
+
+    if let Some(n) = count {
+        let text = format!("{n} завдань");
+        let g = painter.layout(
+            text.clone(),
+            egui::FontId::proportional(12.0),
+            MUTED,
+            f32::INFINITY,
+        );
+        let pw = g.size().x + 16.0;
+        paint_pill(
+            painter,
+            egui::pos2(rect.right() - 44.0 - pw, rect.center().y),
+            &text,
+            mix(MUTED, TEXT, 0.3 * k),
+            CHIP_BG,
+            false,
+        );
+    }
+    painter.text(
+        egui::pos2(rect.right() - 22.0, rect.center().y),
+        egui::Align2::RIGHT_CENTER,
+        ph::CARET_RIGHT,
+        icon_id(16.0),
+        mix(MUTED, ACCENT, k),
+    );
+    resp.on_hover_cursor(egui::CursorIcon::PointingHand).clicked()
+}
+
+fn paint_pill(
+    painter: &egui::Painter,
+    anchor: egui::Pos2,
+    text: &str,
+    fg: Color32,
+    bg: Color32,
+    _right_align: bool,
+) -> f32 {
+    let g = painter.layout(text.to_string(), egui::FontId::proportional(12.0), fg, f32::INFINITY);
+    let w = g.size().x + 16.0;
+    let h = 20.0;
+    let rect = egui::Rect::from_min_size(
+        egui::pos2(anchor.x, anchor.y - h / 2.0),
+        egui::vec2(w, h),
+    );
+    painter.rect(
+        rect,
+        egui::CornerRadius::same(7),
+        bg,
+        egui::Stroke::NONE,
+        egui::StrokeKind::Inside,
+    );
+    painter.text(rect.center(), egui::Align2::CENTER_CENTER, text, egui::FontId::proportional(12.0), fg);
+    rect.right()
+}
+
+fn progress_bar(ui: &mut egui::Ui, id: egui::Id, target: f32) {
+    let width = ui.available_width();
+    let h = 10.0;
+    let (rect, _) = ui.allocate_exact_size(egui::vec2(width, h), egui::Sense::hover());
+    let frac = ui
+        .ctx()
+        .animate_value_with_time(id, target.clamp(0.0, 1.0), 0.45);
+    let painter = ui.painter();
+    painter.rect(
+        rect,
+        egui::CornerRadius::same(5),
+        FAINT_BG,
+        egui::Stroke::NONE,
+        egui::StrokeKind::Inside,
+    );
+    if frac > 0.003 {
+        let fill_w = (rect.width() * frac).max(h);
+        let fill = egui::Rect::from_min_size(rect.left_top(), egui::vec2(fill_w, h));
+        painter.rect(
+            fill,
+            egui::CornerRadius::same(5),
+            ACCENT,
+            egui::Stroke::NONE,
+            egui::StrokeKind::Inside,
+        );
+    }
+}
+
+fn score_chip(ui: &mut egui::Ui, right: usize, answered: usize) {
+    chip_frame(ACCENT_SOFT, None).show(ui, |ui| {
+        ui.horizontal(|ui| {
+            ui.label(icon(ph::LIST_CHECKS, 15.0, ACCENT));
+            ui.label(semi(format!("{right} / {answered}"), 15.0).color(ACCENT));
+        });
+    });
+}
+
+fn result_banner(ui: &mut egui::Ui, ok: Option<bool>, headline: &str, answer: &str) {
+    let (bg, border, fg, glyph) = match ok {
+        Some(true) => (GREEN_SOFT, GREEN, GREEN, ph::SEAL_CHECK),
+        Some(false) => (RED_SOFT, RED, RED, ph::X_CIRCLE),
+        None => (CHIP_BG, BORDER, MUTED, ph::QUESTION),
+    };
+    egui::Frame::new()
+        .fill(bg)
+        .stroke(egui::Stroke::new(1.0, border.gamma_multiply(0.55)))
+        .corner_radius(12)
+        .inner_margin(egui::Margin::same(14))
+        .show(ui, |ui| {
+            ui.horizontal(|ui| {
+                ui.label(icon(glyph, 20.0, fg));
+                ui.label(semi(headline, 17.0).color(fg));
+            });
+            if !answer.is_empty() {
+                ui.add_space(4.0);
+                ui.horizontal_wrapped(|ui| {
+                    ui.label(t("Правильна відповідь: ", 15.0).color(MUTED));
+                    ui.label(semi(answer, 15.0).color(TEXT));
+                });
+            }
+        });
+}
+
+fn back_button() -> egui::Button<'static> {
+    egui::Button::new(semi("← Назад", 14.0).color(TEXT))
+        .corner_radius(10)
+        .fill(CHIP_BG)
+}
+
+fn primary_button(ui: &mut egui::Ui, label: &str) -> egui::Response {
+    let txt = egui::RichText::new(format!("{label} →"))
+        .font(egui::FontId::new(15.0, theme::semi_family()))
+        .color(Color32::from_rgb(9, 18, 15));
+    ui.add(egui::Button::new(txt).fill(ACCENT).corner_radius(10))
+}
+
+fn empty_state(ui: &mut egui::Ui, text: &str) {
+    ui.vertical_centered(|ui| {
+        ui.add_space(48.0);
+        ui.label(icon(ph::TRAY, 44.0, mix(MUTED, CARD_BG, 0.45)));
+        ui.add_space(8.0);
+        ui.label(t(text, 15.0).color(MUTED));
+    });
+}
+
+fn semibold_id(size: f32) -> egui::FontId {
+    egui::FontId::new(size, theme::semi_family())
 }
 
 fn norm(s: &str) -> String {
@@ -944,102 +1205,258 @@ fn correct_answer_text(q: &Question) -> String {
     }
 }
 
+#[derive(Clone, Copy, PartialEq)]
+enum RowState {
+    Idle,
+    Selected,
+    Correct,
+    Wrong,
+    Dim,
+}
+
+fn answer_row(
+    ui: &mut egui::Ui,
+    id: impl std::hash::Hash + std::fmt::Debug,
+    marker: &str,
+    text: &str,
+    state: RowState,
+    enabled: bool,
+    boxed: bool,
+    box_on: bool,
+) -> bool {
+    let sense = if enabled {
+        egui::Sense::click()
+    } else {
+        egui::Sense::hover()
+    };
+    let width = ui.available_width();
+
+    let probe = ui.painter().clone();
+    let g = probe.layout(text.to_string(), egui::FontId::proportional(16.0), TEXT, width - 118.0);
+    let height = (g.size().y + 26.0).max(if boxed { 50.0 } else { 52.0 });
+
+    let (rect, resp) = ui.allocate_exact_size(egui::vec2(width, height), sense);
+    let k = hover_t(ui.ctx(), id, resp.hovered() && enabled);
+    let painter = ui.painter();
+
+    let (fill, border, marker_bg, marker_fg) = match state {
+        RowState::Idle => (
+            mix(CARD_BG, CARD_HOVER, k),
+            mix(BORDER, Color32::from_rgb(64, 96, 90), k),
+            CHIP_BG,
+            ACCENT,
+        ),
+        RowState::Selected => (
+            mix(CARD_HOVER, CHIP_ACTIVE, 0.4 + 0.2 * k),
+            ACCENT,
+            ACCENT_SOFT,
+            ACCENT,
+        ),
+        RowState::Correct => (GREEN_SOFT, GREEN, GREEN_SOFT, GREEN),
+        RowState::Wrong => (RED_SOFT, RED, RED_SOFT, RED),
+        RowState::Dim => (CARD_BG, BORDER, CHIP_BG, mix(MUTED, CARD_BG, 0.5)),
+    };
+    painter.rect(
+        rect,
+        egui::CornerRadius::same(12),
+        fill,
+        egui::Stroke::new(if state == RowState::Selected { 1.5 } else { 1.0 }, border),
+        egui::StrokeKind::Inside,
+    );
+
+    let mx = rect.left() + 14.0;
+    let mrect = egui::Rect::from_center_size(
+        egui::pos2(mx + 15.0, rect.center().y),
+        egui::vec2(30.0, 30.0),
+    );
+    if boxed {
+        painter.rect(
+            mrect.shrink(5.0),
+            egui::CornerRadius::same(6),
+            if box_on { ACCENT } else { Color32::TRANSPARENT },
+            egui::Stroke::new(1.5, if box_on { ACCENT } else { marker_fg.gamma_multiply(0.8) }),
+            egui::StrokeKind::Inside,
+        );
+        if box_on {
+            painter.text(
+                mrect.center(),
+                egui::Align2::CENTER_CENTER,
+                ph::CHECK,
+                icon_id(14.0),
+                Color32::from_rgb(9, 18, 15),
+            );
+        }
+    } else {
+        painter.rect(
+            mrect,
+            egui::CornerRadius::same(8),
+            marker_bg,
+            egui::Stroke::NONE,
+            egui::StrokeKind::Inside,
+        );
+        painter.text(
+            mrect.center(),
+            egui::Align2::CENTER_CENTER,
+            marker,
+            egui::FontId::new(14.0, theme::semi_family()),
+            marker_fg,
+        );
+    }
+
+    let text_color = match state {
+        RowState::Correct => GREEN,
+        RowState::Wrong => RED,
+        RowState::Dim => mix(TEXT, CARD_BG, 0.45),
+        _ => TEXT,
+    };
+    let g = painter.layout(
+        text.to_string(),
+        egui::FontId::proportional(16.0),
+        text_color,
+        width - 118.0,
+    );
+    painter.galley(
+        egui::pos2(rect.left() + 58.0, rect.center().y - g.size().y / 2.0),
+        g,
+        text_color,
+    );
+
+    match state {
+        RowState::Correct => {
+            painter.text(
+                egui::pos2(rect.right() - 18.0, rect.center().y),
+                egui::Align2::RIGHT_CENTER,
+                ph::CHECK,
+                icon_id(17.0),
+                GREEN,
+            );
+        }
+        RowState::Wrong => {
+            painter.text(
+                egui::pos2(rect.right() - 18.0, rect.center().y),
+                egui::Align2::RIGHT_CENTER,
+                ph::X,
+                icon_id(17.0),
+                RED,
+            );
+        }
+        _ => {}
+    }
+
+    if enabled {
+        resp.on_hover_cursor(egui::CursorIcon::PointingHand).clicked()
+    } else {
+        false
+    }
+}
+
 fn answers_ui(ui: &mut egui::Ui, q: &Question, st: &mut AnswerState) {
     let checked = st.checked;
     match q.kind {
         QuestionType::SingleChoice => {
             let correct = q.correct_index();
+            ui.add_space(2.0);
             for (i, a) in q.answers.iter().enumerate() {
-                let mut rt = egui::RichText::new(format!(
-                    "{}   {}",
-                    a.marker,
-                    html::plain_text(&a.html)
-                ))
-                .size(16.0);
-                if checked {
+                let state = if checked {
                     if correct == Some(i) {
-                        rt = rt.color(GREEN).strong();
+                        RowState::Correct
                     } else if st.selected == Some(i) {
-                        rt = rt.color(RED);
+                        RowState::Wrong
+                    } else {
+                        RowState::Dim
                     }
-                }
-                if ui.selectable_label(st.selected == Some(i), rt).clicked() && !checked {
+                } else if st.selected == Some(i) {
+                    RowState::Selected
+                } else {
+                    RowState::Idle
+                };
+                let id = ui.scope_id().with(("answer", q.id, i));
+                if answer_row(ui, id, &a.marker, &html::plain_text(&a.html), state, !checked, false, false) {
                     st.selected = Some(i);
                 }
+                ui.add_space(6.0);
             }
         }
         QuestionType::MultiChoice => {
             let correct = q.correct_indices();
+            ui.add_space(2.0);
             for (i, a) in q.answers.iter().enumerate() {
-                let mut on = st.multi.contains(&i);
-                let mut rt = egui::RichText::new(format!(
-                    "{}   {}",
-                    a.marker,
-                    html::plain_text(&a.html)
-                ))
-                .size(16.0);
-                if checked {
+                let on = st.multi.contains(&i);
+                let state = if checked {
                     if correct.contains(&i) {
-                        rt = rt.color(GREEN).strong();
+                        RowState::Correct
                     } else if on {
-                        rt = rt.color(RED);
-                    }
-                }
-                let resp = ui.add_enabled(!checked, egui::Checkbox::new(&mut on, rt));
-                if resp.changed() {
-                    if on {
-                        if !st.multi.contains(&i) {
-                            st.multi.push(i);
-                        }
+                        RowState::Wrong
                     } else {
-                        st.multi.retain(|x| *x != i);
+                        RowState::Dim
+                    }
+                } else if on {
+                    RowState::Selected
+                } else {
+                    RowState::Idle
+                };
+                let id = ui.scope_id().with(("answer", q.id, i));
+                if answer_row(ui, id, &a.marker, &html::plain_text(&a.html), state, !checked, true, on) {
+                    if !st.multi.contains(&i) {
+                        st.multi.push(i);
                     }
                 }
+                ui.add_space(6.0);
             }
         }
         QuestionType::ShortAnswer => {
-            ui.add_enabled(
-                !checked,
+            ui.add_space(2.0);
+            ui.add(
                 egui::TextEdit::singleline(&mut st.input)
-                    .hint_text("введіть відповідь")
-                    .desired_width(300.0),
+                    .hint_text("Введіть відповідь")
+                    .desired_width((ui.available_width().min(420.0)).max(240.0)),
             );
+            ui.add_space(4.0);
             ui.label(
-                egui::RichText::new("Дробову частину можна писати через точку або кому")
-                    .small()
-                    .color(MUTED),
+                t("Дробову частину можна писати через точку або кому", 13.0).color(MUTED),
             );
         }
         _ => {
             if let Some(groups) = &q.groups {
+                ui.add_space(2.0);
                 for g in groups {
-                    if let Some(title) = &g.title {
-                        ui.label(egui::RichText::new(title).strong().color(TEXT));
-                    }
-                    for a in &g.answers {
-                        ui.label(
-                            egui::RichText::new(format!(
-                                "{}   {}",
-                                a.marker,
-                                html::plain_text(&a.html)
-                            ))
-                            .color(TEXT),
-                        );
-                    }
-                    ui.add_space(4.0);
+                    egui::Frame::new()
+                        .fill(CARD_BG)
+                        .stroke(egui::Stroke::new(1.0, BORDER))
+                        .corner_radius(12)
+                        .inner_margin(egui::Margin::same(14))
+                        .show(ui, |ui| {
+                            if let Some(title) = &g.title {
+                                ui.label(semi(title, 14.5).color(MUTED));
+                                ui.add_space(4.0);
+                            }
+                            for a in &g.answers {
+                                ui.horizontal(|ui| {
+                                    ui.label(t(&a.marker, 15.0).color(ACCENT));
+                                    ui.label(t(html::plain_text(&a.html), 15.0).color(TEXT));
+                                });
+                            }
+                        });
+                    ui.add_space(8.0);
                 }
             }
-            ui.label(egui::RichText::new("Варіанти:").strong().color(TEXT));
+            ui.label(semi("Варіанти:", 15.0).color(MUTED));
+            ui.add_space(4.0);
             for a in &q.answers {
-                ui.label(
-                    egui::RichText::new(format!(
-                        "{}   {}",
-                        a.marker,
-                        html::plain_text(&a.html)
-                    ))
-                    .color(TEXT),
-                );
+                egui::Frame::new()
+                    .fill(CARD_BG)
+                    .stroke(egui::Stroke::new(1.0, BORDER))
+                    .corner_radius(12)
+                    .inner_margin(egui::Margin::symmetric(14, 9))
+                    .show(ui, |ui| {
+                        ui.horizontal(|ui| {
+                            ui.label(t(&a.marker, 15.0).color(ACCENT));
+                            ui.label(t(html::plain_text(&a.html), 15.0).color(TEXT));
+                        });
+                    });
+                ui.add_space(6.0);
             }
         }
     }
 }
+

@@ -540,7 +540,7 @@ pub fn render(ui: &mut egui::Ui, blocks: &[Block], root: &Path) {
                     }
                     None => {
                         ui.label(
-                            egui::RichText::new(format!("[изображение: {src}]"))
+                            egui::RichText::new(format!("[зображення: {src}]"))
                                 .italics()
                                 .weak(),
                         );
@@ -549,16 +549,23 @@ pub fn render(ui: &mut egui::Ui, blocks: &[Block], root: &Path) {
             }
             Block::Table(rows) => {
                 ui.push_id(("table", bi), |ui| {
-                    egui::Grid::new(("grid", bi))
-                        .striped(true)
-                        .spacing([12.0, 6.0])
+                    egui::Frame::new()
+                        .fill(crate::theme::CARD_BG)
+                        .stroke(egui::Stroke::new(1.0, crate::theme::BORDER))
+                        .corner_radius(10)
+                        .inner_margin(egui::Margin::same(10))
                         .show(ui, |ui| {
-                            for row in rows {
-                                for cell in row {
-                                    ui.label(egui::RichText::new(cell).size(14.0));
-                                }
-                                ui.end_row();
-                            }
+                            egui::Grid::new(("grid", bi))
+                                .striped(true)
+                                .spacing([12.0, 6.0])
+                                .show(ui, |ui| {
+                                    for row in rows {
+                                        for cell in row {
+                                            ui.label(egui::RichText::new(cell).size(14.0));
+                                        }
+                                        ui.end_row();
+                                    }
+                                });
                         });
                 });
             }
